@@ -31,6 +31,10 @@
  "changelog": [
   {
    "date": "2026-07-20",
+   "note": "RERA verification pass via TNRERA mirror (Proquiro, accessed through web unlocker): 4 missing RERA numbers found (DRA iHEART, Harmonia Pavilion, L&T Avinya Enclave, Navins Mayura Gardens), 12 existing numbers independently confirmed. Official portal (rera.tn.gov.in) remains inaccessible to automation."
+  },
+  {
+   "date": "2026-07-20",
    "note": "Initial build: 57 projects, 33 localities, 12 infrastructure items researched from secondary sources (TN RERA portal blocked automated access with HTTP 503)."
   }
  ]

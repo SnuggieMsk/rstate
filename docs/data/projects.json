@@ -21,7 +21,7 @@
    "sources": [
     "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0105-2026/aruna-delight"
    ],
-   "notes": "Small infill project; data mirrored from TNRERA records by proquiro.com. District code 29 = Chennai. City-centroid coordinates used.",
+   "notes": "Small infill project; data mirrored from TNRERA records by proquiro.com. District code 29 = Chennai. City-centroid coordinates used. RERA number cross-checked against TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
    "locality": "Chennai district",
    "corridor": "Chennai (other)",
@@ -62,7 +62,7 @@
    "sources": [
     "https://appaswamy.com/residential-property"
    ],
-   "notes": "One of the most recent TNRERA registrations found (July 2026).",
+   "notes": "One of the most recent TNRERA registrations found (July 2026). RERA number cross-checked against TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
    "locality": "Nelson Manickam Road",
    "corridor": "City Core",
@@ -147,7 +147,7 @@
    "sources": [
     "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0048-2026/beaver-s-venna-garden"
    ],
-   "notes": "Data mirrored from TNRERA records by proquiro.com. City-centroid coordinates used.",
+   "notes": "Data mirrored from TNRERA records by proquiro.com. City-centroid coordinates used. RERA number cross-checked against TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
    "locality": "Chennai district",
    "corridor": "Chennai (other)",
@@ -440,7 +440,7 @@
     "https://www.propnewz.com/blog/casagrand-highcity-chennai-orr-mega-launch-buyer-2026-05-31",
     "https://www.constructionworld.in/latest-construction-news/real-estate-news/casagrand-launches-41-acre-highcity-project-in-chennai/91286"
    ],
-   "notes": "41-acre mega-project, 4,000+ homes in G+22 towers, 28 acres open space, 5-acre sports clubhouse. Casagrand's largest project: 41 acres, 4,000+ homes in four G+22 towers, phased delivery; 28 acres open space incl 3.5-acre tropical forest; 5-acre sports complex (35+ courts), 21,000 sq ft resort pool, on-site 2-acre Casagrand International School; Singapore-inspired master plan.",
+   "notes": "41-acre mega-project, 4,000+ homes in G+22 towers, 28 acres open space, 5-acre sports clubhouse. Casagrand's largest project: 41 acres, 4,000+ homes in four G+22 towers, phased delivery; 28 acres open space incl 3.5-acre tropical forest; 5-acre sports complex (35+ courts), 21,000 sq ft resort pool, on-site 2-acre Casagrand International School; Singapore-inspired master plan. RERA number cross-checked against TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
    "locality": "Tambaram",
    "corridor": "GST Road",
@@ -567,7 +567,7 @@
     "https://propnewstime.com/getdetailsStories/Mjg4NTc=/casagrand-launches-ventra-high-rise-residential-project-in-west-chennai",
     "https://therealtytoday.com/news/residential/casagrand-launches-casagrand-ventra-a-premium-high-rise-residential-community-in-the-heart-of-west-chennai/"
    ],
-   "notes": "High-rise launch in West Chennai; district code 2 in RERA number suggests Tiruvallur-side registration. Coordinates are a broad West-Chennai centroid. Premium high-rise (B+S+20) on 3.5 acres with 2.6 acres open space; 2/3/4 BHK apartments and floor villas; 57 amenities incl 8,500 sq ft clubhouse and 4,600 sq ft pool. Launched 10 Apr 2026. 3.5-acre high-rise (B+S+20 floors) with 57 amenities; one of 10+ launches Casagrand has lined up through 2026 (others: Casamia Medavakkam, Cheers Kelambakkam, Adyar 3/4BHK boutique project).",
+   "notes": "High-rise launch in West Chennai; district code 2 in RERA number suggests Tiruvallur-side registration. Coordinates are a broad West-Chennai centroid. Premium high-rise (B+S+20) on 3.5 acres with 2.6 acres open space; 2/3/4 BHK apartments and floor villas; 57 amenities incl 8,500 sq ft clubhouse and 4,600 sq ft pool. Launched 10 Apr 2026. 3.5-acre high-rise (B+S+20 floors) with 57 amenities; one of 10+ launches Casagrand has lined up through 2026 (others: Casamia Medavakkam, Cheers Kelambakkam, Adyar 3/4BHK boutique project). RERA number cross-checked against TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
    "locality": "West Chennai",
    "corridor": "West Chennai",
@@ -842,7 +842,7 @@
   {
    "name": "DRA iHEART",
    "promoter": "DRA Homes",
-   "rera_no": null,
+   "rera_no": "TNRERA/35/BLG/0293/2025",
    "registration_date": "2025-10",
    "type": "apartment",
    "locality_raw": "Navalur, OMR, Chennai",
@@ -858,9 +858,10 @@
    "status": "active",
    "data_confidence": "reported",
    "sources": [
-    "https://www.business-standard.com/content/press-releases-ani/dra-homes-launches-iheart-chennai-s-first-branded-sea-view-residences-on-omr-featuring-premium-materials-and-luxury-brand-finishes-125102300683_1.html"
+    "https://www.business-standard.com/content/press-releases-ani/dra-homes-launches-iheart-chennai-s-first-branded-sea-view-residences-on-omr-featuring-premium-materials-and-luxury-brand-finishes-125102300683_1.html",
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0293-2025/dra-iheart"
    ],
-   "notes": "Positioned as Chennai's first branded sea-view residences on OMR; 3.42 acres, 271 homes on main road; premium materials and luxury brand finishes. Launched Oct 2025.",
+   "notes": "Positioned as Chennai's first branded sea-view residences on OMR; 3.42 acres, 271 homes on main road; premium materials and luxury brand finishes. Launched Oct 2025. RERA number found via TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
    "locality": "Navalur",
    "corridor": "OMR",
@@ -874,12 +875,12 @@
     "rental_yield": 10
    },
    "upside_score": 80,
-   "risk": "Medium",
+   "risk": "Low",
    "tags": [
     "Early Entrant",
     "High Upside"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: RERA number not yet found."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market."
   },
   {
    "name": "G Square Northern Crown",
@@ -990,7 +991,7 @@
     "https://booknewproperty.com/news/godrej-azure-omr-chennai-receives-rera-approval/",
     "https://www.godrejazure.in/godrej-residential-projects-in-chennai-2025/"
    ],
-   "notes": "New RERA registration in 2025 for latest phase of the Godrej Azure development on OMR; earlier phases carried 2017-2018 registrations. Godrej also acquired 47 acres off OMR (Siruseri-Kelambakkam corridor) in 2025-26 for a plotted project expected to launch ~Q4 2026 (not yet RERA-registered).",
+   "notes": "New RERA registration in 2025 for latest phase of the Godrej Azure development on OMR; earlier phases carried 2017-2018 registrations. Godrej also acquired 47 acres off OMR (Siruseri-Kelambakkam corridor) in 2025-26 for a plotted project expected to launch ~Q4 2026 (not yet RERA-registered). RERA number cross-checked against TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
    "locality": "Padur",
    "corridor": "OMR",
@@ -1057,7 +1058,7 @@
   {
    "name": "Harmonia Pavilion (Lancor Town & Country)",
    "promoter": "Lancor Holdings",
-   "rera_no": null,
+   "rera_no": "TNRERA/1/BLG/0299/2025",
    "registration_date": "2025 (approx)",
    "type": "mixed",
    "locality_raw": "Sriperumbudur, Chennai Metropolitan Area (west corridor)",
@@ -1074,9 +1075,10 @@
    "data_confidence": "reported",
    "sources": [
     "https://lancor.in/lancor-launches-harmonia-pavilion-senior-living-apartment-in-sriperumbudur-chennai/",
-    "https://www.newsonprojects.com/news/lancor-holdings-projects-2300-crore-revenue-from-sriperumbudur-integrated-township"
+    "https://www.newsonprojects.com/news/lancor-holdings-projects-2300-crore-revenue-from-sriperumbudur-integrated-township",
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-1-blg-0299-2025/harmonia-pavilion"
    ],
-   "notes": "110 senior-living apartments (~44,000 sqft) inside 90–100 acre Lancor Town & Country integrated township (~2,000 units planned: villas, plots, apartments); township revenue potential ~Rs 2,300 crore; 'Blue Circle Living' cross-generational concept.",
+   "notes": "110 senior-living apartments (~44,000 sqft) inside 90–100 acre Lancor Town & Country integrated township (~2,000 units planned: villas, plots, apartments); township revenue potential ~Rs 2,300 crore; 'Blue Circle Living' cross-generational concept. RERA number found via TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
    "locality": "Sriperumbudur",
    "corridor": "Sriperumbudur",
@@ -1090,12 +1092,12 @@
     "rental_yield": 10
    },
    "upside_score": 85,
-   "risk": "Medium",
+   "risk": "Low",
    "tags": [
     "Early Entrant",
     "High Upside"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: RERA number not yet found."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market."
   },
   {
    "name": "Hiranandani Verona (Upscale Octavius & Verona)",
@@ -1159,7 +1161,7 @@
    "sources": [
     "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0190-2026/jmb-alaya-changed-to-jmb-rrm-alaya"
    ],
-   "notes": "Project name changed to JMB RRM Alaya per RERA record; data mirrored from TNRERA by proquiro.com. City-centroid coordinates used.",
+   "notes": "Project name changed to JMB RRM Alaya per RERA record; data mirrored from TNRERA by proquiro.com. City-centroid coordinates used. RERA number cross-checked against TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
    "locality": "Chennai district",
    "corridor": "Chennai (other)",
@@ -1327,7 +1329,7 @@
     "https://x.com/UpdatesChennai/status/1954215101075947553",
     "https://houssed.com/chennai/sale/builder/appaswamy-real-estate-2833"
    ],
-   "notes": "Ultra-premium city-centre launch; RERA number and date from developer's official site. Ultra-prime Mylapore redevelopment of old Kamadhenu Theatre plot; 1.05 acres, 2B+S+12 floors, 79 units of 3 & 4 BHK. Appaswamy also has a concurrent Nungambakkam new launch (3 BHK, Rs 3-3.45 Cr) per houssed.",
+   "notes": "Ultra-premium city-centre launch; RERA number and date from developer's official site. Ultra-prime Mylapore redevelopment of old Kamadhenu Theatre plot; 1.05 acres, 2B+S+12 floors, 79 units of 3 & 4 BHK. Appaswamy also has a concurrent Nungambakkam new launch (3 BHK, Rs 3-3.45 Cr) per houssed. RERA number cross-checked against TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
    "locality": "Luz Church Road",
    "corridor": "City Core",
@@ -1350,7 +1352,7 @@
   {
    "name": "L&T Avinya Enclave",
    "promoter": "L&T Realty",
-   "rera_no": null,
+   "rera_no": "TNRERA/29/BLG/0086/2026",
    "registration_date": "2023 (phase 1); subsequent phases 2024–2025",
    "type": "apartment",
    "locality_raw": "Manapakkam, Chennai",
@@ -1368,9 +1370,10 @@
    "sources": [
     "https://www.lntrealty.com/residences/",
     "https://www.business-standard.com/india-news/l-t-realty-records-complete-sell-out-of-phase-1-of-first-residential-project-in-chennai-123091700742_1.html",
-    "https://lntupcomingprojects.com/chennai/lnt-realty-manapakkam/"
+    "https://lntupcomingprojects.com/chennai/lnt-realty-manapakkam/",
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0086-2026/l-amp-t-realty-avinya-enclave"
    ],
-   "notes": "L&T Realty's maiden Chennai residential project on ~40-acre parcel; phase 1 (4 towers, 500 units) fully sold out; later phases being released through 2024–25; near proposed Manapakkam metro.",
+   "notes": "L&T Realty's maiden Chennai residential project on ~40-acre parcel; phase 1 (4 towers, 500 units) fully sold out; later phases being released through 2024–25; near proposed Manapakkam metro. RERA number found via TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
    "locality": "Manapakkam",
    "corridor": "Manapakkam",
@@ -1384,16 +1387,16 @@
     "rental_yield": 10
    },
    "upside_score": 70,
-   "risk": "Medium",
+   "risk": "Low",
    "tags": [
     "Steady/Rental"
    ],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market, strong developer record. Caveats: RERA number not yet found."
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market, strong developer record."
   },
   {
    "name": "Navins Mayura Gardens",
    "promoter": "Navin Housing & Properties (Navin's)",
-   "rera_no": null,
+   "rera_no": "TNRERA/29/BLG/0403/2025",
    "registration_date": "2025 (approx)",
    "type": "apartment",
    "locality_raw": "Valasaravakkam, West Chennai",
@@ -1410,9 +1413,10 @@
    "data_confidence": "estimated",
    "sources": [
     "https://www.99acres.com/navins-mayura-gardens-valasaravakkam-chennai-west-npxid-r458126",
-    "https://navins.in/projects"
+    "https://navins.in/projects",
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0403-2025/navin-s-mayura-gardens"
    ],
-   "notes": "Low-rise community (3 towers, 5 floors); one of several Navin's launches through 2025 (others incl. Saathvika, Starwood Towers 3.0, Hanging Gardens on the IT corridor).",
+   "notes": "Low-rise community (3 towers, 5 floors); one of several Navin's launches through 2025 (others incl. Saathvika, Starwood Towers 3.0, Hanging Gardens on the IT corridor). RERA number found via TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
    "locality": "Valasaravakkam",
    "corridor": "West Chennai",
@@ -1426,12 +1430,11 @@
     "rental_yield": 5
    },
    "upside_score": 64,
-   "risk": "High",
+   "risk": "Medium",
    "tags": [
-    "Early Entrant",
-    "Watchlist/Risky"
+    "Early Entrant"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure. Caveats: RERA number not yet found, limited developer track record."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure. Caveats: limited developer track record."
   },
   {
    "name": "Parkville at Hiranandani Parks",
@@ -1456,7 +1459,7 @@
     "https://www.nbmcw.com/news/hiranandani-communities-unveils-rs-105-cr-parkville-project-featuring-smart-fit-homes-in-oragadam.html",
     "https://www.hiranandaniparks.com/hiranandani-chennai/luxury-apartments-in-oragadam/parkville-2-bhk-flats"
    ],
-   "notes": "Stilt+13 tower on ~1.3 acres inside 400-acre Hiranandani Parks township; ~Rs 105 crore revenue potential; DTCP approval SWP/BPA/0125870/2024 dated 20-Feb-2025; smart FIT homes.",
+   "notes": "Stilt+13 tower on ~1.3 acres inside 400-acre Hiranandani Parks township; ~Rs 105 crore revenue potential; DTCP approval SWP/BPA/0125870/2024 dated 20-Feb-2025; smart FIT homes. RERA number cross-checked against TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
    "locality": "Oragadam",
    "corridor": "Oragadam",
@@ -1798,7 +1801,7 @@
    "sources": [
     "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0210-2026/romaa-s-darren"
    ],
-   "notes": "35 apartments on 1,200 sqm site; data mirrored from TNRERA records by proquiro.com. City-centroid coordinates used.",
+   "notes": "35 apartments on 1,200 sqm site; data mirrored from TNRERA records by proquiro.com. City-centroid coordinates used. RERA number cross-checked against TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
    "locality": "Chennai district",
    "corridor": "Chennai (other)",
@@ -2044,7 +2047,7 @@
    "sources": [
     "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0111-2026/subiksha-radha"
    ],
-   "notes": "Small project; data mirrored from TNRERA records by proquiro.com. City-centroid coordinates used.",
+   "notes": "Small project; data mirrored from TNRERA records by proquiro.com. City-centroid coordinates used. RERA number cross-checked against TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
    "locality": "Chennai district",
    "corridor": "Chennai (other)",
@@ -2343,7 +2346,7 @@
     "https://www.urbanrisewhispersofsky.net.in/",
     "https://www.urbanrise.in/city/chennai/"
    ],
-   "notes": "6.09-acre ultra-luxury high-rise project. Ultra-luxury 3 & 4 BHK (1,590-2,144 sq ft) in 2 towers of 24 floors on 6.09 acres; 100+ amenities; south Chennai IT corridor.",
+   "notes": "6.09-acre ultra-luxury high-rise project. Ultra-luxury 3 & 4 BHK (1,590-2,144 sq ft) in 2 towers of 24 floors on 6.09 acres; 100+ amenities; south Chennai IT corridor. RERA number cross-checked against TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
    "locality": "Sholinganallur",
    "corridor": "OMR",
