@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏙️</text></svg>">
+<title>Map — Chennai Real Estate Intelligence</title>
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="vendor/leaflet/MarkerCluster.css">
+<link rel="stylesheet" href="vendor/leaflet/MarkerCluster.Default.css">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <div class="brand">Chennai Real Estate Intelligence<small>Open-source RERA &amp; new-launch tracker</small></div>
+  <nav class="main">
+    <a href="index.html">Dashboard</a>
+    <a href="map.html" class="active">Map</a>
+    <a href="projects.html">Projects</a>
+    <a href="localities.html">Localities</a>
+    <a href="methodology.html">Methodology</a>
+  </nav>
+  <button class="theme-toggle" title="Toggle light/dark">◐</button>
+</div></header>
+
+<div id="map"></div>
+
+<div class="map-controls" id="mapControls">
+  <strong style="font-size:12px">Overlays</strong>
+  <label><input type="checkbox" id="ovMetro" checked> Metro Phase 2 (stations)</label>
+  <label><input type="checkbox" id="ovInfra" checked> Infrastructure projects</label>
+  <label><input type="checkbox" id="ovEarlyOnly"> Early entrants only</label>
+</div>
+
+<div class="map-legend">
+  <strong>Upside Score</strong>
+  <div class="row"><i style="background:#0d366b"></i> 75–100 · highest upside</div>
+  <div class="row"><i style="background:#1c5cab"></i> 60–74</div>
+  <div class="row"><i style="background:#3987e5"></i> 45–59</div>
+  <div class="row"><i style="background:#86b6ef"></i> 0–44 / unscored</div>
+  <div class="row" style="margin-top:6px"><i style="background:#eb6834;border-radius:3px"></i> Infrastructure project</div>
+  <div class="row"><i style="background:#008300;border-radius:3px"></i> Metro Phase 2 station</div>
+  <div style="margin-top:6px;color:var(--text-muted)">Positions are locality-level approximations unless marked exact.</div>
+</div>
+
+<script src="vendor/leaflet/leaflet.js"></script>
+<script src="vendor/leaflet/leaflet.markercluster.js"></script>
+<script src="assets/app.js"></script>
+<script>
+CRI.initTheme();
+const map = L.map('map', { zoomControl: true }).setView([12.98, 80.16], 11);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 18,
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+}).addTo(map);
+
+const clusterAll = L.markerClusterGroup({ maxClusterRadius: 44 });
+const clusterEarly = L.markerClusterGroup({ maxClusterRadius: 44 });
+const metroLayer = L.layerGroup();
+const infraLayer = L.layerGroup();
+
+function projectMarker(p) {
+  const color = CRI.BAND_COLORS[CRI.scoreBand(p.upside_score)];
+  const m = L.circleMarker([p.lat, p.lng], {
+    radius: 9, color: '#ffffff', weight: 2, fillColor: color, fillOpacity: 0.95,
+  });
+  m.bindPopup(`<div class="pop">
+    <h3>${p.name}</h3>
+    <div class="meta">${p.promoter || ''} · ${p.locality}${p.corridor ? ' (' + p.corridor + ')' : ''}</div>
+    <table>
+      <tr><td><strong>Upside Score</strong></td><td>${p.upside_score != null ? p.upside_score + '/100' : 'n/a'} ${p.risk ? '· ' + p.risk + ' risk' : ''}</td></tr>
+      <tr><td><strong>Stage</strong></td><td>${CRI.stageLabel(p.stage)}</td></tr>
+      <tr><td><strong>Type</strong></td><td>${p.type || '—'}</td></tr>
+      <tr><td><strong>Price</strong></td><td>${CRI.priceHTML(p)}</td></tr>
+      <tr><td><strong>RERA no.</strong></td><td>${p.rera_no || 'not found — verify on portal'}</td></tr>
+    </table>
+    ${p.score_rationale ? '<div style="font-size:12px;color:#52514e;margin-top:4px">' + p.score_rationale + '</div>' : ''}
+    <div style="font-size:11px;margin-top:6px">${CRI.sourcesHTML(p.sources)}</div>
+    <div style="font-size:11px;color:#898781;margin-top:2px">${p.data_confidence} · geo ${p.geo_precision || 'approximate'} · <a href="projects.html">full table</a></div>
+  </div>`, { maxWidth: 320 });
+  return m;
+}
+
+CRI.loadAll().then(({ projects, infrastructure, meta }) => {
+  projects.filter(p => p.lat != null && p.lng != null && p.status !== 'withdrawn').forEach(p => {
+    const m = projectMarker(p);
+    clusterAll.addLayer(m);
+    if ((p.tags || []).includes('Early Entrant')) clusterEarly.addLayer(projectMarker(p));
+  });
+  map.addLayer(clusterAll);
+
+  // Geometry is shape-driven: {type:"stations",stations:[...]}, {type:"polyline",waypoints:[...]}, or {type:"point",lat,lng}
+  infrastructure.forEach(inf => {
+    const g = inf.geometry || {};
+    const isTransit = inf.category === 'metro' || inf.category === 'rail';
+    const layer = isTransit ? metroLayer : infraLayer;
+    const lineColor = isTransit ? '#008300' : '#eb6834';
+    const infPopup = `<div class="pop"><h3>${inf.name}</h3>` +
+      `<div class="meta">${inf.category}${inf.expected_completion ? ' · expected ' + inf.expected_completion : ''}</div>` +
+      `<div style="font-size:12px">${inf.status_2026 || ''}</div>` +
+      `<div style="font-size:11px;margin-top:4px">${CRI.sourcesHTML(inf.sources)}</div></div>`;
+
+    if (g.type === 'stations' && Array.isArray(g.stations)) {
+      const pts = g.stations.filter(s => s.lat != null && s.lng != null);
+      if (pts.length > 1) {
+        const line = L.polyline(pts.map(s => [s.lat, s.lng]), { color: lineColor, weight: 3, opacity: 0.7, dashArray: '6 6' });
+        line.bindPopup(infPopup, { maxWidth: 300 });
+        line.addTo(layer);
+      }
+      pts.forEach(s => {
+        L.circleMarker([s.lat, s.lng], { radius: 4, color: lineColor, weight: 2, fillColor: '#ffffff', fillOpacity: 1 })
+          .bindPopup(`<div class="pop"><h3>${s.station}</h3><div class="meta">${inf.name}</div>` +
+            `<div style="font-size:12px">${inf.status_2026 || ''}</div></div>`, { maxWidth: 280 })
+          .addTo(layer);
+      });
+    } else if (g.type === 'polyline' && Array.isArray(g.waypoints)) {
+      const pts = g.waypoints.filter(x => x.lat != null && x.lng != null);
+      if (pts.length > 1) {
+        const line = L.polyline(pts.map(x => [x.lat, x.lng]), { color: lineColor, weight: 3, opacity: 0.6 });
+        line.bindPopup(infPopup, { maxWidth: 300 });
+        line.addTo(layer);
+      }
+    } else if (g.lat != null && g.lng != null) {
+      L.marker([g.lat, g.lng], {
+        icon: L.divIcon({ className: '', html: '<div style="width:14px;height:14px;background:#eb6834;border:2px solid #fff;border-radius:4px;box-shadow:0 0 0 1px rgba(0,0,0,.3)"></div>', iconSize: [14, 14] }),
+      }).bindPopup(infPopup, { maxWidth: 300 }).addTo(infraLayer);
+    }
+  });
+  map.addLayer(metroLayer);
+  map.addLayer(infraLayer);
+
+  document.getElementById('ovMetro').addEventListener('change', e =>
+    e.target.checked ? map.addLayer(metroLayer) : map.removeLayer(metroLayer));
+  document.getElementById('ovInfra').addEventListener('change', e =>
+    e.target.checked ? map.addLayer(infraLayer) : map.removeLayer(infraLayer));
+  document.getElementById('ovEarlyOnly').addEventListener('change', e => {
+    if (e.target.checked) { map.removeLayer(clusterAll); map.addLayer(clusterEarly); }
+    else { map.removeLayer(clusterEarly); map.addLayer(clusterAll); }
+  });
+});
+</script>
+</body>
+</html>

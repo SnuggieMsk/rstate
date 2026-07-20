@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏙️</text></svg>">
+<title>All Projects — Chennai Real Estate Intelligence</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <div class="brand">Chennai Real Estate Intelligence<small>Open-source RERA &amp; new-launch tracker</small></div>
+  <nav class="main">
+    <a href="index.html">Dashboard</a>
+    <a href="map.html">Map</a>
+    <a href="projects.html" class="active">Projects</a>
+    <a href="localities.html">Localities</a>
+    <a href="methodology.html">Methodology</a>
+  </nav>
+  <button class="theme-toggle" title="Toggle light/dark">◐</button>
+</div></header>
+
+<main class="wrap">
+  <h1>All tracked projects</h1>
+  <p class="refreshed"></p>
+
+  <div class="filters">
+    <input type="search" id="fSearch" placeholder="Search project / builder…">
+    <select id="fCorridor"><option value="">All corridors</option></select>
+    <select id="fType"><option value="">All types</option></select>
+    <select id="fStage"><option value="">All stages</option></select>
+    <select id="fCategory"><option value="">All categories</option></select>
+    <select id="fRisk"><option value="">Any risk</option>
+      <option>Low</option><option>Medium</option><option>High</option></select>
+    <select id="fScore"><option value="">Any score</option>
+      <option value="75">75+</option><option value="60">60+</option><option value="45">45+</option></select>
+    <span class="count" id="fCount"></span>
+  </div>
+
+  <div class="table-scroll"><table id="projTable">
+    <thead><tr>
+      <th data-k="name">Project</th>
+      <th data-k="promoter">Builder</th>
+      <th data-k="locality">Locality</th>
+      <th data-k="type">Type</th>
+      <th data-k="stage">Stage</th>
+      <th data-k="rera_no">RERA no.</th>
+      <th class="num" data-k="price_sqft_min">Price</th>
+      <th class="num" data-k="upside_score">Score ▾</th>
+      <th data-k="risk">Risk</th>
+    </tr></thead>
+    <tbody></tbody>
+  </table></div>
+  <p class="conf">Click a row to expand the score breakdown, notes, and sources. RERA numbers shown only when found in a source — always verify at <a href="https://rera.tn.gov.in" target="_blank" rel="noopener">rera.tn.gov.in</a>.</p>
+</main>
+
+<footer class="site"><div class="wrap">
+  <span class="refreshed"></span>
+  <span>Open-source research aggregation. <strong>Not financial advice.</strong> Verify all RERA details at <a href="https://rera.tn.gov.in" target="_blank" rel="noopener">rera.tn.gov.in</a> before transacting.</span>
+  <span>MIT licensed · <a href="https://github.com/SnuggieMsk/rstate" target="_blank" rel="noopener">Source on GitHub</a></span>
+</div></footer>
+
+<script src="assets/app.js"></script>
+<script>
+CRI.initTheme();
+let ALL = [], sortKey = 'upside_score', sortDir = -1;
+
+function fill(sel, values) {
+  const el = document.getElementById(sel);
+  [...new Set(values.filter(Boolean))].sort().forEach(v => {
+    const o = document.createElement('option'); o.textContent = v; el.appendChild(o);
+  });
+}
+
+function currentFilter() {
+  const q = document.getElementById('fSearch').value.toLowerCase();
+  const cor = document.getElementById('fCorridor').value;
+  const typ = document.getElementById('fType').value;
+  const stg = document.getElementById('fStage').value;
+  const cat = document.getElementById('fCategory').value;
+  const rsk = document.getElementById('fRisk').value;
+  const sc = document.getElementById('fScore').value;
+  return ALL.filter(p =>
+    (!q || (p.name + ' ' + (p.promoter || '') + ' ' + p.locality).toLowerCase().includes(q)) &&
+    (!cor || p.corridor === cor) && (!typ || p.type === typ) &&
+    (!stg || p.stage === stg) && (!cat || (p.tags || []).includes(cat)) &&
+    (!rsk || p.risk === rsk) && (!sc || (p.upside_score != null && p.upside_score >= +sc)));
+}
+
+function render() {
+  const rows = currentFilter().sort((a, b) => {
+    const av = a[sortKey], bv = b[sortKey];
+    if (av == null && bv == null) return 0;
+    if (av == null) return 1;
+    if (bv == null) return -1;
+    return (av < bv ? -1 : av > bv ? 1 : 0) * sortDir;
+  });
+  document.getElementById('fCount').textContent = rows.length + ' of ' + ALL.length + ' projects';
+  document.querySelector('#projTable tbody').innerHTML = rows.map((p, i) =>
+    `<tr data-i="${i}" data-id="${p.id}" style="cursor:pointer">
+      <td><strong>${p.name}</strong><br>${CRI.tagsHTML(p.tags)}</td>
+      <td>${p.promoter || '—'}</td>
+      <td>${p.locality}<br><span class="conf">${p.corridor || ''}</span></td>
+      <td>${p.type || '—'}</td>
+      <td>${CRI.stageLabel(p.stage)}</td>
+      <td>${p.rera_no ? p.rera_no : '<span class="conf">not found</span>'}<br>${CRI.confHTML(p.data_confidence)}</td>
+      <td class="num">${CRI.priceHTML(p)}</td>
+      <td class="num">${CRI.scoreHTML(p.upside_score)}</td>
+      <td>${CRI.riskHTML(p.risk)}</td>
+    </tr>`).join('');
+
+  document.querySelectorAll('#projTable tbody tr').forEach(tr => {
+    tr.addEventListener('click', () => {
+      const exist = tr.nextElementSibling;
+      if (exist && exist.classList.contains('detail')) { exist.remove(); return; }
+      document.querySelectorAll('tr.detail').forEach(d => d.remove());
+      const p = ALL.find(x => x.id === tr.dataset.id);
+      const d = document.createElement('tr');
+      d.className = 'detail';
+      d.innerHTML = `<td colspan="9" style="background:var(--page)">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;max-width:960px">
+          <div><strong>Score breakdown</strong>${CRI.breakdownHTML(p)}
+            <p style="font-size:12.5px;color:var(--text-secondary)">${p.score_rationale || ''}</p></div>
+          <div style="font-size:12.5px">
+            ${p.total_units ? '<p style="margin:2px 0"><strong>Units:</strong> ' + CRI.fmtN(p.total_units) + '</p>' : ''}
+            ${p.expected_completion ? '<p style="margin:2px 0"><strong>Expected completion:</strong> ' + p.expected_completion + '</p>' : ''}
+            ${p.registration_date ? '<p style="margin:2px 0"><strong>Registered/announced:</strong> ' + p.registration_date + '</p>' : ''}
+            ${p.notes ? '<p style="margin:6px 0;color:var(--text-secondary)">' + p.notes + '</p>' : ''}
+            <p style="margin:6px 0" class="conf">Last checked ${p.last_checked || '—'} · Sources: ${CRI.sourcesHTML(p.sources)}</p>
+          </div>
+        </div></td>`;
+      tr.after(d);
+    });
+  });
+}
+
+CRI.loadAll().then(({ projects, meta }) => {
+  CRI.setRefreshed(meta);
+  ALL = projects.filter(p => p.status !== 'withdrawn');
+  fill('fCorridor', ALL.map(p => p.corridor));
+  fill('fType', ALL.map(p => p.type));
+  fill('fStage', ALL.map(p => p.stage));
+  fill('fCategory', ALL.flatMap(p => p.tags || []));
+  ['fSearch', 'fCorridor', 'fType', 'fStage', 'fCategory', 'fRisk', 'fScore'].forEach(id =>
+    document.getElementById(id).addEventListener('input', render));
+  document.querySelectorAll('#projTable th').forEach(th =>
+    th.addEventListener('click', () => {
+      const k = th.dataset.k; if (!k) return;
+      if (sortKey === k) sortDir *= -1; else { sortKey = k; sortDir = k === 'upside_score' || k === 'price_sqft_min' ? -1 : 1; }
+      document.querySelectorAll('#projTable th').forEach(h => h.innerHTML = h.innerHTML.replace(/ <span class="dir">.*<\/span>/, ''));
+      th.innerHTML += ` <span class="dir">${sortDir === 1 ? '▴' : '▾'}</span>`;
+      render();
+    }));
+  render();
+});
+</script>
+</body>
+</html>

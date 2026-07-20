@@ -1,0 +1,895 @@
+{
+ "localities": [
+  {
+   "name": "Sholinganallur",
+   "corridor": "OMR",
+   "lat": 12.901,
+   "lng": 80.227,
+   "price_band_min": 6000,
+   "price_band_max": 9500,
+   "price_note": "Apartments; premium gated communities toward upper end",
+   "trend": "rising",
+   "trend_note": "OMR corridor apartment prices rose roughly 8-10% over the past year; Sholinganallur is the corridor's most established IT-adjacent hub with housing from about Rs 6,000/sqft upward.",
+   "rental_yield_pct": 5.5,
+   "demand_drivers": [
+    "ELCOT IT SEZ and OMR IT campuses",
+    "Proximity to Siruseri SIPCOT IT Park",
+    "Proposed metro Phase II Corridor 3 (Madhavaram-SIPCOT)",
+    "Schools and retail along OMR"
+   ],
+   "supply_note": "Large ongoing supply along OMR; absorption strong from IT workforce, but South Chennai holds ~57% of the city's unsold inventory",
+   "flood_risk": "medium",
+   "flood_note": "Marsh-adjacent stretches waterlogged in 2015/2023; within NGT's Sept 2025 1-km Pallikaranai Ramsar scrutiny zone",
+   "sources": [
+    "https://www.99acres.com/property-rates-and-price-trends-in-sholinganallur-chennai-south-prffid",
+    "https://www.sobha.com/blog/flats-omr-navalur-siruseri-comparison/",
+    "https://www.propnewz.com/blog/chennai-monsoon-flood-resilient-property-2026-buyer-guide"
+   ],
+   "data_confidence": "high; rental yield estimated",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Navalur",
+   "corridor": "OMR",
+   "lat": 12.845,
+   "lng": 80.226,
+   "price_band_min": 5800,
+   "price_band_max": 8500,
+   "price_note": "Apartments; average around Rs 6,400-7,500/sqft in 2025 listings",
+   "trend": "rising",
+   "trend_note": "Mid-OMR hub with average rates around Rs 6,400/sqft and new launches quoting Rs 7,500/sqft; corridor appreciation of 8-10% annually reported.",
+   "rental_yield_pct": 5.5,
+   "demand_drivers": [
+    "IT parks (Gateway Office Parks, campuses between Sholinganallur and Siruseri)",
+    "Malls and social infrastructure (Marina Mall)",
+    "Strong tenant base of IT professionals"
+   ],
+   "supply_note": "Heavy new apartment supply from large developers; healthy absorption",
+   "flood_risk": "medium",
+   "flood_note": "Some low-lying pockets; named in NGT Pallikaranai-buffer scrutiny list",
+   "sources": [
+    "https://www.sobha.com/blog/flats-omr-navalur-siruseri-comparison/",
+    "https://www.99acres.com/property-rates-and-price-trends-in-omr-chennai-south-prffid"
+   ],
+   "data_confidence": "high; rental yield estimated",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Siruseri",
+   "corridor": "OMR",
+   "lat": 12.822,
+   "lng": 80.219,
+   "price_band_min": 4500,
+   "price_band_max": 7000,
+   "price_note": "Apartments; sources vary between ~Rs 4,500 entry rates and ~Rs 6,400 averages for newer projects",
+   "trend": "rising",
+   "trend_note": "Anchored by SIPCOT IT Park (TCS Siruseri among India's largest campuses); prices lower than Sholinganallur/Navalur, appreciating with corridor-wide 8-10% momentum.",
+   "rental_yield_pct": 5.0,
+   "demand_drivers": [
+    "SIPCOT IT Park employment",
+    "Planned metro Phase II terminus (Corridor 3 to SIPCOT)",
+    "Affordability relative to north OMR"
+   ],
+   "supply_note": "Significant new launch pipeline; still an emerging micro-market",
+   "flood_risk": "medium",
+   "flood_note": null,
+   "sources": [
+    "https://www.sobha.com/blog/flats-omr-navalur-siruseri-comparison/",
+    "https://www.99acres.com/property-rates-and-price-trends-in-omr-chennai-south-prffid"
+   ],
+   "data_confidence": "medium; rental yield estimated",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Kelambakkam",
+   "corridor": "OMR",
+   "lat": 12.786,
+   "lng": 80.22,
+   "price_band_min": 4000,
+   "price_band_max": 6500,
+   "price_note": "Apartments mostly Rs 4,000-6,500/sqft; plotted land generally cheaper per sqft (~Rs 2,500-4,500)",
+   "trend": "rising",
+   "trend_note": "South-OMR affordable node (rates broadly up to ~Rs 4,500/sqft at entry level per 99acres-cited data) benefiting from OMR spillover and the Kelambakkam-Vandalur link road; corridor appreciation ~8-10%.",
+   "rental_yield_pct": 4.5,
+   "demand_drivers": [
+    "OMR/SIPCOT employment spillover",
+    "Chettinad Health City and educational institutions",
+    "Kelambakkam-Vandalur Road connectivity"
+   ],
+   "supply_note": "Ample apartment and plotted supply; buyer's-market pricing at entry level",
+   "flood_risk": "medium",
+   "flood_note": null,
+   "sources": [
+    "https://www.99acres.com/property-rates-and-price-trends-in-omr-chennai-south-prffid",
+    "https://www.nobroker.in/blog/property-rates-in-chennai/"
+   ],
+   "data_confidence": "medium; rental yield estimated",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Padur",
+   "corridor": "OMR",
+   "lat": 12.807,
+   "lng": 80.223,
+   "price_band_min": 4200,
+   "price_band_max": 6500,
+   "price_note": "Apartments; estimated band between Siruseri and Kelambakkam levels",
+   "trend": "rising",
+   "trend_note": "Emerging south-OMR locality between Navalur and Kelambakkam with large integrated townships; rides corridor-level 8-10% annual appreciation (locality band estimated from corridor data).",
+   "rental_yield_pct": 4.5,
+   "demand_drivers": [
+    "OMR IT corridor employment",
+    "Hindustan University and colleges",
+    "Large township projects improving social infrastructure"
+   ],
+   "supply_note": "Township-scale supply; steady absorption",
+   "flood_risk": "medium",
+   "flood_note": null,
+   "sources": [
+    "https://www.99acres.com/property-rates-and-price-trends-in-omr-chennai-south-prffid",
+    "https://www.sobha.com/blog/chennai-real-estate-market/"
+   ],
+   "data_confidence": "medium (corridor-level inference); rental yield estimated",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Thoraipakkam",
+   "corridor": "OMR",
+   "lat": 12.941,
+   "lng": 80.235,
+   "price_band_min": 7000,
+   "price_band_max": 10500,
+   "price_note": "Apartments; premium projects push the top of the band",
+   "trend": "rising",
+   "trend_note": "North-OMR established locality priced above the corridor average (premium listings Rs 42 lakh to Rs 3+ crore); close to Perungudi/Taramani employment and Pallikaranai marsh edge.",
+   "rental_yield_pct": 5.0,
+   "demand_drivers": [
+    "Proximity to Tidel Park/Taramani and OMR IT offices",
+    "Radial Road connectivity to GST Road",
+    "Established rental market for IT professionals"
+   ],
+   "supply_note": "Dense existing stock; limited large land parcels, NGT buffer restricting new approvals near marsh",
+   "flood_risk": "medium",
+   "flood_note": "East-of-OMR and marsh-adjacent pockets flooded in past events; in NGT 1-km Ramsar scrutiny zone",
+   "sources": [
+    "https://www.99acres.com/flats-in-thoraipakkam-chennai-south-ffid",
+    "https://www.propnewz.com/blog/chennai-monsoon-flood-resilient-property-2026-buyer-guide"
+   ],
+   "data_confidence": "medium-high; rental yield estimated",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Chromepet",
+   "corridor": "GST Road",
+   "lat": 12.951,
+   "lng": 80.141,
+   "price_band_min": 6000,
+   "price_band_max": 8500,
+   "price_note": "Apartments; established mid-market",
+   "trend": "rising",
+   "trend_note": "Established GST Road suburb with airport and rail access; GST Road corridor apartment prices appreciated a modest ~2.9% in the last year per 99acres, with Chromepet at the pricier established end.",
+   "rental_yield_pct": 3.5,
+   "demand_drivers": [
+    "Suburban rail + GST Road connectivity",
+    "Proximity to Chennai airport",
+    "MIT campus and hospitals",
+    "Trade Centre/Nandambakkam employment"
+   ],
+   "supply_note": "Mature, land-constrained market; mostly redevelopment and small projects",
+   "flood_risk": "medium",
+   "flood_note": null,
+   "sources": [
+    "https://www.99acres.com/gst-road-chennai-south-overview-piffid",
+    "https://www.nobroker.in/blog/property-rates-in-chennai/"
+   ],
+   "data_confidence": "medium; rental yield estimated",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Tambaram",
+   "corridor": "GST Road",
+   "lat": 12.925,
+   "lng": 80.117,
+   "price_band_min": 5000,
+   "price_band_max": 8000,
+   "price_note": "Apartments; mid-segment ~Rs 4,500-6,000/sqft core with newer projects higher",
+   "trend": "rising",
+   "trend_note": "Mid-segment hub (cited around Rs 3,850-6,000/sqft depending on pocket) with steady rather than sharp appreciation; corporation upgrade and rail terminal plans support demand.",
+   "rental_yield_pct": 4.0,
+   "demand_drivers": [
+    "Major suburban rail junction / new terminal plans",
+    "Tambaram Corporation civic upgrades",
+    "Affordability vs south Chennai IT corridor",
+    "Schools, colleges, Air Force station"
+   ],
+   "supply_note": "Steady supply in East/West Tambaram and peripheries",
+   "flood_risk": "medium",
+   "flood_note": "Tambaram West and adjacent Mudichur along the Adyar river basin are documented high-risk flood pockets (2015, 2023)",
+   "sources": [
+    "https://www.99acres.com/gst-road-chennai-south-overview-piffid",
+    "https://www.nobroker.in/blog/property-rates-in-chennai/",
+    "https://community.verified.realestate/article/%F0%9F%8C%A7%EF%B8%8F-chennais-real-flood-risk-zones-2025-a-complete-guide-for-homebuyers-tenants-investors/"
+   ],
+   "data_confidence": "medium-high; rental yield estimated",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Vandalur",
+   "corridor": "GST Road",
+   "lat": 12.892,
+   "lng": 80.081,
+   "price_band_min": 4000,
+   "price_band_max": 6000,
+   "price_note": "Apartments; plotted land typically ~Rs 2,000-3,500/sqft",
+   "trend": "rising",
+   "trend_note": "Growth node at the GST Road-Kelambakkam link and Outer Ring Road junction; appreciation tracks the Guduvancheri-Vandalur belt's 7-10% annual land value growth (locality band partly estimated).",
+   "rental_yield_pct": 4.0,
+   "demand_drivers": [
+    "Outer Ring Road + Vandalur-Kelambakkam Road junction",
+    "Vandalur Zoo / green belt livability",
+    "Rail connectivity on Chengalpattu line",
+    "Spillover from Tambaram and OMR"
+   ],
+   "supply_note": "Plotted developments dominant; apartment supply growing",
+   "flood_risk": "medium",
+   "flood_note": null,
+   "sources": [
+    "https://www.99acres.com/gst-road-chennai-south-overview-piffid",
+    "https://findbhk.com/plots-for-sale-in-guduvancheri"
+   ],
+   "data_confidence": "medium (corridor-level inference); rental yield estimated",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Guduvancheri",
+   "corridor": "GST Road",
+   "lat": 12.845,
+   "lng": 80.06,
+   "price_band_min": 3800,
+   "price_band_max": 5800,
+   "price_note": "Apartments ~Rs 3,800-5,800/sqft; plotted land distinctly lower at ~Rs 1,800-3,500/sqft (April 2025)",
+   "trend": "rising",
+   "trend_note": "One of the fastest-growing GST Road suburbs, with 7-10% annual land value appreciation driven by rail connectivity, SRM University and Mahindra World City proximity.",
+   "rental_yield_pct": 4.5,
+   "demand_drivers": [
+    "Mahindra World City employment",
+    "SRM University student/faculty rentals",
+    "Suburban rail on Chengalpattu line",
+    "Outer Ring Road access"
+   ],
+   "supply_note": "Abundant affordable apartment and plot supply; competitive pricing",
+   "flood_risk": "medium",
+   "flood_note": "Some low-lying lake-adjacent pockets waterlog in heavy monsoons",
+   "sources": [
+    "https://findbhk.com/plots-for-sale-in-guduvancheri",
+    "https://www.99acres.com/gst-road-chennai-south-overview-piffid"
+   ],
+   "data_confidence": "medium-high; rental yield estimated",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Singaperumal Koil",
+   "corridor": "GST Road",
+   "lat": 12.76,
+   "lng": 80.008,
+   "price_band_min": 3200,
+   "price_band_max": 5000,
+   "price_note": "Apartments (limited stock); plotted land roughly Rs 1,500-3,000/sqft is the dominant product",
+   "trend": "rising",
+   "trend_note": "Industrial-belt residential node beside Mahindra World City (Ford, BMW, Infosys, SIPCOT nearby); demand driven by industrial employment, with plots the primary asset class.",
+   "rental_yield_pct": 4.0,
+   "demand_drivers": [
+    "Mahindra World City and SIPCOT industrial employment",
+    "GST Road + rail station connectivity",
+    "Affordability for factory/IT workforce"
+   ],
+   "supply_note": "Plot-heavy supply; thin organized apartment market",
+   "flood_risk": "low",
+   "flood_note": null,
+   "sources": [
+    "https://www.99acres.com/residential-land-in-singaperumal-koil-chennai-south-ffid",
+    "https://www.wisdomproperties.com/singaperumal-koil-karunilam"
+   ],
+   "data_confidence": "medium; rental yield estimated",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Maraimalai Nagar",
+   "corridor": "GST Road",
+   "lat": 12.792,
+   "lng": 80.023,
+   "price_band_min": 3500,
+   "price_band_max": 5500,
+   "price_note": "Apartments; plotted land ~Rs 1,500-3,000/sqft",
+   "trend": "rising",
+   "trend_note": "Planned satellite township near Mahindra World City and Ford plant corridor; land rates gaining on affordability and industrial demand, tracking the belt's 7-10% annual appreciation.",
+   "rental_yield_pct": 4.0,
+   "demand_drivers": [
+    "Mahindra World City / industrial employment",
+    "Planned township infrastructure (CMDA satellite town)",
+    "Rail + GST Road connectivity",
+    "Chengalpattu district growth"
+   ],
+   "supply_note": "Good availability of plots and mid-income apartments",
+   "flood_risk": "low",
+   "flood_note": null,
+   "sources": [
+    "https://seshasindiaprivatelimited.com/maraimalai-nagar-land-rate/",
+    "https://www.99acres.com/residential-land-in-maraimalai-nagar-chennai-south-ffid"
+   ],
+   "data_confidence": "medium; rental yield estimated",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Pallavaram",
+   "corridor": "Pallavaram",
+   "lat": 12.968,
+   "lng": 80.15,
+   "price_band_min": 6500,
+   "price_band_max": 10000,
+   "price_note": "Apartments; average ~Rs 8,400/sqft, transactions ~Rs 8,900/sqft (99acres)",
+   "trend": "rising-fast",
+   "trend_note": "Flat rates changed ~18.3% in the last 1 year and ~48.7% over 3 years per 99acres; airport proximity, Pallavaram-Thoraipakkam Radial Road and redevelopment are re-rating the market.",
+   "rental_yield_pct": 3.5,
+   "demand_drivers": [
+    "Chennai airport proximity",
+    "Pallavaram-Thoraipakkam Radial Road (OMR link)",
+    "Suburban rail + GST Road",
+    "Hospital/defence establishments (Officers Training Academy nearby)"
+   ],
+   "supply_note": "Tightening land availability in core; new supply along Radial Road and Zamin Pallavaram",
+   "flood_risk": "medium",
+   "flood_note": "Pockets around Pallavaram lake/Periyar Nagar waterlog; hillside areas safer",
+   "sources": [
+    "https://www.99acres.com/property-rates-and-price-trends-in-pallavaram-chennai-south-prffid",
+    "https://mpdevelopers.com/chennai-real-estate-market-2025-2026-residential-trends-price-growth-smart-investments/"
+   ],
+   "data_confidence": "high; rental yield estimated",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Injambakkam-Uthandi (ECR belt)",
+   "corridor": "ECR",
+   "lat": 12.89,
+   "lng": 80.25,
+   "price_band_min": 6500,
+   "price_band_max": 11000,
+   "price_note": "Apartments/villas; Injambakkam ~Rs 7,900-9,500/sqft, Uthandi ~Rs 6,500-8,700/sqft; land parcels ~Rs 7,100-10,850/sqft on ECR frontage",
+   "trend": "rising",
+   "trend_note": "Lifestyle/second-home villa corridor: Uthandi showed ~11.5% YoY and Injambakkam ~5.6% YoY growth per 99acres-cited data; premium driven by sea proximity and low-density villa plots.",
+   "rental_yield_pct": 3.0,
+   "demand_drivers": [
+    "Beach/lifestyle and second-home demand",
+    "ECR six-laning and OMR link roads",
+    "Proximity to Sholinganallur IT hub",
+    "Hospitality and leisure economy"
+   ],
+   "supply_note": "Low-density villa/plot supply; CRZ rules restrict density near coast",
+   "flood_risk": "medium",
+   "flood_note": "Coastal/backwater low-lying stretches and Buckingham Canal edge can inundate during cyclonic rain; elevated plots safer",
+   "sources": [
+    "https://www.99acres.com/property-rates-and-price-trends-in-ecr-chennai-south-prffid",
+    "https://www.99acres.com/property-rates-and-price-trends-in-uthandi-chennai-south-prffid"
+   ],
+   "data_confidence": "medium-high; rental yield estimated",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Porur",
+   "corridor": "Porur",
+   "lat": 13.038,
+   "lng": 80.156,
+   "price_band_min": 6400,
+   "price_band_max": 9350,
+   "price_note": "Apartments; average ~Rs 8,150/sqft (99acres)",
+   "trend": "rising",
+   "trend_note": "Flat rates up ~7.9% in the last year; Metro Phase II Corridor 4 (Poonamallee-Porur stretch trial runs from June 2025) and Mount-Poonamallee Road office growth are key catalysts.",
+   "rental_yield_pct": 4.0,
+   "demand_drivers": [
+    "Metro Phase II Corridor 4",
+    "DLF Downtown / Mount-Poonamallee Road IT offices",
+    "Sri Ramachandra Medical Centre",
+    "Junction connectivity to Bengaluru highway"
+   ],
+   "supply_note": "Strong launch pipeline from major developers; healthy absorption",
+   "flood_risk": "medium",
+   "flood_note": "Porur lake-adjacent low-lying pockets waterlog in intense monsoons",
+   "sources": [
+    "https://www.99acres.com/property-rates-and-price-trends-in-porur-chennai-west-prffid",
+    "https://community.verified.realestate/article/poonamallee-property-prices-surge-amid-metro-outer-ring-road-boom/"
+   ],
+   "data_confidence": "high",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Poonamallee",
+   "corridor": "Poonamallee",
+   "lat": 13.048,
+   "lng": 80.095,
+   "price_band_min": 5150,
+   "price_band_max": 7450,
+   "price_note": "Apartments; average ~Rs 6,100/sqft (99acres); plots cheaper",
+   "trend": "rising-fast",
+   "trend_note": "Flat rates up ~8.9% YoY with a visible surge tied to Metro Phase II Corridor 4 terminus and Outer Ring Road; positioned as west Chennai's next growth hub.",
+   "rental_yield_pct": 3.5,
+   "demand_drivers": [
+    "Metro Phase II Corridor 4 terminus/depot",
+    "Outer Ring Road and Bengaluru highway access",
+    "Spillover from Porur offices",
+    "Thirumazhisai satellite township plans nearby"
+   ],
+   "supply_note": "Rising new supply (apartments and plots); still affordable entry point",
+   "flood_risk": "low",
+   "flood_note": null,
+   "sources": [
+    "https://www.99acres.com/property-rates-and-price-trends-in-poonamallee-chennai-west-prffid",
+    "https://community.verified.realestate/article/poonamallee-property-prices-surge-amid-metro-outer-ring-road-boom/"
+   ],
+   "data_confidence": "high; rental yield estimated",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Mogappair",
+   "corridor": "Mogappair",
+   "lat": 13.084,
+   "lng": 80.174,
+   "price_band_min": 8500,
+   "price_band_max": 11500,
+   "price_note": "Apartments; Mogappair East cited ~Rs 10,850/sqft average",
+   "trend": "rising-fast",
+   "trend_note": "Mogappair East rates cited at ~22.6% YoY growth (99acres-derived data); mature planned neighborhood benefiting from Anna Nagar spillover and metro access at Koyambedu/upcoming corridors.",
+   "rental_yield_pct": 3.5,
+   "demand_drivers": [
+    "Anna Nagar spillover demand",
+    "Ambattur IT/industrial employment",
+    "Hospitals and schools cluster",
+    "Metro connectivity via Koyambedu/Phase II"
+   ],
+   "supply_note": "Tight land supply in core Mogappair; premium for planned layouts",
+   "flood_risk": "low",
+   "flood_note": null,
+   "sources": [
+    "https://www.nobroker.in/blog/property-rates-in-chennai/",
+    "https://www.99acres.com/property-rates-and-price-trends-in-chennai-prffid"
+   ],
+   "data_confidence": "medium; YoY figure from portal data, may reflect mix change; rental yield estimated",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Ambattur",
+   "corridor": "Ambattur",
+   "lat": 13.114,
+   "lng": 80.148,
+   "price_band_min": 6000,
+   "price_band_max": 8500,
+   "price_note": "Apartments; Ambattur Industrial Estate area average ~Rs 7,400/sqft",
+   "trend": "rising",
+   "trend_note": "About 8.8% YoY price change per 99acres for the Ambattur Industrial Estate micro-market; demand from industrial estate jobs, IT parks (Ambit IT Park) and rail connectivity.",
+   "rental_yield_pct": 4.0,
+   "demand_drivers": [
+    "Ambattur Industrial Estate + IT parks",
+    "Suburban rail (Avadi line)",
+    "Affordability vs Anna Nagar/Mogappair",
+    "Retail growth along CTH Road"
+   ],
+   "supply_note": "Good mid-income supply; steady absorption",
+   "flood_risk": "medium",
+   "flood_note": "Lake-belt pockets (Ambattur/Korattur lakes) waterlog in heavy rain",
+   "sources": [
+    "https://www.99acres.com/ambattur-industrial-estate-chennai-west-overview-piffid",
+    "https://www.99acres.com/property-rates-and-price-trends-in-ambattur-chennai-north-prffid"
+   ],
+   "data_confidence": "medium-high; rental yield estimated",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Anna Nagar",
+   "corridor": "Anna Nagar",
+   "lat": 13.085,
+   "lng": 80.21,
+   "price_band_min": 10000,
+   "price_band_max": 15000,
+   "price_note": "Apartments (resale ~Rs 10,000-15,000/sqft); new luxury projects can exceed this",
+   "trend": "rising",
+   "trend_note": "Prime planned neighborhood with sustained end-user and NRI demand; steady single-digit appreciation with premium redevelopment activity rather than sharp swings.",
+   "rental_yield_pct": 3.0,
+   "demand_drivers": [
+    "Metro (Green Line) connectivity",
+    "Top schools, hospitals, retail (VR Mall, Shanti Colony)",
+    "Planned layout and prestige value",
+    "Business/self-employed buyer base"
+   ],
+   "supply_note": "Very tight land supply; mostly plot redevelopment into boutique apartments",
+   "flood_risk": "low",
+   "flood_note": null,
+   "sources": [
+    "https://www.99acres.com/property-rates-and-price-trends-in-anna-nagar-chennai-north-prffid",
+    "https://spiritofchennai.com/realestate/chennai-apartment-prices-by-area/"
+   ],
+   "data_confidence": "high; rental yield estimated",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Kilpauk",
+   "corridor": "Kilpauk",
+   "lat": 13.078,
+   "lng": 80.241,
+   "price_band_min": 12000,
+   "price_band_max": 17500,
+   "price_note": "Apartments; 99acres cites ~Rs 15,600/sqft average",
+   "trend": "rising",
+   "trend_note": "Central premium locality averaging ~Rs 15,600/sqft with ~4.7% YoY change per 99acres; demand from medical/professional community and central-city scarcity.",
+   "rental_yield_pct": 3.0,
+   "demand_drivers": [
+    "Central location near Egmore/Chetpet",
+    "Kilpauk Medical College and hospitals cluster",
+    "Metro and rail access",
+    "Old-money residential prestige"
+   ],
+   "supply_note": "Land-locked; supply only via redevelopment of old bungalows",
+   "flood_risk": "low",
+   "flood_note": null,
+   "sources": [
+    "https://www.99acres.com/kilpauk-chennai-central-overview-piffid",
+    "https://spiritofchennai.com/realestate/chennai-apartment-prices-by-area/"
+   ],
+   "data_confidence": "high; rental yield estimated",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Nungambakkam",
+   "corridor": "Nungambakkam",
+   "lat": 13.06,
+   "lng": 80.242,
+   "price_band_min": 14000,
+   "price_band_max": 20000,
+   "price_note": "Apartments; among Chennai's costliest along with Adyar and T. Nagar",
+   "trend": "stable",
+   "trend_note": "Ultra-prime CBD-residential market (Rs 14,000-20,000/sqft) where values are high and steady; transactions are scarce, driven by luxury boutique projects.",
+   "rental_yield_pct": 2.8,
+   "demand_drivers": [
+    "CBD offices, consulates, luxury retail (Khader Nawaz Khan Road)",
+    "Elite schools/clubs",
+    "Prestige and scarcity value",
+    "Metro (Blue Line) proximity"
+   ],
+   "supply_note": "Extremely tight inventory; occasional luxury launches only",
+   "flood_risk": "low",
+   "flood_note": null,
+   "sources": [
+    "https://www.sobha.com/blog/how-much-does-an-apartment-cost-in-chennai/",
+    "https://spiritofchennai.com/realestate/chennai-apartment-prices-by-area/"
+   ],
+   "data_confidence": "medium-high; rental yield estimated",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Adyar",
+   "corridor": "Adyar",
+   "lat": 13.006,
+   "lng": 80.257,
+   "price_band_min": 12000,
+   "price_band_max": 18000,
+   "price_note": "Apartments; premium pockets (Boat Club side, Besant Nagar edge) higher",
+   "trend": "rising",
+   "trend_note": "South Chennai's most sought-after established locality (~Rs 12,000-18,000/sqft); consistent appreciation on scarcity, IT-corridor adjacency and lifestyle amenities.",
+   "rental_yield_pct": 3.0,
+   "demand_drivers": [
+    "Proximity to Tidel Park/Taramani IT hub",
+    "IIT Madras, CLRI, research institutions",
+    "Beach/lifestyle (Besant Nagar, Theosophical Society green lung)",
+    "Top schools and hospitals"
+   ],
+   "supply_note": "Tight inventory; redevelopment-driven boutique supply",
+   "flood_risk": "low",
+   "flood_note": "River-mouth fringe streets can waterlog, but core Adyar is relatively resilient",
+   "sources": [
+    "https://www.sobha.com/blog/how-much-does-an-apartment-cost-in-chennai/",
+    "https://www.nobroker.in/blog/property-rates-in-chennai/"
+   ],
+   "data_confidence": "medium-high; rental yield estimated",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Velachery",
+   "corridor": "Velachery",
+   "lat": 12.976,
+   "lng": 80.22,
+   "price_band_min": 7850,
+   "price_band_max": 13250,
+   "price_note": "Apartments; average ~Rs 9,500/sqft",
+   "trend": "rising-fast",
+   "trend_note": "Capital appreciation of ~13.8% over the past year per portal data; positioned as the gateway between core city and OMR/IT corridor with metro (MRTS + Phase II) connectivity.",
+   "rental_yield_pct": 4.5,
+   "demand_drivers": [
+    "Gateway to OMR IT corridor and Guindy",
+    "MRTS + Metro Phase II interchange",
+    "Phoenix Marketcity and retail cluster",
+    "Strong rental demand from IT workforce"
+   ],
+   "supply_note": "Mature market, limited fresh land; redevelopment and infill supply",
+   "flood_risk": "medium",
+   "flood_note": "Velachery basin is historically flood-prone (2015, 2023 — Tansi Nagar, Ram Nagar, lake-adjacent pockets rank high risk); elevated eastern/Vijayanagar pockets fare better. Treat low-lying streets as high risk.",
+   "sources": [
+    "https://www.99acres.com/property-rates-and-price-trends-in-velachery-chennai-south-prffid",
+    "https://community.verified.realestate/article/%F0%9F%8C%A7%EF%B8%8F-chennais-real-flood-risk-zones-2025-a-complete-guide-for-homebuyers-tenants-investors/"
+   ],
+   "data_confidence": "high",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Pallikaranai",
+   "corridor": "Pallikaranai",
+   "lat": 12.935,
+   "lng": 80.213,
+   "price_band_min": 6100,
+   "price_band_max": 8800,
+   "price_note": "Apartments; average ~Rs 7,500/sqft",
+   "trend": "rising",
+   "trend_note": "~7.1% YoY growth per 99acres despite flood stigma, on affordability and IT-corridor access; NGT's Sept 2025 order restraining CMDA approvals within 1 km of the Ramsar marsh boundary will constrain new supply.",
+   "rental_yield_pct": 4.0,
+   "demand_drivers": [
+    "Proximity to OMR and Velachery employment",
+    "200-ft Radial Road connectivity",
+    "Relative affordability vs Velachery",
+    "Hospitals (Kamakshi, Global) cluster"
+   ],
+   "supply_note": "New approvals restricted near marsh (NGT 2025); existing stock substantial",
+   "flood_risk": "high",
+   "flood_note": "Sits on/beside the Pallikaranai marsh; repeatedly and severely inundated (2015, 2023 Michaung); among Chennai's highest documented flood-risk zones",
+   "sources": [
+    "https://www.99acres.com/property-rates-and-price-trends-in-pallikaranai-chennai-south-prffid",
+    "https://www.propnewz.com/blog/chennai-monsoon-flood-resilient-property-2026-buyer-guide",
+    "https://community.verified.realestate/article/%F0%9F%8C%A7%EF%B8%8F-chennais-real-flood-risk-zones-2025-a-complete-guide-for-homebuyers-tenants-investors/"
+   ],
+   "data_confidence": "high",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Medavakkam",
+   "corridor": "Medavakkam",
+   "lat": 12.918,
+   "lng": 80.192,
+   "price_band_min": 5800,
+   "price_band_max": 7800,
+   "price_note": "Apartments; average ~Rs 7,200/sqft",
+   "trend": "rising",
+   "trend_note": "~7.5% YoY growth per 99acres; a self-sustained mid-income hub equidistant from OMR, GST Road and Velachery via Medavakkam-Sholinganallur Road.",
+   "rental_yield_pct": 4.0,
+   "demand_drivers": [
+    "Medavakkam-Sholinganallur Road to OMR jobs",
+    "Velachery/Tambaram Main Road connectivity",
+    "Schools and hospitals density",
+    "Affordability for first-time IT buyers"
+   ],
+   "supply_note": "Active mid-income supply; marsh-adjacent stretches face NGT approval scrutiny",
+   "flood_risk": "medium",
+   "flood_note": "Marsh-adjacent northern stretches are flood-documented; interior elevated pockets moderate",
+   "sources": [
+    "https://www.99acres.com/property-rates-and-price-trends-in-medavakkam-chennai-south-prffid",
+    "https://community.verified.realestate/article/%F0%9F%8C%A7%EF%B8%8F-chennais-real-flood-risk-zones-2025-a-complete-guide-for-homebuyers-tenants-investors/"
+   ],
+   "data_confidence": "high; rental yield estimated",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Perumbakkam",
+   "corridor": "Perumbakkam",
+   "lat": 12.905,
+   "lng": 80.203,
+   "price_band_min": 5500,
+   "price_band_max": 7500,
+   "price_note": "Apartments; 99acres average ~Rs 6,150/sqft with newer gated-community transactions up to ~Rs 9,400/sqft",
+   "trend": "rising",
+   "trend_note": "~6% price change in the last year and ~20.6% over 3 years per 99acres; large integrated townships serve OMR/Sholinganallur workforce at a discount to the corridor.",
+   "rental_yield_pct": 4.5,
+   "demand_drivers": [
+    "Sholinganallur/OMR IT employment",
+    "Global Hospitals medical hub",
+    "Township-scale amenities (large gated communities)",
+    "Medavakkam-Sholinganallur Road"
+   ],
+   "supply_note": "Heavy township supply; wetland-adjacent land under NGT/regulatory scrutiny",
+   "flood_risk": "high",
+   "flood_note": "Perumbakkam-Semmencheri wetland corridor is documented flood-prone (2015, 2023); ground-floor and low-lying blocks worst affected",
+   "sources": [
+    "https://www.99acres.com/property-rates-and-price-trends-in-perumbakkam-chennai-south-prffid",
+    "https://community.verified.realestate/article/%F0%9F%8C%A7%EF%B8%8F-chennais-real-flood-risk-zones-2025-a-complete-guide-for-homebuyers-tenants-investors/"
+   ],
+   "data_confidence": "high; rental yield estimated",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Sriperumbudur",
+   "corridor": "Sriperumbudur",
+   "lat": 12.968,
+   "lng": 79.947,
+   "price_band_min": 3500,
+   "price_band_max": 5500,
+   "price_note": "Apartments (thin market); the dominant product is plotted land at roughly Rs 1,600-3,500/sqft (DTCP gated plots from ~Rs 1,595/sqft)",
+   "trend": "rising-fast",
+   "trend_note": "Industrial powerhouse (electronics/EV/aerospace parks, 20+ Fortune 500 plants) with land appreciation accelerating on the proposed Parandur greenfield airport ~15 minutes away.",
+   "rental_yield_pct": 4.0,
+   "demand_drivers": [
+    "SIPCOT industrial parks (electronics, EV, medical devices, aerospace)",
+    "Proposed Parandur greenfield airport",
+    "NH-4 Chennai-Bengaluru highway",
+    "Worker-housing rental demand"
+   ],
+   "supply_note": "Plot supply abundant; organized apartment supply just emerging — verify developer credentials",
+   "flood_risk": "low",
+   "flood_note": null,
+   "sources": [
+    "https://community.verified.realestate/article/sriperumbudur-the-industrial-powerhouse-turning-into-a-hotspot-for-land-warehouses-and-housing/",
+    "https://www.wisdomproperties.com/sriperumbudur-oragadam"
+   ],
+   "data_confidence": "medium; prices for plots better documented than apartments; rental yield estimated",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Oragadam",
+   "corridor": "Oragadam",
+   "lat": 12.8,
+   "lng": 79.98,
+   "price_band_min": 3800,
+   "price_band_max": 5500,
+   "price_note": "Apartments/villas in townships (e.g., Hiranandani Parks); plotted land roughly Rs 1,200-2,800/sqft",
+   "trend": "rising",
+   "trend_note": "South India's largest auto/industrial corridor (20+ Fortune 500 firms); Rs 300+ crore state connectivity investment along NH-45/NH-4/SH-57 underpins steady land appreciation.",
+   "rental_yield_pct": 4.0,
+   "demand_drivers": [
+    "Automobile & electronics manufacturing employment (Renault-Nissan, Daimler, Apollo Tyres belt)",
+    "SIPCOT Oragadam industrial park",
+    "Oragadam-Sriperumbudur expressway",
+    "Township projects with amenities"
+   ],
+   "supply_note": "Large plotted and township supply; end-user conversion still maturing",
+   "flood_risk": "low",
+   "flood_note": null,
+   "sources": [
+    "https://www.hiranandaniparks.com/blog/oragadam-2025-industrial-growth-hiranandani-parks",
+    "https://www.nobroker.in/residential-land-plots-for-sale-in-oragadam_industrial_corridor_chennai"
+   ],
+   "data_confidence": "medium; rental yield estimated",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Avadi",
+   "corridor": "Avadi",
+   "lat": 13.115,
+   "lng": 80.097,
+   "price_band_min": 4000,
+   "price_band_max": 6500,
+   "price_note": "Apartments; ~Rs 4,500/sqft average per portal data; plots cheaper",
+   "trend": "rising-fast",
+   "trend_note": "Portal data cites ~21.6% YoY change (likely amplified by new-launch mix); genuine drivers are defence establishments (HVF, CVRDE), rail upgrades and west-Chennai metro expansion plans.",
+   "rental_yield_pct": 3.5,
+   "demand_drivers": [
+    "Defence establishments (Heavy Vehicles Factory, CVRDE, OCF)",
+    "Suburban rail and proposed metro extension",
+    "Avadi Corporation infrastructure spending",
+    "Affordability for north-west Chennai workforce"
+   ],
+   "supply_note": "Growing affordable supply; large developer entry recent",
+   "flood_risk": "medium",
+   "flood_note": "Some lake-belt pockets waterlog; core areas moderate",
+   "sources": [
+    "https://www.nobroker.in/blog/property-rates-in-chennai/",
+    "https://www.99acres.com/property-rates-and-price-trends-in-chennai-prffid"
+   ],
+   "data_confidence": "medium; YoY figure treated with caution; rental yield estimated",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Madhavaram",
+   "corridor": "Madhavaram",
+   "lat": 13.148,
+   "lng": 80.231,
+   "price_band_min": 7000,
+   "price_band_max": 8450,
+   "price_note": "Apartments ~Rs 7,000-8,450/sqft; land guide rates lower per silversky 2025 guide",
+   "trend": "rising-fast",
+   "trend_note": "North Chennai's breakout market: Metro Phase II corridors 3 & 5 originate at Madhavaram, plus NH-16/Chennai Bypass access; portals report strong recent appreciation.",
+   "rental_yield_pct": 3.5,
+   "demand_drivers": [
+    "Metro Phase II twin-corridor origin (Madhavaram Milk Colony)",
+    "NH-16 and Chennai Bypass logistics belt",
+    "Wholesale market/botanical garden civic projects",
+    "Price arbitrage vs central Chennai"
+   ],
+   "supply_note": "New launches accelerating; still early-cycle inventory",
+   "flood_risk": "medium",
+   "flood_note": "Parts of the Retteri lake catchment waterlog in heavy rain",
+   "sources": [
+    "https://www.99acres.com/property-rates-and-price-trends-in-madhavaram-chennai-north-prffid",
+    "https://www.silverskybuilders.com/blog/madhavaram-land-price-guide-2025-sqft-rates-trends-roi/",
+    "https://community.verified.realestate/article/north-chennais-real-estate-boom-spotlight-on-madhavaram-korattur-kolathur/"
+   ],
+   "data_confidence": "medium-high; rental yield estimated",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Manapakkam",
+   "corridor": "Manapakkam",
+   "lat": 13.01,
+   "lng": 80.17,
+   "price_band_min": 6800,
+   "price_band_max": 9650,
+   "price_note": "Apartments; average ~Rs 8,300/sqft (99acres)",
+   "trend": "rising",
+   "trend_note": "~5.1% YoY change per 99acres; office corridor (DLF IT Park, L&T campus on Mount-Poonamallee Road) and Metro Phase II Corridor 4 sustain demand.",
+   "rental_yield_pct": 4.5,
+   "demand_drivers": [
+    "DLF Cybercity/L&T and Mount-Poonamallee Road offices",
+    "Metro Phase II Corridor 4",
+    "Airport and Guindy proximity",
+    "River-side premium projects"
+   ],
+   "supply_note": "Moderate supply; well absorbed by office workforce",
+   "flood_risk": "medium",
+   "flood_note": "Adyar river floodplain edge — 2015-type events inundated riverside stretches",
+   "sources": [
+    "https://www.99acres.com/property-rates-and-price-trends-in-manapakkam-chennai-south-prffid",
+    "https://community.verified.realestate/article/poonamallee-property-prices-surge-amid-metro-outer-ring-road-boom/"
+   ],
+   "data_confidence": "high; rental yield estimated",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Kolathur",
+   "corridor": "Kolathur",
+   "lat": 13.124,
+   "lng": 80.213,
+   "price_band_min": 6500,
+   "price_band_max": 8500,
+   "price_note": "Apartments; ~Rs 7,700/sqft cited average",
+   "trend": "rising",
+   "trend_note": "~8.5% YoY growth per portal data; part of the north-Chennai boom alongside Madhavaram/Korattur, aided by 100-ft Road retail and metro-corridor proximity.",
+   "rental_yield_pct": 3.5,
+   "demand_drivers": [
+    "Proximity to Madhavaram metro hub and Retteri junction",
+    "Inner Ring Road/NH access",
+    "Established retail and schools",
+    "Aquarium-trade/commercial local economy"
+   ],
+   "supply_note": "Steady mid-income supply; infill-driven",
+   "flood_risk": "medium",
+   "flood_note": "Retteri lake catchment pockets waterlog in cyclonic rain",
+   "sources": [
+    "https://community.verified.realestate/article/north-chennais-real-estate-boom-spotlight-on-madhavaram-korattur-kolathur/",
+    "https://www.nobroker.in/blog/property-rates-in-chennai/"
+   ],
+   "data_confidence": "medium; rental yield estimated",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Tiruvallur-Ponneri belt",
+   "corridor": "Tiruvallur/Ponneri belt",
+   "lat": 13.14,
+   "lng": 79.91,
+   "price_band_min": 1000,
+   "price_band_max": 2800,
+   "price_note": "Predominantly plotted land: Tiruvallur ~Rs 1,800-2,800/sqft (2025) vs Rs 800-1,000 in 2020; Ponneri from ~Rs 1,700/sqft; organized apartments scarce (~Rs 3,500-4,500/sqft where available)",
+   "trend": "rising-fast",
+   "trend_note": "Plot values appreciated ~80-120% over five years to 2025 per developer market guides; Peripheral Ring Road, Thirumazhisai satellite township, Ponneri's proximity to Ennore-Kattupalli ports and SIPCOT Thervoy Kandigai drive momentum. Treat developer ROI projections with caution.",
+   "rental_yield_pct": null,
+   "demand_drivers": [
+    "Peripheral Ring Road alignment",
+    "Thirumazhisai satellite township (CMDA)",
+    "Ennore/Kattupalli port and Gummidipoondi industrial logistics (Ponneri side)",
+    "Suburban rail on both Arakkonam and Gummidipoondi lines",
+    "Chennai-Bengaluru Industrial Corridor spillover"
+   ],
+   "supply_note": "Abundant plotted supply from organized players (G Square etc.); speculative element — verify DTCP/RERA approvals",
+   "flood_risk": "low",
+   "flood_note": "Mostly elevated agrarian land; isolated tank-bed pockets should be avoided",
+   "sources": [
+    "https://www.gsquarehousing.com/tiruvallur-fast-growing-real-estate-zone-near-chennai/",
+    "https://www.99acres.com/ponneri-thiruvallur-overview-piffid",
+    "https://findbhk.com/plots-for-sale-in-tiruvallur"
+   ],
+   "data_confidence": "medium; developer-sourced appreciation figures, plot market with thin rental data",
+   "last_checked": "2026-07-20"
+  }
+ ]
+}

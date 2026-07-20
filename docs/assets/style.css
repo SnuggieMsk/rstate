@@ -1,0 +1,220 @@
+/* Chennai Real Estate Intelligence — shared styles */
+:root {
+  color-scheme: light;
+  --page: #f9f9f7;
+  --surface-1: #fcfcfb;
+  --text-primary: #0b0b0b;
+  --text-secondary: #52514e;
+  --text-muted: #898781;
+  --grid: #e1e0d9;
+  --baseline: #c3c2b7;
+  --border: rgba(11, 11, 11, 0.10);
+  --accent: #2a78d6;
+  --accent-strong: #1c5cab;
+  /* Upside Score ordinal ramp (sequential blue, steps 250/400/550/700) */
+  --score-1: #86b6ef;
+  --score-2: #3987e5;
+  --score-3: #1c5cab;
+  --score-4: #0d366b;
+  /* Status (risk) — reserved, never themed */
+  --status-good: #0ca30c;
+  --status-warning: #fab219;
+  --status-serious: #ec835a;
+  --status-critical: #d03b3b;
+  --success-text: #006300;
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --page: #0d0d0d;
+    --surface-1: #1a1a19;
+    --text-primary: #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted: #898781;
+    --grid: #2c2c2a;
+    --baseline: #383835;
+    --border: rgba(255, 255, 255, 0.10);
+    --accent: #3987e5;
+    --accent-strong: #86b6ef;
+    --score-1: #86b6ef;
+    --score-2: #3987e5;
+    --score-3: #256abf;
+    --score-4: #184f95;
+    --success-text: #0ca30c;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d;
+  --surface-1: #1a1a19;
+  --text-primary: #ffffff;
+  --text-secondary: #c3c2b7;
+  --text-muted: #898781;
+  --grid: #2c2c2a;
+  --baseline: #383835;
+  --border: rgba(255, 255, 255, 0.10);
+  --accent: #3987e5;
+  --accent-strong: #86b6ef;
+  --score-1: #86b6ef;
+  --score-2: #3987e5;
+  --score-3: #256abf;
+  --score-4: #184f95;
+  --success-text: #0ca30c;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--page);
+  color: var(--text-primary);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 15px;
+  line-height: 1.55;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.wrap { max-width: 1180px; margin: 0 auto; padding: 0 20px; }
+
+/* Header / nav */
+header.site {
+  border-bottom: 1px solid var(--border);
+  background: var(--surface-1);
+  position: sticky; top: 0; z-index: 1100;
+}
+header.site .wrap {
+  display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
+  padding-top: 10px; padding-bottom: 10px;
+}
+.brand { font-weight: 700; font-size: 16px; color: var(--text-primary); }
+.brand small { display: block; font-weight: 400; font-size: 11px; color: var(--text-muted); }
+nav.main { display: flex; gap: 4px; flex-wrap: wrap; margin-left: auto; }
+nav.main a {
+  padding: 6px 12px; border-radius: 8px; color: var(--text-secondary); font-weight: 500;
+}
+nav.main a:hover { background: var(--page); text-decoration: none; color: var(--text-primary); }
+nav.main a.active { background: var(--accent); color: #fff; }
+.theme-toggle {
+  border: 1px solid var(--border); background: var(--surface-1); color: var(--text-secondary);
+  border-radius: 8px; padding: 6px 10px; cursor: pointer; font: inherit; font-size: 13px;
+}
+
+.refreshed { font-size: 12px; color: var(--text-muted); }
+
+/* Stat tiles */
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 14px; margin: 22px 0; }
+.tile {
+  background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
+  padding: 14px 16px;
+}
+.tile .k { font-size: 12px; color: var(--text-secondary); }
+.tile .v { font-size: 28px; font-weight: 700; line-height: 1.2; margin-top: 2px; }
+.tile .s { font-size: 12px; color: var(--text-muted); margin-top: 2px; }
+
+h1 { font-size: 24px; margin: 26px 0 4px; }
+h2 { font-size: 18px; margin: 30px 0 10px; }
+.sub { color: var(--text-secondary); margin: 0 0 6px; }
+
+/* Cards & sections */
+.card {
+  background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
+  padding: 16px 18px; margin: 14px 0;
+}
+
+/* Filters */
+.filters { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin: 14px 0; }
+.filters select, .filters input[type="search"] {
+  background: var(--surface-1); color: var(--text-primary); border: 1px solid var(--baseline);
+  border-radius: 8px; padding: 7px 10px; font: inherit; font-size: 13px;
+}
+.filters label { font-size: 12px; color: var(--text-secondary); }
+.filters .count { margin-left: auto; font-size: 12px; color: var(--text-muted); }
+
+/* Tables */
+.table-scroll { overflow-x: auto; border: 1px solid var(--border); border-radius: 12px; background: var(--surface-1); }
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--grid); vertical-align: top; }
+th {
+  font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.04em;
+  color: var(--text-muted); background: var(--surface-1); position: sticky; top: 0;
+  cursor: pointer; user-select: none; white-space: nowrap;
+}
+th .dir { color: var(--accent); }
+tr:last-child td { border-bottom: none; }
+tbody tr:hover { background: color-mix(in oklab, var(--accent) 6%, transparent); }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+
+/* Score pill — colored dot + plain-ink number (text never wears series color) */
+.score { display: inline-flex; align-items: center; gap: 6px; font-variant-numeric: tabular-nums; font-weight: 600; }
+.score i { width: 10px; height: 10px; border-radius: 3px; display: inline-block; flex: none; }
+.score-band-1 i { background: var(--score-1); }
+.score-band-2 i { background: var(--score-2); }
+.score-band-3 i { background: var(--score-3); }
+.score-band-4 i { background: var(--score-4); }
+
+/* Risk badge — icon + label, never color alone */
+.risk { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; font-weight: 600; }
+.risk i { width: 9px; height: 9px; border-radius: 50%; display: inline-block; flex: none; }
+.risk-Low i { background: var(--status-good); }
+.risk-Medium i { background: var(--status-warning); }
+.risk-High i { background: var(--status-critical); }
+
+/* Tags */
+.tag {
+  display: inline-block; font-size: 11px; font-weight: 600; padding: 2px 8px;
+  border: 1px solid var(--baseline); border-radius: 999px; color: var(--text-secondary);
+  margin: 1px 3px 1px 0; white-space: nowrap;
+}
+.tag.hot { border-color: var(--accent); color: var(--accent); }
+
+.conf { font-size: 11px; color: var(--text-muted); }
+
+/* Score breakdown bars */
+.bd { margin: 4px 0; }
+.bd .row { display: flex; align-items: center; gap: 8px; font-size: 12px; margin: 3px 0; }
+.bd .lbl { width: 150px; color: var(--text-secondary); flex: none; }
+.bd .bar { flex: 1; height: 8px; background: var(--grid); border-radius: 4px; overflow: hidden; }
+.bd .bar > span { display: block; height: 100%; background: var(--accent); border-radius: 4px; }
+.bd .val { width: 34px; text-align: right; font-variant-numeric: tabular-nums; color: var(--text-secondary); }
+
+/* Map page */
+#map { position: fixed; inset: 57px 0 0 0; }
+.map-legend {
+  position: absolute; z-index: 1000; right: 12px; bottom: 24px;
+  background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px;
+  padding: 10px 12px; font-size: 12px; max-width: 230px;
+}
+.map-legend .row { display: flex; align-items: center; gap: 7px; margin: 3px 0; }
+.map-legend i { width: 12px; height: 12px; border-radius: 50%; display: inline-block; border: 2px solid #fff; box-shadow: 0 0 0 1px rgba(0,0,0,.25); flex: none; }
+.map-controls {
+  position: absolute; z-index: 1000; left: 12px; top: 70px;
+  background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px;
+  padding: 10px 12px; font-size: 12.5px;
+}
+.map-controls label { display: block; margin: 3px 0; cursor: pointer; }
+.leaflet-popup-content { font: 13px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+.pop h3 { margin: 0 0 2px; font-size: 14.5px; }
+.pop .meta { color: #52514e; font-size: 12px; margin-bottom: 6px; }
+.pop table { font-size: 12px; }
+.pop td { padding: 2px 6px 2px 0; border: none; }
+
+/* Locality cards */
+.loc-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px; }
+.loc-card .tag { white-space: normal; }
+.loc-card h3 { margin: 0; font-size: 15.5px; }
+.loc-card .price { font-size: 20px; font-weight: 700; margin: 4px 0 2px; font-variant-numeric: tabular-nums; }
+.loc-card .trend { font-size: 12px; font-weight: 600; }
+.trend-rising-fast, .trend-rising { color: var(--success-text); }
+.trend-stable { color: var(--text-secondary); }
+.trend-soft { color: var(--status-critical); }
+
+footer.site {
+  margin-top: 48px; padding: 20px 0 34px; border-top: 1px solid var(--border);
+  font-size: 12px; color: var(--text-muted);
+}
+footer.site .wrap { display: flex; flex-direction: column; gap: 6px; }
+
+@media (max-width: 640px) {
+  .bd .lbl { width: 110px; }
+  #map { inset: 96px 0 0 0; }
+}

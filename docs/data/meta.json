@@ -1,0 +1,37 @@
+{
+ "last_refreshed": "2026-07-20",
+ "portal_access_note": "Both https://rera.tn.gov.in and https://rera.tn.gov.in/registered-projects returned HTTP 503 Service Unavailable via WebFetch (likely geo-blocking of non-India traffic); the alternate official listing URL https://rera.tn.gov.in/registered-building/tn also returned 503. Proquiro.com (a TNRERA data mirror) returned 403 on direct fetch but its data surfaced via search snippets. All records below therefore come from secondary sources (developer sites, property portals, real-estate news), so no record is marked 'verified'.",
+ "market_context": {
+  "summary": "Chennai remained a steady, end-user-driven market through 2025 into 2026. Knight Frank recorded 9,198 residential unit sales in H1 2026 (+3% YoY) with average prices up ~5% YoY to ~Rs 7,555/sqft; Q1 2026 sales were +31% YoY despite an 18% QoQ dip. The market shifted up-market: the Rs 50L-1 crore band held ~45% of sales while the Rs 1-2 crore segment grew fastest (+29% YoY, 23%->26% share); sub-Rs 50 lakh affordable share collapsed from 22% to 12% of sales. Micro-market outperformers included Perambur (+35% YoY on metro/infra). Portals and brokerage reports through 2025 showed suburb-level appreciation of roughly 5-14% (Velachery ~13.8%, Pallavaram ~18%, Poonamallee ~8.9%, Porur ~7.9%).",
+  "points": [
+   "Unsold inventory: Anarock's Chennai Q1 2025 viewpoint put available inventory at ~29,100 units (about 5% of top-7-city stock), up ~2% QoQ/YoY, with inventory overhang widening to ~20 months (+2 months QoQ) — i.e., supply modestly outpacing absorption in early 2025. South Chennai held ~57% of unsold stock and West Chennai ~25%; mid- and high-end segments comprised ~88% of available inventory. Through late 2025 and H1 2026, improving sales (Q1 2026 +31% YoY) began rebalancing supply-demand.",
+   "Guideline values: For FY 2025-26 Tamil Nadu overhauled property valuation for registration: guideline values can now be revised at shorter intervals (rather than long multi-year gaps), and a composite valuation method was introduced for apartments/multi-storey buildings (single composite rate covering undivided share of land plus construction), changing how duty is computed on flats. Duty remains payable on the higher of guideline value or consideration; values are verifiable on tnreginet.gov.in.",
+   "Transaction costs: Tamil Nadu retains 7% stamp duty + 4% registration fee on sale deeds (total ~11% of the higher of market/guideline value — among the highest transaction-cost states in India; no general gender concession on stamp duty). From 1 April 2025, women buyers of property valued up to Rs 10 lakh pay a reduced 3% registration fee (vs 4%).",
+   "Policy & infrastructure: Key 2025-26 policy/infra developments: (1) NGT order (Sept 2025) restraining CMDA from new building approvals within 1 km of the Pallikaranai Ramsar marsh boundary — affecting Velachery, Medavakkam, Sholinganallur, Perungudi, Thoraipakkam, Karapakkam and Navalur approvals; (2) Chennai Metro Phase II progress — Poonamallee-Porur stretch trial runs from June 2025 with phased openings from late 2025/2026, corridors 3 & 5 radiating from Madhavaram; (3) proposed Parandur greenfield airport boosting Sriperumbudur-Tiruvallur land markets; (4) continued industrial investment across Oragadam/Sriperumbudur (electronics, EV, aerospace) and Rs 300+ crore state road connectivity spend; (5) composite valuation + more frequent guideline revisions effective FY 2025-26.",
+   "Rental market: Healthy Chennai residential rental yields run ~4-6% gross; OMR/Sholinganallur (~5.5-6%) and Perungalathur (~6.1% per one 2025 analysis) top the table, Porur ~4%, while prime central areas (Anna Nagar, Adyar, Nungambakkam) yield ~2.8-3.5%. The market's diversified IT + manufacturing tenant base keeps rents resilient.",
+   "Caveats: Price bands are indicative ranges compiled from portal averages (99acres/NoBroker/etc.) and developer/brokerage content as of 2025 into mid-2026; portal YoY figures can be distorted by listing-mix changes (e.g., Avadi +21.6%, Mogappair +22.6%). Plotted-land Rs/sqft is materially lower than apartment Rs/sqft in peripheral belts (Guduvancheri, Sriperumbudur, Oragadam, Tiruvallur/Ponneri). Flood-risk ratings are locality-level generalizations — street-level elevation and distance from marsh/river/tank beds matter more than locality name."
+  ],
+  "sources": [
+   "https://expressnews.asia/2026/07/chennai-records-9198-residential-sales-office-completions-surge-149-while-leasing-reaches-3-6-mn-sq-ft-in-h1-2026-knight-frank-india/",
+   "https://content.knightfrank.com/research/3070/documents/en/india-real-estate-office-and-residential-market-h2-2025-12597.pdf",
+   "https://content.knightfrank.com/research/3092/documents/en/india-real-estate-office-and-residential-market-jan-mar-2026-12790.pdf",
+   "https://websitemedia.anarock.com/media/Residential_Market_Viewpoints_Chennai_Q1_2025_50f6969455.pdf",
+   "https://websitemedia.anarock.com/media/Q1_2026_Pan_India_Residential_Market_Viewpoints_ffcfe5100a.pdf",
+   "https://www.shriramproperties.com/blog/tamil-nadu-revises-property-charges-a-complete-breakdown-for-shriram-subham-buyers",
+   "https://cleartax.in/s/stamp-duty-and-registration-charges-in-tamil-nadu",
+   "https://www.brigadegroup.com/blog/residential/stamp-duty-and-registration-charges-chennai",
+   "https://www.propnewz.com/blog/chennai-monsoon-flood-resilient-property-2026-buyer-guide",
+   "https://community.verified.realestate/article/poonamallee-property-prices-surge-amid-metro-outer-ring-road-boom/",
+   "https://community.verified.realestate/article/sriperumbudur-the-industrial-powerhouse-turning-into-a-hotspot-for-land-warehouses-and-housing/",
+   "https://durahousing.com/blog/top-10-areas-for-high-rental-returns-in-chennai-2025-edition/",
+   "https://ishahomes.com/blog/high-rental-returns-where-rental-yield-actually-beats-the-average/",
+   "https://www.nobroker.in/blog/rental-yield-in-chennai"
+  ]
+ },
+ "changelog": [
+  {
+   "date": "2026-07-20",
+   "note": "Initial build: 57 projects, 33 localities, 12 infrastructure items researched from secondary sources (TN RERA portal blocked automated access with HTTP 503)."
+  }
+ ]
+}

@@ -1,0 +1,674 @@
+{
+ "infrastructure": [
+  {
+   "name": "Chennai Metro Phase 2 – Corridor 3 (Purple Line, Madhavaram Milk Colony – SIPCOT Siruseri)",
+   "category": "metro",
+   "status_2026": "45.4 km corridor with 48 stations (28 underground) running from Madhavaram through central Chennai (Purasawalkam, Thousand Lights, Mylapore, Adyar, Thiruvanmiyur) and then down OMR to Siruseri SIPCOT. Underground tunneling is well advanced — one of the twin tunnels from Madhavaram Milk Colony to Venugopal Nagar is complete with the second nearing completion. The elevated OMR section (Nehru Nagar/Perungudi to Siruseri) is targeted to open in stages roughly 2026–2028, with full corridor completion by end-2028.",
+   "expected_completion": "Elevated OMR stretch in stages ~2026–2028; full corridor incl. underground by end-2028",
+   "impact_localities": [
+    "Madhavaram",
+    "Perambur",
+    "Purasawalkam",
+    "Nungambakkam/Thousand Lights",
+    "Mylapore",
+    "Adyar",
+    "Thiruvanmiyur",
+    "Perungudi",
+    "Thoraipakkam",
+    "Sholinganallur",
+    "Navalur",
+    "Siruseri",
+    "Kelambakkam fringe"
+   ],
+   "geometry": {
+    "type": "stations",
+    "precision": "approximate",
+    "stations": [
+     {
+      "station": "Madhavaram Milk Colony",
+      "lat": 13.146,
+      "lng": 80.231
+     },
+     {
+      "station": "Perambur",
+      "lat": 13.115,
+      "lng": 80.243
+     },
+     {
+      "station": "Purasawalkam",
+      "lat": 13.085,
+      "lng": 80.258
+     },
+     {
+      "station": "Thousand Lights",
+      "lat": 13.06,
+      "lng": 80.257
+     },
+     {
+      "station": "Mylapore",
+      "lat": 13.033,
+      "lng": 80.268
+     },
+     {
+      "station": "Adyar",
+      "lat": 13.006,
+      "lng": 80.257
+     },
+     {
+      "station": "Thiruvanmiyur",
+      "lat": 12.983,
+      "lng": 80.26
+     },
+     {
+      "station": "Perungudi",
+      "lat": 12.966,
+      "lng": 80.246
+     },
+     {
+      "station": "Thoraipakkam",
+      "lat": 12.94,
+      "lng": 80.235
+     },
+     {
+      "station": "Sholinganallur",
+      "lat": 12.901,
+      "lng": 80.228
+     },
+     {
+      "station": "Navalur",
+      "lat": 12.845,
+      "lng": 80.226
+     },
+     {
+      "station": "SIPCOT Siruseri",
+      "lat": 12.826,
+      "lng": 80.219
+     }
+    ]
+   },
+   "sources": [
+    "https://chennaimetrorail.org/project-status-2/",
+    "https://en.wikipedia.org/wiki/Purple_Line_(Chennai_Metro)",
+    "https://themetrorailguy.com/chennai-metro-phase-2-information-map/"
+   ],
+   "data_confidence": "medium-high",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Chennai Metro Phase 2 – Corridor 4 (Yellow Line, Lighthouse – Poonamallee Bypass)",
+   "category": "metro",
+   "status_2026": "26.1 km, 27–28 stations (16 km elevated west of Kodambakkam, 10.1 km underground to Lighthouse). The western elevated stretch (Poonamallee Bypass–Porur, ~9–10 km/10 stations) was announced for a Dec 2025 launch, and the longer Poonamallee Bypass–Vadapalani section (14.6 km) received CMRS safety clearance (reported late Feb 2026, with a final inspection also reported cleared in May 2026); however Wikipedia and mid-2026 reports state the public opening was postponed past the TN Assembly election and was expected in the second/third week of July 2026 pending government approval — exact opening date is unclear as of 20 Jul 2026 and sources conflict on whether any stretch is yet carrying passengers. A 43.6 km extension from Poonamallee toward Parandur had its DPR approved by GoTN in June 2025 (now uncertain given the airport rethink).",
+   "expected_completion": "Poonamallee–Vadapalani: ~mid-2026 (unclear/pending approval); Vadapalani–Lighthouse underground: ~Dec 2027",
+   "impact_localities": [
+    "Poonamallee",
+    "Kumananchavadi",
+    "Kattupakkam",
+    "Iyyappanthangal",
+    "Porur",
+    "Valasaravakkam",
+    "Alwarthirunagar",
+    "Virugambakkam",
+    "Vadapalani",
+    "Kodambakkam",
+    "T. Nagar",
+    "Alwarpet",
+    "Mylapore/Lighthouse"
+   ],
+   "geometry": {
+    "type": "stations",
+    "precision": "approximate",
+    "stations": [
+     {
+      "station": "Poonamallee Bypass",
+      "lat": 13.048,
+      "lng": 80.094
+     },
+     {
+      "station": "Poonamallee",
+      "lat": 13.049,
+      "lng": 80.11
+     },
+     {
+      "station": "Kumananchavadi",
+      "lat": 13.045,
+      "lng": 80.126
+     },
+     {
+      "station": "Iyyappanthangal",
+      "lat": 13.038,
+      "lng": 80.136
+     },
+     {
+      "station": "Porur Junction",
+      "lat": 13.038,
+      "lng": 80.156
+     },
+     {
+      "station": "Valasaravakkam",
+      "lat": 13.041,
+      "lng": 80.176
+     },
+     {
+      "station": "Vadapalani",
+      "lat": 13.05,
+      "lng": 80.212
+     },
+     {
+      "station": "Kodambakkam Power House",
+      "lat": 13.052,
+      "lng": 80.223
+     },
+     {
+      "station": "T. Nagar (Panagal Park)",
+      "lat": 13.041,
+      "lng": 80.234
+     },
+     {
+      "station": "Alwarpet",
+      "lat": 13.033,
+      "lng": 80.253
+     },
+     {
+      "station": "Lighthouse",
+      "lat": 13.04,
+      "lng": 80.279
+     }
+    ]
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/Yellow_Line_(Chennai_Metro)",
+    "https://swarajyamag.com/news-brief/chennais-poonamallee-porur-metro-line-set-to-begin-operations-within-days-following-safety-clearance",
+    "https://www.nativeplanet.com/news/chennai-metro-rail-limited-confirms-december-launch-for-poonamallee-porur-corridor-4-018031.html",
+    "https://chennaimetrorail.org/wp-content/uploads/2026/01/Press-Release-11.01.2026-English.pdf"
+   ],
+   "data_confidence": "medium (opening-date reports conflict: Dec 2025 announcement vs Feb/May 2026 safety clearances vs July 2026 expected public opening)",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Chennai Metro Phase 2 – Corridor 5 (Red Line, Madhavaram Milk Colony – Sholinganallur)",
+   "category": "metro",
+   "status_2026": "44.6–47 km orbital corridor with ~45 stations (only 6 underground), linking north Chennai to the OMR IT belt via Retteri, Villivakkam, Koyambedu, Vadapalani, Alandur, Madipakkam and Medavakkam. Elevated works are on track — roughly 150 piers done Madhavaram–Koyambedu, 142 Koyambedu–Ullagaram and 205 Ullagaram–ELCOT — and the first operational stretch (Madhavaram Milk Colony–Retteri) is anticipated before end-2026; CMRL has also revised the operational plan to open an Alandur-anchored phase before extending to Sholinganallur.",
+   "expected_completion": "First stretch (Madhavaram–Retteri) by end-2026; full corridor ~2028",
+   "impact_localities": [
+    "Madhavaram",
+    "Retteri/Kolathur",
+    "Villivakkam",
+    "Anna Nagar",
+    "Koyambedu",
+    "Vadapalani",
+    "Ashok Nagar/Ekkatuthangal",
+    "Alandur",
+    "Adambakkam",
+    "Madipakkam",
+    "Keelkattalai",
+    "Kovilambakkam",
+    "Medavakkam",
+    "Perumbakkam",
+    "Sholinganallur"
+   ],
+   "geometry": {
+    "type": "stations",
+    "precision": "approximate",
+    "stations": [
+     {
+      "station": "Madhavaram Milk Colony",
+      "lat": 13.146,
+      "lng": 80.231
+     },
+     {
+      "station": "Retteri Junction",
+      "lat": 13.124,
+      "lng": 80.204
+     },
+     {
+      "station": "Villivakkam",
+      "lat": 13.107,
+      "lng": 80.208
+     },
+     {
+      "station": "Koyambedu",
+      "lat": 13.07,
+      "lng": 80.194
+     },
+     {
+      "station": "Vadapalani",
+      "lat": 13.05,
+      "lng": 80.212
+     },
+     {
+      "station": "Alandur",
+      "lat": 13.003,
+      "lng": 80.201
+     },
+     {
+      "station": "Madipakkam",
+      "lat": 12.962,
+      "lng": 80.198
+     },
+     {
+      "station": "Medavakkam",
+      "lat": 12.919,
+      "lng": 80.192
+     },
+     {
+      "station": "Sholinganallur",
+      "lat": 12.901,
+      "lng": 80.228
+     }
+    ]
+   },
+   "sources": [
+    "https://swarajyamag.com/infrastructure/chennai-metro-phase-ii-progress-accelerates-for-corridor-5-to-be-ready-before-2026",
+    "https://swarajyamag.com/infrastructure/chennai-metro-phase-ii-madhavaram-milk-colony-retteri-stretch-to-open-before-actual-deadline-by-mid-2026",
+    "https://en.wikipedia.org/wiki/Line_5_(Chennai_Metro)",
+    "https://chennaimetrorail.org/project-status/"
+   ],
+   "data_confidence": "medium-high",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Chennai Peripheral Ring Road (CPRR, Ennore Port – Mamallapuram)",
+   "category": "road",
+   "status_2026": "132.87 km, 6-lane access-controlled expressway (10 lanes incl. service roads, 120 km/h design, ~Rs 12,301 crore) arcing from Ennore Port via Thatchur (NH16), Periyapalayam, Thamaraipakkam, Tiruvallur, Sriperumbudur and Singaperumal Koil to Poonjeri near Mamallapuram. As of 2026 ~79% of work is reported complete; Phase 1 (Ennore–Thatchur, 25.31 km, JICA-funded) is in advanced construction, intermediate sections are underway, and bidders (KNR, RR Infra, Notch India) have been selected for the final Singaperumal Koil–Poonjeri phase (27.41 km, 4 packages), with year-end 2026 targeted for substantial completion. Ennore–Mamallapuram travel time is projected to drop from ~3 hours to ~1 hour.",
+   "expected_completion": "Substantial completion targeted end-2026; final southern phase likely spills into 2027",
+   "impact_localities": [
+    "Ennore",
+    "Kattupalli",
+    "Thatchur/Ponneri",
+    "Periyapalayam",
+    "Thamaraipakkam",
+    "Tiruvallur",
+    "Sriperumbudur",
+    "Oragadam",
+    "Singaperumal Koil",
+    "Chengalpattu fringe",
+    "Thiruporur",
+    "Mamallapuram/Poonjeri"
+   ],
+   "geometry": {
+    "type": "polyline",
+    "precision": "approximate",
+    "waypoints": [
+     {
+      "lat": 13.25,
+      "lng": 80.32
+     },
+     {
+      "lat": 13.298,
+      "lng": 80.146
+     },
+     {
+      "lat": 13.27,
+      "lng": 80.03
+     },
+     {
+      "lat": 13.2,
+      "lng": 79.97
+     },
+     {
+      "lat": 13.14,
+      "lng": 79.91
+     },
+     {
+      "lat": 12.968,
+      "lng": 79.947
+     },
+     {
+      "lat": 12.76,
+      "lng": 80.0
+     },
+     {
+      "lat": 12.64,
+      "lng": 80.16
+     }
+    ]
+   },
+   "sources": [
+    "https://www.cprr.tn.gov.in/",
+    "https://www.tnhighways.tn.gov.in/en/cprr-en",
+    "https://www.constructionweekonline.in/transportation/chennai-peripheral-ring-road-project-set-for-year-end-completion",
+    "https://themetrorailguy.com/tnrdc-chennai-peripheral-ring-road-route-map-status-update-tenders/"
+   ],
+   "data_confidence": "high",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Parandur Greenfield Airport (Chennai second airport)",
+   "category": "airport",
+   "status_2026": "Project in serious doubt. The Rs 27,400 crore, 5,746-acre airport proposed by the DMK government in 2022 had acquired roughly 1,700 acres of private land (some reports cite ~3,000 acres total including government land) by mid-2026, against sustained protests in Ekanapuram and 12 other villages plus compensation disputes in court. Following the 2026 change of government, CM Vijay first ordered a status quo halting acquisition, and on 18 June 2026 the TVK government announced it will not proceed at Parandur — citing impact on waterbodies and farmland — and will identify an alternative site for Chennai's second airport; no alternative site or timeline has been named, and the fate of acquired land and the planned Poonamallee–Parandur metro extension is unresolved.",
+   "expected_completion": null,
+   "impact_localities": [
+    "Parandur",
+    "Ekanapuram",
+    "Sriperumbudur",
+    "Kancheepuram",
+    "Sunguvarchatram",
+    "Poonamallee corridor (via proposed metro extension)"
+   ],
+   "geometry": {
+    "type": "point",
+    "precision": "approximate",
+    "lat": 12.995,
+    "lng": 79.86
+   },
+   "sources": [
+    "https://www.thenewsminute.com/tamil-nadu/tvk-govt-drops-parandur-airport-project-says-alternative-site-to-be-identified",
+    "https://www.oneindia.com/chennai/parandur-airport-cm-vijay-halts-land-acquisition-in-parandur-freezes-the-progress-of-greenfield-pr-8088761.html",
+    "https://www.landconflictwatch.org/conflicts/villagers-oppose-greenfield-airport-for-chennai-in-parandur-tamil-nadu",
+    "https://www.propnewz.com/blog/parandur-airport-land-acquisition-sriperumbudur-kanchipuram-2026"
+   ],
+   "data_confidence": "medium (political situation fluid in 2026; acreage figures differ between sources — noted conflict)",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "OMR IT Corridor expansion – new tech parks and Grade-A office supply (2024–2026)",
+   "category": "it-park",
+   "status_2026": "A large wave of Grade-A IT space is under construction/announced on OMR: Sattva Knowledge City (~4.5 mn sq ft), DLF Downtown Taramani Phase 2 (~3.7 mn sq ft), TCS Siruseri expansion (~3.3 mn sq ft), Bagmane Viva (~3 mn sq ft), Baashyaam Semmancheri (~3 mn sq ft), Casagrand Bizpark (~1.1 mn sq ft) and Brigade Trillium (~1.1 mn sq ft). This supply is timed to Metro Corridor 3's elevated OMR line (Perungudi–Siruseri targeted ~2028) and a proposed multi-deck elevated corridor on OMR; no major brand-new SEZ notifications in 2024–26 were found (growth is via private IT parks and SIPCOT IT Park Siruseri expansion), which is noted as a gap.",
+   "expected_completion": "Rolling deliveries 2025–2028",
+   "impact_localities": [
+    "Taramani",
+    "Perungudi",
+    "Thoraipakkam",
+    "Karapakkam",
+    "Sholinganallur",
+    "Semmancheri",
+    "Navalur",
+    "Siruseri",
+    "Kelambakkam",
+    "Padur"
+   ],
+   "geometry": {
+    "type": "polyline",
+    "precision": "approximate",
+    "waypoints": [
+     {
+      "lat": 12.986,
+      "lng": 80.243
+     },
+     {
+      "lat": 12.94,
+      "lng": 80.235
+     },
+     {
+      "lat": 12.901,
+      "lng": 80.228
+     },
+     {
+      "lat": 12.87,
+      "lng": 80.226
+     },
+     {
+      "lat": 12.845,
+      "lng": 80.226
+     },
+     {
+      "lat": 12.826,
+      "lng": 80.219
+     }
+    ]
+   },
+   "sources": [
+    "https://nammafamilybuilder.com/omr-chennai-ongoing-upcoming-projects/",
+    "https://x.com/UpdatesChennai/status/2029046351926059358",
+    "https://swarajyamag.com/news-brief/chennai-all-set-to-get-massive-infra-upgrade-with-multi-deck-elevated-corridor-on-its-it-hub-omr",
+    "https://addressadvisors.com/blog/list-of-it-tech-parks-in-chennai"
+   ],
+   "data_confidence": "medium (project pipeline well-sourced; individual delivery dates not confirmed)",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "OMR Phase 2 widening (Siruseri – Mamallapuram) with Sholinganallur grade separator",
+   "category": "road",
+   "status_2026": "The 25 km Rajiv Gandhi Salai stretch from Siruseri to Mamallapuram is being widened to six lanes, including bypasses at Kelambakkam and Thiruporur; GoTN sanctioned Rs 465.13 crore for acquiring 88.62 ha across 13 villages, with acquisition complete in 9 villages and ongoing in 4 as of the latest highways department updates. A grade separator/flyover at Sholinganallur (tied to the metro interchange hub design) is planned to ease access to Karapakkam, Medavakkam, Semmancheri and ECR.",
+   "expected_completion": "Unclear — land acquisition still in progress as of 2025-26; no firm completion date published",
+   "impact_localities": [
+    "Siruseri",
+    "Kelambakkam",
+    "Padur",
+    "Thaiyur",
+    "Thiruporur",
+    "Mamallapuram",
+    "Sholinganallur"
+   ],
+   "geometry": {
+    "type": "polyline",
+    "precision": "approximate",
+    "waypoints": [
+     {
+      "lat": 12.826,
+      "lng": 80.219
+     },
+     {
+      "lat": 12.787,
+      "lng": 80.22
+     },
+     {
+      "lat": 12.755,
+      "lng": 80.2
+     },
+     {
+      "lat": 12.72,
+      "lng": 80.19
+     },
+     {
+      "lat": 12.66,
+      "lng": 80.19
+     },
+     {
+      "lat": 12.626,
+      "lng": 80.192
+     }
+    ]
+   },
+   "sources": [
+    "https://www.tnhighways.tn.gov.in/en/metro",
+    "https://www.kgbuilders.com/blog-details/sholinganallur-to-be-metro-hub-on-omr-chennai"
+   ],
+   "data_confidence": "medium",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "ECR Elevated Corridor (Thiruvanmiyur/Tidel Park – Uthandi) and ECR six-laning",
+   "category": "road",
+   "status_2026": "Tamil Nadu is planning a ~14.2 km elevated road on East Coast Road built on the median from near Tidel Park/Thiruvanmiyur to Uthandi, alongside six-laning of ECR through Neelankarai, Injambakkam and Sholinganallur villages (TNRDC project). As of 2026 this remains in planning/early-works stage — an announced project rather than one under full construction — so timelines are unclear.",
+   "expected_completion": null,
+   "impact_localities": [
+    "Thiruvanmiyur",
+    "Kottivakkam",
+    "Palavakkam",
+    "Neelankarai",
+    "Injambakkam",
+    "Akkarai",
+    "Uthandi",
+    "ECR beach-belt toward Muttukadu"
+   ],
+   "geometry": {
+    "type": "polyline",
+    "precision": "approximate",
+    "waypoints": [
+     {
+      "lat": 12.986,
+      "lng": 80.266
+     },
+     {
+      "lat": 12.966,
+      "lng": 80.262
+     },
+     {
+      "lat": 12.949,
+      "lng": 80.259
+     },
+     {
+      "lat": 12.916,
+      "lng": 80.255
+     },
+     {
+      "lat": 12.89,
+      "lng": 80.25
+     },
+     {
+      "lat": 12.867,
+      "lng": 80.246
+     }
+    ]
+   },
+   "sources": [
+    "https://infra.tractorjunction.com/en/news/tamilnadu-build-14-km-elevated-road-corridor-on-ecr",
+    "https://tnrdc.com/ecr/",
+    "https://tnrdc.com/ongoing-projects/"
+   ],
+   "data_confidence": "low-medium (announced; construction status and dates not confirmed)",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Oragadam–Sriperumbudur electronics & EV manufacturing belt (Foxconn/Tata Electronics/Pegatron cluster)",
+   "category": "industrial",
+   "status_2026": "The belt (22+ Fortune 500 firms, six global carmakers) is absorbing major 2024–26 electronics investments: Tata Electronics acquired Wistron's India operations (Mar 2024) and a controlling 60% stake in Pegatron Technology India (announced Jan 2025), consolidating iPhone assembly near Chennai; TN approved Foxconn subsidiary Yuzhan Technology's Rs 13,180 crore (~$1.6 bn) smartphone display module plant at ESR Oragadam Industrial & Logistics Park (~14,000 jobs), with a further iPhone-enclosures unit planned in the same park. Note: VinFast's Rs 16,000 crore EV plant, inaugurated 4 Aug 2025, is at SIPCOT Thoothukudi — southern TN, not the Chennai belt — despite frequent association with this corridor. TN reported over Rs 10 lakh crore ($120 bn) investment commitments 2021–25, much of it along this corridor.",
+   "expected_completion": "Foxconn display module plant ramp ~2026-27; cluster expansion ongoing",
+   "impact_localities": [
+    "Sriperumbudur",
+    "Oragadam",
+    "Sunguvarchatram",
+    "Vallam Vadagal",
+    "Singaperumal Koil",
+    "Maraimalai Nagar",
+    "Chengalpattu",
+    "Guduvancheri",
+    "Mannivakkam/Vandalur belt"
+   ],
+   "geometry": {
+    "type": "point",
+    "precision": "approximate",
+    "lat": 12.83,
+    "lng": 79.96
+   },
+   "sources": [
+    "https://www.tataelectronics.com/w/tata-electronics-announces-acquisition-of-majority-stake-in-pegatron-technology-india",
+    "https://www.india-briefing.com/news/sriperumbudur-industrial-corridor-investment-guide-42723.html/",
+    "https://www.business-standard.com/industry/news/foxconn-iphone-enclosure-manufacturing-oragadam-tamil-nadu-125062000343_1.html",
+    "https://www.businesstoday.in/tech-today/news/story/foxconn-to-expand-in-tamil-nadu-with-new-iphone-enclosures-unit-report-481205-2025-06-20",
+    "https://vinfastauto.in/en/press-release/vinfast-inaugurates-electric-vehicle-assembly-plant-in-tamil-nadu-india"
+   ],
+   "data_confidence": "high",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Chennai data center build-out (Ambattur & Siruseri campuses)",
+   "category": "industrial",
+   "status_2026": "Chennai's DC market (~202 MW in 2025, projected ~551 MW by 2030 at ~22% CAGR) is expanding on two poles: STT GDC opened STT Chennai 7 at Siruseri SIPCOT (7.2 MW live, campus designed for 45 MW, AI-ready) and broke ground on a new ~90 MW campus at Ambattur where it already has ~40 MW operational plus an 18 MW STT Chennai 4 under development; Equinix opened its first Chennai IBX (CN1) at Siruseri — AI-ready, liquid-cooling capable, 800 cabinets in phase 1 scaling to ~4,250. This anchors long-term commercial demand at both the OMR-south (Siruseri) and west-industrial (Ambattur) submarkets.",
+   "expected_completion": "Phased 2025–2030",
+   "impact_localities": [
+    "Siruseri",
+    "Navalur",
+    "Kelambakkam",
+    "Ambattur",
+    "Padi",
+    "Korattur",
+    "Mogappair"
+   ],
+   "geometry": {
+    "type": "point",
+    "precision": "approximate",
+    "lat": 12.826,
+    "lng": 80.219
+   },
+   "sources": [
+    "https://www.sttelemediagdc.com/in-en/locations/chennai",
+    "https://investor.equinix.com/news-events/press-releases/detail/1083/equinix-opens-first-ai-ready-data-center-in-chennai",
+    "https://www.datacenterdynamics.com/en/news/stt-gdc-india-launches-data-center-in-chennai-targets-potential-ipo/",
+    "https://x.com/UpdatesChennai/status/2025495949783752774"
+   ],
+   "data_confidence": "high",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "Chennai MRTS: Velachery–St. Thomas Mount extension and MRTS–CMRL merger",
+   "category": "rail",
+   "status_2026": "The long-pending 5 km MRTS extension from Velachery to St. Thomas Mount has completed civil works and load tests, with services reported set to begin around end-Dec 2025/Jan 2026, finally linking the Beach–Velachery elevated line to the Metro/suburban interchange at St. Thomas Mount. In parallel, the Railway Board gave in-principle approval to merge the 19.34 km MRTS into CMRL — transferring assets and operations from Southern Railway, with plans for 25 AC broad-gauge rakes, station modernisation and unified ticketing under CUMTA. Exact commissioning date of the extension and merger completion are not yet confirmed.",
+   "expected_completion": "Extension: ~early 2026 (reported, unconfirmed); merger/modernisation: multi-year, no firm date",
+   "impact_localities": [
+    "Velachery",
+    "Puzhuthivakkam",
+    "Adambakkam",
+    "St. Thomas Mount",
+    "Guindy",
+    "Taramani",
+    "Thiruvanmiyur (via existing MRTS)",
+    "Mylapore/Mandaveli"
+   ],
+   "geometry": {
+    "type": "stations",
+    "precision": "approximate",
+    "stations": [
+     {
+      "station": "Chennai Beach",
+      "lat": 13.088,
+      "lng": 80.288
+     },
+     {
+      "station": "Thirumayilai (Mylapore)",
+      "lat": 13.032,
+      "lng": 80.268
+     },
+     {
+      "station": "Thiruvanmiyur",
+      "lat": 12.985,
+      "lng": 80.26
+     },
+     {
+      "station": "Taramani",
+      "lat": 12.983,
+      "lng": 80.242
+     },
+     {
+      "station": "Velachery",
+      "lat": 12.976,
+      "lng": 80.221
+     },
+     {
+      "station": "St. Thomas Mount",
+      "lat": 12.994,
+      "lng": 80.196
+     }
+    ]
+   },
+   "sources": [
+    "https://metrorailtoday.com/news/railway-board-approves-in-principle-merger-of-mrts-with-chennai-metro-rail-system",
+    "https://www.dtnext.in/news/chennai/velachery-mount-mrts-extension-to-transform-lives-in-south-chennai-suburbs",
+    "https://www.travelandtourworld.com/news/article/indias-rail-revolution-takes-a-giant-leap-forward-as-chennais-mrts-extension-to-st-thomas-mount-set-for-grand-year-end-launch/"
+   ],
+   "data_confidence": "medium",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "name": "New SIPCOT industrial parks & TN industrial policy pipeline affecting the CMA",
+   "category": "industrial",
+   "status_2026": "SIPCOT has ~19 new industrial parks in the pipeline statewide, several inside or adjacent to the Chennai Metropolitan Area: Thirumudivakkam (Chennai), a ~1,500-acre park at Gummidipoondi (largest in the pipeline), plus new parks in Tiruvallur, Kancheepuram and Ranipet (Panapakkam) districts — layouts are being finalised and land assembly is underway. These sit alongside TN's broader 2021–25 investment drive (Rs 10+ lakh crore commitments via successive Global Investors Meets) and existing SIPCOT expansions at Siruseri IT Park, Oragadam and Vallam Vadagal; individual park commissioning dates are not yet published.",
+   "expected_completion": null,
+   "impact_localities": [
+    "Thirumudivakkam",
+    "Gummidipoondi",
+    "Ponneri",
+    "Tiruvallur",
+    "Kancheepuram",
+    "Panapakkam/Ranipet fringe",
+    "Oragadam",
+    "Vallam Vadagal"
+   ],
+   "geometry": {
+    "type": "point",
+    "precision": "approximate",
+    "lat": 12.978,
+    "lng": 80.108
+   },
+   "sources": [
+    "https://sipcotweb.tn.gov.in/Upcoming_parks",
+    "https://www.deccanherald.com/amp/story/india/tamil-nadu/tamil-nadu-plans-sipcot-industrial-estates-in-eight-locations-3085238",
+    "https://x.com/UpdatesChennai/status/1830618879187419260?lang=en",
+    "https://www.india-briefing.com/news/sriperumbudur-industrial-corridor-investment-guide-42723.html/"
+   ],
+   "data_confidence": "medium (pipeline confirmed; individual park timelines unclear)",
+   "last_checked": "2026-07-20"
+  }
+ ]
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏙️</text></svg>">
+<title>Methodology — Chennai Real Estate Intelligence</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <div class="brand">Chennai Real Estate Intelligence<small>Open-source RERA &amp; new-launch tracker</small></div>
+  <nav class="main">
+    <a href="index.html">Dashboard</a>
+    <a href="map.html">Map</a>
+    <a href="projects.html">Projects</a>
+    <a href="localities.html">Localities</a>
+    <a href="methodology.html" class="active">Methodology</a>
+  </nav>
+  <button class="theme-toggle" title="Toggle light/dark">◐</button>
+</div></header>
+
+<main class="wrap">
+  <h1>Methodology &amp; data sources</h1>
+  <p class="refreshed"></p>
+
+  <h2>What this is</h2>
+  <div class="card">
+    <p style="margin-top:0">An open-source aggregation of publicly reported information about new and upcoming
+    residential real estate projects in the Chennai Metropolitan Area. Data is researched with AI-assisted web
+    research (Claude), stored as plain JSON in the <a href="https://github.com/SnuggieMsk/rstate">GitHub repository</a>,
+    and refreshed on demand — every refresh is a reviewable git commit.</p>
+    <p style="margin-bottom:0"><strong>It is a shortlisting and research tool, not investment advice.</strong>
+    Prices, dates, and RERA details change; always verify on the official TN RERA portal and with the developer
+    before any transaction.</p>
+  </div>
+
+  <h2>Upside Score (0–100)</h2>
+  <div class="card">
+    <p style="margin-top:0">A transparent, rule-based composite. Each project's per-factor breakdown is stored in
+    the data and shown in the UI — no black box. Weights:</p>
+    <div class="table-scroll" style="border:none"><table>
+      <thead><tr><th>Factor</th><th class="num">Weight</th><th>What scores high</th></tr></thead>
+      <tbody>
+        <tr><td>Entry stage</td><td class="num">25</td><td>Pre-launch and just-registered projects (earliest entry, largest pricing headroom); near-possession scores lowest.</td></tr>
+        <tr><td>Infrastructure proximity</td><td class="num">20</td><td>Close to upcoming Metro Phase 2 stations, Peripheral Ring Road interchanges, the proposed Parandur airport, or major employment hubs.</td></tr>
+        <tr><td>Locality momentum</td><td class="num">20</td><td>Micro-market with rising prices, strong absorption, and multiple demand drivers.</td></tr>
+        <tr><td>Relative pricing</td><td class="num">15</td><td>Launch price at or below the locality's prevailing band.</td></tr>
+        <tr><td>Developer track record</td><td class="num">10</td><td>Established delivery history at scale; unknown or troubled developers score low.</td></tr>
+        <tr><td>Rental yield potential</td><td class="num">10</td><td>Locality rental yields near or above ~4%.</td></tr>
+      </tbody>
+    </table></div>
+    <p>Score bands used across the site: <span class="score score-band-4"><i></i>75+</span> highest upside ·
+    <span class="score score-band-3"><i></i>60–74</span> · <span class="score score-band-2"><i></i>45–59</span> ·
+    <span class="score score-band-1"><i></i>&lt;45</span>.</p>
+    <p style="margin-bottom:0">A high Upside Score is <em>not</em> a recommendation — it means the rule set found
+    more upside signals. Read it together with the Risk flag.</p>
+  </div>
+
+  <h2>Risk flag</h2>
+  <div class="card">
+    <p style="margin-top:0">Low / Medium / High, considering: RERA registration status (unregistered pre-launches
+    are automatically riskier — booking before registration is also legally restricted), developer history
+    (delays, litigation), flood-zone exposure (Pallikaranai, Perumbakkam, parts of Velachery, Mudichur/Tambaram
+    and low-lying OMR stretches are historically flood-prone), and micro-market oversupply.</p>
+    <p style="margin-bottom:0">Categories: <strong>Early Entrant</strong> (pre-launch/new launch),
+    <strong>High Upside</strong> (score ≥ 78), <strong>Steady/Rental</strong> (yield-led),
+    <strong>Premium</strong> (upper price band), <strong>Plotted/Land</strong>,
+    <strong>Watchlist/Risky</strong> (high risk flag).</p>
+  </div>
+
+  <h2>Data confidence levels</h2>
+  <div class="card">
+    <p style="margin-top:0"><strong>verified</strong> — sourced from the official TN RERA portal
+    (rera.tn.gov.in).<br>
+    <strong>reported</strong> — from news coverage, property portals (Magicbricks, Housing.com, 99acres,
+    Squareyards…), or developer announcements; RERA details not independently confirmed on the portal.<br>
+    <strong>estimated</strong> — inferred (e.g., price band from locality norms); treat as indicative only.</p>
+    <p style="margin-bottom:0">The TN RERA portal frequently blocks automated access; when it does, records are
+    built from secondary sources and marked accordingly. RERA numbers are shown only when actually found in a
+    source — they are never inferred. Coordinates are locality-level approximations unless marked exact.</p>
+  </div>
+
+  <h2>Refresh workflow</h2>
+  <div class="card">
+    <p style="margin-top:0">The repository contains a <code>CLAUDE.md</code> contract: opening a Claude Code
+    session in the repo and typing <code>refresh</code> re-runs the research, updates the JSON data files,
+    re-scores everything, and pushes a commit — GitHub Pages redeploys automatically. <code>deep refresh</code>
+    re-verifies every record; <code>refresh &lt;locality&gt;</code> updates one micro-market. The
+    <code>meta.json</code> change-log records what changed in each refresh.</p>
+    <p style="margin-bottom:0">Scoring is computed deterministically by <code>scripts/score.py</code> from the
+    raw fields, so a re-run with unchanged inputs produces unchanged scores.</p>
+  </div>
+
+  <h2>Primary sources</h2>
+  <div class="card">
+    <p style="margin-top:0;margin-bottom:0">TN RERA (rera.tn.gov.in) · CMRL (chennaimetrorail.org) · The Hindu ·
+    Times of India · Economic Times / ET Realty · Moneycontrol · DT Next · Magicbricks · Housing.com · 99acres ·
+    Squareyards · NoBroker · developer websites and press releases · Anarock / Knight Frank / CBRE market
+    reports. Every project, locality, and infrastructure record carries its own source URLs.</p>
+  </div>
+</main>
+
+<footer class="site"><div class="wrap">
+  <span class="refreshed"></span>
+  <span>Open-source research aggregation. <strong>Not financial advice.</strong> Verify all RERA details at <a href="https://rera.tn.gov.in" target="_blank" rel="noopener">rera.tn.gov.in</a> before transacting.</span>
+  <span>MIT licensed · <a href="https://github.com/SnuggieMsk/rstate" target="_blank" rel="noopener">Source on GitHub</a></span>
+</div></footer>
+
+<script src="assets/app.js"></script>
+<script>
+CRI.initTheme();
+CRI.loadJSON('meta.json').then(meta => CRI.setRefreshed(meta)).catch(() => {});
+</script>
+</body>
+</html>

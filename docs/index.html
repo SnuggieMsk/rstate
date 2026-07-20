@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏙️</text></svg>">
+<title>Chennai Real Estate Intelligence</title>
+<meta name="description" content="Open-source tracker of new RERA-registered projects, launches, and early-entry real estate opportunities in Chennai.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <div class="brand">Chennai Real Estate Intelligence<small>Open-source RERA &amp; new-launch tracker</small></div>
+  <nav class="main">
+    <a href="index.html" class="active">Dashboard</a>
+    <a href="map.html">Map</a>
+    <a href="projects.html">Projects</a>
+    <a href="localities.html">Localities</a>
+    <a href="methodology.html">Methodology</a>
+  </nav>
+  <button class="theme-toggle" title="Toggle light/dark">◐</button>
+</div></header>
+
+<main class="wrap">
+  <h1>Chennai new-launch &amp; early-entry tracker</h1>
+  <p class="sub">New RERA-registered projects, pre-launches, and micro-market signals across the Chennai Metropolitan Area — scored for investment upside with a transparent, rule-based method.</p>
+  <p class="refreshed"></p>
+
+  <div class="tiles" id="tiles"></div>
+
+  <h2>Top opportunities by Upside Score</h2>
+  <p class="sub">Click any row on the <a href="projects.html">Projects</a> page for the full score breakdown and sources.</p>
+  <div class="table-scroll"><table id="topTable">
+    <thead><tr>
+      <th>#</th><th>Project</th><th>Builder</th><th>Locality</th><th>Stage</th>
+      <th class="num">Price</th><th class="num">Score</th><th>Risk</th><th>Why</th>
+    </tr></thead>
+    <tbody></tbody>
+  </table></div>
+
+  <h2>Early entrants (pre-launch &amp; just registered)</h2>
+  <div class="table-scroll"><table id="earlyTable">
+    <thead><tr>
+      <th>Project</th><th>Builder</th><th>Locality</th><th>Stage</th>
+      <th class="num">Price</th><th class="num">Score</th><th>Confidence</th>
+    </tr></thead>
+    <tbody></tbody>
+  </table></div>
+
+  <h2>Market context</h2>
+  <div class="card" id="marketContext"></div>
+</main>
+
+<footer class="site"><div class="wrap">
+  <span class="refreshed"></span>
+  <span>Open-source research aggregation. <strong>Not financial advice.</strong> Verify all RERA details at <a href="https://rera.tn.gov.in" target="_blank" rel="noopener">rera.tn.gov.in</a> before transacting.</span>
+  <span>MIT licensed · <a href="https://github.com/SnuggieMsk/rstate" target="_blank" rel="noopener">Source on GitHub</a></span>
+</div></footer>
+
+<script src="assets/app.js"></script>
+<script>
+CRI.initTheme();
+CRI.loadAll().then(({ projects, localities, meta }) => {
+  CRI.setRefreshed(meta);
+  const active = projects.filter(p => p.status !== 'withdrawn');
+  const early = active.filter(p => (p.tags || []).includes('Early Entrant'));
+  const yearAgoQ = meta.new_this_refresh != null ? meta.new_this_refresh : null;
+  const scored = active.filter(p => p.upside_score != null);
+  const sortedScores = scored.map(p => p.upside_score).sort((a, b) => a - b);
+  const avg = sortedScores.length ? sortedScores[Math.floor(sortedScores.length / 2)] : null;
+
+  document.getElementById('tiles').innerHTML = [
+    ['Projects tracked', active.length, 'across the Chennai Metropolitan Area'],
+    ['Early entrants', early.length, 'pre-launch or newly registered'],
+    ['Micro-markets', localities.length, 'localities with price intelligence'],
+    ['Median Upside Score', avg == null ? '—' : avg, 'rule-based, 0–100 — see methodology'],
+  ].map(([k, v, s]) => `<div class="tile"><div class="k">${k}</div><div class="v">${v}</div><div class="s">${s}</div></div>`).join('');
+
+  const top = [...scored].sort((a, b) => b.upside_score - a.upside_score).slice(0, 10);
+  document.querySelector('#topTable tbody').innerHTML = top.map((p, i) =>
+    `<tr><td class="num">${i + 1}</td>
+     <td><strong>${p.name}</strong><br>${CRI.tagsHTML(p.tags)}</td>
+     <td>${p.promoter || '—'}</td><td>${p.locality}</td><td>${CRI.stageLabel(p.stage)}</td>
+     <td class="num">${CRI.priceHTML(p)}</td>
+     <td class="num">${CRI.scoreHTML(p.upside_score)}</td>
+     <td>${CRI.riskHTML(p.risk)}</td>
+     <td style="max-width:260px;font-size:12.5px;color:var(--text-secondary)">${p.score_rationale || ''}</td></tr>`
+  ).join('');
+
+  const earlySorted = [...early].sort((a, b) => (b.upside_score || 0) - (a.upside_score || 0)).slice(0, 15);
+  document.querySelector('#earlyTable tbody').innerHTML = earlySorted.map(p =>
+    `<tr><td><strong>${p.name}</strong></td><td>${p.promoter || '—'}</td><td>${p.locality}</td>
+     <td>${CRI.stageLabel(p.stage)}</td><td class="num">${CRI.priceHTML(p)}</td>
+     <td class="num">${CRI.scoreHTML(p.upside_score)}</td><td>${CRI.confHTML(p.data_confidence)}</td></tr>`
+  ).join('');
+
+  const mc = meta.market_context || {};
+  document.getElementById('marketContext').innerHTML =
+    (mc.summary ? `<p style="margin-top:0">${mc.summary}</p>` : '') +
+    (mc.points || []).map(pt => `<p style="margin:6px 0">• ${pt}</p>`).join('') +
+    (mc.sources && mc.sources.length ? `<p class="conf" style="margin-bottom:0">Sources: ${CRI.sourcesHTML(mc.sources)}</p>` : '');
+}).catch(e => {
+  document.getElementById('tiles').innerHTML = '<div class="card">Could not load data files: ' + e.message + '</div>';
+});
+</script>
+</body>
+</html>
