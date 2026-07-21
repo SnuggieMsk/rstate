@@ -208,6 +208,67 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 .trend-stable { color: var(--text-secondary); }
 .trend-soft { color: var(--status-critical); }
 
+/* Persona lens bar */
+.persona-bar { background: var(--surface-1); border-bottom: 1px solid var(--border); }
+.persona-bar .wrap { display: flex; align-items: center; gap: 8px; padding: 7px 20px; flex-wrap: wrap; }
+.persona-bar .pb-label { font-size: 12px; color: var(--text-muted); }
+.persona-bar button {
+  font: inherit; font-size: 12.5px; font-weight: 600; cursor: pointer;
+  padding: 5px 12px; border-radius: 999px; border: 1px solid var(--baseline);
+  background: var(--surface-1); color: var(--text-secondary);
+}
+.persona-bar button.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+/* Tier badges */
+.tier { display: inline-block; font-size: 10.5px; font-weight: 700; letter-spacing: .03em;
+  padding: 2px 8px; border-radius: 999px; text-transform: uppercase; }
+.tier-Prime { background: var(--score-4); color: #fff; }
+.tier-Established { background: var(--score-2); color: #fff; }
+.tier-Growth { background: var(--grid); color: var(--text-primary); }
+.tier-Emerging { background: transparent; border: 1px solid var(--baseline); color: var(--text-secondary); }
+
+/* Deals page */
+.deal-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 14px; }
+.deal-card h3 { margin: 0 0 2px; font-size: 15px; }
+.deal-card .reserve { font-size: 21px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.deal-card.expired { opacity: .55; }
+.discount { display: inline-flex; align-items: center; gap: 6px; font-weight: 700; }
+.discount i { width: 10px; height: 10px; border-radius: 3px; background: var(--success-text); display: inline-block; }
+.disc-bar { height: 8px; background: var(--grid); border-radius: 4px; overflow: hidden; margin: 6px 0; }
+.disc-bar > span { display: block; height: 100%; background: var(--success-text); }
+.dd-flag { display: inline-block; font-size: 11px; font-weight: 600; padding: 2px 8px; margin: 1px 3px 1px 0;
+  border-radius: 999px; border: 1px solid var(--status-serious); color: var(--status-serious); }
+.deal-notice { border-left: 3px solid var(--status-warning); padding: 10px 14px; font-size: 12.5px;
+  background: var(--surface-1); border-radius: 0 10px 10px 0; margin: 14px 0; color: var(--text-secondary); }
+
+/* Locality explorer */
+.loc-search { width: 100%; max-width: 380px; }
+
+/* Compare drawer */
+.cmp-bar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 1200;
+  background: var(--surface-1); border-top: 1px solid var(--border);
+  padding: 9px 20px; display: none; align-items: center; gap: 12px; font-size: 13px; }
+.cmp-bar.show { display: flex; }
+.cmp-bar button { font: inherit; font-size: 12.5px; font-weight: 600; cursor: pointer;
+  padding: 6px 14px; border-radius: 8px; border: 1px solid var(--accent);
+  background: var(--accent); color: #fff; }
+.cmp-bar button.ghost { background: transparent; color: var(--accent); }
+.cmp-overlay { position: fixed; inset: 0; z-index: 1300; background: rgba(0,0,0,.45); display: none;
+  align-items: flex-start; justify-content: center; overflow: auto; padding: 30px 12px; }
+.cmp-overlay.show { display: flex; }
+.cmp-sheet { background: var(--page); border-radius: 14px; max-width: 1080px; width: 100%; padding: 22px; }
+.cmp-sheet table { background: var(--surface-1); border-radius: 10px; }
+.cmp-sheet th:first-child, .cmp-sheet td:first-child { color: var(--text-muted); font-size: 12px; width: 150px; }
+
+/* Print brief */
+@media print {
+  header.site, .persona-bar, .filters, footer.site, .theme-toggle, .cmp-bar, .map-controls { display: none !important; }
+  body { background: #fff; color: #000; }
+  .cmp-overlay { position: static; display: block !important; background: none; padding: 0; }
+  .cmp-sheet { box-shadow: none; max-width: none; }
+  a { color: #000; text-decoration: none; }
+}
+
 footer.site {
   margin-top: 48px; padding: 20px 0 34px; border-top: 1px solid var(--border);
   font-size: 12px; color: var(--text-muted);

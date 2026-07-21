@@ -14,6 +14,7 @@
     <a href="index.html">Dashboard</a>
     <a href="map.html">Map</a>
     <a href="projects.html" class="active">Projects</a>
+    <a href="deals.html">Deals</a>
     <a href="localities.html">Localities</a>
     <a href="methodology.html">Methodology</a>
   </nav>
@@ -39,19 +40,20 @@
 
   <div class="table-scroll"><table id="projTable">
     <thead><tr>
+      <th></th>
       <th data-k="name">Project</th>
       <th data-k="promoter">Builder</th>
       <th data-k="locality">Locality</th>
       <th data-k="type">Type</th>
       <th data-k="stage">Stage</th>
       <th data-k="rera_no">RERA no.</th>
-      <th class="num" data-k="price_sqft_min">Price</th>
+      <th class="num" data-k="ticket_min_lakh">Ticket size</th>
       <th class="num" data-k="upside_score">Score ▾</th>
       <th data-k="risk">Risk</th>
     </tr></thead>
     <tbody></tbody>
   </table></div>
-  <p class="conf">Click a row to expand the score breakdown, notes, and sources. RERA numbers shown only when found in a source — always verify at <a href="https://rera.tn.gov.in" target="_blank" rel="noopener">rera.tn.gov.in</a>.</p>
+  <p class="conf">Click a row to expand the score breakdown, notes, and sources. Tick the checkbox to add up to 3 projects to the compare drawer. RERA numbers shown only when found in a source — always verify at <a href="https://rera.tn.gov.in" target="_blank" rel="noopener">rera.tn.gov.in</a>.</p>
 </main>
 
 <footer class="site"><div class="wrap">
@@ -63,7 +65,8 @@
 <script src="assets/app.js"></script>
 <script>
 CRI.initTheme();
-let ALL = [], sortKey = 'upside_score', sortDir = -1;
+CRI.initPersonaBar(() => render());
+let ALL = [], sortKey = 'upside_score', sortDir = -1, refreshCmp = null;
 
 function fill(sel, values) {
   const el = document.getElementById(sel);
@@ -81,10 +84,16 @@ function currentFilter() {
   const rsk = document.getElementById('fRisk').value;
   const sc = document.getElementById('fScore').value;
   return ALL.filter(p =>
+    CRI.matchesPersona(p) &&
     (!q || (p.name + ' ' + (p.promoter || '') + ' ' + p.locality).toLowerCase().includes(q)) &&
     (!cor || p.corridor === cor) && (!typ || p.type === typ) &&
     (!stg || p.stage === stg) && (!cat || (p.tags || []).includes(cat)) &&
     (!rsk || p.risk === rsk) && (!sc || (p.upside_score != null && p.upside_score >= +sc)));
+}
+
+function priceCell(p) {
+  const t = CRI.ticketHTML(p);
+  return t ? t + '<br><span class="conf">' + CRI.priceHTML(p) + '</span>' : CRI.priceHTML(p);
 }
 
 function render() {
@@ -96,20 +105,29 @@ function render() {
     return (av < bv ? -1 : av > bv ? 1 : 0) * sortDir;
   });
   document.getElementById('fCount').textContent = rows.length + ' of ' + ALL.length + ' projects';
+  const cmp = CRI.compareList();
   document.querySelector('#projTable tbody').innerHTML = rows.map((p, i) =>
     `<tr data-i="${i}" data-id="${p.id}" style="cursor:pointer">
+      <td onclick="event.stopPropagation()"><input type="checkbox" data-cmp="${p.id}" ${cmp.includes(p.id) ? 'checked' : ''}></td>
       <td><strong>${p.name}</strong><br>${CRI.tagsHTML(p.tags)}</td>
       <td>${p.promoter || '—'}</td>
       <td>${p.locality}<br><span class="conf">${p.corridor || ''}</span></td>
       <td>${p.type || '—'}</td>
       <td>${CRI.stageLabel(p.stage)}</td>
       <td>${p.rera_no ? p.rera_no : '<span class="conf">not found</span>'}<br>${CRI.confHTML(p.data_confidence)}</td>
-      <td class="num">${CRI.priceHTML(p)}</td>
+      <td class="num">${priceCell(p)}</td>
       <td class="num">${CRI.scoreHTML(p.upside_score)}</td>
       <td>${CRI.riskHTML(p.risk)}</td>
-    </tr>`).join('');
+    </tr>`).join('') || '<tr><td colspan="10" class="conf">No projects match this lens and filters.</td></tr>';
 
-  document.querySelectorAll('#projTable tbody tr').forEach(tr => {
+  document.querySelectorAll('#projTable [data-cmp]').forEach(cb => {
+    cb.addEventListener('change', () => {
+      if (!CRI.toggleCompare(cb.dataset.cmp)) { cb.checked = false; alert('Compare up to 3 projects at a time.'); }
+      if (refreshCmp) refreshCmp();
+    });
+  });
+
+  document.querySelectorAll('#projTable tbody tr[data-id]').forEach(tr => {
     tr.addEventListener('click', () => {
       const exist = tr.nextElementSibling;
       if (exist && exist.classList.contains('detail')) { exist.remove(); return; }
@@ -117,12 +135,15 @@ function render() {
       const p = ALL.find(x => x.id === tr.dataset.id);
       const d = document.createElement('tr');
       d.className = 'detail';
-      d.innerHTML = `<td colspan="9" style="background:var(--page)">
+      d.innerHTML = `<td colspan="10" style="background:var(--page)">
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;max-width:960px">
           <div><strong>Score breakdown</strong>${CRI.breakdownHTML(p)}
-            <p style="font-size:12.5px;color:var(--text-secondary)">${p.score_rationale || ''}</p></div>
+            <p style="font-size:12.5px;color:var(--text-secondary)">${p.score_rationale || ''}</p>
+            <p style="font-size:12px">Segment fit — Boardroom ${p.segment_fit?.boardroom ?? 0} ·
+              Executive ${p.segment_fit?.executive ?? 0} · Value ${p.segment_fit?.value ?? 0}</p></div>
           <div style="font-size:12.5px">
-            ${p.total_units ? '<p style="margin:2px 0"><strong>Units:</strong> ' + CRI.fmtN(p.total_units) + '</p>' : ''}
+            ${p.config_mix ? '<p style="margin:2px 0"><strong>Configuration:</strong> ' + p.config_mix + '</p>' : ''}
+            ${p.total_units ? '<p style="margin:2px 0"><strong>Units:</strong> ' + CRI.fmtN(p.total_units) + (p.density_note ? ' — ' + p.density_note : '') + '</p>' : ''}
             ${p.expected_completion ? '<p style="margin:2px 0"><strong>Expected completion:</strong> ' + p.expected_completion + '</p>' : ''}
             ${p.registration_date ? '<p style="margin:2px 0"><strong>Registered/announced:</strong> ' + p.registration_date + '</p>' : ''}
             ${p.notes ? '<p style="margin:6px 0;color:var(--text-secondary)">' + p.notes + '</p>' : ''}
@@ -137,6 +158,7 @@ function render() {
 CRI.loadAll().then(({ projects, meta }) => {
   CRI.setRefreshed(meta);
   ALL = projects.filter(p => p.status !== 'withdrawn');
+  refreshCmp = CRI.initCompareBar(ALL);
   fill('fCorridor', ALL.map(p => p.corridor));
   fill('fType', ALL.map(p => p.type));
   fill('fStage', ALL.map(p => p.stage));
@@ -146,7 +168,7 @@ CRI.loadAll().then(({ projects, meta }) => {
   document.querySelectorAll('#projTable th').forEach(th =>
     th.addEventListener('click', () => {
       const k = th.dataset.k; if (!k) return;
-      if (sortKey === k) sortDir *= -1; else { sortKey = k; sortDir = k === 'upside_score' || k === 'price_sqft_min' ? -1 : 1; }
+      if (sortKey === k) sortDir *= -1; else { sortKey = k; sortDir = k === 'upside_score' || k === 'ticket_min_lakh' ? -1 : 1; }
       document.querySelectorAll('#projTable th').forEach(h => h.innerHTML = h.innerHTML.replace(/ <span class="dir">.*<\/span>/, ''));
       th.innerHTML += ` <span class="dir">${sortDir === 1 ? '▴' : '▾'}</span>`;
       render();

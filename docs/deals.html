@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏙️</text></svg>">
+<title>Deals & Distressed — Chennai Real Estate Intelligence</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <div class="brand">Chennai Real Estate Intelligence<small>Open-source RERA &amp; new-launch tracker</small></div>
+  <nav class="main">
+    <a href="index.html">Dashboard</a>
+    <a href="map.html">Map</a>
+    <a href="projects.html">Projects</a>
+    <a href="deals.html" class="active">Deals</a>
+    <a href="localities.html">Localities</a>
+    <a href="methodology.html">Methodology</a>
+  </nav>
+  <button class="theme-toggle" title="Toggle light/dark">◐</button>
+</div></header>
+
+<main class="wrap">
+  <h1>Deals &amp; distressed assets</h1>
+  <p class="sub">Bank e-auction properties (SARFAESI), stalled projects, and insolvency opportunities across the Chennai Metropolitan Area, with reserve prices compared to our locality price bands.</p>
+  <p class="refreshed"></p>
+
+  <div class="deal-notice"><strong>⚠ Legal due diligence is mandatory.</strong> Auction and distressed
+  purchases carry title, litigation, occupancy, and dues risks that this tracker cannot verify.
+  "Symbolic possession" means the occupants may still be in the property. Always run an independent
+  lawyer's title search, inspect the original bank notice, and verify dues before bidding. Discount
+  figures compare the reserve price to our locality band midpoint — they are indicative, not appraisals.</div>
+
+  <h2>Bank e-auctions</h2>
+  <div class="filters">
+    <select id="fType"><option value="">All asset types</option></select>
+    <select id="fStatus">
+      <option value="active">Upcoming auctions</option>
+      <option value="">All (incl. past-date)</option>
+    </select>
+    <select id="fSort">
+      <option value="discount">Sort: biggest discount</option>
+      <option value="date">Sort: auction date</option>
+      <option value="price">Sort: reserve price</option>
+    </select>
+    <span class="count" id="fCount"></span>
+  </div>
+  <div class="deal-grid" id="auctionGrid"></div>
+
+  <h2>Stalled projects, insolvencies &amp; revivals</h2>
+  <p class="sub">Developers in NCLT/CIRP, stalled towers, and revival-scheme projects — bulk-deal and resolution opportunities, mostly for experienced or institutional buyers.</p>
+  <div id="stalledList"></div>
+</main>
+
+<footer class="site"><div class="wrap">
+  <span class="refreshed"></span>
+  <span>Open-source research aggregation. <strong>Not financial advice.</strong> Verify all RERA details at <a href="https://rera.tn.gov.in" target="_blank" rel="noopener">rera.tn.gov.in</a> before transacting.</span>
+  <span>MIT licensed · <a href="https://github.com/SnuggieMsk/rstate" target="_blank" rel="noopener">Source on GitHub</a></span>
+</div></footer>
+
+<script src="assets/app.js"></script>
+<script>
+CRI.initTheme();
+CRI.initPersonaBar();
+let AUC = [], TODAY = new Date().toISOString().slice(0, 10);
+
+function render() {
+  const typ = document.getElementById('fType').value;
+  const st = document.getElementById('fStatus').value;
+  const sort = document.getElementById('fSort').value;
+  let rows = AUC.filter(d =>
+    (!typ || d.asset_type === typ) &&
+    (!st || !d.auction_date || d.auction_date >= TODAY));
+  rows.sort((a, b) => {
+    if (sort === 'date') return (a.auction_date || '9999') < (b.auction_date || '9999') ? -1 : 1;
+    if (sort === 'price') return (a.reserve_price_inr || 9e12) - (b.reserve_price_inr || 9e12);
+    return (b.discount_pct ?? -99) - (a.discount_pct ?? -99);
+  });
+  document.getElementById('fCount').textContent = rows.length + ' of ' + AUC.length + ' listings';
+  document.getElementById('auctionGrid').innerHTML = rows.map(d => {
+    const expired = d.auction_date && d.auction_date < TODAY;
+    const days = d.auction_date ? Math.ceil((new Date(d.auction_date) - new Date(TODAY)) / 86400000) : null;
+    return `<div class="card deal-card${expired ? ' expired' : ''}">
+      <h3>${d.title}</h3>
+      <div class="conf">${d.locality} · ${d.asset_type}${d.bank ? ' · ' + d.bank : ''}</div>
+      <div class="reserve">${CRI.money(d.reserve_price_inr)} <span class="conf">reserve</span></div>
+      ${d.discount_pct != null ? `
+        <div class="discount"><i></i>~${d.discount_pct}% below locality band</div>
+        <div class="disc-bar"><span style="width:${Math.min(Math.max(d.discount_pct, 0), 80)}%"></span></div>
+        <div class="conf">${d.value_note || ''}</div>` : '<div class="conf">No band comparison (plot/land or area unknown)</div>'}
+      <p style="font-size:12.5px;margin:8px 0 4px">
+        ${d.auction_date ? '<strong>Auction:</strong> ' + d.auction_date +
+          (expired ? ' <span class="conf">(date passed — watch for re-auction)</span>'
+                   : days != null ? ` <strong style="color:var(--accent)">(${days}d)</strong>` : '') + '<br>' : ''}
+        ${d.area_sqft ? '<strong>Area:</strong> ' + CRI.fmtN(d.area_sqft) + ' sqft · ' : ''}
+        <strong>Possession:</strong> ${d.possession || 'unknown'}
+        ${d.emd_inr ? ' · <strong>EMD:</strong> ' + CRI.money(d.emd_inr) : ''}</p>
+      ${d.possession === 'symbolic' ? '<span class="dd-flag">⚠ symbolic possession — occupancy risk</span>' : ''}
+      <span class="dd-flag">title search required</span>
+      <p class="conf" style="margin:8px 0 0">Sources: ${CRI.sourcesHTML(d.sources)} · last checked ${d.last_checked || '—'}</p>
+    </div>`;
+  }).join('');
+}
+
+CRI.loadAll().then(({ distressed, meta }) => {
+  CRI.setRefreshed(meta);
+  AUC = distressed.filter(d => d.record_type === 'auction');
+  const stalled = distressed.filter(d => d.record_type !== 'auction');
+  const typeSel = document.getElementById('fType');
+  [...new Set(AUC.map(d => d.asset_type).filter(Boolean))].sort().forEach(v => {
+    const o = document.createElement('option'); o.textContent = v; typeSel.appendChild(o);
+  });
+  ['fType', 'fStatus', 'fSort'].forEach(id => document.getElementById(id).addEventListener('input', render));
+  render();
+
+  document.getElementById('stalledList').innerHTML = stalled.map(d => `
+    <div class="card">
+      <h3 style="margin:0 0 2px;font-size:15px">${d.name}
+        <span class="tag">${(d.record_type || '').replace(/-/g, ' ')}</span></h3>
+      <div class="conf">${d.locality || ''}</div>
+      <p style="font-size:13px;margin:8px 0">${d.status_2026 || ''}</p>
+      ${d.opportunity_note ? '<p style="font-size:12.5px;margin:6px 0"><strong>Opportunity:</strong> ' + d.opportunity_note + '</p>' : ''}
+      ${d.risk_note ? '<p style="font-size:12.5px;margin:6px 0;color:var(--status-critical)"><strong>Risks:</strong> ' + d.risk_note + '</p>' : ''}
+      <p class="conf" style="margin:6px 0 0">${d.data_confidence || ''} · Sources: ${CRI.sourcesHTML(d.sources)}</p>
+    </div>`).join('') || '<p class="conf">No stalled/insolvency records yet.</p>';
+});
+</script>
+</body>
+</html>

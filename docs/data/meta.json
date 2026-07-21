@@ -31,6 +31,10 @@
  "changelog": [
   {
    "date": "2026-07-20",
+   "note": "Major expansion: added three client-lens personas (Boardroom ₹3Cr+, Executive ₹1-2.5Cr, Value & Distressed) with per-project segment-fit scoring; expanded locality coverage from 33 to 129 areas across every Chennai zone (North, Central, West, Southwest, South, OMR, ECR, GST Road, far periphery) with locality tiers (Prime/Established/Growth/Emerging); added a Deals page tracking 30 bank e-auction listings (SARFAESI) with discount-to-market calculations and 12 stalled/ insolvent-project records (NCLT/CIRP, TNRERA revocations, SWAMIH revivals); enriched 35 projects with configuration mix and ticket-size ranges; added a compare drawer (up to 3 projects) with print-to-PDF brief view."
+  },
+  {
+   "date": "2026-07-20",
    "note": "RERA verification pass via TNRERA mirror (Proquiro, accessed through web unlocker): 4 missing RERA numbers found (DRA iHEART, Harmonia Pavilion, L&T Avinya Enclave, Navins Mayura Gardens), 12 existing numbers independently confirmed. Official portal (rera.tn.gov.in) remains inaccessible to automation."
   },
   {

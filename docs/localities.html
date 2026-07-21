@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏙️</text></svg>">
-<title>Localities — Chennai Real Estate Intelligence</title>
+<title>Locality Explorer — Chennai Real Estate Intelligence</title>
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -14,6 +14,7 @@
     <a href="index.html">Dashboard</a>
     <a href="map.html">Map</a>
     <a href="projects.html">Projects</a>
+    <a href="deals.html">Deals</a>
     <a href="localities.html" class="active">Localities</a>
     <a href="methodology.html">Methodology</a>
   </nav>
@@ -21,15 +22,18 @@
 </div></header>
 
 <main class="wrap">
-  <h1>Micro-market intelligence</h1>
-  <p class="sub">Price bands, trend direction, rental yields, and demand drivers for Chennai's key residential corridors.</p>
+  <h1>Locality Explorer</h1>
+  <p class="sub">Price bands, trend direction, rental yields, and demand drivers across every zone of the Chennai Metropolitan Area — from the city core to the far periphery.</p>
   <p class="refreshed"></p>
 
   <div class="filters">
-    <select id="fCorridor"><option value="">All corridors</option></select>
+    <input type="search" id="fSearch" class="loc-search" placeholder="Search locality…">
+    <select id="fZone"><option value="">All zones</option></select>
+    <select id="fTier"><option value="">Any tier</option>
+      <option>Prime</option><option>Established</option><option>Growth</option><option>Emerging</option></select>
     <select id="fTrend"><option value="">Any trend</option>
       <option value="rising-fast">Rising fast</option><option value="rising">Rising</option>
-      <option value="stable">Stable</option><option value="soft">Soft</option></select>
+      <option value="stable">Stable</option><option value="soft">Soft</option><option value="falling">Falling</option><option value="cooling">Cooling</option></select>
     <select id="fFlood"><option value="">Any flood risk</option>
       <option value="low">Low flood risk</option><option value="medium">Medium flood risk</option>
       <option value="high">High flood risk</option></select>
@@ -48,23 +52,33 @@
 <script src="assets/app.js"></script>
 <script>
 CRI.initTheme();
-let LOCS = [], PROJ = [];
-const TREND_LABEL = { 'rising-fast': '▲▲ Rising fast', rising: '▲ Rising', stable: '● Stable', soft: '▽ Soft' };
+CRI.initPersonaBar(() => render());
+let LOCS = [], PROJ = [], DEALS = [];
+const TREND_LABEL = { 'rising-fast': '▲▲ Rising fast', rising: '▲ Rising', stable: '● Stable',
+  soft: '▽ Soft', falling: '▼ Falling', cooling: '▽ Cooling' };
+const PERSONA_SEG = { boardroom: 'boardroom', executive: 'executive', value: 'value' };
 
 function render() {
-  const cor = document.getElementById('fCorridor').value;
+  const q = document.getElementById('fSearch').value.toLowerCase();
+  const zone = document.getElementById('fZone').value;
+  const tier = document.getElementById('fTier').value;
   const tr = document.getElementById('fTrend').value;
   const fl = document.getElementById('fFlood').value;
+  const persona = CRI.persona();
   const rows = LOCS.filter(l =>
-    (!cor || l.corridor === cor) && (!tr || l.trend === tr) && (!fl || l.flood_risk === fl));
+    (!q || l.name.toLowerCase().includes(q)) &&
+    (!zone || l.corridor === zone) && (!tier || l.tier === tier) &&
+    (!tr || l.trend === tr) && (!fl || l.flood_risk === fl) &&
+    (persona === 'all' || (l.segment_fit || []).includes(PERSONA_SEG[persona])));
   document.getElementById('fCount').textContent = rows.length + ' of ' + LOCS.length + ' localities';
   document.getElementById('locGrid').innerHTML = rows.map(l => {
     const here = PROJ.filter(p => p.locality === l.name && p.status !== 'withdrawn');
+    const deals = DEALS.filter(d => d.record_type === 'auction' && d.band_locality === l.name);
     const band = l.price_band_min && l.price_band_max
       ? `₹${CRI.fmtN(l.price_band_min)}–${CRI.fmtN(l.price_band_max)}/sqft`
       : (l.price_band_min ? `₹${CRI.fmtN(l.price_band_min)}/sqft` : '—');
     return `<div class="card loc-card">
-      <h3>${l.name}${l.corridor && l.corridor !== l.name ? ' <span class="conf">· ' + l.corridor + '</span>' : ''}</h3>
+      <h3>${CRI.tierBadge(l.tier)} ${l.name}${l.corridor && l.corridor !== l.name ? ' <span class="conf">· ' + l.corridor + '</span>' : ''}</h3>
       <div class="price">${band}</div>
       <div class="trend trend-${l.trend || 'stable'}">${TREND_LABEL[l.trend] || l.trend || ''}</div>
       <p style="font-size:12.5px;color:var(--text-secondary);margin:6px 0">${l.trend_note || ''}</p>
@@ -72,23 +86,26 @@ function render() {
         ${l.rental_yield_pct != null ? '<strong>Yield:</strong> ~' + l.rental_yield_pct + '% · ' : ''}
         <strong>Flood risk:</strong> ${l.flood_risk || 'unknown'}
         ${l.supply_note ? ' · ' + l.supply_note : ''}</p>
-      <p style="margin:6px 0">${(l.demand_drivers || []).map(d => '<span class="tag">' + d + '</span>').join('')}</p>
+      <p style="margin:6px 0">${(l.demand_drivers || []).slice(0, 5).map(d => '<span class="tag">' + d + '</span>').join('')}</p>
       ${here.length ? `<p style="font-size:12.5px;margin:6px 0"><strong>Tracked projects here (${here.length}):</strong> ` +
         here.map(p => p.name).join(', ') + '</p>' : ''}
+      ${deals.length ? `<p style="font-size:12.5px;margin:6px 0"><a href="deals.html"><strong>${deals.length} bank auction listing${deals.length > 1 ? 's' : ''} here →</strong></a></p>` : ''}
       <p class="conf" style="margin:6px 0 0">${l.data_confidence || ''} · Sources: ${CRI.sourcesHTML(l.sources)}</p>
     </div>`;
-  }).join('');
+  }).join('') || '<p class="conf">No localities match these filters.</p>';
 }
 
-CRI.loadAll().then(({ localities, projects, meta }) => {
+CRI.loadAll().then(({ localities, projects, distressed, meta }) => {
   CRI.setRefreshed(meta);
   LOCS = [...localities].sort((a, b) => (b.price_band_max || 0) - (a.price_band_max || 0));
   PROJ = projects;
-  const el = document.getElementById('fCorridor');
+  DEALS = distressed;
+  const zoneSel = document.getElementById('fZone');
   [...new Set(LOCS.map(l => l.corridor).filter(Boolean))].sort().forEach(v => {
-    const o = document.createElement('option'); o.textContent = v; el.appendChild(o);
+    const o = document.createElement('option'); o.textContent = v; zoneSel.appendChild(o);
   });
-  ['fCorridor', 'fTrend', 'fFlood'].forEach(id => document.getElementById(id).addEventListener('input', render));
+  ['fSearch', 'fZone', 'fTier', 'fTrend', 'fFlood'].forEach(id =>
+    document.getElementById(id).addEventListener('input', render));
   render();
 });
 </script>

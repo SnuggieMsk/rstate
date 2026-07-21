@@ -1,23 +1,24 @@
 #!/usr/bin/env python3
-"""Deterministic Upside Score computation for Chennai Real Estate Intelligence.
+"""Deterministic scoring for Chennai Real Estate Intelligence.
 
-Reads docs/data/projects.json, localities.json, infrastructure.json and rewrites
-projects.json in place with upside_score, score_breakdown, risk, tags, and
-score_rationale recomputed from the raw fields. Re-running with unchanged inputs
-produces unchanged output, so every refresh stays reviewable as a clean diff.
+Reads docs/data/{projects,localities,infrastructure,distressed}.json and rewrites
+projects.json, localities.json, and distressed.json in place with computed fields:
+  projects:   upside_score, score_breakdown, risk, tags, score_rationale,
+              segment_fit {boardroom, executive, value}
+  localities: tier (Prime/Established/Growth/Emerging)
+  distressed: discount_pct (auction reserve vs locality price band), value_note
+Re-running with unchanged inputs produces unchanged output.
 
 Usage: python3 scripts/score.py
 """
 import json
 import math
 import os
+import re
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 DATA = os.path.join(ROOT, 'docs', 'data')
 
-# Developer tiers drive the track-record factor. Tier 1: large, established
-# delivery record at scale. Tier 2: established regional players. Anyone not
-# listed is tier 3 (unknown/small — scores low, risk-flagged).
 TIER1 = {
     'casagrand', 'prestige', 'brigade', 'godrej', 'tvs emerald', 'appaswamy',
     'sobha', 'l&t realty', 'mahindra', 'puravankara', 'provident', 'dlf',
@@ -26,18 +27,27 @@ TIER1 = {
 TIER2 = {
     'radiance', 'dra', 'urbanrise', 'alliance', 'shriram', 'jain housing',
     'jains', 'vgn', 'g square', 'akshaya', 'dac', 'baashyaam', 'lancor',
-    'ceebros', 'navins', 'arihant', 'olympia', 'kg ', 'spr', 'emerald haven',
+    'ceebros', 'navins', 'navin', 'arihant', 'olympia', 'kg ', 'spr',
+    'emerald haven',
 }
 
 STAGE_POINTS = {
     'pre-launch': 25, 'new-launch': 21, 'under-construction': 12,
     'nearing-possession': 5, 'completed': 2,
 }
-TREND_POINTS = {'rising-fast': 20, 'rising': 15, 'stable': 9, 'soft': 3}
+TREND_POINTS = {'rising-fast': 20, 'rising': 15, 'stable': 9, 'soft': 3,
+                'cooling': 6, 'falling': 2}
+
+# Boardroom = ₹3Cr+ exclusive 3-4BHK; Executive = ₹1-2.5Cr 2-3BHK; thresholds in lakh.
+BOARDROOM_TICKET_LAKH = 300
+EXEC_TICKET_RANGE = (90, 260)
 
 
 def load(name):
-    with open(os.path.join(DATA, name)) as f:
+    p = os.path.join(DATA, name)
+    if not os.path.exists(p):
+        return None
+    with open(p) as f:
         return json.load(f)
 
 
@@ -79,15 +89,19 @@ def developer_tier(promoter):
     return 3
 
 
-def pricing_points(p, loc):
+def pricing_ratio(p, loc):
     pmin, pmax = p.get('price_sqft_min'), p.get('price_sqft_max')
     if pmin is None or not loc or loc.get('price_band_min') is None or loc.get('price_band_max') is None:
-        return 7
-    proj_mid = (pmin + (pmax or pmin)) / 2
+        return None
     band_mid = (loc['price_band_min'] + loc['price_band_max']) / 2
     if band_mid <= 0:
+        return None
+    return ((pmin + (pmax or pmin)) / 2) / band_mid
+
+
+def pricing_points(ratio):
+    if ratio is None:
         return 7
-    ratio = proj_mid / band_mid
     if ratio < 0.85:
         return 15
     if ratio < 1.0:
@@ -110,14 +124,88 @@ def yield_points(loc):
     return 4
 
 
+def locality_tier(loc):
+    top = loc.get('price_band_max')
+    if top is None:
+        return 'Emerging'
+    if top >= 14000:
+        return 'Prime'
+    if top >= 8000:
+        return 'Established'
+    if top >= 5000:
+        return 'Growth'
+    return 'Emerging'
+
+
+def loc_segments(loc):
+    """Normalize a locality's segment_fit into a set (agents returned arrays or strings)."""
+    raw = (loc or {}).get('segment_fit') or []
+    if isinstance(raw, str):
+        raw = re.findall(r'boardroom|executive|value', raw.lower())
+    return {s.lower() for s in raw}
+
+
+def segment_fit(p, loc, tier, ratio):
+    tmin, tmax = p.get('ticket_min_lakh'), p.get('ticket_max_lakh')
+    psq = p.get('price_sqft_min')
+    dom = (p.get('dominant_config') or '').lower()
+    cfg = (p.get('config_mix') or '').lower()
+    units = p.get('total_units')
+    ltier = locality_tier(loc) if loc else 'Emerging'
+    lsegs = loc_segments(loc)
+    dev = developer_tier(p.get('promoter'))
+
+    b = 0
+    if (tmax or 0) >= BOARDROOM_TICKET_LAKH or (psq or 0) >= 12000:
+        b += 40
+    if dom in ('3bhk', '4bhk+', 'villa') or re.search(r'4\s*bhk|villa|duplex|penthouse', cfg):
+        b += 20
+    if ltier == 'Prime' or 'boardroom' in lsegs:
+        b += 20
+    if units is not None and units <= 150:
+        b += 10
+    if dev == 1:
+        b += 10
+
+    e = 0
+    lo, hi = EXEC_TICKET_RANGE
+    if (tmin is not None and tmax is not None and tmin <= hi and tmax >= lo) or \
+       (tmin is None and psq is not None and 6000 <= psq < 12000):
+        e += 30
+    if dom in ('2bhk', '3bhk') or re.search(r'[23]\s*bhk', cfg) or p.get('type') == 'apartment':
+        e += 20
+    if (loc or {}).get('rental_yield_pct') and loc['rental_yield_pct'] >= 3.5 or 'executive' in lsegs:
+        e += 20
+    if p.get('stage') in ('new-launch', 'under-construction', 'pre-launch'):
+        e += 15
+    if dev <= 2:
+        e += 15
+    if (tmin or 0) >= BOARDROOM_TICKET_LAKH:  # pure ultra-luxury is not an Executive pick
+        e = min(e, 45)
+
+    v = 0
+    if ratio is not None and ratio < 0.9:
+        v += 50
+    elif ratio is not None and ratio < 1.0:
+        v += 30
+    if 'value' in lsegs:
+        v += 30
+    if psq is not None and loc and loc.get('price_band_min') and psq < loc['price_band_min']:
+        v += 20
+
+    return {'boardroom': min(b, 100), 'executive': min(e, 100), 'value': min(v, 100)}
+
+
 def main():
     projects = load('projects.json')
     localities = load('localities.json')
     infrastructure = load('infrastructure.json')
+    distressed = load('distressed.json')
 
+    for l in localities['localities']:
+        l['tier'] = locality_tier(l)
     loc_by_name = {l['name'].lower(): l for l in localities['localities']}
 
-    # Collect every station / point / waypoint as an upside anchor.
     infra_points = []
     for inf in infrastructure['infrastructure']:
         g = inf.get('geometry') or {}
@@ -133,12 +221,13 @@ def main():
     for p in projects['projects']:
         loc = loc_by_name.get((p.get('locality') or '').lower())
         tier = developer_tier(p.get('promoter'))
+        ratio = pricing_ratio(p, loc)
 
         bd = {
             'entry_stage': STAGE_POINTS.get(p.get('stage'), 10),
             'infrastructure': infra_points_for(p, infra_points),
-            'locality_momentum': TREND_POINTS.get(loc.get('trend'), 8) if loc else 8,
-            'relative_pricing': pricing_points(p, loc),
+            'locality_momentum': TREND_POINTS.get((loc or {}).get('trend'), 8),
+            'relative_pricing': pricing_points(ratio),
             'developer_track_record': {1: 10, 2: 7, 3: 3}[tier],
             'rental_yield': yield_points(loc),
         }
@@ -146,8 +235,12 @@ def main():
         p['score_breakdown'] = bd
         p['upside_score'] = score
 
-        # Risk: count independent red flags.
+        seg = segment_fit(p, loc, tier, ratio)
+        p['segment_fit'] = seg
+
         flood = (loc or {}).get('flood_risk', 'unknown')
+        if isinstance(flood, str) and flood not in ('low', 'medium', 'high'):
+            flood = 'medium' if 'moderate' in flood else ('high' if 'high' in flood else 'low')
         flags = 0
         if not p.get('rera_no'):
             flags += 1
@@ -164,6 +257,12 @@ def main():
             tags.append('Early Entrant')
         if score >= 78:
             tags.append('High Upside')
+        if seg['boardroom'] >= 60:
+            tags.append('Boardroom')
+        if seg['executive'] >= 60:
+            tags.append('Executive')
+        if seg['value'] >= 60:
+            tags.append('Value')
         if p.get('type') == 'plotted':
             tags.append('Plotted/Land')
         if (p.get('price_sqft_min') or 0) >= 12000:
@@ -198,10 +297,35 @@ def main():
             rationale += ' Caveats: ' + ', '.join(caveats) + '.'
         p['score_rationale'] = rationale
 
+    # Distressed: compute discount vs locality band for built assets (flat/house).
+    if distressed:
+        for d in distressed.get('distressed', []):
+            d.pop('discount_pct', None)
+            d.pop('value_note', None)
+            if d.get('record_type') != 'auction':
+                continue
+            loc = loc_by_name.get((d.get('band_locality') or d.get('locality') or '').lower())
+            area, reserve = d.get('area_sqft'), d.get('reserve_price_inr')
+            if (d.get('asset_type') in ('flat', 'house') and loc and area and reserve
+                    and loc.get('price_band_min') and loc.get('price_band_max')):
+                band_mid = (loc['price_band_min'] + loc['price_band_max']) / 2
+                est = band_mid * area
+                d['discount_pct'] = round((1 - reserve / est) * 100)
+                d['value_note'] = (f'Reserve ₹{reserve/1e5:.1f}L vs ~₹{est/1e5:.0f}L at the '
+                                   f'{loc["name"]} band midpoint (₹{band_mid:,.0f}/sqft × {area:,} sqft)')
+        save('distressed.json', distressed)
+
     save('projects.json', projects)
+    save('localities.json', localities)
     scored = [p['upside_score'] for p in projects['projects']]
+    n_seg = {s: sum(1 for p in projects['projects'] if s.title() in p['tags'])
+             for s in ('boardroom', 'executive', 'value')}
     print(f"Scored {len(scored)} projects; range {min(scored)}-{max(scored)}, "
-          f"mean {sum(scored)/len(scored):.1f}")
+          f"mean {sum(scored)/len(scored):.1f}; segments {n_seg}")
+    if distressed:
+        discounted = [d for d in distressed['distressed'] if d.get('discount_pct') is not None]
+        print(f"Distressed: {len(distressed['distressed'])} records, "
+              f"{len(discounted)} with computed discount")
 
 
 if __name__ == '__main__':

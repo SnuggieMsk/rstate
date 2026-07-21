@@ -17,6 +17,7 @@
     <a href="index.html">Dashboard</a>
     <a href="map.html" class="active">Map</a>
     <a href="projects.html">Projects</a>
+    <a href="deals.html">Deals</a>
     <a href="localities.html">Localities</a>
     <a href="methodology.html">Methodology</a>
   </nav>
@@ -29,6 +30,7 @@
   <strong style="font-size:12px">Overlays</strong>
   <label><input type="checkbox" id="ovMetro" checked> Metro Phase 2 (stations)</label>
   <label><input type="checkbox" id="ovInfra" checked> Infrastructure projects</label>
+  <label><input type="checkbox" id="ovAuctions" checked> Bank auction deals</label>
   <label><input type="checkbox" id="ovEarlyOnly"> Early entrants only</label>
 </div>
 
@@ -40,6 +42,7 @@
   <div class="row"><i style="background:#86b6ef"></i> 0–44 / unscored</div>
   <div class="row" style="margin-top:6px"><i style="background:#eb6834;border-radius:3px"></i> Infrastructure project</div>
   <div class="row"><i style="background:#008300;border-radius:3px"></i> Metro Phase 2 station</div>
+  <div class="row"><i style="background:#0ca30c;transform:rotate(45deg);border-radius:2px"></i> Bank auction (♦)</div>
   <div style="margin-top:6px;color:var(--text-muted)">Positions are locality-level approximations unless marked exact.</div>
 </div>
 
@@ -48,16 +51,30 @@
 <script src="assets/app.js"></script>
 <script>
 CRI.initTheme();
+CRI.initPersonaBar(() => window.refreshMapPersona && window.refreshMapPersona());
+
+function layoutMap() {
+  const header = document.querySelector('header.site');
+  const pbar = document.querySelector('.persona-bar');
+  const offset = (header ? header.offsetHeight : 57) + (pbar ? pbar.offsetHeight : 0);
+  document.getElementById('map').style.top = offset + 'px';
+  document.getElementById('mapControls').style.top = (offset + 13) + 'px';
+}
+layoutMap();
+window.addEventListener('resize', layoutMap);
+
 const map = L.map('map', { zoomControl: true }).setView([12.98, 80.16], 11);
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 18,
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 }).addTo(map);
+setTimeout(() => map.invalidateSize(), 50);
 
 const clusterAll = L.markerClusterGroup({ maxClusterRadius: 44 });
 const clusterEarly = L.markerClusterGroup({ maxClusterRadius: 44 });
 const metroLayer = L.layerGroup();
 const infraLayer = L.layerGroup();
+const auctionLayer = L.layerGroup();
 
 function projectMarker(p) {
   const color = CRI.BAND_COLORS[CRI.scoreBand(p.upside_score)];
@@ -71,7 +88,7 @@ function projectMarker(p) {
       <tr><td><strong>Upside Score</strong></td><td>${p.upside_score != null ? p.upside_score + '/100' : 'n/a'} ${p.risk ? '· ' + p.risk + ' risk' : ''}</td></tr>
       <tr><td><strong>Stage</strong></td><td>${CRI.stageLabel(p.stage)}</td></tr>
       <tr><td><strong>Type</strong></td><td>${p.type || '—'}</td></tr>
-      <tr><td><strong>Price</strong></td><td>${CRI.priceHTML(p)}</td></tr>
+      <tr><td><strong>Ticket size</strong></td><td>${CRI.ticketHTML(p) || CRI.priceHTML(p)}</td></tr>
       <tr><td><strong>RERA no.</strong></td><td>${p.rera_no || 'not found — verify on portal'}</td></tr>
     </table>
     ${p.score_rationale ? '<div style="font-size:12px;color:#52514e;margin-top:4px">' + p.score_rationale + '</div>' : ''}
@@ -81,12 +98,43 @@ function projectMarker(p) {
   return m;
 }
 
-CRI.loadAll().then(({ projects, infrastructure, meta }) => {
-  projects.filter(p => p.lat != null && p.lng != null && p.status !== 'withdrawn').forEach(p => {
-    const m = projectMarker(p);
-    clusterAll.addLayer(m);
-    if ((p.tags || []).includes('Early Entrant')) clusterEarly.addLayer(projectMarker(p));
+function auctionMarker(d) {
+  const icon = L.divIcon({
+    className: '', iconSize: [16, 16],
+    html: '<div style="width:14px;height:14px;background:#0ca30c;border:2px solid #fff;transform:rotate(45deg);box-shadow:0 0 0 1px rgba(0,0,0,.3)"></div>',
   });
+  const expired = d.auction_date && d.auction_date < new Date().toISOString().slice(0, 10);
+  return L.marker([d.lat, d.lng], { icon, opacity: expired ? 0.5 : 1 }).bindPopup(`<div class="pop">
+    <h3>${d.title}</h3>
+    <div class="meta">${d.locality} · ${d.asset_type}${d.bank ? ' · ' + d.bank : ''}</div>
+    <table>
+      <tr><td><strong>Reserve</strong></td><td>${CRI.money(d.reserve_price_inr)}</td></tr>
+      ${d.discount_pct != null ? `<tr><td><strong>Vs. band</strong></td><td>~${d.discount_pct}% below market</td></tr>` : ''}
+      <tr><td><strong>Auction date</strong></td><td>${d.auction_date || 'n/a'}${expired ? ' (passed)' : ''}</td></tr>
+      <tr><td><strong>Possession</strong></td><td>${d.possession || 'unknown'}</td></tr>
+    </table>
+    <div style="font-size:11px;margin-top:6px">${CRI.sourcesHTML(d.sources)}</div>
+    <div style="font-size:11px;color:#898781;margin-top:2px">Title search required · <a href="deals.html">Deals page</a></div>
+  </div>`, { maxWidth: 300 });
+}
+
+CRI.loadAll().then(({ projects, infrastructure, distressed, meta }) => {
+  const withGeo = projects.filter(p => p.lat != null && p.lng != null && p.status !== 'withdrawn');
+
+  function rebuildProjectLayers() {
+    clusterAll.clearLayers(); clusterEarly.clearLayers();
+    withGeo.filter(CRI.matchesPersona).forEach(p => {
+      clusterAll.addLayer(projectMarker(p));
+      if ((p.tags || []).includes('Early Entrant')) clusterEarly.addLayer(projectMarker(p));
+    });
+  }
+  rebuildProjectLayers();
+  window.refreshMapPersona = () => {
+    const early = document.getElementById('ovEarlyOnly').checked;
+    map.removeLayer(clusterAll); map.removeLayer(clusterEarly);
+    rebuildProjectLayers();
+    map.addLayer(early ? clusterEarly : clusterAll);
+  };
   map.addLayer(clusterAll);
 
   // Geometry is shape-driven: {type:"stations",stations:[...]}, {type:"polyline",waypoints:[...]}, or {type:"point",lat,lng}
@@ -129,14 +177,17 @@ CRI.loadAll().then(({ projects, infrastructure, meta }) => {
   map.addLayer(metroLayer);
   map.addLayer(infraLayer);
 
+  distressed.filter(d => d.record_type === 'auction' && d.lat != null && d.lng != null)
+    .forEach(d => auctionMarker(d).addTo(auctionLayer));
+  map.addLayer(auctionLayer);
+
   document.getElementById('ovMetro').addEventListener('change', e =>
     e.target.checked ? map.addLayer(metroLayer) : map.removeLayer(metroLayer));
   document.getElementById('ovInfra').addEventListener('change', e =>
     e.target.checked ? map.addLayer(infraLayer) : map.removeLayer(infraLayer));
-  document.getElementById('ovEarlyOnly').addEventListener('change', e => {
-    if (e.target.checked) { map.removeLayer(clusterAll); map.addLayer(clusterEarly); }
-    else { map.removeLayer(clusterEarly); map.addLayer(clusterAll); }
-  });
+  document.getElementById('ovAuctions').addEventListener('change', e =>
+    e.target.checked ? map.addLayer(auctionLayer) : map.removeLayer(auctionLayer));
+  document.getElementById('ovEarlyOnly').addEventListener('change', () => window.refreshMapPersona());
 });
 </script>
 </body>

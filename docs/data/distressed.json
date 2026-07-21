@@ -1,0 +1,866 @@
+{
+ "distressed": [
+  {
+   "id": "auction-0-anakaputhur",
+   "record_type": "auction",
+   "title": "Land and building, Anakaputhur",
+   "asset_type": "house",
+   "locality": "Anakaputhur",
+   "band_locality": "Anakaputhur",
+   "lat": 12.985,
+   "lng": 80.128,
+   "area_sqft": null,
+   "reserve_price_inr": 4700000,
+   "emd_inr": 470000,
+   "auction_date": "2026-08-11",
+   "bank": "J.C. Flowers Asset Reconstruction",
+   "possession": "physical",
+   "sources": [
+    "https://findauction.in/auction/jcflowersassetreconstruction/land-and-building-in-anankaputhur-chennai-1727521"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "auction-1-pallavaram",
+   "record_type": "auction",
+   "title": "Land and building, 1560 sqft, Pallavaram",
+   "asset_type": "house",
+   "locality": "Pallavaram",
+   "band_locality": "Pallavaram",
+   "lat": 12.967,
+   "lng": 80.15,
+   "area_sqft": 1560,
+   "reserve_price_inr": 6600000,
+   "emd_inr": null,
+   "auction_date": "2026-08-11",
+   "bank": "J.C. Flowers Asset Reconstruction",
+   "possession": "physical",
+   "sources": [
+    "https://findauction.in/auction/jcflowersassetreconstruction/land-and-building-in-pallavaram-chennai-1727520"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20",
+   "discount_pct": 49,
+   "value_note": "Reserve ₹66.0L vs ~₹129L at the Pallavaram band midpoint (₹8,250/sqft × 1,560 sqft)"
+  },
+  {
+   "id": "auction-2-saligramam",
+   "record_type": "auction",
+   "title": "Flat, 3562 sqft, Saligramam (re-auction)",
+   "asset_type": "flat",
+   "locality": "Saligramam",
+   "band_locality": "Saligramam",
+   "lat": 13.052,
+   "lng": 80.201,
+   "area_sqft": 3562,
+   "reserve_price_inr": 5000000,
+   "emd_inr": null,
+   "auction_date": "2026-08-05",
+   "bank": "Canara Bank",
+   "possession": "symbolic",
+   "sources": [
+    "https://findauction.in/auction/canarabank/flat-in-saligramam-chennai-1727514"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20",
+   "discount_pct": 87,
+   "value_note": "Reserve ₹50.0L vs ~₹391L at the Saligramam band midpoint (₹10,975/sqft × 3,562 sqft)"
+  },
+  {
+   "id": "auction-3-panankottur-kanchipuram",
+   "record_type": "auction",
+   "title": "House site, 2400 sqft, Panankottur (Kanchipuram dist)",
+   "asset_type": "plot",
+   "locality": "Panankottur, Kanchipuram",
+   "band_locality": null,
+   "lat": 12.84,
+   "lng": 79.75,
+   "area_sqft": 2400,
+   "reserve_price_inr": 2160000,
+   "emd_inr": null,
+   "auction_date": "2026-09-02",
+   "bank": "HUDCO",
+   "possession": "symbolic",
+   "sources": [
+    "https://findauction.in/auction/hudco/house-site-in-panankottur-kanchipuram-1727512"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "auction-4-agaram-tiruvallur",
+   "record_type": "auction",
+   "title": "Plot, 2400 sqft, Agaram (Tiruvallur dist)",
+   "asset_type": "plot",
+   "locality": "Agaram, Tiruvallur",
+   "band_locality": null,
+   "lat": 13.14,
+   "lng": 79.91,
+   "area_sqft": 2400,
+   "reserve_price_inr": 960000,
+   "emd_inr": null,
+   "auction_date": "2026-09-02",
+   "bank": "HUDCO",
+   "possession": "symbolic",
+   "sources": [
+    "https://findauction.in/auction/hudco/plot-in-agaram-tiruvallur-1727509"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "auction-5-puduvoyal-tiruvallur",
+   "record_type": "auction",
+   "title": "Vacant land, 1808 sqft, Puduvoyal (Tiruvallur dist, re-auction)",
+   "asset_type": "land",
+   "locality": "Puduvoyal, Tiruvallur",
+   "band_locality": null,
+   "lat": 13.32,
+   "lng": 80.17,
+   "area_sqft": 1808,
+   "reserve_price_inr": 3260000,
+   "emd_inr": null,
+   "auction_date": "2026-08-06",
+   "bank": "Bank of Baroda",
+   "possession": "physical",
+   "sources": [
+    "https://findauction.in/auction/bankofbaroda/vacant-land-in-puduvoyal-tiruvallur-1727503"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "auction-6-varadharajapuram",
+   "record_type": "auction",
+   "title": "Flat, 845 sqft, Mahalakshmi Nagar, Varadharajapuram (Mudichur)",
+   "asset_type": "flat",
+   "locality": "Varadharajapuram",
+   "band_locality": null,
+   "lat": 12.91,
+   "lng": 80.06,
+   "area_sqft": 845,
+   "reserve_price_inr": 1980000,
+   "emd_inr": null,
+   "auction_date": "2026-08-06",
+   "bank": "Bank of Baroda",
+   "possession": "physical",
+   "sources": [
+    "https://findauction.in/auction/bankofbaroda/flat-in-mahalakshmi-nagar-varadharajapuram-chennai-1727501"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "auction-7-varadharajapuram",
+   "record_type": "auction",
+   "title": "Flat, 795 sqft, Mahalakshmi Nagar, Varadharajapuram (Mudichur)",
+   "asset_type": "flat",
+   "locality": "Varadharajapuram",
+   "band_locality": null,
+   "lat": 12.91,
+   "lng": 80.06,
+   "area_sqft": 795,
+   "reserve_price_inr": 1860000,
+   "emd_inr": null,
+   "auction_date": "2026-08-06",
+   "bank": "Bank of Baroda",
+   "possession": "physical",
+   "sources": [
+    "https://findauction.in/auction/bankofbaroda/flat-in-mahalakshmi-nagar-varadharajapuram-chennai-1727500"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "auction-8-karambakkam-porur-",
+   "record_type": "auction",
+   "title": "Flat, 3494 sqft, Osian Chlorophyll, Karambakkam/Porur (re-auction)",
+   "asset_type": "flat",
+   "locality": "Karambakkam (Porur)",
+   "band_locality": "Porur",
+   "lat": 13.036,
+   "lng": 80.156,
+   "area_sqft": 3494,
+   "reserve_price_inr": 20430000,
+   "emd_inr": null,
+   "auction_date": "2026-08-11",
+   "bank": "Union Bank of India",
+   "possession": "symbolic",
+   "sources": [
+    "https://findauction.in/auction/unionbankofindia/flat-in-osian-chlorophyll-karambakkam-tiruvallur-1727492"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20",
+   "discount_pct": 26,
+   "value_note": "Reserve ₹204.3L vs ~₹275L at the Porur band midpoint (₹7,875/sqft × 3,494 sqft)"
+  },
+  {
+   "id": "auction-9-mangadu",
+   "record_type": "auction",
+   "title": "Flat, 994 sqft, Kavitha Flats, Mangadu",
+   "asset_type": "flat",
+   "locality": "Mangadu",
+   "band_locality": "Mangadu",
+   "lat": 13.032,
+   "lng": 80.108,
+   "area_sqft": 994,
+   "reserve_price_inr": 4300000,
+   "emd_inr": null,
+   "auction_date": "2026-08-25",
+   "bank": "Bank of Baroda",
+   "possession": "symbolic",
+   "sources": [
+    "https://findauction.in/auction/bankofbaroda/flat-in-kavitha-flats-mangadu-kanchipuram-1727488"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20",
+   "discount_pct": 34,
+   "value_note": "Reserve ₹43.0L vs ~₹65L at the Mangadu band midpoint (₹6,550/sqft × 994 sqft)"
+  },
+  {
+   "id": "auction-10-thirumullaivoyal",
+   "record_type": "auction",
+   "title": "Land & building, 650 sqft, Thirumullaivoyal (Ambattur)",
+   "asset_type": "house",
+   "locality": "Thirumullaivoyal",
+   "band_locality": null,
+   "lat": 13.128,
+   "lng": 80.13,
+   "area_sqft": 650,
+   "reserve_price_inr": 1250000,
+   "emd_inr": null,
+   "auction_date": "2026-08-18",
+   "bank": "India Shelter Finance Corporation",
+   "possession": "physical",
+   "sources": [
+    "https://findauction.in/auction/indiashelter/land-and-building-in-thirumullaivoyal-ambattur-1727487"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "auction-11-mangadu",
+   "record_type": "auction",
+   "title": "Flat, 1149 sqft, Kavitha Flats, Mangadu",
+   "asset_type": "flat",
+   "locality": "Mangadu",
+   "band_locality": "Mangadu",
+   "lat": 13.032,
+   "lng": 80.108,
+   "area_sqft": 1149,
+   "reserve_price_inr": 5200000,
+   "emd_inr": null,
+   "auction_date": "2026-08-25",
+   "bank": "Bank of Baroda",
+   "possession": "symbolic",
+   "sources": [
+    "https://findauction.in/auction/bankofbaroda/flat-in-kavitha-flats-mangadu-kanchipuram-1727485"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20",
+   "discount_pct": 31,
+   "value_note": "Reserve ₹52.0L vs ~₹75L at the Mangadu band midpoint (₹6,550/sqft × 1,149 sqft)"
+  },
+  {
+   "id": "auction-12-mangadu",
+   "record_type": "auction",
+   "title": "Flat, 997 sqft, Kavitha Flats, Mangadu",
+   "asset_type": "flat",
+   "locality": "Mangadu",
+   "band_locality": "Mangadu",
+   "lat": 13.032,
+   "lng": 80.108,
+   "area_sqft": 997,
+   "reserve_price_inr": 5400000,
+   "emd_inr": null,
+   "auction_date": "2026-08-25",
+   "bank": "Bank of Baroda",
+   "possession": "symbolic",
+   "sources": [
+    "https://findauction.in/auction/bankofbaroda/flat-in-kavitha-flats-mangadu-kanchipuram-1727483"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20",
+   "discount_pct": 17,
+   "value_note": "Reserve ₹54.0L vs ~₹65L at the Mangadu band midpoint (₹6,550/sqft × 997 sqft)"
+  },
+  {
+   "id": "auction-13-vadakkupattu-chengalpattu",
+   "record_type": "auction",
+   "title": "Plot, 18952 sqft, Vadakkupattu (Chengalpattu dist)",
+   "asset_type": "plot",
+   "locality": "Vadakkupattu, Chengalpattu",
+   "band_locality": null,
+   "lat": 12.89,
+   "lng": 80.19,
+   "area_sqft": 18952,
+   "reserve_price_inr": 17739000,
+   "emd_inr": null,
+   "auction_date": "2026-08-18",
+   "bank": "Punjab National Bank",
+   "possession": "symbolic",
+   "sources": [
+    "https://findauction.in/auction/pnbindia/plot-in-vadakkupattu-chengalpattu-1727371"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "auction-14-vadakkupattu-chengalpattu",
+   "record_type": "auction",
+   "title": "Plot, 20342 sqft, Vadakkupattu (Chengalpattu dist)",
+   "asset_type": "plot",
+   "locality": "Vadakkupattu, Chengalpattu",
+   "band_locality": null,
+   "lat": 12.89,
+   "lng": 80.19,
+   "area_sqft": 20342,
+   "reserve_price_inr": 19040000,
+   "emd_inr": null,
+   "auction_date": "2026-08-18",
+   "bank": "Punjab National Bank",
+   "possession": "symbolic",
+   "sources": [
+    "https://findauction.in/auction/pnbindia/plot-in-vadakkupattu-chengalpattu-1727369"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "auction-15-vattambakkam-chengalpattu",
+   "record_type": "auction",
+   "title": "Plot, 1500 sqft, Vattambakkam",
+   "asset_type": "plot",
+   "locality": "Vattambakkam, Chengalpattu",
+   "band_locality": null,
+   "lat": 12.68,
+   "lng": 79.98,
+   "area_sqft": 1500,
+   "reserve_price_inr": 1520000,
+   "emd_inr": null,
+   "auction_date": "2026-08-07",
+   "bank": "Canara Bank",
+   "possession": "symbolic",
+   "sources": [
+    "https://findauction.in/auction/canarabank/plot-in-vattambakkam-chennai-1727163"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "auction-16-ambattur",
+   "record_type": "auction",
+   "title": "Plot, 2167 sqft, Ambattur",
+   "asset_type": "plot",
+   "locality": "Ambattur",
+   "band_locality": "Ambattur",
+   "lat": 13.114,
+   "lng": 80.162,
+   "area_sqft": 2167,
+   "reserve_price_inr": 7400000,
+   "emd_inr": null,
+   "auction_date": "2026-08-07",
+   "bank": "Indian Bank",
+   "possession": "symbolic",
+   "sources": [
+    "https://findauction.in/auction/indianbank/plot-in-ambattur-chennai-1727154"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "auction-17-sadayankuppam-manali-",
+   "record_type": "auction",
+   "title": "Large plot, Sadayankuppam (Manali)",
+   "asset_type": "plot",
+   "locality": "Sadayankuppam (Manali)",
+   "band_locality": "Manali",
+   "lat": 13.16,
+   "lng": 80.26,
+   "area_sqft": null,
+   "reserve_price_inr": 51888000,
+   "emd_inr": null,
+   "auction_date": "2026-08-06",
+   "bank": "Canara Bank",
+   "possession": "symbolic",
+   "sources": [
+    "https://findauction.in/auction/canarabank/plot-in-sadayankuppam-chennai-1727105"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "auction-18-ambattur",
+   "record_type": "auction",
+   "title": "Large plot, Ambattur",
+   "asset_type": "plot",
+   "locality": "Ambattur",
+   "band_locality": "Ambattur",
+   "lat": 13.114,
+   "lng": 80.162,
+   "area_sqft": null,
+   "reserve_price_inr": 48922000,
+   "emd_inr": 4892200,
+   "auction_date": "2026-08-06",
+   "bank": "Canara Bank",
+   "possession": "symbolic",
+   "sources": [
+    "https://findauction.in/auction/canarabank/plot-in-ambattur-chennai-1727104"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "auction-19-puzhal",
+   "record_type": "auction",
+   "title": "Plot, Puzhal",
+   "asset_type": "plot",
+   "locality": "Puzhal",
+   "band_locality": null,
+   "lat": 13.16,
+   "lng": 80.2,
+   "area_sqft": null,
+   "reserve_price_inr": 37062000,
+   "emd_inr": null,
+   "auction_date": "2026-08-06",
+   "bank": "Canara Bank",
+   "possession": "symbolic",
+   "sources": [
+    "https://findauction.in/auction/canarabank/plot-in-puzhal-chennai-1727103"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "auction-20-gummidipoondi",
+   "record_type": "auction",
+   "title": "House, 1750 sqft, Thiruvalluvar Nagar, Gummidipoondi (re-auction)",
+   "asset_type": "house",
+   "locality": "Gummidipoondi",
+   "band_locality": "Gummidipoondi",
+   "lat": 13.4,
+   "lng": 80.11,
+   "area_sqft": 1750,
+   "reserve_price_inr": 5900000,
+   "emd_inr": null,
+   "auction_date": "2026-08-28",
+   "bank": "Canara Bank",
+   "possession": "unknown",
+   "sources": [
+    "https://findauction.in/auction/canarabank/house-in-thiruvalluvar-nagar-gummidipoondi-tiruvallur-1726991"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20",
+   "discount_pct": -112,
+   "value_note": "Reserve ₹59.0L vs ~₹28L at the Gummidipoondi band midpoint (₹1,588/sqft × 1,750 sqft)"
+  },
+  {
+   "id": "auction-21-selaiyur",
+   "record_type": "auction",
+   "title": "Flat, 995 sqft, Selaiyur",
+   "asset_type": "flat",
+   "locality": "Selaiyur",
+   "band_locality": null,
+   "lat": 12.91,
+   "lng": 80.14,
+   "area_sqft": 995,
+   "reserve_price_inr": 3165000,
+   "emd_inr": null,
+   "auction_date": "2026-08-04",
+   "bank": "Punjab National Bank",
+   "possession": "symbolic",
+   "sources": [
+    "https://findauction.in/auction/pnbindia/flat-in-selaiyur-chennai-1726957"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "auction-22-nandivaram-guduvancheri",
+   "record_type": "auction",
+   "title": "Individual house, Nandivaram (Guduvancheri)",
+   "asset_type": "house",
+   "locality": "Nandivaram-Guduvancheri",
+   "band_locality": "Guduvancheri",
+   "lat": 12.845,
+   "lng": 80.06,
+   "area_sqft": null,
+   "reserve_price_inr": 5316000,
+   "emd_inr": 531600,
+   "auction_date": "2026-08-04",
+   "bank": "Punjab National Bank",
+   "possession": "symbolic",
+   "sources": [
+    "https://findauction.in/auction/pnbindia/individual-house-in-nandhivaram-chennai-1726952"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "auction-23-guduvancheri",
+   "record_type": "auction",
+   "title": "Flat, Guduvancheri",
+   "asset_type": "flat",
+   "locality": "Guduvancheri",
+   "band_locality": "Guduvancheri",
+   "lat": 12.845,
+   "lng": 80.06,
+   "area_sqft": null,
+   "reserve_price_inr": 4979000,
+   "emd_inr": 497900,
+   "auction_date": "2026-08-04",
+   "bank": "Punjab National Bank",
+   "possession": "symbolic",
+   "sources": [
+    "https://findauction.in/auction/pnbindia/flat-in-guduvancherry-chennai-1726925"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "auction-24-kalavakkam",
+   "record_type": "auction",
+   "title": "Flat, 523 sqft, Kalavakkam (Chengalpattu dist, near OMR/Thaiyur)",
+   "asset_type": "flat",
+   "locality": "Kalavakkam",
+   "band_locality": null,
+   "lat": 12.79,
+   "lng": 80.22,
+   "area_sqft": 523,
+   "reserve_price_inr": 6430000,
+   "emd_inr": null,
+   "auction_date": "2026-08-04",
+   "bank": "Punjab National Bank",
+   "possession": "symbolic",
+   "sources": [
+    "https://findauction.in/auction/pnbindia/flat-in-kalavakkam-chengalpattu-1726920"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "auction-25-anjur-chengalpattu",
+   "record_type": "auction",
+   "title": "Flat, 1800 sqft, Anjur (Chengalpattu dist)",
+   "asset_type": "flat",
+   "locality": "Anjur, Chengalpattu",
+   "band_locality": null,
+   "lat": 12.9,
+   "lng": 80.02,
+   "area_sqft": 1800,
+   "reserve_price_inr": 3157000,
+   "emd_inr": null,
+   "auction_date": "2026-08-04",
+   "bank": "Punjab National Bank",
+   "possession": "symbolic",
+   "sources": [
+    "https://findauction.in/auction/pnbindia/flat-in-anjur-chengalpattu-1726910"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "auction-26-guduvancheri",
+   "record_type": "auction",
+   "title": "Flat, 1147 sqft, Guduvancheri",
+   "asset_type": "flat",
+   "locality": "Guduvancheri",
+   "band_locality": "Guduvancheri",
+   "lat": 12.845,
+   "lng": 80.06,
+   "area_sqft": 1147,
+   "reserve_price_inr": 2798000,
+   "emd_inr": null,
+   "auction_date": "2026-08-04",
+   "bank": "Punjab National Bank",
+   "possession": "physical",
+   "sources": [
+    "https://findauction.in/auction/pnbindia/flat-in-guduvancheri-chennai-1726897"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20",
+   "discount_pct": 49,
+   "value_note": "Reserve ₹28.0L vs ~₹55L at the Guduvancheri band midpoint (₹4,800/sqft × 1,147 sqft)"
+  },
+  {
+   "id": "auction-27-pallavaram",
+   "record_type": "auction",
+   "title": "Individual house, 1635 sqft, Pallavaram",
+   "asset_type": "house",
+   "locality": "Pallavaram",
+   "band_locality": "Pallavaram",
+   "lat": 12.967,
+   "lng": 80.15,
+   "area_sqft": 1635,
+   "reserve_price_inr": 4560000,
+   "emd_inr": null,
+   "auction_date": "2026-08-04",
+   "bank": "Punjab National Bank",
+   "possession": "physical",
+   "sources": [
+    "https://findauction.in/auction/pnbindia/individual-house-in-pallavaram-chennai-1726867"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20",
+   "discount_pct": 66,
+   "value_note": "Reserve ₹45.6L vs ~₹135L at the Pallavaram band midpoint (₹8,250/sqft × 1,635 sqft)"
+  },
+  {
+   "id": "auction-28-madipakkam",
+   "record_type": "auction",
+   "title": "Duplex flat, Ram Nagar North, Madipakkam",
+   "asset_type": "flat",
+   "locality": "Madipakkam",
+   "band_locality": "Madipakkam",
+   "lat": 12.962,
+   "lng": 80.199,
+   "area_sqft": null,
+   "reserve_price_inr": 12000000,
+   "emd_inr": 1200000,
+   "auction_date": "2026-07-27",
+   "bank": "Indian Bank (SAM Large Chennai)",
+   "possession": "symbolic",
+   "sources": [
+    "https://www.eauctiondekho.com/auctions/indian-bank-auctions-for-residential-property-in-chennai-tamil-nadu-xqn9a9m4qb"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "auction-29-katrampakkam-sriperumbudur",
+   "record_type": "auction",
+   "title": "Residential plot, Katrampakkam, Sriperumbudur",
+   "asset_type": "plot",
+   "locality": "Katrampakkam, Sriperumbudur",
+   "band_locality": "Sriperumbudur",
+   "lat": 12.97,
+   "lng": 79.94,
+   "area_sqft": null,
+   "reserve_price_inr": 9500000,
+   "emd_inr": 950000,
+   "auction_date": "2026-07-27",
+   "bank": "Indian Bank (SAM Large Chennai)",
+   "possession": "physical",
+   "sources": [
+    "https://www.eauctiondekho.com/auctions/indian-bank-auctions-for-residential-property-in-chennai-tamil-nadu-9n96uwliio"
+   ],
+   "data_confidence": "listed",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "stalled-0-ozone-projects-pvt-ltd-the-met",
+   "record_type": "cirp-developer",
+   "name": "Ozone Projects Pvt Ltd — 'The Metrozone' (Anna Nagar)",
+   "locality": "Anna Nagar West, Chennai",
+   "lat": 13.085,
+   "lng": 80.199,
+   "status_2026": "Ozone Projects Pvt Ltd was admitted into CIRP by NCLT Chennai on 1 May 2023 on a Section 7 petition filed 3 Mar 2023 by IDBI Trusteeship (debenture trustee for Indiabulls Real Estate Fund); NCLAT stayed further CIRP proceedings on 10 May 2023, and the company is still recorded as 'under CIRP'. Per a Verified.RealEstate community report, the CBI has registered an FIR against Ozone Projects, Axis Bank and Axis Finance following Supreme Court directions in the 2025 builder-bank subvention-scheme batch (~45 petitions). Per Moneylife, buyers allege a Rs 4,000-crore scam; roughly 1,425 Metrozone units have been handed over with about 132 units still under construction, and the 15+ year-old project remains incomplete.",
+   "opportunity_note": "Retail angle: deeply discounted resales from exhausted subvention-scheme buyers exiting delivered towers (many are paying EMI plus rent and want out). Any whole-project resolution under IBC would be an institutional play for a resolution applicant, and is currently frozen by the NCLAT stay. Buy only in towers that already have completion certificates and handover.",
+   "risk_note": "Active CBI investigation and Supreme Court proceedings; CIRP moratorium/stay uncertainty; towers sold under subvention schemes carry loan-disbursement disputes between buyers and banks; unfinished towers lack completion certificates.",
+   "sources": [
+    "https://community.verified.realestate/article/cbi-probes-ozone-metrozone-fraud-developer-bank-nexus-leaves-chennai-homebuyers-in-financial-distress/",
+    "https://www.moneylife.in/article/homebuyers-allege-rs4000-crore-real-estate-scam-by-ozone-group-call-for-government-intervention/77633.html",
+    "https://ibclaw.in/aley-cherian-vs-ozone-projects-pvt-ltd-and-ors-nclt-chennai-bench/",
+    "https://corporatedir.com/company/ozone-projects-private-limited",
+    "https://www.scconline.com/blog/post/2025/09/24/cbi-investigate-builder-bank-nexus-in-delhi-ncr-supreme-court/"
+   ],
+   "data_confidence": "reported",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "stalled-1-ozone-greens-ozone-group-perum",
+   "record_type": "stalled-project",
+   "name": "Ozone Greens (Ozone Group, Perumbakkam)",
+   "locality": "Perumbakkam, Chennai",
+   "lat": 12.906,
+   "lng": 80.199,
+   "status_2026": "Per a Verified.RealEstate community report, roughly 1,000 families at Ozone Greens have lived about 8 years without a permanent power connection because the builder's substation was never completed due to structural issues and land disputes; five towers have no Completion Certificate and two hold only partial documentation. Over 100 owners protested at Ozone Group's Anna Nagar office in June 2026, and a formal proceeding on unresolved homebuyer complaints was logged 4 Mar 2026.",
+   "opportunity_note": "Units trade at steep discounts to Perumbakkam/Sholinganallur market rates because of the infrastructure deficit — a contrarian retail buy only if the substation and CC issues get resolved (association is actively litigating). Not suitable for financed purchases in towers without CC.",
+   "risk_note": "Missing completion certificates block bank lending and clean title transfer; unresolved TNEB substation land dispute; parent Ozone group is itself in insolvency-related litigation.",
+   "sources": [
+    "https://community.verified.realestate/article/ozone-greens-electricity-crisis-1000-perumbakkam-families-trapped-in-an-8-year-powerless-nightmare/"
+   ],
+   "data_confidence": "reported",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "stalled-2-landmark-housing-projects-chen",
+   "record_type": "liquidation",
+   "name": "Landmark Housing Projects Chennai Pvt Ltd (10-acre Neelangarai land)",
+   "locality": "Neelangarai (ECR), Chennai",
+   "lat": 12.949,
+   "lng": 80.259,
+   "status_2026": "NCLT Chennai ordered liquidation of Landmark Housing Projects Chennai Pvt Ltd on 16 Apr 2025 after the resolution plan submitted by Bommidala Enterprises was dismissed, per Insolvency Tracker (16 Jul 2025). The liquidator put a 10-acre land parcel across multiple plots in the Neelangarai sub-registration district up for e-auction on 12 Aug 2025 at a reserve price of Rs 192 crore on the IBBI-approved baanknet portal.",
+   "opportunity_note": "Direct 'sweep up cheap' route: bid in the IBBI liquidation e-auction (or watch for re-auctions at reduced reserve if the first round fails, which is common). At a Rs 192-crore reserve this is an institutional/large-HNI land play on the ECR-Neelangarai belt; liquidation sales convey assets free of most encumbrances but demand independent title diligence.",
+   "risk_note": "Liquidator explicitly requires bidders' own due diligence; multi-plot aggregation may have title/access gaps; possible pending claims by erstwhile buyers or creditors against specific plots.",
+   "sources": [
+    "https://insolvencytracker.in/2025/07/16/10-acre-land-of-landmark-housing-projects-up-for-e-auction-reserve-price-set-at-%E2%82%B9-192-crore/",
+    "https://ibbi.gov.in/liquidation-auction-notices/lists"
+   ],
+   "data_confidence": "reported",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "stalled-3-marg-ltd-marg-swarnabhoomi-and",
+   "record_type": "cirp-developer",
+   "name": "MARG Ltd (Marg Swarnabhoomi and other holdings)",
+   "locality": "multiple (HQ Chennai; Swarnabhoomi township on ECR south of Chennai)",
+   "lat": null,
+   "lng": null,
+   "status_2026": "NCLT Chennai ordered initiation of CIRP against Chennai-based MARG Ltd in May 2019 on an ICICI Bank petition over a Rs 71.69-crore default (per Business Standard, 30 May 2019). Its flagship asset, Karaikal Port, was acquired by Adani Ports through insolvency resolution, completed 1 Apr 2023. A MARG BSE filing shows continuing NCLT litigation (ELCOT vs MARG order of 4 Apr 2025) with MARG appealing to NCLAT on 9 Apr 2025; the final status of MARG's own resolution was not verifiable from public sources reviewed.",
+   "opportunity_note": "Distressed-asset entry is via NCLT processes or negotiated purchases of MARG land parcels (Swarnabhoomi ECR land bank) — effectively institutional only. Retail investors occasionally pick up Swarnabhoomi units/plots at heavy discounts, but only with exhaustive title work given the layered creditor claims.",
+   "risk_note": "Long-running multi-forum litigation (ICICI, ELCOT, others); asset-level encumbrances; Swarnabhoomi township is far from employment centers, so exit liquidity is poor even post-resolution.",
+   "sources": [
+    "https://www.business-standard.com/article/companies/nclt-orders-initiation-of-insolvency-process-against-chennai-based-marg-119053001509_1.html",
+    "https://bsmedia.business-standard.com/_media/bs/data/announcements/bse/12042025/7a97f15e-8b76-4a8b-942a-f54d35da7392.pdf",
+    "https://indiankanoon.org/doc/41234371/"
+   ],
+   "data_confidence": "reported",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "stalled-4-unitech-chennai-projects-uniwo",
+   "record_type": "stalled-project",
+   "name": "Unitech Chennai projects (Uniworld City, Nallambakkam + 7 others)",
+   "locality": "Nallambakkam (Vandalur–Kelambakkam Road) and multiple Chennai sites",
+   "lat": 12.868,
+   "lng": 80.096,
+   "status_2026": "Unitech's SC-supervised revival covers ~22,000 homebuyers nationally; per ThePrint (2025), the Uniworld Chennai Owners Association says eight Unitech projects are pending in Chennai, and after buyers wrote to the CJI the Supreme Court directed Tamil Nadu and other states to grant clearances/NOCs so the new government-appointed board can restart construction. The SC has also exempted Unitech projects from fresh RERA registration (per LawChakra). Uniworld City is a 200-acre township at Nallambakkam that is partially delivered (about 600 families in possession per listing portals) with remaining phases stalled since the mid-2010s.",
+   "opportunity_note": "Retail-accessible: resale apartments/villas in delivered phases of Uniworld City list far below comparable south-Chennai townships (2BHK apartments from ~Rs 22 lakh per 99acres/CommonFloor listings). The bet is on SC-monitored completion of remaining phases; timelines remain uncertain. No NCLT bid route — Unitech is under a court-appointed board, not open CIRP.",
+   "risk_note": "Rs 14,129-crore group dues and fund-diversion findings against former promoters; construction restart depends on state clearances; buyer-association litigation history; secondary purchases need clean assignment of original allotments.",
+   "sources": [
+    "https://theprint.in/judiciary/days-after-homebuyers-letter-to-cji-sc-directs-states-to-grant-clearances-to-unitech-projects/2387544/",
+    "https://theprint.in/judiciary/in-mental-agony-unitech-homebuyers-write-to-cji-request-quick-proceedings-in-pending-projects-case/2383974/",
+    "https://lawchakra.in/supreme-court/supreme-court-unitech-housing-projects/",
+    "https://www.99acres.com/unitech-uniworld-city-nallambakkam-chennai-south-npxid-r41102"
+   ],
+   "data_confidence": "reported",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "stalled-5-plaza-elite-acres-swamih-reviv",
+   "record_type": "stalled-project",
+   "name": "Plaza Elite Acres (SWAMIH-revived, Ottiyambakkam/Perumbakkam)",
+   "locality": "Ottiyambakkam, near Perumbakkam, Chennai",
+   "lat": 12.885,
+   "lng": 80.196,
+   "status_2026": "A 249-unit project launched in 2017 that stalled on approval issues and financial stress; the government's SWAMIH Fund invested in July 2020 and the project was completed within about two years — roughly 193 unsold units were sold generating ~Rs 59 crore, contractor dues cleared and the completion certificate obtained, with 250+ homes delivered (per SWAMIH/SBI Ventures case study reported by Organiser, Mar 2026). Now listed as ready-to-move on portals.",
+   "opportunity_note": "Template for the most retail-friendly distressed play in Chennai: buying developer-held or resale units in SWAMIH-revived projects at completion, typically priced below comparable new launches. SWAMIH Fund II (Rs 15,000 crore, announced 1 Feb 2025) means more Chennai stalled projects may follow this path — worth tracking new SWAMIH investments in TN.",
+   "risk_note": "Post-revival projects can carry legacy association-vs-developer disputes and maintenance underfunding; verify CC and TNRERA closure before purchase. Low residual distress risk here since completion is certified.",
+   "sources": [
+    "https://organiser.org/2026/03/15/344153/bharat/do-you-know-about-govts-swamih-fund-scheme-that-has-delivered-over-58000-homes-to-waiting-homebuyers/",
+    "https://sbiventures.co.in/funds-managed/swamih-fund-op1/",
+    "https://www.99acres.com/plaza-elite-acres-perumbakkam-chennai-south-npxid-r272883",
+    "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2212593&reg=1&lang=1"
+   ],
+   "data_confidence": "reported",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "stalled-6-casagrand-bloom-thirumudivakka",
+   "record_type": "revoked-rera",
+   "name": "Casagrand 'Bloom' (Thirumudivakkam) — TNRERA registration cancelled",
+   "locality": "Thirumudivakkam, Chennai (western suburbs)",
+   "lat": 12.966,
+   "lng": 80.098,
+   "status_2026": "Per Constrofacilitator, TNRERA cancelled the registration of Casagrand Builder Pvt Ltd's 'Bloom' villa project at Thirumudivakkam and fined the developer Rs 30 lakh, holding that a residential housing project had been misrepresented as a plotted layout to obtain registration. This is a regulatory action against one project; Casagrand as a group continues to operate and no insolvency was found in this research.",
+   "opportunity_note": "Not an acquisition opportunity — included as a TNRERA-revocation precedent. Buyers in registration-cancelled projects sometimes exit at discounts, but purchases in a project without valid RERA registration cannot be lawfully sold to new buyers until registration is restored, so avoid.",
+   "risk_note": "Sale agreements in a deregistered project are legally exposed; developer-regulator litigation over the cancellation and fine.",
+   "sources": [
+    "https://constrofacilitator.com/tnrera-cancels-registration-of-casagrand-builders-chennai-project/",
+    "https://rera.tn.gov.in/cms/rejected_projects.php"
+   ],
+   "data_confidence": "reported",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "stalled-7-brigade-morgan-heights-pallika",
+   "record_type": "stalled-project",
+   "name": "Brigade Morgan Heights (Pallikaranai) — halted after EC revocation",
+   "locality": "Pallikaranai, Chennai",
+   "lat": 12.936,
+   "lng": 80.217,
+   "status_2026": "Per ThePrint (May 2026), the Tamil Nadu government halted this Rs 2,000-crore, 1,250-unit luxury apartment project after its environment clearance was revoked in May 2026, following complaints since October 2025 about impact on the ecologically sensitive Pallikaranai marshland. Project status is frozen pending the environmental/legal outcome.",
+   "opportunity_note": "No entry opportunity now; a watch-list item. If the EC dispute resolves against the project, early bookers may exit at discounts elsewhere in Brigade's portfolio, and the land's fate becomes a long legal question. Brigade is a solvent listed developer — this is regulatory distress, not financial distress.",
+   "risk_note": "Wetland/EC litigation can run years and end in demolition-style orders; NGT/High Court exposure; refunds to existing bookers likely but timing uncertain.",
+   "sources": [
+    "https://theprint.in/india/vijay-govt-halts-rs-2000-crore-housing-project-in-chennai-after-environment-clearance-revoked/2964782/"
+   ],
+   "data_confidence": "reported",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "stalled-8-ars-energy-pvt-ltd-63-acre-gum",
+   "record_type": "distressed-sale",
+   "name": "ARS Energy Pvt Ltd (63-acre Gummidipoondi asset in CIRP)",
+   "locality": "Gummidipoondi, north Chennai metropolitan fringe",
+   "lat": 13.407,
+   "lng": 80.109,
+   "status_2026": "Per Insolvency Tracker (19 Sep 2025), ARS Energy Pvt Ltd, owner of a 60 MW thermal power plant on 63 acres of freehold land at Gummidipoondi plus about 15 acres of freehold land at Kamambakkam, is in CIRP; expressions of interest were invited until 3 Oct 2025 with resolution plans due 8 Nov 2025. Outcome of the resolution process was not yet reported in sources reviewed.",
+   "opportunity_note": "Institutional-only NCLT resolution bid, but notable as a large freehold land bank on the north-Chennai industrial corridor (Gummidipoondi SIPCOT belt) — relevant to anyone tracking cheap industrial/logistics land entry via IBC in the CMA's northern growth axis.",
+   "risk_note": "Power-plant decommissioning/environmental liabilities attach to the land; CIRP outcome uncertain; industrial zoning limits residential conversion.",
+   "sources": [
+    "https://insolvencytracker.in/2025/09/19/eoi-for-ars-energy-invited-nov-8-is-last-date-for-submission-of-resolution-plans/"
+   ],
+   "data_confidence": "reported",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "stalled-9-sare-group-crescent-parc-towns",
+   "record_type": "cirp-developer",
+   "name": "SARE Group — Crescent ParC township (GST Road/OMR belt)",
+   "locality": "Chennai south (Crescent ParC township, GST/OMR corridor)",
+   "lat": null,
+   "lng": null,
+   "status_2026": "SARE group entities are in insolvency: Sare Homes Project Services Pvt Ltd is listed as under CIRP (per AAA Insolvency Professionals) and SARE Gurugram was admitted to CIRP in March 2021 with a resolution plan later accepted by NCLT. The group's Chennai asset is the ~112-acre Crescent ParC integrated township (apartments and villas); buyer forums record long possession delays, but the specific insolvency status of the Chennai project entity (Sare Shelters Projects) as of 2025-26 could not be verified from public sources reviewed.",
+   "opportunity_note": "If the Chennai entity enters or is already in CIRP, homebuyer-creditor dynamics and partial-completion make it a candidate for a reverse-CIRP style completion play or bulk purchase of unsold stock — institutional. Retail buyers should wait for entity-level clarity; resales in completed phases trade at discounts.",
+   "risk_note": "Group-level insolvency with cross-collateralized lenders; unclear which entity holds Chennai land title; township partially occupied with association disputes typical of abandoned-phase townships.",
+   "sources": [
+    "https://insolvencyandbankruptcy.in/cirp/sare-homes-project-services-private-limited/",
+    "https://www.placetolive.in/Discussion/2914001",
+    "https://www.housingman.com/projects/sare-crescent-parc-township-villa"
+   ],
+   "data_confidence": "low",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "stalled-10-true-value-homes-tvh-ouranya-b",
+   "record_type": "stalled-project",
+   "name": "True Value Homes (TVH) — Ouranya Bay (Padur, OMR)",
+   "locality": "Padur, OMR, Chennai",
+   "lat": 12.795,
+   "lng": 80.225,
+   "status_2026": "TVH's 30-storey Ouranya Bay condominium on OMR has a long record of buyer complaints alleging multi-year delivery delays (per MouthShut buyer reviews alleging fraud — allegations, not findings). A homebuyer insolvency case, Reena Joshi vs True Value Homes (India) Pvt Ltd, was heard at NCLT Chennai (reported by IBC Laws, Jan 2024); no CIRP admission against TVH could be verified, and MCA-linked profiles show the company active and compliant as of FY2026.",
+   "opportunity_note": "Only a resale-discount play in whatever towers are delivered; no receiver or NCLT process to buy through as of research date. Treat 'distress' here as project-delay distress, not developer insolvency — verify tower-wise CC and TNRERA status before any purchase.",
+   "risk_note": "Ongoing homebuyer litigation at NCLT/consumer forums; delay-related compensation claims may encumber unsold stock; reputational overhang depresses resale liquidity.",
+   "sources": [
+    "https://ibclaw.in/reena-joshi-vs-true-value-homes-india-pvt-ltd-nclt-chennai-bench/",
+    "https://www.thecompanycheck.com/company/true-value-homes-india-private-limited/U45201TN1997PTC037742",
+    "https://www.mouthshut.com/builders-and-developers/true-value-homes-chennai-review-pruupnqupt"
+   ],
+   "data_confidence": "low",
+   "last_checked": "2026-07-20"
+  },
+  {
+   "id": "stalled-11-chennai-stalled-stock-overview",
+   "record_type": "stalled-project",
+   "name": "Chennai stalled-stock overview (context record)",
+   "locality": "multiple",
+   "lat": null,
+   "lng": null,
+   "status_2026": "Chennai has 92 stalled projects covering 21,867 units per industry data cited by GeoSquare (drawing on stalled-housing reports); nationally ~Rs 1.4 lakh crore is stuck in stalled housing (Deccan Herald, citing a PropEquity-type report). As of 30 Sep 2025, 553 real estate CIRPs had been admitted under IBC nationally with only ~17% resolved (per Insolvency Tracker, Apr 2026), and 2025 CIRP amendments now let resolution professionals hand over completed flats to allottees during CIRP with 66% CoC approval.",
+   "opportunity_note": "Framing record: the deepest discounts in Chennai are in CIRP/stalled projects, but the 17% resolution rate means most capital is stuck for years. Retail investors do best in (a) SWAMIH-revived projects at completion and (b) delivered towers of distressed townships; NCLT auctions and resolution bids remain institutional terrain.",
+   "risk_note": "Aggregate risk: low resolution success rate, homebuyer-creditor litigation, and title complexity are systemic across all records above.",
+   "sources": [
+    "https://www.geosquare.in/stalled-housing-projects-a-growing-concern-in-indias-real-estate-sector-888686782893-news/index.html",
+    "https://www.deccanherald.com/business/rs-14-lakh-crore-totally-stuck-in-stalled-housing-projects-report-1017763.html",
+    "https://insolvencytracker.in/2026/04/10/only-17-real-estate-cirps-have-seen-resolution/",
+    "https://www.snrlaw.in/cirp-amendment-regulations-2025-streamlining-resolution-processes-and-protecting-homebuyer-interests/"
+   ],
+   "data_confidence": "reported",
+   "last_checked": "2026-07-20"
+  }
+ ],
+ "access_notes": "Worked: findauction.in (full Chennai listings with locality, price, dates — main source) and eauctiondekho.com (bank-wise Chennai listings + detail pages). Blocked/unusable: eauctionsindia.com (403), foreclosureindia.com (403), bankauctiondeals.com (403), ibapi.in (503 to automated access), bankeauctions.com (loads but is a search form, no listings rendered without JS), auctionbazaar.com (homepage only, no listings visible), salasarauction.com (industrial scrap auctions only, no real estate). Lat/lng are approximate locality centroids. Reserve prices/dates are as listed by aggregators (data_confidence 'listed'); records were not cross-verified against the original bank notices. Two additional non-realty (machinery) lots were excluded."
+}

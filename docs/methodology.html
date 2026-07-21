@@ -14,6 +14,7 @@
     <a href="index.html">Dashboard</a>
     <a href="map.html">Map</a>
     <a href="projects.html">Projects</a>
+    <a href="deals.html">Deals</a>
     <a href="localities.html">Localities</a>
     <a href="methodology.html" class="active">Methodology</a>
   </nav>
@@ -55,6 +56,60 @@
     <span class="score score-band-1"><i></i>&lt;45</span>.</p>
     <p style="margin-bottom:0">A high Upside Score is <em>not</em> a recommendation — it means the rule set found
     more upside signals. Read it together with the Risk flag.</p>
+  </div>
+
+  <h2>Client-lens personas</h2>
+  <div class="card">
+    <p style="margin-top:0">The persona switcher in the header re-lenses every page. Each project's fit for a
+    persona is scored 0–100 per persona from configuration mix, ticket size, locality tier, and developer scale
+    (computed in <code>scripts/score.py</code>); a project earns the persona tag once its fit score clears 60,
+    and a project can carry more than one tag.</p>
+    <table>
+      <thead><tr><th>Persona</th><th>Typical profile</th><th>What drives the fit score</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Boardroom</strong></td><td>3–4+ BHK, ₹3Cr+ ticket</td>
+          <td>Ticket size / ₹/sqft, 3–4BHK+/villa/duplex configuration, Prime-tier locality, low unit count (boutique), Tier-1 developer</td></tr>
+        <tr><td><strong>Executive</strong></td><td>2–3 BHK, ₹1–2.5Cr ticket</td>
+          <td>Ticket band overlap, 2–3BHK configuration, locality rental yield ≥ 3.5%, active construction stage, established developer</td></tr>
+        <tr><td><strong>Value</strong></td><td>Priced below the locality band, or distressed</td>
+          <td>Project price vs. locality band ratio &lt; 0.9–1.0, locality tagged as a value micro-market, price below the locality's minimum band</td></tr>
+      </tbody>
+    </table>
+    <p style="margin-bottom:0">The persona lens is a filter, not a guarantee — always cross-check configuration
+    and ticket size in the expanded project card, since builder-quoted ranges shift between launch phases.</p>
+  </div>
+
+  <h2>Locality tiers</h2>
+  <div class="card">
+    <p style="margin-top:0">Every locality is assigned a tier from its price band ceiling, shown as a badge across
+    the Locality Explorer and project cards:</p>
+    <p><span class="tier tier-Prime">Prime</span> ₹14,000+/sqft ·
+    <span class="tier tier-Established">Established</span> ₹8,000–14,000/sqft ·
+    <span class="tier tier-Growth">Growth</span> ₹5,000–8,000/sqft ·
+    <span class="tier tier-Emerging">Emerging</span> below ₹5,000/sqft or no price data yet.</p>
+    <p style="margin-bottom:0">The Locality Explorer covers 125+ named areas across every zone of the Chennai
+    Metropolitan Area — North, Central, West, Southwest, South, OMR, ECR, GST Road, and the far periphery
+    (Sriperumbudur–Oragadam, Tiruvallur–Ponneri, Kanchipuram belt) — each with its own price band, trend, rental
+    yield, flood-risk rating, and demand drivers.</p>
+  </div>
+
+  <h2>Deals &amp; distressed pipeline</h2>
+  <div class="card">
+    <p style="margin-top:0">The Deals page tracks two distinct opportunity types, both researched from public
+    listings and refreshed on demand:</p>
+    <p><strong>Bank e-auctions (SARFAESI)</strong> — repossessed flats, houses, plots, and land listed by banks
+    and asset reconstruction companies via public aggregators. For flats/houses with a known area, the site
+    computes a <strong>discount-to-market %</strong>: the reserve price versus (locality price-band midpoint ×
+    area). This is an indicative comparison against our own researched band, <em>not</em> a valuation — always
+    verify against the original bank notice.</p>
+    <p><strong>Stalled projects, CIRP/insolvency, and revival schemes</strong> — developers in NCLT resolution or
+    liquidation, stalled towers, TNRERA-revoked registrations, and SWAMIH-fund revivals, each with an honest
+    opportunity note (institutional-only NCLT bids vs. retail-accessible resales in delivered towers) and a risk
+    note (title, litigation, homebuyer-association disputes).</p>
+    <p style="margin-bottom:0"><strong>Every distressed listing requires independent legal title verification</strong>
+    — "symbolic possession" in an auction listing means the previous occupant may still be in the property, and
+    stalled/CIRP projects carry litigation and creditor-priority risk that this tracker cannot assess. Expired
+    auction listings (past their date) are kept, not deleted, since re-auctions of the same asset are common.</p>
   </div>
 
   <h2>Risk flag</h2>

@@ -9,12 +9,63 @@ const CRI = (() => {
   }
 
   async function loadAll() {
-    const [projects, localities, infrastructure, meta] = await Promise.all([
+    const [projects, localities, infrastructure, meta, distressed] = await Promise.all([
       loadJSON('projects.json'), loadJSON('localities.json'),
       loadJSON('infrastructure.json'), loadJSON('meta.json'),
+      loadJSON('distressed.json').catch(() => ({ distressed: [] })),
     ]);
     return { projects: projects.projects, localities: localities.localities,
-             infrastructure: infrastructure.infrastructure, meta };
+             infrastructure: infrastructure.infrastructure, meta,
+             distressed: distressed.distressed };
+  }
+
+  // ---- Persona lens ----------------------------------------------------
+  const PERSONAS = [
+    ['all', 'All'],
+    ['boardroom', 'Boardroom · ₹3Cr+'],
+    ['executive', 'Executive · ₹1–2.5Cr'],
+    ['value', 'Value & Distressed'],
+  ];
+  const PERSONA_TAG = { boardroom: 'Boardroom', executive: 'Executive', value: 'Value' };
+
+  function persona() { return localStorage.getItem('cri-persona') || 'all'; }
+
+  function matchesPersona(p) {
+    const cur = persona();
+    if (cur === 'all') return true;
+    return (p.tags || []).includes(PERSONA_TAG[cur]);
+  }
+
+  // Injects the persona switcher bar under the header; calls onChange after switching.
+  function initPersonaBar(onChange) {
+    const header = document.querySelector('header.site');
+    if (!header) return;
+    const bar = document.createElement('div');
+    bar.className = 'persona-bar';
+    bar.innerHTML = '<div class="wrap"><span class="pb-label">Client lens:</span>' +
+      PERSONAS.map(([k, label]) =>
+        `<button data-p="${k}" class="${persona() === k ? 'on' : ''}">${label}</button>`).join('') +
+      '</div>';
+    header.after(bar);
+    bar.querySelectorAll('button').forEach(b => b.addEventListener('click', () => {
+      localStorage.setItem('cri-persona', b.dataset.p);
+      bar.querySelectorAll('button').forEach(x => x.classList.toggle('on', x === b));
+      if (onChange) onChange(b.dataset.p);
+    }));
+  }
+
+  function money(inr) {
+    if (inr == null) return '—';
+    if (inr >= 1e7) return '₹' + (inr / 1e7).toFixed(2).replace(/\.?0+$/, '') + ' Cr';
+    return '₹' + Math.round(inr / 1e5) + ' L';
+  }
+
+  function ticketHTML(p) {
+    const a = p.ticket_min_lakh, b = p.ticket_max_lakh;
+    if (a == null && b == null) return null;
+    const f = v => v >= 100 ? '₹' + (v / 100).toFixed(2).replace(/\.?0+$/, '') + ' Cr' : '₹' + Math.round(v) + ' L';
+    if (a != null && b != null && a !== b) return f(a) + '–' + f(b);
+    return f(a != null ? a : b);
   }
 
   function scoreBand(score) {
@@ -111,7 +162,83 @@ const CRI = (() => {
     });
   }
 
+  // ---- Compare drawer ---------------------------------------------------
+  const CMP_KEY = 'cri-compare';
+  function compareList() { try { return JSON.parse(localStorage.getItem(CMP_KEY) || '[]'); } catch (e) { return []; } }
+  function setCompareList(ids) { localStorage.setItem(CMP_KEY, JSON.stringify(ids)); }
+
+  function toggleCompare(id) {
+    let ids = compareList();
+    if (ids.includes(id)) ids = ids.filter(x => x !== id);
+    else if (ids.length < 3) ids = [...ids, id];
+    else return false;
+    setCompareList(ids);
+    return true;
+  }
+
+  function tierBadge(tier) {
+    return tier ? `<span class="tier tier-${tier}">${tier}</span>` : '';
+  }
+
+  // Renders the fixed bottom compare bar; call refreshCompareBar() after any toggle.
+  function initCompareBar(allProjects) {
+    let bar = document.querySelector('.cmp-bar');
+    if (!bar) {
+      bar = document.createElement('div');
+      bar.className = 'cmp-bar';
+      bar.innerHTML = '<span class="cmp-count"></span>' +
+        '<button class="ghost" data-act="clear">Clear</button>' +
+        '<button data-act="open">Compare →</button>';
+      document.body.appendChild(bar);
+    }
+    let overlay = document.querySelector('.cmp-overlay');
+    if (!overlay) {
+      overlay = document.createElement('div');
+      overlay.className = 'cmp-overlay';
+      overlay.innerHTML = '<div class="cmp-sheet"></div>';
+      overlay.addEventListener('click', e => { if (e.target === overlay) overlay.classList.remove('show'); });
+      document.body.appendChild(overlay);
+    }
+
+    function refresh() {
+      const ids = compareList();
+      bar.classList.toggle('show', ids.length > 0);
+      bar.querySelector('.cmp-count').textContent = ids.length + ' selected for comparison';
+    }
+    bar.querySelector('[data-act="clear"]').addEventListener('click', () => { setCompareList([]); refresh(); });
+    bar.querySelector('[data-act="open"]').addEventListener('click', () => {
+      const ids = compareList();
+      const rows = ids.map(id => allProjects.find(p => p.id === id)).filter(Boolean);
+      if (!rows.length) return;
+      const fields = [
+        ['Locality', p => p.locality + (p.corridor ? ' (' + p.corridor + ')' : '')],
+        ['Builder', p => p.promoter || '—'],
+        ['Stage', p => stageLabel(p.stage)],
+        ['Config', p => p.config_mix || '—'],
+        ['Ticket size', p => ticketHTML(p) || priceHTML(p)],
+        ['Upside Score', p => scoreHTML(p.upside_score)],
+        ['Risk', p => riskHTML(p.risk)],
+        ['Segments', p => tagsHTML(p.tags)],
+        ['Expected completion', p => p.expected_completion || '—'],
+        ['RERA no.', p => p.rera_no || 'not found'],
+      ];
+      const sheet = overlay.querySelector('.cmp-sheet');
+      sheet.innerHTML = '<h2 style="margin-top:0">Compare projects</h2>' +
+        '<div class="table-scroll"><table><tbody>' +
+        '<tr><th></th>' + rows.map(p => `<th>${p.name}</th>`).join('') + '</tr>' +
+        fields.map(([label, fn]) =>
+          `<tr><td>${label}</td>` + rows.map(p => `<td>${fn(p)}</td>`).join('') + '</tr>').join('') +
+        '</tbody></table></div>' +
+        '<p style="margin:14px 0 0"><button onclick="window.print()" style="font:inherit;font-size:13px;font-weight:600;padding:8px 16px;border-radius:8px;border:1px solid var(--accent);background:var(--accent);color:#fff;cursor:pointer">Print / save as PDF</button></p>';
+      overlay.classList.add('show');
+    });
+    refresh();
+    return refresh;
+  }
+
   return { loadAll, loadJSON, scoreBand, BAND_COLORS, scoreHTML, riskHTML, tagsHTML,
            priceHTML, fmtN, confHTML, stageLabel, sourcesHTML, breakdownHTML,
-           initTheme, setRefreshed };
+           initTheme, setRefreshed,
+           persona, matchesPersona, initPersonaBar, money, ticketHTML,
+           compareList, toggleCompare, tierBadge, initCompareBar };
 })();

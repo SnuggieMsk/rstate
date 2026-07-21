@@ -5,6 +5,12 @@ early-entry real estate opportunities in the Chennai Metropolitan Area, publishe
 GitHub Pages from `/docs`. All data lives in `docs/data/*.json`; the site is static
 HTML/JS that reads those files. `scripts/score.py` recomputes scores deterministically.
 
+The site serves three client-lens personas (Boardroom ₹3Cr+ 3-4BHK, Executive ₹1-2.5Cr
+2-3BHK, Value & Distressed) via the persona switcher in the header, a locality explorer
+covering 125+ Chennai-area micro-markets with price/trend/tier data, and a Deals page
+tracking bank e-auctions and stalled/insolvent projects. See `docs/methodology.html` for
+how segment fit, locality tiers, and discount-to-market are computed.
+
 ## The `refresh` command
 
 When the user says **`refresh`** (or "refresh data"), do ALL of the following:
@@ -22,23 +28,35 @@ When the user says **`refresh`** (or "refresh data"), do ALL of the following:
    Follow the existing record schema exactly. Never invent RERA numbers, prices, or
    dates — use null and note the gap. Every record keeps real `sources` URLs.
 3. Update `docs/data/localities.json` price bands/trends and
-   `docs/data/infrastructure.json` statuses where research found changes.
-4. Run `python3 scripts/score.py` to recompute all Upside Scores, risk flags, and tags.
-   Do not hand-edit computed fields (`upside_score`, `score_breakdown`, `risk`, `tags`,
-   `score_rationale`) — change the raw inputs and re-run the script.
-5. Update `docs/data/meta.json`: set `last_refreshed` to today and PREPEND a changelog
+   `docs/data/infrastructure.json` statuses where research found changes. Each locality
+   keeps its `segment_fit` array (which personas it serves) and its `tier` is
+   recomputed automatically by the score — never hand-set `tier`.
+4. Update `docs/data/distressed.json`: refresh bank e-auction listings (`record_type:
+   "auction"`) since they churn weekly — banks post new listings and past-date ones
+   should get checked for re-auction, never deleted (an expired auction is still useful
+   history; the UI dims it automatically once its date passes). Add any newly reported
+   stalled projects, CIRP/insolvency developments, or SWAMIH-fund revivals
+   (`record_type: "stalled-project" | "cirp-developer" | "liquidation" | "revoked-rera"
+   | "distressed-sale"`). Never state a developer's solvency status without a source.
+5. Run `python3 scripts/score.py` to recompute all Upside Scores, risk flags, tags,
+   `segment_fit` (Boardroom/Executive/Value), locality `tier`, and distressed
+   `discount_pct`. Do not hand-edit any computed field — change the raw inputs and
+   re-run the script.
+6. Update `docs/data/meta.json`: set `last_refreshed` to today and PREPEND a changelog
    entry summarizing what changed.
-6. Commit with message `data refresh: <date> — <n> added, <n> updated` and push to the
+7. Commit with message `data refresh: <date> — <n> added, <n> updated` and push to the
    default branch. GitHub Pages redeploys automatically.
-7. Report to the user: how many projects were added/updated, notable new early entrants,
-   and any records that could not be verified.
+8. Report to the user: how many projects/localities/deals were added or updated, notable
+   new early entrants or auction bargains, and any records that could not be verified.
 
 ### Variants
 
 - **`deep refresh`** — re-verify EVERY existing record from scratch (not just changes
-  since last refresh), then proceed with steps 2–7.
+  since last refresh), then proceed with steps 2–8.
 - **`refresh <locality or corridor>`** (e.g. `refresh OMR`, `refresh Madhavaram`) —
   run the same workflow restricted to that micro-market.
+- **`refresh deals`** — refresh only `docs/data/distressed.json` (auctions churn much
+  faster than the rest of the dataset; useful for a quick between-refresh top-up).
 
 ## Ground rules
 
@@ -48,7 +66,11 @@ When the user says **`refresh`** (or "refresh data"), do ALL of the following:
 - This is a research aggregation tool, not financial advice. Keep the disclaimers on
   every page intact.
 - Parallel research subagents work well for refreshes: one for RERA/news sweeps, one for
-  developer launches, one for locality pricing, one for infrastructure. Have each return
-  raw JSON and merge here.
+  developer launches, one for locality pricing, one for infrastructure, one for bank
+  e-auctions (SARFAESI aggregators — try a web unlocker if available for sites that block
+  automated access; never bypass access controls on government domains), one for
+  stalled/insolvent projects. Have each return raw JSON and merge here.
+- Never fabricate a bank-auction reserve price, EMD, or auction date, and never include
+  a borrower's personal details beyond what the public notice states.
 - Keep `docs/` fully static and self-contained (vendored Leaflet, OpenStreetMap tiles,
   no API keys, no build step).

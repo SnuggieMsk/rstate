@@ -39,7 +39,12 @@
    "tags": [
     "Early Entrant"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure. Caveats: limited developer track record."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure. Caveats: limited developer track record.",
+   "segment_fit": {
+    "boardroom": 10,
+    "executive": 35,
+    "value": 0
+   }
   },
   {
    "name": "Avalon (Appaswamy)",
@@ -78,9 +83,22 @@
    "upside_score": 67,
    "risk": "Low",
    "tags": [
-    "Early Entrant"
+    "Early Entrant",
+    "Boardroom"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, strong developer record."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, strong developer record.",
+   "config_mix": "3 BHK",
+   "dominant_config": "3BHK",
+   "unit_size_min_sqft": 1610,
+   "unit_size_max_sqft": 1855,
+   "ticket_min_lakh": 300,
+   "ticket_max_lakh": 345,
+   "density_note": "boutique city-centre project on Nelson Manickam Road (unit count not published)",
+   "segment_fit": {
+    "boardroom": 70,
+    "executive": 45,
+    "value": 0
+   }
   },
   {
    "name": "Baashyaam Crowne Plaza (Crowne Plaza site redevelopment)",
@@ -103,7 +121,8 @@
    "sources": [
     "https://media.biltrax.com/baashyaam-constructions-to-develop-uber-luxury-project-at-crowne-plaza-site/",
     "https://baashyaam.realtorprojects.com/residential/chennai/baashyaam-crowne-plaza/",
-    "https://propertyupdatehub.com/chennai/baashyaam-crowne-plaza-chennai/"
+    "https://propertyupdatehub.com/chennai/baashyaam-crowne-plaza-chennai/",
+    "https://chennaiupcomingprojects.com/baashyaam/baashyaam-crowne-plaza/"
    ],
    "notes": "Ultra-luxury twin towers on ~4.5-acre Crowne Plaza Adyar Park hotel site in Boat Club micro-market; pricing figures are market expectations, not published rate cards. Baashyaam also filed EC (Dec 2025) for a separate Nungambakkam high-rise mixed residential-commercial project (plot 23,403 sqm) — second pipeline item (https://projectxindia.com/2025/12/17/baashyaam-foundations-seeks-ec-for-nungambakkam-high-rise-development/).",
    "last_checked": "2026-07-20",
@@ -122,9 +141,22 @@
    "risk": "Medium",
    "tags": [
     "Early Entrant",
-    "High Upside"
+    "High Upside",
+    "Boardroom"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: RERA number not yet found."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: RERA number not yet found.",
+   "config_mix": "ultra-luxury large-format residences (5,000–7,000 sqft)",
+   "dominant_config": "4BHK+",
+   "unit_size_min_sqft": 5000,
+   "unit_size_max_sqft": 7000,
+   "ticket_min_lakh": 1500,
+   "ticket_max_lakh": 2100,
+   "density_note": "ultra-luxury boutique twin towers (~130–148 units) on Crowne Plaza hotel site, ~₹30,000/sqft",
+   "segment_fit": {
+    "boardroom": 90,
+    "executive": 45,
+    "value": 0
+   }
   },
   {
    "name": "Beaver's Venna Garden",
@@ -163,7 +195,12 @@
    "upside_score": 51,
    "risk": "Medium",
    "tags": [],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure. Caveats: limited developer track record."
+   "score_rationale": "Scores on close to upcoming metro/infrastructure. Caveats: limited developer track record.",
+   "segment_fit": {
+    "boardroom": 10,
+    "executive": 35,
+    "value": 0
+   }
   },
   {
    "name": "Belmont Residences (Appaswamy)",
@@ -175,7 +212,7 @@
    "lat": 13.05,
    "lng": 80.212,
    "geo_precision": "approximate",
-   "total_units": null,
+   "total_units": 43,
    "price_sqft_min": null,
    "price_sqft_max": null,
    "ticket_note": "₹3.36 crore to ₹5.68 crore (3-4 BHK, 1947-3156 sqft)",
@@ -184,7 +221,10 @@
    "status": "active",
    "data_confidence": "reported",
    "sources": [
-    "https://appaswamy.com/residential-property"
+    "https://appaswamy.com/residential-property",
+    "https://proplocators.com/project/appaswamy-belmont-residences-vadapalani-chennai",
+    "https://houssed.com/chennai/appaswamy-real-estate/appaswamy-belmont-residences-152229",
+    "https://www.roofandfloor.com/chennai/project/appaswamy-belmont-residences-ii-in-vadapalani/6165"
    ],
    "notes": "RERA number and date from developer's official site.",
    "last_checked": "2026-07-20",
@@ -194,15 +234,30 @@
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 20,
-    "locality_momentum": 8,
+    "locality_momentum": 15,
     "relative_pricing": 7,
     "developer_track_record": 10,
-    "rental_yield": 5
+    "rental_yield": 10
    },
-   "upside_score": 62,
+   "upside_score": 74,
    "risk": "Low",
-   "tags": [],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure, strong developer record."
+   "tags": [
+    "Boardroom",
+    "Steady/Rental"
+   ],
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market, strong developer record.",
+   "config_mix": "3/4 BHK (Phase I + II)",
+   "dominant_config": "4BHK+",
+   "unit_size_min_sqft": 1947,
+   "unit_size_max_sqft": 3156,
+   "ticket_min_lakh": 374,
+   "ticket_max_lakh": 664,
+   "density_note": "ultra-boutique — 43 units in Phase I; Phase II (Belmont Residences II) adds a similar small tranche",
+   "segment_fit": {
+    "boardroom": 80,
+    "executive": 45,
+    "value": 0
+   }
   },
   {
    "name": "Brigade Altius",
@@ -214,7 +269,7 @@
    "lat": 12.901,
    "lng": 80.228,
    "geo_precision": "approximate",
-   "total_units": null,
+   "total_units": 662,
    "price_sqft_min": null,
    "price_sqft_max": null,
    "ticket_note": "3/4 BHK from Rs 2.18 Cr",
@@ -225,7 +280,9 @@
    "sources": [
     "https://www.brigadegroup.com/residential/projects/chennai/brigade-altius",
     "https://www.thebrigadeeterniayelahanka.info/brigade-group-projects-in-chennai.html",
-    "https://www.brigadesgroup.com/projects-in-chennai/brigade-sholinganallur/"
+    "https://www.brigadesgroup.com/projects-in-chennai/brigade-sholinganallur/",
+    "https://www.nobroker.in/brigade-altius-sholinganallur_chennai-prjt-8a9f9e8394775dc8019477c89e421943",
+    "https://www.propleaf.com/residential-project-brigade-altius"
    ],
    "notes": "Luxury project on 6.5 acres, three 43-storey towers connected by skybridge; 3/4 BHK and duplexes. 6.5-acre site (ex-Pfizer land bought for ~Rs 139 crore); three 43-storey towers connected by skybridge; launch year approximate.",
    "last_checked": "2026-07-20",
@@ -244,9 +301,23 @@
    "risk": "Low",
    "tags": [
     "Early Entrant",
-    "High Upside"
+    "High Upside",
+    "Boardroom",
+    "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, strong developer record."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, strong developer record.",
+   "config_mix": "3/3.5/4 BHK + duplex",
+   "dominant_config": "3BHK",
+   "unit_size_min_sqft": 1726,
+   "unit_size_max_sqft": 5054,
+   "ticket_min_lakh": 203,
+   "ticket_max_lakh": 820,
+   "density_note": "mid-density premium high-rise — 662 units, 43 floors on 6.5 acres",
+   "segment_fit": {
+    "boardroom": 70,
+    "executive": 100,
+    "value": 0
+   }
   },
   {
    "name": "Brigade Icon",
@@ -271,7 +342,9 @@
     "https://www.commonfloor.com/chennai-property/projects/status-ongoing/builder-brigade-group-ggl3aa",
     "https://www.brigadegroup.com/residential/projects/chennai/brigade-icon",
     "https://www.angelone.in/news/share-market/brigade-group-launches-brigade-icon-residences",
-    "https://www.brigadeicon.com/"
+    "https://www.brigadeicon.com/",
+    "https://www.squareyards.com/chennai-residential-property/brigade-icon/306300/project",
+    "https://www.iconchennai.com/"
    ],
    "notes": "Mixed-use development on 5+ acres on Anna Salai with 3/4/5 BHK residences. ~5-acre ultra-luxury mixed-use (residential + commercial) on Mount Road; single G+38 residential tower with 200 exclusive 3/4/5 BHK homes; 100m from Thousand Lights metro.",
    "last_checked": "2026-07-20",
@@ -289,7 +362,18 @@
    "upside_score": 58,
    "risk": "Low",
    "tags": [],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure, strong developer record."
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, strong developer record.",
+   "config_mix": "3/4/5 BHK ultra-luxury",
+   "dominant_config": "4BHK+",
+   "unit_size_min_sqft": 2730,
+   "unit_size_max_sqft": 5530,
+   "ticket_min_lakh": 386,
+   "density_note": "boutique luxury landmark — ~200 units, 35 floors, ~₹28,000/sqft",
+   "segment_fit": {
+    "boardroom": 30,
+    "executive": 30,
+    "value": 0
+   }
   },
   {
    "name": "Brigade Morgan Heights",
@@ -312,7 +396,8 @@
    "sources": [
     "https://www.brigadegroup.com/residential/projects/chennai/brigade-morgan-heights",
     "https://blog.nobrokerage.com/realestatenews/brigade-groups-rs-2100-crore-bet:-morgan-heights-in-perumbakkam-chennai",
-    "https://findbhk.com/projects/brigade-morgan-heights-perumbakkam"
+    "https://findbhk.com/projects/brigade-morgan-heights-perumbakkam",
+    "https://www.nobroker.in/brigade-morgan-heights-perumbakkam_chennai-prjt-8a9fac8595839d0e019583c3445a0e9d"
    ],
    "notes": "14.7-acre community, 3 high-rise towers, GDV ~Rs 2,100 crore; RERA deadline Jun 2030.",
    "last_checked": "2026-07-20",
@@ -331,9 +416,22 @@
    "risk": "Low",
    "tags": [
     "Early Entrant",
-    "High Upside"
+    "High Upside",
+    "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, strong developer record."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, strong developer record.",
+   "config_mix": "2/3/4 BHK",
+   "dominant_config": "3BHK",
+   "unit_size_min_sqft": 1251,
+   "unit_size_max_sqft": 2599,
+   "ticket_min_lakh": 125,
+   "ticket_max_lakh": 257,
+   "density_note": "large — 1,250 units in 3 towers on 14 acres",
+   "segment_fit": {
+    "boardroom": 30,
+    "executive": 100,
+    "value": 0
+   }
   },
   {
    "name": "Brigade West Chennai JDA project (working name)",
@@ -375,7 +473,12 @@
    "tags": [
     "Early Entrant"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, strong developer record. Caveats: RERA number not yet found."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, strong developer record. Caveats: RERA number not yet found.",
+   "segment_fit": {
+    "boardroom": 10,
+    "executive": 50,
+    "value": 0
+   }
   },
   {
    "name": "Casagrand Avenue Park",
@@ -407,15 +510,22 @@
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 20,
-    "locality_momentum": 8,
+    "locality_momentum": 15,
     "relative_pricing": 7,
     "developer_track_record": 10,
-    "rental_yield": 5
+    "rental_yield": 6
    },
-   "upside_score": 62,
-   "risk": "Low",
-   "tags": [],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure, strong developer record."
+   "upside_score": 70,
+   "risk": "Medium",
+   "tags": [
+    "Executive"
+   ],
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market, strong developer record. Caveats: flood-prone zone.",
+   "segment_fit": {
+    "boardroom": 30,
+    "executive": 70,
+    "value": 0
+   }
   },
   {
    "name": "Casagrand Highcity",
@@ -438,7 +548,9 @@
    "sources": [
     "https://realtynmore.com/casagrand-debuts-41-acre-highcity-on-chennai/",
     "https://www.propnewz.com/blog/casagrand-highcity-chennai-orr-mega-launch-buyer-2026-05-31",
-    "https://www.constructionworld.in/latest-construction-news/real-estate-news/casagrand-launches-41-acre-highcity-project-in-chennai/91286"
+    "https://www.constructionworld.in/latest-construction-news/real-estate-news/casagrand-launches-41-acre-highcity-project-in-chennai/91286",
+    "https://www.casagrand.co.in/residential/ongoing-projects-chennai-orr/casagrand-highcity/",
+    "https://chennaigatedcommunity.in/projects/casagrand-highcity"
    ],
    "notes": "41-acre mega-project, 4,000+ homes in G+22 towers, 28 acres open space, 5-acre sports clubhouse. Casagrand's largest project: 41 acres, 4,000+ homes in four G+22 towers, phased delivery; 28 acres open space incl 3.5-acre tropical forest; 5-acre sports complex (35+ courts), 21,000 sq ft resort pool, on-site 2-acre Casagrand International School; Singapore-inspired master plan. RERA number cross-checked against TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
@@ -457,9 +569,20 @@
    "risk": "Low",
    "tags": [
     "Early Entrant",
-    "High Upside"
+    "High Upside",
+    "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, strong developer record."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, strong developer record.",
+   "config_mix": "2/3 BHK",
+   "dominant_config": "2BHK",
+   "ticket_min_lakh": 51,
+   "ticket_max_lakh": 72,
+   "density_note": "very large township — 4,000+ units on ~41 acres, ~₹3,900/sqft mass-market",
+   "segment_fit": {
+    "boardroom": 10,
+    "executive": 70,
+    "value": 0
+   }
   },
   {
    "name": "Casagrand Holachennai",
@@ -498,9 +621,15 @@
    "upside_score": 74,
    "risk": "Low",
    "tags": [
+    "Executive",
     "Steady/Rental"
    ],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market, strong developer record."
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market, strong developer record.",
+   "segment_fit": {
+    "boardroom": 10,
+    "executive": 70,
+    "value": 0
+   }
   },
   {
    "name": "Casagrand Reva",
@@ -522,7 +651,8 @@
    "data_confidence": "reported",
    "sources": [
     "https://www.casagrand.co.in/residential/ongoing-projects-chennai/casagrand-reva/",
-    "https://www.nobroker.in/casagrand-reva-pammal_chennai-prjt-8a9f9b8a96e6f5db0196e723cb611281"
+    "https://www.nobroker.in/casagrand-reva-pammal_chennai-prjt-8a9f9b8a96e6f5db0196e723cb611281",
+    "https://homeid.in/projects-in-chennai/casagrand-reva-pallavaram-chennai/"
    ],
    "notes": "5.01 acres, 2 towers of 12 floors, units 997-2522 sqft.",
    "last_checked": "2026-07-20",
@@ -541,9 +671,22 @@
    "risk": "Low",
    "tags": [
     "Early Entrant",
-    "High Upside"
+    "High Upside",
+    "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market, strong developer record."
+   "score_rationale": "Scores on early entry stage, rising micro-market, strong developer record.",
+   "config_mix": "2/3/4 BHK",
+   "dominant_config": "2BHK",
+   "unit_size_min_sqft": 997,
+   "unit_size_max_sqft": 2522,
+   "ticket_min_lakh": 49,
+   "ticket_max_lakh": 129,
+   "density_note": "large — 450 units in 4 blocks on 5.01 acres, ~₹4,450/sqft mass-market",
+   "segment_fit": {
+    "boardroom": 30,
+    "executive": 100,
+    "value": 0
+   }
   },
   {
    "name": "Casagrand Ventra",
@@ -565,7 +708,9 @@
    "data_confidence": "reported",
    "sources": [
     "https://propnewstime.com/getdetailsStories/Mjg4NTc=/casagrand-launches-ventra-high-rise-residential-project-in-west-chennai",
-    "https://therealtytoday.com/news/residential/casagrand-launches-casagrand-ventra-a-premium-high-rise-residential-community-in-the-heart-of-west-chennai/"
+    "https://therealtytoday.com/news/residential/casagrand-launches-casagrand-ventra-a-premium-high-rise-residential-community-in-the-heart-of-west-chennai/",
+    "https://www.casagrand.co.in/residential/ongoing-projects-chennai-kattupakkam/casagrand-ventra/",
+    "https://findbhk.com/projects/casagrand-ventra-kattupakkam"
    ],
    "notes": "High-rise launch in West Chennai; district code 2 in RERA number suggests Tiruvallur-side registration. Coordinates are a broad West-Chennai centroid. Premium high-rise (B+S+20) on 3.5 acres with 2.6 acres open space; 2/3/4 BHK apartments and floor villas; 57 amenities incl 8,500 sq ft clubhouse and 4,600 sq ft pool. Launched 10 Apr 2026. 3.5-acre high-rise (B+S+20 floors) with 57 amenities; one of 10+ launches Casagrand has lined up through 2026 (others: Casamia Medavakkam, Cheers Kelambakkam, Adyar 3/4BHK boutique project). RERA number cross-checked against TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
@@ -583,9 +728,22 @@
    "upside_score": 71,
    "risk": "Low",
    "tags": [
-    "Early Entrant"
+    "Early Entrant",
+    "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, strong developer record."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, strong developer record.",
+   "config_mix": "2/3/4 BHK + 4BHK floor villas",
+   "dominant_config": "3BHK",
+   "unit_size_min_sqft": 1132,
+   "unit_size_max_sqft": 3913,
+   "ticket_min_lakh": 135,
+   "ticket_max_lakh": 293,
+   "density_note": "mid-size — 279 units in 2 blocks (20 floors) on 3.46 acres",
+   "segment_fit": {
+    "boardroom": 30,
+    "executive": 80,
+    "value": 0
+   }
   },
   {
    "name": "Casagrand Wesley",
@@ -597,7 +755,7 @@
    "lat": 13.073,
    "lng": 80.211,
    "geo_precision": "approximate",
-   "total_units": null,
+   "total_units": 12,
    "price_sqft_min": null,
    "price_sqft_max": null,
    "ticket_note": null,
@@ -606,7 +764,9 @@
    "status": "active",
    "data_confidence": "reported",
    "sources": [
-    "https://verified.realestate/rera/registered-buildings/TN-29-Building-0066-2025/mscasagrand-astute-pvt-ltd-casagrand-wesley"
+    "https://verified.realestate/rera/registered-buildings/TN-29-Building-0066-2025/mscasagrand-astute-pvt-ltd-casagrand-wesley",
+    "https://www.casagrand.co.in/residential/ongoing-projects-chennai/casagrand-wesley/",
+    "https://www.squareyards.com/chennai-residential-property/casagrand-wesley/325513/project"
    ],
    "notes": "RERA registration details mirrored from TNRERA data by verified.realestate.",
    "last_checked": "2026-07-20",
@@ -623,8 +783,22 @@
    },
    "upside_score": 58,
    "risk": "Low",
-   "tags": [],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure, strong developer record."
+   "tags": [
+    "Executive"
+   ],
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, strong developer record.",
+   "config_mix": "3 BHK only",
+   "dominant_config": "3BHK",
+   "unit_size_min_sqft": 1727,
+   "unit_size_max_sqft": 1856,
+   "ticket_min_lakh": 250,
+   "ticket_max_lakh": 287,
+   "density_note": "ultra-boutique — just 12 apartments, 45% UDS",
+   "segment_fit": {
+    "boardroom": 40,
+    "executive": 80,
+    "value": 0
+   }
   },
   {
    "name": "Codename Pudhiya Chennai (Shriram Properties)",
@@ -648,7 +822,8 @@
     "https://www.marketscreener.com/quote/stock/SHRIRAM-PROPERTIES-LIMITE-130833520/news/Shriram-Properties-Launches-New-Project-Under-Codename-Pudhiya-Chennai-47937023/",
     "https://equitybulls.com/category.php?id=351392",
     "https://www.shriramproperties.com/residential-property/chennai/codename-pudhiya-chennai",
-    "https://propnewstime.com/getdetailsStories/MTA4OTE=/shriram-properties-launches-codename-pudhiya-chennai-with-inr-600-crore-revenue-potential"
+    "https://propnewstime.com/getdetailsStories/MTA4OTE=/shriram-properties-launches-codename-pudhiya-chennai-with-inr-600-crore-revenue-potential",
+    "https://www.propleaf.com/residential-project-shriram-codename-pudhiya-chennai"
    ],
    "notes": "~1.1 million sqft saleable area; described as RERA-approved in press, but registration number not published in sources found — left null. 8.9 acres, 7 towers x 13 floors, ~1.1 msf saleable; revenue potential Rs 550–600 crore; near Thirumazhisai metro and Chennai–Bengaluru expressway. RERA-approved per company statements but number not published in sources reviewed.",
    "last_checked": "2026-07-20",
@@ -658,17 +833,29 @@
    "score_breakdown": {
     "entry_stage": 21,
     "infrastructure": 12,
-    "locality_momentum": 8,
+    "locality_momentum": 15,
     "relative_pricing": 7,
     "developer_track_record": 7,
     "rental_yield": 5
    },
-   "upside_score": 60,
+   "upside_score": 67,
    "risk": "Medium",
    "tags": [
     "Early Entrant"
    ],
-   "score_rationale": "Scores on early entry stage. Caveats: RERA number not yet found."
+   "score_rationale": "Scores on early entry stage, rising micro-market. Caveats: RERA number not yet found.",
+   "config_mix": "2/3 BHK",
+   "dominant_config": "2BHK",
+   "unit_size_min_sqft": 935,
+   "unit_size_max_sqft": 1354,
+   "ticket_min_lakh": 38.5,
+   "ticket_max_lakh": 54,
+   "density_note": "large township — 1,053 units in 7 towers on 8.9 acres, affordable segment",
+   "segment_fit": {
+    "boardroom": 0,
+    "executive": 50,
+    "value": 30
+   }
   },
   {
    "name": "DAC Midtown",
@@ -709,9 +896,15 @@
    "upside_score": 55,
    "risk": "Low",
    "tags": [
+    "Executive",
     "Steady/Rental"
    ],
-   "score_rationale": "Scores on rising micro-market."
+   "score_rationale": "Scores on rising micro-market.",
+   "segment_fit": {
+    "boardroom": 10,
+    "executive": 70,
+    "value": 0
+   }
   },
   {
    "name": "DRA Chembarambakkam (upcoming, unnamed)",
@@ -752,7 +945,12 @@
    "tags": [
     "Early Entrant"
    ],
-   "score_rationale": "Scores on early entry stage. Caveats: RERA number not yet found."
+   "score_rationale": "Scores on early entry stage. Caveats: RERA number not yet found.",
+   "segment_fit": {
+    "boardroom": 0,
+    "executive": 50,
+    "value": 0
+   }
   },
   {
    "name": "DRA Inara",
@@ -774,7 +972,9 @@
    "data_confidence": "reported",
    "sources": [
     "https://drahomes.in/news/dra-launches-inara-villas-chennai",
-    "https://drahomesprojects.com/"
+    "https://drahomesprojects.com/",
+    "https://drahomes.in/villas-in-omr-navalur-chennai/dra-inara",
+    "https://findbhk.com/projects/dra-inara-navalur"
    ],
    "notes": "Luxury independent villa community, ~Rs 100 crore project on 6 acres; 118 villas with full land ownership; 50+ amenities.",
    "last_checked": "2026-07-20",
@@ -793,9 +993,23 @@
    "risk": "Medium",
    "tags": [
     "Early Entrant",
-    "High Upside"
+    "High Upside",
+    "Boardroom",
+    "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: RERA number not yet found."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: RERA number not yet found.",
+   "config_mix": "villas 4 BHK",
+   "dominant_config": "villa",
+   "unit_size_min_sqft": 2538,
+   "unit_size_max_sqft": 2888,
+   "ticket_min_lakh": 168,
+   "ticket_max_lakh": 341,
+   "density_note": "ultra-boutique — 16 independent villas",
+   "segment_fit": {
+    "boardroom": 70,
+    "executive": 80,
+    "value": 0
+   }
   },
   {
    "name": "DRA Polaris",
@@ -817,7 +1031,9 @@
    "data_confidence": "reported",
    "sources": [
     "https://www.squareyards.com/chennai-residential-property/dra-polaris/324165/project",
-    "https://houssed.com/chennai/dra-group/dra-polaris-136132"
+    "https://houssed.com/chennai/dra-group/dra-polaris-136132",
+    "https://drahomes.in/flats-in-madhavaram-for-sale/dra-polaris-overview",
+    "https://www.99acres.com/dra-polaris-madhavaram-chennai-north-npxid-r435812"
    ],
    "notes": "0.85 acres, stilt+13 floors, launched Nov 2024.",
    "last_checked": "2026-07-20",
@@ -835,9 +1051,22 @@
    "upside_score": 74,
    "risk": "Low",
    "tags": [
+    "Executive",
     "Steady/Rental"
    ],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market."
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market.",
+   "config_mix": "2/3 BHK",
+   "dominant_config": "mixed",
+   "unit_size_min_sqft": 1168,
+   "unit_size_max_sqft": 1948,
+   "ticket_min_lakh": 91,
+   "ticket_max_lakh": 123,
+   "density_note": "boutique <150 units — 96 units, stilt+13 on 0.85 acres",
+   "segment_fit": {
+    "boardroom": 10,
+    "executive": 100,
+    "value": 0
+   }
   },
   {
    "name": "DRA iHEART",
@@ -859,7 +1088,9 @@
    "data_confidence": "reported",
    "sources": [
     "https://www.business-standard.com/content/press-releases-ani/dra-homes-launches-iheart-chennai-s-first-branded-sea-view-residences-on-omr-featuring-premium-materials-and-luxury-brand-finishes-125102300683_1.html",
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0293-2025/dra-iheart"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0293-2025/dra-iheart",
+    "https://www.theiheart.in/",
+    "https://findbhk.com/projects/dra-iheart-navalur-omr"
    ],
    "notes": "Positioned as Chennai's first branded sea-view residences on OMR; 3.42 acres, 271 homes on main road; premium materials and luxury brand finishes. Launched Oct 2025. RERA number found via TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
@@ -878,9 +1109,22 @@
    "risk": "Low",
    "tags": [
     "Early Entrant",
-    "High Upside"
+    "High Upside",
+    "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market.",
+   "config_mix": "3/4 BHK",
+   "dominant_config": "3BHK",
+   "unit_size_min_sqft": 1595,
+   "unit_size_max_sqft": 2927,
+   "ticket_min_lakh": 197,
+   "ticket_max_lakh": 298,
+   "density_note": "mid-density single tower — 271 units, B+S+19 floors on 2.4 acres",
+   "segment_fit": {
+    "boardroom": 20,
+    "executive": 100,
+    "value": 0
+   }
   },
   {
    "name": "G Square Northern Crown",
@@ -921,9 +1165,15 @@
    "risk": "Medium",
    "tags": [
     "Early Entrant",
+    "Executive",
     "Plotted/Land"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market. Caveats: RERA number not yet found."
+   "score_rationale": "Scores on early entry stage, rising micro-market. Caveats: RERA number not yet found.",
+   "segment_fit": {
+    "boardroom": 0,
+    "executive": 80,
+    "value": 0
+   }
   },
   {
    "name": "G Square South Crown",
@@ -965,9 +1215,15 @@
    "tags": [
     "Early Entrant",
     "High Upside",
+    "Executive",
     "Plotted/Land"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, priced below the locality band. Caveats: RERA number not yet found."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, priced below the locality band. Caveats: RERA number not yet found.",
+   "segment_fit": {
+    "boardroom": 0,
+    "executive": 80,
+    "value": 30
+   }
   },
   {
    "name": "Godrej Azure (new phase/tower)",
@@ -989,7 +1245,9 @@
    "data_confidence": "reported",
    "sources": [
     "https://booknewproperty.com/news/godrej-azure-omr-chennai-receives-rera-approval/",
-    "https://www.godrejazure.in/godrej-residential-projects-in-chennai-2025/"
+    "https://www.godrejazure.in/godrej-residential-projects-in-chennai-2025/",
+    "https://www.godrejproperties.com/chennai/residential/godrej-azure",
+    "https://www.squareyards.com/chennai-residential-property/godrej-azure/5416/project"
    ],
    "notes": "New RERA registration in 2025 for latest phase of the Godrej Azure development on OMR; earlier phases carried 2017-2018 registrations. Godrej also acquired 47 acres off OMR (Siruseri-Kelambakkam corridor) in 2025-26 for a plotted project expected to launch ~Q4 2026 (not yet RERA-registered). RERA number cross-checked against TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
@@ -1007,9 +1265,22 @@
    "upside_score": 70,
    "risk": "Low",
    "tags": [
+    "Executive",
     "Steady/Rental"
    ],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market, strong developer record."
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market, strong developer record.",
+   "config_mix": "2/3/4 BHK",
+   "dominant_config": "3BHK",
+   "unit_size_min_sqft": 1029,
+   "unit_size_max_sqft": 2720,
+   "ticket_min_lakh": 74,
+   "ticket_max_lakh": 220,
+   "density_note": "mid-size phased development on 9.52 acres; phase-level unit count not published",
+   "segment_fit": {
+    "boardroom": 30,
+    "executive": 100,
+    "value": 0
+   }
   },
   {
    "name": "Godrej OMR plotted development (working name, Siruseri–Kelambakkam corridor)",
@@ -1053,7 +1324,12 @@
     "High Upside",
     "Plotted/Land"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, strong developer record. Caveats: RERA number not yet found."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, strong developer record. Caveats: RERA number not yet found.",
+   "segment_fit": {
+    "boardroom": 10,
+    "executive": 50,
+    "value": 0
+   }
   },
   {
    "name": "Harmonia Pavilion (Lancor Town & Country)",
@@ -1076,7 +1352,9 @@
    "sources": [
     "https://lancor.in/lancor-launches-harmonia-pavilion-senior-living-apartment-in-sriperumbudur-chennai/",
     "https://www.newsonprojects.com/news/lancor-holdings-projects-2300-crore-revenue-from-sriperumbudur-integrated-township",
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-1-blg-0299-2025/harmonia-pavilion"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-1-blg-0299-2025/harmonia-pavilion",
+    "https://lancor.in/project/senior-living-sriperumbudur/lancor-harmonia-pavilion/",
+    "https://www.homes247.in/property/chennai/sriperumbudur/lancor-harmonia-pavilion-97396"
    ],
    "notes": "110 senior-living apartments (~44,000 sqft) inside 90–100 acre Lancor Town & Country integrated township (~2,000 units planned: villas, plots, apartments); township revenue potential ~Rs 2,300 crore; 'Blue Circle Living' cross-generational concept. RERA number found via TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
@@ -1095,9 +1373,22 @@
    "risk": "Low",
    "tags": [
     "Early Entrant",
-    "High Upside"
+    "High Upside",
+    "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market.",
+   "config_mix": "2 BHK senior-living apartments",
+   "dominant_config": "2BHK",
+   "unit_size_min_sqft": 816,
+   "unit_size_max_sqft": 993,
+   "ticket_min_lakh": 49,
+   "ticket_max_lakh": 60,
+   "density_note": "boutique senior-living community — 110 units, stilt+5",
+   "segment_fit": {
+    "boardroom": 10,
+    "executive": 70,
+    "value": 0
+   }
   },
   {
    "name": "Hiranandani Verona (Upscale Octavius & Verona)",
@@ -1130,15 +1421,22 @@
    "score_breakdown": {
     "entry_stage": 5,
     "infrastructure": 20,
-    "locality_momentum": 8,
+    "locality_momentum": 15,
     "relative_pricing": 7,
     "developer_track_record": 10,
-    "rental_yield": 5
+    "rental_yield": 8
    },
-   "upside_score": 55,
+   "upside_score": 65,
    "risk": "Low",
-   "tags": [],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure, strong developer record."
+   "tags": [
+    "Steady/Rental"
+   ],
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market, strong developer record.",
+   "segment_fit": {
+    "boardroom": 10,
+    "executive": 55,
+    "value": 0
+   }
   },
   {
    "name": "JMB Alaya (JMB RRM Alaya)",
@@ -1177,7 +1475,12 @@
    "upside_score": 51,
    "risk": "Medium",
    "tags": [],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure. Caveats: limited developer track record."
+   "score_rationale": "Scores on close to upcoming metro/infrastructure. Caveats: limited developer track record.",
+   "segment_fit": {
+    "boardroom": 10,
+    "executive": 35,
+    "value": 0
+   }
   },
   {
    "name": "Jain Antareeksh",
@@ -1199,7 +1502,9 @@
    "data_confidence": "reported",
    "sources": [
     "https://www.squareyards.com/chennai-residential-property/jain-antareeksh/227247/project",
-    "https://www.commonfloor.com/jains-antareeksh-chennai/povp-3x44vj"
+    "https://www.commonfloor.com/jains-antareeksh-chennai/povp-3x44vj",
+    "https://jainhousing.com/chennai/jains-antareeksh-perungudi",
+    "https://propertycloud.in/properties/explore/jains-antareeksh/"
    ],
    "notes": "~5-acre project near Velachery Main Road/IT Expressway; unit-count discrepancy across portals (179 units phase 1 vs 906 total per Square Yards); phase 1 nearing possession, later towers sold as new launch.",
    "last_checked": "2026-07-20",
@@ -1216,8 +1521,22 @@
    },
    "upside_score": 59,
    "risk": "Low",
-   "tags": [],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure."
+   "tags": [
+    "Executive"
+   ],
+   "score_rationale": "Scores on close to upcoming metro/infrastructure.",
+   "config_mix": "2/3 BHK",
+   "dominant_config": "2BHK",
+   "unit_size_min_sqft": 1048,
+   "unit_size_max_sqft": 1728,
+   "ticket_min_lakh": 104,
+   "ticket_max_lakh": 173,
+   "density_note": "mid-size — ~179 units in 2 blocks on ~5 acres",
+   "segment_fit": {
+    "boardroom": 0,
+    "executive": 80,
+    "value": 0
+   }
   },
   {
    "name": "Jains Aadhya",
@@ -1250,17 +1569,32 @@
    "score_breakdown": {
     "entry_stage": 21,
     "infrastructure": 20,
-    "locality_momentum": 8,
-    "relative_pricing": 7,
+    "locality_momentum": 15,
+    "relative_pricing": 15,
     "developer_track_record": 7,
-    "rental_yield": 5
+    "rental_yield": 10
    },
-   "upside_score": 68,
-   "risk": "Low",
+   "upside_score": 88,
+   "risk": "Medium",
    "tags": [
-    "Early Entrant"
+    "Early Entrant",
+    "High Upside",
+    "Executive",
+    "Value"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, priced below the locality band. Caveats: flood-prone zone.",
+   "config_mix": "1/2 BHK",
+   "dominant_config": "2BHK",
+   "unit_size_min_sqft": 582,
+   "unit_size_max_sqft": 928,
+   "ticket_min_lakh": 40,
+   "ticket_max_lakh": 69,
+   "density_note": "large single high-rise — 468 units, G+19, affordable/compact segment",
+   "segment_fit": {
+    "boardroom": 0,
+    "executive": 70,
+    "value": 100
+   }
   },
   {
    "name": "KG Signature City 2.0",
@@ -1301,9 +1635,15 @@
    "risk": "Medium",
    "tags": [
     "Early Entrant",
-    "High Upside"
+    "High Upside",
+    "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: RERA number not yet found."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: RERA number not yet found.",
+   "segment_fit": {
+    "boardroom": 0,
+    "executive": 70,
+    "value": 0
+   }
   },
   {
    "name": "Kamadhenu (Appaswamy)",
@@ -1327,7 +1667,9 @@
     "https://appaswamy.com/residential-property",
     "https://x.com/TecknovaNambiar/status/1954212621189829022",
     "https://x.com/UpdatesChennai/status/1954215101075947553",
-    "https://houssed.com/chennai/sale/builder/appaswamy-real-estate-2833"
+    "https://houssed.com/chennai/sale/builder/appaswamy-real-estate-2833",
+    "https://appaswamy.com/property/111/kamadhenu",
+    "https://www.chennaiproperties.com/projects/kamadhenu-in-mylapore/6743"
    ],
    "notes": "Ultra-premium city-centre launch; RERA number and date from developer's official site. Ultra-prime Mylapore redevelopment of old Kamadhenu Theatre plot; 1.05 acres, 2B+S+12 floors, 79 units of 3 & 4 BHK. Appaswamy also has a concurrent Nungambakkam new launch (3 BHK, Rs 3-3.45 Cr) per houssed. RERA number cross-checked against TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
@@ -1345,9 +1687,22 @@
    "upside_score": 71,
    "risk": "Low",
    "tags": [
-    "Early Entrant"
+    "Early Entrant",
+    "Boardroom"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, strong developer record."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, strong developer record.",
+   "config_mix": "3/4 BHK luxury",
+   "dominant_config": "4BHK+",
+   "unit_size_min_sqft": 2305,
+   "unit_size_max_sqft": 3753,
+   "ticket_min_lakh": 576,
+   "ticket_max_lakh": 938,
+   "density_note": "boutique <150 units — 79 units, Luz Church Road",
+   "segment_fit": {
+    "boardroom": 80,
+    "executive": 45,
+    "value": 0
+   }
   },
   {
    "name": "L&T Avinya Enclave",
@@ -1371,7 +1726,9 @@
     "https://www.lntrealty.com/residences/",
     "https://www.business-standard.com/india-news/l-t-realty-records-complete-sell-out-of-phase-1-of-first-residential-project-in-chennai-123091700742_1.html",
     "https://lntupcomingprojects.com/chennai/lnt-realty-manapakkam/",
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0086-2026/l-amp-t-realty-avinya-enclave"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0086-2026/l-amp-t-realty-avinya-enclave",
+    "https://www.lntrealty.com/residences/avinya-enclave-2-3-4-bhk-flats-in-manapakkam-chennai/",
+    "https://www.squareyards.com/chennai-residential-property/lnt-avinya-enclave/229500/project"
    ],
    "notes": "L&T Realty's maiden Chennai residential project on ~40-acre parcel; phase 1 (4 towers, 500 units) fully sold out; later phases being released through 2024–25; near proposed Manapakkam metro. RERA number found via TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
@@ -1389,9 +1746,23 @@
    "upside_score": 70,
    "risk": "Low",
    "tags": [
+    "Boardroom",
+    "Executive",
     "Steady/Rental"
    ],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market, strong developer record."
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market, strong developer record.",
+   "config_mix": "2/2.5/3/4 BHK",
+   "dominant_config": "3BHK",
+   "unit_size_min_sqft": 1179,
+   "unit_size_max_sqft": 2561,
+   "ticket_min_lakh": 170,
+   "ticket_max_lakh": 360,
+   "density_note": "large township — phase within a 40-acre L&T Realty land parcel",
+   "segment_fit": {
+    "boardroom": 70,
+    "executive": 100,
+    "value": 0
+   }
   },
   {
    "name": "Navins Mayura Gardens",
@@ -1403,7 +1774,7 @@
    "lat": 13.041,
    "lng": 80.174,
    "geo_precision": "approximate",
-   "total_units": null,
+   "total_units": 59,
    "price_sqft_min": null,
    "price_sqft_max": null,
    "ticket_note": null,
@@ -1414,7 +1785,8 @@
    "sources": [
     "https://www.99acres.com/navins-mayura-gardens-valasaravakkam-chennai-west-npxid-r458126",
     "https://navins.in/projects",
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0403-2025/navin-s-mayura-gardens"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0403-2025/navin-s-mayura-gardens",
+    "https://navins.in/landingpage/mayura-gardens/"
    ],
    "notes": "Low-rise community (3 towers, 5 floors); one of several Navin's launches through 2025 (others incl. Saathvika, Starwood Towers 3.0, Hanging Gardens on the IT corridor). RERA number found via TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
@@ -1424,17 +1796,31 @@
    "score_breakdown": {
     "entry_stage": 21,
     "infrastructure": 20,
-    "locality_momentum": 8,
+    "locality_momentum": 15,
     "relative_pricing": 7,
-    "developer_track_record": 3,
-    "rental_yield": 5
+    "developer_track_record": 7,
+    "rental_yield": 8
    },
-   "upside_score": 64,
-   "risk": "Medium",
+   "upside_score": 78,
+   "risk": "Low",
    "tags": [
-    "Early Entrant"
+    "Early Entrant",
+    "High Upside",
+    "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure. Caveats: limited developer track record."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market.",
+   "config_mix": "2/3/4 BHK",
+   "dominant_config": "3BHK",
+   "unit_size_min_sqft": 1093,
+   "unit_size_max_sqft": 1934,
+   "ticket_min_lakh": 155,
+   "ticket_max_lakh": 280,
+   "density_note": "ultra-boutique — 59 units in 3 low-rise towers (5 floors)",
+   "segment_fit": {
+    "boardroom": 50,
+    "executive": 100,
+    "value": 0
+   }
   },
   {
    "name": "Parkville at Hiranandani Parks",
@@ -1457,7 +1843,8 @@
    "sources": [
     "https://www.ghar.tv/blog/hiranandani-communities-unveils-parkville-180-unit-residential-tower-in-chennais-oragadam-township/artid5259",
     "https://www.nbmcw.com/news/hiranandani-communities-unveils-rs-105-cr-parkville-project-featuring-smart-fit-homes-in-oragadam.html",
-    "https://www.hiranandaniparks.com/hiranandani-chennai/luxury-apartments-in-oragadam/parkville-2-bhk-flats"
+    "https://www.hiranandaniparks.com/hiranandani-chennai/luxury-apartments-in-oragadam/parkville-2-bhk-flats",
+    "https://findbhk.com/projects/hiranandani-parkville-oragadam"
    ],
    "notes": "Stilt+13 tower on ~1.3 acres inside 400-acre Hiranandani Parks township; ~Rs 105 crore revenue potential; DTCP approval SWP/BPA/0125870/2024 dated 20-Feb-2025; smart FIT homes. RERA number cross-checked against TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
@@ -1475,9 +1862,21 @@
    "upside_score": 75,
    "risk": "Low",
    "tags": [
-    "Early Entrant"
+    "Early Entrant",
+    "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market, strong developer record."
+   "score_rationale": "Scores on early entry stage, rising micro-market, strong developer record.",
+   "config_mix": "2 BHK only",
+   "dominant_config": "2BHK",
+   "unit_size_min_sqft": 1061,
+   "unit_size_max_sqft": 1075,
+   "ticket_min_lakh": 60,
+   "density_note": "single 13-floor tower of 180 units inside the 369-acre Hiranandani Parks township",
+   "segment_fit": {
+    "boardroom": 10,
+    "executive": 70,
+    "value": 0
+   }
   },
   {
    "name": "Prestige Medavakkam (working name, Bharatnagar Buildcon LLP land)",
@@ -1517,9 +1916,15 @@
    "risk": "Medium",
    "tags": [
     "Early Entrant",
-    "High Upside"
+    "High Upside",
+    "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, strong developer record. Caveats: RERA number not yet found."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, strong developer record. Caveats: RERA number not yet found.",
+   "segment_fit": {
+    "boardroom": 10,
+    "executive": 70,
+    "value": 0
+   }
   },
   {
    "name": "Prestige Pallavaram Gardens",
@@ -1544,7 +1949,8 @@
     "https://prestigeprelaunchprojects.com/prestige-pallava-gardens/",
     "https://www.prestigepallavagardens.live/",
     "https://www.prestigepallavagardens.live/rera/",
-    "https://www.99acres.com/prestige-pallavaram-gardens-pallavaram-chennai-south-npxid-r435536"
+    "https://www.99acres.com/prestige-pallavaram-gardens-pallavaram-chennai-south-npxid-r435536",
+    "https://www.nobroker.in/prestige-pallavaram-gardens-pallavaram_chennai-prjt-8a9f848c9762985b019762afe53a086c"
    ],
    "notes": "21.84-acre project, 21 towers of 2B+G+14 floors, 2/3/4 BHK; one of the largest South Chennai launches of 2025. Flagship 21.84-acre South Chennai launch; 21 towers; TNRERA approved 28-Jun-2025, launched 01-Jul-2025.",
    "last_checked": "2026-07-20",
@@ -1563,9 +1969,23 @@
    "risk": "Low",
    "tags": [
     "Early Entrant",
-    "High Upside"
+    "High Upside",
+    "Boardroom",
+    "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market, strong developer record."
+   "score_rationale": "Scores on early entry stage, rising micro-market, strong developer record.",
+   "config_mix": "2/3/4 BHK",
+   "dominant_config": "3BHK",
+   "unit_size_min_sqft": 1001,
+   "unit_size_max_sqft": 2735,
+   "ticket_min_lakh": 110,
+   "ticket_max_lakh": 342,
+   "density_note": "large township — 2,069 units in 21 towers on ~21.84 acres",
+   "segment_fit": {
+    "boardroom": 70,
+    "executive": 100,
+    "value": 0
+   }
   },
   {
    "name": "Prestige Palm Court",
@@ -1587,7 +2007,9 @@
    "data_confidence": "estimated",
    "sources": [
     "https://www.prestigepalmcourts.com/",
-    "https://www.prestigepalmcourt.info/master-plan/project-status.html"
+    "https://www.prestigepalmcourt.info/master-plan/project-status.html",
+    "https://www.prestigepalmcourts.com/price/",
+    "https://housiey.com/projects/prestige-palm-court"
    ],
    "notes": "7.98-acre parcel, ~910 units planned; TNRERA registration applied, approval expected ~Dec 2026; details from channel-partner/pre-launch sites, not yet on official Prestige portal.",
    "last_checked": "2026-07-20",
@@ -1606,9 +2028,22 @@
    "risk": "Medium",
    "tags": [
     "Early Entrant",
-    "High Upside"
+    "High Upside",
+    "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, strong developer record. Caveats: RERA number not yet found."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, strong developer record. Caveats: RERA number not yet found.",
+   "config_mix": "1/2/3 BHK",
+   "dominant_config": "mixed",
+   "unit_size_min_sqft": 650,
+   "unit_size_max_sqft": 1887,
+   "ticket_min_lakh": 72,
+   "ticket_max_lakh": 199,
+   "density_note": "large — 910 units in 5 high-rise towers on 7.98 acres; TNRERA approval pending, pricing from marketing channels",
+   "segment_fit": {
+    "boardroom": 10,
+    "executive": 100,
+    "value": 0
+   }
   },
   {
    "name": "Provident Bayscape",
@@ -1630,7 +2065,9 @@
    "data_confidence": "reported",
    "sources": [
     "https://www.puravankaragroups.com/projects-in-chennai/",
-    "https://www.99acres.com/puravankara-projects-in-chennai-bcffid"
+    "https://www.99acres.com/puravankara-projects-in-chennai-bcffid",
+    "https://www.nobroker.in/provident-bayscape-kelambakkam_chennai-prjt-8a9f82838ced4934018cedb358724e6e",
+    "https://www.homznspace.com/provident-bayscape-kelambakkam-chennai/"
    ],
    "notes": "5.35 acres, 4 high-rise towers; Provident brand's push into the OMR/Kelambakkam corridor; Puravankara group investing Rs 7,000+ crore in new launches incl. Chennai.",
    "last_checked": "2026-07-20",
@@ -1649,9 +2086,22 @@
    "risk": "Medium",
    "tags": [
     "Early Entrant",
-    "High Upside"
+    "High Upside",
+    "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, strong developer record. Caveats: RERA number not yet found."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, strong developer record. Caveats: RERA number not yet found.",
+   "config_mix": "2/3 BHK",
+   "dominant_config": "2BHK",
+   "unit_size_min_sqft": 993,
+   "unit_size_max_sqft": 1424,
+   "ticket_min_lakh": 64,
+   "ticket_max_lakh": 91,
+   "density_note": "large — 676 units on 5.35 acres, mid-income",
+   "segment_fit": {
+    "boardroom": 10,
+    "executive": 100,
+    "value": 0
+   }
   },
   {
    "name": "Provident Sangam",
@@ -1692,9 +2142,15 @@
    "risk": "Medium",
    "tags": [
     "Early Entrant",
-    "High Upside"
+    "High Upside",
+    "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, strong developer record. Caveats: RERA number not yet found."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, strong developer record. Caveats: RERA number not yet found.",
+   "segment_fit": {
+    "boardroom": 10,
+    "executive": 70,
+    "value": 0
+   }
   },
   {
    "name": "Radiance Eternity",
@@ -1717,7 +2173,9 @@
    "sources": [
     "https://www.radiancerealty.in/chennai-ongoing-projects",
     "https://www.aurumproptech.in/pulse/rera/tamil-nadu/chennai/radiance-eternity/1917",
-    "https://www.radiancerealty.in/radiance-eternity-chennai-a-smart-investment-in-omr-fast-growing-corridor"
+    "https://www.radiancerealty.in/radiance-eternity-chennai-a-smart-investment-in-omr-fast-growing-corridor",
+    "https://www.radiancerealty.in/premium-2bhk-3bhk-4bhk-apartment-sale-thoraipakkam-chennai",
+    "https://www.nobroker.in/radiance-eternity-thoraipakkam_chennai-prjt-8a9f8584971adad401971b2869172164"
    ],
    "notes": "2.21 acres, 2/3/4/5 BHK. RERA number and date taken from developer's own site. 2.21 acres, two 22-floor towers, 215 ultra-premium units; rooftop pool with sea view, EV charging; metro-adjacent OMR location; sales launch events Jun-Jul 2025.",
    "last_checked": "2026-07-20",
@@ -1735,9 +2193,23 @@
    "upside_score": 68,
    "risk": "Low",
    "tags": [
+    "Boardroom",
+    "Executive",
     "Steady/Rental"
    ],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market."
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market.",
+   "config_mix": "2/3/4 BHK + 5BHK penthouses",
+   "dominant_config": "3BHK",
+   "unit_size_min_sqft": 1356,
+   "unit_size_max_sqft": 5429,
+   "ticket_min_lakh": 180,
+   "ticket_max_lakh": 352,
+   "density_note": "boutique-premium — 215 units in 2 towers on 2.21 acres, ~₹12,200/sqft",
+   "segment_fit": {
+    "boardroom": 60,
+    "executive": 100,
+    "value": 0
+   }
   },
   {
    "name": "Radiance Solitaire",
@@ -1758,7 +2230,9 @@
    "status": "active",
    "data_confidence": "reported",
    "sources": [
-    "https://www.radiancerealty.in/chennai-ongoing-projects"
+    "https://www.radiancerealty.in/chennai-ongoing-projects",
+    "https://www.radiancerealty.in/premium-2bhk-3bhk-4bhk-apartment-sale-madhavaram-chennai",
+    "https://www.squareyards.com/chennai-residential-property/radiance-solitaire/324845/project"
    ],
    "notes": "5.37 acres, 2/2.5/3/4 BHK. RERA number and date from developer's own site.",
    "last_checked": "2026-07-20",
@@ -1776,9 +2250,22 @@
    "upside_score": 74,
    "risk": "Low",
    "tags": [
+    "Executive",
     "Steady/Rental"
    ],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market."
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market.",
+   "config_mix": "2/2.5/3/4 BHK + penthouses",
+   "dominant_config": "mixed",
+   "unit_size_min_sqft": 1055,
+   "unit_size_max_sqft": 2127,
+   "ticket_min_lakh": 93,
+   "ticket_max_lakh": 186,
+   "density_note": "large — 660 units on 5.37 acres",
+   "segment_fit": {
+    "boardroom": 20,
+    "executive": 100,
+    "value": 0
+   }
   },
   {
    "name": "Romaa's Darren",
@@ -1817,7 +2304,12 @@
    "upside_score": 51,
    "risk": "Medium",
    "tags": [],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure. Caveats: limited developer track record."
+   "score_rationale": "Scores on close to upcoming metro/infrastructure. Caveats: limited developer track record.",
+   "segment_fit": {
+    "boardroom": 10,
+    "executive": 35,
+    "value": 0
+   }
   },
   {
    "name": "SPR Sky Tower (SPR Highliving District, SPR City)",
@@ -1840,7 +2332,9 @@
    "sources": [
     "https://sprskytowerchennai.com/",
     "https://en.wikipedia.org/wiki/SPR_Highliving_District_Towers",
-    "https://www.spr-city.in/"
+    "https://www.spr-city.in/",
+    "https://sprskytower.com/",
+    "https://www.connectionpoint.in/residential-project-spr-sky-tower"
    ],
    "notes": "45-storey tower (among Chennai's tallest residential) with 300+ 2/3/4BHK units inside 63-acre SPR City integrated township; existing 45-floor Highliving tower structurally completed 2025; 2–3 additional towers (up to 40 floors, ~1,000 units) planned in phases after 2026 — future pre-launch pipeline.",
    "last_checked": "2026-07-20",
@@ -1850,15 +2344,30 @@
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 16,
-    "locality_momentum": 8,
+    "locality_momentum": 20,
     "relative_pricing": 7,
     "developer_track_record": 7,
-    "rental_yield": 5
+    "rental_yield": 8
    },
-   "upside_score": 55,
+   "upside_score": 70,
    "risk": "Medium",
-   "tags": [],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure. Caveats: RERA number not yet found."
+   "tags": [
+    "Executive",
+    "Steady/Rental"
+   ],
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market. Caveats: RERA number not yet found.",
+   "config_mix": "2/3/4 BHK",
+   "dominant_config": "3BHK",
+   "unit_size_min_sqft": 1075,
+   "unit_size_max_sqft": 2745,
+   "ticket_min_lakh": 120,
+   "ticket_max_lakh": 260,
+   "density_note": "large — 651 units, 45-storey tower inside 18-acre SPR City township",
+   "segment_fit": {
+    "boardroom": 20,
+    "executive": 100,
+    "value": 30
+   }
   },
   {
    "name": "Shriram Koyambedu project (working name)",
@@ -1890,17 +2399,24 @@
    "score_breakdown": {
     "entry_stage": 25,
     "infrastructure": 20,
-    "locality_momentum": 8,
+    "locality_momentum": 20,
     "relative_pricing": 7,
     "developer_track_record": 7,
-    "rental_yield": 5
+    "rental_yield": 8
    },
-   "upside_score": 72,
+   "upside_score": 87,
    "risk": "Medium",
    "tags": [
-    "Early Entrant"
+    "Early Entrant",
+    "High Upside",
+    "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure. Caveats: RERA number not yet found."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: RERA number not yet found.",
+   "segment_fit": {
+    "boardroom": 20,
+    "executive": 70,
+    "value": 0
+   }
   },
   {
    "name": "Skylon (Appaswamy)",
@@ -1912,7 +2428,7 @@
    "lat": 13.07,
    "lng": 80.194,
    "geo_precision": "approximate",
-   "total_units": null,
+   "total_units": 122,
    "price_sqft_min": null,
    "price_sqft_max": null,
    "ticket_note": "₹2.55 crore to ₹3.75 crore (3-4 BHK, 1969-2887 sqft)",
@@ -1921,7 +2437,9 @@
    "status": "active",
    "data_confidence": "reported",
    "sources": [
-    "https://appaswamy.com/residential-property"
+    "https://appaswamy.com/residential-property",
+    "https://houssed.com/chennai/appaswamy-real-estate/appaswamy-skylon-136145",
+    "https://www.roofandfloor.com/chennai/project/appaswamy-skylon-in-koyambedu/6160"
    ],
    "notes": "RERA number and date from developer's official site.",
    "last_checked": "2026-07-20",
@@ -1931,15 +2449,31 @@
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 20,
-    "locality_momentum": 8,
+    "locality_momentum": 20,
     "relative_pricing": 7,
     "developer_track_record": 10,
-    "rental_yield": 5
+    "rental_yield": 8
    },
-   "upside_score": 62,
+   "upside_score": 77,
    "risk": "Low",
-   "tags": [],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure, strong developer record."
+   "tags": [
+    "Boardroom",
+    "Executive",
+    "Steady/Rental"
+   ],
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market, strong developer record.",
+   "config_mix": "3/4 BHK",
+   "dominant_config": "3BHK",
+   "unit_size_min_sqft": 1969,
+   "unit_size_max_sqft": 2887,
+   "ticket_min_lakh": 285,
+   "ticket_max_lakh": 415,
+   "density_note": "boutique <150 units — 122 units",
+   "segment_fit": {
+    "boardroom": 100,
+    "executive": 70,
+    "value": 0
+   }
   },
   {
    "name": "Sobha Siruseri OMR (working name: Sobha OMR Road)",
@@ -1961,7 +2495,8 @@
    "data_confidence": "estimated",
    "sources": [
     "https://www.sobhagroups.com/projects-in-chennai/sobha-omr-road-siruseri/",
-    "https://www.business-standard.com/companies/news/sobha-to-launch-22k-cr-residential-projects-over-the-next-18-months-125101900442_1.html"
+    "https://www.business-standard.com/companies/news/sobha-to-launch-22k-cr-residential-projects-over-the-next-18-months-125101900442_1.html",
+    "https://upcomingprop.com/sobha/chennai/sobha-omr-road-siruseri/"
    ],
    "notes": "~10-acre premium apartment project (6 towers, ~600 units, 2/3/4BHK) marketed via channel-partner/pre-launch sites; unit counts vary across sources and official confirmation pending. Sobha has confirmed Chennai is in its Rs 22,000-crore launch pipeline over 18 months (Oct 2025). Treat details as indicative.",
    "last_checked": "2026-07-20",
@@ -1980,9 +2515,22 @@
    "risk": "Medium",
    "tags": [
     "Early Entrant",
-    "High Upside"
+    "High Upside",
+    "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, strong developer record. Caveats: RERA number not yet found."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, strong developer record. Caveats: RERA number not yet found.",
+   "config_mix": "2/3/4 BHK (reported, pre-launch)",
+   "dominant_config": "3BHK",
+   "unit_size_min_sqft": 1336,
+   "unit_size_max_sqft": 2300,
+   "ticket_min_lakh": 62.5,
+   "ticket_max_lakh": 194,
+   "density_note": "large — ~600 units planned in G+14 blocks on ~10 acres; lead-gen sources only, figures unverified",
+   "segment_fit": {
+    "boardroom": 30,
+    "executive": 100,
+    "value": 0
+   }
   },
   {
    "name": "Sobha Velachery",
@@ -2003,7 +2551,9 @@
    "status": "active",
    "data_confidence": "reported",
    "sources": [
-    "https://www.sobhaoneworlds.com/chennai/sobha-ongoing-new-projects-in-chennai-2026-update.html"
+    "https://www.sobhaoneworlds.com/chennai/sobha-ongoing-new-projects-in-chennai-2026-update.html",
+    "https://sobhaupcoming.com/velachery-chennai/",
+    "https://www.sobhagroups.com/projects-in-chennai/sobha-velachery/"
    ],
    "notes": "11.32-acre premium project on Velachery IT corridor; RERA number not found in sources — left null. Sobha also has 'Sobha Conserve', a 10-acre/124-plot plotted development at Pudupakkam (OMR) slated for 2025 launch.",
    "last_checked": "2026-07-20",
@@ -2022,9 +2572,20 @@
    "risk": "Medium",
    "tags": [
     "Early Entrant",
-    "High Upside"
+    "High Upside",
+    "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, strong developer record. Caveats: RERA number not yet found."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, strong developer record. Caveats: RERA number not yet found.",
+   "config_mix": "3/4/5 BHK (reported, pre-launch)",
+   "dominant_config": "3BHK",
+   "unit_size_min_sqft": 1200,
+   "unit_size_max_sqft": 2500,
+   "density_note": "large — ~548 units reported on 11.32 acres; only lead-gen sources available, pricing unverified",
+   "segment_fit": {
+    "boardroom": 30,
+    "executive": 70,
+    "value": 0
+   }
   },
   {
    "name": "Subiksha Radha",
@@ -2065,7 +2626,12 @@
    "tags": [
     "Early Entrant"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure. Caveats: limited developer track record."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure. Caveats: limited developer track record.",
+   "segment_fit": {
+    "boardroom": 10,
+    "executive": 35,
+    "value": 0
+   }
   },
   {
    "name": "TVS Emerald Elements",
@@ -2077,7 +2643,7 @@
    "lat": 12.945,
    "lng": 80.196,
    "geo_precision": "approximate",
-   "total_units": null,
+   "total_units": 820,
    "price_sqft_min": null,
    "price_sqft_max": null,
    "ticket_note": "From ~Rs 79.4-93.9 lakh (2 BHK); 2 BHK 934-1101 sq ft, 3 BHK 1438-1650 sq ft",
@@ -2087,7 +2653,9 @@
    "data_confidence": "reported",
    "sources": [
     "https://www.99acres.com/tvs-emerald-elements-kovilambakkam-chennai-south-npxid-r409652",
-    "https://www.ghar.tv/tvs-emerald-elements-kovilambakkam-chennai-okiw948774401"
+    "https://www.ghar.tv/tvs-emerald-elements-kovilambakkam-chennai-okiw948774401",
+    "https://www.tvsemerald.com/projects/tvs-emerald-elements-kovilambakkam/",
+    "https://www.squareyards.com/chennai-residential-property/tvs-emerald-elements/223268/project"
    ],
    "notes": "2/3 BHK mid-segment project near Medavakkam/Pallavaram Radial Road corridor; possession dates differ across portals (Jun 2028 vs Jun 2029).",
    "last_checked": "2026-07-20",
@@ -2097,15 +2665,26 @@
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 16,
-    "locality_momentum": 8,
+    "locality_momentum": 15,
     "relative_pricing": 7,
     "developer_track_record": 10,
-    "rental_yield": 5
+    "rental_yield": 6
    },
-   "upside_score": 58,
-   "risk": "Low",
+   "upside_score": 66,
+   "risk": "Medium",
    "tags": [],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure, strong developer record."
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market, strong developer record. Caveats: flood-prone zone.",
+   "config_mix": "2/3 BHK",
+   "dominant_config": "2BHK",
+   "unit_size_min_sqft": 934,
+   "unit_size_max_sqft": 1650,
+   "ticket_min_lakh": 94,
+   "density_note": "large — 820 units in 4 towers (18 floors) on 6.56 acres",
+   "segment_fit": {
+    "boardroom": 10,
+    "executive": 50,
+    "value": 30
+   }
   },
   {
    "name": "TVS Emerald Luxor",
@@ -2127,7 +2706,8 @@
    "data_confidence": "reported",
    "sources": [
     "https://www.99acres.com/tvs-emerald-luxor-anna-nagar-west-chennai-north-npxid-r413110",
-    "https://findbhk.com/projects/tvs-emerald-luxor-anna-nagar"
+    "https://findbhk.com/projects/tvs-emerald-luxor-anna-nagar",
+    "https://www.chennaiproperties.com/projects/tvs-emerald-luxor-in-anna-nagar/4889"
    ],
    "notes": "TVS Emerald's first ultra-luxury Chennai product; bespoke 3/4 BHK residences in prime Anna Nagar; Home Debut sales event Dec 2025; delivery expected Aug 2028.",
    "last_checked": "2026-07-20",
@@ -2144,8 +2724,22 @@
    },
    "upside_score": 66,
    "risk": "Low",
-   "tags": [],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market, strong developer record."
+   "tags": [
+    "Boardroom"
+   ],
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market, strong developer record.",
+   "config_mix": "3/4 BHK luxury",
+   "dominant_config": "4BHK+",
+   "unit_size_min_sqft": 1842,
+   "unit_size_max_sqft": 2665,
+   "ticket_min_lakh": 295,
+   "ticket_max_lakh": 690,
+   "density_note": "boutique <150 units — 128 units on 2.1 acres",
+   "segment_fit": {
+    "boardroom": 100,
+    "executive": 50,
+    "value": 0
+   }
   },
   {
    "name": "TVS Emerald Serene Springs",
@@ -2186,9 +2780,15 @@
    "risk": "Medium",
    "tags": [
     "Early Entrant",
-    "High Upside"
+    "High Upside",
+    "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, strong developer record. Caveats: RERA number not yet found."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, strong developer record. Caveats: RERA number not yet found.",
+   "segment_fit": {
+    "boardroom": 10,
+    "executive": 70,
+    "value": 0
+   }
   },
   {
    "name": "TVS Emerald Verde Vista",
@@ -2213,7 +2813,8 @@
     "https://verdevistachennai.com/",
     "https://www.tvsemerald.com/",
     "https://www.nobroker.in/tvs-emerald-verde-vista-padur_chennai-prjt-8a9faf83961436b101961489e4a22165",
-    "https://www.tvsemerald.com/project_status/pre-launched/"
+    "https://www.tvsemerald.com/project_status/pre-launched/",
+    "https://houssed.com/chennai/tvs-emerald/tvs-emerald-verde-vista-138416"
    ],
    "notes": "Low-rise low-density project, 4.85 acres, 5 towers, IGBC Gold pre-certified, ~3 km from upcoming Siruseri metro. Low-rise low-density community on 4.79 acres; IGBC Gold pre-certified 2/3/4 BHK; ~3 km from upcoming Siruseri metro station; 100% Vastu-compliant; 35+ amenities. Was in pre-launch mid-2025, launched Aug 2025.",
    "last_checked": "2026-07-20",
@@ -2232,9 +2833,22 @@
    "risk": "Low",
    "tags": [
     "Early Entrant",
-    "High Upside"
+    "High Upside",
+    "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, strong developer record."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, strong developer record.",
+   "config_mix": "2/3/4 BHK low-rise",
+   "dominant_config": "3BHK",
+   "unit_size_min_sqft": 952,
+   "unit_size_max_sqft": 2676,
+   "ticket_min_lakh": 78,
+   "ticket_max_lakh": 200,
+   "density_note": "mid-size low-rise — 355 units in 3 blocks (5 floors) on 4.79 acres",
+   "segment_fit": {
+    "boardroom": 30,
+    "executive": 100,
+    "value": 0
+   }
   },
   {
    "name": "Urbanrise Codename 'The Next Big Thing' (reported as Codename New Porur, Thirumazhisai)",
@@ -2275,9 +2889,15 @@
    "upside_score": 76,
    "risk": "Medium",
    "tags": [
-    "Early Entrant"
+    "Early Entrant",
+    "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market. Caveats: RERA number not yet found."
+   "score_rationale": "Scores on early entry stage, rising micro-market. Caveats: RERA number not yet found.",
+   "segment_fit": {
+    "boardroom": 0,
+    "executive": 70,
+    "value": 0
+   }
   },
   {
    "name": "Urbanrise Opus 96",
@@ -2318,9 +2938,15 @@
    "upside_score": 68,
    "risk": "Low",
    "tags": [
-    "Early Entrant"
+    "Early Entrant",
+    "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market."
+   "score_rationale": "Scores on early entry stage, rising micro-market.",
+   "segment_fit": {
+    "boardroom": 0,
+    "executive": 80,
+    "value": 0
+   }
   },
   {
    "name": "Urbanrise Whispers of Sky",
@@ -2344,7 +2970,8 @@
     "https://www.nobroker.in/urbanrise-whispers-of-sky-sholinganallur_chennai-prjt-8aa9a4f29a70de56019a713769c01c22",
     "https://findbhk.com/projects/urbanrise-whispers-of-sky-sholinganallur",
     "https://www.urbanrisewhispersofsky.net.in/",
-    "https://www.urbanrise.in/city/chennai/"
+    "https://www.urbanrise.in/city/chennai/",
+    "https://urbanrise.in/project/whispers-of-sky"
    ],
    "notes": "6.09-acre ultra-luxury high-rise project. Ultra-luxury 3 & 4 BHK (1,590-2,144 sq ft) in 2 towers of 24 floors on 6.09 acres; 100+ amenities; south Chennai IT corridor. RERA number cross-checked against TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
@@ -2363,9 +2990,22 @@
    "risk": "Low",
    "tags": [
     "Early Entrant",
-    "High Upside"
+    "High Upside",
+    "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market.",
+   "config_mix": "3/4 BHK",
+   "dominant_config": "3BHK",
+   "unit_size_min_sqft": 1239,
+   "unit_size_max_sqft": 2144,
+   "ticket_min_lakh": 105,
+   "ticket_max_lakh": 182,
+   "density_note": "large — 623 units in 2 towers on 6.09 acres",
+   "segment_fit": {
+    "boardroom": 20,
+    "executive": 100,
+    "value": 0
+   }
   },
   {
    "name": "VGN Meridian Heights",
@@ -2409,7 +3049,12 @@
     "High Upside",
     "Plotted/Land"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market.",
+   "segment_fit": {
+    "boardroom": 0,
+    "executive": 50,
+    "value": 0
+   }
   }
  ]
 }
