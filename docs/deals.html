@@ -24,6 +24,7 @@
 <main class="wrap">
   <h1>Deals &amp; distressed assets</h1>
   <p class="sub">Bank e-auction properties (SARFAESI), stalled projects, and insolvency opportunities across the Chennai Metropolitan Area, with reserve prices compared to our locality price bands.</p>
+  <p class="sub">The client-lens switcher below buckets deals by ticket size and opportunity type: <strong>Boardroom</strong> for ₹1Cr+ auctions and institutional-scale plays, <strong>Executive</strong> for ₹30L–1Cr listings, <strong>Value &amp; Distressed</strong> for the deepest discounts and retail-accessible resales.</p>
   <p class="refreshed"></p>
 
   <div class="deal-notice"><strong>⚠ Legal due diligence is mandatory.</strong> Auction and distressed
@@ -62,14 +63,19 @@
 <script src="assets/app.js"></script>
 <script>
 CRI.initTheme();
-CRI.initPersonaBar();
-let AUC = [], TODAY = new Date().toISOString().slice(0, 10);
+let AUC = [], STALLED = [], TODAY = new Date().toISOString().slice(0, 10);
+
+function matchesPersona(d) {
+  const cur = CRI.persona();
+  return cur === 'all' || (d.persona_fit || []).includes(cur);
+}
 
 function render() {
   const typ = document.getElementById('fType').value;
   const st = document.getElementById('fStatus').value;
   const sort = document.getElementById('fSort').value;
   let rows = AUC.filter(d =>
+    matchesPersona(d) &&
     (!typ || d.asset_type === typ) &&
     (!st || !d.auction_date || d.auction_date >= TODAY));
   rows.sort((a, b) => {
@@ -103,18 +109,9 @@ function render() {
   }).join('');
 }
 
-CRI.loadAll().then(({ distressed, meta }) => {
-  CRI.setRefreshed(meta);
-  AUC = distressed.filter(d => d.record_type === 'auction');
-  const stalled = distressed.filter(d => d.record_type !== 'auction');
-  const typeSel = document.getElementById('fType');
-  [...new Set(AUC.map(d => d.asset_type).filter(Boolean))].sort().forEach(v => {
-    const o = document.createElement('option'); o.textContent = v; typeSel.appendChild(o);
-  });
-  ['fType', 'fStatus', 'fSort'].forEach(id => document.getElementById(id).addEventListener('input', render));
-  render();
-
-  document.getElementById('stalledList').innerHTML = stalled.map(d => `
+function renderStalled() {
+  const rows = STALLED.filter(matchesPersona);
+  document.getElementById('stalledList').innerHTML = rows.map(d => `
     <div class="card">
       <h3 style="margin:0 0 2px;font-size:15px">${d.name}
         <span class="tag">${(d.record_type || '').replace(/-/g, ' ')}</span></h3>
@@ -123,7 +120,22 @@ CRI.loadAll().then(({ distressed, meta }) => {
       ${d.opportunity_note ? '<p style="font-size:12.5px;margin:6px 0"><strong>Opportunity:</strong> ' + d.opportunity_note + '</p>' : ''}
       ${d.risk_note ? '<p style="font-size:12.5px;margin:6px 0;color:var(--status-critical)"><strong>Risks:</strong> ' + d.risk_note + '</p>' : ''}
       <p class="conf" style="margin:6px 0 0">${d.data_confidence || ''} · Sources: ${CRI.sourcesHTML(d.sources)}</p>
-    </div>`).join('') || '<p class="conf">No stalled/insolvency records yet.</p>';
+    </div>`).join('') || '<p class="conf">No stalled/insolvency records match this client lens.</p>';
+}
+
+CRI.initPersonaBar(() => { render(); renderStalled(); });
+
+CRI.loadAll().then(({ distressed, meta }) => {
+  CRI.setRefreshed(meta);
+  AUC = distressed.filter(d => d.record_type === 'auction');
+  STALLED = distressed.filter(d => d.record_type !== 'auction');
+  const typeSel = document.getElementById('fType');
+  [...new Set(AUC.map(d => d.asset_type).filter(Boolean))].sort().forEach(v => {
+    const o = document.createElement('option'); o.textContent = v; typeSel.appendChild(o);
+  });
+  ['fType', 'fStatus', 'fSort'].forEach(id => document.getElementById(id).addEventListener('input', render));
+  render();
+  renderStalled();
 });
 </script>
 </body>

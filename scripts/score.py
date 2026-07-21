@@ -124,6 +124,34 @@ def yield_points(loc):
     return 4
 
 
+def distressed_persona_fit(d):
+    """Bucket a distressed/deal record into the same three client-lens personas
+    used for projects, so the Deals page persona switcher has something to filter on."""
+    fits = set()
+    if d.get('record_type') == 'auction':
+        reserve = d.get('reserve_price_inr')
+        ticket_lakh = reserve / 1e5 if reserve else None
+        if ticket_lakh is None:
+            fits.add('value')
+        elif ticket_lakh >= 100:
+            fits.add('boardroom')
+        elif ticket_lakh >= 30:
+            fits.add('executive')
+        else:
+            fits.add('value')
+        if (d.get('discount_pct') or 0) >= 40:
+            fits.add('value')
+    else:
+        text = ((d.get('opportunity_note') or '') + ' ' + (d.get('status_2026') or '')).lower()
+        if re.search(r'institutional|nclt (?:resolution|bid)|resolution applicant|large-hni', text):
+            fits.add('boardroom')
+        if re.search(r'resale|retail|delivered tower|discount|bulk purchase', text):
+            fits.add('value')
+        if not fits:
+            fits.add('value')
+    return sorted(fits)
+
+
 def locality_tier(loc):
     top = loc.get('price_band_max')
     if top is None:
@@ -297,22 +325,23 @@ def main():
             rationale += ' Caveats: ' + ', '.join(caveats) + '.'
         p['score_rationale'] = rationale
 
-    # Distressed: compute discount vs locality band for built assets (flat/house).
+    # Distressed: compute discount vs locality band for built assets (flat/house),
+    # then bucket every record into the same Boardroom/Executive/Value personas as projects.
     if distressed:
         for d in distressed.get('distressed', []):
             d.pop('discount_pct', None)
             d.pop('value_note', None)
-            if d.get('record_type') != 'auction':
-                continue
-            loc = loc_by_name.get((d.get('band_locality') or d.get('locality') or '').lower())
-            area, reserve = d.get('area_sqft'), d.get('reserve_price_inr')
-            if (d.get('asset_type') in ('flat', 'house') and loc and area and reserve
-                    and loc.get('price_band_min') and loc.get('price_band_max')):
-                band_mid = (loc['price_band_min'] + loc['price_band_max']) / 2
-                est = band_mid * area
-                d['discount_pct'] = round((1 - reserve / est) * 100)
-                d['value_note'] = (f'Reserve ₹{reserve/1e5:.1f}L vs ~₹{est/1e5:.0f}L at the '
-                                   f'{loc["name"]} band midpoint (₹{band_mid:,.0f}/sqft × {area:,} sqft)')
+            if d.get('record_type') == 'auction':
+                loc = loc_by_name.get((d.get('band_locality') or d.get('locality') or '').lower())
+                area, reserve = d.get('area_sqft'), d.get('reserve_price_inr')
+                if (d.get('asset_type') in ('flat', 'house') and loc and area and reserve
+                        and loc.get('price_band_min') and loc.get('price_band_max')):
+                    band_mid = (loc['price_band_min'] + loc['price_band_max']) / 2
+                    est = band_mid * area
+                    d['discount_pct'] = round((1 - reserve / est) * 100)
+                    d['value_note'] = (f'Reserve ₹{reserve/1e5:.1f}L vs ~₹{est/1e5:.0f}L at the '
+                                       f'{loc["name"]} band midpoint (₹{band_mid:,.0f}/sqft × {area:,} sqft)')
+            d['persona_fit'] = distressed_persona_fit(d)
         save('distressed.json', distressed)
 
     save('projects.json', projects)
@@ -324,8 +353,10 @@ def main():
           f"mean {sum(scored)/len(scored):.1f}; segments {n_seg}")
     if distressed:
         discounted = [d for d in distressed['distressed'] if d.get('discount_pct') is not None]
+        d_seg = {s: sum(1 for d in distressed['distressed'] if s in (d.get('persona_fit') or []))
+                 for s in ('boardroom', 'executive', 'value')}
         print(f"Distressed: {len(distressed['distressed'])} records, "
-              f"{len(discounted)} with computed discount")
+              f"{len(discounted)} with computed discount, persona_fit {d_seg}")
 
 
 if __name__ == '__main__':

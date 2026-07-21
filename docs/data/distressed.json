@@ -19,7 +19,10 @@
     "https://findauction.in/auction/jcflowersassetreconstruction/land-and-building-in-anankaputhur-chennai-1727521"
    ],
    "data_confidence": "listed",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "executive"
+   ]
   },
   {
    "id": "auction-1-pallavaram",
@@ -42,7 +45,11 @@
    "data_confidence": "listed",
    "last_checked": "2026-07-20",
    "discount_pct": 49,
-   "value_note": "Reserve ₹66.0L vs ~₹129L at the Pallavaram band midpoint (₹8,250/sqft × 1,560 sqft)"
+   "value_note": "Reserve ₹66.0L vs ~₹129L at the Pallavaram band midpoint (₹8,250/sqft × 1,560 sqft)",
+   "persona_fit": [
+    "executive",
+    "value"
+   ]
   },
   {
    "id": "auction-2-saligramam",
@@ -65,7 +72,11 @@
    "data_confidence": "listed",
    "last_checked": "2026-07-20",
    "discount_pct": 87,
-   "value_note": "Reserve ₹50.0L vs ~₹391L at the Saligramam band midpoint (₹10,975/sqft × 3,562 sqft)"
+   "value_note": "Reserve ₹50.0L vs ~₹391L at the Saligramam band midpoint (₹10,975/sqft × 3,562 sqft)",
+   "persona_fit": [
+    "executive",
+    "value"
+   ]
   },
   {
    "id": "auction-3-panankottur-kanchipuram",
@@ -86,7 +97,10 @@
     "https://findauction.in/auction/hudco/house-site-in-panankottur-kanchipuram-1727512"
    ],
    "data_confidence": "listed",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "value"
+   ]
   },
   {
    "id": "auction-4-agaram-tiruvallur",
@@ -107,7 +121,10 @@
     "https://findauction.in/auction/hudco/plot-in-agaram-tiruvallur-1727509"
    ],
    "data_confidence": "listed",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "value"
+   ]
   },
   {
    "id": "auction-5-puduvoyal-tiruvallur",
@@ -128,7 +145,10 @@
     "https://findauction.in/auction/bankofbaroda/vacant-land-in-puduvoyal-tiruvallur-1727503"
    ],
    "data_confidence": "listed",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "executive"
+   ]
   },
   {
    "id": "auction-6-varadharajapuram",
@@ -149,7 +169,10 @@
     "https://findauction.in/auction/bankofbaroda/flat-in-mahalakshmi-nagar-varadharajapuram-chennai-1727501"
    ],
    "data_confidence": "listed",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "value"
+   ]
   },
   {
    "id": "auction-7-varadharajapuram",
@@ -170,7 +193,10 @@
     "https://findauction.in/auction/bankofbaroda/flat-in-mahalakshmi-nagar-varadharajapuram-chennai-1727500"
    ],
    "data_confidence": "listed",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "value"
+   ]
   },
   {
    "id": "auction-8-karambakkam-porur-",
@@ -193,7 +219,10 @@
    "data_confidence": "listed",
    "last_checked": "2026-07-20",
    "discount_pct": 26,
-   "value_note": "Reserve ₹204.3L vs ~₹275L at the Porur band midpoint (₹7,875/sqft × 3,494 sqft)"
+   "value_note": "Reserve ₹204.3L vs ~₹275L at the Porur band midpoint (₹7,875/sqft × 3,494 sqft)",
+   "persona_fit": [
+    "boardroom"
+   ]
   },
   {
    "id": "auction-9-mangadu",
@@ -216,7 +245,10 @@
    "data_confidence": "listed",
    "last_checked": "2026-07-20",
    "discount_pct": 34,
-   "value_note": "Reserve ₹43.0L vs ~₹65L at the Mangadu band midpoint (₹6,550/sqft × 994 sqft)"
+   "value_note": "Reserve ₹43.0L vs ~₹65L at the Mangadu band midpoint (₹6,550/sqft × 994 sqft)",
+   "persona_fit": [
+    "executive"
+   ]
   },
   {
    "id": "auction-10-thirumullaivoyal",
@@ -237,7 +269,10 @@
     "https://findauction.in/auction/indiashelter/land-and-building-in-thirumullaivoyal-ambattur-1727487"
    ],
    "data_confidence": "listed",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "value"
+   ]
   },
   {
    "id": "auction-11-mangadu",
@@ -260,7 +295,10 @@
    "data_confidence": "listed",
    "last_checked": "2026-07-20",
    "discount_pct": 31,
-   "value_note": "Reserve ₹52.0L vs ~₹75L at the Mangadu band midpoint (₹6,550/sqft × 1,149 sqft)"
+   "value_note": "Reserve ₹52.0L vs ~₹75L at the Mangadu band midpoint (₹6,550/sqft × 1,149 sqft)",
+   "persona_fit": [
+    "executive"
+   ]
   },
   {
    "id": "auction-12-mangadu",
@@ -283,7 +321,10 @@
    "data_confidence": "listed",
    "last_checked": "2026-07-20",
    "discount_pct": 17,
-   "value_note": "Reserve ₹54.0L vs ~₹65L at the Mangadu band midpoint (₹6,550/sqft × 997 sqft)"
+   "value_note": "Reserve ₹54.0L vs ~₹65L at the Mangadu band midpoint (₹6,550/sqft × 997 sqft)",
+   "persona_fit": [
+    "executive"
+   ]
   },
   {
    "id": "auction-13-vadakkupattu-chengalpattu",
@@ -304,7 +345,10 @@
     "https://findauction.in/auction/pnbindia/plot-in-vadakkupattu-chengalpattu-1727371"
    ],
    "data_confidence": "listed",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "boardroom"
+   ]
   },
   {
    "id": "auction-14-vadakkupattu-chengalpattu",
@@ -325,7 +369,10 @@
     "https://findauction.in/auction/pnbindia/plot-in-vadakkupattu-chengalpattu-1727369"
    ],
    "data_confidence": "listed",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "boardroom"
+   ]
   },
   {
    "id": "auction-15-vattambakkam-chengalpattu",
@@ -346,7 +393,10 @@
     "https://findauction.in/auction/canarabank/plot-in-vattambakkam-chennai-1727163"
    ],
    "data_confidence": "listed",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "value"
+   ]
   },
   {
    "id": "auction-16-ambattur",
@@ -367,7 +417,10 @@
     "https://findauction.in/auction/indianbank/plot-in-ambattur-chennai-1727154"
    ],
    "data_confidence": "listed",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "executive"
+   ]
   },
   {
    "id": "auction-17-sadayankuppam-manali-",
@@ -388,7 +441,10 @@
     "https://findauction.in/auction/canarabank/plot-in-sadayankuppam-chennai-1727105"
    ],
    "data_confidence": "listed",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "boardroom"
+   ]
   },
   {
    "id": "auction-18-ambattur",
@@ -409,7 +465,10 @@
     "https://findauction.in/auction/canarabank/plot-in-ambattur-chennai-1727104"
    ],
    "data_confidence": "listed",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "boardroom"
+   ]
   },
   {
    "id": "auction-19-puzhal",
@@ -430,7 +489,10 @@
     "https://findauction.in/auction/canarabank/plot-in-puzhal-chennai-1727103"
    ],
    "data_confidence": "listed",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "boardroom"
+   ]
   },
   {
    "id": "auction-20-gummidipoondi",
@@ -453,7 +515,10 @@
    "data_confidence": "listed",
    "last_checked": "2026-07-20",
    "discount_pct": -112,
-   "value_note": "Reserve ₹59.0L vs ~₹28L at the Gummidipoondi band midpoint (₹1,588/sqft × 1,750 sqft)"
+   "value_note": "Reserve ₹59.0L vs ~₹28L at the Gummidipoondi band midpoint (₹1,588/sqft × 1,750 sqft)",
+   "persona_fit": [
+    "executive"
+   ]
   },
   {
    "id": "auction-21-selaiyur",
@@ -474,7 +539,10 @@
     "https://findauction.in/auction/pnbindia/flat-in-selaiyur-chennai-1726957"
    ],
    "data_confidence": "listed",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "executive"
+   ]
   },
   {
    "id": "auction-22-nandivaram-guduvancheri",
@@ -495,7 +563,10 @@
     "https://findauction.in/auction/pnbindia/individual-house-in-nandhivaram-chennai-1726952"
    ],
    "data_confidence": "listed",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "executive"
+   ]
   },
   {
    "id": "auction-23-guduvancheri",
@@ -516,7 +587,10 @@
     "https://findauction.in/auction/pnbindia/flat-in-guduvancherry-chennai-1726925"
    ],
    "data_confidence": "listed",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "executive"
+   ]
   },
   {
    "id": "auction-24-kalavakkam",
@@ -537,7 +611,10 @@
     "https://findauction.in/auction/pnbindia/flat-in-kalavakkam-chengalpattu-1726920"
    ],
    "data_confidence": "listed",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "executive"
+   ]
   },
   {
    "id": "auction-25-anjur-chengalpattu",
@@ -558,7 +635,10 @@
     "https://findauction.in/auction/pnbindia/flat-in-anjur-chengalpattu-1726910"
    ],
    "data_confidence": "listed",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "executive"
+   ]
   },
   {
    "id": "auction-26-guduvancheri",
@@ -581,7 +661,10 @@
    "data_confidence": "listed",
    "last_checked": "2026-07-20",
    "discount_pct": 49,
-   "value_note": "Reserve ₹28.0L vs ~₹55L at the Guduvancheri band midpoint (₹4,800/sqft × 1,147 sqft)"
+   "value_note": "Reserve ₹28.0L vs ~₹55L at the Guduvancheri band midpoint (₹4,800/sqft × 1,147 sqft)",
+   "persona_fit": [
+    "value"
+   ]
   },
   {
    "id": "auction-27-pallavaram",
@@ -604,7 +687,11 @@
    "data_confidence": "listed",
    "last_checked": "2026-07-20",
    "discount_pct": 66,
-   "value_note": "Reserve ₹45.6L vs ~₹135L at the Pallavaram band midpoint (₹8,250/sqft × 1,635 sqft)"
+   "value_note": "Reserve ₹45.6L vs ~₹135L at the Pallavaram band midpoint (₹8,250/sqft × 1,635 sqft)",
+   "persona_fit": [
+    "executive",
+    "value"
+   ]
   },
   {
    "id": "auction-28-madipakkam",
@@ -625,7 +712,10 @@
     "https://www.eauctiondekho.com/auctions/indian-bank-auctions-for-residential-property-in-chennai-tamil-nadu-xqn9a9m4qb"
    ],
    "data_confidence": "listed",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "boardroom"
+   ]
   },
   {
    "id": "auction-29-katrampakkam-sriperumbudur",
@@ -646,7 +736,10 @@
     "https://www.eauctiondekho.com/auctions/indian-bank-auctions-for-residential-property-in-chennai-tamil-nadu-9n96uwliio"
    ],
    "data_confidence": "listed",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "executive"
+   ]
   },
   {
    "id": "stalled-0-ozone-projects-pvt-ltd-the-met",
@@ -666,7 +759,11 @@
     "https://www.scconline.com/blog/post/2025/09/24/cbi-investigate-builder-bank-nexus-in-delhi-ncr-supreme-court/"
    ],
    "data_confidence": "reported",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "boardroom",
+    "value"
+   ]
   },
   {
    "id": "stalled-1-ozone-greens-ozone-group-perum",
@@ -682,7 +779,10 @@
     "https://community.verified.realestate/article/ozone-greens-electricity-crisis-1000-perumbakkam-families-trapped-in-an-8-year-powerless-nightmare/"
    ],
    "data_confidence": "reported",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "value"
+   ]
   },
   {
    "id": "stalled-2-landmark-housing-projects-chen",
@@ -699,7 +799,10 @@
     "https://ibbi.gov.in/liquidation-auction-notices/lists"
    ],
    "data_confidence": "reported",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "boardroom"
+   ]
   },
   {
    "id": "stalled-3-marg-ltd-marg-swarnabhoomi-and",
@@ -717,7 +820,11 @@
     "https://indiankanoon.org/doc/41234371/"
    ],
    "data_confidence": "reported",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "boardroom",
+    "value"
+   ]
   },
   {
    "id": "stalled-4-unitech-chennai-projects-uniwo",
@@ -736,7 +843,11 @@
     "https://www.99acres.com/unitech-uniworld-city-nallambakkam-chennai-south-npxid-r41102"
    ],
    "data_confidence": "reported",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "boardroom",
+    "value"
+   ]
   },
   {
    "id": "stalled-5-plaza-elite-acres-swamih-reviv",
@@ -755,7 +866,10 @@
     "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2212593&reg=1&lang=1"
    ],
    "data_confidence": "reported",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "value"
+   ]
   },
   {
    "id": "stalled-6-casagrand-bloom-thirumudivakka",
@@ -772,7 +886,10 @@
     "https://rera.tn.gov.in/cms/rejected_projects.php"
    ],
    "data_confidence": "reported",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "value"
+   ]
   },
   {
    "id": "stalled-7-brigade-morgan-heights-pallika",
@@ -788,7 +905,10 @@
     "https://theprint.in/india/vijay-govt-halts-rs-2000-crore-housing-project-in-chennai-after-environment-clearance-revoked/2964782/"
    ],
    "data_confidence": "reported",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "value"
+   ]
   },
   {
    "id": "stalled-8-ars-energy-pvt-ltd-63-acre-gum",
@@ -804,7 +924,10 @@
     "https://insolvencytracker.in/2025/09/19/eoi-for-ars-energy-invited-nov-8-is-last-date-for-submission-of-resolution-plans/"
    ],
    "data_confidence": "reported",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "boardroom"
+   ]
   },
   {
    "id": "stalled-9-sare-group-crescent-parc-towns",
@@ -822,7 +945,11 @@
     "https://www.housingman.com/projects/sare-crescent-parc-township-villa"
    ],
    "data_confidence": "low",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "boardroom",
+    "value"
+   ]
   },
   {
    "id": "stalled-10-true-value-homes-tvh-ouranya-b",
@@ -840,7 +967,10 @@
     "https://www.mouthshut.com/builders-and-developers/true-value-homes-chennai-review-pruupnqupt"
    ],
    "data_confidence": "low",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "value"
+   ]
   },
   {
    "id": "stalled-11-chennai-stalled-stock-overview",
@@ -859,7 +989,11 @@
     "https://www.snrlaw.in/cirp-amendment-regulations-2025-streamlining-resolution-processes-and-protecting-homebuyer-interests/"
    ],
    "data_confidence": "reported",
-   "last_checked": "2026-07-20"
+   "last_checked": "2026-07-20",
+   "persona_fit": [
+    "boardroom",
+    "value"
+   ]
   }
  ],
  "access_notes": "Worked: findauction.in (full Chennai listings with locality, price, dates — main source) and eauctiondekho.com (bank-wise Chennai listings + detail pages). Blocked/unusable: eauctionsindia.com (403), foreclosureindia.com (403), bankauctiondeals.com (403), ibapi.in (503 to automated access), bankeauctions.com (loads but is a search form, no listings rendered without JS), auctionbazaar.com (homepage only, no listings visible), salasarauction.com (industrial scrap auctions only, no real estate). Lat/lng are approximate locality centroids. Reserve prices/dates are as listed by aggregators (data_confidence 'listed'); records were not cross-verified against the original bank notices. Two additional non-realty (machinery) lots were excluded."
