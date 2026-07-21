@@ -346,7 +346,7 @@
   },
   {
    "name": "Pallavaram",
-   "corridor": "Pallavaram",
+   "corridor": "South Chennai",
    "lat": 12.968,
    "lng": 80.15,
    "price_band_min": 6500,
@@ -404,7 +404,7 @@
   },
   {
    "name": "Porur",
-   "corridor": "Porur",
+   "corridor": "West Chennai",
    "lat": 13.038,
    "lng": 80.156,
    "price_band_min": 6400,
@@ -433,7 +433,7 @@
   },
   {
    "name": "Poonamallee",
-   "corridor": "Poonamallee",
+   "corridor": "West Chennai",
    "lat": 13.048,
    "lng": 80.095,
    "price_band_min": 5150,
@@ -462,7 +462,7 @@
   },
   {
    "name": "Mogappair",
-   "corridor": "Mogappair",
+   "corridor": "West Chennai",
    "lat": 13.084,
    "lng": 80.174,
    "price_band_min": 8500,
@@ -491,7 +491,7 @@
   },
   {
    "name": "Ambattur",
-   "corridor": "Ambattur",
+   "corridor": "West Chennai",
    "lat": 13.114,
    "lng": 80.148,
    "price_band_min": 6000,
@@ -520,7 +520,7 @@
   },
   {
    "name": "Anna Nagar",
-   "corridor": "Anna Nagar",
+   "corridor": "Central Chennai",
    "lat": 13.085,
    "lng": 80.21,
    "price_band_min": 10000,
@@ -549,7 +549,7 @@
   },
   {
    "name": "Kilpauk",
-   "corridor": "Kilpauk",
+   "corridor": "Central Chennai",
    "lat": 13.078,
    "lng": 80.241,
    "price_band_min": 12000,
@@ -578,7 +578,7 @@
   },
   {
    "name": "Nungambakkam",
-   "corridor": "Nungambakkam",
+   "corridor": "Central Chennai",
    "lat": 13.06,
    "lng": 80.242,
    "price_band_min": 14000,
@@ -607,7 +607,7 @@
   },
   {
    "name": "Adyar",
-   "corridor": "Adyar",
+   "corridor": "Central Chennai",
    "lat": 13.006,
    "lng": 80.257,
    "price_band_min": 12000,
@@ -636,7 +636,7 @@
   },
   {
    "name": "Velachery",
-   "corridor": "Velachery",
+   "corridor": "South Chennai",
    "lat": 12.976,
    "lng": 80.22,
    "price_band_min": 7850,
@@ -665,7 +665,7 @@
   },
   {
    "name": "Pallikaranai",
-   "corridor": "Pallikaranai",
+   "corridor": "South Chennai",
    "lat": 12.935,
    "lng": 80.213,
    "price_band_min": 6100,
@@ -695,7 +695,7 @@
   },
   {
    "name": "Medavakkam",
-   "corridor": "Medavakkam",
+   "corridor": "South Chennai",
    "lat": 12.918,
    "lng": 80.192,
    "price_band_min": 5800,
@@ -724,7 +724,7 @@
   },
   {
    "name": "Perumbakkam",
-   "corridor": "Perumbakkam",
+   "corridor": "South Chennai",
    "lat": 12.905,
    "lng": 80.203,
    "price_band_min": 5500,
@@ -753,7 +753,7 @@
   },
   {
    "name": "Sriperumbudur",
-   "corridor": "Sriperumbudur",
+   "corridor": "Sriperumbudur–Oragadam",
    "lat": 12.968,
    "lng": 79.947,
    "price_band_min": 3500,
@@ -782,7 +782,7 @@
   },
   {
    "name": "Oragadam",
-   "corridor": "Oragadam",
+   "corridor": "Sriperumbudur–Oragadam",
    "lat": 12.8,
    "lng": 79.98,
    "price_band_min": 3800,
@@ -811,7 +811,7 @@
   },
   {
    "name": "Avadi",
-   "corridor": "Avadi",
+   "corridor": "West Chennai",
    "lat": 13.115,
    "lng": 80.097,
    "price_band_min": 4000,
@@ -840,7 +840,7 @@
   },
   {
    "name": "Madhavaram",
-   "corridor": "Madhavaram",
+   "corridor": "North Chennai",
    "lat": 13.148,
    "lng": 80.231,
    "price_band_min": 7000,
@@ -870,7 +870,7 @@
   },
   {
    "name": "Manapakkam",
-   "corridor": "Manapakkam",
+   "corridor": "West Chennai",
    "lat": 13.01,
    "lng": 80.17,
    "price_band_min": 6800,
@@ -899,7 +899,7 @@
   },
   {
    "name": "Kolathur",
-   "corridor": "Kolathur",
+   "corridor": "North Chennai",
    "lat": 13.124,
    "lng": 80.213,
    "price_band_min": 6500,
@@ -928,7 +928,7 @@
   },
   {
    "name": "Tiruvallur-Ponneri belt",
-   "corridor": "Tiruvallur/Ponneri belt",
+   "corridor": "Far North",
    "lat": 13.14,
    "lng": 79.91,
    "price_band_min": 1000,

@@ -70,7 +70,7 @@
    "notes": "One of the most recent TNRERA registrations found (July 2026). RERA number cross-checked against TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
    "locality": "Nelson Manickam Road",
-   "corridor": "City Core",
+   "corridor": "Central Chennai",
    "id": "avalon-appaswamy",
    "score_breakdown": {
     "entry_stage": 21,
@@ -127,7 +127,7 @@
    "notes": "Ultra-luxury twin towers on ~4.5-acre Crowne Plaza Adyar Park hotel site in Boat Club micro-market; pricing figures are market expectations, not published rate cards. Baashyaam also filed EC (Dec 2025) for a separate Nungambakkam high-rise mixed residential-commercial project (plot 23,403 sqm) — second pipeline item (https://projectxindia.com/2025/12/17/baashyaam-foundations-seeks-ec-for-nungambakkam-high-rise-development/).",
    "last_checked": "2026-07-20",
    "locality": "Adyar",
-   "corridor": "Adyar",
+   "corridor": "Central Chennai",
    "id": "baashyaam-crowne-plaza-crowne-plaza-site-redevelopment",
    "score_breakdown": {
     "entry_stage": 25,
@@ -229,7 +229,7 @@
    "notes": "RERA number and date from developer's official site.",
    "last_checked": "2026-07-20",
    "locality": "Vadapalani",
-   "corridor": "City Core",
+   "corridor": "Central Chennai",
    "id": "belmont-residences-appaswamy",
    "score_breakdown": {
     "entry_stage": 12,
@@ -349,7 +349,7 @@
    "notes": "Mixed-use development on 5+ acres on Anna Salai with 3/4/5 BHK residences. ~5-acre ultra-luxury mixed-use (residential + commercial) on Mount Road; single G+38 residential tower with 200 exclusive 3/4/5 BHK homes; 100m from Thousand Lights metro.",
    "last_checked": "2026-07-20",
    "locality": "Anna Salai",
-   "corridor": "City Core",
+   "corridor": "Central Chennai",
    "id": "brigade-icon",
    "score_breakdown": {
     "entry_stage": 12,
@@ -505,7 +505,7 @@
    "notes": "B+G+5 structure, 2/3/4 BHK.",
    "last_checked": "2026-07-20",
    "locality": "Perungudi",
-   "corridor": "OMR (IT Corridor)",
+   "corridor": "OMR",
    "id": "casagrand-avenue-park",
    "score_breakdown": {
     "entry_stage": 12,
@@ -657,7 +657,7 @@
    "notes": "5.01 acres, 2 towers of 12 floors, units 997-2522 sqft.",
    "last_checked": "2026-07-20",
    "locality": "Pallavaram",
-   "corridor": "Pallavaram",
+   "corridor": "South Chennai",
    "id": "casagrand-reva",
    "score_breakdown": {
     "entry_stage": 21,
@@ -771,7 +771,7 @@
    "notes": "RERA registration details mirrored from TNRERA data by verified.realestate.",
    "last_checked": "2026-07-20",
    "locality": "Arumbakkam",
-   "corridor": "City Core",
+   "corridor": "Central Chennai",
    "id": "casagrand-wesley",
    "score_breakdown": {
     "entry_stage": 12,
@@ -1038,7 +1038,7 @@
    "notes": "0.85 acres, stilt+13 floors, launched Nov 2024.",
    "last_checked": "2026-07-20",
    "locality": "Madhavaram",
-   "corridor": "Madhavaram",
+   "corridor": "North Chennai",
    "id": "dra-polaris",
    "score_breakdown": {
     "entry_stage": 12,
@@ -1151,7 +1151,7 @@
    "notes": "Premium plotted development; connectivity upside from Chennai Metro Phase II expansion and proposed monorail; part of G Square's twin-launch Aug 2025. G Square's 'Zero EB Revolution' offers up to 5 kW free solar on eligible plots.",
    "last_checked": "2026-07-20",
    "locality": "Ambattur",
-   "corridor": "Ambattur",
+   "corridor": "West Chennai",
    "id": "g-square-northern-crown",
    "score_breakdown": {
     "entry_stage": 21,
@@ -1200,7 +1200,7 @@
    "notes": "Twin launch with Northern Crown (Aug 2025); established south Chennai residential micro-market near Velachery-Sholinganallur corridor. G Square announced 15 further projects across TN in Nov 2025 incl. Chennai.",
    "last_checked": "2026-07-20",
    "locality": "Medavakkam",
-   "corridor": "Medavakkam",
+   "corridor": "South Chennai",
    "id": "g-square-south-crown",
    "score_breakdown": {
     "entry_stage": 21,
@@ -1359,7 +1359,7 @@
    "notes": "110 senior-living apartments (~44,000 sqft) inside 90–100 acre Lancor Town & Country integrated township (~2,000 units planned: villas, plots, apartments); township revenue potential ~Rs 2,300 crore; 'Blue Circle Living' cross-generational concept. RERA number found via TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
    "locality": "Sriperumbudur",
-   "corridor": "Sriperumbudur",
+   "corridor": "Sriperumbudur–Oragadam",
    "id": "harmonia-pavilion-lancor-town-country",
    "score_breakdown": {
     "entry_stage": 21,
@@ -1416,7 +1416,7 @@
    "notes": "18-storey towers within 120-acre House of Hiranandani OMR integrated township (13 completed towers + villas); Verona possession Oct–Dec 2025.",
    "last_checked": "2026-07-20",
    "locality": "Egattur",
-   "corridor": "OMR (IT Corridor)",
+   "corridor": "OMR",
    "id": "hiranandani-verona-upscale-octavius-verona",
    "score_breakdown": {
     "entry_stage": 5,
@@ -1509,7 +1509,7 @@
    "notes": "~5-acre project near Velachery Main Road/IT Expressway; unit-count discrepancy across portals (179 units phase 1 vs 906 total per Square Yards); phase 1 nearing possession, later towers sold as new launch.",
    "last_checked": "2026-07-20",
    "locality": "Ambedkar Nagar",
-   "corridor": "OMR (IT Corridor)",
+   "corridor": "OMR",
    "id": "jain-antareeksh",
    "score_breakdown": {
     "entry_stage": 12,
@@ -1564,7 +1564,7 @@
    "notes": "Compact-affordable 1 & 2 BHK (582-928 sq ft), 468 units on ~2 acres, 19 floors; OMR IT-corridor rental demand play; price quotes vary across portals.",
    "last_checked": "2026-07-20",
    "locality": "Semmancheri",
-   "corridor": "OMR (IT Corridor)",
+   "corridor": "OMR",
    "id": "jains-aadhya",
    "score_breakdown": {
     "entry_stage": 21,
@@ -1621,7 +1621,7 @@
    "notes": "Described as KG's latest offering on the new 200-ft bypass connecting Maduravoyal to Red Hills; KG has ~8 msf pipeline plus ~10 msf in planning over 3–5 years; specific launch date/RERA not published in sources reviewed.",
    "last_checked": "2026-07-20",
    "locality": "Mogappair",
-   "corridor": "Mogappair",
+   "corridor": "West Chennai",
    "id": "kg-signature-city-2-0",
    "score_breakdown": {
     "entry_stage": 21,
@@ -1674,7 +1674,7 @@
    "notes": "Ultra-premium city-centre launch; RERA number and date from developer's official site. Ultra-prime Mylapore redevelopment of old Kamadhenu Theatre plot; 1.05 acres, 2B+S+12 floors, 79 units of 3 & 4 BHK. Appaswamy also has a concurrent Nungambakkam new launch (3 BHK, Rs 3-3.45 Cr) per houssed. RERA number cross-checked against TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
    "locality": "Luz Church Road",
-   "corridor": "City Core",
+   "corridor": "Central Chennai",
    "id": "kamadhenu-appaswamy",
    "score_breakdown": {
     "entry_stage": 21,
@@ -1733,7 +1733,7 @@
    "notes": "L&T Realty's maiden Chennai residential project on ~40-acre parcel; phase 1 (4 towers, 500 units) fully sold out; later phases being released through 2024–25; near proposed Manapakkam metro. RERA number found via TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
    "locality": "Manapakkam",
-   "corridor": "Manapakkam",
+   "corridor": "West Chennai",
    "id": "l-t-avinya-enclave",
    "score_breakdown": {
     "entry_stage": 12,
@@ -1849,7 +1849,7 @@
    "notes": "Stilt+13 tower on ~1.3 acres inside 400-acre Hiranandani Parks township; ~Rs 105 crore revenue potential; DTCP approval SWP/BPA/0125870/2024 dated 20-Feb-2025; smart FIT homes. RERA number cross-checked against TNRERA mirror (Proquiro) on 2026-07-20.",
    "last_checked": "2026-07-20",
    "locality": "Oragadam",
-   "corridor": "Oragadam",
+   "corridor": "Sriperumbudur–Oragadam",
    "id": "parkville-at-hiranandani-parks",
    "score_breakdown": {
     "entry_stage": 21,
@@ -1902,7 +1902,7 @@
    "notes": "25-acre prime parcel acquired for Rs 938.75 crore (deal completed 10-Dec-2025); ~5 million sqft developable; estimated GDV/revenue potential over Rs 5,000 crore. Strong early-entrant signal.",
    "last_checked": "2026-07-20",
    "locality": "Medavakkam",
-   "corridor": "Medavakkam",
+   "corridor": "South Chennai",
    "id": "prestige-medavakkam-working-name-bharatnagar-buildcon-llp-la",
    "score_breakdown": {
     "entry_stage": 25,
@@ -1955,7 +1955,7 @@
    "notes": "21.84-acre project, 21 towers of 2B+G+14 floors, 2/3/4 BHK; one of the largest South Chennai launches of 2025. Flagship 21.84-acre South Chennai launch; 21 towers; TNRERA approved 28-Jun-2025, launched 01-Jul-2025.",
    "last_checked": "2026-07-20",
    "locality": "Pallavaram",
-   "corridor": "Pallavaram",
+   "corridor": "South Chennai",
    "id": "prestige-pallavaram-gardens",
    "score_breakdown": {
     "entry_stage": 21,
@@ -2014,7 +2014,7 @@
    "notes": "7.98-acre parcel, ~910 units planned; TNRERA registration applied, approval expected ~Dec 2026; details from channel-partner/pre-launch sites, not yet on official Prestige portal.",
    "last_checked": "2026-07-20",
    "locality": "Madhavaram",
-   "corridor": "Madhavaram",
+   "corridor": "North Chennai",
    "id": "prestige-palm-court",
    "score_breakdown": {
     "entry_stage": 25,
@@ -2237,7 +2237,7 @@
    "notes": "5.37 acres, 2/2.5/3/4 BHK. RERA number and date from developer's own site.",
    "last_checked": "2026-07-20",
    "locality": "Madhavaram",
-   "corridor": "Madhavaram",
+   "corridor": "North Chennai",
    "id": "radiance-solitaire",
    "score_breakdown": {
     "entry_stage": 12,
@@ -2394,7 +2394,7 @@
    "notes": "JDA for prime land parcel; ~3.2 lakh sqft saleable; expected revenue Rs 350–400 crore over 3 years; close to metro and CMBT.",
    "last_checked": "2026-07-20",
    "locality": "Koyambedu",
-   "corridor": "City Core",
+   "corridor": "West Chennai",
    "id": "shriram-koyambedu-project-working-name",
    "score_breakdown": {
     "entry_stage": 25,
@@ -2444,7 +2444,7 @@
    "notes": "RERA number and date from developer's official site.",
    "last_checked": "2026-07-20",
    "locality": "Koyambedu",
-   "corridor": "City Core",
+   "corridor": "West Chennai",
    "id": "skylon-appaswamy",
    "score_breakdown": {
     "entry_stage": 12,
@@ -2558,7 +2558,7 @@
    "notes": "11.32-acre premium project on Velachery IT corridor; RERA number not found in sources — left null. Sobha also has 'Sobha Conserve', a 10-acre/124-plot plotted development at Pudupakkam (OMR) slated for 2025 launch.",
    "last_checked": "2026-07-20",
    "locality": "Velachery",
-   "corridor": "Velachery",
+   "corridor": "South Chennai",
    "id": "sobha-velachery",
    "score_breakdown": {
     "entry_stage": 21,
@@ -2712,7 +2712,7 @@
    "notes": "TVS Emerald's first ultra-luxury Chennai product; bespoke 3/4 BHK residences in prime Anna Nagar; Home Debut sales event Dec 2025; delivery expected Aug 2028.",
    "last_checked": "2026-07-20",
    "locality": "Anna Nagar",
-   "corridor": "Anna Nagar",
+   "corridor": "Central Chennai",
    "id": "tvs-emerald-luxor",
    "score_breakdown": {
     "entry_stage": 12,
@@ -2876,7 +2876,7 @@
    "notes": "Active pre-launch as of Jul 2026: 300+ channel partners committed business worth 3x the Rs 1,000+ crore launch inventory. Identification with 'Codename New Porur' in Thirumazhisai is inferred from a separate listing — treat locality as tentative. Strong early-entrant opportunity.",
    "last_checked": "2026-07-20",
    "locality": "Porur",
-   "corridor": "Porur",
+   "corridor": "West Chennai",
    "id": "urbanrise-codename-the-next-big-thing-reported-as-codename-n",
    "score_breakdown": {
     "entry_stage": 25,
@@ -3032,7 +3032,7 @@
    "notes": "VGN's 261st project; affordable-luxury plotted development; 100 bookings and 2,000+ enquiries within launch weekend; upside from upcoming metro station, airport and IT-hub proximity (marketed '4X growth potential').",
    "last_checked": "2026-07-20",
    "locality": "Pallavaram",
-   "corridor": "Pallavaram",
+   "corridor": "South Chennai",
    "id": "vgn-meridian-heights",
    "score_breakdown": {
     "entry_stage": 21,

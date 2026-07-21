@@ -155,6 +155,8 @@ function render() {
   });
 }
 
+document.querySelector('#projTable tbody').innerHTML =
+  '<tr><td colspan="10">' + '<div class="skel skel-row"></div>'.repeat(6) + '</td></tr>';
 CRI.loadAll().then(({ projects, meta }) => {
   CRI.setRefreshed(meta);
   ALL = projects.filter(p => p.status !== 'withdrawn');

@@ -34,6 +34,7 @@
   figures compare the reserve price to our locality band midpoint — they are indicative, not appraisals.</div>
 
   <h2>Bank e-auctions</h2>
+  <div class="strip" id="dealStrip"></div>
   <div class="filters">
     <select id="fType"><option value="">All asset types</option></select>
     <select id="fStatus">
@@ -98,7 +99,7 @@ function render() {
       <p style="font-size:12.5px;margin:8px 0 4px">
         ${d.auction_date ? '<strong>Auction:</strong> ' + d.auction_date +
           (expired ? ' <span class="conf">(date passed — watch for re-auction)</span>'
-                   : days != null ? ` <strong style="color:var(--accent)">(${days}d)</strong>` : '') + '<br>' : ''}
+                   : days != null ? ` <span class="countdown">in ${days}d</span>` : '') + '<br>' : ''}
         ${d.area_sqft ? '<strong>Area:</strong> ' + CRI.fmtN(d.area_sqft) + ' sqft · ' : ''}
         <strong>Possession:</strong> ${d.possession || 'unknown'}
         ${d.emd_inr ? ' · <strong>EMD:</strong> ' + CRI.money(d.emd_inr) : ''}</p>
@@ -123,12 +124,28 @@ function renderStalled() {
     </div>`).join('') || '<p class="conf">No stalled/insolvency records match this client lens.</p>';
 }
 
+function renderStrip() {
+  const live = AUC.filter(d => !d.auction_date || d.auction_date >= TODAY);
+  const discounts = live.map(d => d.discount_pct).filter(v => v != null).sort((a, b) => a - b);
+  const median = discounts.length ? discounts[Math.floor(discounts.length / 2)] : null;
+  const nextDate = live.map(d => d.auction_date).filter(Boolean).sort()[0];
+  document.getElementById('dealStrip').innerHTML = [
+    `<span class="chip"><strong>${live.length}</strong> live listings</span>`,
+    median != null ? `<span class="chip">median discount <strong>~${median}%</strong> vs band</span>` : '',
+    nextDate ? `<span class="chip">next auction <strong>${nextDate}</strong></span>` : '',
+    `<span class="chip"><strong>${STALLED.length}</strong> stalled/insolvency records</span>`,
+  ].join('');
+}
+
 CRI.initPersonaBar(() => { render(); renderStalled(); });
+CRI.skeletons('auctionGrid', 'card', 6);
+CRI.skeletons('stalledList', 'card', 2);
 
 CRI.loadAll().then(({ distressed, meta }) => {
   CRI.setRefreshed(meta);
   AUC = distressed.filter(d => d.record_type === 'auction');
   STALLED = distressed.filter(d => d.record_type !== 'auction');
+  renderStrip();
   const typeSel = document.getElementById('fType');
   [...new Set(AUC.map(d => d.asset_type).filter(Boolean))].sort().forEach(v => {
     const o = document.createElement('option'); o.textContent = v; typeSel.appendChild(o);

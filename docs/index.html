@@ -79,12 +79,12 @@ function render() {
     (!d.auction_date || d.auction_date >= new Date().toISOString().slice(0, 10))).length;
 
   document.getElementById('tiles').innerHTML = [
-    ['Projects in lens', active.length, CRI.persona() === 'all' ? 'across the Chennai Metropolitan Area' : 'matching the selected client lens'],
-    ['Early entrants', early.length, 'pre-launch or newly registered'],
-    ['Micro-markets', localities.length, 'localities with price intelligence'],
-    ['Live auction deals', upcomingDeals, 'bank e-auctions — see Deals page'],
-    ['Median Upside Score', med == null ? '—' : med, 'rule-based, 0–100 — see methodology'],
-  ].map(([k, v, s]) => `<div class="tile"><div class="k">${k}</div><div class="v">${v}</div><div class="s">${s}</div></div>`).join('');
+    ['Projects in lens', active.length, CRI.persona() === 'all' ? 'across the Chennai Metropolitan Area' : 'matching the selected client lens', 'projects.html'],
+    ['Early entrants', early.length, 'pre-launch or newly registered', 'projects.html'],
+    ['Micro-markets', localities.length, 'localities with price intelligence', 'localities.html'],
+    ['Live auction deals', upcomingDeals, 'bank e-auctions — see Deals page', 'deals.html'],
+    ['Median Upside Score', med == null ? '—' : med, 'rule-based, 0–100 — see methodology', 'methodology.html'],
+  ].map(([k, v, s, href]) => `<a class="tile" href="${href}"><span class="k">${k}</span><span class="v" style="display:block">${v}</span><span class="s" style="display:block">${s}</span></a>`).join('');
 
   const top = [...scored].sort((a, b) => b.upside_score - a.upside_score).slice(0, 10);
   document.querySelector('#topTable tbody').innerHTML = top.map((p, i) =>
@@ -112,6 +112,9 @@ function render() {
 }
 
 CRI.initPersonaBar(() => DATA && render());
+CRI.skeletons('tiles', 'tile', 5);
+document.querySelector('#topTable tbody').innerHTML =
+  '<tr><td colspan="9"><div class="skel skel-row"></div><div class="skel skel-row"></div><div class="skel skel-row"></div></td></tr>';
 CRI.loadAll().then(data => {
   DATA = data;
   CRI.setRefreshed(data.meta);

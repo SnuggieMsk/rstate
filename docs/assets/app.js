@@ -44,14 +44,23 @@ const CRI = (() => {
     bar.className = 'persona-bar';
     bar.innerHTML = '<div class="wrap"><span class="pb-label">Client lens:</span>' +
       PERSONAS.map(([k, label]) =>
-        `<button data-p="${k}" class="${persona() === k ? 'on' : ''}">${label}</button>`).join('') +
+        `<button data-p="${k}" class="${persona() === k ? 'on' : ''}" aria-pressed="${persona() === k}">${label}</button>`).join('') +
       '</div>';
     header.after(bar);
     bar.querySelectorAll('button').forEach(b => b.addEventListener('click', () => {
       localStorage.setItem('cri-persona', b.dataset.p);
-      bar.querySelectorAll('button').forEach(x => x.classList.toggle('on', x === b));
+      bar.querySelectorAll('button').forEach(x => {
+        x.classList.toggle('on', x === b);
+        x.setAttribute('aria-pressed', x === b);
+      });
       if (onChange) onChange(b.dataset.p);
     }));
+  }
+
+  // Loading skeletons: fill a container with shimmer placeholders until data lands.
+  function skeletons(el, kind, n) {
+    if (typeof el === 'string') el = document.getElementById(el);
+    if (el) el.innerHTML = Array.from({ length: n }, () => `<div class="skel skel-${kind}"></div>`).join('');
   }
 
   function money(inr) {
@@ -146,6 +155,7 @@ const CRI = (() => {
     if (saved) document.documentElement.dataset.theme = saved;
     const btn = document.querySelector('.theme-toggle');
     if (btn) {
+      btn.setAttribute('aria-label', 'Toggle light/dark theme');
       btn.addEventListener('click', () => {
         const cur = document.documentElement.dataset.theme ||
           (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
@@ -197,6 +207,7 @@ const CRI = (() => {
       overlay.className = 'cmp-overlay';
       overlay.innerHTML = '<div class="cmp-sheet"></div>';
       overlay.addEventListener('click', e => { if (e.target === overlay) overlay.classList.remove('show'); });
+      document.addEventListener('keydown', e => { if (e.key === 'Escape') overlay.classList.remove('show'); });
       document.body.appendChild(overlay);
     }
 
@@ -223,13 +234,15 @@ const CRI = (() => {
         ['RERA no.', p => p.rera_no || 'not found'],
       ];
       const sheet = overlay.querySelector('.cmp-sheet');
-      sheet.innerHTML = '<h2 style="margin-top:0">Compare projects</h2>' +
+      sheet.innerHTML = '<button class="cmp-close" aria-label="Close comparison">✕</button>' +
+        '<h2 style="margin-top:0">Compare projects</h2>' +
         '<div class="table-scroll"><table><tbody>' +
         '<tr><th></th>' + rows.map(p => `<th>${p.name}</th>`).join('') + '</tr>' +
         fields.map(([label, fn]) =>
           `<tr><td>${label}</td>` + rows.map(p => `<td>${fn(p)}</td>`).join('') + '</tr>').join('') +
         '</tbody></table></div>' +
         '<p style="margin:14px 0 0"><button onclick="window.print()" style="font:inherit;font-size:13px;font-weight:600;padding:8px 16px;border-radius:8px;border:1px solid var(--accent);background:var(--accent);color:#fff;cursor:pointer">Print / save as PDF</button></p>';
+      sheet.querySelector('.cmp-close').addEventListener('click', () => overlay.classList.remove('show'));
       overlay.classList.add('show');
     });
     refresh();
@@ -240,5 +253,5 @@ const CRI = (() => {
            priceHTML, fmtN, confHTML, stageLabel, sourcesHTML, breakdownHTML,
            initTheme, setRefreshed,
            persona, matchesPersona, initPersonaBar, money, ticketHTML,
-           compareList, toggleCompare, tierBadge, initCompareBar };
+           compareList, toggleCompare, tierBadge, initCompareBar, skeletons };
 })();
