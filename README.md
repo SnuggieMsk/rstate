@@ -10,19 +10,27 @@ Area — published as an interactive dashboard and map on GitHub Pages.
 
 ## What's inside
 
+- **Client-lens personas** — a header switcher re-lenses every page to **Boardroom** (₹3Cr+,
+  3–4BHK exclusive), **Executive** (₹1–2.5Cr, 2–3BHK), or **Value & Distressed**, based on a
+  transparent per-project segment-fit score.
 - **Dashboard** — headline stats, top opportunities by Upside Score, early-entrant watchlist,
   and current Chennai market context.
 - **Interactive map** — Leaflet + OpenStreetMap (no API keys), 57+ projects color-coded by
   Upside Score with cluster markers, plus overlays for Chennai Metro Phase 2 corridors/stations,
-  the Peripheral Ring Road, and other infrastructure catalysts.
+  the Peripheral Ring Road, bank-auction deals, and other infrastructure catalysts.
 - **Projects table** — every tracked project, sortable and filterable by corridor, type, stage,
-  category, risk, and score; click a row for the per-factor score breakdown and source links.
-- **Micro-market intelligence** — price bands, trend direction, rental yields, flood risk, and
-  demand drivers for 33 Chennai localities.
-- **Transparent methodology** — the Upside Score is a rule-based composite computed by
-  [`scripts/score.py`](scripts/score.py); every weight and threshold is documented on the
-  [methodology page](docs/methodology.html) and every record carries its source URLs and a
-  data-confidence rating.
+  category, risk, and score; click a row for the per-factor score breakdown and source links;
+  tick up to 3 projects to open the compare drawer (with a print-to-PDF brief).
+- **Deals page** — bank e-auction (SARFAESI) listings with a computed discount-to-market %,
+  plus stalled/insolvent-project and NCLT/CIRP/SWAMIH-revival records — every listing flagged
+  for mandatory legal title verification.
+- **Locality Explorer** — price bands, trend direction, rental yields, flood risk, tier badges
+  (Prime/Established/Growth/Emerging), and demand drivers for 129 Chennai-area localities across
+  every zone, from the city core to the far periphery.
+- **Transparent methodology** — the Upside Score and segment-fit scores are a rule-based
+  composite computed by [`scripts/score.py`](scripts/score.py); every weight and threshold is
+  documented on the [methodology page](docs/methodology.html) and every record carries its
+  source URLs and a data-confidence rating.
 
 ## Refreshing the data
 
@@ -48,7 +56,7 @@ data changes are reviewable diffs, and GitHub Pages redeploys automatically.
 
 ```
 docs/               GitHub Pages site (static HTML/CSS/JS, vendored Leaflet)
-docs/data/          All data as JSON: projects, localities, infrastructure, meta
+docs/data/          All data as JSON: projects, localities, infrastructure, distressed, meta
 scripts/score.py    Deterministic Upside Score / risk / tag computation
 CLAUDE.md           The refresh contract Claude follows in this repo
 PROMPT.md           The original master prompt that built this project
