@@ -45,6 +45,7 @@ Open a Claude Code session in this repository and type:
 | `refresh` | Research everything new since the last refresh, update data, re-score, commit & push |
 | `deep refresh` | Re-verify every record from scratch |
 | `refresh <locality>` | Refresh a single micro-market (e.g. `refresh OMR`) |
+| `refresh deals` | Refresh only the bank-auction / distressed pipeline (it churns weekly) |
 
 The workflow is defined in [`CLAUDE.md`](CLAUDE.md). Each refresh is a git commit, so all
 data changes are reviewable diffs, and GitHub Pages redeploys automatically.
@@ -66,8 +67,8 @@ scripts/score.py         Deterministic scoring: Upside Score, risk, tags, segmen
                          locality tiers, developer rollups, auction discounts
 scripts/scrape_rera.py   Scrapes the TNRERA registration index (needs BRIGHTDATA_API_KEY)
 scripts/merge_rera.py    Folds scraped registrations into projects.json
-CLAUDE.md           The refresh contract Claude follows in this repo
-PROMPT.md           The original master prompt that built this project
+CLAUDE.md                The refresh contract Claude follows in this repo
+PROMPT.md                The original master prompt that built this project
 ```
 
 ## Data honesty
