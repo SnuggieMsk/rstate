@@ -43,6 +43,9 @@
     <select id="fRera"><option value="">RERA: any</option>
       <option value="yes">Has RERA number</option>
       <option value="no">No RERA number found</option></select>
+    <select id="fConf"><option value="">Any confidence</option>
+      <option value="verified">Verified on RERA portal</option>
+      <option value="reported">Reported only</option></select>
     <span class="count" id="fCount"></span>
   </div>
 
@@ -95,6 +98,7 @@ function currentFilter() {
   const sc = document.getElementById('fScore').value;
   const src = document.getElementById('fSource').value;
   const rera = document.getElementById('fRera').value;
+  const conf = document.getElementById('fConf').value;
   return ALL.filter(p =>
     CRI.matchesPersona(p) &&
     (!q || (p.name + ' ' + (p.promoter || '') + ' ' + p.locality + ' ' + (p.developer || '')).toLowerCase().includes(q)) &&
@@ -103,7 +107,8 @@ function currentFilter() {
     (!stg || p.stage === stg) && (!cat || (p.tags || []).includes(cat)) &&
     (!rsk || p.risk === rsk) && (!sc || (p.upside_score != null && p.upside_score >= +sc)) &&
     (!src || (p.source || 'curated') === src) &&
-    (!rera || (rera === 'yes' ? !!p.rera_no : !p.rera_no)));
+    (!rera || (rera === 'yes' ? !!p.rera_no : !p.rera_no)) &&
+    (!conf || p.data_confidence === conf));
 }
 
 function priceCell(p) {
@@ -219,7 +224,7 @@ CRI.loadAll().then(({ projects, meta }) => {
   fill('fStage', ALL.map(p => p.stage));
   fill('fCategory', ALL.flatMap(p => p.tags || []));
   ['fSearch', 'fDeveloper', 'fCorridor', 'fType', 'fStage', 'fCategory', 'fRisk', 'fScore',
-   'fSource', 'fRera'].forEach(id =>
+   'fSource', 'fRera', 'fConf'].forEach(id =>
     document.getElementById(id).addEventListener('input', render));
   document.querySelectorAll('#projTable th').forEach(th =>
     th.addEventListener('click', () => {

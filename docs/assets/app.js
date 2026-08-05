@@ -116,7 +116,8 @@ const CRI = (() => {
   function fmtN(n) { return n == null ? '—' : Number(n).toLocaleString('en-IN'); }
 
   function confHTML(c) {
-    const label = { verified: 'verified (RERA portal)', reported: 'reported', estimated: 'estimated' }[c] || c;
+    if (c === 'verified') return '<span class="verified-badge">✓ verified on RERA portal</span>';
+    const label = { reported: 'reported', estimated: 'estimated' }[c] || c;
     return `<span class="conf">${label}</span>`;
   }
 
