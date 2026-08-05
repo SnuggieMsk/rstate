@@ -18,11 +18,11 @@ Area — published as an interactive dashboard and map on GitHub Pages.
 - **Interactive map** — Leaflet + OpenStreetMap (no API keys), every project color-coded by
   Upside Score with cluster markers, plus overlays for Chennai Metro Phase 2 corridors/stations,
   the Peripheral Ring Road, bank-auction deals, and other infrastructure catalysts.
-- **Projects table** — 330+ tracked projects, sortable and filterable by **developer**, zone, type,
+- **Projects table** — 1,150+ tracked projects (apartments *and* plotted layouts), sortable and filterable by **developer**, zone, type,
   stage, category, risk, score, data source, and RERA status; click a row for the per-factor score
   breakdown and source links; tick up to 3 projects to open the compare drawer (with a
   print-to-PDF brief).
-- **Developer intelligence** — 230+ promoters with computed portfolio stats (project count, zones,
+- **Developer intelligence** — 900+ promoters with computed portfolio stats (project count, zones,
   stage mix, average Upside Score, ticket range, RERA coverage) plus researched delivery reputation
   and red flags where they could be sourced.
 - **Deals page** — bank e-auction (SARFAESI) listings with a computed discount-to-market %,
@@ -65,7 +65,8 @@ docs/data/               All data as JSON: projects, localities, infrastructure,
                          distressed, developers, meta
 scripts/score.py         Deterministic scoring: Upside Score, risk, tags, segment fit,
                          locality tiers, developer rollups, auction discounts
-scripts/scrape_rera.py   Scrapes the TNRERA registration index (needs BRIGHTDATA_API_KEY)
+scripts/scrape_rera.py   Scrapes the TNRERA registry — buildings and plotted layouts
+                         (needs BRIGHTDATA_API_KEY)
 scripts/merge_rera.py    Folds scraped registrations into projects.json
 CLAUDE.md                The refresh contract Claude follows in this repo
 PROMPT.md                The original master prompt that built this project

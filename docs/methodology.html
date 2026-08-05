@@ -140,7 +140,10 @@
     relative-pricing factor of the Upside Score.</p>
     <p><strong>Registry records</strong> (<code>rera-registry</code>) — the full TNRERA registration index for the
     Chennai Metropolitan Area (Chennai, Kancheepuram, Tiruvallur and Chengalpattu districts), scraped by
-    <code>scripts/scrape_rera.py</code>. These give <strong>comprehensive coverage with real registration
+    <code>scripts/scrape_rera.py</code>. TNRERA registers <strong>buildings and plotted layouts separately</strong>
+    and both streams are pulled, so plotted land — a major Chennai asset class that portals cover poorly — appears
+    alongside apartments. A layout's registry status reads "completed" the moment the layout is approved, which
+    says nothing about entry timing, so for plots the site derives stage from registration recency instead. These give <strong>comprehensive coverage with real registration
     numbers, promoters, and village/taluk locations</strong>, but the registry does not publish prices — so they
     score on stage, location, and infrastructure only, and their relative-pricing factor falls back to a neutral
     default. They are the raw opportunity funnel: a small promoter's newly registered building in a rising

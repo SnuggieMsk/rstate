@@ -29,7 +29,8 @@ When the user says **`refresh`** (or "refresh data"), do ALL of the following:
    Peripheral Ring Road, second-airport siting, OMR projects, industrial investments).
 2. Re-scrape the TNRERA registration index for comprehensive coverage:
    `export BRIGHTDATA_API_KEY=<key>` then `python3 scripts/scrape_rera.py` followed by
-   `python3 scripts/merge_rera.py`. The scraper caches pages under `.cache/` (gitignored),
+   `python3 scripts/merge_rera.py`. This pulls BOTH registry streams — buildings and
+   plotted layouts (TNRERA registers them separately). The scraper caches pages under `.cache/` (gitignored),
    so only new registrations cost a fetch; the merge adds new registry records as
    `source: "rera-registry"` and never overwrites a curated record — it only backfills a
    missing RERA number. If the key is unavailable, skip this step and say so in the report.
@@ -86,5 +87,9 @@ When the user says **`refresh`** (or "refresh data"), do ALL of the following:
   stalled/insolvent projects. Have each return raw JSON and merge here.
 - Never fabricate a bank-auction reserve price, EMD, or auction date, and never include
   a borrower's personal details beyond what the public notice states.
+- In `developers.json`, keep adjudicated regulatory or court action strictly separate from
+  unadjudicated buyer complaints — say which a red flag is, and attribute it. An empty
+  `red_flags` array means nothing adverse was found, never that nothing exists. Do not
+  assert a developer's solvency, or lack of it, without a source.
 - Keep `docs/` fully static and self-contained (vendored Leaflet, OpenStreetMap tiles,
   no API keys, no build step).
