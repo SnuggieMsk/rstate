@@ -57,9 +57,9 @@
    "type": "apartment",
    "locality": "Kottivakkam",
    "corridor": "ECR",
-   "lat": 125812.6,
-   "lng": 801536.1,
-   "geo_precision": "exact",
+   "lat": 12.9698,
+   "lng": 80.2593,
+   "geo_precision": "locality",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -77,13 +77,13 @@
    "developer": "Orom Solutions",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 3,
+    "infrastructure": 20,
     "locality_momentum": 15,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 6
    },
-   "upside_score": 55,
+   "upside_score": 72,
    "segment_fit": {
     "boardroom": 20,
     "executive": 55,
@@ -93,7 +93,7 @@
    "tags": [
     "Early Entrant"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market. Caveats: limited developer track record.",
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export"
   },
   {
@@ -122,7 +122,7 @@
    ],
    "notes": "TNRERA registry record (Chengalpattu district, Thiruporur taluk) · Village: Egattur · Pincode 603103 · Pricing not published in the registry — verify with the promoter.",
    "last_checked": "2026-08-05",
-   "developer": "DRA Homes",
+   "developer": "Dra Aadithya South City Projects",
    "score_breakdown": {
     "entry_stage": 21,
     "infrastructure": 16,
@@ -493,7 +493,7 @@
    "locality": "Nandambakkam",
    "corridor": "Southwest Chennai",
    "lat": 13.025706,
-   "lng": 80.2201856,
+   "lng": 80.220186,
    "geo_precision": "exact",
    "total_units": 9,
    "price_sqft_min": null,
@@ -1252,8 +1252,8 @@
    "type": "apartment",
    "locality": "Nanganallur",
    "corridor": "South Chennai",
-   "lat": 12.5824798,
-   "lng": 80.1149812,
+   "lat": 12.58248,
+   "lng": 80.114981,
    "geo_precision": "exact",
    "total_units": null,
    "price_sqft_min": null,
@@ -1683,9 +1683,9 @@
    "type": "apartment",
    "locality": "Sholinganallur",
    "corridor": "OMR",
-   "lat": 125334.2,
-   "lng": 801435.2,
-   "geo_precision": "exact",
+   "lat": 12.901,
+   "lng": 80.227,
+   "geo_precision": "locality",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -1703,13 +1703,13 @@
    "developer": "Adityaram Housing",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 3,
+    "infrastructure": 20,
     "locality_momentum": 15,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 10
    },
-   "upside_score": 59,
+   "upside_score": 76,
    "segment_fit": {
     "boardroom": 0,
     "executive": 55,
@@ -1719,7 +1719,7 @@
    "tags": [
     "Early Entrant"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market. Caveats: limited developer track record.",
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export"
   },
   {
@@ -2352,8 +2352,8 @@
    "type": "apartment",
    "locality": "Mylapore",
    "corridor": "Central Chennai",
-   "lat": 13.052177213436641,
-   "lng": 80.24584200116944,
+   "lat": 13.052177,
+   "lng": 80.245842,
    "geo_precision": "exact",
    "total_units": null,
    "price_sqft_min": null,
@@ -2540,9 +2540,9 @@
    "type": "apartment",
    "locality": "Mylapore",
    "corridor": "Central Chennai",
-   "lat": 130142.0,
-   "lng": 801431.0,
-   "geo_precision": "exact",
+   "lat": 13.0337,
+   "lng": 80.2687,
+   "geo_precision": "locality",
    "total_units": 10,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -2560,13 +2560,13 @@
    "developer": "Chitale Infra",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 3,
+    "infrastructure": 20,
     "locality_momentum": 15,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 6
    },
-   "upside_score": 55,
+   "upside_score": 72,
    "segment_fit": {
     "boardroom": 30,
     "executive": 55,
@@ -2576,7 +2576,7 @@
    "tags": [
     "Early Entrant"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market. Caveats: limited developer track record.",
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export"
   },
   {
@@ -2922,9 +2922,9 @@
    "type": "apartment",
    "locality": "Mylapore",
    "corridor": "Central Chennai",
-   "lat": 3.027173,
-   "lng": 80.265264,
-   "geo_precision": "exact",
+   "lat": 13.0337,
+   "lng": 80.2687,
+   "geo_precision": "locality",
    "total_units": 750,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -2942,13 +2942,13 @@
    "developer": "Tnuhdb",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 3,
+    "infrastructure": 20,
     "locality_momentum": 15,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 6
    },
-   "upside_score": 55,
+   "upside_score": 72,
    "segment_fit": {
     "boardroom": 20,
     "executive": 55,
@@ -2958,7 +2958,7 @@
    "tags": [
     "Early Entrant"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market. Caveats: limited developer track record.",
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export"
   },
   {
@@ -3499,9 +3499,9 @@
    "type": "apartment",
    "locality": "West Mambalam",
    "corridor": "Central Chennai",
-   "lat": 40.76,
-   "lng": 73.984,
-   "geo_precision": "exact",
+   "lat": 13.041,
+   "lng": 80.221,
+   "geo_precision": "locality",
    "total_units": 426,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -3519,13 +3519,13 @@
    "developer": "Tnuhdb",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 3,
+    "infrastructure": 16,
     "locality_momentum": 20,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 59,
+   "upside_score": 72,
    "segment_fit": {
     "boardroom": 20,
     "executive": 55,
@@ -3536,7 +3536,7 @@
     "Early Entrant",
     "Watchlist/Risky"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market. Caveats: flood-prone zone, limited developer track record.",
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: flood-prone zone, limited developer track record.",
    "rera_verified_on": "official TNRERA export"
   },
   {
@@ -3690,11 +3690,11 @@
    "promoter": "M/s.Arihanth Foundations & Housing Limited",
    "rera_no": "TNRERA/29/BLG/0087/2026",
    "registration_date": "2026",
-   "type": "apartment",
+   "type": "commercial",
    "locality": "Palavakkam",
    "corridor": "ECR",
-   "lat": 12.96235666666668,
-   "lng": 80.24878833333334,
+   "lat": 12.962357,
+   "lng": 80.248788,
    "geo_precision": "exact",
    "total_units": null,
    "price_sqft_min": null,
@@ -3708,9 +3708,9 @@
    "sources": [
     "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0087-2026/arihant-vaayu"
    ],
-   "notes": "TNRERA registry record (Chennai district, Sholinganallur taluk) · Village: Palavakkam · Pincode 600119 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district, Sholinganallur taluk) · Village: Palavakkam · Pincode 600119 · Pricing not published in the registry — verify with the promoter. Registered as an IT/ITES building with no dwelling units — commercial, not residential.",
    "last_checked": "2026-08-05",
-   "developer": "Arihant Foundations",
+   "developer": "Arihanth Foundations & Housing",
    "score_breakdown": {
     "entry_stage": 21,
     "infrastructure": 20,
@@ -3722,13 +3722,12 @@
    "upside_score": 76,
    "segment_fit": {
     "boardroom": 20,
-    "executive": 70,
+    "executive": 50,
     "value": 0
    },
    "risk": "Low",
    "tags": [
-    "Early Entrant",
-    "Executive"
+    "Early Entrant"
    ],
    "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market.",
    "rera_verified_on": "official TNRERA export"
@@ -4940,9 +4939,9 @@
    "type": "apartment",
    "locality": "Moggapair",
    "corridor": "Central Chennai",
-   "lat": 130503.6,
-   "lng": 801029.8,
-   "geo_precision": "exact",
+   "lat": 13.07,
+   "lng": 80.24,
+   "geo_precision": "district",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -4960,13 +4959,13 @@
    "developer": "Nexa Infra Projects",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 3,
+    "infrastructure": 16,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 47,
+   "upside_score": 60,
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
@@ -4976,7 +4975,7 @@
    "tags": [
     "Early Entrant"
    ],
-   "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export"
   },
   {
@@ -5033,7 +5032,7 @@
    "promoter": "Asv Constructions Pvt Ltd",
    "rera_no": "TNRERA/29/BLG/0196/2026",
    "registration_date": "2026",
-   "type": "apartment",
+   "type": "commercial",
    "locality": "Nandambakkam",
    "corridor": "Southwest Chennai",
    "lat": 13.017709,
@@ -5051,9 +5050,9 @@
    "sources": [
     "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0196-2026/asv-crn-business-park"
    ],
-   "notes": "TNRERA registry record (Chennai district, Alandur taluk) · Village: Nandambakkam · Pincode 600069 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district, Alandur taluk) · Village: Nandambakkam · Pincode 600069 · Pricing not published in the registry — verify with the promoter. Grade-A office park (~1.6 lakh sqft leasable) — commercial, not residential.",
    "last_checked": "2026-08-05",
-   "developer": "ASV Constructions",
+   "developer": "Asv Constructions",
    "score_breakdown": {
     "entry_stage": 21,
     "infrastructure": 16,
@@ -5065,7 +5064,7 @@
    "upside_score": 64,
    "segment_fit": {
     "boardroom": 0,
-    "executive": 55,
+    "executive": 35,
     "value": 0
    },
    "risk": "Medium",
@@ -5197,7 +5196,7 @@
    ],
    "notes": "TNRERA plotted-layout registration (Chennai district) · Pincode 602025 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying.",
    "last_checked": "2026-08-05",
-   "developer": "Jain Housing",
+   "developer": "Jains Vip Developers",
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 16,
@@ -5274,9 +5273,9 @@
    "type": "villa",
    "locality": "Thiruporur",
    "corridor": "GST Road",
-   "lat": 124825.3,
-   "lng": 801238.5,
-   "geo_precision": "exact",
+   "lat": 12.7256,
+   "lng": 80.1911,
+   "geo_precision": "locality",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -5294,13 +5293,13 @@
    "developer": "Sylvanus Builders Developers",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 3,
+    "infrastructure": 20,
     "locality_momentum": 15,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 54,
+   "upside_score": 71,
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
@@ -5311,7 +5310,7 @@
     "Early Entrant",
     "Watchlist/Risky"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market. Caveats: flood-prone zone, limited developer track record.",
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: flood-prone zone, limited developer track record.",
    "rera_verified_on": "official TNRERA export"
   },
   {
@@ -6974,9 +6973,9 @@
    "type": "apartment",
    "locality": "Porur",
    "corridor": "West Chennai",
-   "lat": 124825.9,
-   "lng": 801257.4,
-   "geo_precision": "exact",
+   "lat": 13.038,
+   "lng": 80.156,
+   "geo_precision": "locality",
    "total_units": 170,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -6994,13 +6993,13 @@
    "developer": "Pacifica Builders",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 3,
+    "infrastructure": 20,
     "locality_momentum": 15,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 10
    },
-   "upside_score": 59,
+   "upside_score": 76,
    "segment_fit": {
     "boardroom": 0,
     "executive": 55,
@@ -7010,7 +7009,7 @@
    "tags": [
     "Early Entrant"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market. Caveats: limited developer track record.",
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export"
   },
   {
@@ -7349,42 +7348,54 @@
    "lng": 80.217729,
    "geo_precision": "exact",
    "total_units": 284,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "price_sqft_min": 21950,
+   "price_sqft_max": 22450,
    "ticket_note": null,
    "expected_completion": "2030-12-31",
-   "stage": "new-launch",
+   "stage": "under-construction",
    "status": "active",
    "data_confidence": "verified",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0052-2026/brigade-stellaris"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0052-2026/brigade-stellaris",
+    "https://www.roofandfloor.com/chennai/project/brigade-stellaris-in-velachery/7849",
+    "https://www.nobroker.in/brigade-stellaris-velachery_chennai-prjt-8aa9a3ea9bb13b00019bb1a6802e2c76",
+    "https://www.brigadegroup.com/residential/projects/chennai/brigade-stellaris"
    ],
-   "notes": "TNRERA registry record (Chennai district) · Village: Velachery · Pincode 600042 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district) · Village: Velachery · Pincode 600042 · Pricing not published in the registry — verify with the promoter. RERA number TNRERA/29/BLG/0052/2026 confirmed on the listing page, so identity is certain. Top-end Velachery address next to Phoenix Marketcity with 21 amenities (pool, fitness studio, squash and badminton courts, spa, business centre, 3-tier security); rate quoted at Rs 22,450/sqft. Sources differ on the upper band: RoofandFloor caps the project at Rs 7.68 Cr for 3,500 sqft 4 BHKs while NoBroker lists 4+ BHK duplexes (3,773-3,992 sqft carpet) up to Rs 16.96 Cr, so the duplex tier sits well above the ticket_max reported here. Unit counts vary 284 (RoofandFloor) vs 300 (NoBroker) and land 5.41 vs 5.19 acres.",
    "last_checked": "2026-08-05",
    "developer": "Brigade Group",
    "score_breakdown": {
-    "entry_stage": 21,
+    "entry_stage": 12,
     "infrastructure": 16,
     "locality_momentum": 20,
-    "relative_pricing": 7,
+    "relative_pricing": 4,
     "developer_track_record": 10,
     "rental_yield": 10
    },
-   "upside_score": 84,
+   "upside_score": 72,
    "segment_fit": {
-    "boardroom": 10,
-    "executive": 70,
+    "boardroom": 70,
+    "executive": 45,
     "value": 0
    },
    "risk": "Low",
    "tags": [
-    "Early Entrant",
-    "High Upside",
-    "Executive"
+    "Boardroom",
+    "Premium",
+    "Steady/Rental"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, strong developer record.",
-   "rera_verified_on": "official TNRERA export"
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market, strong developer record.",
+   "rera_verified_on": "official TNRERA export",
+   "ticket_min_lakh": 449,
+   "ticket_max_lakh": 768,
+   "unit_size_min_sqft": 2000,
+   "unit_size_max_sqft": 3500,
+   "land_area_acres": 5.41,
+   "config_mix": "3 BHK / 3.5 BHK / 4 BHK, plus larger 4+ BHK duplex units",
+   "dominant_config": "3BHK",
+   "density_note": "mid-density luxury high-rise: ~284-300 units in 4 towers (2 basement + stilt + 13-14 floors) on ~5.2-5.4 acres",
+   "price_confidence": "reported"
   },
   {
    "name": "Brigade West Chennai JDA project (working name)",
@@ -7588,46 +7599,59 @@
    "type": "apartment",
    "locality": "Semmancheri",
    "corridor": "OMR",
-   "lat": 125141.4,
-   "lng": 801350.2,
-   "geo_precision": "exact",
+   "lat": 12.8734,
+   "lng": 80.2273,
+   "geo_precision": "locality",
    "total_units": 140,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "price_sqft_min": 8663,
+   "price_sqft_max": 9200,
    "ticket_note": null,
    "expected_completion": "2030-01-30",
-   "stage": "new-launch",
+   "stage": "under-construction",
    "status": "active",
    "data_confidence": "verified",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0041-2026/cambridge-by-dac"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0041-2026/cambridge-by-dac",
+    "https://findbhk.com/projects/dac-cambridge-semmenchery",
+    "https://www.nobroker.in/dac-cambridge-semmancheri_chennai-prjt-8aa9ad449aa4cbf5019aa4f5ebe41146",
+    "https://www.roofandfloor.com/chennai/project/dac-cambridge-in-semmencherry/7863",
+    "https://www.addressofchoice.com/dac-cambridge-semmancheri-chennai-p80649"
    ],
-   "notes": "TNRERA registry record (Chennai district) · Pincode 600119 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district) · Pincode 600119 · Pricing not published in the registry — verify with the promoter. RERA TNRERA/29/BLG/0041/2026 confirmed on multiple portals, so identity is certain. 2 BHK 958 sqft from ~Rs 83 lakh, 3 BHK up to 1,591 sqft at ~Rs 1.48-1.56 crore; portals quote Rs 8,663-9,200/sqft (one source shows a wider Rs 8.7K-10.8K band). Gated community with pool, gym, clubhouse, multipurpose hall, cricket net, kids play area; developer is offering no pre-EMI till possession. Walkable to OMR IT hubs and SIPCOT.",
    "last_checked": "2026-08-05",
    "developer": "DAC Developers",
    "score_breakdown": {
-    "entry_stage": 21,
-    "infrastructure": 3,
+    "entry_stage": 12,
+    "infrastructure": 20,
     "locality_momentum": 15,
-    "relative_pricing": 7,
+    "relative_pricing": 8,
     "developer_track_record": 7,
     "rental_yield": 10
    },
-   "upside_score": 63,
+   "upside_score": 72,
    "segment_fit": {
     "boardroom": 10,
-    "executive": 70,
+    "executive": 100,
     "value": 30
    },
    "risk": "Medium",
    "tags": [
-    "Early Entrant",
-    "Executive"
+    "Executive",
+    "Steady/Rental"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market. Caveats: flood-prone zone.",
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market. Caveats: flood-prone zone.",
    "rera_verified_on": "official TNRERA export",
-   "registration_status": "Change of Project Bank: State Bank of India, SME Ekkaduthangal Branch, Chennai - 600032 (Collection A/c No.44994365655, Separate A/c No.44994340131, Transaction A/c No.44994519437)Revised Carpet Area "
+   "registration_status": "Change of Project Bank: State Bank of India, SME Ekkaduthangal Branch, Chennai - 600032 (Collection A/c No.44994365655, Separate A/c No.44994340131, Transaction A/c No.44994519437)Revised Carpet Area ",
+   "ticket_min_lakh": 83,
+   "ticket_max_lakh": 156,
+   "unit_size_min_sqft": 958,
+   "unit_size_max_sqft": 1591,
+   "land_area_acres": 1.6,
+   "config_mix": "2/3 BHK",
+   "dominant_config": "mixed",
+   "density_note": "boutique 140 units on 1.6 acres, ~5 floors",
+   "price_confidence": "reported"
   },
   {
    "id": "captain-city-4567",
@@ -7688,43 +7712,55 @@
    "lat": 13.152897,
    "lng": 80.193483,
    "geo_precision": "exact",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "total_units": 544,
+   "price_sqft_min": 6549,
+   "price_sqft_max": 7049,
    "ticket_note": null,
    "expected_completion": "2030-06-12",
-   "stage": "new-launch",
+   "stage": "under-construction",
    "status": "active",
    "data_confidence": "verified",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0183-2026/casagrand-aquagrove"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0183-2026/casagrand-aquagrove",
+    "https://www.casagrand.co.in/residential/ongoing-projects-chennai-madhavaram/casagrand-aquagrove/",
+    "https://casagrandaquagrove.com/",
+    "http://verified.realestate/rera/registered-buildings/TNRERA-29-BLG-0183-2026"
    ],
-   "notes": "TNRERA registry record (Chennai district, Madhavaram taluk) · Village: Soorapattu · Pincode 600066 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district, Madhavaram taluk) · Village: Soorapattu · Pincode 600066 · Pricing not published in the registry — verify with the promoter. RERA number matches exactly. Sizes: 2BHK 1307-1309, 3BHK 1760-2104, 4BHK 2581 sqft; Rs 6,549/sqft for 2/3BHK and Rs 7,049/sqft for 4BHK. Manhattan-style glass facade with Y-shaped towers, 85% open space, 4.5 acres of landscaped greens, 15,500 sqft clubhouse, 9,000 sqft pool and 95+ amenities, with Puzhal Lake views; site is Ambattur-Puzhal Main Road, Soorapattu village, Madhavaram taluk (some portals tag it Kolathur). RERA proposed completion is 12-Jun-2030; a secondary portal quoted an older launch band of Rs 89L-1.83Cr and an early-bird Rs 6,299/sqft, so the Rs 1.03-2.12 Cr band above is the current developer-published one.",
    "last_checked": "2026-08-05",
    "developer": "Casagrand",
    "score_breakdown": {
-    "entry_stage": 21,
+    "entry_stage": 12,
     "infrastructure": 12,
     "locality_momentum": 20,
-    "relative_pricing": 7,
+    "relative_pricing": 12,
     "developer_track_record": 10,
     "rental_yield": 8
    },
-   "upside_score": 78,
+   "upside_score": 74,
    "segment_fit": {
-    "boardroom": 10,
-    "executive": 70,
-    "value": 0
+    "boardroom": 30,
+    "executive": 100,
+    "value": 70
    },
    "risk": "Low",
    "tags": [
-    "Early Entrant",
-    "High Upside",
-    "Executive"
+    "Executive",
+    "Value",
+    "Steady/Rental"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market, strong developer record.",
-   "rera_verified_on": "official TNRERA export"
+   "score_rationale": "Scores on rising micro-market, priced below the locality band, strong developer record.",
+   "rera_verified_on": "official TNRERA export",
+   "ticket_min_lakh": 103,
+   "ticket_max_lakh": 212,
+   "unit_size_min_sqft": 1307,
+   "unit_size_max_sqft": 2581,
+   "land_area_acres": 6.7,
+   "config_mix": "2/3/4 BHK",
+   "dominant_config": "3BHK",
+   "density_note": "large high-rise township - 544 units in 3 towers (G+26, G+26, G+28) on 6.7 acres",
+   "price_confidence": "reported"
   },
   {
    "name": "Casagrand Avenue Park",
@@ -7782,46 +7818,54 @@
    "rera_no": "TNRERA/35/BLG/0140/2026",
    "registration_date": "2026",
    "type": "apartment",
-   "locality": "Chengalpattu town",
+   "locality": "Vengambakkam",
    "corridor": "GST Road",
    "lat": 12.88167,
    "lng": 80.132212,
    "geo_precision": "exact",
    "total_units": 173,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "price_sqft_min": 4399,
+   "price_sqft_max": 4499,
    "ticket_note": null,
    "expected_completion": "2029-03-31",
-   "stage": "new-launch",
+   "stage": "under-construction",
    "status": "active",
    "data_confidence": "verified",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0140-2026/casagrand-estia"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0140-2026/casagrand-estia",
+    "https://www.casagrand.co.in/residential/ongoing-projects-chennai-east-tambaram/casagrand-estia/"
    ],
-   "notes": "TNRERA registry record (Chengalpattu district, Tambaram taluk) · Village: Vengambakkam · Pincode 600127 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chengalpattu district, Tambaram taluk) · Village: Vengambakkam · Pincode 600127 · Pricing not published in the registry — verify with the promoter. RERA number matches exactly; site is Vengambakkam village, Tambaram taluk, Chengalpattu district (marketed as 'East Tambaram', not Chengalpattu town) - promoter Casagrand Astute Pvt Ltd, declared cost Rs 100.5 cr. Roman-themed low-rise with 43 amenities, 5,600 sqft clubhouse and 3,060 sqft pool; developer quotes Phase 1 at Rs 4,399/sqft and Phase 2 at Rs 4,499/sqft as early-bird against a claimed Rs 5,500/sqft market rate, so the ticket band is launch pricing. Locality corrected from Chengalpattu town to Vengambakkam on research review.",
    "last_checked": "2026-08-05",
    "developer": "Casagrand",
    "score_breakdown": {
-    "entry_stage": 21,
+    "entry_stage": 12,
     "infrastructure": 7,
-    "locality_momentum": 9,
+    "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 10,
-    "rental_yield": 4
+    "rental_yield": 5
    },
-   "upside_score": 58,
+   "upside_score": 49,
    "segment_fit": {
     "boardroom": 10,
     "executive": 50,
-    "value": 30
+    "value": 0
    },
-   "risk": "Medium",
-   "tags": [
-    "Early Entrant"
-   ],
-   "score_rationale": "Scores on early entry stage, strong developer record.",
-   "rera_verified_on": "official TNRERA export"
+   "risk": "Low",
+   "tags": [],
+   "score_rationale": "Scores on strong developer record.",
+   "rera_verified_on": "official TNRERA export",
+   "ticket_min_lakh": 61,
+   "ticket_max_lakh": 85,
+   "unit_size_min_sqft": 1079,
+   "unit_size_max_sqft": 1589,
+   "land_area_acres": 2.49,
+   "config_mix": "2/3 BHK",
+   "dominant_config": "mixed",
+   "density_note": "boutique low-rise, 173 units on 2.49 acres, single B+G+5 block, 66% open space",
+   "price_confidence": "reported"
   },
   {
    "id": "casagrand-glenmere-0085",
@@ -8219,38 +8263,54 @@
    "lat": 13.006,
    "lng": 80.257,
    "geo_precision": "approximate",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "total_units": 15,
+   "price_sqft_min": 13500,
+   "price_sqft_max": 14200,
    "ticket_note": null,
-   "expected_completion": null,
+   "expected_completion": "2027-01",
    "stage": "under-construction",
    "status": "active",
    "data_confidence": "reported",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0259-2025/casagrand-zanora"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0259-2025/casagrand-zanora",
+    "https://www.casagrand.co.in/residential/ongoing-projects-chennai/casagrand-zanora/",
+    "https://findbhk.com/projects/casagrand-zanora-adyar",
+    "https://www.nobroker.in/casagrand-zanora-adyar_chennai-prjt-8a9faa859927c1f2019927d0a74e04f0"
    ],
-   "notes": "TNRERA registry record (Chennai district, Velachery taluk) · Village: Pallipattu · Pincode 600020 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district, Velachery taluk) · Village: Pallipattu · Pincode 600020 · Pricing not published in the registry — verify with the promoter. RERA confirmed on Casagrand's own site. Kasturba Nagar, Adyar — 15 exclusive 3BHK units, now marked SOLD OUT by the developer and by findbhk, so this is an inventory-exhausted launch. Developer quotes ₹14,200/sqft against a stated market rate of ₹17,000/sqft; Italian marble flooring, TOTO/KOHLER fittings, 100% DG backup, seismic Zone-II RCC frame.",
    "last_checked": "2026-08-05",
    "developer": "Casagrand",
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 20,
     "locality_momentum": 15,
-    "relative_pricing": 7,
+    "relative_pricing": 12,
     "developer_track_record": 10,
     "rental_yield": 6
    },
-   "upside_score": 70,
+   "upside_score": 75,
    "segment_fit": {
-    "boardroom": 30,
-    "executive": 50,
-    "value": 0
+    "boardroom": 100,
+    "executive": 80,
+    "value": 30
    },
    "risk": "Low",
-   "tags": [],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market, strong developer record."
+   "tags": [
+    "Boardroom",
+    "Executive",
+    "Premium"
+   ],
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market, priced below the locality band, strong developer record.",
+   "ticket_min_lakh": 235,
+   "ticket_max_lakh": 265,
+   "unit_size_min_sqft": 1578,
+   "unit_size_max_sqft": 1770,
+   "land_area_acres": 0.28,
+   "config_mix": "3 BHK",
+   "dominant_config": "3BHK",
+   "density_note": "ultra-boutique — 15 units on 4.9 grounds (~11,991 sqft), 3 floors",
+   "price_confidence": "reported"
   },
   {
    "id": "casagrand-zodiac-0134",
@@ -9372,7 +9432,7 @@
    ],
    "notes": "TNRERA plotted-layout registration (Chennai district) · Pincode 600014 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying.",
    "last_checked": "2026-08-05",
-   "developer": "DRA Homes",
+   "developer": "Dra Aadithya South City Projects",
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 7,
@@ -9419,7 +9479,7 @@
    ],
    "notes": "TNRERA plotted-layout registration (Chennai district) · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying.",
    "last_checked": "2026-08-05",
-   "developer": "DRA Homes",
+   "developer": "Dra Aadithya South City Projects",
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 16,
@@ -10371,7 +10431,7 @@
    "type": "apartment",
    "locality": "Tondiorpet",
    "corridor": "Central Chennai",
-   "lat": 13.1096457,
+   "lat": 13.109646,
    "lng": 80.283182,
    "geo_precision": "exact",
    "total_units": 1500,
@@ -11096,41 +11156,53 @@
    "lat": 12.968,
    "lng": 79.947,
    "geo_precision": "approximate",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "total_units": 500,
+   "price_sqft_min": 1790,
+   "price_sqft_max": 1790,
    "ticket_note": null,
    "expected_completion": null,
-   "stage": "under-construction",
+   "stage": "nearing-possession",
    "status": "active",
    "data_confidence": "reported",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/layouts/tnrera-1-lo-3907-2025/eterna"
+    "https://proquiro.com/tools/rera-tamil-nadu/layouts/tnrera-1-lo-3907-2025/eterna",
+    "https://www.gsquareeterna.com/",
+    "https://findbhk.com/projects/G-Square-Eterna-thandalam-Sriperumbudur"
    ],
-   "notes": "TNRERA plotted-layout registration (Kancheepuram district, Sriperumbudur taluk) · Village: Mevalurkuppam A · Pincode 602105 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying.",
+   "notes": "TNRERA plotted-layout registration (Kancheepuram district, Sriperumbudur taluk) · Village: Mevalurkuppam A · Pincode 602105 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying. RERA number TNRERA/1/LO/3907/2025 printed on G Square's own microsite - identity confirmed. Located at Mevalurkuppam, ~1.5 km from Thandalam Junction and 2.6 km from Saveetha Medical College on the Sriperumbudur/Bangalore Highway belt. Flat Rs 1,790/sqft across the layout (10.74L for 600 sqft, 44.9L for 2,511 sqft - both derive to the same rate). Infrastructure-ready gated plots: blacktop internal roads, streetlights, 24x7 CCTV, multi-purpose play court, gazebo, kids' play equipment, one year free maintenance, plus G Square Built Assist for villa construction. FindBHK marks it 'ready to move' (i.e. registrable plots), so stage_observed is inferred from that.",
    "last_checked": "2026-08-05",
    "developer": "G Square Housing",
    "score_breakdown": {
-    "entry_stage": 12,
+    "entry_stage": 5,
     "infrastructure": 20,
     "locality_momentum": 20,
-    "relative_pricing": 7,
+    "relative_pricing": 15,
     "developer_track_record": 7,
     "rental_yield": 10
    },
-   "upside_score": 76,
+   "upside_score": 77,
    "segment_fit": {
-    "boardroom": 0,
-    "executive": 50,
-    "value": 0
+    "boardroom": 20,
+    "executive": 35,
+    "value": 70
    },
    "risk": "Low",
    "tags": [
+    "Value",
     "Plotted/Land",
     "Steady/Rental"
    ],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market."
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market, priced below the locality band.",
+   "ticket_min_lakh": 10.74,
+   "ticket_max_lakh": 44.9,
+   "unit_size_min_sqft": 600,
+   "unit_size_max_sqft": 2511,
+   "land_area_acres": 20,
+   "config_mix": "residential/villa plots 600-2511 sqft",
+   "dominant_config": "plot",
+   "density_note": "large plotted township: ~500 plots on 20 acres",
+   "price_confidence": "reported"
   },
   {
    "id": "eterna-phase-2-0974",
@@ -12248,8 +12320,8 @@
    "type": "apartment",
    "locality": "Velachery",
    "corridor": "South Chennai",
-   "lat": 13.0035049,
-   "lng": 80.2094001,
+   "lat": 13.003505,
+   "lng": 80.2094,
    "geo_precision": "exact",
    "total_units": null,
    "price_sqft_min": null,
@@ -12536,8 +12608,8 @@
    "type": "apartment",
    "locality": "Chennai",
    "corridor": "Central Chennai",
-   "lat": 12.9335774,
-   "lng": 80.2387732,
+   "lat": 12.933577,
+   "lng": 80.238773,
    "geo_precision": "exact",
    "total_units": 20,
    "price_sqft_min": null,
@@ -12848,9 +12920,10 @@
    "data_confidence": "reported",
    "sources": [
     "https://realtypromoo.com/news/godrej-properties-acquires-47-acre-land-parcel-off-omr-south-chennai-for-500-crore-plotted-residential-project-marking-expansion-into-siruseri-kelambakkam-corridor",
-    "https://www.whalesbook.com/news/English/real-estate/Godrej-Properties-Buys-47-Acre-Chennai-Land-for-Residential-Project/6a4348a0fb97bcde4ce67e82"
+    "https://www.whalesbook.com/news/English/real-estate/Godrej-Properties-Buys-47-Acre-Chennai-Land-for-Residential-Project/6a4348a0fb97bcde4ce67e82",
+    "https://www.business-standard.com/industry/news/godrej-properties-acquires-47-acre-land-parcel-in-south-chennai-126063000416_1.html"
    ],
-   "notes": "~47-acre outright land purchase; projected revenue ~Rs 500 crore from plotted residential; expands Godrej's South Chennai portfolio alongside Godrej Azure (Padur) and Godrej Sunrise Estate (Oragadam).",
+   "notes": "~47-acre outright land purchase; projected revenue ~Rs 500 crore from plotted residential; expands Godrej's South Chennai portfolio alongside Godrej Azure (Padur) and Godrej Sunrise Estate (Oragadam). NO PRICING EXISTS YET - land was acquired outright on 30 June 2026 and no plot sizes, rates or launch date have been disclosed; only scale figures are public. Godrej states ~1.2 mn sqft developable potential and Rs 500 cr estimated revenue potential; dividing those gives roughly Rs 4,170/sqft but that is a revenue-potential derivation, not a quoted price, so it is deliberately left out of the price fields. Site is off OMR on the Siruseri-Kelambakkam belt with direct access to SIPCOT, Vandalur, Guduvanchery and Mahabalipuram.",
    "last_checked": "2026-07-20",
    "locality": "Kelambakkam",
    "corridor": "OMR",
@@ -12877,7 +12950,11 @@
     "value": 0
    },
    "developer": "Godrej Properties",
-   "source": "curated"
+   "source": "curated",
+   "land_area_acres": 47,
+   "config_mix": "residential plots (sizes not yet announced)",
+   "dominant_config": "plot",
+   "density_note": "township-scale plotted development, ~1.2 million sqft of developable potential"
   },
   {
    "id": "gokul-avenue-4542",
@@ -14393,9 +14470,9 @@
    "sources": [
     "https://proquiro.com/tools/rera-tamil-nadu/layouts/tnrera-1-lo-4055-2025/guru-goutham-nagar"
    ],
-   "notes": "TNRERA plotted-layout registration (Kancheepuram district, Kundrathur taluk) · Village: Gerugambakkam · Pincode 600128 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying.",
+   "notes": "TNRERA plotted-layout registration (Kancheepuram district, Kundrathur taluk) · Village: Gerugambakkam · Pincode 600128 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying. Promoter is the individual Kalpesh Sobhagmal, unconnected to Sobha Ltd.",
    "last_checked": "2026-08-05",
-   "developer": "Sobha",
+   "developer": "Kalpesh Sobhagmal",
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 12,
@@ -15303,8 +15380,8 @@
    "type": "apartment",
    "locality": "Nandambakkam",
    "corridor": "Southwest Chennai",
-   "lat": 13.013467649243191,
-   "lng": 80.1830555200305,
+   "lat": 13.013468,
+   "lng": 80.183056,
    "geo_precision": "exact",
    "total_units": 64,
    "price_sqft_min": null,
@@ -15734,9 +15811,9 @@
    "registration_date": "2026 (registration year)",
    "type": "apartment",
    "locality_raw": "Chennai district (exact locality not published in source snippet)",
-   "lat": 10.98597,
-   "lng": 50.986478,
-   "geo_precision": "exact",
+   "lat": 13.07,
+   "lng": 80.24,
+   "geo_precision": "district",
    "total_units": 10,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -15755,16 +15832,16 @@
    "id": "jmb-alaya-jmb-rrm-alaya",
    "score_breakdown": {
     "entry_stage": 12,
-    "infrastructure": 3,
+    "infrastructure": 16,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 38,
+   "upside_score": 51,
    "risk": "Medium",
    "tags": [],
-   "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
+   "score_rationale": "Scores on close to upcoming metro/infrastructure. Caveats: limited developer track record.",
    "segment_fit": {
     "boardroom": 10,
     "executive": 35,
@@ -16048,32 +16125,34 @@
    "lat": 12.682,
    "lng": 79.986,
    "geo_precision": "district",
-   "total_units": null,
-   "price_sqft_min": null,
+   "total_units": 53,
+   "price_sqft_min": 6500,
    "price_sqft_max": null,
    "ticket_note": null,
    "expected_completion": null,
-   "stage": "new-launch",
+   "stage": "pre-launch",
    "status": "active",
    "data_confidence": "reported",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/layouts/tnrera-35-lo-0679-2026/jains-ashwit-nagar"
+    "https://proquiro.com/tools/rera-tamil-nadu/layouts/tnrera-35-lo-0679-2026/jains-ashwit-nagar",
+    "https://jainhousing.com/chennai/jains-ashwitnagar",
+    "https://jainhousing.com/plots"
    ],
-   "notes": "TNRERA plotted-layout registration (Chengalpattu district) · Pincode 600048 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying.",
+   "notes": "TNRERA plotted-layout registration (Chengalpattu district) · Pincode 600048 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying. RERA number TNRERA/35/LO/0679/2026 printed on Jain Housing's own project page - identity confirmed. Location is Mappedu on the Tambaram Eastern Bypass (Chengalpattu district, zone 35), which is the GST Road / Tambaram belt rather than GST Road proper. Developer states 'Rs 65 Lakhs onwards' for 1,000-2,500 sqft plots and 53 units; status listed as 'Upcoming', no possession date published. The Rs 6,500/sqft figure is arithmetic from Rs 65L on the smallest 1,000 sqft plot - if the entry price actually applies to a mid-size plot the true rate is lower, and no portal carries a published per-sqft rate to cross-check. Amenities: yoga/meditation area, solar street lights, party lawn, blacktop roads, storm water drains, walking track, reflexology pathway, kids' play area. Note the entry ticket is high relative to peer Mappedu layouts, which is worth a second look before publishing.",
    "last_checked": "2026-08-05",
    "developer": "Jain Housing",
    "score_breakdown": {
-    "entry_stage": 21,
+    "entry_stage": 25,
     "infrastructure": 7,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 7,
     "rental_yield": 5
    },
-   "upside_score": 55,
+   "upside_score": 59,
    "segment_fit": {
-    "boardroom": 0,
+    "boardroom": 10,
     "executive": 30,
     "value": 0
    },
@@ -16082,7 +16161,14 @@
     "Early Entrant",
     "Plotted/Land"
    ],
-   "score_rationale": "Scores on early entry stage."
+   "score_rationale": "Scores on early entry stage.",
+   "ticket_min_lakh": 65,
+   "unit_size_min_sqft": 1000,
+   "unit_size_max_sqft": 2500,
+   "config_mix": "residential plots 1000-2500 sqft",
+   "dominant_config": "plot",
+   "density_note": "boutique layout: 53 plots",
+   "price_confidence": "reported"
   },
   {
    "id": "janani-s-kandhan-kottam-phase-ii-extension-2-2055",
@@ -16142,9 +16228,9 @@
    "type": "apartment",
    "locality": "Keelkattalai",
    "corridor": "South Chennai",
-   "lat": 125753.2,
-   "lng": 801119.2,
-   "geo_precision": "exact",
+   "lat": 12.945,
+   "lng": 80.1912,
+   "geo_precision": "locality",
    "total_units": 15,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -16162,13 +16248,13 @@
    "developer": "S Appan",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 3,
+    "infrastructure": 16,
     "locality_momentum": 15,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 6
    },
-   "upside_score": 55,
+   "upside_score": 68,
    "segment_fit": {
     "boardroom": 10,
     "executive": 55,
@@ -16179,7 +16265,7 @@
     "Early Entrant",
     "Watchlist/Risky"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market. Caveats: flood-prone zone, limited developer track record.",
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: flood-prone zone, limited developer track record.",
    "rera_verified_on": "official TNRERA export"
   },
   {
@@ -16529,9 +16615,9 @@
    "type": "apartment",
    "locality": "Chennai",
    "corridor": "GST Road",
-   "lat": 125217.0,
-   "lng": 801129.9,
-   "geo_precision": "exact",
+   "lat": 12.682,
+   "lng": 79.986,
+   "geo_precision": "district",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -16549,13 +16635,13 @@
    "developer": "Jones Foundations",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 3,
+    "infrastructure": 7,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 47,
+   "upside_score": 51,
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
@@ -17396,8 +17482,8 @@
    "type": "apartment",
    "locality": "Adambakkam",
    "corridor": "South Chennai",
-   "lat": 12.995272098848345,
-   "lng": 80.20135680334995,
+   "lat": 12.995272,
+   "lng": 80.201357,
    "geo_precision": "exact",
    "total_units": null,
    "price_sqft_min": null,
@@ -17447,41 +17533,54 @@
    "lat": 12.834,
    "lng": 79.704,
    "geo_precision": "district",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "total_units": 288,
+   "price_sqft_min": 2999,
+   "price_sqft_max": 3199,
    "ticket_note": null,
-   "expected_completion": null,
-   "stage": "new-launch",
+   "expected_completion": "2028-01-30",
+   "stage": "under-construction",
    "status": "active",
    "data_confidence": "reported",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/layouts/tnrera-1-lo-2445-2026/kaizen-by-dac"
+    "https://proquiro.com/tools/rera-tamil-nadu/layouts/tnrera-1-lo-2445-2026/kaizen-by-dac",
+    "https://dacdevelopers.com/project/kaizen-by-dac/",
+    "https://findbhk.com/plots-for-sale-in-sunguvarchatram",
+    "https://www.propleaf.com/builder/dac",
+    "http://verified.realestate/rera/registered-layouts/TNRERA-1-LO-2445-2026"
    ],
-   "notes": "TNRERA plotted-layout registration (Kancheepuram district) · Pincode 602106 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying.",
+   "notes": "TNRERA plotted-layout registration (Kancheepuram district) · Pincode 602106 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying. RERA TNRERA/1/LO/2445/2026 confirms promoter M/s DAC Developers SPV 1 Pvt Ltd at Santhavellore 'A' village, Sriperumbudur taluk, Kancheepuram (62,042 sq.m = 15.33 acres, 288 plots, project cost Rs 56.37 Cr, completion 30-Jan-2028, registered 19-Jun-2026); every portal markets it as 'Sunguvarchatram' (nearest NH-48 landmark) at 289 plots / 16.497 acres. Japanese-themed zen layout - no four-way junctions, themed entry arch, pickleball and badminton courts, outdoor gym, jogging track, underground electrical/water lines, CCTV. Price caveats: developer site says 'Rs 19.49 L onwards', findbhk quotes Rs 3,199/sqft and Rs 20.3L-2.34Cr, an earlier findbhk snapshot quoted Rs 2,999/sqft and Rs 20.31L-5.79Cr, propleaf quotes Rs 21.32L-2.2Cr; ranges above span those. Note DAC's own Kaizen page also displays a DIFFERENT RERA number (TNRERA/1/LO/0925/2026, 12 plots) - likely an adjacent earlier phase.",
    "last_checked": "2026-08-05",
    "developer": "DAC Developers",
    "score_breakdown": {
-    "entry_stage": 21,
+    "entry_stage": 12,
     "infrastructure": 3,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 7,
     "rental_yield": 5
    },
-   "upside_score": 51,
+   "upside_score": 42,
    "segment_fit": {
-    "boardroom": 0,
-    "executive": 30,
+    "boardroom": 20,
+    "executive": 60,
     "value": 0
    },
    "risk": "Low",
    "tags": [
-    "Early Entrant",
+    "Executive",
     "Plotted/Land"
    ],
-   "score_rationale": "Scores on early entry stage."
+   "score_rationale": "No strong upside signals under the rule set.",
+   "ticket_min_lakh": 19.49,
+   "ticket_max_lakh": 234,
+   "unit_size_min_sqft": 588,
+   "unit_size_max_sqft": 7300,
+   "land_area_acres": 15.33,
+   "config_mix": "villa plots 588-7300 sqft (unit types Hikari, Hinode, Asahi, Aozora, Sakura)",
+   "dominant_config": "plot",
+   "density_note": "large plotted township - ~288 plots (198 regular + 88 EWS + 5 owner-use + 2 commercial) across ~15-16.5 acres",
+   "price_confidence": "reported"
   },
   {
    "id": "kalaiarasi-garden-2239",
@@ -18259,47 +18358,59 @@
    "rera_no": "TNRERA/2/LO/2356/2026",
    "registration_date": "2026",
    "type": "plotted",
-   "locality": "Poonamallee",
+   "locality": "Kuthambakkam",
    "corridor": "West Chennai",
-   "lat": 13.048,
-   "lng": 80.095,
-   "geo_precision": "approximate",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "lat": 13.063,
+   "lng": 80.037,
+   "geo_precision": "locality",
+   "total_units": 482,
+   "price_sqft_min": 3500,
+   "price_sqft_max": 4000,
    "ticket_note": null,
    "expected_completion": null,
    "stage": "new-launch",
    "status": "active",
    "data_confidence": "reported",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/layouts/tnrera-2-lo-2356-2026/kg-fields-of-fortune"
+    "https://proquiro.com/tools/rera-tamil-nadu/layouts/tnrera-2-lo-2356-2026/kg-fields-of-fortune",
+    "https://www.chennaiproperties.com/projects/kg-fields-of-fortune-in-kuthambakkam/7242",
+    "https://findbhk.com/projects/kg-fields-of-fortune-kuthambakkam",
+    "https://www.kgfieldsoffortune.com/",
+    "https://www.kgbuilders.com/kg-fields-of-fortune-kuthambakkam"
    ],
-   "notes": "TNRERA plotted-layout registration (Tiruvallur district, Poonamallee taluk) · Village: Kuthambakkam · Pincode 600124 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying.",
+   "notes": "TNRERA plotted-layout registration (Tiruvallur district, Poonamallee taluk) · Village: Kuthambakkam · Pincode 600124 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying. RERA TNRERA/2/LO/2356/2026 confirmed on portal listings, identity certain. Exact site is Pudur Road, KUTHAMBAKKAM (Poonamallee taluk, Tiruvallur district) rather than Poonamallee town itself — worth noting in the tracker. CMDA-approved, plots described as ready-to-register/ready-to-construct. Price per sqft is quoted as Rs 3,500 by findbhk and Rs 4,000 by chennaiproperties, giving a ticket band of roughly Rs 22-73.4 lakh. Amenities: black-top roads, streetlights, multipurpose court, kids play area, outdoor gym, walking track, amphitheatre, party lawn, maze seating, avenue trees, compound wall, 24x7 security, rainwater harvesting. Locality corrected from Poonamallee to Kuthambakkam on research review.",
    "last_checked": "2026-08-05",
    "developer": "KG Foundations",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 20,
-    "locality_momentum": 20,
+    "infrastructure": 7,
+    "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 7,
-    "rental_yield": 8
+    "rental_yield": 5
    },
-   "upside_score": 83,
+   "upside_score": 55,
    "segment_fit": {
     "boardroom": 0,
-    "executive": 50,
+    "executive": 30,
     "value": 0
    },
    "risk": "Low",
    "tags": [
     "Early Entrant",
-    "High Upside",
     "Plotted/Land"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market."
+   "score_rationale": "Scores on early entry stage.",
+   "ticket_min_lakh": 22.05,
+   "ticket_max_lakh": 73.4,
+   "unit_size_min_sqft": 623,
+   "unit_size_max_sqft": 1835,
+   "land_area_acres": 30.26,
+   "config_mix": "residential plots 623-1835 sqft",
+   "dominant_config": "plot",
+   "density_note": "mid-size plotted township, 482 plots on ~30 acres",
+   "price_confidence": "reported"
   },
   {
    "id": "kg-gold-coast-0101",
@@ -18308,46 +18419,60 @@
    "rera_no": "TNRERA/29/BLG/0101/2026",
    "registration_date": "2026",
    "type": "apartment",
-   "locality": "Ennore",
+   "locality": "Tiruvottiyur",
    "corridor": "North Chennai",
    "lat": 13.165269,
    "lng": 80.30682,
    "geo_precision": "exact",
    "total_units": 81,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "price_sqft_min": 6500,
+   "price_sqft_max": 6500,
    "ticket_note": null,
    "expected_completion": "2034-02-12",
-   "stage": "new-launch",
+   "stage": "pre-launch",
    "status": "active",
    "data_confidence": "verified",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0101-2026/kg-gold-coast"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0101-2026/kg-gold-coast",
+    "https://www.roofandfloor.com/chennai/project/kg-gold-coast-in-tiruvottiyur/7831",
+    "http://verified.realestate/rera/registered-buildings/TNRERA-29-BLG-0101-2026",
+    "https://chennaigatedcommunity.in/projects/kg-gold-coast",
+    "https://www.squareyards.com/kg-gold-coast-tiruvottiyur-chennai-npd-343894"
    ],
-   "notes": "TNRERA registry record (Chennai district, Thiruvottiyur taluk) · Village: Thiruvottiyur · Pincode 600019 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district, Thiruvottiyur taluk) · Village: Thiruvottiyur · Pincode 600019 · Pricing not published in the registry — verify with the promoter. RERA matches exactly (promoter KG Foundations Pvt Ltd, Survey No. 67/1A1B, Thiruvottiyur village, abutting the Ennore Expressway - the tracker's 'Ennore' tag is directionally right but the address is Tiruvottiyur, 235 Ennore Express Road, Mavena Nagar). Sizes 2BHK 1118-1240 and 3BHK 1414-1563 sqft at a flat Rs 6,500/sqft; the Rs 72.67L-1.02Cr band reconciles exactly with those sizes. 3,412 sq.m land, Block A stilt+9 (81 units) plus Block B stilt+2 amenity block, project cost Rs 48.35 Cr, registered 24-Mar-2026, marketed as pre-launch. Amenities include grand entrance plaza, pool, gym, multipurpose hall, solar panels, STP and WTP; coastal-view orientation is the pitch. RED FLAG worth surfacing: the RERA proposed completion date is 12-Feb-2034, an unusually long ~8-year horizon for an 81-unit stilt+9 block. Locality corrected from Ennore to Tiruvottiyur on research review. Official completion date is 12-Feb-2034, an unusually long horizon for an 81-unit block — confirm the construction schedule with the promoter.",
    "last_checked": "2026-08-05",
    "developer": "KG Foundations",
    "score_breakdown": {
-    "entry_stage": 21,
+    "entry_stage": 25,
     "infrastructure": 7,
-    "locality_momentum": 3,
+    "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 7,
     "rental_yield": 5
    },
-   "upside_score": 50,
+   "upside_score": 59,
    "segment_fit": {
     "boardroom": 10,
-    "executive": 50,
-    "value": 30
+    "executive": 80,
+    "value": 0
    },
-   "risk": "Medium",
+   "risk": "Low",
    "tags": [
-    "Early Entrant"
+    "Early Entrant",
+    "Executive"
    ],
-   "score_rationale": "Scores on early entry stage. Caveats: flood-prone zone.",
-   "rera_verified_on": "official TNRERA export"
+   "score_rationale": "Scores on early entry stage.",
+   "rera_verified_on": "official TNRERA export",
+   "ticket_min_lakh": 72.67,
+   "ticket_max_lakh": 102,
+   "unit_size_min_sqft": 1118,
+   "unit_size_max_sqft": 1563,
+   "land_area_acres": 0.84,
+   "config_mix": "2/3 BHK",
+   "dominant_config": "mixed",
+   "density_note": "boutique single-tower community - 81 units, stilt + 9 floors on 0.84 acres",
+   "price_confidence": "reported"
   },
   {
    "id": "kg-kingdom-of-prosperity-1058",
@@ -18361,42 +18486,54 @@
    "lat": 12.968,
    "lng": 79.947,
    "geo_precision": "approximate",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "total_units": 239,
+   "price_sqft_min": 2499,
+   "price_sqft_max": 2499,
    "ticket_note": null,
-   "expected_completion": null,
+   "expected_completion": "2028-01-30",
    "stage": "new-launch",
    "status": "active",
    "data_confidence": "reported",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/layouts/tnrera-1-lo-1058-2026/kg-kingdom-of-prosperity"
+    "https://proquiro.com/tools/rera-tamil-nadu/layouts/tnrera-1-lo-1058-2026/kg-kingdom-of-prosperity",
+    "https://www.kgkingdomofprosperity.com/",
+    "https://www.chennaiproperties.com/plots-for-sale-in-thandalam"
    ],
-   "notes": "TNRERA plotted-layout registration (Kancheepuram district, Sriperumbudur taluk) · Pincode 602105 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying.",
+   "notes": "TNRERA plotted-layout registration (Kancheepuram district, Sriperumbudur taluk) · Pincode 602105 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying. RERA number matches exactly; promoter KG Foundations Pvt Ltd, declared cost Rs 34.89 cr, RERA stage 'launch', expected completion 2028-01-30. LOCATION NUANCE: the RERA record places the site in Valarpuram village, Sriperumbudur taluk, Kancheepuram (pin 602105) while marketing calls it Thandalam on NH4 - same belt. Flat Rs 2,499/sqft across sizes and the ticket band checks out arithmetically (614x2499=15.3L, 2387x2499=59.7L). 30 amenities including cricket nets, futsal and basketball courts, amphitheatre and outdoor gym; pitch leans on the Chennai-Bengaluru Expressway and proposed Parandur airport, and plots can be clubbed.",
    "last_checked": "2026-08-05",
    "developer": "KG Foundations",
    "score_breakdown": {
     "entry_stage": 21,
     "infrastructure": 20,
     "locality_momentum": 20,
-    "relative_pricing": 7,
+    "relative_pricing": 15,
     "developer_track_record": 7,
     "rental_yield": 10
    },
-   "upside_score": 85,
+   "upside_score": 93,
    "segment_fit": {
     "boardroom": 0,
     "executive": 50,
-    "value": 0
+    "value": 70
    },
    "risk": "Low",
    "tags": [
     "Early Entrant",
     "High Upside",
+    "Value",
     "Plotted/Land"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, priced below the locality band.",
+   "ticket_min_lakh": 15.34,
+   "ticket_max_lakh": 59.65,
+   "unit_size_min_sqft": 614,
+   "unit_size_max_sqft": 2387,
+   "land_area_acres": 9.73,
+   "config_mix": "residential plots 614-2387 sqft",
+   "dominant_config": "plot",
+   "density_note": "mid-size layout, 239 plots on 9.73 acres (39,400 sqm)",
+   "price_confidence": "reported"
   },
   {
    "id": "kg-rosetta-0272",
@@ -19027,37 +19164,41 @@
    "rera_no": "TNRERA/2/LO/1304/2026",
    "registration_date": "2026",
    "type": "plotted",
-   "locality": "Thiruvallur",
-   "corridor": "Far West",
-   "lat": 13.143,
-   "lng": 79.909,
-   "geo_precision": "district",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "locality": "Karanodai",
+   "corridor": "Far North",
+   "lat": 13.242,
+   "lng": 80.163,
+   "geo_precision": "locality",
+   "total_units": 966,
+   "price_sqft_min": 1690,
+   "price_sqft_max": 1890,
    "ticket_note": null,
    "expected_completion": null,
    "stage": "new-launch",
    "status": "active",
    "data_confidence": "reported",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/layouts/tnrera-2-lo-1304-2026/kshetra"
+    "https://proquiro.com/tools/rera-tamil-nadu/layouts/tnrera-2-lo-1304-2026/kshetra",
+    "https://www.gsquarehousing.com/residential-plots-in-karanodai-chennai/g-square-kshetra/",
+    "https://www.gsquarehousing.com/g-square-kshetra-affordable-plots-connectivity-growth/",
+    "https://www.roofandfloor.com/chennai/project/g-square-kshetra-in-karanodai/6238",
+    "https://findbhk.com/projects/gsquare-kshetra-karanodai"
    ],
-   "notes": "TNRERA plotted-layout registration (Tiruvallur district) · Pincode 601204 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying.",
+   "notes": "TNRERA plotted-layout registration (Tiruvallur district) · Pincode 601204 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying. LOCATION CORRECTION: G Square's own project page carries RERA TNRERA/2/LO/1304/2026 (identity confirmed) but places Kshetra at KARANODAI — 200 m off GNT Road, 2 min from ORR, 10 min from Redhills Junction — i.e. NORTH Chennai in Thiruvallur district, not the far-west Thiruvallur town corridor. G Square's two own pages disagree slightly: one says 603 sqft onwards / Rs 1,690 psf / 966 plots, the other 707 sqft onwards / Rs 1,890 psf / 903 plots, so I have given the spanning range. Ready-to-construct plots with clear titles, 50-70 amenities, black-topped internal roads, streetlights, 24x7 CCTV, 1 year free maintenance, cricket nets, party lawn, kids zone, plus G Square's Build Assist construction support. Locality corrected from Thiruvallur to Karanodai on research review.",
    "last_checked": "2026-08-05",
    "developer": "G Square Housing",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 20,
+    "infrastructure": 7,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 7,
     "rental_yield": 5
    },
-   "upside_score": 68,
+   "upside_score": 55,
    "segment_fit": {
-    "boardroom": 0,
+    "boardroom": 20,
     "executive": 30,
     "value": 0
    },
@@ -19066,7 +19207,16 @@
     "Early Entrant",
     "Plotted/Land"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure."
+   "score_rationale": "Scores on early entry stage.",
+   "ticket_min_lakh": 14.18,
+   "ticket_max_lakh": 36.36,
+   "unit_size_min_sqft": 603,
+   "unit_size_max_sqft": 1924,
+   "land_area_acres": 54,
+   "config_mix": "villa plots 603-1924 sqft",
+   "dominant_config": "plot",
+   "density_note": "large plotted township, ~900-966 plots across 54 acres",
+   "price_confidence": "reported"
   },
   {
    "id": "ksr-thenmozhi-enclave-1077",
@@ -19414,8 +19564,8 @@
    "registration_date": "2023 (phase 1); subsequent phases 2024–2025",
    "type": "apartment",
    "locality_raw": "Manapakkam, Chennai",
-   "lat": 13.0241644,
-   "lng": 80.1795411,
+   "lat": 13.024164,
+   "lng": 80.179541,
    "geo_precision": "exact",
    "total_units": 802,
    "price_sqft_min": null,
@@ -19525,11 +19675,11 @@
    "rera_no": "TNRERA/2/LO/1664/2026",
    "registration_date": "2026",
    "type": "plotted",
-   "locality": "Sholinganallur",
-   "corridor": "OMR",
-   "lat": 12.901,
-   "lng": 80.227,
-   "geo_precision": "approximate",
+   "locality": "Thirukazhukundram",
+   "corridor": "GST Road",
+   "lat": 12.61,
+   "lng": 80.062,
+   "geo_precision": "locality",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -19542,30 +19692,29 @@
    "sources": [
     "https://proquiro.com/tools/rera-tamil-nadu/layouts/tnrera-2-lo-1664-2026/legacy-phase-i"
    ],
-   "notes": "TNRERA plotted-layout registration (Tiruvallur district, Thirukazhukundram taluk) · Village: Nallur · Pincode 600004 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying.",
+   "notes": "TNRERA plotted-layout registration (Tiruvallur district, Thirukazhukundram taluk) · Village: Nallur · Pincode 600004 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying. Locality corrected from Sholinganallur to Thirukazhukundram on research review. Promoter is the individual T. Ramachandra Reddy, not DRA Homes — the earlier attribution came from a substring match on the name.",
    "last_checked": "2026-08-05",
-   "developer": "DRA Homes",
+   "developer": "T. Ramachandra Reddy",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 20,
-    "locality_momentum": 15,
+    "infrastructure": 3,
+    "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 7,
-    "rental_yield": 10
+    "rental_yield": 5
    },
-   "upside_score": 80,
+   "upside_score": 51,
    "segment_fit": {
     "boardroom": 0,
-    "executive": 50,
+    "executive": 30,
     "value": 0
    },
    "risk": "Low",
    "tags": [
     "Early Entrant",
-    "High Upside",
     "Plotted/Land"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market."
+   "score_rationale": "Scores on early entry stage."
   },
   {
    "id": "legacy-phase-ii-2370",
@@ -19956,9 +20105,9 @@
    "type": "apartment",
    "locality": "Manapakkam",
    "corridor": "West Chennai",
-   "lat": 10.78,
-   "lng": 9.78,
-   "geo_precision": "exact",
+   "lat": 13.01,
+   "lng": 80.17,
+   "geo_precision": "locality",
    "total_units": 9,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -19976,13 +20125,13 @@
    "developer": "Sunil Kumar Singh",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 3,
+    "infrastructure": 12,
     "locality_momentum": 15,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 10
    },
-   "upside_score": 59,
+   "upside_score": 68,
    "segment_fit": {
     "boardroom": 10,
     "executive": 55,
@@ -20483,41 +20632,51 @@
    "lng": 80.085933,
    "geo_precision": "exact",
    "total_units": 58,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "price_sqft_min": 7800,
+   "price_sqft_max": 7800,
    "ticket_note": null,
    "expected_completion": "2030-01-31",
-   "stage": "new-launch",
+   "stage": "under-construction",
    "status": "active",
    "data_confidence": "verified",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0112-2026/luxe-by-dac"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0112-2026/luxe-by-dac",
+    "https://findbhk.com/projects/dac-luxe-old-perungalthur",
+    "https://dacdevelopers.com/project/luxe-by-dac/"
    ],
-   "notes": "TNRERA registry record (Chengalpattu district) · Pincode 600128 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chengalpattu district) · Pincode 600128 · Pricing not published in the registry — verify with the promoter. RERA number confirmed identical on findbhk and the TNRERA filing, so 'DAC Luxe / Luxe by DAC' on Mudichur Road, Perungalathur (pin 600128) is the same project; promoter DAC Developers Pvt Ltd as GPA holder, declared cost Rs 27.44 cr. TIMELINE CONFLICT: portals advertise Sep-2027 handover but the TNRERA record carries expected completion 2030-01-31 - the RERA date is used here. Kohler/Grohe fittings, two fitness zones, rooftop party deck, 600-800W power backup per unit.",
    "last_checked": "2026-08-05",
    "developer": "DAC Developers",
    "score_breakdown": {
-    "entry_stage": 21,
+    "entry_stage": 12,
     "infrastructure": 7,
     "locality_momentum": 15,
-    "relative_pricing": 7,
+    "relative_pricing": 8,
     "developer_track_record": 7,
     "rental_yield": 6
    },
-   "upside_score": 63,
+   "upside_score": 55,
    "segment_fit": {
-    "boardroom": 10,
-    "executive": 70,
+    "boardroom": 30,
+    "executive": 100,
     "value": 30
    },
    "risk": "Low",
    "tags": [
-    "Early Entrant",
     "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market.",
-   "rera_verified_on": "official TNRERA export"
+   "score_rationale": "Scores on rising micro-market.",
+   "rera_verified_on": "official TNRERA export",
+   "ticket_min_lakh": 106,
+   "ticket_max_lakh": 126,
+   "unit_size_min_sqft": 1364,
+   "unit_size_max_sqft": 1413,
+   "land_area_acres": 0.6,
+   "config_mix": "3 BHK (some portals also list 2 BHK)",
+   "dominant_config": "3BHK",
+   "density_note": "boutique, 58 units in a single block on ~0.6 acre (2,424 sqm)",
+   "price_confidence": "reported"
   },
   {
    "id": "luxe-loft-0286",
@@ -22784,40 +22943,44 @@
    "lat": 13.14,
    "lng": 79.91,
    "geo_precision": "approximate",
-   "total_units": null,
+   "total_units": 20,
    "price_sqft_min": null,
    "price_sqft_max": null,
    "ticket_note": null,
    "expected_completion": null,
-   "stage": "under-construction",
+   "stage": "nearing-possession",
    "status": "active",
    "data_confidence": "reported",
    "source": "rera-registry",
    "sources": [
     "https://proquiro.com/tools/rera-tamil-nadu/layouts/tnrera-2-lo-3866-2025/metro-avenue"
    ],
-   "notes": "TNRERA plotted-layout registration (Tiruvallur district, Ponneri taluk) · Village: Vadakarai · Pincode 600060 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying.",
+   "notes": "TNRERA plotted-layout registration (Tiruvallur district, Ponneri taluk) · Village: Vadakarai · Pincode 600060 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying. NO PRICING FOUND anywhere - not listed on 99acres, squareyards, commonfloor, nobroker or any developer site; only the TNRERA filing exists publicly. RERA record: promoter is 'ARIHANT FOUNDATIONS REP BY D.MANEESH' (registered as a firm, likely NOT the well-known Arihant Foundations & Housing Ltd, whose site and portal listings show no Ponneri plotted project), site at Vadakarai village, Ponneri taluk, Tiruvallur (pin 600060), declared project cost Rs 9.13 crore, status Completed / stage 'ready to move'. Gross land works out to ~2,995 sqft per plot before roads and OSR. Promoter files as \"Arihant Foundations rep. by D. Maneesh\" — not confirmed to be Arihant Foundations & Housing Ltd, so treat the developer attribution as unverified.",
    "last_checked": "2026-08-05",
    "developer": "Arihant Foundations",
    "score_breakdown": {
-    "entry_stage": 12,
+    "entry_stage": 5,
     "infrastructure": 20,
     "locality_momentum": 20,
     "relative_pricing": 7,
     "developer_track_record": 7,
     "rental_yield": 5
    },
-   "upside_score": 71,
+   "upside_score": 64,
    "segment_fit": {
-    "boardroom": 0,
-    "executive": 30,
+    "boardroom": 10,
+    "executive": 15,
     "value": 0
    },
    "risk": "Low",
    "tags": [
     "Plotted/Land"
    ],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market."
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market.",
+   "land_area_acres": 1.37,
+   "config_mix": "residential plots (20 plots; individual sizes not published)",
+   "dominant_config": "plot",
+   "density_note": "micro-layout, only 20 plots on 1.37 acres (5,563 sqm)"
   },
   {
    "id": "metro-city-phase-i-0335",
@@ -23316,40 +23479,48 @@
    "lat": 13.3378,
    "lng": 80.1948,
    "geo_precision": "approximate",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "total_units": 133,
+   "price_sqft_min": 2100,
+   "price_sqft_max": 2100,
    "ticket_note": null,
    "expected_completion": null,
-   "stage": "under-construction",
+   "stage": "nearing-possession",
    "status": "active",
-   "data_confidence": "reported",
-   "source": "rera-registry",
+   "data_confidence": "estimated",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/layouts/tnrera-2-lo-3965-2025/mg-avenue"
+    "https://proquiro.com/tools/rera-tamil-nadu/layouts/tnrera-2-lo-3965-2025/mg-avenue",
+    "https://property.sulekha.com/plots-land-for-sale/ponneri-chennai"
    ],
-   "notes": "TNRERA plotted-layout registration (Tiruvallur district) · Village: Madura Kummangalam (Ponneri - Ii) · Pincode 601204 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying.",
+   "notes": "TNRERA plotted-layout registration (Tiruvallur district) · Village: Madura Kummangalam (Ponneri - Ii) · Pincode 601204 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying. DEVELOPER ATTRIBUTION IS WRONG IN THE TRACKER: the TNRERA promoter for TNRERA/2/LO/3965/2025 is MAHENDRA KUMAR GUPTA (a firm), not DRA Homes - DRA's own site lists no Ponneri or Far North project at all. RERA site is Madura Kummangalam village (Ponneri-II), Ponneri taluk, Tiruvallur, pin 601204, DTCP-approved, declared cost Rs 8.61 cr, status Completed / 'ready to move'. Pricing is from a marketing listing for 'MG Avenue at Kummangalam, Ponneri' handled by SGS Properties (Rs 2,100/sqft, plots from 450 sqft, gated with compound wall, concrete roads, street lights, CCTV) - the village and taluk match exactly but the marketer is not the RERA promoter, so treat the price as indicative. Promoter is the individual Mahendra Kumar Gupta, unconnected to DRA Homes.",
    "last_checked": "2026-08-05",
-   "developer": "DRA Homes",
+   "developer": "Mahendra Kumar Gupta",
    "score_breakdown": {
-    "entry_stage": 12,
+    "entry_stage": 5,
     "infrastructure": 7,
     "locality_momentum": 9,
-    "relative_pricing": 7,
+    "relative_pricing": 4,
     "developer_track_record": 7,
     "rental_yield": 5
    },
-   "upside_score": 47,
+   "upside_score": 37,
    "segment_fit": {
-    "boardroom": 0,
-    "executive": 30,
+    "boardroom": 10,
+    "executive": 15,
     "value": 30
    },
    "risk": "Medium",
    "tags": [
     "Plotted/Land"
    ],
-   "score_rationale": "No strong upside signals under the rule set. Caveats: flood-prone zone."
+   "score_rationale": "No strong upside signals under the rule set. Caveats: flood-prone zone.",
+   "ticket_min_lakh": 9.45,
+   "unit_size_min_sqft": 450,
+   "land_area_acres": 4.9,
+   "config_mix": "residential plots from 450 sqft",
+   "dominant_config": "plot",
+   "density_note": "mid-size layout, 133 plots on 4.9 acres (19,850 sqm)",
+   "price_confidence": "estimated"
   },
   {
    "id": "mg-landmark-i-3004",
@@ -23461,40 +23632,51 @@
    "lng": 80.140969,
    "geo_precision": "exact",
    "total_units": 138,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "price_sqft_min": 8300,
+   "price_sqft_max": 8437,
    "ticket_note": null,
    "expected_completion": "2031-07-31",
-   "stage": "new-launch",
+   "stage": "under-construction",
    "status": "active",
    "data_confidence": "verified",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-1-blg-0221-2026/millennium-by-dac"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-1-blg-0221-2026/millennium-by-dac",
+    "https://verified.realestate/rera/registered-buildings/TNRERA-1-BLG-0221-2026",
+    "https://www.roofandfloor.com/chennai/project/dac-millennium-in-gerugambakkam/6816",
+    "https://findbhk.com/projects/DAC-Millennium-Gerugambakkam",
+    "https://www.nobroker.in/dac-millennium-gerugambakkam_chennai-prjt-8a9f9b849950e8800199511074860d13"
    ],
-   "notes": "TNRERA registry record (Kancheepuram district) · Pincode 602101 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Kancheepuram district) · Pincode 602101 · Pricing not published in the registry — verify with the promoter. RERA record for TNRERA/1/BLG/0221/2026 confirms 'MILLENNIUM BY DAC', promoter DAC Promoters, 138 units, 3,947.97 sqm, at Gerugambakkam village, Kundrathur union — Kancheepuram DISTRICT, but functionally the Porur/Mannivakkam belt (2.8 km from Porur Junction), not Kancheepuram town. Portals still list the earlier registration TNRERA/1/BLG/0289/2025 for the same 138-unit/0.97-acre project, so 0221/2026 appears to be a re-registration. RERA outer completion is 31-07-2031 vs portal handover of Aug 2027 — wide gap. NoBroker quotes ₹49.97L–₹70.38L on a carpet-area basis (642–1,047 sqft); the ₹68–83L range above is the saleable-area basis and is internally consistent with ₹8,300–8,437/sqft. Amenities: gym, multipurpose hall, kids' play area, senior-citizen reflexology zone, STP, rainwater harvesting.",
    "last_checked": "2026-08-05",
-   "developer": "DAC Developers",
+   "developer": "Dac Promoters",
    "score_breakdown": {
-    "entry_stage": 21,
+    "entry_stage": 12,
     "infrastructure": 12,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 7,
     "rental_yield": 5
    },
-   "upside_score": 60,
+   "upside_score": 51,
    "segment_fit": {
     "boardroom": 10,
     "executive": 50,
     "value": 0
    },
    "risk": "Low",
-   "tags": [
-    "Early Entrant"
-   ],
-   "score_rationale": "Scores on early entry stage.",
-   "rera_verified_on": "official TNRERA export"
+   "tags": [],
+   "score_rationale": "No strong upside signals under the rule set.",
+   "rera_verified_on": "official TNRERA export",
+   "ticket_min_lakh": 68,
+   "ticket_max_lakh": 83,
+   "unit_size_min_sqft": 806,
+   "unit_size_max_sqft": 984,
+   "land_area_acres": 0.97,
+   "config_mix": "2/2.5 BHK",
+   "dominant_config": "2BHK",
+   "density_note": "mid-density single block, stilt+5 floors — 138 units on ~1 acre (17 grounds)",
+   "price_confidence": "reported"
   },
   {
    "id": "mohan-garden-2811",
@@ -26141,8 +26323,8 @@
    "type": "apartment",
    "locality": "Guindy",
    "corridor": "South Chennai",
-   "lat": 13.045424602187293,
-   "lng": 80.24041181324488,
+   "lat": 13.045425,
+   "lng": 80.240412,
    "geo_precision": "exact",
    "total_units": null,
    "price_sqft_min": null,
@@ -26235,46 +26417,56 @@
    "rera_no": "TNRERA/2/LO/0383/2026",
    "registration_date": "2026",
    "type": "plotted",
-   "locality": "Thiruvallur",
-   "corridor": "Far West",
-   "lat": 13.143,
-   "lng": 79.909,
-   "geo_precision": "district",
-   "total_units": null,
-   "price_sqft_min": null,
+   "locality": "Kuthambakkam",
+   "corridor": "West Chennai",
+   "lat": 13.063,
+   "lng": 80.037,
+   "geo_precision": "locality",
+   "total_units": 40,
+   "price_sqft_min": 3025,
    "price_sqft_max": null,
    "ticket_note": null,
    "expected_completion": null,
-   "stage": "new-launch",
+   "stage": "nearing-possession",
    "status": "active",
    "data_confidence": "reported",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/layouts/tnrera-2-lo-0383-2026/orbit"
+    "https://proquiro.com/tools/rera-tamil-nadu/layouts/tnrera-2-lo-0383-2026/orbit",
+    "https://www.gsquarehousing.com/residential-plots-in-kuthambakkam-chennai/g-square-orbit/",
+    "http://verified.realestate/rera/registered-layouts/TNRERA-2-LO-0383-2026",
+    "https://findbhk.com/projects/Gsquare-orbit-kuthambakkam"
    ],
-   "notes": "TNRERA plotted-layout registration (Tiruvallur district) · Pincode 600124 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying.",
+   "notes": "TNRERA plotted-layout registration (Tiruvallur district) · Pincode 600124 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying. RERA TNRERA/2/LO/0383/2026 matches exactly - promoter G Square Realtors Pvt Ltd, survey nos. 820/16 and 820/1B3A, KUTHAMBAKKAM village, POONAMALLEE taluk, Tiruvallur district (6,300 sq.m = 1.56 acres, 40 plots, project cost Rs 2.15 Cr, CMDA permission 14-Nov-2025, registered 30-Jan-2026, shown completed). Locality note for the tracker: this is Kuthambakkam on the Chennai-Bengaluru corridor near Poonamallee, NOT Thiruvallur town - a materially more central micro-market. Developer lists it 'Ready to Construct' with Phase 1 100% booked; amenities are 24x7 CCTV, internal roads with streetlights, landscaped commons and 1 year free maintenance. Price is quoted only as 'Rs 3,025/sqft onwards' and 'Rs 42.1 L onwards', so I left the max fields null rather than extrapolate (1800 sqft x Rs 3,025 would imply ~Rs 54.5 L if the rate is flat, but larger plots are often priced higher). Locality corrected from Thiruvallur to Kuthambakkam on research review.",
    "last_checked": "2026-08-05",
    "developer": "G Square Housing",
    "score_breakdown": {
-    "entry_stage": 21,
-    "infrastructure": 20,
+    "entry_stage": 5,
+    "infrastructure": 7,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 7,
     "rental_yield": 5
    },
-   "upside_score": 68,
+   "upside_score": 39,
    "segment_fit": {
-    "boardroom": 0,
-    "executive": 30,
+    "boardroom": 10,
+    "executive": 15,
     "value": 0
    },
    "risk": "Low",
    "tags": [
-    "Early Entrant",
     "Plotted/Land"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure."
+   "score_rationale": "No strong upside signals under the rule set.",
+   "ticket_min_lakh": 42.1,
+   "unit_size_min_sqft": 1393,
+   "unit_size_max_sqft": 1800,
+   "land_area_acres": 1.56,
+   "config_mix": "residential plots 1393-1800 sqft",
+   "dominant_config": "plot",
+   "density_note": "boutique plotted layout - only 40 plots on 1.56 acres",
+   "price_confidence": "reported"
   },
   {
    "id": "orchid-ville-phase-3-1259",
@@ -26733,7 +26925,7 @@
    ],
    "notes": "TNRERA registry record (Chengalpattu district, Vandalur taluk) · Village: Pudupakkam · Pincode 603103 · Pricing not published in the registry — verify with the promoter.",
    "last_checked": "2026-08-05",
-   "developer": "DLF",
+   "developer": "Dlf Southern Towns",
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 20,
@@ -26761,8 +26953,8 @@
    "type": "apartment",
    "locality": "Mylapore",
    "corridor": "Central Chennai",
-   "lat": 13.030605196823045,
-   "lng": 80.25230222791363,
+   "lat": 13.030605,
+   "lng": 80.252302,
    "geo_precision": "exact",
    "total_units": null,
    "price_sqft_min": null,
@@ -27535,18 +27727,21 @@
    "lat": 12.918,
    "lng": 80.193,
    "geo_precision": "approximate",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "total_units": 2170,
+   "price_sqft_min": 10800,
+   "price_sqft_max": 10800,
    "ticket_note": null,
-   "expected_completion": null,
+   "expected_completion": "2031-12",
    "stage": "pre-launch",
    "status": "active",
-   "data_confidence": "reported",
+   "data_confidence": "estimated",
    "sources": [
-    "https://realtypromoo.com/news/prestige-group-acquires-25-acre-land-in-medavakkam-chennai-for-5000-crore-residential-development"
+    "https://realtypromoo.com/news/prestige-group-acquires-25-acre-land-in-medavakkam-chennai-for-5000-crore-residential-development",
+    "https://scanx.trade/stock-market-news/stocks/prestige-group-acquires-25-acres-in-chennai-s-medavakkam-for-major-development-project/27961225",
+    "https://sholinganallurprojects.com/prestige/prestige-medavakkam/",
+    "https://www.prestigefalconcitychennai.com/"
    ],
-   "notes": "25-acre prime parcel acquired for Rs 938.75 crore (deal completed 10-Dec-2025); ~5 million sqft developable; estimated GDV/revenue potential over Rs 5,000 crore. Strong early-entrant signal.",
+   "notes": "25-acre prime parcel acquired for Rs 938.75 crore (deal completed 10-Dec-2025); ~5 million sqft developable; estimated GDV/revenue potential over Rs 5,000 crore. Strong early-entrant signal. TREAT PRICING AS INDICATIVE ONLY. The land deal is well documented: Prestige acquired 66.93% of Bharatnagar Buildcon LLP (Prestige Falcon Realty 63.12% + Prestige Projects 3.81%) for Rs 938.75 crore on 10 Dec 2025, giving ~25 acres in Medavakkam, ~5 msf developable, GDV Rs 5,000 crore+. The pricing above comes from an unofficial channel-partner site marketing 'Prestige Falcon City Chennai' on Medavakkam-Sholinganallur Road — Rs 10,800/sqft, 1,001-2,735 sqft, Rs 1.30-3.54 Cr, 2,170 units in 22 towers, official launch and RERA both said to be due 15 Dec 2026. I could NOT confirm that Falcon City is the same Bharatnagar Buildcon parcel (that site says 23 acres vs the 25 acres reported for the acquisition), and Prestige has published nothing official — another aggregator lists 'Prestige Medavakkam' 25 acres with price strictly 'on request' and Dec-2028 possession. Medavakkam market rate is currently Rs 8,500-12,500/sqft, so the quoted figure is at least plausible.",
    "last_checked": "2026-07-20",
    "locality": "Medavakkam",
    "corridor": "South Chennai",
@@ -27555,25 +27750,35 @@
     "entry_stage": 25,
     "infrastructure": 20,
     "locality_momentum": 15,
-    "relative_pricing": 7,
+    "relative_pricing": 4,
     "developer_track_record": 10,
     "rental_yield": 10
    },
-   "upside_score": 87,
+   "upside_score": 84,
    "risk": "Medium",
    "tags": [
     "Early Entrant",
     "High Upside",
+    "Boardroom",
     "Executive"
    ],
    "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, strong developer record. Caveats: RERA number not yet found.",
    "segment_fit": {
-    "boardroom": 10,
-    "executive": 70,
+    "boardroom": 70,
+    "executive": 100,
     "value": 0
    },
    "developer": "Prestige Group",
-   "source": "curated"
+   "source": "curated",
+   "ticket_min_lakh": 130,
+   "ticket_max_lakh": 354,
+   "unit_size_min_sqft": 1001,
+   "unit_size_max_sqft": 2735,
+   "land_area_acres": 25,
+   "config_mix": "2/3/4 BHK",
+   "dominant_config": "mixed",
+   "density_note": "large township, ~2,170 apartments in 22 towers (2B+G+14)",
+   "price_confidence": "estimated"
   },
   {
    "name": "Prestige Pallavaram Gardens",
@@ -27645,8 +27850,8 @@
    "registration_date": "2026 (EOI opens Oct 2026; announced 2025)",
    "type": "apartment",
    "locality_raw": "Madhavaram (Grand Northern Trunk Road / NH-5), North Chennai",
-   "lat": 13.13447087376691,
-   "lng": 80.2347243123258,
+   "lat": 13.134471,
+   "lng": 80.234724,
    "geo_precision": "exact",
    "total_units": 910,
    "price_sqft_min": null,
@@ -28295,8 +28500,8 @@
    "type": "apartment",
    "locality": "Akkarai",
    "corridor": "ECR",
-   "lat": 13.082761804999919,
-   "lng": 80.21034671685649,
+   "lat": 13.082762,
+   "lng": 80.210347,
    "geo_precision": "exact",
    "total_units": null,
    "price_sqft_min": null,
@@ -28484,9 +28689,9 @@
    "type": "apartment",
    "locality": "Ambathur",
    "corridor": "Far West",
-   "lat": 130604.9,
-   "lng": 801118.8,
-   "geo_precision": "exact",
+   "lat": 13.143,
+   "lng": 79.909,
+   "geo_precision": "district",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -28504,13 +28709,13 @@
    "developer": "KVPS Property Developers",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 3,
+    "infrastructure": 20,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 47,
+   "upside_score": 64,
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
@@ -28520,7 +28725,7 @@
    "tags": [
     "Early Entrant"
    ],
-   "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export",
    "registration_status": "Revised Project Completion Date: 31.12.2026"
   },
@@ -28673,9 +28878,9 @@
    "type": "apartment",
    "locality": "Chennai",
    "corridor": "Central Chennai",
-   "lat": 130506.8,
-   "lng": 801327.8,
-   "geo_precision": "exact",
+   "lat": 13.07,
+   "lng": 80.24,
+   "geo_precision": "district",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -28693,13 +28898,13 @@
    "developer": "Nisha Pursothaman",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 3,
+    "infrastructure": 16,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 47,
+   "upside_score": 60,
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
@@ -28709,7 +28914,7 @@
    "tags": [
     "Early Entrant"
    ],
-   "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export"
   },
   {
@@ -32605,47 +32810,60 @@
    "rera_no": "TNRERA/35/BLG/0239/2026",
    "registration_date": "2026",
    "type": "apartment",
-   "locality": "Siruseri",
+   "locality": "Navalur",
    "corridor": "OMR",
    "lat": 12.842051,
    "lng": 80.202289,
    "geo_precision": "exact",
    "total_units": 83,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "price_sqft_min": 10300,
+   "price_sqft_max": 10300,
    "ticket_note": null,
    "expected_completion": "2031-06-21",
-   "stage": "new-launch",
+   "stage": "under-construction",
    "status": "active",
    "data_confidence": "verified",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0239-2026/radiance-edgewood"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0239-2026/radiance-edgewood",
+    "https://www.radiancerealty.in/radiance-edgewood-premium-row-villas-sale-navalur",
+    "https://www.radiancerealty.in/chennai-ongoing-projects",
+    "https://www.99acres.com/radiance-edgewood-siruseri-chennai-south-npxid-r470465"
    ],
-   "notes": "TNRERA registry record (Chengalpattu district, Vandalur taluk) · Village: Siruseri · Pincode 600130 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chengalpattu district, Vandalur taluk) · Village: Siruseri · Pincode 600130 · Pricing not published in the registry — verify with the promoter. RERA TNRERA/35/BLG/0239/2026 matches the developer's own listing exactly. Configurations: 3BHK 2,179-2,185 sqft, 4BHK 2,572-2,988 sqft, 4BHK+home-theatre 3,506 sqft, all at a flat Rs 10,300/sqft, giving Rs 2.46-3.96 Cr. Developer addresses it as NAVALUR (99acres tags it Siruseri - adjacent OMR micro-markets, same SIPCOT catchment); worth correcting the locality field. Positioned beside a reserved forest; clubhouse with pool, sauna, banquet hall, gym, library, VR games and yoga studio, plus multipurpose court, party lawn and reflexology pathway. Caveat: radiancerealty.in's ongoing-projects index page shows this same RERA number against Radiance Eternity (Thoraipakkam) too, which is a site error - the dedicated Edgewood page is the reliable one. Locality corrected from Siruseri to Navalur on research review.",
    "last_checked": "2026-08-05",
    "developer": "Radiance Realty",
    "score_breakdown": {
-    "entry_stage": 21,
+    "entry_stage": 12,
     "infrastructure": 12,
     "locality_momentum": 15,
-    "relative_pricing": 7,
+    "relative_pricing": 4,
     "developer_track_record": 7,
     "rental_yield": 10
    },
-   "upside_score": 72,
+   "upside_score": 60,
    "segment_fit": {
-    "boardroom": 10,
-    "executive": 70,
+    "boardroom": 70,
+    "executive": 100,
     "value": 0
    },
    "risk": "Low",
    "tags": [
-    "Early Entrant",
-    "Executive"
+    "Boardroom",
+    "Executive",
+    "Steady/Rental"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market.",
-   "rera_verified_on": "official TNRERA export"
+   "score_rationale": "Scores on rising micro-market.",
+   "rera_verified_on": "official TNRERA export",
+   "ticket_min_lakh": 246,
+   "ticket_max_lakh": 396,
+   "unit_size_min_sqft": 2179,
+   "unit_size_max_sqft": 3506,
+   "land_area_acres": 5.5,
+   "config_mix": "3/4 BHK row villas + 4BHK with home theatre",
+   "dominant_config": "villa",
+   "density_note": "low-density row-villa community - 83 G+1/G+2 villas on 5.5 acres",
+   "price_confidence": "reported"
   },
   {
    "name": "Radiance Eternity",
@@ -32779,40 +32997,52 @@
    "lng": 80.253214,
    "geo_precision": "exact",
    "total_units": 10,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "price_sqft_min": 22000,
+   "price_sqft_max": 25500,
    "ticket_note": null,
    "expected_completion": "2030-12-31",
-   "stage": "new-launch",
+   "stage": "under-construction",
    "status": "active",
    "data_confidence": "verified",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0012-2026/raghu"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0012-2026/raghu",
+    "https://www.nobroker.in/india-raghu-besant-nagar_chennai-prjt-8aa998ce9c4bb7d0019c4bf3d4fc184e",
+    "https://www.indiabuilders.in/apartments-flats-sale-chennai.php"
    ],
-   "notes": "TNRERA registry record (Chennai district) · Village: Urur · Pincode 600090 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district) · Village: Urur · Pincode 600090 · Pricing not published in the registry — verify with the promoter. RERA TNRERA/29/BLG/0012/2026 confirmed; marketed as 'India Raghu' by India Builders Ltd. Sited at BESANT NAGAR rather than Adyar proper, though it falls inside the wider Adyar zone. Uniform 3BHK: 980 sqft carpet / 1,401 sqft built-up / 1,550 sqft super built-up. Ticket quoted as ₹3.41 Cr onwards by NoBroker and ₹3.95 Cr elsewhere; the per-sqft band is DERIVED by dividing those tickets by the 1,550 sqft super built-up area, not directly published. Possession is unusually distant (Dec 2030) for a 10-unit boutique block. Amenities: CCTV, power backup, STP, rainwater harvesting, lift, fire safety.",
    "last_checked": "2026-08-05",
    "developer": "India Builders",
    "score_breakdown": {
-    "entry_stage": 21,
+    "entry_stage": 12,
     "infrastructure": 20,
     "locality_momentum": 15,
-    "relative_pricing": 7,
+    "relative_pricing": 4,
     "developer_track_record": 3,
     "rental_yield": 6
    },
-   "upside_score": 72,
+   "upside_score": 60,
    "segment_fit": {
-    "boardroom": 30,
+    "boardroom": 90,
     "executive": 35,
     "value": 0
    },
    "risk": "Medium",
    "tags": [
-    "Early Entrant"
+    "Boardroom",
+    "Premium"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
-   "rera_verified_on": "official TNRERA export"
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
+   "rera_verified_on": "official TNRERA export",
+   "ticket_min_lakh": 341,
+   "ticket_max_lakh": 395,
+   "unit_size_min_sqft": 1550,
+   "unit_size_max_sqft": 1550,
+   "land_area_acres": 0.35,
+   "config_mix": "3 BHK",
+   "dominant_config": "3BHK",
+   "density_note": "ultra-boutique — 10 units, 1 tower on 0.35 acres",
+   "price_confidence": "reported"
   },
   {
    "id": "rainbow-gr-golden-city-1749",
@@ -33064,41 +33294,51 @@
    "lat": 13.07,
    "lng": 80.24,
    "geo_precision": "district",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "total_units": 87,
+   "price_sqft_min": 7499,
+   "price_sqft_max": 7499,
    "ticket_note": null,
-   "expected_completion": null,
-   "stage": "new-launch",
+   "expected_completion": "2026-12-31",
+   "stage": "under-construction",
    "status": "active",
    "data_confidence": "reported",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/layouts/tnrera-35-lo-0102-2026/rajparis-aeroville"
+    "https://proquiro.com/tools/rera-tamil-nadu/layouts/tnrera-35-lo-0102-2026/rajparis-aeroville",
+    "https://www.roofandfloor.com/chennai/project/rajparis-aeroville-in-polichalur/7829",
+    "https://www.nobroker.in/rajparis-aeroville-pozhichalur_chennai-prjt-8aa9ae629d2d5a88019d2dce73292a7b"
    ],
-   "notes": "TNRERA plotted-layout registration ( district) · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying.",
+   "notes": "TNRERA plotted-layout registration ( district) · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying. RERA number confirmed; promoter Rajparis Civil Constructions, site at Cowl Bazar village, Pozhichalur/Polichalur, Chengalpattu (pin 600074) - so it is the Pallavaram/airport side, not Chengalpattu town. SPLIT REGISTRATION: TNRERA/35/LO/0102/2026 alone covers 55 plots on 9,308 sqm (2.30 acres) with declared cost Rs 9.84 cr; the marketed 87 plots / 3.73 acres reported here spans this plus a second registration TNRERA/35/LO/0432/2026. Portals disagree on the entry point (nobroker Rs 49.35L from 641 sqft, roofandfloor Rs 72.36L from 965 sqft, houssed Rs 54.83L) - the 641 sqft figure is used since it reconciles with Rs 7,499/sqft. Wide blacktop roads, full compound wall, solar street lights, storm-water drains, vastu-compliant; near Pallavaram station, MEPZ and the airport.",
    "last_checked": "2026-08-05",
    "developer": "Rajparis",
    "score_breakdown": {
-    "entry_stage": 21,
+    "entry_stage": 12,
     "infrastructure": 16,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 60,
+   "upside_score": 51,
    "segment_fit": {
-    "boardroom": 0,
-    "executive": 15,
+    "boardroom": 10,
+    "executive": 45,
     "value": 0
    },
    "risk": "Medium",
    "tags": [
-    "Early Entrant",
     "Plotted/Land"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure. Caveats: limited developer track record."
+   "score_rationale": "Scores on close to upcoming metro/infrastructure. Caveats: limited developer track record.",
+   "ticket_min_lakh": 49.35,
+   "ticket_max_lakh": 152,
+   "unit_size_min_sqft": 641,
+   "unit_size_max_sqft": 1979,
+   "land_area_acres": 3.73,
+   "config_mix": "residential plots 641-1979 sqft",
+   "dominant_config": "plot",
+   "density_note": "compact gated layout, 87 plots on 3.73 acres across two RERA registrations",
+   "price_confidence": "reported"
   },
   {
    "id": "rajparis-aeroville-ii-0432",
@@ -33684,8 +33924,8 @@
    "type": "apartment",
    "locality": "Chennai",
    "corridor": "Central Chennai",
-   "lat": 12.9773179,
-   "lng": 80.2593727,
+   "lat": 12.977318,
+   "lng": 80.259373,
    "geo_precision": "exact",
    "total_units": 10,
    "price_sqft_min": null,
@@ -33732,8 +33972,8 @@
    "type": "apartment",
    "locality": "Besant Nagar",
    "corridor": "South Chennai",
-   "lat": 13.0477727,
-   "lng": 80.2389767,
+   "lat": 13.047773,
+   "lng": 80.238977,
    "geo_precision": "exact",
    "total_units": 10,
    "price_sqft_min": null,
@@ -33970,38 +34210,40 @@
    "promoter": "M/S.DAC DEVELOPERS PRIVATE LIMITED (Developer), Vasantha, Deenadayalan, Babu, Revathi, Parthiban, Velu (Land Owners)",
    "rera_no": "TNRERA/35/BLG/0237/2026",
    "registration_date": "2026",
-   "type": "villa",
-   "locality": "Adambakkam",
+   "type": "apartment",
+   "locality": "Madambakkam",
    "corridor": "South Chennai",
-   "lat": 12.893177,
-   "lng": 12.893177,
-   "geo_precision": "exact",
-   "total_units": 17,
+   "lat": 12.914,
+   "lng": 80.14,
+   "geo_precision": "locality",
+   "total_units": 165,
    "price_sqft_min": null,
    "price_sqft_max": null,
    "ticket_note": null,
    "expected_completion": "2031-06-30",
-   "stage": "new-launch",
+   "stage": "pre-launch",
    "status": "active",
    "data_confidence": "verified",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0237-2026/rhythm-by-dac-villas"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0237-2026/rhythm-by-dac-villas",
+    "https://www.upcomingpropertyhub.com/dac-rhythm-madambakkam-chennai-luxury-apartments/",
+    "https://dacdevelopers.com/projects/villas-madambakkam-ongoing/"
    ],
-   "notes": "TNRERA registry record (Chengalpattu district) · Village: Madambakkam · Pincode 600126 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chengalpattu district) · Village: Madambakkam · Pincode 600126 · Pricing not published in the registry — verify with the promoter. TWO DISCREPANCIES - treat with care. (1) Every public source places 'Rhythm By DAC' at Shantha Nagar/Sathasiva Nagar, MADAMBAKKAM, not Adambakkam; Madambakkam falls in TNRERA zone 35 (matching TNRERA/35/BLG/0237/2026) whereas Adambakkam would be zone 29, so the tracker's locality is very likely a transcription error. (2) The RERA title carries '(Villas)' but the marketed product is 2/3 BHK apartments at 867-1364 sqft on 1.52 acres - a villa read is inconsistent with 165 units on that footprint. DAC's own site confirms 'Rhythm By DAC, Madambakkam, Ongoing' but publishes no specs. Price 'Rs 60 lakh onwards', possession Feb 2028, still pre-launch so no per-sqft rate published. Sister project DAC Vilva (same locality, 3-4 BHK villas 2,413-2,517 sqft) trades around Rs 8,300-9,850/sqft if a villa comparison is needed. Locality corrected from Adambakkam to Madambakkam on research review. Registered as apartments despite the \"Villas\" project name.",
    "last_checked": "2026-08-05",
    "developer": "DAC Developers",
    "score_breakdown": {
-    "entry_stage": 21,
-    "infrastructure": 3,
-    "locality_momentum": 15,
+    "entry_stage": 25,
+    "infrastructure": 7,
+    "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 7,
-    "rental_yield": 6
+    "rental_yield": 5
    },
    "upside_score": 59,
    "segment_fit": {
-    "boardroom": 10,
+    "boardroom": 20,
     "executive": 50,
     "value": 0
    },
@@ -34009,8 +34251,16 @@
    "tags": [
     "Early Entrant"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market.",
-   "rera_verified_on": "official TNRERA export"
+   "score_rationale": "Scores on early entry stage.",
+   "rera_verified_on": "official TNRERA export",
+   "ticket_min_lakh": 60,
+   "unit_size_min_sqft": 867,
+   "unit_size_max_sqft": 1364,
+   "land_area_acres": 1.52,
+   "config_mix": "2 BHK / 3 BHK apartments, 867-1364 sqft (portal data; RERA title says 'Villas')",
+   "dominant_config": "mixed",
+   "density_note": "compact mid-density: 165 units on 1.52 acres",
+   "price_confidence": "estimated"
   },
   {
    "id": "rishab-apartments-0103",
@@ -34447,9 +34697,9 @@
    "registration_date": "2026 (registration year)",
    "type": "apartment",
    "locality_raw": "Chennai district (exact locality not published in source snippet)",
-   "lat": 130428.5,
-   "lng": 801001.3,
-   "geo_precision": "exact",
+   "lat": 13.07,
+   "lng": 80.24,
+   "geo_precision": "district",
    "total_units": 35,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -34468,16 +34718,16 @@
    "id": "romaa-s-darren",
    "score_breakdown": {
     "entry_stage": 12,
-    "infrastructure": 3,
+    "infrastructure": 16,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 38,
+   "upside_score": 51,
    "risk": "Medium",
    "tags": [],
-   "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
+   "score_rationale": "Scores on close to upcoming metro/infrastructure. Caveats: limited developer track record.",
    "segment_fit": {
     "boardroom": 10,
     "executive": 35,
@@ -35168,8 +35418,8 @@
    "type": "apartment",
    "locality": "Tambaram",
    "corridor": "GST Road",
-   "lat": 12.912553077676707,
-   "lng": 80.16896897645456,
+   "lat": 12.912553,
+   "lng": 80.168969,
    "geo_precision": "exact",
    "total_units": 330,
    "price_sqft_min": null,
@@ -36322,8 +36572,8 @@
    "type": "apartment",
    "locality": "Thiruporur",
    "corridor": "GST Road",
-   "lat": 12463306.0,
-   "lng": 80125067.0,
+   "lat": 12.463306,
+   "lng": 80.125067,
    "geo_precision": "exact",
    "total_units": null,
    "price_sqft_min": null,
@@ -37149,9 +37399,9 @@
    "type": "apartment",
    "locality": "Pallikaranani",
    "corridor": "Central Chennai",
-   "lat": 125623.7,
-   "lng": 801249.7,
-   "geo_precision": "exact",
+   "lat": 13.07,
+   "lng": 80.24,
+   "geo_precision": "district",
    "total_units": 10,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -37169,13 +37419,13 @@
    "developer": "Ms ANUGRAGHA BUILDERS",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 3,
+    "infrastructure": 16,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 47,
+   "upside_score": 60,
    "segment_fit": {
     "boardroom": 10,
     "executive": 35,
@@ -37185,7 +37435,7 @@
    "tags": [
     "Early Entrant"
    ],
-   "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export"
   },
   {
@@ -38543,9 +38793,9 @@
    "type": "apartment",
    "locality": "Virugambakkam",
    "corridor": "West Chennai",
-   "lat": 30.040692,
-   "lng": 80.196684,
-   "geo_precision": "exact",
+   "lat": 13.055,
+   "lng": 80.192,
+   "geo_precision": "locality",
    "total_units": 18,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -38563,13 +38813,13 @@
    "developer": "Ananyakrishnaa Constructions",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 3,
+    "infrastructure": 16,
     "locality_momentum": 20,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 6
    },
-   "upside_score": 60,
+   "upside_score": 73,
    "segment_fit": {
     "boardroom": 30,
     "executive": 55,
@@ -38579,7 +38829,7 @@
    "tags": [
     "Early Entrant"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market. Caveats: limited developer track record.",
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export"
   },
   {
@@ -39643,9 +39893,9 @@
    "type": "apartment",
    "locality": "Mylapore",
    "corridor": "Central Chennai",
-   "lat": 14.646688,
-   "lng": 23.794694,
-   "geo_precision": "exact",
+   "lat": 13.0337,
+   "lng": 80.2687,
+   "geo_precision": "locality",
    "total_units": 10,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -39663,13 +39913,13 @@
    "developer": "Kanishkaa Foundation",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 3,
+    "infrastructure": 20,
     "locality_momentum": 15,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 6
    },
-   "upside_score": 55,
+   "upside_score": 72,
    "segment_fit": {
     "boardroom": 30,
     "executive": 55,
@@ -39679,7 +39929,7 @@
    "tags": [
     "Early Entrant"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market. Caveats: limited developer track record.",
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export"
   },
   {
@@ -39695,41 +39945,53 @@
    "lng": 80.11,
    "geo_precision": "exact",
    "total_units": 10,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "price_sqft_min": 23485,
+   "price_sqft_max": 23485,
    "ticket_note": null,
    "expected_completion": "2027-06-30",
-   "stage": "new-launch",
+   "stage": "under-construction",
    "status": "active",
    "data_confidence": "verified",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0165-2026/shivalaya"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0165-2026/shivalaya",
+    "https://verified.realestate/rera/registered-buildings/TNRERA-29-BLG-0165-2026/shivalayaregistration-for-stilt-floor-parking-5-floors-residential-building-with-10-dwelling-units-availing-premium-fsi-with-tod-benefit-at-door-no38-plot-no",
+    "https://www.chennaiproperties.com/projects/beavers-shivalaya-in-mandaveli/7678",
+    "https://www.nobroker.in/beaver-shivalaya-mylapore_chennai-prjt-6a03db008c4b0d3955488d6d"
    ],
-   "notes": "TNRERA registry record (Chennai district, Mylapore taluk) · Village: Mylapore · Pincode 600028 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district, Mylapore taluk) · Village: Mylapore · Pincode 600028 · Pricing not published in the registry — verify with the promoter. DEVELOPER ATTRIBUTION IS WRONG in the source record: the TNRERA registry shows TNRERA/29/BLG/0165/2026 belongs to M/s. BEAVER CONSTRUCTION COMPANY (marketed as 'Beaver Shivalaya' / 'Beavers Shivalaya'), NOT DRA Homes — DRA's own Chennai portfolio page lists no Shivalaya and no Mylapore project at all. Address is T.M. Sundarajan Road / West Circular Road, Mandavelipakkam (Mandaveli), Mylapore taluk. Registered 11-05-2026, RERA completion 30-06-2027, total project cost ₹22 Cr (₹10 Cr land + ₹12 Cr construction). Single uniform 1,750 sqft 3BHK floorplate at a steep ₹23,485/sqft; uses premium FSI with TOD benefit. Amenities are minimal — lift and car parking only. Promoter is Beaver Construction Company, unconnected to DRA Homes.",
    "last_checked": "2026-08-05",
-   "developer": "DRA Homes",
+   "developer": "Beaver Construction",
    "score_breakdown": {
-    "entry_stage": 21,
+    "entry_stage": 12,
     "infrastructure": 16,
     "locality_momentum": 15,
-    "relative_pricing": 7,
+    "relative_pricing": 4,
     "developer_track_record": 7,
     "rental_yield": 6
    },
-   "upside_score": 72,
+   "upside_score": 60,
    "segment_fit": {
-    "boardroom": 30,
-    "executive": 70,
+    "boardroom": 90,
+    "executive": 45,
     "value": 0
    },
    "risk": "Low",
    "tags": [
-    "Early Entrant",
-    "Executive"
+    "Boardroom",
+    "Premium"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market.",
-   "rera_verified_on": "official TNRERA export"
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market.",
+   "rera_verified_on": "official TNRERA export",
+   "ticket_min_lakh": 411,
+   "ticket_max_lakh": 411,
+   "unit_size_min_sqft": 1750,
+   "unit_size_max_sqft": 1750,
+   "land_area_acres": 0.13,
+   "config_mix": "3 BHK",
+   "dominant_config": "3BHK",
+   "density_note": "ultra-boutique — 10 units on 0.13 acres (529.5 sqm), stilt+5 floors",
+   "price_confidence": "reported"
   },
   {
    "id": "shivalayaa-city-3929",
@@ -40218,46 +40480,61 @@
    "lat": 13.07,
    "lng": 80.195,
    "geo_precision": "approximate",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "total_units": 135,
+   "price_sqft_min": 12500,
+   "price_sqft_max": 13000,
    "ticket_note": null,
-   "expected_completion": null,
-   "stage": "pre-launch",
-   "status": "active",
+   "expected_completion": "2029-12",
+   "stage": "new-launch",
+   "status": "superseded",
    "data_confidence": "reported",
    "sources": [
     "https://www.shriramproperties.com/sites/default/files/assets/pdf/shriram_in_news/Shriram%20Properties%20signs%20JDA%20for%20a%20prime%20land%20parcel%20in%20Chennai_0_0.pdf",
-    "https://www.indiainfoline.com/news/business/shriram-properties-unveils-new-project-in-chennai"
+    "https://www.indiainfoline.com/news/business/shriram-properties-unveils-new-project-in-chennai",
+    "https://www.shriramproperties.com/residential-property/codename-king-life",
+    "https://shriramcodenamekinglife.com/",
+    "https://shriramnewlaunch.com/chennai/shriram-koyambedu/",
+    "https://shriramnewlaunch.com/chennai/shriram-king-life/"
    ],
-   "notes": "JDA for prime land parcel; ~3.2 lakh sqft saleable; expected revenue Rs 350–400 crore over 3 years; close to metro and CMBT.",
+   "notes": "JDA for prime land parcel; ~3.2 lakh sqft saleable; expected revenue Rs 350–400 crore over 3 years; close to metro and CMBT. PROJECT NOW NAMED AND REGISTERED: official working name is 'Codename King Life', and it HAS a RERA number — TNRERA/29/BLG/0191/2026 — confirmed on Shriram Properties' own site (record says 'no RERA no. yet', which is stale). Shriram's official pages give config (3 & 4 BHK), 135 units and RERA but publish NO price; the per-sqft and ticket figures come from Shriram channel-partner microsites, so treat as indicative. Those partner sites disagree slightly (₹1.8–3.7 Cr vs ₹1.94–4.10 Cr); the ₹1.8–3.7 Cr band is used as it reconciles exactly with the stated ₹12,500–13,000/sqft across 1,465–2,835 sqft. Carpet efficiency quoted at 71–75%. Estimated revenue potential ₹350–400 Cr under Shriram's asset-light model. USPs: 1 minute to Koyambedu Metro, direct Poonamallee High Road (NH-48) access, 20,000 sqft clubhouse, sky pool, 10,000 sqft promenade, 1.4 acres open-to-sky, mini theatre, amphitheatre, business centre. Superseded by shriram-stellar-0191 (TNRERA/29/BLG/0191/2026), the same Koyambedu project once its registration was published.",
    "last_checked": "2026-07-20",
    "locality": "Koyambedu",
    "corridor": "West Chennai",
    "id": "shriram-koyambedu-project-working-name",
    "score_breakdown": {
-    "entry_stage": 25,
+    "entry_stage": 21,
     "infrastructure": 20,
     "locality_momentum": 20,
-    "relative_pricing": 7,
+    "relative_pricing": 8,
     "developer_track_record": 7,
     "rental_yield": 8
    },
-   "upside_score": 87,
+   "upside_score": 84,
    "risk": "Medium",
    "tags": [
     "Early Entrant",
     "High Upside",
-    "Executive"
+    "Boardroom",
+    "Executive",
+    "Premium"
    ],
    "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: RERA number not yet found.",
    "segment_fit": {
-    "boardroom": 20,
-    "executive": 70,
+    "boardroom": 90,
+    "executive": 100,
     "value": 0
    },
    "developer": "Shriram Properties",
-   "source": "curated"
+   "source": "curated",
+   "ticket_min_lakh": 180,
+   "ticket_max_lakh": 370,
+   "unit_size_min_sqft": 1465,
+   "unit_size_max_sqft": 2835,
+   "land_area_acres": 1.96,
+   "config_mix": "3/4 BHK (incl. maid-room variants)",
+   "dominant_config": "3BHK",
+   "density_note": "single G+16 tower — 135 residences on 1.96 acres, ~3.2 lakh sqft saleable",
+   "price_confidence": "reported"
   },
   {
    "id": "shriram-santrupthi-phase-2-0167",
@@ -40315,46 +40592,64 @@
    "rera_no": "TNRERA/29/BLG/0191/2026",
    "registration_date": "2026",
    "type": "apartment",
-   "locality": "Koyembedu",
-   "corridor": "Central Chennai",
-   "lat": 801130.3,
-   "lng": 130429.4,
-   "geo_precision": "exact",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "locality": "Koyambedu",
+   "corridor": "West Chennai",
+   "lat": 13.07,
+   "lng": 80.24,
+   "geo_precision": "district",
+   "total_units": 135,
+   "price_sqft_min": 12500,
+   "price_sqft_max": 13000,
    "ticket_note": null,
    "expected_completion": "2032-10-22",
    "stage": "new-launch",
    "status": "active",
    "data_confidence": "verified",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0191-2026/shriram-stellar"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0191-2026/shriram-stellar",
+    "https://www.shriramproperties.com/sites/default/files/assets/pdf/shriram_in_news/Shriram%20Properties%20signs%20JDA%20for%20a%20prime%20land%20parcel%20in%20Chennai_0_0.pdf",
+    "https://www.indiainfoline.com/news/business/shriram-properties-unveils-new-project-in-chennai",
+    "https://www.shriramproperties.com/residential-property/codename-king-life",
+    "https://shriramcodenamekinglife.com/",
+    "https://shriramnewlaunch.com/chennai/shriram-koyambedu/",
+    "https://shriramnewlaunch.com/chennai/shriram-king-life/"
    ],
-   "notes": "TNRERA registry record (Chennai district, Aminjikarai taluk) · Village: Koyembedu · Pincode 600107 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district, Aminjikarai taluk) · Village: Koyembedu · Pincode 600107 · Pricing not published in the registry — verify with the promoter. Marketed as \"Codename King Life\"; absorbs the earlier placeholder record for this Koyambedu site.",
    "last_checked": "2026-08-05",
    "developer": "Shriram Properties",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 3,
-    "locality_momentum": 8,
-    "relative_pricing": 7,
+    "infrastructure": 16,
+    "locality_momentum": 20,
+    "relative_pricing": 8,
     "developer_track_record": 7,
-    "rental_yield": 5
+    "rental_yield": 8
    },
-   "upside_score": 51,
+   "upside_score": 80,
    "segment_fit": {
-    "boardroom": 0,
-    "executive": 50,
+    "boardroom": 90,
+    "executive": 100,
     "value": 0
    },
    "risk": "Low",
    "tags": [
-    "Early Entrant"
+    "Early Entrant",
+    "High Upside",
+    "Boardroom",
+    "Executive",
+    "Premium"
    ],
-   "score_rationale": "Scores on early entry stage.",
-   "rera_verified_on": "official TNRERA export"
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market.",
+   "rera_verified_on": "official TNRERA export",
+   "ticket_min_lakh": 180,
+   "ticket_max_lakh": 370,
+   "config_mix": "3/4 BHK (incl. maid-room variants)",
+   "dominant_config": "3BHK",
+   "unit_size_min_sqft": 1465,
+   "unit_size_max_sqft": 2835,
+   "land_area_acres": 1.96,
+   "density_note": "single G+16 tower — 135 residences on 1.96 acres, ~3.2 lakh sqft saleable"
   },
   {
    "id": "shriram-swargam-0220",
@@ -40365,45 +40660,60 @@
    "type": "apartment",
    "locality": "Poonamallee",
    "corridor": "West Chennai",
-   "lat": 800126.8,
-   "lng": 130251.0,
-   "geo_precision": "exact",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "lat": 13.048,
+   "lng": 80.095,
+   "geo_precision": "locality",
+   "total_units": 206,
+   "price_sqft_min": 3900,
+   "price_sqft_max": 5200,
    "ticket_note": null,
    "expected_completion": "2029-12-14",
-   "stage": "new-launch",
+   "stage": "pre-launch",
    "status": "active",
    "data_confidence": "verified",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-2-blg-0220-2026/shriram-swargam"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-2-blg-0220-2026/shriram-swargam",
+    "https://shriramnewlaunch.com/chennai/shriram-swargam/",
+    "https://www.aurumproptech.in/pulse/properties/chennai/thirumazhisai/shriram-properties-shriram-swargam-3335338",
+    "https://medseaproperties.com/property/shriram-swargam/",
+    "https://www.upcomingpropertyhub.com/invest-for-better-future-at-pre-launch-project-in-chennai/"
    ],
-   "notes": "TNRERA registry record (Tiruvallur district, Poonamallee taluk) · Village: Kuththampakkam · Pincode 600124 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Tiruvallur district, Poonamallee taluk) · Village: Kuththampakkam · Pincode 600124 · Pricing not published in the registry — verify with the promoter. LOCATION NOTE: portals place Swargam in THIRUMAZHISAI (West Chennai) rather than Poonamallee proper, though it is in the Poonamallee corridor with ORR and Chennai-Bengaluru Highway access. Config-wise: 1 BHK 604 sqft from ~Rs 26 lakh, 2 BHK 937 sqft from ~Rs 35 lakh, 3 BHK 1,328 sqft from ~Rs 51 lakh — one of the cheapest entry tickets in the dataset. SOURCE CONFLICT on rate and land: channel-partner listings imply ~Rs 3,900-4,300/sqft on 4.59 acres, while AurumProptech quotes ~Rs 5,200/sqft, Rs 45 lakh onwards, 8.87 acres and a May-2028 handover; most sources still say 'RERA under process', which the new TNRERA/2/BLG/0220/2026 registration now supersedes. Amenities: pool, clubhouse, gym, yoga/meditation deck, amphitheatre, sports court, jogging track, retail shops, 24x7 CCTV, power backup.",
    "last_checked": "2026-08-05",
    "developer": "Shriram Properties",
    "score_breakdown": {
-    "entry_stage": 21,
-    "infrastructure": 3,
+    "entry_stage": 25,
+    "infrastructure": 20,
     "locality_momentum": 20,
-    "relative_pricing": 7,
+    "relative_pricing": 15,
     "developer_track_record": 7,
     "rental_yield": 8
    },
-   "upside_score": 66,
+   "upside_score": 95,
    "segment_fit": {
     "boardroom": 0,
     "executive": 70,
-    "value": 0
+    "value": 70
    },
    "risk": "Low",
    "tags": [
     "Early Entrant",
-    "Executive"
+    "High Upside",
+    "Executive",
+    "Value"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market.",
-   "rera_verified_on": "official TNRERA export"
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, priced below the locality band.",
+   "rera_verified_on": "official TNRERA export",
+   "ticket_min_lakh": 26,
+   "ticket_max_lakh": 51,
+   "unit_size_min_sqft": 604,
+   "unit_size_max_sqft": 1328,
+   "land_area_acres": 4.59,
+   "config_mix": "1/2/3 BHK",
+   "dominant_config": "2BHK",
+   "density_note": "mid-size, 206 units on ~4.59 acres",
+   "price_confidence": "reported"
   },
   {
    "id": "sidharth-solitaire-0264",
@@ -40834,8 +41144,8 @@
    "type": "apartment",
    "locality": "Velachery",
    "corridor": "South Chennai",
-   "lat": 12.97877168744343,
-   "lng": 80.2095033783,
+   "lat": 12.978772,
+   "lng": 80.209503,
    "geo_precision": "exact",
    "total_units": 15,
    "price_sqft_min": null,
@@ -41630,14 +41940,14 @@
    "ticket_note": null,
    "expected_completion": "2030-01 (possession)",
    "stage": "new-launch",
-   "status": "active",
+   "status": "unverified",
    "data_confidence": "reported",
    "sources": [
     "https://www.sobhaoneworlds.com/chennai/sobha-ongoing-new-projects-in-chennai-2026-update.html",
     "https://sobhaupcoming.com/velachery-chennai/",
     "https://www.sobhagroups.com/projects-in-chennai/sobha-velachery/"
    ],
-   "notes": "11.32-acre premium project on Velachery IT corridor; RERA number not found in sources — left null. Sobha also has 'Sobha Conserve', a 10-acre/124-plot plotted development at Pudupakkam (OMR) slated for 2025 launch.",
+   "notes": "11.32-acre premium project on Velachery IT corridor; RERA number not found in sources — left null. Sobha also has 'Sobha Conserve', a 10-acre/124-plot plotted development at Pudupakkam (OMR) slated for 2025 launch. Could not be verified: Sobha's own site lists no Velachery project and TNRERA has no matching registration — the only references are mutually contradictory lead-generation microsites. Held out of rankings until a primary source confirms it exists.",
    "last_checked": "2026-07-20",
    "locality": "Velachery",
    "corridor": "South Chennai",
@@ -42064,9 +42374,9 @@
    "type": "apartment",
    "locality": "Chennai",
    "corridor": "Central Chennai",
-   "lat": 130052.0,
-   "lng": 130050.0,
-   "geo_precision": "exact",
+   "lat": 13.07,
+   "lng": 80.24,
+   "geo_precision": "district",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -42084,13 +42394,13 @@
    "developer": "Sreshta Cityscapes",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 3,
+    "infrastructure": 16,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 47,
+   "upside_score": 60,
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
@@ -42100,7 +42410,7 @@
    "tags": [
     "Early Entrant"
    ],
-   "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export"
   },
   {
@@ -44218,8 +44528,8 @@
    "type": "apartment",
    "locality": "Gerugambakkam",
    "corridor": "Southwest Chennai",
-   "lat": 13.015674687035371,
-   "lng": 80.13871182943895,
+   "lat": 13.015675,
+   "lng": 80.138712,
    "geo_precision": "exact",
    "total_units": null,
    "price_sqft_min": null,
@@ -44264,47 +44574,58 @@
    "rera_no": "TNRERA/29/BLG/0141/2026",
    "registration_date": "2026",
    "type": "apartment",
-   "locality": "Kodambakkam",
+   "locality": "Ashok Nagar",
    "corridor": "Central Chennai",
    "lat": 13.034641,
    "lng": 80.214786,
    "geo_precision": "exact",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "total_units": 9,
+   "price_sqft_min": 18000,
+   "price_sqft_max": 22400,
    "ticket_note": null,
    "expected_completion": "2030-12-31",
-   "stage": "new-launch",
+   "stage": "under-construction",
    "status": "active",
    "data_confidence": "verified",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0141-2026/sri-ramachandra"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0141-2026/sri-ramachandra",
+    "https://www.jllhomes.co.in/apartments-new/chennai/ceebros-sri-ramachandra",
+    "https://www.chennaiproperties.com/projects/ceebros-sri-ramachandra-in-ashok-nagar/7306"
    ],
-   "notes": "TNRERA registry record (Chennai district, Mambalam taluk) · Village: Kodambakkam Part 2 · Pincode 600083 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district, Mambalam taluk) · Village: Kodambakkam Part 2 · Pincode 600083 · Pricing not published in the registry — verify with the promoter. LOCALITY DISCREPANCY: both portals place this Ceebros 'Sri Ramachandra' at 10th Avenue, Ashok Nagar 600083, not Kodambakkam - the two are adjacent Central Chennai neighbourhoods in the same TNRERA zone 29, and Ceebros lists only one project by this name, so it is almost certainly the same record. Neither source printed the RERA number, so the match to TNRERA/29/BLG/0141/2026 is by name+developer+zone. Single-config 4 BHK boutique block of 9 flats, Vaastu compliant, 100% power backup, covered car parking; ChennaiProperties quotes Rs 18,000/sqft base (Rs 4.59 Cr + charges, possession Mar 2027) while JLL quotes Rs 5.70 Cr onwards (~Rs 22,300/sqft, possession Sep 2026) - the gap is likely base-price vs all-inclusive. Locality corrected from Kodambakkam to Ashok Nagar on research review.",
    "last_checked": "2026-08-05",
    "developer": "Ceebros",
    "score_breakdown": {
-    "entry_stage": 21,
+    "entry_stage": 12,
     "infrastructure": 16,
-    "locality_momentum": 20,
-    "relative_pricing": 7,
+    "locality_momentum": 15,
+    "relative_pricing": 4,
     "developer_track_record": 7,
     "rental_yield": 5
    },
-   "upside_score": 76,
+   "upside_score": 59,
    "segment_fit": {
-    "boardroom": 20,
-    "executive": 70,
+    "boardroom": 90,
+    "executive": 45,
     "value": 0
    },
    "risk": "Low",
    "tags": [
-    "Early Entrant",
-    "Executive"
+    "Boardroom",
+    "Premium"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market.",
-   "rera_verified_on": "official TNRERA export"
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market.",
+   "rera_verified_on": "official TNRERA export",
+   "ticket_min_lakh": 459,
+   "ticket_max_lakh": 570,
+   "unit_size_min_sqft": 2547,
+   "unit_size_max_sqft": 2550,
+   "land_area_acres": 0.18,
+   "config_mix": "4 BHK only",
+   "dominant_config": "4BHK+",
+   "density_note": "ultra-boutique: only 9 units on 0.18 acre, stilt + 4/5 floors",
+   "price_confidence": "reported"
   },
   {
    "id": "sri-ramachandra-nagar-2732",
@@ -46091,8 +46412,8 @@
    "type": "apartment",
    "locality": "Nungambakkam",
    "corridor": "Central Chennai",
-   "lat": 1305741.0,
-   "lng": 80243873.0,
+   "lat": 13.05741,
+   "lng": 80.243873,
    "geo_precision": "exact",
    "total_units": 14,
    "price_sqft_min": null,
@@ -46111,13 +46432,13 @@
    "developer": "Sterling Estates Properties",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 3,
+    "infrastructure": 16,
     "locality_momentum": 9,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 4
    },
-   "upside_score": 47,
+   "upside_score": 60,
    "segment_fit": {
     "boardroom": 30,
     "executive": 35,
@@ -46127,7 +46448,7 @@
    "tags": [
     "Early Entrant"
    ],
-   "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export"
   },
   {
@@ -46909,8 +47230,8 @@
    "type": "apartment",
    "locality": "Adambakkam",
    "corridor": "South Chennai",
-   "lat": 12.985876696475966,
-   "lng": 80.19515678039852,
+   "lat": 12.985877,
+   "lng": 80.195157,
    "geo_precision": "exact",
    "total_units": 13,
    "price_sqft_min": null,
@@ -47591,53 +47912,64 @@
   {
    "name": "TVS Emerald Serene Springs",
    "promoter": "TVS Emerald",
-   "rera_no": null,
+   "rera_no": "TNRERA/35/BLG/0599/2024",
    "registration_date": "2025 (approx; listed under pre-launched/new projects)",
    "type": "apartment",
    "locality_raw": "Thaiyur, Kelambakkam (off OMR), Chennai",
    "lat": 12.789,
    "lng": 80.204,
    "geo_precision": "approximate",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "total_units": 237,
+   "price_sqft_min": 7700,
+   "price_sqft_max": 8200,
    "ticket_note": null,
-   "expected_completion": null,
-   "stage": "pre-launch",
+   "expected_completion": "2029-10",
+   "stage": "under-construction",
    "status": "active",
-   "data_confidence": "estimated",
+   "data_confidence": "reported",
    "sources": [
     "https://www.tvsemerald.com/project_status/pre-launched/",
-    "https://www.tvsemerald.com/"
+    "https://www.tvsemerald.com/",
+    "https://www.tvsemerald.com/projects/tvs-emerald-serene-springs/",
+    "https://www.nobroker.in/tvs-emerald-serene-springs-thaiyur_chennai-prjt-8a9fb38794bba1410194bbf76e842088",
+    "https://houssed.com/chennai/tvs-emerald/tvs-emerald-serene-springs-135500"
    ],
-   "notes": "Senior-living community: 1 & 2 BHK senior-friendly homes with care services; part of TVS Emerald's south Chennai (OMR/Kelambakkam) cluster. Details (RERA, units, price) not yet published on portals reviewed.",
+   "notes": "Senior-living community: 1 & 2 BHK senior-friendly homes with care services; part of TVS Emerald's south Chennai (OMR/Kelambakkam) cluster. Details (RERA, units, price) not yet published on portals reviewed. SENIOR LIVING CONFIRMED — TVS Emerald's first senior-living community, operated in JV with Serene Communities by Columbia Pacific, India's largest senior-living operator. A RERA NUMBER DOES EXIST: TN/35/Building/0599/2024 per NoBroker (record says 'no RERA no. yet', which is stale). Developer price ladder: 1BHK-1T 959–976 sqft from ₹74L, 1BHK-2T 1,027 sqft from ₹77.90L, 2BHK-2T 1,183–1,217 sqft from ₹97L (up to ₹99.78L). Per-sqft band is DERIVED from those ticket/size pairs, not directly published. NoBroker's ₹70.67L–₹95.04L is on carpet area (604–767 sqft). Age-friendly build: uniform floor levels with ramps, wide doorways, universal toilets, support rails, Braille-signed lifts. Services: on-site clinic with nursing staff, 24/7 ambulance, physiotherapy, annual health checks, community dining, meal delivery, housekeeping, concierge, salon, shuttle. Kelambakkam–Vandalur Road / Thaiyur, OMR. RERA registration located: TN/35/Building/0599/2024. Positioned as a senior-living community.",
    "last_checked": "2026-07-20",
    "locality": "Kelambakkam",
    "corridor": "OMR",
    "id": "tvs-emerald-serene-springs",
    "score_breakdown": {
-    "entry_stage": 25,
+    "entry_stage": 12,
     "infrastructure": 16,
     "locality_momentum": 15,
-    "relative_pricing": 7,
+    "relative_pricing": 4,
     "developer_track_record": 10,
     "rental_yield": 10
    },
-   "upside_score": 83,
-   "risk": "Medium",
+   "upside_score": 67,
+   "risk": "Low",
    "tags": [
-    "Early Entrant",
-    "High Upside",
-    "Executive"
+    "Executive",
+    "Steady/Rental"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, strong developer record. Caveats: RERA number not yet found.",
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market, strong developer record.",
    "segment_fit": {
     "boardroom": 10,
-    "executive": 70,
+    "executive": 100,
     "value": 0
    },
    "developer": "TVS Emerald",
-   "source": "curated"
+   "source": "curated",
+   "ticket_min_lakh": 74,
+   "ticket_max_lakh": 100,
+   "unit_size_min_sqft": 959,
+   "unit_size_max_sqft": 1217,
+   "land_area_acres": 1.8,
+   "config_mix": "1/2 BHK (senior living)",
+   "dominant_config": "2BHK",
+   "density_note": "compact high-density — 237 units in 2 towers of 16 floors on 1.8 acres",
+   "price_confidence": "reported"
   },
   {
    "name": "TVS Emerald Verde Vista",
@@ -48480,40 +48812,49 @@
    "lat": 13.0337,
    "lng": 80.2687,
    "geo_precision": "approximate",
-   "total_units": null,
+   "total_units": 15,
    "price_sqft_min": null,
    "price_sqft_max": null,
    "ticket_note": null,
-   "expected_completion": null,
-   "stage": "under-construction",
+   "expected_completion": "2033-09",
+   "stage": "new-launch",
    "status": "active",
    "data_confidence": "reported",
    "source": "rera-registry",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0387-2025/the-edge"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0387-2025/the-edge",
+    "https://proplocators.com/project/baashyaam-the-edge-gopalapuram-chennai",
+    "https://bashyamgroup.com/"
    ],
-   "notes": "TNRERA registry record (Chennai district, Mylapore taluk) · Village: Mylapore · Pincode 600086 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district, Mylapore taluk) · Village: Mylapore · Pincode 600086 · Pricing not published in the registry — verify with the promoter. RERA TNRERA/29/BLG/0387/2025 matches exactly, but the project is at GOPALAPURAM, not Mylapore (adjacent central-Chennai neighbourhood, same Mylapore taluk). Price is 'On Request' on every source including the developer's own site — no per-sqft or ticket figure is published anywhere, so pricing is left null rather than inferred. Very large 4BHK-only floorplates (3,216–7,011 sqft), three open courtyards for resort-style living, swimming pool, gym, kids' play area; RERA outer completion date is 01-09-2033.",
    "last_checked": "2026-08-05",
    "developer": "Baashyaam",
    "score_breakdown": {
-    "entry_stage": 12,
+    "entry_stage": 21,
     "infrastructure": 20,
     "locality_momentum": 15,
     "relative_pricing": 7,
     "developer_track_record": 7,
     "rental_yield": 6
    },
-   "upside_score": 67,
+   "upside_score": 76,
    "segment_fit": {
-    "boardroom": 20,
+    "boardroom": 50,
     "executive": 70,
     "value": 0
    },
    "risk": "Low",
    "tags": [
+    "Early Entrant",
     "Executive"
    ],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market."
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market.",
+   "unit_size_min_sqft": 3216,
+   "unit_size_max_sqft": 7011,
+   "land_area_acres": 0.64,
+   "config_mix": "4 BHK",
+   "dominant_config": "4BHK+",
+   "density_note": "ultra-boutique — 15 units on 0.64 acres, single block"
   },
   {
    "id": "the-grid-0029",
@@ -48622,41 +48963,54 @@
    "lat": 12.813911,
    "lng": 80.205422,
    "geo_precision": "exact",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "total_units": 117,
+   "price_sqft_min": 10083,
+   "price_sqft_max": 11597,
    "ticket_note": null,
    "expected_completion": "2031-03-30",
-   "stage": "new-launch",
+   "stage": "under-construction",
    "status": "active",
    "data_confidence": "verified",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0146-2026/the-lord-s-by-dac"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0146-2026/the-lord-s-by-dac",
+    "https://dacdevelopers.com/project/lords-by-dac/",
+    "https://findbhk.com/projects/dac-lords-siruseri",
+    "https://www.addressofchoice.com/dac-lords-puthupakkam-chennai-p80640",
+    "https://www.99acres.com/lords-by-dac-pudupakkam-chennai-south-npxid-r460851"
    ],
-   "notes": "TNRERA registry record (Chengalpattu district) · Pincode 603103 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chengalpattu district) · Pincode 603103 · Pricing not published in the registry — verify with the promoter. IMPORTANT CORRECTION: this is a VILLA project, not apartments, and it sits in Pudupakkam behind Siruseri SIPCOT on the OMR side rather than GST Road. DAC's own site confirms RERA TNRERA/35/BLG/0146/2026 dated 25.04.2026 and Rs 1.65 Cr onwards for 3 & 4 BHK villas; findbhk gives the full 1,425-2,529 sqft / Rs 1.65-2.55 Cr band, 117 units, 5.5 acres, Jan-2027 possession. Note the project also carries a separate layout registration TNRERA/35/LO/0473/2026. London-inspired master layout, zen planning, clubhouse, pool, gym, amphitheatre, yoga deck, EV charging, underground utilities. One portal (addressofchoice) quotes a lower Rs 40-70 lakh band which appears to be the land/UDS component only — treat the Rs 1.65 Cr+ figure as the all-in villa price.",
    "last_checked": "2026-08-05",
    "developer": "DAC Developers",
    "score_breakdown": {
-    "entry_stage": 21,
+    "entry_stage": 12,
     "infrastructure": 16,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 7,
     "rental_yield": 5
    },
-   "upside_score": 64,
+   "upside_score": 55,
    "segment_fit": {
-    "boardroom": 0,
-    "executive": 50,
+    "boardroom": 30,
+    "executive": 80,
     "value": 0
    },
    "risk": "Low",
    "tags": [
-    "Early Entrant"
+    "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure.",
-   "rera_verified_on": "official TNRERA export"
+   "score_rationale": "Scores on close to upcoming metro/infrastructure.",
+   "rera_verified_on": "official TNRERA export",
+   "ticket_min_lakh": 165,
+   "ticket_max_lakh": 255,
+   "unit_size_min_sqft": 1425,
+   "unit_size_max_sqft": 2529,
+   "land_area_acres": 5.5,
+   "config_mix": "3/4 BHK villas",
+   "dominant_config": "villa",
+   "density_note": "low-density villa community, 117 villas on 5.5 acres (~21/acre)",
+   "price_confidence": "reported"
   },
   {
    "id": "the-madras-pavilion-ph-i-0065",
@@ -49720,8 +50074,8 @@
    "type": "apartment",
    "locality": "Mudichur",
    "corridor": "Southwest Chennai",
-   "lat": 12906291.0,
-   "lng": 80068139.0,
+   "lat": 12.906291,
+   "lng": 80.068139,
    "geo_precision": "exact",
    "total_units": 45,
    "price_sqft_min": null,
@@ -49740,13 +50094,13 @@
    "developer": "Revista Holdings",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 3,
+    "infrastructure": 7,
     "locality_momentum": 9,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 48,
+   "upside_score": 52,
    "segment_fit": {
     "boardroom": 10,
     "executive": 35,
@@ -49769,8 +50123,8 @@
    "type": "apartment",
    "locality": "Thiruvanmiyur",
    "corridor": "South Chennai",
-   "lat": 12.993427511937178,
-   "lng": 80.26425770210388,
+   "lat": 12.993428,
+   "lng": 80.264258,
    "geo_precision": "exact",
    "total_units": 10,
    "price_sqft_min": null,
@@ -50937,49 +51291,63 @@
    "registration_date": "2026 (RERA registered; launched 3-5 Apr 2026)",
    "type": "plotted",
    "locality_raw": "Gerugambakkam (between Porur, Pallavaram and Guindy), Chennai",
-   "lat": 13.0202,
-   "lng": 80.1364,
-   "geo_precision": "approximate",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "lat": 13.01,
+   "lng": 80.135,
+   "geo_precision": "locality",
+   "total_units": 342,
+   "price_sqft_min": 7000,
+   "price_sqft_max": 7000,
    "ticket_note": "Positioned at roughly half the plot rates of Porur/Manapakkam (exact rate not published in sources)",
-   "expected_completion": null,
+   "expected_completion": "2026-04",
    "stage": "new-launch",
    "status": "active",
    "data_confidence": "reported",
    "sources": [
     "https://www.tribuneindia.com/news/business/vgn-homes-celebrates-strong-launch-success-of-vgn-meridian-heights-in-chennai/amp",
-    "https://www.vgn.in/upcoming-projects"
+    "https://www.vgn.in/upcoming-projects",
+    "https://vgnmeridianheights.com/",
+    "https://www.business-standard.com/content/specials/vgn-homes-launches-vgn-meridian-heights-in-gerugambakkam-premium-plotted-development-offering-4x-growth-potential-126033100686_1.html",
+    "https://www.jllhomes.co.in/plot-new/chennai/vgn-meridian-heights",
+    "http://verified.realestate/rera/registered-layouts/TNRERA-1-LO-1078-2026"
    ],
-   "notes": "VGN's 261st project; affordable-luxury plotted development; 100 bookings and 2,000+ enquiries within launch weekend; upside from upcoming metro station, airport and IT-hub proximity (marketed '4X growth potential').",
+   "notes": "VGN's 261st project; affordable-luxury plotted development; 100 bookings and 2,000+ enquiries within launch weekend; upside from upcoming metro station, airport and IT-hub proximity (marketed '4X growth potential'). RERA TNRERA/1/LO/1078/2026 matches exactly - promoter VGN Builders Pvt Ltd, VGN MERIDIAN HEIGHTS PHASE-I, Gerugambakkam village, KUNDRATHUR taluk, Kancheepuram; 53,337 sq.m (13.18 acres), 342 units, project cost Rs 211 Cr, CMDA permission 22-Dec-2025, registered 18-Mar-2026, registry shows completed and JLL shows Phase 1 'Ready to Move' with Apr-2026 possession. Locality correction: this is Gerugambakkam/Porur (west-southwest Chennai), NOT Pallavaram - VGN's Pallavaram plotted scheme is a separate project, Southern Garden. Launched March 2026 as VGN's 261st project. Rs 7,000/sqft is derived and cross-consistent: JLL's two quoted pairs (850 sqft at Rs 59.5 L and 1300 sqft at Rs 91 L) both compute to exactly Rs 7,000/sqft; the developer's own site advertises a teaser 'from Rs 55 lakh'. Marketing pitch is 50+ amenities including an 11,000 sqft 'Club De Meridian', 38,000 sqft of parks across three parks, amphitheatre, pickleball and yoga courts, a 50-ft clock tower, underground electricals, IRC-standard roads and storm-water recharge trenches; elevated terrain, 6.2 km from the metro and airport, priced at roughly half Manapakkam rates. Locality corrected from Pallavaram to Gerugambakkam on research review.",
    "last_checked": "2026-07-20",
-   "locality": "Pallavaram",
-   "corridor": "South Chennai",
+   "locality": "Gerugambakkam",
+   "corridor": "Southwest Chennai",
    "id": "vgn-meridian-heights",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 16,
+    "infrastructure": 12,
     "locality_momentum": 20,
-    "relative_pricing": 7,
+    "relative_pricing": 12,
     "developer_track_record": 7,
-    "rental_yield": 8
+    "rental_yield": 5
    },
-   "upside_score": 79,
+   "upside_score": 77,
    "risk": "Low",
    "tags": [
     "Early Entrant",
-    "High Upside",
+    "Executive",
+    "Value",
     "Plotted/Land"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market.",
+   "score_rationale": "Scores on early entry stage, rising micro-market, priced below the locality band.",
    "segment_fit": {
     "boardroom": 0,
-    "executive": 50,
-    "value": 0
+    "executive": 80,
+    "value": 60
    },
    "developer": "VGN Homes",
-   "source": "curated"
+   "source": "curated",
+   "ticket_min_lakh": 59.5,
+   "ticket_max_lakh": 91,
+   "unit_size_min_sqft": 850,
+   "unit_size_max_sqft": 1300,
+   "land_area_acres": 13.18,
+   "config_mix": "residential plots 850-1300 sqft",
+   "dominant_config": "plot",
+   "density_note": "large plotted township - 342 units (277 regular + 64 EWS + 1 commercial site) on 13.18 acres",
+   "price_confidence": "reported"
   },
   {
    "id": "virddhi-innokaiz-thirumazhisai-changed-to-vriddhi-3487",
@@ -51133,8 +51501,8 @@
    "type": "apartment",
    "locality": "Pallavaram",
    "corridor": "South Chennai",
-   "lat": 12.95205889555554,
-   "lng": 80.17458134232874,
+   "lat": 12.952059,
+   "lng": 80.174581,
    "geo_precision": "exact",
    "total_units": 29,
    "price_sqft_min": null,
@@ -52966,7 +53334,7 @@
    ],
    "notes": "TNRERA plotted-layout registration (Chengalpattu district, Chengalpet taluk) · Village: Kongadu · Pincode 603001 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying.",
    "last_checked": "2026-08-05",
-   "developer": "VGN Homes",
+   "developer": "Vgn Infrastructure",
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 7,
@@ -52999,41 +53367,49 @@
    "lat": 12.834,
    "lng": 79.704,
    "geo_precision": "district",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "total_units": 7,
+   "price_sqft_min": 9000,
+   "price_sqft_max": 9499,
    "ticket_note": null,
    "expected_completion": null,
-   "stage": "new-launch",
+   "stage": "nearing-possession",
    "status": "active",
-   "data_confidence": "reported",
-   "source": "rera-registry",
+   "data_confidence": "estimated",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/layouts/tnrera-1-lo-1434-2026/vgn-grandeur-phase-ii-extension"
+    "https://proquiro.com/tools/rera-tamil-nadu/layouts/tnrera-1-lo-1434-2026/vgn-grandeur-phase-ii-extension",
+    "https://findbhk.com/projects/VGN-Grandeur-Iyyapanthangal",
+    "https://chennaigatedcommunity.in/projects/vgn-grandeur"
    ],
-   "notes": "TNRERA plotted-layout registration (Kancheepuram district, Kunrathur taluk) · Village: Koluthuvancherry · Pincode 600116 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying.",
+   "notes": "TNRERA plotted-layout registration (Kancheepuram district, Kunrathur taluk) · Village: Koluthuvancherry · Pincode 600116 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying. RERA number confirmed: promoter VGN Enterprises Pvt Ltd, Koluthuvancherry village, Kunrathur taluk, Kancheepuram (pin 600116 = the Iyyappanthangal belt), just 7 plots on 776.36 sqm (0.19 acres), declared cost Rs 1.65 cr, status Completed / 'ready to move'. PRICING IS INFERRED, NOT QUOTED: no price sheet exists for this 7-plot extension, so the rate band is the parent VGN Grandeur project's quoted Rs 9,000-9,499/sqft at the same location, and the ticket range is that rate applied to the ~1,194 sqft average gross plot implied by 776.36 sqm / 7 plots. Parent layout (500-563 plots, 27.86-29 acres, plots 581-3061 sqft, Rs 1.42-2.08 Cr) offers 4 parks, clubhouse, gym, amphitheatre, temple, blacktop roads with LED lighting, underground EB/sewage and piped gas provision.",
    "last_checked": "2026-08-05",
-   "developer": "VGN Homes",
+   "developer": "Vgn Enterprises",
    "score_breakdown": {
-    "entry_stage": 21,
+    "entry_stage": 5,
     "infrastructure": 3,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 7,
     "rental_yield": 5
    },
-   "upside_score": 51,
+   "upside_score": 35,
    "segment_fit": {
-    "boardroom": 0,
-    "executive": 30,
+    "boardroom": 10,
+    "executive": 45,
     "value": 0
    },
    "risk": "Low",
    "tags": [
-    "Early Entrant",
     "Plotted/Land"
    ],
-   "score_rationale": "Scores on early entry stage."
+   "score_rationale": "No strong upside signals under the rule set.",
+   "ticket_min_lakh": 107,
+   "ticket_max_lakh": 113,
+   "land_area_acres": 0.19,
+   "config_mix": "residential plots (7 plots; parent layout sells 581-3061 sqft)",
+   "dominant_config": "plot",
+   "density_note": "tiny 7-plot extension parcel appended to the ~28-acre VGN Grandeur layout",
+   "price_confidence": "estimated"
   },
   {
    "id": "vgn-heritage-springz-phase-ii-0980",
@@ -53047,41 +53423,55 @@
    "lat": 12.925,
    "lng": 80.117,
    "geo_precision": "approximate",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "total_units": 100,
+   "price_sqft_min": 5099,
+   "price_sqft_max": 5399,
    "ticket_note": null,
-   "expected_completion": null,
-   "stage": "new-launch",
+   "expected_completion": "completed",
+   "stage": "nearing-possession",
    "status": "active",
-   "data_confidence": "reported",
-   "source": "rera-registry",
+   "data_confidence": "estimated",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/layouts/tnrera-35-lo-0980-2026/vgn-heritage-springz-phase-ii"
+    "https://proquiro.com/tools/rera-tamil-nadu/layouts/tnrera-35-lo-0980-2026/vgn-heritage-springz-phase-ii",
+    "https://verified.realestate/rera/registered-layouts/TNRERA-35-LO-0980-2026",
+    "https://findbhk.com/projects/vgn-heritage-springz-ottiyambakkam",
+    "https://www.roofandfloor.com/chennai/project/vgn-heritage-springz-in-ottiambakkam/7091",
+    "https://www.nobroker.in/vgn-heritage-springz-ottiambakkam_chennai-prjt-8a9f9a8497e2d6e40197e339eae716f3"
    ],
-   "notes": "TNRERA plotted-layout registration (Chengalpattu district, Tambaram taluk) · Village: Ottiayambakkam · Pincode 600130 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying.",
+   "notes": "TNRERA plotted-layout registration (Chengalpattu district, Tambaram taluk) · Village: Ottiayambakkam · Pincode 600130 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying. PHASE II RERA RECORD FULLY CONFIRMED: TNRERA/35/LO/0980/2026, promoter VGN Homes Pvt Ltd, registered 13-03-2026, 17,422 sqm layout, 100 plots, total project cost ₹15 Cr (₹14 Cr land + ₹1 Cr development), RERA status 'Completed'. LOCATION CORRECTION: the layout is at Ottiyambakkam village — Tambaram TALUK, Chengalpattu district — which is the Medavakkam–OMR belt, not Tambaram town or the GST Road corridor. CONFIDENCE SET TO 'estimated' FOR PRICING ONLY: no portal lists Phase II separately, so the plot-size band (700–1,683 sqft), ₹5,099–5,399/sqft and ₹36L–91L ticket range are carried over from the combined/Phase-I listing (Phase I = TN/35/Layout/2358/2025, 101 plots, 4.27 acres); unit counts, land area and dates above are Phase-II-specific from the RERA record. Phase II's 8,611 sqm plottable across 100 plots implies ~927 sqft average, consistent with that band. Portals show 'ready to move'. Amenities: elevated blacktop roads, underground EB with transformers, solar LED street lights, jogging track with reflexology pathway, outdoor gym, senior citizens' court, amphitheatre, sandpit play equipment, storm-water trench, 24x7 water.",
    "last_checked": "2026-08-05",
-   "developer": "VGN Homes",
+   "developer": "Vgn Homes",
    "score_breakdown": {
-    "entry_stage": 21,
+    "entry_stage": 5,
     "infrastructure": 7,
     "locality_momentum": 15,
-    "relative_pricing": 7,
+    "relative_pricing": 15,
     "developer_track_record": 7,
     "rental_yield": 10
    },
-   "upside_score": 67,
+   "upside_score": 59,
    "segment_fit": {
-    "boardroom": 0,
-    "executive": 50,
-    "value": 0
+    "boardroom": 10,
+    "executive": 65,
+    "value": 50
    },
    "risk": "Low",
    "tags": [
-    "Early Entrant",
-    "Plotted/Land"
+    "Executive",
+    "Plotted/Land",
+    "Steady/Rental"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market."
+   "score_rationale": "Scores on rising micro-market, priced below the locality band.",
+   "ticket_min_lakh": 36,
+   "ticket_max_lakh": 91,
+   "unit_size_min_sqft": 700,
+   "unit_size_max_sqft": 1683,
+   "land_area_acres": 4.31,
+   "config_mix": "CMDA-approved residential plots (incl. 16 EWS plots + 1 shop site)",
+   "dominant_config": "plot",
+   "density_note": "plotted layout — 100 plots (83 regular + 16 EWS + 1 shop) on 4.31 acres, 8,611 sqm plottable",
+   "price_confidence": "estimated"
   },
   {
    "id": "vgn-viruksham-0930",
@@ -53095,41 +53485,51 @@
    "lat": 12.682,
    "lng": 79.986,
    "geo_precision": "district",
-   "total_units": null,
-   "price_sqft_min": null,
+   "total_units": 381,
+   "price_sqft_min": 1718,
    "price_sqft_max": null,
    "ticket_note": null,
    "expected_completion": null,
-   "stage": "new-launch",
+   "stage": "nearing-possession",
    "status": "active",
    "data_confidence": "reported",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/layouts/tnrera-35-lo-0930-2026/vgn-viruksham"
+    "https://proquiro.com/tools/rera-tamil-nadu/layouts/tnrera-35-lo-0930-2026/vgn-viruksham",
+    "https://virukshyam.com/",
+    "https://vipviruksham.com/vip-viruksham-plots/project-details/",
+    "https://virukshyam.com/blog"
    ],
-   "notes": "TNRERA plotted-layout registration (Chengalpattu district, Chengalpet taluk) · Village: Sasthirambakkam · Pincode 600030 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying.",
+   "notes": "TNRERA plotted-layout registration (Chengalpattu district, Chengalpet taluk) · Village: Sasthirambakkam · Pincode 600030 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying. RERA number TNRERA/35/LO/0930/2026 printed verbatim on the project microsite (also DTCP 94/2025) - identity confirmed despite the naming difference. DEVELOPER DISCREPANCY: the project is marketed as 'VIP Viruksham' / 'Virukshyam' by VIP Housing and Properties, though one of its own pages credits 'VGN and VIP Housing and Properties', so treat it as a VIP Housing layout (possibly a VGN-VIP tie-up) rather than a pure VGN Homes product. LOCATION: Singaperumal Koil, Chengalpattu district, directly opposite Mahindra World City off GST Road - consistent with the tracker's GST Road belt tag. Entry price Rs 10 lakh; the Rs 1,718/sqft figure is arithmetic from that on the smallest 582 sqft plot and no site publishes a headline per-sqft rate, so the upper ticket is left null. Layout is complete and registrable (blacktop roads, 24x7 security, solar street lights, landscaping, 3-phase EB line, 40 ft roads, good ground water, 80% bank funding tie-ups). Strong industrial-demand catchment: Mahindra World City SEZ across the road. Marketed jointly with VIP Housing; VGN Infrastructure is the registered promoter.",
    "last_checked": "2026-08-05",
-   "developer": "VGN Homes",
+   "developer": "Vgn Infrastructure",
    "score_breakdown": {
-    "entry_stage": 21,
+    "entry_stage": 5,
     "infrastructure": 7,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 7,
     "rental_yield": 5
    },
-   "upside_score": 55,
+   "upside_score": 39,
    "segment_fit": {
-    "boardroom": 0,
-    "executive": 30,
+    "boardroom": 20,
+    "executive": 15,
     "value": 0
    },
    "risk": "Low",
    "tags": [
-    "Early Entrant",
     "Plotted/Land"
    ],
-   "score_rationale": "Scores on early entry stage."
+   "score_rationale": "No strong upside signals under the rule set.",
+   "ticket_min_lakh": 10,
+   "unit_size_min_sqft": 582,
+   "unit_size_max_sqft": 1965,
+   "land_area_acres": 15.66,
+   "config_mix": "villa plots 582-1965 sqft (381 plots + 3 shop units)",
+   "dominant_config": "plot",
+   "density_note": "large gated plotted layout: 381 numbered plots plus 3 shops across A, B and C blocks on 15.66 acres",
+   "price_confidence": "reported"
   },
   {
    "id": "viaan-0205",
@@ -53140,9 +53540,9 @@
    "type": "apartment",
    "locality": "Kundrathur",
    "corridor": "Southwest Chennai",
-   "lat": 130042.3,
-   "lng": 800935.3,
-   "geo_precision": "exact",
+   "lat": 12.995,
+   "lng": 80.1,
+   "geo_precision": "locality",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -53160,13 +53560,13 @@
    "developer": "Vibrant Offices Homes",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 3,
+    "infrastructure": 16,
     "locality_momentum": 20,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 59,
+   "upside_score": 72,
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
@@ -53176,7 +53576,7 @@
    "tags": [
     "Early Entrant"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market. Caveats: limited developer track record.",
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export"
   },
   {
@@ -53574,9 +53974,9 @@
    "type": "apartment",
    "locality": "Chennai",
    "corridor": "Kanchipuram",
-   "lat": 130155.0,
-   "lng": 800718.6,
-   "geo_precision": "exact",
+   "lat": 12.834,
+   "lng": 79.704,
+   "geo_precision": "district",
    "total_units": 110,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -54344,8 +54744,8 @@
    "type": "apartment",
    "locality": "Tondiarpet",
    "corridor": "North Chennai",
-   "lat": 13.124603519582289,
-   "lng": 80.28898543163312,
+   "lat": 13.124604,
+   "lng": 80.288985,
    "geo_precision": "exact",
    "total_units": null,
    "price_sqft_min": null,
@@ -54677,9 +55077,9 @@
    "type": "apartment",
    "locality": "Adyar",
    "corridor": "Central Chennai",
-   "lat": 130018.2,
-   "lng": 801509.9,
-   "geo_precision": "exact",
+   "lat": 13.006,
+   "lng": 80.257,
+   "geo_precision": "locality",
    "total_units": 10,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -54697,13 +55097,13 @@
    "developer": "Yara Project Holdings",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 3,
+    "infrastructure": 20,
     "locality_momentum": 15,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 6
    },
-   "upside_score": 55,
+   "upside_score": 72,
    "segment_fit": {
     "boardroom": 30,
     "executive": 35,
@@ -54713,7 +55113,7 @@
    "tags": [
     "Early Entrant"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market. Caveats: limited developer track record.",
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export"
   },
   {
@@ -55309,37 +55709,43 @@
    "price_sqft_max": null,
    "ticket_note": null,
    "expected_completion": "2030-12-31",
-   "stage": "new-launch",
+   "stage": "under-construction",
    "status": "active",
    "data_confidence": "verified",
    "source": "rera-registry",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0194-2026/lancor-ananya"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0194-2026/lancor-ananya",
+    "https://lancor.in/project/mylapore-apartments-in-chennai/lancor-ananya/",
+    "https://lancor.in/luxury-apartments-mylapore-alwarpet-chennai/"
    ],
-   "notes": "TNRERA registry record (Chennai district, Mylapore taluk) · Village: Mylapore · Pincode 600004 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district, Mylapore taluk) · Village: Mylapore · Pincode 600004 · Pricing not published in the registry — verify with the promoter. RERA TNRERA/29/BLG/0194/2026 dated 08-06-2026 confirmed on Lancor's own project page. NO PRICE IS PUBLISHED anywhere — developer site, 99acres (403-blocked), Housing, MagicBricks, SquareYards, Houssed and AddressOfChoice all omit it, so price_sqft and ticket are left null rather than inferred. For context only (NOT a project quote), Lancor's own market commentary puts Alwarpet/Mylapore at ₹17,000–24,400/sqft with ultra-luxury pockets beyond ₹29,000/sqft. Warren Road address; developer flags 'Only 1 Unit Available', so it is effectively sold out. Lancor is BSE/NSE-listed with a 41-year on-time delivery record and claims one of the earliest handovers among central-Chennai 2026 luxury launches. Imported marble, twin stretcher lifts, 100% backup, EV charging for every apartment, pool, gym, party hall, double-height lobby.",
    "last_checked": "2026-08-05",
    "developer": "Lancor Holdings",
    "score_breakdown": {
-    "entry_stage": 21,
+    "entry_stage": 12,
     "infrastructure": 20,
     "locality_momentum": 15,
     "relative_pricing": 7,
     "developer_track_record": 7,
     "rental_yield": 6
    },
-   "upside_score": 76,
+   "upside_score": 67,
    "segment_fit": {
-    "boardroom": 30,
+    "boardroom": 50,
     "executive": 70,
     "value": 0
    },
    "risk": "Low",
    "tags": [
-    "Early Entrant",
     "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market.",
-   "rera_verified_on": "official TNRERA export"
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market.",
+   "rera_verified_on": "official TNRERA export",
+   "unit_size_min_sqft": 1271,
+   "unit_size_max_sqft": 2448,
+   "config_mix": "3/4 BHK",
+   "dominant_config": "3BHK",
+   "density_note": "boutique — 48 residences, only 4 apartments per floor"
   },
   {
    "id": "saanvi-0593",

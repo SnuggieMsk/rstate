@@ -130,13 +130,21 @@ def infra_points_for(p, infra_points):
     return 3
 
 
+# Records kept for history but excluded from every rollup and ranking. Mirrors
+# RETIRED in docs/assets/app.js — keep the two in step.
+RETIRED_STATUS = {'withdrawn', 'superseded', 'unverified'}
+
+
 def canonical_developer(promoter):
     """Map a raw promoter string to a canonical developer name for filtering."""
     s = (promoter or '').lower()
     if not s.strip():
         return None
+    # An alias must match a WHOLE word at both ends. Plain substring matching
+    # wrongly attributed "MahenDRA Kumar Gupta" to DRA Homes and, worse, the
+    # individual promoter "Kalpesh SOBHAgmal" to Sobha Ltd.
     for canon, keys in DEVELOPER_ALIASES:
-        if any(k in s for k in keys):
+        if any(re.search(r'(?<![a-z])' + re.escape(k) + r'(?![a-z])', s) for k in keys):
             return canon
     # Fall back to a cleaned-up version of the raw legal name so every project
     # still lands under some developer bucket.
@@ -435,7 +443,7 @@ def main():
         prof = profiles.get(name, {'name': name})
         for k in STAT_KEYS:
             prof.pop(k, None)
-        active = [p for p in plist if p.get('status') != 'withdrawn']
+        active = [p for p in plist if p.get('status') not in RETIRED_STATUS]
         scores = [p['upside_score'] for p in active if p.get('upside_score') is not None]
         tickets_lo = [p['ticket_min_lakh'] for p in active if p.get('ticket_min_lakh')]
         tickets_hi = [p['ticket_max_lakh'] for p in active if p.get('ticket_max_lakh')]

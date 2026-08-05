@@ -120,7 +120,7 @@ function auctionMarker(d) {
 }
 
 CRI.loadAll().then(({ projects, infrastructure, distressed, meta }) => {
-  const withGeo = projects.filter(p => p.lat != null && p.lng != null && p.status !== 'withdrawn');
+  const withGeo = projects.filter(p => p.lat != null && p.lng != null && CRI.isLive(p));
 
   function rebuildProjectLayers() {
     clusterAll.clearLayers(); clusterEarly.clearLayers();

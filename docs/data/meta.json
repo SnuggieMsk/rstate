@@ -31,7 +31,7 @@
  "changelog": [
   {
    "date": "2026-08-05",
-   "note": "Comprehensiveness pass. Projects 57 -> 1,154 by scraping the full TNRERA registration index for the Chennai Metropolitan Area — both registry streams, buildings AND plotted layouts (TNRERA registers them separately), across Chennai, Kancheepuram, Tiruvallur and Chengalpattu districts; 1,097 now carry a real RERA number. Added a Developers page with 900+ canonicalised promoters, computed portfolio rollups, and 37 researched profiles covering delivery reputation and sourced red flags (adjudicated regulatory action stated separately from unadjudicated buyer complaints). Bank e-auctions 30 -> 626 upcoming listings across 242 localities and 76 lenders, 210 with a computed discount-to-market. Projects table paginated and switched to delegated event handling after the full dataset pushed render time to 5.4s."
+   "summary": "Enriched 35 priority projects with researched pricing and configuration (31 now carry price data), corrected 10 mis-stated localities and 3 wrong project types, and fixed developer attribution on 4 records where an individual promoter had been credited to a national builder. Repaired 29 coordinates that the official TNRERA export writes in packed DDMMSS or with a displaced decimal point — every project pin now falls inside the metropolitan area. Split price confidence from registration confidence so a RERA-verified record no longer implies a verified price. Held 'Sobha Velachery' out of the rankings: no primary source confirms it exists."
   },
   {
    "date": "2026-07-20",

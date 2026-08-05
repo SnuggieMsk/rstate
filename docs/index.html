@@ -72,7 +72,7 @@ function priceCell(p) {
 function render() {
   const { projects, localities, distressed, meta } = DATA;
   const devCount = new Set(projects.filter(p => p.developer).map(p => p.developer)).size;
-  const active = projects.filter(p => p.status !== 'withdrawn' && CRI.matchesPersona(p));
+  const active = projects.filter(p => CRI.isLive(p) && CRI.matchesPersona(p));
   const early = active.filter(p => (p.tags || []).includes('Early Entrant'));
   const scored = active.filter(p => p.upside_score != null);
   const sortedScores = scored.map(p => p.upside_score).sort((a, b) => a - b);

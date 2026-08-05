@@ -74,7 +74,7 @@ const TIER_LABEL = {
 };
 
 function devCard(d) {
-  const mine = PROJ.filter(p => p.developer === d.name && p.status !== 'withdrawn');
+  const mine = PROJ.filter(p => p.developer === d.name && CRI.isLive(p));
   const ticket = (d.ticket_min_lakh || d.ticket_max_lakh)
     ? CRI.ticketHTML({ ticket_min_lakh: d.ticket_min_lakh, ticket_max_lakh: d.ticket_max_lakh })
     : null;

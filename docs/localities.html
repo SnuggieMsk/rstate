@@ -107,7 +107,7 @@ function render() {
   });
   document.getElementById('fCount').textContent = rows.length + ' of ' + LOCS.length + ' localities';
   document.getElementById('locGrid').innerHTML = rows.map(l => {
-    const here = PROJ.filter(p => p.locality === l.name && p.status !== 'withdrawn');
+    const here = PROJ.filter(p => p.locality === l.name && CRI.isLive(p));
     const deals = DEALS.filter(d => d.record_type === 'auction' && d.band_locality === l.name);
     const band = l.price_band_min && l.price_band_max
       ? `₹${CRI.fmtN(l.price_band_min)}–${CRI.fmtN(l.price_band_max)}/sqft`

@@ -128,7 +128,7 @@ function rowHTML(p, cmp) {
       <td>${p.locality}<br><span class="conf">${p.corridor || ''}</span></td>
       <td>${p.type || '—'}</td>
       <td>${CRI.stageLabel(p.stage)}</td>
-      <td>${p.rera_no ? p.rera_no : '<span class="conf">not found</span>'}<br>${CRI.confHTML(p.data_confidence)}</td>
+      <td>${p.rera_no ? p.rera_no : '<span class="conf">not found</span>'}<br>${CRI.confHTML(p.data_confidence)}${CRI.priceConfHTML(p)}</td>
       <td class="num">${priceCell(p)}</td>
       <td class="num">${CRI.scoreHTML(p.upside_score)}</td>
       <td>${CRI.riskHTML(p.risk)}</td>
@@ -207,7 +207,7 @@ document.querySelector('#projTable tbody').innerHTML =
   '<tr><td colspan="10">' + '<div class="skel skel-row"></div>'.repeat(6) + '</td></tr>';
 CRI.loadAll().then(({ projects, meta }) => {
   CRI.setRefreshed(meta);
-  ALL = projects.filter(p => p.status !== 'withdrawn');
+  ALL = projects.filter(CRI.isLive);
   refreshCmp = CRI.initCompareBar(ALL);
   // Developers sorted by portfolio size so the big names surface first.
   const devCounts = {};

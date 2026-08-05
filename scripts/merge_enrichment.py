@@ -74,10 +74,14 @@ def main():
                 touched = True
         if touched:
             applied += 1
-            # A record carrying real pricing is no longer registry-only.
+            # A record carrying real pricing is no longer registry-only. Pricing gets
+            # its own confidence: TNRERA never publishes a rate, so even a record
+            # verified against the official export carries only *reported* pricing,
+            # and collapsing the two would put a "verified" badge on a teaser rate.
             if p.get('price_sqft_min') or p.get('ticket_min_lakh'):
                 p['source'] = 'curated'
-                p['data_confidence'] = r.get('data_confidence') or 'reported'
+                p['price_confidence'] = r.get('data_confidence') or 'reported'
+                p.setdefault('data_confidence', 'reported')
                 priced += 1
         else:
             no_data += 1

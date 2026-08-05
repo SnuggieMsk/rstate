@@ -19,6 +19,11 @@ const CRI = (() => {
              distressed: distressed.distressed };
   }
 
+  // A record stays in the dataset forever, but these three states mean it should
+  // not be counted, ranked or mapped alongside live projects.
+  const RETIRED = new Set(['withdrawn', 'superseded', 'unverified']);
+  function isLive(p) { return !RETIRED.has(p.status); }
+
   // ---- Persona lens ----------------------------------------------------
   const PERSONAS = [
     ['all', 'All'],
@@ -119,6 +124,15 @@ const CRI = (() => {
     if (c === 'verified') return '<span class="verified-badge">✓ verified on RERA portal</span>';
     const label = { reported: 'reported', estimated: 'estimated' }[c] || c;
     return `<span class="conf">${label}</span>`;
+  }
+
+  // TNRERA publishes no prices, so a registration verified against the official
+  // export still carries only researched pricing. Say which claim is which.
+  function priceConfHTML(p) {
+    if (!p.price_sqft_min && !p.ticket_min_lakh) return '';
+    const c = p.price_confidence || p.data_confidence;
+    if (c === 'verified') return '';
+    return `<span class="conf" title="TNRERA does not publish prices — this rate comes from developer or portal listings">price ${c || 'reported'}</span>`;
   }
 
   function stageLabel(s) {
@@ -250,8 +264,8 @@ const CRI = (() => {
     return refresh;
   }
 
-  return { loadAll, loadJSON, scoreBand, BAND_COLORS, scoreHTML, riskHTML, tagsHTML,
-           priceHTML, fmtN, confHTML, stageLabel, sourcesHTML, breakdownHTML,
+  return { loadAll, loadJSON, isLive, scoreBand, BAND_COLORS, scoreHTML, riskHTML, tagsHTML,
+           priceHTML, fmtN, confHTML, priceConfHTML, stageLabel, sourcesHTML, breakdownHTML,
            initTheme, setRefreshed,
            persona, matchesPersona, initPersonaBar, money, ticketHTML,
            compareList, toggleCompare, tierBadge, initCompareBar, skeletons };

@@ -825,28 +825,19 @@
     "https://www.mouthshut.com/builders-and-developers/asv-construction-pvt-ltd-chennai-reviews-925651579"
    ],
    "data_confidence": "low",
-   "project_count": 1,
-   "active_projects": 1,
-   "zones": [
-    "Southwest Chennai"
-   ],
-   "localities": [
-    "Nandambakkam"
-   ],
-   "stage_mix": {
-    "new-launch": 1
-   },
-   "avg_upside_score": 64,
-   "best_project": {
-    "name": "Asv Crn Business Park",
-    "id": "asv-crn-business-park-0196",
-    "score": 64
-   },
+   "project_count": 0,
+   "active_projects": 0,
+   "zones": [],
+   "localities": [],
+   "stage_mix": {},
+   "avg_upside_score": null,
+   "best_project": null,
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
    "segments": [],
-   "rera_registered_count": 1,
-   "high_risk_count": 0
+   "rera_registered_count": 0,
+   "high_risk_count": 0,
+   "profile_only": true
   },
   {
    "name": "Aaalam Promoters",
@@ -1023,11 +1014,11 @@
     "under-construction": 1,
     "new-launch": 2
    },
-   "avg_upside_score": 49,
+   "avg_upside_score": 55,
    "best_project": {
     "name": "Adityaram Palace City Paradise",
     "id": "adityaram-palace-city-paradise-0241",
-    "score": 59
+    "score": 76
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -1378,11 +1369,11 @@
    "stage_mix": {
     "new-launch": 1
    },
-   "avg_upside_score": 60,
+   "avg_upside_score": 73,
    "best_project": {
     "name": "Saraswati",
     "id": "saraswati-0259",
-    "score": 60
+    "score": 73
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -1622,23 +1613,46 @@
     "https://www.commonfloor.com/chennai-property/projects/status-completed/builder-arihant-foundations-and-housing-limited-2066mj"
    ],
    "data_confidence": "high",
-   "project_count": 3,
-   "active_projects": 3,
+   "project_count": 2,
+   "active_projects": 2,
    "zones": [
     "Central Chennai",
-    "ECR",
     "Far North"
    ],
    "localities": [
     "Chennai",
-    "Palavakkam",
     "Tiruvallur-Ponneri belt"
    ],
    "stage_mix": {
-    "new-launch": 2,
-    "under-construction": 1
+    "new-launch": 1,
+    "nearing-possession": 1
    },
-   "avg_upside_score": 72,
+   "avg_upside_score": 66,
+   "best_project": {
+    "name": "Arihant Vivriti",
+    "id": "arihant-vivriti-0097",
+    "score": 68
+   },
+   "ticket_min_lakh": null,
+   "ticket_max_lakh": null,
+   "segments": [],
+   "rera_registered_count": 2,
+   "high_risk_count": 0
+  },
+  {
+   "name": "Arihanth Foundations & Housing",
+   "project_count": 1,
+   "active_projects": 1,
+   "zones": [
+    "ECR"
+   ],
+   "localities": [
+    "Palavakkam"
+   ],
+   "stage_mix": {
+    "new-launch": 1
+   },
+   "avg_upside_score": 76,
    "best_project": {
     "name": "Arihant Vaayu",
     "id": "arihant-vaayu-0087",
@@ -1646,10 +1660,8 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [
-    "executive"
-   ],
-   "rera_registered_count": 3,
+   "segments": [],
+   "rera_registered_count": 1,
    "high_risk_count": 0
   },
   {
@@ -2166,6 +2178,31 @@
    "high_risk_count": 0
   },
   {
+   "name": "Asv Constructions",
+   "project_count": 1,
+   "active_projects": 1,
+   "zones": [
+    "Southwest Chennai"
+   ],
+   "localities": [
+    "Nandambakkam"
+   ],
+   "stage_mix": {
+    "new-launch": 1
+   },
+   "avg_upside_score": 64,
+   "best_project": {
+    "name": "Asv Crn Business Park",
+    "id": "asv-crn-business-park-0196",
+    "score": 64
+   },
+   "ticket_min_lakh": null,
+   "ticket_max_lakh": null,
+   "segments": [],
+   "rera_registered_count": 1,
+   "high_risk_count": 0
+  },
+  {
    "name": "Asvini Fisheries",
    "project_count": 1,
    "active_projects": 1,
@@ -2674,9 +2711,9 @@
    ],
    "stage_mix": {
     "pre-launch": 1,
-    "under-construction": 1
+    "new-launch": 1
    },
-   "avg_upside_score": 74,
+   "avg_upside_score": 78,
    "best_project": {
     "name": "Baashyaam Crowne Plaza (Crowne Plaza site redevelopment)",
     "id": "baashyaam-crowne-plaza-crowne-plaza-site-redevelopment",
@@ -2843,27 +2880,31 @@
   },
   {
    "name": "Beaver Construction",
-   "project_count": 1,
-   "active_projects": 1,
+   "project_count": 2,
+   "active_projects": 2,
    "zones": [
+    "Central Chennai",
     "Chennai (other)"
    ],
    "localities": [
-    "Chennai district"
+    "Chennai district",
+    "Mylapore"
    ],
    "stage_mix": {
-    "under-construction": 1
+    "under-construction": 2
    },
-   "avg_upside_score": 51,
+   "avg_upside_score": 56,
    "best_project": {
-    "name": "Beaver's Venna Garden",
-    "id": "beaver-s-venna-garden",
-    "score": 51
+    "name": "Shivalaya",
+    "id": "shivalaya-0165",
+    "score": 60
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
-   "segments": [],
-   "rera_registered_count": 1,
+   "ticket_min_lakh": 411,
+   "ticket_max_lakh": 411,
+   "segments": [
+    "boardroom"
+   ],
+   "rera_registered_count": 2,
    "high_risk_count": 0
   },
   {
@@ -3009,15 +3050,15 @@
     "West Chennai"
    ],
    "stage_mix": {
-    "new-launch": 3,
-    "under-construction": 1,
+    "new-launch": 2,
+    "under-construction": 2,
     "pre-launch": 1
    },
-   "avg_upside_score": 76,
+   "avg_upside_score": 73,
    "best_project": {
-    "name": "Brigade Stellaris",
-    "id": "brigade-stellaris-0052",
-    "score": 84
+    "name": "Brigade Altius",
+    "id": "brigade-altius",
+    "score": 83
    },
    "ticket_min_lakh": 125,
    "ticket_max_lakh": 820,
@@ -3450,28 +3491,30 @@
    "localities": [
     "Adyar",
     "Arumbakkam",
-    "Chengalpattu town",
     "Madhavaram",
     "Pallavaram",
     "Perungudi",
     "Sholinganallur",
     "Tambaram",
+    "Vengambakkam",
     "West Chennai"
    ],
    "stage_mix": {
-    "new-launch": 5,
-    "under-construction": 4
+    "under-construction": 6,
+    "new-launch": 3
    },
-   "avg_upside_score": 70,
+   "avg_upside_score": 69,
    "best_project": {
-    "name": "Casagrand Aquagrove",
-    "id": "casagrand-aquagrove-0183",
+    "name": "Casagrand Reva",
+    "id": "casagrand-reva",
     "score": 78
    },
    "ticket_min_lakh": 49,
    "ticket_max_lakh": 293,
    "segments": [
-    "executive"
+    "boardroom",
+    "executive",
+    "value"
    ],
    "rera_registered_count": 9,
    "high_risk_count": 0
@@ -3505,22 +3548,23 @@
     "Central Chennai"
    ],
    "localities": [
-    "Kodambakkam",
+    "Ashok Nagar",
     "Nungambakkam"
    ],
    "stage_mix": {
-    "new-launch": 2
+    "under-construction": 1,
+    "new-launch": 1
    },
-   "avg_upside_score": 70,
+   "avg_upside_score": 62,
    "best_project": {
-    "name": "Sri Ramachandra",
-    "id": "sri-ramachandra-0141",
-    "score": 76
+    "name": "Vedhagam",
+    "id": "vedhagam-0032",
+    "score": 64
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 459,
+   "ticket_max_lakh": 570,
    "segments": [
-    "executive"
+    "boardroom"
    ],
    "rera_registered_count": 2,
    "high_risk_count": 0
@@ -3868,11 +3912,11 @@
     "new-launch": 1,
     "under-construction": 2
    },
-   "avg_upside_score": 54,
+   "avg_upside_score": 60,
    "best_project": {
-    "name": "Amara Aneja",
-    "id": "amara-aneja-0409",
-    "score": 57
+    "name": "Amara Adhyatma",
+    "id": "amara-adhyatma-0049",
+    "score": 72
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -4201,8 +4245,8 @@
     "https://breakingac.com/news-from-our-partners/top-10-trusted-real-estate-developers-in-chennai-2026-edition/"
    ],
    "data_confidence": "low",
-   "project_count": 9,
-   "active_projects": 9,
+   "project_count": 8,
+   "active_projects": 8,
    "zones": [
     "Central Chennai",
     "GST Road",
@@ -4212,57 +4256,32 @@
     "Southwest Chennai"
    ],
    "localities": [
-    "Adambakkam",
     "Aminjikkarai",
     "Arasankazhani",
     "Guduvancheri",
-    "Kancheepuram",
+    "Madambakkam",
     "Perungalathur",
     "Pudupakkam",
     "Santhavellore- A",
     "Semmancheri"
    ],
    "stage_mix": {
-    "new-launch": 7,
-    "under-construction": 2
+    "under-construction": 6,
+    "new-launch": 1,
+    "pre-launch": 1
    },
-   "avg_upside_score": 58,
+   "avg_upside_score": 56,
    "best_project": {
-    "name": "Madison By Dac",
-    "id": "madison-by-dac-0208",
-    "score": 64
+    "name": "Cambridge By Dac",
+    "id": "cambridge-by-dac-0041",
+    "score": 72
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 19.49,
+   "ticket_max_lakh": 255,
    "segments": [
     "executive"
    ],
-   "rera_registered_count": 9,
-   "high_risk_count": 0
-  },
-  {
-   "name": "DLF",
-   "project_count": 1,
-   "active_projects": 1,
-   "zones": [
-    "GST Road"
-   ],
-   "localities": [
-    "Mamallapuram"
-   ],
-   "stage_mix": {
-    "under-construction": 1
-   },
-   "avg_upside_score": 69,
-   "best_project": {
-    "name": "Parc Social",
-    "id": "parc-social-0315",
-    "score": 69
-   },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
-   "segments": [],
-   "rera_registered_count": 1,
+   "rera_registered_count": 8,
    "high_risk_count": 0
   },
   {
@@ -4287,33 +4306,24 @@
     "https://www.commonfloor.com/chennai-property/projects/status-ongoing/builder-dra-homes-o9ngsk"
    ],
    "data_confidence": "medium",
-   "project_count": 10,
-   "active_projects": 10,
+   "project_count": 4,
+   "active_projects": 4,
    "zones": [
-    "Central Chennai",
-    "Far North",
-    "GST Road",
     "North Chennai",
     "OMR",
     "West Chennai"
    ],
    "localities": [
     "Chembarambakkam",
-    "Chengalpattu town",
-    "Chennai",
-    "Egattur",
     "Madhavaram",
-    "Mylapore",
-    "Navalur",
-    "Ponneri",
-    "Sholinganallur"
+    "Navalur"
    ],
    "stage_mix": {
-    "new-launch": 5,
     "pre-launch": 1,
-    "under-construction": 4
+    "new-launch": 2,
+    "under-construction": 1
    },
-   "avg_upside_score": 67,
+   "avg_upside_score": 74,
    "best_project": {
     "name": "DRA Inara",
     "id": "dra-inara",
@@ -4325,7 +4335,32 @@
     "boardroom",
     "executive"
    ],
-   "rera_registered_count": 8,
+   "rera_registered_count": 2,
+   "high_risk_count": 0
+  },
+  {
+   "name": "Dac Promoters",
+   "project_count": 1,
+   "active_projects": 1,
+   "zones": [
+    "Kanchipuram"
+   ],
+   "localities": [
+    "Kancheepuram"
+   ],
+   "stage_mix": {
+    "under-construction": 1
+   },
+   "avg_upside_score": 51,
+   "best_project": {
+    "name": "Millennium By Dac",
+    "id": "millennium-by-dac-0221",
+    "score": 51
+   },
+   "ticket_min_lakh": 68,
+   "ticket_max_lakh": 83,
+   "segments": [],
+   "rera_registered_count": 1,
    "high_risk_count": 0
   },
   {
@@ -4504,6 +4539,31 @@
    "high_risk_count": 0
   },
   {
+   "name": "Dlf Southern Towns",
+   "project_count": 1,
+   "active_projects": 1,
+   "zones": [
+    "GST Road"
+   ],
+   "localities": [
+    "Mamallapuram"
+   ],
+   "stage_mix": {
+    "under-construction": 1
+   },
+   "avg_upside_score": 69,
+   "best_project": {
+    "name": "Parc Social",
+    "id": "parc-social-0315",
+    "score": 69
+   },
+   "ticket_min_lakh": null,
+   "ticket_max_lakh": null,
+   "segments": [],
+   "rera_registered_count": 1,
+   "high_risk_count": 0
+  },
+  {
    "name": "Doshi Housing",
    "project_count": 0,
    "active_projects": 0,
@@ -4542,6 +4602,38 @@
     "https://www.nobroker.in/doshi-housing-projects-chennai"
    ],
    "data_confidence": "low"
+  },
+  {
+   "name": "Dra Aadithya South City Projects",
+   "project_count": 3,
+   "active_projects": 3,
+   "zones": [
+    "Central Chennai",
+    "GST Road",
+    "OMR"
+   ],
+   "localities": [
+    "Chengalpattu town",
+    "Chennai",
+    "Egattur"
+   ],
+   "stage_mix": {
+    "new-launch": 1,
+    "under-construction": 2
+   },
+   "avg_upside_score": 58,
+   "best_project": {
+    "name": "\"DRA Marina 100\"",
+    "id": "dra-marina-100-0115",
+    "score": 74
+   },
+   "ticket_min_lakh": null,
+   "ticket_max_lakh": null,
+   "segments": [
+    "executive"
+   ],
+   "rera_registered_count": 3,
+   "high_risk_count": 0
   },
   {
    "name": "E Imala",
@@ -5406,7 +5498,7 @@
    "active_projects": 7,
    "zones": [
     "Central Chennai",
-    "Far West",
+    "Far North",
     "South Chennai",
     "Sriperumbudur–Oragadam",
     "West Chennai"
@@ -5415,24 +5507,27 @@
     "Achettipalli",
     "Ambattur",
     "Jalladianpet",
+    "Karanodai",
+    "Kuthambakkam",
     "Medavakkam",
-    "Sriperumbudur",
-    "Thiruvallur"
+    "Sriperumbudur"
    ],
    "stage_mix": {
-    "under-construction": 3,
-    "new-launch": 4
+    "nearing-possession": 2,
+    "new-launch": 3,
+    "under-construction": 2
    },
-   "avg_upside_score": 69,
+   "avg_upside_score": 63,
    "best_project": {
     "name": "G Square South Crown",
     "id": "g-square-south-crown",
     "score": 85
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 10.74,
+   "ticket_max_lakh": 44.9,
    "segments": [
-    "executive"
+    "executive",
+    "value"
    ],
    "rera_registered_count": 6,
    "high_risk_count": 0
@@ -6802,18 +6897,19 @@
     "Mylapore"
    ],
    "stage_mix": {
-    "under-construction": 1,
-    "new-launch": 1
+    "under-construction": 2
    },
-   "avg_upside_score": 68,
+   "avg_upside_score": 62,
    "best_project": {
-    "name": "Raghu",
-    "id": "raghu-0012",
-    "score": 72
+    "name": "Kenz Krest",
+    "id": "kenz-krest-0316",
+    "score": 63
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
-   "segments": [],
+   "ticket_min_lakh": 341,
+   "ticket_max_lakh": 395,
+   "segments": [
+    "boardroom"
+   ],
    "rera_registered_count": 2,
    "high_risk_count": 0
   },
@@ -7207,11 +7303,11 @@
    "stage_mix": {
     "under-construction": 1
    },
-   "avg_upside_score": 38,
+   "avg_upside_score": 51,
    "best_project": {
     "name": "JMB Alaya (JMB RRM Alaya)",
     "id": "jmb-alaya-jmb-rrm-alaya",
-    "score": 38
+    "score": 51
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -7322,8 +7418,8 @@
     "https://www.mouthshut.com/builders-and-developers/jain-housing-constructions-ltd-chennai-reviews-925652315"
    ],
    "data_confidence": "medium",
-   "project_count": 5,
-   "active_projects": 5,
+   "project_count": 4,
+   "active_projects": 4,
    "zones": [
     "Central Chennai",
     "GST Road",
@@ -7335,10 +7431,11 @@
     "Semmancheri"
    ],
    "stage_mix": {
-    "new-launch": 3,
-    "under-construction": 2
+    "new-launch": 2,
+    "under-construction": 1,
+    "pre-launch": 1
    },
-   "avg_upside_score": 64,
+   "avg_upside_score": 68,
    "best_project": {
     "name": "Jains Aadhya",
     "id": "jains-aadhya",
@@ -7350,7 +7447,7 @@
     "executive",
     "value"
    ],
-   "rera_registered_count": 5,
+   "rera_registered_count": 4,
    "high_risk_count": 0
   },
   {
@@ -7377,6 +7474,31 @@
    "segments": [],
    "rera_registered_count": 1,
    "high_risk_count": 1
+  },
+  {
+   "name": "Jains Vip Developers",
+   "project_count": 1,
+   "active_projects": 1,
+   "zones": [
+    "Central Chennai"
+   ],
+   "localities": [
+    "Chennai"
+   ],
+   "stage_mix": {
+    "under-construction": 1
+   },
+   "avg_upside_score": 55,
+   "best_project": {
+    "name": "Aura Residences Phase - 2",
+    "id": "aura-residences-phase-2-4121",
+    "score": 55
+   },
+   "ticket_min_lakh": null,
+   "ticket_max_lakh": null,
+   "segments": [],
+   "rera_registered_count": 1,
+   "high_risk_count": 0
   },
   {
    "name": "Janakiraman M A",
@@ -7668,10 +7790,10 @@
     "new-launch": 2,
     "under-construction": 1
    },
-   "avg_upside_score": 47,
+   "avg_upside_score": 48,
    "best_project": {
-    "name": "Jones Terra Avenue Extension",
-    "id": "jones-terra-avenue-extension-3017",
+    "name": "Jones Aurora",
+    "id": "jones-aurora-0215",
     "score": 51
    },
    "ticket_min_lakh": null,
@@ -8589,25 +8711,27 @@
    ],
    "localities": [
     "Egmore",
-    "Ennore",
+    "Kuthambakkam",
     "Mogappair",
-    "Poonamallee",
-    "Sriperumbudur"
+    "Sriperumbudur",
+    "Tiruvottiyur"
    ],
    "stage_mix": {
-    "new-launch": 4,
+    "new-launch": 3,
+    "pre-launch": 1,
     "under-construction": 1
    },
-   "avg_upside_score": 71,
+   "avg_upside_score": 69,
    "best_project": {
     "name": "Kg Kingdom Of Prosperity",
     "id": "kg-kingdom-of-prosperity-1058",
-    "score": 85
+    "score": 93
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 15.34,
+   "ticket_max_lakh": 102,
    "segments": [
-    "executive"
+    "executive",
+    "value"
    ],
    "rera_registered_count": 4,
    "high_risk_count": 0
@@ -8700,11 +8824,11 @@
    "stage_mix": {
     "new-launch": 1
    },
-   "avg_upside_score": 47,
+   "avg_upside_score": 64,
    "best_project": {
     "name": "RERA Apartment by KVPS Property Developers Private Limited",
     "id": "rera-apartment-by-kvps-property-developers-private-limited-0160",
-    "score": 47
+    "score": 64
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -8813,6 +8937,31 @@
    "high_risk_count": 0
   },
   {
+   "name": "Kalpesh Sobhagmal",
+   "project_count": 1,
+   "active_projects": 1,
+   "zones": [
+    "Southwest Chennai"
+   ],
+   "localities": [
+    "Gerugambakkam"
+   ],
+   "stage_mix": {
+    "under-construction": 1
+   },
+   "avg_upside_score": 66,
+   "best_project": {
+    "name": "Guru Goutham Nagar",
+    "id": "guru-goutham-nagar-4055",
+    "score": 66
+   },
+   "ticket_min_lakh": null,
+   "ticket_max_lakh": null,
+   "segments": [],
+   "rera_registered_count": 1,
+   "high_risk_count": 0
+  },
+  {
    "name": "Kamalanathan S",
    "project_count": 1,
    "active_projects": 1,
@@ -8850,11 +8999,11 @@
    "stage_mix": {
     "new-launch": 1
    },
-   "avg_upside_score": 55,
+   "avg_upside_score": 72,
    "best_project": {
     "name": "Shirinivos Apartments",
     "id": "shirinivos-apartments-0137",
-    "score": 55
+    "score": 72
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -9531,9 +9680,10 @@
     "Sriperumbudur"
    ],
    "stage_mix": {
-    "new-launch": 3
+    "new-launch": 2,
+    "under-construction": 1
    },
-   "avg_upside_score": 82,
+   "avg_upside_score": 79,
    "best_project": {
     "name": "Harmonia Pavilion (Lancor Town & Country)",
     "id": "harmonia-pavilion-lancor-town-country",
@@ -10789,6 +10939,31 @@
     "score": 64
    },
    "ticket_min_lakh": null,
+   "ticket_max_lakh": null,
+   "segments": [],
+   "rera_registered_count": 1,
+   "high_risk_count": 0
+  },
+  {
+   "name": "Mahendra Kumar Gupta",
+   "project_count": 1,
+   "active_projects": 1,
+   "zones": [
+    "Far North"
+   ],
+   "localities": [
+    "Ponneri"
+   ],
+   "stage_mix": {
+    "nearing-possession": 1
+   },
+   "avg_upside_score": 37,
+   "best_project": {
+    "name": "Mg Avenue",
+    "id": "mg-avenue-3965",
+    "score": 37
+   },
+   "ticket_min_lakh": 9.45,
    "ticket_max_lakh": null,
    "segments": [],
    "rera_registered_count": 1,
@@ -12816,11 +12991,11 @@
    "stage_mix": {
     "new-launch": 1
    },
-   "avg_upside_score": 47,
+   "avg_upside_score": 60,
    "best_project": {
     "name": "Sai Prestige",
     "id": "sai-prestige-0186",
-    "score": 47
+    "score": 60
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -14047,11 +14222,11 @@
    "stage_mix": {
     "new-launch": 1
    },
-   "avg_upside_score": 47,
+   "avg_upside_score": 60,
    "best_project": {
     "name": "Asta",
     "id": "asta-0004",
-    "score": 47
+    "score": 60
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -14097,11 +14272,11 @@
    "stage_mix": {
     "new-launch": 1
    },
-   "avg_upside_score": 47,
+   "avg_upside_score": 60,
    "best_project": {
     "name": "RERA Apartment by NISHA PURSOTHAMAN",
     "id": "rera-apartment-by-nisha-pursothaman-0139",
-    "score": 47
+    "score": 60
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -14388,11 +14563,11 @@
    "stage_mix": {
     "new-launch": 1
    },
-   "avg_upside_score": 55,
+   "avg_upside_score": 72,
    "best_project": {
     "name": "\"Artha 30\"",
     "id": "artha-30-0266",
-    "score": 55
+    "score": 72
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -14913,11 +15088,11 @@
    "stage_mix": {
     "new-launch": 1
    },
-   "avg_upside_score": 59,
+   "avg_upside_score": 76,
    "best_project": {
     "name": "Bliss Tower (Tower A1-A2)",
     "id": "bliss-tower-tower-a1-a2-0192",
-    "score": 59
+    "score": 76
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -15472,14 +15647,14 @@
     "pre-launch": 2,
     "new-launch": 1
    },
-   "avg_upside_score": 84,
+   "avg_upside_score": 83,
    "best_project": {
-    "name": "Prestige Medavakkam (working name, Bharatnagar Buildcon LLP land)",
-    "id": "prestige-medavakkam-working-name-bharatnagar-buildcon-llp-la",
-    "score": 87
+    "name": "Prestige Palm Court",
+    "id": "prestige-palm-court",
+    "score": 86
    },
    "ticket_min_lakh": 72,
-   "ticket_max_lakh": 342,
+   "ticket_max_lakh": 354,
    "segments": [
     "boardroom",
     "executive"
@@ -16502,21 +16677,20 @@
    ],
    "localities": [
     "Madhavaram",
-    "Siruseri",
+    "Navalur",
     "Thoraipakkam"
    ],
    "stage_mix": {
-    "new-launch": 1,
-    "under-construction": 2
+    "under-construction": 3
    },
-   "avg_upside_score": 71,
+   "avg_upside_score": 67,
    "best_project": {
     "name": "Radiance Solitaire",
     "id": "radiance-solitaire",
     "score": 74
    },
    "ticket_min_lakh": 93,
-   "ticket_max_lakh": 352,
+   "ticket_max_lakh": 396,
    "segments": [
     "boardroom",
     "executive"
@@ -16865,17 +17039,17 @@
     "Pozhichalur"
    ],
    "stage_mix": {
-    "new-launch": 2,
-    "under-construction": 1
+    "under-construction": 2,
+    "new-launch": 1
    },
-   "avg_upside_score": 54,
+   "avg_upside_score": 51,
    "best_project": {
     "name": "Rajparis Aeroville",
     "id": "rajparis-aeroville-0102",
-    "score": 60
+    "score": 51
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 49.35,
+   "ticket_max_lakh": 152,
    "segments": [],
    "rera_registered_count": 3,
    "high_risk_count": 0
@@ -17225,11 +17399,11 @@
    "stage_mix": {
     "new-launch": 1
    },
-   "avg_upside_score": 48,
+   "avg_upside_score": 52,
    "best_project": {
     "name": "Tulive Flora",
     "id": "tulive-flora-0130",
-    "score": 48
+    "score": 52
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -17377,11 +17551,11 @@
    "stage_mix": {
     "under-construction": 1
    },
-   "avg_upside_score": 38,
+   "avg_upside_score": 51,
    "best_project": {
     "name": "Romaa's Darren",
     "id": "romaa-s-darren",
-    "score": 38
+    "score": 51
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -17578,11 +17752,11 @@
    "stage_mix": {
     "new-launch": 1
    },
-   "avg_upside_score": 55,
+   "avg_upside_score": 68,
    "best_project": {
     "name": "Janav Jubliance",
     "id": "janav-jubliance-0096",
-    "score": 55
+    "score": 68
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -19758,33 +19932,33 @@
    ],
    "data_confidence": "medium",
    "project_count": 5,
-   "active_projects": 5,
+   "active_projects": 4,
    "zones": [
-    "Central Chennai",
     "Sriperumbudur–Oragadam",
     "West Chennai"
    ],
    "localities": [
     "Koyambedu",
-    "Koyembedu",
     "Poonamallee",
     "Sriperumbudur",
     "Thirumazhisai"
    ],
    "stage_mix": {
-    "new-launch": 4,
+    "new-launch": 3,
     "pre-launch": 1
    },
-   "avg_upside_score": 69,
+   "avg_upside_score": 78,
    "best_project": {
-    "name": "Shriram Koyambedu project (working name)",
-    "id": "shriram-koyambedu-project-working-name",
-    "score": 87
+    "name": "Shriram Swargam",
+    "id": "shriram-swargam-0220",
+    "score": 95
    },
-   "ticket_min_lakh": 38.5,
-   "ticket_max_lakh": 54,
+   "ticket_min_lakh": 26,
+   "ticket_max_lakh": 370,
    "segments": [
-    "executive"
+    "boardroom",
+    "executive",
+    "value"
    ],
    "rera_registered_count": 3,
    "high_risk_count": 0
@@ -20087,35 +20261,29 @@
     "https://www.sobha.com/properties-for-sale-in-chennai/"
    ],
    "data_confidence": "high",
-   "project_count": 3,
-   "active_projects": 3,
+   "project_count": 2,
+   "active_projects": 1,
    "zones": [
-    "OMR",
-    "South Chennai",
-    "Southwest Chennai"
+    "OMR"
    ],
    "localities": [
-    "Gerugambakkam",
-    "Siruseri",
-    "Velachery"
+    "Siruseri"
    ],
    "stage_mix": {
-    "under-construction": 1,
-    "pre-launch": 1,
-    "new-launch": 1
+    "pre-launch": 1
    },
-   "avg_upside_score": 80,
+   "avg_upside_score": 87,
    "best_project": {
-    "name": "Sobha Velachery",
-    "id": "sobha-velachery",
-    "score": 88
+    "name": "Sobha Siruseri OMR (working name: Sobha OMR Road)",
+    "id": "sobha-siruseri-omr-working-name-sobha-omr-road",
+    "score": 87
    },
    "ticket_min_lakh": 62.5,
    "ticket_max_lakh": 194,
    "segments": [
     "executive"
    ],
-   "rera_registered_count": 1,
+   "rera_registered_count": 0,
    "high_risk_count": 0
   },
   {
@@ -20381,11 +20549,11 @@
    "stage_mix": {
     "new-launch": 1
    },
-   "avg_upside_score": 47,
+   "avg_upside_score": 60,
    "best_project": {
     "name": "Sreshta Maudgalya",
     "id": "sreshta-maudgalya-0161",
-    "score": 47
+    "score": 60
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -20781,11 +20949,11 @@
    "stage_mix": {
     "new-launch": 1
    },
-   "avg_upside_score": 47,
+   "avg_upside_score": 60,
    "best_project": {
     "name": "Sterling Sree Ramachandra",
     "id": "sterling-sree-ramachandra-0232",
-    "score": 47
+    "score": 60
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -21263,11 +21431,11 @@
    "stage_mix": {
     "new-launch": 1
    },
-   "avg_upside_score": 59,
+   "avg_upside_score": 68,
    "best_project": {
     "name": "Legacy Royale",
     "id": "legacy-royale-0063",
-    "score": 59
+    "score": 68
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -21417,11 +21585,11 @@
    "stage_mix": {
     "new-launch": 1
    },
-   "avg_upside_score": 54,
+   "avg_upside_score": 71,
    "best_project": {
     "name": "Aurum Villa Phase 3",
     "id": "aurum-villa-phase-3-0147",
-    "score": 54
+    "score": 71
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -21680,6 +21848,31 @@
    "high_risk_count": 1
   },
   {
+   "name": "T. Ramachandra Reddy",
+   "project_count": 1,
+   "active_projects": 1,
+   "zones": [
+    "GST Road"
+   ],
+   "localities": [
+    "Thirukazhukundram"
+   ],
+   "stage_mix": {
+    "new-launch": 1
+   },
+   "avg_upside_score": 51,
+   "best_project": {
+    "name": "LEGACY Phase-I",
+    "id": "legacy-phase-i-1664",
+    "score": 51
+   },
+   "ticket_min_lakh": null,
+   "ticket_max_lakh": null,
+   "segments": [],
+   "rera_registered_count": 1,
+   "high_risk_count": 0
+  },
+  {
    "name": "T.G.Chammundeeshwari",
    "project_count": 1,
    "active_projects": 1,
@@ -21894,23 +22087,22 @@
     "Vandalur"
    ],
    "stage_mix": {
-    "under-construction": 2,
-    "pre-launch": 1,
+    "under-construction": 3,
     "new-launch": 2
    },
-   "avg_upside_score": 72,
+   "avg_upside_score": 69,
    "best_project": {
-    "name": "TVS Emerald Serene Springs",
-    "id": "tvs-emerald-serene-springs",
-    "score": 83
+    "name": "TVS Emerald Verde Vista",
+    "id": "tvs-emerald-verde-vista",
+    "score": 79
    },
-   "ticket_min_lakh": 78,
+   "ticket_min_lakh": 74,
    "ticket_max_lakh": 690,
    "segments": [
     "boardroom",
     "executive"
    ],
-   "rera_registered_count": 4,
+   "rera_registered_count": 5,
    "high_risk_count": 0
   },
   {
@@ -22344,11 +22536,11 @@
     "new-launch": 4,
     "under-construction": 2
    },
-   "avg_upside_score": 58,
+   "avg_upside_score": 62,
    "best_project": {
-    "name": "Kotturpuram Scheme",
-    "id": "kotturpuram-scheme-0295",
-    "score": 63
+    "name": "Andimaniyam Thottam",
+    "id": "andimaniyam-thottam-0024",
+    "score": 72
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -23350,34 +23542,30 @@
     "https://www.squareyards.com/projects-by-vgn-in-chennai"
    ],
    "data_confidence": "low",
-   "project_count": 5,
-   "active_projects": 5,
+   "project_count": 1,
+   "active_projects": 1,
    "zones": [
-    "GST Road",
-    "Kanchipuram",
-    "South Chennai"
+    "Southwest Chennai"
    ],
    "localities": [
-    "Koluthuvancherry",
-    "Kongadu",
-    "Pallavaram",
-    "Sasthirambakkam",
-    "Tambaram"
+    "Gerugambakkam"
    ],
    "stage_mix": {
-    "new-launch": 4,
-    "under-construction": 1
+    "new-launch": 1
    },
-   "avg_upside_score": 60,
+   "avg_upside_score": 77,
    "best_project": {
     "name": "VGN Meridian Heights",
     "id": "vgn-meridian-heights",
-    "score": 79
+    "score": 77
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
-   "segments": [],
-   "rera_registered_count": 5,
+   "ticket_min_lakh": 59.5,
+   "ticket_max_lakh": 91,
+   "segments": [
+    "executive",
+    "value"
+   ],
+   "rera_registered_count": 1,
    "high_risk_count": 0
   },
   {
@@ -23656,6 +23844,85 @@
    "high_risk_count": 0
   },
   {
+   "name": "Vgn Enterprises",
+   "project_count": 1,
+   "active_projects": 1,
+   "zones": [
+    "Kanchipuram"
+   ],
+   "localities": [
+    "Koluthuvancherry"
+   ],
+   "stage_mix": {
+    "nearing-possession": 1
+   },
+   "avg_upside_score": 35,
+   "best_project": {
+    "name": "Vgn Grandeur Phase - Ii - Extension",
+    "id": "vgn-grandeur-phase-ii-extension-1434",
+    "score": 35
+   },
+   "ticket_min_lakh": 107,
+   "ticket_max_lakh": 113,
+   "segments": [],
+   "rera_registered_count": 1,
+   "high_risk_count": 0
+  },
+  {
+   "name": "Vgn Homes",
+   "project_count": 1,
+   "active_projects": 1,
+   "zones": [
+    "GST Road"
+   ],
+   "localities": [
+    "Tambaram"
+   ],
+   "stage_mix": {
+    "nearing-possession": 1
+   },
+   "avg_upside_score": 59,
+   "best_project": {
+    "name": "Vgn Heritage Springz - Phase - Ii",
+    "id": "vgn-heritage-springz-phase-ii-0980",
+    "score": 59
+   },
+   "ticket_min_lakh": 36,
+   "ticket_max_lakh": 91,
+   "segments": [
+    "executive"
+   ],
+   "rera_registered_count": 1,
+   "high_risk_count": 0
+  },
+  {
+   "name": "Vgn Infrastructure",
+   "project_count": 2,
+   "active_projects": 2,
+   "zones": [
+    "GST Road"
+   ],
+   "localities": [
+    "Kongadu",
+    "Sasthirambakkam"
+   ],
+   "stage_mix": {
+    "under-construction": 1,
+    "nearing-possession": 1
+   },
+   "avg_upside_score": 42,
+   "best_project": {
+    "name": "Vgn Abhivrudhi Phase - Iii",
+    "id": "vgn-abhivrudhi-phase-iii-3234",
+    "score": 46
+   },
+   "ticket_min_lakh": 10,
+   "ticket_max_lakh": null,
+   "segments": [],
+   "rera_registered_count": 2,
+   "high_risk_count": 0
+  },
+  {
    "name": "Vibrant Offices Homes",
    "project_count": 1,
    "active_projects": 1,
@@ -23668,11 +23935,11 @@
    "stage_mix": {
     "new-launch": 1
    },
-   "avg_upside_score": 59,
+   "avg_upside_score": 72,
    "best_project": {
     "name": "Viaan",
     "id": "viaan-0205",
-    "score": 59
+    "score": 72
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -24381,11 +24648,11 @@
    "stage_mix": {
     "new-launch": 1
    },
-   "avg_upside_score": 55,
+   "avg_upside_score": 72,
    "best_project": {
     "name": "Yara Avante",
     "id": "yara-avante-0233",
-    "score": 55
+    "score": 72
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
