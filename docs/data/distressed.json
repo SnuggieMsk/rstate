@@ -48,8 +48,8 @@
     "executive",
     "value"
    ],
-   "discount_pct": 49,
-   "value_note": "Reserve ₹66.0L vs ~₹129L at the Pallavaram band midpoint (₹8,250/sqft × 1,560 sqft)"
+   "discount_pct": 46,
+   "value_note": "Reserve ₹66.0L vs ~₹123L at the Pallavaram band midpoint (₹7,900/sqft × 1,560 sqft)"
   },
   {
    "id": "auction-2-saligramam",
@@ -221,8 +221,8 @@
    "persona_fit": [
     "boardroom"
    ],
-   "discount_pct": 26,
-   "value_note": "Reserve ₹204.3L vs ~₹275L at the Porur band midpoint (₹7,875/sqft × 3,494 sqft)"
+   "discount_pct": 22,
+   "value_note": "Reserve ₹204.3L vs ~₹261L at the Porur band midpoint (₹7,475/sqft × 3,494 sqft)"
   },
   {
    "id": "auction-9-mangadu",
@@ -690,8 +690,8 @@
     "executive",
     "value"
    ],
-   "discount_pct": 66,
-   "value_note": "Reserve ₹45.6L vs ~₹135L at the Pallavaram band midpoint (₹8,250/sqft × 1,635 sqft)"
+   "discount_pct": 65,
+   "value_note": "Reserve ₹45.6L vs ~₹129L at the Pallavaram band midpoint (₹7,900/sqft × 1,635 sqft)"
   },
   {
    "id": "auction-28-madipakkam",
@@ -1019,8 +1019,8 @@
     "executive",
     "value"
    ],
-   "discount_pct": 43,
-   "value_note": "Reserve ₹53.0L vs ~₹93L at the Ambattur band midpoint (₹7,250/sqft × 1,280 sqft)"
+   "discount_pct": 41,
+   "value_note": "Reserve ₹53.0L vs ~₹89L at the Ambattur band midpoint (₹6,985/sqft × 1,280 sqft)"
   },
   {
    "id": "auction-2026-07-21-madambakkam",
@@ -1094,8 +1094,8 @@
    "persona_fit": [
     "executive"
    ],
-   "discount_pct": 21,
-   "value_note": "Reserve ₹43.3L vs ~₹55L at the Perambur band midpoint (₹9,100/sqft × 600 sqft)"
+   "discount_pct": 32,
+   "value_note": "Reserve ₹43.3L vs ~₹64L at the Perambur band midpoint (₹10,675/sqft × 600 sqft)"
   },
   {
    "id": "auction-2026-07-21-tambaram",
@@ -1145,8 +1145,8 @@
     "executive",
     "value"
    ],
-   "discount_pct": 82,
-   "value_note": "Reserve ₹45.0L vs ~₹247L at the Velachery band midpoint (₹10,550/sqft × 2,338 sqft)"
+   "discount_pct": 81,
+   "value_note": "Reserve ₹45.0L vs ~₹231L at the Velachery band midpoint (₹9,900/sqft × 2,338 sqft)"
   },
   {
    "id": "auction-2026-07-21-velachery",
@@ -1172,8 +1172,8 @@
     "executive",
     "value"
    ],
-   "discount_pct": 87,
-   "value_note": "Reserve ₹32.0L vs ~₹247L at the Velachery band midpoint (₹10,550/sqft × 2,338 sqft)"
+   "discount_pct": 86,
+   "value_note": "Reserve ₹32.0L vs ~₹231L at the Velachery band midpoint (₹9,900/sqft × 2,338 sqft)"
   },
   {
    "id": "auction-2026-07-21-velachery",
@@ -1199,7 +1199,7 @@
     "value"
    ],
    "discount_pct": 88,
-   "value_note": "Reserve ₹28.6L vs ~₹247L at the Velachery band midpoint (₹10,550/sqft × 2,338 sqft)"
+   "value_note": "Reserve ₹28.6L vs ~₹231L at the Velachery band midpoint (₹9,900/sqft × 2,338 sqft)"
   },
   {
    "id": "auction-2026-07-21-walajabad",
@@ -1350,8 +1350,8 @@
    "persona_fit": [
     "executive"
    ],
-   "discount_pct": -70,
-   "value_note": "Reserve ₹81.0L vs ~₹48L at the Vandalur band midpoint (₹5,000/sqft × 955 sqft)"
+   "discount_pct": -45,
+   "value_note": "Reserve ₹81.0L vs ~₹56L at the Vandalur band midpoint (₹5,850/sqft × 955 sqft)"
   },
   {
    "id": "auction-2026-07-23-madavilagam",
@@ -1499,8 +1499,8 @@
    "persona_fit": [
     "boardroom"
    ],
-   "discount_pct": -68,
-   "value_note": "Reserve ₹138.0L vs ~₹82L at the Medavakkam band midpoint (₹6,800/sqft × 1,205 sqft)"
+   "discount_pct": -64,
+   "value_note": "Reserve ₹138.0L vs ~₹84L at the Medavakkam band midpoint (₹7,000/sqft × 1,205 sqft)"
   },
   {
    "id": "auction-2026-07-23-mogappair",
@@ -1600,8 +1600,8 @@
    "persona_fit": [
     "executive"
    ],
-   "discount_pct": 17,
-   "value_note": "Reserve ₹95.0L vs ~₹114L at the Sholinganallur band midpoint (₹7,750/sqft × 1,475 sqft)"
+   "discount_pct": 20,
+   "value_note": "Reserve ₹95.0L vs ~₹119L at the Sholinganallur band midpoint (₹8,060/sqft × 1,475 sqft)"
   },
   {
    "id": "auction-2026-07-23-thalakkananchery",
@@ -1700,8 +1700,8 @@
    "persona_fit": [
     "executive"
    ],
-   "discount_pct": -65,
-   "value_note": "Reserve ₹37.0L vs ~₹22L at the Vandalur band midpoint (₹5,000/sqft × 449 sqft)"
+   "discount_pct": -41,
+   "value_note": "Reserve ₹37.0L vs ~₹26L at the Vandalur band midpoint (₹5,850/sqft × 449 sqft)"
   },
   {
    "id": "auction-2026-07-23-velachery",
@@ -1726,8 +1726,8 @@
    "persona_fit": [
     "boardroom"
    ],
-   "discount_pct": 24,
-   "value_note": "Reserve ₹175.0L vs ~₹232L at the Velachery band midpoint (₹10,550/sqft × 2,197 sqft)"
+   "discount_pct": 20,
+   "value_note": "Reserve ₹175.0L vs ~₹218L at the Velachery band midpoint (₹9,900/sqft × 2,197 sqft)"
   },
   {
    "id": "auction-2026-07-23-velachery",
@@ -1753,8 +1753,8 @@
     "executive",
     "value"
    ],
-   "discount_pct": 49,
-   "value_note": "Reserve ₹61.2L vs ~₹121L at the Velachery band midpoint (₹10,550/sqft × 1,145 sqft)"
+   "discount_pct": 46,
+   "value_note": "Reserve ₹61.2L vs ~₹113L at the Velachery band midpoint (₹9,900/sqft × 1,145 sqft)"
   },
   {
    "id": "auction-2026-07-24-adhanur",
@@ -2094,8 +2094,8 @@
    "persona_fit": [
     "executive"
    ],
-   "discount_pct": -37,
-   "value_note": "Reserve ₹58.2L vs ~₹42L at the Ambattur band midpoint (₹7,250/sqft × 585 sqft)"
+   "discount_pct": -42,
+   "value_note": "Reserve ₹58.2L vs ~₹41L at the Ambattur band midpoint (₹6,985/sqft × 585 sqft)"
   },
   {
    "id": "auction-2026-07-27-ambattur",
@@ -2120,8 +2120,8 @@
    "persona_fit": [
     "executive"
    ],
-   "discount_pct": -34,
-   "value_note": "Reserve ₹53.0L vs ~₹39L at the Ambattur band midpoint (₹7,250/sqft × 544 sqft)"
+   "discount_pct": -39,
+   "value_note": "Reserve ₹53.0L vs ~₹38L at the Ambattur band midpoint (₹6,985/sqft × 544 sqft)"
   },
   {
    "id": "auction-2026-07-27-avadi",
@@ -2392,8 +2392,8 @@
    "persona_fit": [
     "executive"
    ],
-   "discount_pct": -141,
-   "value_note": "Reserve ₹95.0L vs ~₹39L at the Pallavaram band midpoint (₹8,250/sqft × 478 sqft)"
+   "discount_pct": -152,
+   "value_note": "Reserve ₹95.0L vs ~₹38L at the Pallavaram band midpoint (₹7,900/sqft × 478 sqft)"
   },
   {
    "id": "auction-2026-07-27-perambur",
@@ -2418,8 +2418,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": 87,
-   "value_note": "Reserve ₹21.2L vs ~₹158L at the Perambur band midpoint (₹9,100/sqft × 1,741 sqft)"
+   "discount_pct": 89,
+   "value_note": "Reserve ₹21.2L vs ~₹186L at the Perambur band midpoint (₹10,675/sqft × 1,741 sqft)"
   },
   {
    "id": "auction-2026-07-27-perunthandalam",
@@ -2589,8 +2589,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": 26,
-   "value_note": "Reserve ₹11.7L vs ~₹16L at the Thiruporur band midpoint (₹3,700/sqft × 426 sqft)"
+   "discount_pct": 42,
+   "value_note": "Reserve ₹11.7L vs ~₹20L at the Thiruporur band midpoint (₹4,775/sqft × 426 sqft)"
   },
   {
    "id": "auction-2026-07-27-triplicane",
@@ -2663,8 +2663,8 @@
    "persona_fit": [
     "executive"
    ],
-   "discount_pct": 18,
-   "value_note": "Reserve ₹59.0L vs ~₹72L at the Ambattur band midpoint (₹7,250/sqft × 990 sqft)"
+   "discount_pct": 15,
+   "value_note": "Reserve ₹59.0L vs ~₹69L at the Ambattur band midpoint (₹6,985/sqft × 990 sqft)"
   },
   {
    "id": "auction-2026-07-28-ambattur",
@@ -2687,11 +2687,10 @@
    "data_confidence": "listed",
    "last_checked": "2026-07-20",
    "persona_fit": [
-    "executive",
-    "value"
+    "executive"
    ],
-   "discount_pct": 41,
-   "value_note": "Reserve ₹46.0L vs ~₹78L at the Ambattur band midpoint (₹7,250/sqft × 1,080 sqft)"
+   "discount_pct": 39,
+   "value_note": "Reserve ₹46.0L vs ~₹75L at the Ambattur band midpoint (₹6,985/sqft × 1,080 sqft)"
   },
   {
    "id": "auction-2026-07-28-beerakuppam",
@@ -3008,8 +3007,8 @@
    "persona_fit": [
     "executive"
    ],
-   "discount_pct": 38,
-   "value_note": "Reserve ₹33.8L vs ~₹54L at the Tambaram band midpoint (₹6,500/sqft × 834 sqft)"
+   "discount_pct": 39,
+   "value_note": "Reserve ₹33.8L vs ~₹55L at the Tambaram band midpoint (₹6,600/sqft × 834 sqft)"
   },
   {
    "id": "auction-2026-07-28-thiruporur",
@@ -3349,8 +3348,8 @@
     "boardroom",
     "value"
    ],
-   "discount_pct": 43,
-   "value_note": "Reserve ₹124.0L vs ~₹219L at the Sriperumbudur band midpoint (₹4,500/sqft × 4,860 sqft)"
+   "discount_pct": 45,
+   "value_note": "Reserve ₹124.0L vs ~₹227L at the Sriperumbudur band midpoint (₹4,675/sqft × 4,860 sqft)"
   },
   {
    "id": "auction-2026-07-29-sriperumbudur",
@@ -3375,8 +3374,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": 71,
-   "value_note": "Reserve ₹17.0L vs ~₹58L at the Sriperumbudur band midpoint (₹4,500/sqft × 1,300 sqft)"
+   "discount_pct": 72,
+   "value_note": "Reserve ₹17.0L vs ~₹61L at the Sriperumbudur band midpoint (₹4,675/sqft × 1,300 sqft)"
   },
   {
    "id": "auction-2026-07-29-tambaram",
@@ -3401,8 +3400,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": 60,
-   "value_note": "Reserve ₹17.9L vs ~₹45L at the Tambaram band midpoint (₹6,500/sqft × 694 sqft)"
+   "discount_pct": 61,
+   "value_note": "Reserve ₹17.9L vs ~₹46L at the Tambaram band midpoint (₹6,600/sqft × 694 sqft)"
   },
   {
    "id": "auction-2026-07-29-velachery",
@@ -3428,8 +3427,8 @@
     "executive",
     "value"
    ],
-   "discount_pct": 55,
-   "value_note": "Reserve ₹62.0L vs ~₹137L at the Velachery band midpoint (₹10,550/sqft × 1,300 sqft)"
+   "discount_pct": 52,
+   "value_note": "Reserve ₹62.0L vs ~₹129L at the Velachery band midpoint (₹9,900/sqft × 1,300 sqft)"
   },
   {
    "id": "auction-2026-07-30-agoor",
@@ -3480,8 +3479,8 @@
     "executive",
     "value"
    ],
-   "discount_pct": 51,
-   "value_note": "Reserve ₹33.2L vs ~₹67L at the Ambattur band midpoint (₹7,250/sqft × 927 sqft)"
+   "discount_pct": 49,
+   "value_note": "Reserve ₹33.2L vs ~₹65L at the Ambattur band midpoint (₹6,985/sqft × 927 sqft)"
   },
   {
    "id": "auction-2026-07-30-anna-nagar",
@@ -3605,8 +3604,8 @@
     "executive",
     "value"
    ],
-   "discount_pct": 90,
-   "value_note": "Reserve ₹49.5L vs ~₹484L at the Perambur band midpoint (₹9,100/sqft × 5,315 sqft)"
+   "discount_pct": 91,
+   "value_note": "Reserve ₹49.5L vs ~₹567L at the Perambur band midpoint (₹10,675/sqft × 5,315 sqft)"
   },
   {
    "id": "auction-2026-07-31-kumaran-nagar",
@@ -3705,8 +3704,8 @@
    "persona_fit": [
     "executive"
    ],
-   "discount_pct": 34,
-   "value_note": "Reserve ₹45.8L vs ~₹70L at the Sholinganallur band midpoint (₹7,750/sqft × 900 sqft)"
+   "discount_pct": 37,
+   "value_note": "Reserve ₹45.8L vs ~₹73L at the Sholinganallur band midpoint (₹8,060/sqft × 900 sqft)"
   },
   {
    "id": "auction-2026-07-31-varadharajapuram",
@@ -3854,8 +3853,8 @@
     "executive",
     "value"
    ],
-   "discount_pct": 67,
-   "value_note": "Reserve ₹42.9L vs ~₹130L at the Ambattur band midpoint (₹7,250/sqft × 1,800 sqft)"
+   "discount_pct": 66,
+   "value_note": "Reserve ₹42.9L vs ~₹126L at the Ambattur band midpoint (₹6,985/sqft × 1,800 sqft)"
   },
   {
    "id": "auction-2026-08-04-kalpattu",
@@ -4076,9 +4075,7 @@
    "last_checked": "2026-07-20",
    "persona_fit": [
     "executive"
-   ],
-   "discount_pct": -40,
-   "value_note": "Reserve ₹44.0L vs ~₹32L at the Padappai band midpoint (₹2,000/sqft × 1,575 sqft)"
+   ]
   },
   {
    "id": "auction-2026-08-05-perumalpattu",
@@ -4151,8 +4148,8 @@
    "persona_fit": [
     "executive"
    ],
-   "discount_pct": 22,
-   "value_note": "Reserve ₹42.8L vs ~₹55L at the Tambaram band midpoint (₹6,500/sqft × 849 sqft)"
+   "discount_pct": 24,
+   "value_note": "Reserve ₹42.8L vs ~₹56L at the Tambaram band midpoint (₹6,600/sqft × 849 sqft)"
   },
   {
    "id": "auction-2026-08-05-tiruttani",
@@ -4350,8 +4347,8 @@
    "persona_fit": [
     "executive"
    ],
-   "discount_pct": 20,
-   "value_note": "Reserve ₹35.0L vs ~₹44L at the Oragadam band midpoint (₹4,650/sqft × 937 sqft)"
+   "discount_pct": 25,
+   "value_note": "Reserve ₹35.0L vs ~₹47L at the Oragadam band midpoint (₹5,000/sqft × 937 sqft)"
   },
   {
    "id": "auction-2026-08-06-pallipattu",
@@ -4769,8 +4766,8 @@
     "executive",
     "value"
    ],
-   "discount_pct": 62,
-   "value_note": "Reserve ₹35.0L vs ~₹91L at the Kolathur band midpoint (₹7,500/sqft × 1,215 sqft)"
+   "discount_pct": 66,
+   "value_note": "Reserve ₹35.0L vs ~₹103L at the Kolathur band midpoint (₹8,500/sqft × 1,215 sqft)"
   },
   {
    "id": "auction-2026-08-07-kottivakkam",
@@ -4923,8 +4920,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": 37,
-   "value_note": "Reserve ₹29.2L vs ~₹46L at the Maraimalai Nagar band midpoint (₹4,500/sqft × 1,028 sqft)"
+   "discount_pct": 44,
+   "value_note": "Reserve ₹29.2L vs ~₹52L at the Maraimalai Nagar band midpoint (₹5,100/sqft × 1,028 sqft)"
   },
   {
    "id": "auction-2026-08-07-mevalurkuppam",
@@ -5298,8 +5295,8 @@
    "persona_fit": [
     "executive"
    ],
-   "discount_pct": 30,
-   "value_note": "Reserve ₹44.5L vs ~₹64L at the Sholinganallur band midpoint (₹7,750/sqft × 825 sqft)"
+   "discount_pct": 33,
+   "value_note": "Reserve ₹44.5L vs ~₹66L at the Sholinganallur band midpoint (₹8,060/sqft × 825 sqft)"
   },
   {
    "id": "auction-2026-08-07-siruseri",
@@ -5376,8 +5373,8 @@
     "boardroom",
     "value"
    ],
-   "discount_pct": 43,
-   "value_note": "Reserve ₹129.2L vs ~₹228L at the Thoraipakkam band midpoint (₹8,750/sqft × 2,600 sqft)"
+   "discount_pct": 53,
+   "value_note": "Reserve ₹129.2L vs ~₹273L at the Thoraipakkam band midpoint (₹10,500/sqft × 2,600 sqft)"
   },
   {
    "id": "auction-2026-08-07-thozhuthavur",
@@ -5913,7 +5910,7 @@
     "value"
    ],
    "discount_pct": 42,
-   "value_note": "Reserve ₹32.5L vs ~₹56L at the Perungalathur band midpoint (₹6,825/sqft × 825 sqft)"
+   "value_note": "Reserve ₹32.5L vs ~₹57L at the Perungalathur band midpoint (₹6,850/sqft × 825 sqft)"
   },
   {
    "id": "auction-2026-08-10-adhanur",
@@ -6188,8 +6185,8 @@
    "persona_fit": [
     "executive"
    ],
-   "discount_pct": 28,
-   "value_note": "Reserve ₹48.6L vs ~₹67L at the Tambaram band midpoint (₹6,500/sqft × 1,034 sqft)"
+   "discount_pct": 29,
+   "value_note": "Reserve ₹48.6L vs ~₹68L at the Tambaram band midpoint (₹6,600/sqft × 1,034 sqft)"
   },
   {
    "id": "auction-2026-08-10-tambaram",
@@ -6214,8 +6211,8 @@
    "persona_fit": [
     "executive"
    ],
-   "discount_pct": 31,
-   "value_note": "Reserve ₹40.0L vs ~₹58L at the Tambaram band midpoint (₹6,500/sqft × 887 sqft)"
+   "discount_pct": 32,
+   "value_note": "Reserve ₹40.0L vs ~₹59L at the Tambaram band midpoint (₹6,600/sqft × 887 sqft)"
   },
   {
    "id": "auction-2026-08-10-thirukazhukundram",
@@ -6264,8 +6261,8 @@
    "persona_fit": [
     "boardroom"
    ],
-   "discount_pct": -19,
-   "value_note": "Reserve ₹200.2L vs ~₹169L at the Adyar band midpoint (₹15,000/sqft × 1,125 sqft)"
+   "discount_pct": 2,
+   "value_note": "Reserve ₹200.2L vs ~₹204L at the Adyar band midpoint (₹18,150/sqft × 1,125 sqft)"
   },
   {
    "id": "auction-2026-08-11-alandur",
@@ -6314,8 +6311,8 @@
    "persona_fit": [
     "boardroom"
    ],
-   "discount_pct": -3,
-   "value_note": "Reserve ₹240.0L vs ~₹232L at the Ambattur band midpoint (₹7,250/sqft × 3,200 sqft)"
+   "discount_pct": -7,
+   "value_note": "Reserve ₹240.0L vs ~₹224L at the Ambattur band midpoint (₹6,985/sqft × 3,200 sqft)"
   },
   {
    "id": "auction-2026-08-11-ambattur",
@@ -6340,8 +6337,8 @@
    "persona_fit": [
     "boardroom"
    ],
-   "discount_pct": -113,
-   "value_note": "Reserve ₹119.8L vs ~₹56L at the Ambattur band midpoint (₹7,250/sqft × 775 sqft)"
+   "discount_pct": -121,
+   "value_note": "Reserve ₹119.8L vs ~₹54L at the Ambattur band midpoint (₹6,985/sqft × 775 sqft)"
   },
   {
    "id": "auction-2026-08-11-cheyyur",
@@ -6389,9 +6386,7 @@
    "last_checked": "2026-07-20",
    "persona_fit": [
     "value"
-   ],
-   "discount_pct": -495,
-   "value_note": "Reserve ₹26.0L vs ~₹4L at the Kanchipuram town band midpoint (₹2,350/sqft × 186 sqft)"
+   ]
   },
   {
    "id": "auction-2026-08-11-kasapapuram",
@@ -6615,8 +6610,8 @@
     "boardroom",
     "value"
    ],
-   "discount_pct": 58,
-   "value_note": "Reserve ₹217.0L vs ~₹517L at the Neelankarai band midpoint (₹13,250/sqft × 3,900 sqft)"
+   "discount_pct": 55,
+   "value_note": "Reserve ₹217.0L vs ~₹486L at the Neelankarai band midpoint (₹12,450/sqft × 3,900 sqft)"
   },
   {
    "id": "auction-2026-08-11-olimuhamedpettai",
@@ -6665,8 +6660,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": 44,
-   "value_note": "Reserve ₹28.5L vs ~₹51L at the Oragadam band midpoint (₹4,650/sqft × 1,100 sqft)"
+   "discount_pct": 48,
+   "value_note": "Reserve ₹28.5L vs ~₹55L at the Oragadam band midpoint (₹5,000/sqft × 1,100 sqft)"
   },
   {
    "id": "auction-2026-08-11-pakkam",
@@ -6982,8 +6977,8 @@
    "persona_fit": [
     "boardroom"
    ],
-   "discount_pct": 28,
-   "value_note": "Reserve ₹217.0L vs ~₹302L at the Sholinganallur band midpoint (₹7,750/sqft × 3,900 sqft)"
+   "discount_pct": 31,
+   "value_note": "Reserve ₹217.0L vs ~₹314L at the Sholinganallur band midpoint (₹8,060/sqft × 3,900 sqft)"
   },
   {
    "id": "auction-2026-08-11-surapattu",
@@ -7032,8 +7027,8 @@
    "persona_fit": [
     "executive"
    ],
-   "discount_pct": -109,
-   "value_note": "Reserve ₹54.1L vs ~₹26L at the Tambaram band midpoint (₹6,500/sqft × 398 sqft)"
+   "discount_pct": -106,
+   "value_note": "Reserve ₹54.1L vs ~₹26L at the Tambaram band midpoint (₹6,600/sqft × 398 sqft)"
   },
   {
    "id": "auction-2026-08-11-tambaram",
@@ -7059,8 +7054,8 @@
     "executive",
     "value"
    ],
-   "discount_pct": 48,
-   "value_note": "Reserve ₹37.1L vs ~₹72L at the Tambaram band midpoint (₹6,500/sqft × 1,100 sqft)"
+   "discount_pct": 49,
+   "value_note": "Reserve ₹37.1L vs ~₹73L at the Tambaram band midpoint (₹6,600/sqft × 1,100 sqft)"
   },
   {
    "id": "auction-2026-08-11-thiruninravur",
@@ -7109,8 +7104,8 @@
    "persona_fit": [
     "boardroom"
    ],
-   "discount_pct": -117,
-   "value_note": "Reserve ₹317.0L vs ~₹146L at the Thiruporur band midpoint (₹3,700/sqft × 3,948 sqft)"
+   "discount_pct": -68,
+   "value_note": "Reserve ₹317.0L vs ~₹189L at the Thiruporur band midpoint (₹4,775/sqft × 3,948 sqft)"
   },
   {
    "id": "auction-2026-08-11-thiruporur",
@@ -7136,8 +7131,8 @@
    "persona_fit": [
     "boardroom"
    ],
-   "discount_pct": -57,
-   "value_note": "Reserve ₹125.4L vs ~₹80L at the Thiruporur band midpoint (₹3,700/sqft × 2,160 sqft)"
+   "discount_pct": -22,
+   "value_note": "Reserve ₹125.4L vs ~₹103L at the Thiruporur band midpoint (₹4,775/sqft × 2,160 sqft)"
   },
   {
    "id": "auction-2026-08-11-thozhur",
@@ -7331,8 +7326,8 @@
     "executive",
     "value"
    ],
-   "discount_pct": 49,
-   "value_note": "Reserve ₹34.5L vs ~₹68L at the Korattur band midpoint (₹8,000/sqft × 850 sqft)"
+   "discount_pct": 58,
+   "value_note": "Reserve ₹34.5L vs ~₹83L at the Korattur band midpoint (₹9,750/sqft × 850 sqft)"
   },
   {
    "id": "auction-2026-08-12-madambakkam",
@@ -7406,8 +7401,8 @@
     "executive",
     "value"
    ],
-   "discount_pct": 66,
-   "value_note": "Reserve ₹49.0L vs ~₹146L at the Neelankarai band midpoint (₹13,250/sqft × 1,100 sqft)"
+   "discount_pct": 64,
+   "value_note": "Reserve ₹49.0L vs ~₹137L at the Neelankarai band midpoint (₹12,450/sqft × 1,100 sqft)"
   },
   {
    "id": "auction-2026-08-12-padappai",
@@ -7607,8 +7602,8 @@
     "executive",
     "value"
    ],
-   "discount_pct": 59,
-   "value_note": "Reserve ₹38.0L vs ~₹94L at the Sholinganallur band midpoint (₹7,750/sqft × 1,207 sqft)"
+   "discount_pct": 61,
+   "value_note": "Reserve ₹38.0L vs ~₹97L at the Sholinganallur band midpoint (₹8,060/sqft × 1,207 sqft)"
   },
   {
    "id": "auction-2026-08-12-sholinganallur",
@@ -7635,8 +7630,8 @@
     "executive",
     "value"
    ],
-   "discount_pct": 83,
-   "value_note": "Reserve ₹36.0L vs ~₹217L at the Sholinganallur band midpoint (₹7,750/sqft × 2,800 sqft)"
+   "discount_pct": 84,
+   "value_note": "Reserve ₹36.0L vs ~₹226L at the Sholinganallur band midpoint (₹8,060/sqft × 2,800 sqft)"
   },
   {
    "id": "auction-2026-08-12-sithalapakkam",
@@ -7662,8 +7657,8 @@
     "executive",
     "value"
    ],
-   "discount_pct": 45,
-   "value_note": "Reserve ₹38.0L vs ~₹68L at the Sithalapakkam band midpoint (₹5,675/sqft × 1,207 sqft)"
+   "discount_pct": 44,
+   "value_note": "Reserve ₹38.0L vs ~₹68L at the Sithalapakkam band midpoint (₹5,650/sqft × 1,207 sqft)"
   },
   {
    "id": "auction-2026-08-12-t-nagar",
@@ -7738,8 +7733,8 @@
     "executive",
     "value"
    ],
-   "discount_pct": 72,
-   "value_note": "Reserve ₹97.0L vs ~₹343L at the Thoraipakkam band midpoint (₹8,750/sqft × 3,922 sqft)"
+   "discount_pct": 76,
+   "value_note": "Reserve ₹97.0L vs ~₹412L at the Thoraipakkam band midpoint (₹10,500/sqft × 3,922 sqft)"
   },
   {
    "id": "auction-2026-08-12-urapakkam",
@@ -7866,8 +7861,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": 48,
-   "value_note": "Reserve ₹22.0L vs ~₹42L at the Ambattur band midpoint (₹7,250/sqft × 582 sqft)"
+   "discount_pct": 46,
+   "value_note": "Reserve ₹22.0L vs ~₹41L at the Ambattur band midpoint (₹6,985/sqft × 582 sqft)"
   },
   {
    "id": "auction-2026-08-13-avadi",
@@ -7917,8 +7912,8 @@
    "persona_fit": [
     "boardroom"
    ],
-   "discount_pct": -28,
-   "value_note": "Reserve ₹142.2L vs ~₹111L at the Besant Nagar band midpoint (₹21,500/sqft × 516 sqft)"
+   "discount_pct": -34,
+   "value_note": "Reserve ₹142.2L vs ~₹106L at the Besant Nagar band midpoint (₹20,550/sqft × 516 sqft)"
   },
   {
    "id": "auction-2026-08-13-kodithandalam",
@@ -8359,8 +8354,8 @@
    "persona_fit": [
     "boardroom"
    ],
-   "discount_pct": 3,
-   "value_note": "Reserve ₹113.0L vs ~₹116L at the Ambattur band midpoint (₹7,250/sqft × 1,600 sqft)"
+   "discount_pct": -1,
+   "value_note": "Reserve ₹113.0L vs ~₹112L at the Ambattur band midpoint (₹6,985/sqft × 1,600 sqft)"
   },
   {
    "id": "auction-2026-08-14-avadi",
@@ -8489,8 +8484,8 @@
    "persona_fit": [
     "executive"
    ],
-   "discount_pct": -96,
-   "value_note": "Reserve ₹66.0L vs ~₹34L at the Kolathur band midpoint (₹7,500/sqft × 450 sqft)"
+   "discount_pct": -73,
+   "value_note": "Reserve ₹66.0L vs ~₹38L at the Kolathur band midpoint (₹8,500/sqft × 450 sqft)"
   },
   {
    "id": "auction-2026-08-14-kovilpathagai",
@@ -8737,8 +8732,8 @@
     "executive",
     "value"
    ],
-   "discount_pct": 50,
-   "value_note": "Reserve ₹36.0L vs ~₹71L at the Sholinganallur band midpoint (₹7,750/sqft × 920 sqft)"
+   "discount_pct": 51,
+   "value_note": "Reserve ₹36.0L vs ~₹74L at the Sholinganallur band midpoint (₹8,060/sqft × 920 sqft)"
   },
   {
    "id": "auction-2026-08-14-sriperumbudur",
@@ -8763,8 +8758,8 @@
    "persona_fit": [
     "executive"
    ],
-   "discount_pct": 26,
-   "value_note": "Reserve ₹31.8L vs ~₹43L at the Sriperumbudur band midpoint (₹4,500/sqft × 951 sqft)"
+   "discount_pct": 28,
+   "value_note": "Reserve ₹31.8L vs ~₹44L at the Sriperumbudur band midpoint (₹4,675/sqft × 951 sqft)"
   },
   {
    "id": "auction-2026-08-14-sriperumbudur",
@@ -8789,8 +8784,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": 27,
-   "value_note": "Reserve ₹28.0L vs ~₹38L at the Sriperumbudur band midpoint (₹4,500/sqft × 852 sqft)"
+   "discount_pct": 30,
+   "value_note": "Reserve ₹28.0L vs ~₹40L at the Sriperumbudur band midpoint (₹4,675/sqft × 852 sqft)"
   },
   {
    "id": "auction-2026-08-14-thirumullaivoyal",
@@ -8935,11 +8930,10 @@
    "data_confidence": "listed",
    "last_checked": "2026-07-20",
    "persona_fit": [
-    "executive",
-    "value"
+    "executive"
    ],
-   "discount_pct": 41,
-   "value_note": "Reserve ₹31.0L vs ~₹53L at the Ambattur band midpoint (₹7,250/sqft × 730 sqft)"
+   "discount_pct": 39,
+   "value_note": "Reserve ₹31.0L vs ~₹51L at the Ambattur band midpoint (₹6,985/sqft × 730 sqft)"
   },
   {
    "id": "auction-2026-08-17-cheyyur",
@@ -9523,8 +9517,8 @@
    "persona_fit": [
     "boardroom"
    ],
-   "discount_pct": 16,
-   "value_note": "Reserve ₹241.0L vs ~₹287L at the Neelankarai band midpoint (₹13,250/sqft × 2,166 sqft)"
+   "discount_pct": 11,
+   "value_note": "Reserve ₹241.0L vs ~₹270L at the Neelankarai band midpoint (₹12,450/sqft × 2,166 sqft)"
   },
   {
    "id": "auction-2026-08-17-pallavaram",
@@ -9550,8 +9544,8 @@
    "persona_fit": [
     "executive"
    ],
-   "discount_pct": 20,
-   "value_note": "Reserve ₹65.0L vs ~₹81L at the Pallavaram band midpoint (₹8,250/sqft × 985 sqft)"
+   "discount_pct": 16,
+   "value_note": "Reserve ₹65.0L vs ~₹78L at the Pallavaram band midpoint (₹7,900/sqft × 985 sqft)"
   },
   {
    "id": "auction-2026-08-17-pattinam",
@@ -9991,8 +9985,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": 67,
-   "value_note": "Reserve ₹22.5L vs ~₹69L at the Ambattur band midpoint (₹7,250/sqft × 950 sqft)"
+   "discount_pct": 66,
+   "value_note": "Reserve ₹22.5L vs ~₹66L at the Ambattur band midpoint (₹6,985/sqft × 950 sqft)"
   },
   {
    "id": "auction-2026-08-18-anjur",
@@ -10659,8 +10653,8 @@
     "executive",
     "value"
    ],
-   "discount_pct": 45,
-   "value_note": "Reserve ₹41.0L vs ~₹75L at the Perambur band midpoint (₹9,100/sqft × 821 sqft)"
+   "discount_pct": 53,
+   "value_note": "Reserve ₹41.0L vs ~₹88L at the Perambur band midpoint (₹10,675/sqft × 821 sqft)"
   },
   {
    "id": "auction-2026-08-18-perungavur",
@@ -11053,8 +11047,8 @@
    "persona_fit": [
     "boardroom"
    ],
-   "discount_pct": 24,
-   "value_note": "Reserve ₹175.0L vs ~₹232L at the Velachery band midpoint (₹10,550/sqft × 2,197 sqft)"
+   "discount_pct": 20,
+   "value_note": "Reserve ₹175.0L vs ~₹218L at the Velachery band midpoint (₹9,900/sqft × 2,197 sqft)"
   },
   {
    "id": "auction-2026-08-18-velachery",
@@ -11081,8 +11075,8 @@
     "executive",
     "value"
    ],
-   "discount_pct": 77,
-   "value_note": "Reserve ₹47.3L vs ~₹205L at the Velachery band midpoint (₹10,550/sqft × 1,940 sqft)"
+   "discount_pct": 75,
+   "value_note": "Reserve ₹47.3L vs ~₹192L at the Velachery band midpoint (₹9,900/sqft × 1,940 sqft)"
   },
   {
    "id": "auction-2026-08-19-harichandrapuram",
@@ -11203,10 +11197,11 @@
    "data_confidence": "listed",
    "last_checked": "2026-07-20",
    "persona_fit": [
-    "executive"
+    "executive",
+    "value"
    ],
-   "discount_pct": 32,
-   "value_note": "Reserve ₹36.0L vs ~₹53L at the Maraimalai Nagar band midpoint (₹4,500/sqft × 1,170 sqft)"
+   "discount_pct": 40,
+   "value_note": "Reserve ₹36.0L vs ~₹60L at the Maraimalai Nagar band midpoint (₹5,100/sqft × 1,170 sqft)"
   },
   {
    "id": "auction-2026-08-19-pallavaram",
@@ -11234,8 +11229,8 @@
     "executive",
     "value"
    ],
-   "discount_pct": 50,
-   "value_note": "Reserve ₹35.0L vs ~₹70L at the Pallavaram band midpoint (₹8,250/sqft × 848 sqft)"
+   "discount_pct": 48,
+   "value_note": "Reserve ₹35.0L vs ~₹67L at the Pallavaram band midpoint (₹7,900/sqft × 848 sqft)"
   },
   {
    "id": "auction-2026-08-19-perumattunallur",
@@ -11357,8 +11352,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": 46,
-   "value_note": "Reserve ₹12.8L vs ~₹24L at the Thiruporur band midpoint (₹3,700/sqft × 646 sqft)"
+   "discount_pct": 58,
+   "value_note": "Reserve ₹12.8L vs ~₹31L at the Thiruporur band midpoint (₹4,775/sqft × 646 sqft)"
   },
   {
    "id": "auction-2026-08-20-aathanur",
@@ -11853,8 +11848,8 @@
    "persona_fit": [
     "boardroom"
    ],
-   "discount_pct": -11,
-   "value_note": "Reserve ₹100.0L vs ~₹90L at the Adyar band midpoint (₹15,000/sqft × 602 sqft)"
+   "discount_pct": 8,
+   "value_note": "Reserve ₹100.0L vs ~₹109L at the Adyar band midpoint (₹18,150/sqft × 602 sqft)"
   },
   {
    "id": "auction-2026-08-21-kadambathur",
@@ -12074,8 +12069,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": 45,
-   "value_note": "Reserve ₹27.5L vs ~₹50L at the Sriperumbudur band midpoint (₹4,500/sqft × 1,113 sqft)"
+   "discount_pct": 47,
+   "value_note": "Reserve ₹27.5L vs ~₹52L at the Sriperumbudur band midpoint (₹4,675/sqft × 1,113 sqft)"
   },
   {
    "id": "auction-2026-08-21-sriperumbudur",
@@ -12100,8 +12095,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": 46,
-   "value_note": "Reserve ₹17.0L vs ~₹31L at the Sriperumbudur band midpoint (₹4,500/sqft × 695 sqft)"
+   "discount_pct": 48,
+   "value_note": "Reserve ₹17.0L vs ~₹32L at the Sriperumbudur band midpoint (₹4,675/sqft × 695 sqft)"
   },
   {
    "id": "auction-2026-08-21-sriperumbudur",
@@ -12126,8 +12121,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": 50,
-   "value_note": "Reserve ₹15.0L vs ~₹30L at the Sriperumbudur band midpoint (₹4,500/sqft × 665 sqft)"
+   "discount_pct": 52,
+   "value_note": "Reserve ₹15.0L vs ~₹31L at the Sriperumbudur band midpoint (₹4,675/sqft × 665 sqft)"
   },
   {
    "id": "auction-2026-08-21-thalambur",
@@ -12650,8 +12645,8 @@
    "persona_fit": [
     "executive"
    ],
-   "discount_pct": -212,
-   "value_note": "Reserve ₹65.0L vs ~₹21L at the Thiruporur band midpoint (₹3,700/sqft × 562 sqft)"
+   "discount_pct": -142,
+   "value_note": "Reserve ₹65.0L vs ~₹27L at the Thiruporur band midpoint (₹4,775/sqft × 562 sqft)"
   },
   {
    "id": "auction-2026-08-24-tiruvallur",
@@ -12753,8 +12748,8 @@
    "persona_fit": [
     "executive"
    ],
-   "discount_pct": 10,
-   "value_note": "Reserve ₹77.0L vs ~₹86L at the Ambattur band midpoint (₹7,250/sqft × 1,180 sqft)"
+   "discount_pct": 7,
+   "value_note": "Reserve ₹77.0L vs ~₹82L at the Ambattur band midpoint (₹6,985/sqft × 1,180 sqft)"
   },
   {
    "id": "auction-2026-08-25-ambattur",
@@ -12779,8 +12774,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": 62,
-   "value_note": "Reserve ₹24.8L vs ~₹66L at the Ambattur band midpoint (₹7,250/sqft × 910 sqft)"
+   "discount_pct": 61,
+   "value_note": "Reserve ₹24.8L vs ~₹64L at the Ambattur band midpoint (₹6,985/sqft × 910 sqft)"
   },
   {
    "id": "auction-2026-08-25-aranvoyal",
@@ -13030,8 +13025,8 @@
     "executive",
     "value"
    ],
-   "discount_pct": 51,
-   "value_note": "Reserve ₹33.3L vs ~₹68L at the Maraimalai Nagar band midpoint (₹4,500/sqft × 1,500 sqft)"
+   "discount_pct": 56,
+   "value_note": "Reserve ₹33.3L vs ~₹76L at the Maraimalai Nagar band midpoint (₹5,100/sqft × 1,500 sqft)"
   },
   {
    "id": "auction-2026-08-25-ninnakarai",
@@ -13079,9 +13074,7 @@
    "last_checked": "2026-07-20",
    "persona_fit": [
     "value"
-   ],
-   "discount_pct": -51,
-   "value_note": "Reserve ₹21.2L vs ~₹14L at the Padappai band midpoint (₹2,000/sqft × 705 sqft)"
+   ]
   },
   {
    "id": "auction-2026-08-25-palamathur",
@@ -13395,8 +13388,8 @@
    "persona_fit": [
     "boardroom"
    ],
-   "discount_pct": -197,
-   "value_note": "Reserve ₹109.8L vs ~₹37L at the Ambattur band midpoint (₹7,250/sqft × 510 sqft)"
+   "discount_pct": -208,
+   "value_note": "Reserve ₹109.8L vs ~₹36L at the Ambattur band midpoint (₹6,985/sqft × 510 sqft)"
   },
   {
    "id": "auction-2026-08-27-ambattur",
@@ -13446,8 +13439,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": 17,
-   "value_note": "Reserve ₹22.8L vs ~₹28L at the Ambattur band midpoint (₹7,250/sqft × 380 sqft)"
+   "discount_pct": 14,
+   "value_note": "Reserve ₹22.8L vs ~₹27L at the Ambattur band midpoint (₹6,985/sqft × 380 sqft)"
   },
   {
    "id": "auction-2026-08-27-ayapakkam",
@@ -13572,8 +13565,8 @@
     "executive",
     "value"
    ],
-   "discount_pct": 52,
-   "value_note": "Reserve ₹41.5L vs ~₹86L at the Korattur band midpoint (₹8,000/sqft × 1,080 sqft)"
+   "discount_pct": 61,
+   "value_note": "Reserve ₹41.5L vs ~₹105L at the Korattur band midpoint (₹9,750/sqft × 1,080 sqft)"
   },
   {
    "id": "auction-2026-08-27-nandivaram",
@@ -13773,8 +13766,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": 46,
-   "value_note": "Reserve ₹22.0L vs ~₹41L at the Vandalur band midpoint (₹5,000/sqft × 812 sqft)"
+   "discount_pct": 54,
+   "value_note": "Reserve ₹22.0L vs ~₹48L at the Vandalur band midpoint (₹5,850/sqft × 812 sqft)"
   },
   {
    "id": "auction-2026-08-28-angaputhur",
@@ -13847,8 +13840,8 @@
    "persona_fit": [
     "executive"
    ],
-   "discount_pct": -75,
-   "value_note": "Reserve ₹52.5L vs ~₹30L at the Korattur band midpoint (₹8,000/sqft × 375 sqft)"
+   "discount_pct": -44,
+   "value_note": "Reserve ₹52.5L vs ~₹37L at the Korattur band midpoint (₹9,750/sqft × 375 sqft)"
   },
   {
    "id": "auction-2026-08-28-kundrathur",
@@ -14073,8 +14066,8 @@
    "persona_fit": [
     "executive"
    ],
-   "discount_pct": -110,
-   "value_note": "Reserve ₹55.3L vs ~₹26L at the Tambaram band midpoint (₹6,500/sqft × 406 sqft)"
+   "discount_pct": -106,
+   "value_note": "Reserve ₹55.3L vs ~₹27L at the Tambaram band midpoint (₹6,600/sqft × 406 sqft)"
   },
   {
    "id": "auction-2026-08-28-thirunindravur",
@@ -14300,8 +14293,8 @@
    "persona_fit": [
     "executive"
    ],
-   "discount_pct": -90,
-   "value_note": "Reserve ₹49.3L vs ~₹26L at the Tambaram band midpoint (₹6,500/sqft × 400 sqft)"
+   "discount_pct": -87,
+   "value_note": "Reserve ₹49.3L vs ~₹26L at the Tambaram band midpoint (₹6,600/sqft × 400 sqft)"
   },
   {
    "id": "auction-2026-08-29-thiruvanmiyur",
@@ -14352,8 +14345,8 @@
    "persona_fit": [
     "executive"
    ],
-   "discount_pct": -70,
-   "value_note": "Reserve ₹66.7L vs ~₹39L at the Villivakkam band midpoint (₹7,700/sqft × 511 sqft)"
+   "discount_pct": -42,
+   "value_note": "Reserve ₹66.7L vs ~₹47L at the Villivakkam band midpoint (₹9,200/sqft × 511 sqft)"
   },
   {
    "id": "auction-2026-08-31-adyar",
@@ -14378,8 +14371,8 @@
    "persona_fit": [
     "executive"
    ],
-   "discount_pct": -32,
-   "value_note": "Reserve ₹41.7L vs ~₹32L at the Adyar band midpoint (₹15,000/sqft × 211 sqft)"
+   "discount_pct": -9,
+   "value_note": "Reserve ₹41.7L vs ~₹38L at the Adyar band midpoint (₹18,150/sqft × 211 sqft)"
   },
   {
    "id": "auction-2026-08-31-ambattur",
@@ -14404,8 +14397,8 @@
    "persona_fit": [
     "boardroom"
    ],
-   "discount_pct": -103,
-   "value_note": "Reserve ₹166.0L vs ~₹82L at the Ambattur band midpoint (₹7,250/sqft × 1,130 sqft)"
+   "discount_pct": -110,
+   "value_note": "Reserve ₹166.0L vs ~₹79L at the Ambattur band midpoint (₹6,985/sqft × 1,130 sqft)"
   },
   {
    "id": "auction-2026-08-31-injambakkam",
@@ -14720,8 +14713,8 @@
    "persona_fit": [
     "executive"
    ],
-   "discount_pct": -1,
-   "value_note": "Reserve ₹72.7L vs ~₹72L at the Ambattur band midpoint (₹7,250/sqft × 990 sqft)"
+   "discount_pct": -5,
+   "value_note": "Reserve ₹72.7L vs ~₹69L at the Ambattur band midpoint (₹6,985/sqft × 990 sqft)"
   },
   {
    "id": "auction-2026-09-01-irumbuliyur",
@@ -14771,8 +14764,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": 20,
-   "value_note": "Reserve ₹21.0L vs ~₹26L at the Tambaram band midpoint (₹6,500/sqft × 406 sqft)"
+   "discount_pct": 22,
+   "value_note": "Reserve ₹21.0L vs ~₹27L at the Tambaram band midpoint (₹6,600/sqft × 406 sqft)"
   },
   {
    "id": "auction-2026-09-02-agaram",
@@ -14922,8 +14915,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": -42,
-   "value_note": "Reserve ₹29.0L vs ~₹20L at the Sriperumbudur band midpoint (₹4,500/sqft × 454 sqft)"
+   "discount_pct": -37,
+   "value_note": "Reserve ₹29.0L vs ~₹21L at the Sriperumbudur band midpoint (₹4,675/sqft × 454 sqft)"
   },
   {
    "id": "auction-2026-09-02-sriperumbudur",
@@ -14948,8 +14941,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": -158,
-   "value_note": "Reserve ₹24.0L vs ~₹9L at the Sriperumbudur band midpoint (₹4,500/sqft × 207 sqft)"
+   "discount_pct": -148,
+   "value_note": "Reserve ₹24.0L vs ~₹10L at the Sriperumbudur band midpoint (₹4,675/sqft × 207 sqft)"
   },
   {
    "id": "auction-2026-09-02-thirumudivakkam",
@@ -14973,9 +14966,7 @@
    "last_checked": "2026-07-20",
    "persona_fit": [
     "value"
-   ],
-   "discount_pct": 28,
-   "value_note": "Reserve ₹24.0L vs ~₹33L at the Thirumudivakkam band midpoint (₹5,400/sqft × 615 sqft)"
+   ]
   },
   {
    "id": "auction-2026-09-02-thiruporur",
@@ -15025,8 +15016,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": 32,
-   "value_note": "Reserve ₹23.0L vs ~₹34L at the Thiruporur band midpoint (₹3,700/sqft × 917 sqft)"
+   "discount_pct": 47,
+   "value_note": "Reserve ₹23.0L vs ~₹44L at the Thiruporur band midpoint (₹4,775/sqft × 917 sqft)"
   },
   {
    "id": "auction-2026-09-02-varadharajapuram",
@@ -15076,9 +15067,7 @@
    "last_checked": "2026-07-20",
    "persona_fit": [
     "boardroom"
-   ],
-   "discount_pct": -549,
-   "value_note": "Reserve ₹150.0L vs ~₹23L at the Kanchipuram town band midpoint (₹2,350/sqft × 984 sqft)"
+   ]
   },
   {
    "id": "auction-2026-09-03-kunnakkadu",
@@ -15397,8 +15386,8 @@
    "persona_fit": [
     "executive"
    ],
-   "discount_pct": -31,
-   "value_note": "Reserve ₹79.4L vs ~₹60L at the Padi band midpoint (₹7,750/sqft × 780 sqft)"
+   "discount_pct": -1,
+   "value_note": "Reserve ₹79.4L vs ~₹78L at the Padi band midpoint (₹10,050/sqft × 780 sqft)"
   },
   {
    "id": "auction-2026-09-08-mogappair",
@@ -15450,8 +15439,8 @@
    "persona_fit": [
     "executive"
    ],
-   "discount_pct": -26,
-   "value_note": "Reserve ₹77.5L vs ~₹61L at the Oragadam band midpoint (₹4,650/sqft × 1,322 sqft)"
+   "discount_pct": -17,
+   "value_note": "Reserve ₹77.5L vs ~₹66L at the Oragadam band midpoint (₹5,000/sqft × 1,322 sqft)"
   },
   {
    "id": "auction-2026-09-08-ponneri",
@@ -15475,9 +15464,7 @@
    "last_checked": "2026-07-20",
    "persona_fit": [
     "executive"
-   ],
-   "discount_pct": -67,
-   "value_note": "Reserve ₹55.3L vs ~₹33L at the Ponneri band midpoint (₹1,700/sqft × 1,952 sqft)"
+   ]
   },
   {
    "id": "auction-2026-09-08-ramapuram",
@@ -15794,10 +15781,11 @@
    "data_confidence": "listed",
    "last_checked": "2026-07-20",
    "persona_fit": [
-    "executive"
+    "executive",
+    "value"
    ],
-   "discount_pct": 39,
-   "value_note": "Reserve ₹34.0L vs ~₹56L at the Perungalathur band midpoint (₹6,825/sqft × 823 sqft)"
+   "discount_pct": 40,
+   "value_note": "Reserve ₹34.0L vs ~₹56L at the Perungalathur band midpoint (₹6,850/sqft × 823 sqft)"
   },
   {
    "id": "auction-2026-09-17-new-washermenpet",

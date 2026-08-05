@@ -367,7 +367,10 @@ def main():
         p['score_breakdown'] = bd
         p['upside_score'] = score
 
-        seg = segment_fit(p, loc, tier, ratio)
+        # Housing that is allotted rather than sold suits no client segment —
+        # there is nothing to buy.
+        seg = ({'boardroom': 0, 'executive': 0, 'value': 0} if p.get('not_for_sale')
+               else segment_fit(p, loc, tier, ratio))
         p['segment_fit'] = seg
 
         flood = (loc or {}).get('flood_risk', 'unknown')

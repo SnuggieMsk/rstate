@@ -119,8 +119,14 @@ def main():
         for u in r.get('sources') or []:
             if isinstance(u, str) and u.startswith('http') and u not in l.setdefault('sources', []):
                 l['sources'].append(u)
-        if r.get('plot_comparables'):
-            l['plot_comparables'] = [c for c in r['plot_comparables'] if c.get('rate_sqft')]
+        comps = [c for c in (r.get('plot_comparables') or []) if c.get('rate_sqft')]
+        if comps:
+            l['plot_comparables'] = comps
+        # A band built from named comparables the researcher recomputed themselves is a
+        # different thing from one quoted wholesale off a portal's summary page. Record
+        # which it is so an estimate derived from it can carry the caveat.
+        if l.get('plot_band_min'):
+            l['plot_band_quality'] = 'comparables' if comps else 'unverified'
         for f in COMPUTED:
             l.pop(f, None)
         if l.get('plot_band_min'):

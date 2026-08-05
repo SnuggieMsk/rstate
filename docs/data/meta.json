@@ -31,7 +31,7 @@
  "changelog": [
   {
    "date": "2026-08-05",
-   "summary": "Enriched 35 priority projects with researched pricing and configuration (31 now carry price data), corrected 10 mis-stated localities and 3 wrong project types, and fixed developer attribution on 4 records where an individual promoter had been credited to a national builder. Repaired 29 coordinates that the official TNRERA export writes in packed DDMMSS or with a displaced decimal point — every project pin now falls inside the metropolitan area. Split price confidence from registration confidence so a RERA-verified record no longer implies a verified price. Held 'Sobha Velachery' out of the rankings: no primary source confirms it exists."
+   "summary": "Enrichment sweep. Researched plot land-rate and apartment bands for 52 localities (12 newly tracked) and selling prices for 59 apartment projects, 45 with pricing. 1,025 of 1,152 live projects now carry a price or a labelled locality estimate, up from 69. Fixed a scoring error that compared plotted layouts' LAND rates against apartment BUILT-UP bands: 'KG Kingdom Of Prosperity' had been the #2 project at 93 scoring 15/15 on relative pricing, but against Sriperumbudur's real land band its Rs 2,499/sqft is at the top of the market, not a discount — it now scores 77. Seven TNUHDB rehabilitation tenements reclassified as government housing: allotted to beneficiaries, never sold, so they carry no price, no estimate and no segment fit. 34 localities corrected where TNRERA's revenue village differs from the marketed micro-market — 'Palm Beach Phase II' was filed under Nemilicheri near Avadi but sits at Nemmeli on ECR, 40km south on the coast."
   },
   {
    "date": "2026-07-20",

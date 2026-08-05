@@ -88,7 +88,7 @@ def corridor_bands(localities):
 
 def clear_estimate(p):
     for f in ('est_price_sqft_min', 'est_price_sqft_max', 'est_ticket_min_lakh',
-              'est_ticket_max_lakh', 'est_basis', 'est_source'):
+              'est_ticket_max_lakh', 'est_basis', 'est_source', 'est_weak'):
         p.pop(f, None)
 
 
@@ -101,13 +101,18 @@ def main():
     by_name = {l['name'].lower(): l for l in localities}
     by_corridor = corridor_bands(localities)
 
-    from_locality = from_corridor = skipped_priced = no_band = 0
+    from_locality = from_corridor = skipped_priced = no_band = not_for_sale = 0
     for p in pdata['projects']:
         clear_estimate(p)
         if p.get('status') in RETIRED:
             continue
         if p.get('price_sqft_min') or p.get('ticket_min_lakh'):
             skipped_priced += 1
+            continue
+        # Government rehabilitation tenements are allotted, not sold. Attaching a
+        # market-derived ticket to one would invent a price that cannot exist.
+        if p.get('not_for_sale'):
+            not_for_sale += 1
             continue
 
         loc = by_name.get((p.get('locality') or '').lower())
@@ -133,6 +138,10 @@ def main():
         p['est_ticket_max_lakh'] = round(hi * size / 1e5, 1)
         p['est_basis'] = (f'{basis} rate for {src}, applied to a typical '
                           f'{int(size):,} sqft {"plot" if basis == "land" else "unit"}')
+        if basis == 'land' and (loc or {}).get('plot_band_quality') == 'unverified':
+            p['est_basis'] += (' — that land band was quoted from a portal summary rather '
+                               'than rebuilt from named comparables, so treat it as weak')
+            p['est_weak'] = True
         p['est_source'] = tier
         if tier == 'locality':
             from_locality += 1
@@ -142,6 +151,7 @@ def main():
     print(f'already priced (left alone):      {skipped_priced}')
     print(f'estimated from its own locality:  {from_locality}')
     print(f'estimated from a corridor median: {from_corridor}')
+    print(f'not for sale (govt housing):      {not_for_sale}')
     print(f'no band available, left blank:    {no_band}')
 
     if dry:
