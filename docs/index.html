@@ -64,11 +64,6 @@
 CRI.initTheme();
 let DATA = null;
 
-function priceCell(p) {
-  const t = CRI.ticketHTML(p);
-  return t ? t + '<br><span class="conf">' + CRI.priceHTML(p) + '</span>' : CRI.priceHTML(p);
-}
-
 function render() {
   const { projects, localities, distressed, meta } = DATA;
   const devCount = new Set(projects.filter(p => p.developer).map(p => p.developer)).size;
@@ -94,7 +89,7 @@ function render() {
     `<tr><td class="num">${i + 1}</td>
      <td><strong>${p.name}</strong><br>${CRI.tagsHTML(p.tags)}</td>
      <td>${p.promoter || '—'}</td><td>${p.locality}</td><td>${CRI.stageLabel(p.stage)}</td>
-     <td class="num">${priceCell(p)}</td>
+     <td class="num">${CRI.priceCell(p)}</td>
      <td class="num">${CRI.scoreHTML(p.upside_score)}</td>
      <td>${CRI.riskHTML(p.risk)}</td>
      <td style="max-width:260px;font-size:12.5px;color:var(--text-secondary)">${p.score_rationale || ''}</td></tr>`
@@ -103,7 +98,7 @@ function render() {
   const earlySorted = [...early].sort((a, b) => (b.upside_score || 0) - (a.upside_score || 0)).slice(0, 15);
   document.querySelector('#earlyTable tbody').innerHTML = earlySorted.map(p =>
     `<tr><td><strong>${p.name}</strong></td><td>${p.promoter || '—'}</td><td>${p.locality}</td>
-     <td>${CRI.stageLabel(p.stage)}</td><td class="num">${priceCell(p)}</td>
+     <td>${CRI.stageLabel(p.stage)}</td><td class="num">${CRI.priceCell(p)}</td>
      <td class="num">${CRI.scoreHTML(p.upside_score)}</td><td>${CRI.confHTML(p.data_confidence)}</td></tr>`
   ).join('') || '<tr><td colspan="7" class="conf">No early entrants in this lens.</td></tr>';
 

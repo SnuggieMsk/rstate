@@ -74,12 +74,14 @@ const CRI = (() => {
     return '₹' + Math.round(inr / 1e5) + ' L';
   }
 
+  const lakh = v => v >= 100 ? '₹' + (v / 100).toFixed(2).replace(/\.?0+$/, '') + ' Cr'
+                             : '₹' + Math.round(v) + ' L';
+
   function ticketHTML(p) {
     const a = p.ticket_min_lakh, b = p.ticket_max_lakh;
     if (a == null && b == null) return null;
-    const f = v => v >= 100 ? '₹' + (v / 100).toFixed(2).replace(/\.?0+$/, '') + ' Cr' : '₹' + Math.round(v) + ' L';
-    if (a != null && b != null && a !== b) return f(a) + '–' + f(b);
-    return f(a != null ? a : b);
+    if (a != null && b != null && a !== b) return lakh(a) + '–' + lakh(b);
+    return lakh(a != null ? a : b);
   }
 
   function scoreBand(score) {
@@ -119,6 +121,22 @@ const CRI = (() => {
   }
 
   function fmtN(n) { return n == null ? '—' : Number(n).toLocaleString('en-IN'); }
+
+  // The price cell every listing shares. A researched price and a locality-benchmark
+  // estimate are both useful, but they are different claims, so they never render the
+  // same way — an estimate is always bracketed and labelled.
+  function priceCell(p) {
+    const t = ticketHTML(p);
+    if (t) return t + '<br><span class="conf">' + priceHTML(p) + '</span>';
+    if (p.price_sqft_min) return priceHTML(p);
+    const a = p.est_ticket_min_lakh, b = p.est_ticket_max_lakh;
+    if (a == null) return p.ticket_note || '—';
+    const rate = p.est_price_sqft_min && p.est_price_sqft_max
+      ? `₹${fmtN(p.est_price_sqft_min)}–${fmtN(p.est_price_sqft_max)}/sqft` : '';
+    return `<span class="est" title="${(p.est_basis || '').replace(/"/g, '&quot;')}">` +
+      `~${lakh(a)}–${lakh(b)}</span>` +
+      `<br><span class="conf est-label">locality estimate${rate ? ' · ' + rate : ''}</span>`;
+  }
 
   function confHTML(c) {
     if (c === 'verified') return '<span class="verified-badge">✓ verified on RERA portal</span>';
@@ -265,7 +283,7 @@ const CRI = (() => {
   }
 
   return { loadAll, loadJSON, isLive, scoreBand, BAND_COLORS, scoreHTML, riskHTML, tagsHTML,
-           priceHTML, fmtN, confHTML, priceConfHTML, stageLabel, sourcesHTML, breakdownHTML,
+           priceHTML, priceCell, fmtN, confHTML, priceConfHTML, stageLabel, sourcesHTML, breakdownHTML,
            initTheme, setRefreshed,
            persona, matchesPersona, initPersonaBar, money, ticketHTML,
            compareList, toggleCompare, tierBadge, initCompareBar, skeletons };

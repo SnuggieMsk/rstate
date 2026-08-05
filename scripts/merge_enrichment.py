@@ -20,7 +20,8 @@ DATA = os.path.join(ROOT, 'docs', 'data')
 # Numeric fields are only accepted as positive numbers; text fields as non-empty strings.
 NUM_FIELDS = ('price_sqft_min', 'price_sqft_max', 'ticket_min_lakh', 'ticket_max_lakh',
               'unit_size_min_sqft', 'unit_size_max_sqft', 'total_units', 'land_area_acres')
-TEXT_FIELDS = ('config_mix', 'dominant_config', 'density_note', 'expected_completion')
+TEXT_FIELDS = ('config_mix', 'dominant_config', 'density_note', 'expected_completion',
+               'rate_basis')
 VALID_STAGES = {'pre-launch', 'new-launch', 'under-construction', 'nearing-possession', 'completed'}
 
 
@@ -41,11 +42,20 @@ def main():
 
     applied, not_found, no_data, missing_id = 0, 0, 0, []
     priced = 0
+    corrections = []
     for r in records:
         p = by_id.get(r.get('id'))
         if p is None:
             missing_id.append(r.get('id'))
             continue
+        # A research note that the project is not what we have recorded (a commercial
+        # block filed as an apartment, a locality 50km from where we placed it) is
+        # reported for review, never applied blind — these change what a record IS.
+        for field in ('type_correction', 'locality_correction'):
+            if r.get(field):
+                corrections.append({'id': r['id'], 'name': p.get('name'), 'field': field,
+                                    'current': p.get(field.split('_')[0]),
+                                    'proposed': r[field]})
         if not r.get('found'):
             not_found += 1
             continue
@@ -92,6 +102,10 @@ def main():
     print(f'  found but no usable fields: {no_data}')
     if missing_id:
         print(f'  UNKNOWN ids (skipped): {missing_id}')
+    if corrections:
+        print(f'\n  {len(corrections)} proposed corrections NOT applied — review these:')
+        for c in corrections:
+            print(f"    {c['id']}: {c['field']} {c['current']!r} -> {c['proposed']!r}")
 
     if dry:
         return

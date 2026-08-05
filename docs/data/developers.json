@@ -121,7 +121,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -248,7 +251,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -698,7 +703,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 2,
    "high_risk_count": 0
   },
@@ -773,7 +780,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -893,7 +903,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 2,
    "high_risk_count": 0
   },
@@ -1022,7 +1034,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 3,
    "high_risk_count": 0
   },
@@ -1377,7 +1391,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -1429,7 +1445,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 2,
    "high_risk_count": 0
   },
@@ -1454,7 +1473,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -1479,7 +1500,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -1635,7 +1658,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 2,
    "high_risk_count": 0
   },
@@ -1660,7 +1685,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -1813,7 +1840,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -1916,7 +1945,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 2,
    "high_risk_count": 0
   },
@@ -2068,7 +2100,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -2093,7 +2128,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -2198,7 +2235,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -2749,7 +2788,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 1
   },
@@ -2874,7 +2915,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -3007,7 +3051,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 2,
    "high_risk_count": 0
   },
@@ -3090,7 +3137,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -3564,7 +3613,8 @@
    "ticket_min_lakh": 459,
    "ticket_max_lakh": 570,
    "segments": [
-    "boardroom"
+    "boardroom",
+    "executive"
    ],
    "rera_registered_count": 2,
    "high_risk_count": 0
@@ -3615,7 +3665,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -3641,7 +3693,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 2,
    "high_risk_count": 0
   },
@@ -3920,7 +3975,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 3,
    "high_risk_count": 0
   },
@@ -3945,7 +4003,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 1
   },
@@ -3970,7 +4030,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -3995,7 +4057,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -4020,7 +4085,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -4933,7 +5000,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 1
   },
@@ -5034,7 +5103,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -5084,7 +5155,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -5109,7 +5182,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -5438,7 +5514,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -5517,17 +5595,16 @@
     "new-launch": 3,
     "under-construction": 2
    },
-   "avg_upside_score": 63,
+   "avg_upside_score": 61,
    "best_project": {
     "name": "G Square South Crown",
     "id": "g-square-south-crown",
-    "score": 85
+    "score": 80
    },
    "ticket_min_lakh": 10.74,
    "ticket_max_lakh": 44.9,
    "segments": [
-    "executive",
-    "value"
+    "executive"
    ],
    "rera_registered_count": 6,
    "high_risk_count": 0
@@ -5778,7 +5855,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -5903,7 +5982,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -5953,7 +6034,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -5978,7 +6062,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -6204,7 +6290,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -6358,7 +6446,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -6408,7 +6498,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -6433,7 +6525,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -6508,7 +6602,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -6662,7 +6759,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 2,
    "high_risk_count": 0
   },
@@ -6908,7 +7008,8 @@
    "ticket_min_lakh": 341,
    "ticket_max_lakh": 395,
    "segments": [
-    "boardroom"
+    "boardroom",
+    "executive"
    ],
    "rera_registered_count": 2,
    "high_risk_count": 0
@@ -6934,7 +7035,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -6959,7 +7062,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -6984,7 +7089,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -7034,7 +7141,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -7873,7 +7982,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -8048,7 +8159,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -8323,7 +8436,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -8721,17 +8836,16 @@
     "pre-launch": 1,
     "under-construction": 1
    },
-   "avg_upside_score": 69,
+   "avg_upside_score": 67,
    "best_project": {
     "name": "Kg Kingdom Of Prosperity",
     "id": "kg-kingdom-of-prosperity-1058",
-    "score": 93
+    "score": 85
    },
    "ticket_min_lakh": 15.34,
    "ticket_max_lakh": 102,
    "segments": [
-    "executive",
-    "value"
+    "executive"
    ],
    "rera_registered_count": 4,
    "high_risk_count": 0
@@ -8782,7 +8896,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -8857,7 +8973,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -9007,7 +9125,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -9213,7 +9334,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 5,
    "high_risk_count": 0
   },
@@ -9264,6 +9388,7 @@
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
    "segments": [
+    "boardroom",
     "executive"
    ],
    "rera_registered_count": 1,
@@ -9692,6 +9817,7 @@
    "ticket_min_lakh": 49,
    "ticket_max_lakh": 60,
    "segments": [
+    "boardroom",
     "executive"
    ],
    "rera_registered_count": 3,
@@ -9768,7 +9894,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -9793,7 +9921,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -9893,7 +10024,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -9943,7 +10076,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -10220,7 +10355,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -10320,7 +10457,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -10940,7 +11079,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -10957,11 +11098,11 @@
    "stage_mix": {
     "nearing-possession": 1
    },
-   "avg_upside_score": 37,
+   "avg_upside_score": 40,
    "best_project": {
     "name": "Mg Avenue",
     "id": "mg-avenue-3965",
-    "score": 37
+    "score": 40
    },
    "ticket_min_lakh": 9.45,
    "ticket_max_lakh": null,
@@ -11267,7 +11408,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -11342,7 +11485,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -11546,7 +11692,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -11671,7 +11819,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -11721,7 +11871,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -11746,7 +11898,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 1
   },
@@ -11771,7 +11925,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -12749,7 +12906,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -12999,7 +13159,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -13074,7 +13236,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -13202,7 +13366,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 1
   },
@@ -13227,7 +13393,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -13377,7 +13545,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -13402,7 +13572,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -13452,7 +13624,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -14079,7 +14254,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -14230,7 +14407,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -14280,7 +14459,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -14380,7 +14561,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -14430,7 +14613,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -14546,7 +14731,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -14571,7 +14758,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -15096,7 +15285,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -15271,7 +15462,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -15299,7 +15492,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 3,
    "high_risk_count": 0
   },
@@ -15349,7 +15544,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -15708,7 +15905,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -15733,7 +15932,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -15815,7 +16016,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 5,
    "high_risk_count": 0
   },
@@ -15840,7 +16043,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -16066,7 +16271,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -16341,7 +16548,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 2,
    "high_risk_count": 0
   },
@@ -17050,7 +17259,9 @@
    },
    "ticket_min_lakh": 49.35,
    "ticket_max_lakh": 152,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 3,
    "high_risk_count": 0
   },
@@ -17075,7 +17286,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -17153,7 +17366,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 3,
    "high_risk_count": 0
   },
@@ -17180,7 +17396,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 2,
    "high_risk_count": 0
   },
@@ -17205,7 +17423,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -17230,7 +17450,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -17685,7 +17907,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -17710,7 +17934,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -17760,7 +17986,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 1
   },
@@ -18884,7 +19112,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -18985,7 +19215,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -19117,7 +19349,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -19142,7 +19376,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -19245,7 +19482,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 2,
    "high_risk_count": 0
   },
@@ -19398,7 +19638,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -19673,7 +19915,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -19773,7 +20017,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -20009,7 +20256,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -20034,7 +20284,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -20059,7 +20311,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -20109,7 +20364,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -20234,7 +20491,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -20332,7 +20591,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -20557,7 +20819,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -20607,7 +20871,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -20632,7 +20898,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -20732,7 +21000,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -20757,7 +21028,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -20807,7 +21080,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 1
   },
@@ -20957,7 +21232,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -21389,7 +21667,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -21439,7 +21719,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -21568,7 +21850,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 3,
    "high_risk_count": 1
   },
@@ -21668,7 +21953,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 1
   },
@@ -22018,7 +22305,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -22043,7 +22332,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -22126,7 +22417,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -22438,7 +22731,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -22544,7 +22840,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 6,
    "high_risk_count": 2
   },
@@ -22607,7 +22906,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -23063,7 +23364,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -23490,7 +23793,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -23553,17 +23858,16 @@
    "stage_mix": {
     "new-launch": 1
    },
-   "avg_upside_score": 77,
+   "avg_upside_score": 72,
    "best_project": {
     "name": "VGN Meridian Heights",
     "id": "vgn-meridian-heights",
-    "score": 77
+    "score": 72
    },
    "ticket_min_lakh": 59.5,
    "ticket_max_lakh": 91,
    "segments": [
-    "executive",
-    "value"
+    "executive"
    ],
    "rera_registered_count": 1,
    "high_risk_count": 0
@@ -23789,7 +24093,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -23814,7 +24120,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 1
   },
@@ -23881,11 +24189,11 @@
    "stage_mix": {
     "nearing-possession": 1
    },
-   "avg_upside_score": 59,
+   "avg_upside_score": 51,
    "best_project": {
     "name": "Vgn Heritage Springz - Phase - Ii",
     "id": "vgn-heritage-springz-phase-ii-0980",
-    "score": 59
+    "score": 51
    },
    "ticket_min_lakh": 36,
    "ticket_max_lakh": 91,
@@ -23993,7 +24301,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -24043,7 +24353,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -24171,7 +24483,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 1
   },
@@ -24274,7 +24588,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -24324,7 +24640,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -24399,7 +24718,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 1
   },
@@ -24476,7 +24797,9 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 1
   },
@@ -24656,7 +24979,10 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },

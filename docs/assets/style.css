@@ -236,6 +236,15 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 
 .conf { font-size: 11px; color: var(--text-muted); }
 
+/* A locality-benchmark estimate, never a price anyone published for this project.
+   Held visually below a researched price: lighter weight, dotted underline, always
+   prefixed "~" so it can never be mistaken for a quote. */
+.est {
+  font-weight: 500; color: var(--text-secondary);
+  border-bottom: 1px dotted var(--baseline); cursor: help;
+}
+.est-label { font-style: italic; }
+
 /* ---------- Tier badges ---------- */
 .tier { display: inline-block; font-size: 10.5px; font-weight: 700; letter-spacing: .04em;
   padding: 2px 8px; border-radius: 999px; text-transform: uppercase; vertical-align: 2px; }

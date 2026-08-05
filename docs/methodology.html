@@ -47,7 +47,7 @@
         <tr><td>Entry stage</td><td class="num">25</td><td>Pre-launch and just-registered projects (earliest entry, largest pricing headroom); near-possession scores lowest.</td></tr>
         <tr><td>Infrastructure proximity</td><td class="num">20</td><td>Close to upcoming Metro Phase 2 stations, Peripheral Ring Road interchanges, the proposed Parandur airport, or major employment hubs.</td></tr>
         <tr><td>Locality momentum</td><td class="num">20</td><td>Micro-market with rising prices, strong absorption, and multiple demand drivers.</td></tr>
-        <tr><td>Relative pricing</td><td class="num">15</td><td>Launch price at or below the locality's prevailing band.</td></tr>
+        <tr><td>Relative pricing</td><td class="num">15</td><td>Launch price at or below the locality's prevailing band <em>for the same product type</em> — a plotted layout is measured against land rates, an apartment against built-up rates. Projects with no published price score a neutral 7.</td></tr>
         <tr><td>Developer track record</td><td class="num">10</td><td>Established delivery history at scale; unknown or troubled developers score low.</td></tr>
         <tr><td>Rental yield potential</td><td class="num">10</td><td>Locality rental yields near or above ~4%.</td></tr>
       </tbody>
@@ -78,6 +78,64 @@
     </table>
     <p style="margin-bottom:0">The persona lens is a filter, not a guarantee — always cross-check configuration
     and ticket size in the expanded project card, since builder-quoted ranges shift between launch phases.</p>
+  </div>
+
+  <h2>Where prices come from — and how sure we are</h2>
+  <div class="card">
+    <p style="margin-top:0">TNRERA registers a project but <strong>never publishes what it sells for</strong>.
+    Every price on this site is therefore researched, not official — including on records whose registration
+    carries the <span class="verified-badge">✓ verified on RERA portal</span> badge. That badge covers the
+    registration, not the rate, which is why price confidence is shown separately.</p>
+
+    <p>Plotted layouts are much harder than apartments. Testing 156 registered layouts across four localities,
+    only <strong>4 could be matched to a portal listing by name</strong> — the property portals and the RERA
+    registry list very nearly disjoint sets of layouts. Two reasons: 63% of layouts are registered to an
+    individual landowner while marketing uses a brand name, and layout names are highly generic (215 registry
+    records contain "Nagar", 87 contain "Avenue"). Apartments are the opposite case: small promoters do get
+    portal project pages, and most can be found.</p>
+
+    <p>So a project's price sits on one of these rungs, and the site always says which:</p>
+    <table>
+      <thead><tr><th>Rung</th><th>How the number was arrived at</th><th>Shown as</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td>A named source published a rate for <em>this specific project</em> — the developer's
+          own site, or a portal page matched on locality <em>and</em> promoter</td>
+          <td><strong>₹42 L–₹68 L</strong> <span class="conf">price reported</span></td></tr>
+        <tr><td>2</td><td>No published rate for the project, so the locality's researched band for the same
+          product type is applied to a typical unit or plot size</td>
+          <td><span class="est">~₹28 L–₹44 L</span> <span class="conf est-label">locality estimate</span></td></tr>
+        <tr><td>3</td><td>The locality itself has not been researched, so the median band of its corridor is
+          used — the weakest rung, and only where at least three localities in that corridor contribute</td>
+          <td><span class="est">~₹28 L–₹44 L</span> <span class="conf est-label">locality estimate</span></td></tr>
+        <tr><td>4</td><td>Nothing defensible found</td><td>—</td></tr>
+      </tbody>
+    </table>
+
+    <p>An estimate is always bracketed, prefixed <code>~</code> and labelled. It is kept in separate data fields
+    from researched pricing (<code>est_ticket_min_lakh</code>, never <code>ticket_min_lakh</code>) so the two can
+    never be confused by anything reading the data directly.</p>
+
+    <p style="margin-bottom:0">Estimates deliberately <strong>do not</strong> feed the Relative pricing factor of
+    the Upside Score. Scoring a project against the very band it was estimated from would rate every such project
+    exactly average while looking like real signal. Estimates <em>do</em> feed the persona lenses, since which
+    client a project suits is a judgement a locality band can support.</p>
+  </div>
+
+  <h2>Locality price bands</h2>
+  <div class="card">
+    <p style="margin-top:0">Each locality carries <strong>two independent bands</strong>, because a plot is
+    quoted per sqft of <em>land</em> and an apartment per sqft of <em>built-up area</em> — in Chennai the land
+    rate is routinely a third of the built-up rate in the same locality. Comparing across them reads every
+    layout as a huge discount, so the score never does.</p>
+    <p>Bands are built from named comparables gathered per locality, using the interquartile range rather than
+    min–max so that a single villa-plot outlier cannot stretch the band. Obvious non-comparables (built villa
+    product priced as land, beachfront strips, commercial frontage) are dropped and the exclusion is noted.
+    Where a locality genuinely has no apartment market, the apartment band is left empty rather than filled
+    with the land rate.</p>
+    <p style="margin-bottom:0">Portal figures are <strong>asking</strong> rates, which run above transacted
+    ones; where a transacted figure was available the band says so. Government guideline values are not used as
+    market rates — they are a stamp-duty floor, and the outer Chennai belt trades at roughly 2–3× guideline
+    while central Chennai trades much closer to it.</p>
   </div>
 
   <h2>Locality tiers</h2>

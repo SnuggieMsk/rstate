@@ -111,11 +111,6 @@ function currentFilter() {
     (!conf || p.data_confidence === conf));
 }
 
-function priceCell(p) {
-  const t = CRI.ticketHTML(p);
-  return t ? t + '<br><span class="conf">' + CRI.priceHTML(p) + '</span>' : CRI.priceHTML(p);
-}
-
 const PAGE = 100;   // rows rendered per batch — the registry stream runs to 1,100+
 let shown = PAGE, lastRows = [];
 
@@ -129,7 +124,7 @@ function rowHTML(p, cmp) {
       <td>${p.type || '—'}</td>
       <td>${CRI.stageLabel(p.stage)}</td>
       <td>${p.rera_no ? p.rera_no : '<span class="conf">not found</span>'}<br>${CRI.confHTML(p.data_confidence)}${CRI.priceConfHTML(p)}</td>
-      <td class="num">${priceCell(p)}</td>
+      <td class="num">${CRI.priceCell(p)}</td>
       <td class="num">${CRI.scoreHTML(p.upside_score)}</td>
       <td>${CRI.riskHTML(p.risk)}</td>
     </tr>`;

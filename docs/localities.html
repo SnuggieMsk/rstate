@@ -66,15 +66,24 @@ const TREND_LABEL = { 'rising-fast': '▲▲ Rising fast', rising: '▲ Rising',
   soft: '▽ Soft', falling: '▼ Falling', cooling: '▽ Cooling' };
 const PERSONA_SEG = { boardroom: 'boardroom', executive: 'executive', value: 'value' };
 
-const BAND_MAX = 25000; // ₹/sqft scale ceiling for the band position bar
+// ₹/sqft ceilings for the band position bar. Land and built-up occupy very different
+// ranges, so a plot-only locality is drawn against the land spectrum — on the apartment
+// scale every layout would collapse into the leftmost sliver and compare nothing.
+const BAND_MAX = 25000;
+const PLOT_BAND_MAX = 10000;
 
 function bandBar(l) {
-  if (!l.price_band_min || !l.price_band_max) return '';
-  const left = Math.min(l.price_band_min / BAND_MAX, 1) * 100;
-  const width = Math.max(Math.min((l.price_band_max - l.price_band_min) / BAND_MAX, 1) * 100, 2);
-  return `<div class="band-bar" title="Position within the Chennai price spectrum (₹0–25k/sqft)">
+  const flat = l.price_band_min && l.price_band_max;
+  const lo = flat ? l.price_band_min : l.plot_band_min;
+  const hi = flat ? l.price_band_max : l.plot_band_max;
+  if (!lo || !hi) return '';
+  const max = flat ? BAND_MAX : PLOT_BAND_MAX;
+  const label = flat ? 'city apartment spectrum' : 'city land spectrum';
+  const left = Math.min(lo / max, 1) * 100;
+  const width = Math.max(Math.min((hi - lo) / max, 1) * 100, 2);
+  return `<div class="band-bar" title="Position within the Chennai ${flat ? 'apartment' : 'land'} price spectrum (₹0–${max / 1000}k/sqft)">
       <span style="left:${left}%;width:${Math.min(width, 100 - left)}%"></span></div>
-    <div class="band-scale"><span>₹0</span><span>city price spectrum</span><span>₹25k+</span></div>`;
+    <div class="band-scale"><span>₹0</span><span>${label}</span><span>₹${max / 1000}k+</span></div>`;
 }
 
 function renderStrip() {
@@ -109,12 +118,20 @@ function render() {
   document.getElementById('locGrid').innerHTML = rows.map(l => {
     const here = PROJ.filter(p => p.locality === l.name && CRI.isLive(p));
     const deals = DEALS.filter(d => d.record_type === 'auction' && d.band_locality === l.name);
-    const band = l.price_band_min && l.price_band_max
-      ? `₹${CRI.fmtN(l.price_band_min)}–${CRI.fmtN(l.price_band_max)}/sqft`
-      : (l.price_band_min ? `₹${CRI.fmtN(l.price_band_min)}/sqft` : '—');
+    // Two products, two rates: land per sqft and built-up per sqft are not comparable,
+    // so the card states them separately rather than showing one "price".
+    const rng = (lo, hi) => lo && hi ? `₹${CRI.fmtN(lo)}–${CRI.fmtN(hi)}/sqft`
+      : (lo ? `₹${CRI.fmtN(lo)}/sqft` : null);
+    const flat = rng(l.price_band_min, l.price_band_max);
+    const plot = rng(l.plot_band_min, l.plot_band_max);
     return `<div class="card loc-card">
       <h3>${CRI.tierBadge(l.tier)} ${l.name}${l.corridor && l.corridor !== l.name ? ' <span class="conf">· ' + l.corridor + '</span>' : ''}</h3>
-      <div class="price">${band}</div>
+      <div class="price">${flat || plot || '—'}</div>
+      <div class="conf" style="margin:-2px 0 4px">${
+        flat && plot ? `apartments · plots ${plot}`
+        : flat ? 'apartments (built-up)'
+        : plot ? 'plots (land rate)'
+        : (l.has_apartment_market === false ? 'plot market — apartment rate not researched' : 'no price data yet')}</div>
       ${bandBar(l)}
       <div class="trend trend-${l.trend || 'stable'}">${TREND_LABEL[l.trend] || l.trend || ''}</div>
       <p style="font-size:12.5px;color:var(--text-secondary);margin:6px 0">${l.trend_note || ''}</p>

@@ -168,11 +168,30 @@ def developer_tier(promoter):
     return 3
 
 
+def price_band_for(p, loc):
+    """Pick the locality band that is comparable to this project's own rate.
+
+    A plotted layout quotes a rate per sqft of LAND; an apartment quotes a rate per
+    sqft of BUILT-UP area. In Chennai the land rate is routinely a third of the
+    built-up rate in the same locality, so scoring a plot against the apartment band
+    reads every layout as a huge discount. Compare like with like, and where the
+    matching band has not been researched, decline to score rather than guess.
+    """
+    if not loc:
+        return None
+    lo, hi = ('plot_band_min', 'plot_band_max') if p.get('type') == 'plotted' \
+        else ('price_band_min', 'price_band_max')
+    if loc.get(lo) is None or loc.get(hi) is None:
+        return None
+    return loc[lo], loc[hi]
+
+
 def pricing_ratio(p, loc):
     pmin, pmax = p.get('price_sqft_min'), p.get('price_sqft_max')
-    if pmin is None or not loc or loc.get('price_band_min') is None or loc.get('price_band_max') is None:
+    band = price_band_for(p, loc)
+    if pmin is None or band is None:
         return None
-    band_mid = (loc['price_band_min'] + loc['price_band_max']) / 2
+    band_mid = (band[0] + band[1]) / 2
     if band_mid <= 0:
         return None
     return ((pmin + (pmax or pmin)) / 2) / band_mid
@@ -253,8 +272,13 @@ def loc_segments(loc):
 
 
 def segment_fit(p, loc, tier, ratio):
-    tmin, tmax = p.get('ticket_min_lakh'), p.get('ticket_max_lakh')
-    psq = p.get('price_sqft_min')
+    # Fall back to the locality-benchmark estimate so a registry record can still be
+    # placed in a client bracket. Which buyer a project suits is a judgement the
+    # estimate supports; how cheap it is for its locality is not, which is why
+    # relative_pricing above reads the researched price only.
+    tmin = p.get('ticket_min_lakh') or p.get('est_ticket_min_lakh')
+    tmax = p.get('ticket_max_lakh') or p.get('est_ticket_max_lakh')
+    psq = p.get('price_sqft_min') or p.get('est_price_sqft_min')
     dom = (p.get('dominant_config') or '').lower()
     cfg = (p.get('config_mix') or '').lower()
     units = p.get('total_units')
