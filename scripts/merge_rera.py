@@ -62,7 +62,8 @@ def titlecase(s):
 def clean_place(s):
     """Registry address fields carry trailing noise ('Pincode: 600091', 'Village')."""
     s = clean(s) or ''
-    s = re.split(r'\bpincode\b|\bpin\b|\bdistrict\b|\btaluk\b', s, flags=re.I)[0]
+    # Some registry values run one field into the next when the source omits a comma.
+    s = re.split(r'\bpincode\b|\bpin\b|\bdistrict\b|\btaluk\b|\bstate\b|\bcity\s*[:/]', s, flags=re.I)[0]
     s = re.sub(r'\b(village|post|town|city|vill\.?)\b\.?\s*$', '', s, flags=re.I)
     s = re.sub(r'^(s\.?no\.?|survey no\.?)[:\s]*', '', s, flags=re.I)
     return re.sub(r'[\s,.:;-]+$', '', s).strip()
@@ -84,13 +85,18 @@ def name_key(name):
     return frozenset(w.rstrip('s') if len(w) > 3 else w for w in words if w not in STOP)
 
 
-def stage_from(status_raw, reg_year):
+def stage_from(status_raw, reg_year, record_type='building'):
+    """A layout's registry status is 'completed' once the layout is approved, which
+    says nothing about entry timing — for plots, recency of registration is the
+    signal, so status is only consulted for buildings."""
     s = (status_raw or '').lower()
-    if 'complete' in s:
+    if record_type != 'layout' and 'complete' in s:
         return 'completed'
     if reg_year and reg_year >= '2026':
         return 'new-launch'
-    return 'under-construction'
+    if reg_year and reg_year >= '2025':
+        return 'under-construction'
+    return 'completed' if record_type != 'layout' else 'under-construction'
 
 
 def main():
@@ -168,24 +174,28 @@ def main():
             'promoter': promoter or None,
             'rera_no': rera,
             'registration_date': r.get('reg_year'),
-            'type': r.get('type') or 'apartment',
+            'type': 'plotted' if r.get('record_type') == 'layout' else (r.get('type') or 'apartment'),
             'locality': locality,
             'corridor': corridor,
             'lat': lat, 'lng': lng, 'geo_precision': precision,
             'total_units': r.get('total_units'),
             'price_sqft_min': None, 'price_sqft_max': None, 'ticket_note': None,
             'expected_completion': r.get('completion_raw'),
-            'stage': stage_from(r.get('status_raw'), r.get('reg_year')),
+            'stage': stage_from(r.get('status_raw'), r.get('reg_year'), r.get('record_type', 'building')),
             'status': 'active',
             'data_confidence': 'reported',
             'source': 'rera-registry',
             'sources': [r['url']],
             'notes': ' · '.join(filter(None, [
-                f"TNRERA registry record ({district} district"
+                ('TNRERA plotted-layout registration' if r.get('record_type') == 'layout'
+                 else 'TNRERA building registration')
+                + f" ({district} district"
                 + (f", {titlecase(taluk_c)} taluk" if taluk_c else '') + ')',
                 f"Village: {titlecase(village_c)}" if village_c else None,
                 f"Pincode {r['pincode']}" if r.get('pincode') else None,
                 'Pricing not published in the registry — verify with the promoter.',
+                'Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying.'
+                if r.get('record_type') == 'layout' else None,
             ])),
             'last_checked': scraped.get('scraped_at'),
         }

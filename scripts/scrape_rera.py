@@ -28,7 +28,11 @@ import time
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 CACHE = os.path.join(ROOT, '.cache', 'rera')
 OUT = os.path.join(ROOT, '.cache', 'rera_scraped.json')
-BASE = 'https://proquiro.com/tools/rera-tamil-nadu/buildings/'
+BASES = {
+    'building': 'https://proquiro.com/tools/rera-tamil-nadu/buildings/',
+    'layout': 'https://proquiro.com/tools/rera-tamil-nadu/layouts/',
+}
+BASE = BASES['building']  # back-compat for the module docstring example
 
 # TNRERA district codes that make up the Chennai Metropolitan Area / commuter belt.
 CMA_DISTRICTS = {'1': 'Kancheepuram', '2': 'Tiruvallur', '29': 'Chennai', '35': 'Chengalpattu'}
@@ -71,25 +75,28 @@ def strip_tags(h):
     return re.sub(r'[ \t]+', ' ', t)
 
 
-def parse_index(page_html):
+def parse_index(page_html, kind='building'):
     """Each table row is: name | promoter | type | year | status | RERA no."""
+    seg, code = ('buildings', 'blg') if kind == 'building' else ('layouts', 'lo')
+    row_re = re.compile(rf'{seg}/(tnrera-\d+-{code}-\d+-\d+)/([a-z0-9\-]+)')
     rows = []
     # The row link lives in the <tr> opening tag as data-href, so match the whole element.
     for m in re.finditer(r'<tr[^>]*>.*?</tr>', page_html, flags=re.S):
         row = m.group(0)
-        link = re.search(r'buildings/(tnrera-\d+-blg-\d+-\d+)/([a-z0-9\-]+)', row)
+        link = re.search(row_re, row)
         if not link:
             continue
         cells = [re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', ' ', c))).strip()
                  for c in re.findall(r'<t[dh][^>]*>(.*?)</t[dh]>', row, flags=re.S)]
         cells = [c for c in cells if c]
         slug_no, slug_name = link.group(1), link.group(2)
-        parts = slug_no.split('-')  # tnrera-29-blg-0270-2025
-        rera_no = f'TNRERA/{parts[1]}/BLG/{parts[3]}/{parts[4]}'
+        parts = slug_no.split('-')  # tnrera-29-blg-0270-2025 / tnrera-9-lo-3113-2026
+        rera_no = f'TNRERA/{parts[1]}/{parts[2].upper()}/{parts[3]}/{parts[4]}'
         rec = {
             'rera_no': rera_no, 'district_code': parts[1], 'reg_year': parts[4],
+            'record_type': kind,
             'slug': f'{slug_no}/{slug_name}',
-            'url': f'{BASE}{slug_no}/{slug_name}',
+            'url': f'{BASES[kind]}{slug_no}/{slug_name}',
         }
         # cells order varies slightly; pick by shape
         text_cells = [c for c in cells if not c.startswith('TNRERA')]
@@ -99,8 +106,8 @@ def parse_index(page_html):
             rec['promoter'] = text_cells[1]
         for c in cells:
             lc = c.lower()
-            if lc in ('apartment', 'villa', 'plotted', 'commercial', 'mixed', 'row house'):
-                rec['type'] = 'apartment' if lc == 'apartment' else lc
+            if lc in ('apartment', 'villa', 'plotted', 'commercial', 'mixed', 'row house', 'layout'):
+                rec['type'] = 'plotted' if lc in ('layout', 'plotted') else lc
             elif lc in ('under construction', 'completed', 'new', 'ongoing'):
                 rec['status_raw'] = c
             elif re.fullmatch(r'20\d\d', c):
@@ -165,18 +172,27 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--limit', type=int, default=0, help='cap detail fetches (smoke test)')
     ap.add_argument('--workers', type=int, default=8)
+    ap.add_argument('--kinds', choices=['building', 'layout', 'both'], default='both')
     args = ap.parse_args()
 
-    print('Fetching TNRERA index …', flush=True)
-    index_html = fetch(BASE + '?page=2', 'index')
-    if not index_html:
-        raise SystemExit('could not fetch index')
-    rows = parse_index(index_html)
-    print(f'  index rows: {len(rows)}')
+    rows = []
+    for kind, base in BASES.items():
+        if args.kinds != 'both' and args.kinds != kind:
+            continue
+        print(f'Fetching TNRERA {kind} index …', flush=True)
+        index_html = fetch(base + '?page=2', f'index-{kind}')
+        if not index_html:
+            print(f'  WARNING: could not fetch {kind} index')
+            continue
+        got = parse_index(index_html, kind)
+        print(f'  {kind} index rows: {len(got)}')
+        rows += got
 
     cma = [r for r in rows if r['district_code'] in CMA_DISTRICTS]
+    from collections import Counter
     print(f'  Chennai-metro rows: {len(cma)} '
           f'({", ".join(sorted(set(CMA_DISTRICTS[r["district_code"]] for r in cma)))})')
+    print(f'  by record type: {dict(Counter(r["record_type"] for r in cma))}')
     if args.limit:
         cma = cma[:args.limit]
 
@@ -200,7 +216,7 @@ def main():
 
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, 'w', encoding='utf-8') as f:
-        json.dump({'scraped_at': time.strftime('%Y-%m-%d'), 'source': BASE,
+        json.dump({'scraped_at': time.strftime('%Y-%m-%d'), 'sources': BASES,
                    'projects': cma}, f, indent=1, ensure_ascii=False)
     print(f'wrote {OUT} ({len(cma)} records)')
 

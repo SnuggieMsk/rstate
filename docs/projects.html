@@ -61,6 +61,7 @@
     </tr></thead>
     <tbody></tbody>
   </table></div>
+  <div id="moreWrap" style="text-align:center;margin:14px 0"></div>
   <p class="conf">Click a row to expand the score breakdown, notes, and sources. Tick the checkbox to add up to 3 projects to the compare drawer. RERA numbers shown only when found in a source — always verify at <a href="https://rera.tn.gov.in" target="_blank" rel="noopener">rera.tn.gov.in</a>.</p>
 </main>
 
@@ -110,18 +111,11 @@ function priceCell(p) {
   return t ? t + '<br><span class="conf">' + CRI.priceHTML(p) + '</span>' : CRI.priceHTML(p);
 }
 
-function render() {
-  const rows = currentFilter().sort((a, b) => {
-    const av = a[sortKey], bv = b[sortKey];
-    if (av == null && bv == null) return 0;
-    if (av == null) return 1;
-    if (bv == null) return -1;
-    return (av < bv ? -1 : av > bv ? 1 : 0) * sortDir;
-  });
-  document.getElementById('fCount').textContent = rows.length + ' of ' + ALL.length + ' projects';
-  const cmp = CRI.compareList();
-  document.querySelector('#projTable tbody').innerHTML = rows.map((p, i) =>
-    `<tr data-i="${i}" data-id="${p.id}" style="cursor:pointer">
+const PAGE = 100;   // rows rendered per batch — the registry stream runs to 1,100+
+let shown = PAGE, lastRows = [];
+
+function rowHTML(p, cmp) {
+  return `<tr data-id="${p.id}" style="cursor:pointer">
       <td onclick="event.stopPropagation()"><input type="checkbox" data-cmp="${p.id}" ${cmp.includes(p.id) ? 'checked' : ''}></td>
       <td><strong>${p.name}</strong>${p.source === 'rera-registry' ? ' <span class="tag">registry</span>' : ''}<br>${CRI.tagsHTML(p.tags)}</td>
       <td>${p.developer ? `<a href="developers.html">${p.developer}</a>` : (p.promoter || '—')}
@@ -133,42 +127,76 @@ function render() {
       <td class="num">${priceCell(p)}</td>
       <td class="num">${CRI.scoreHTML(p.upside_score)}</td>
       <td>${CRI.riskHTML(p.risk)}</td>
-    </tr>`).join('') || '<tr><td colspan="10" class="conf">No projects match this lens and filters.</td></tr>';
-
-  document.querySelectorAll('#projTable [data-cmp]').forEach(cb => {
-    cb.addEventListener('change', () => {
-      if (!CRI.toggleCompare(cb.dataset.cmp)) { cb.checked = false; alert('Compare up to 3 projects at a time.'); }
-      if (refreshCmp) refreshCmp();
-    });
-  });
-
-  document.querySelectorAll('#projTable tbody tr[data-id]').forEach(tr => {
-    tr.addEventListener('click', () => {
-      const exist = tr.nextElementSibling;
-      if (exist && exist.classList.contains('detail')) { exist.remove(); return; }
-      document.querySelectorAll('tr.detail').forEach(d => d.remove());
-      const p = ALL.find(x => x.id === tr.dataset.id);
-      const d = document.createElement('tr');
-      d.className = 'detail';
-      d.innerHTML = `<td colspan="10" style="background:var(--page)">
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;max-width:960px">
-          <div><strong>Score breakdown</strong>${CRI.breakdownHTML(p)}
-            <p style="font-size:12.5px;color:var(--text-secondary)">${p.score_rationale || ''}</p>
-            <p style="font-size:12px">Segment fit — Boardroom ${p.segment_fit?.boardroom ?? 0} ·
-              Executive ${p.segment_fit?.executive ?? 0} · Value ${p.segment_fit?.value ?? 0}</p></div>
-          <div style="font-size:12.5px">
-            ${p.config_mix ? '<p style="margin:2px 0"><strong>Configuration:</strong> ' + p.config_mix + '</p>' : ''}
-            ${p.total_units ? '<p style="margin:2px 0"><strong>Units:</strong> ' + CRI.fmtN(p.total_units) + (p.density_note ? ' — ' + p.density_note : '') + '</p>' : ''}
-            ${p.expected_completion ? '<p style="margin:2px 0"><strong>Expected completion:</strong> ' + p.expected_completion + '</p>' : ''}
-            ${p.registration_date ? '<p style="margin:2px 0"><strong>Registered/announced:</strong> ' + p.registration_date + '</p>' : ''}
-            ${p.notes ? '<p style="margin:6px 0;color:var(--text-secondary)">' + p.notes + '</p>' : ''}
-            <p style="margin:6px 0" class="conf">Last checked ${p.last_checked || '—'} · Sources: ${CRI.sourcesHTML(p.sources)}</p>
-          </div>
-        </div></td>`;
-      tr.after(d);
-    });
-  });
+    </tr>`;
 }
+
+function detailHTML(p) {
+  return `<td colspan="10" style="background:var(--page)">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;max-width:960px">
+      <div><strong>Score breakdown</strong>${CRI.breakdownHTML(p)}
+        <p style="font-size:12.5px;color:var(--text-secondary)">${p.score_rationale || ''}</p>
+        <p style="font-size:12px">Segment fit — Boardroom ${p.segment_fit?.boardroom ?? 0} ·
+          Executive ${p.segment_fit?.executive ?? 0} · Value ${p.segment_fit?.value ?? 0}</p></div>
+      <div style="font-size:12.5px">
+        ${p.config_mix ? '<p style="margin:2px 0"><strong>Configuration:</strong> ' + p.config_mix + '</p>' : ''}
+        ${p.total_units ? '<p style="margin:2px 0"><strong>Units:</strong> ' + CRI.fmtN(p.total_units) + (p.density_note ? ' — ' + p.density_note : '') + '</p>' : ''}
+        ${p.expected_completion ? '<p style="margin:2px 0"><strong>Expected completion:</strong> ' + p.expected_completion + '</p>' : ''}
+        ${p.registration_date ? '<p style="margin:2px 0"><strong>Registered/announced:</strong> ' + p.registration_date + '</p>' : ''}
+        ${p.notes ? '<p style="margin:6px 0;color:var(--text-secondary)">' + p.notes + '</p>' : ''}
+        <p style="margin:6px 0" class="conf">Last checked ${p.last_checked || '—'} · Sources: ${CRI.sourcesHTML(p.sources)}</p>
+      </div>
+    </div></td>`;
+}
+
+function paint() {
+  const cmp = CRI.compareList();
+  const slice = lastRows.slice(0, shown);
+  const tbody = document.querySelector('#projTable tbody');
+  tbody.innerHTML = slice.map(p => rowHTML(p, cmp)).join('') ||
+    '<tr><td colspan="10" class="conf">No projects match this lens and filters.</td></tr>';
+  const more = document.getElementById('moreWrap');
+  const remaining = lastRows.length - slice.length;
+  more.innerHTML = remaining > 0
+    ? `<button id="moreBtn" class="more-btn">Show ${Math.min(PAGE, remaining)} more · ${remaining} remaining</button>`
+    : (lastRows.length > PAGE ? `<span class="conf">All ${lastRows.length} shown</span>` : '');
+  const btn = document.getElementById('moreBtn');
+  if (btn) btn.addEventListener('click', () => { shown += PAGE; paint(); });
+}
+
+function render() {
+  lastRows = currentFilter().sort((a, b) => {
+    const av = a[sortKey], bv = b[sortKey];
+    if (av == null && bv == null) return 0;
+    if (av == null) return 1;
+    if (bv == null) return -1;
+    return (av < bv ? -1 : av > bv ? 1 : 0) * sortDir;
+  });
+  shown = PAGE;
+  document.getElementById('fCount').textContent = lastRows.length + ' of ' + ALL.length + ' projects';
+  paint();
+}
+
+// One delegated listener for the whole table beats ~2,300 per-element listeners.
+document.querySelector('#projTable tbody').addEventListener('change', e => {
+  const cb = e.target.closest('[data-cmp]');
+  if (!cb) return;
+  if (!CRI.toggleCompare(cb.dataset.cmp)) { cb.checked = false; alert('Compare up to 3 projects at a time.'); }
+  if (refreshCmp) refreshCmp();
+});
+
+document.querySelector('#projTable tbody').addEventListener('click', e => {
+  const tr = e.target.closest('tr[data-id]');
+  if (!tr || e.target.closest('[data-cmp]') || e.target.closest('a')) return;
+  const next = tr.nextElementSibling;
+  if (next && next.classList.contains('detail')) { next.remove(); return; }
+  document.querySelectorAll('tr.detail').forEach(d => d.remove());
+  const p = ALL.find(x => x.id === tr.dataset.id);
+  if (!p) return;
+  const d = document.createElement('tr');
+  d.className = 'detail';
+  d.innerHTML = detailHTML(p);
+  tr.after(d);
+});
 
 document.querySelector('#projTable tbody').innerHTML =
   '<tr><td colspan="10">' + '<div class="skel skel-row"></div>'.repeat(6) + '</td></tr>';

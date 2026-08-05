@@ -145,7 +145,8 @@ def canonical_developer(promoter):
     t = re.sub(r'\b(private|pvt|limited|ltd|llp|company|co|and|&)\b\.?', ' ', t, flags=re.I)
     t = re.sub(r'[^A-Za-z0-9&.\' ]', ' ', t)
     t = re.sub(r'\s+', ' ', t).strip(' .&')
-    if not t:
+    # A one- or two-character residue is noise, not a developer name.
+    if len(t) < 3 or not re.search(r'[A-Za-z]{3}', t):
         return None
     return t.title() if t.isupper() or t.islower() else t
 
@@ -464,6 +465,23 @@ def main():
             'high_risk_count': sum(1 for p in active if p.get('risk') == 'High'),
         })
         out_devs.append(prof)
+
+    # Keep researched profiles for developers with no tracked project (e.g. groups
+    # that have exited Chennai but whose history still matters to a buyer).
+    covered = {d['name'] for d in out_devs}
+    for name, prof in profiles.items():
+        if name in covered:
+            continue
+        if not (prof.get('delivery_reputation') or prof.get('red_flags')):
+            continue
+        prof.update({
+            'project_count': 0, 'active_projects': 0, 'zones': [], 'localities': [],
+            'stage_mix': {}, 'avg_upside_score': None, 'best_project': None,
+            'ticket_min_lakh': None, 'ticket_max_lakh': None, 'segments': [],
+            'rera_registered_count': 0, 'high_risk_count': 0, 'profile_only': True,
+        })
+        out_devs.append(prof)
+    out_devs.sort(key=lambda d: d['name'])
     save('developers.json', {'developers': out_devs})
 
     save('projects.json', projects)
