@@ -130,6 +130,46 @@
     <strong>Watchlist/Risky</strong> (high risk flag).</p>
   </div>
 
+  <h2>Where the projects come from</h2>
+  <div class="card">
+    <p style="margin-top:0">Every project carries a <code>source</code> field, and the Projects page can filter
+    on it, because the two streams answer different questions:</p>
+    <p><strong>Researched records</strong> (<code>curated</code>) — notable launches, pre-launches, and land
+    acquisitions assembled from news, developer announcements, and property portals. These are the ones with
+    <strong>pricing, configuration mix, and ticket sizes</strong>, so they drive the persona lenses and the
+    relative-pricing factor of the Upside Score.</p>
+    <p><strong>Registry records</strong> (<code>rera-registry</code>) — the full TNRERA registration index for the
+    Chennai Metropolitan Area (Chennai, Kancheepuram, Tiruvallur and Chengalpattu districts), scraped by
+    <code>scripts/scrape_rera.py</code>. These give <strong>comprehensive coverage with real registration
+    numbers, promoters, and village/taluk locations</strong>, but the registry does not publish prices — so they
+    score on stage, location, and infrastructure only, and their relative-pricing factor falls back to a neutral
+    default. They are the raw opportunity funnel: a small promoter's newly registered building in a rising
+    micro-market appears here long before any portal lists it.</p>
+    <p style="margin-bottom:0">The official portal (rera.tn.gov.in) returns HTTP 503 to all automated access and
+    is additionally off-limits to web-unlocker services as a government domain, so registry data is read from a
+    public third-party mirror of the same registry. That is why even registry-sourced records are marked
+    <code>reported</code> rather than <code>verified</code> — the registration number is real and checkable, but
+    this project has not read it from the government portal itself. Locations resolve to a tracked locality where
+    the village name matches one; otherwise the record is placed at its taluk or district centroid and
+    <code>geo_precision</code> says which.</p>
+  </div>
+
+  <h2>Developer intelligence</h2>
+  <div class="card">
+    <p style="margin-top:0">Registry promoter strings are full legal names — <em>"M/s Casagrand Astute Pvt Ltd
+    Rep By its Director…"</em> — so <code>scripts/score.py</code> normalizes them to a canonical developer via an
+    alias table for the known Chennai builders, falling back to a legal-suffix stripper for everyone else. That
+    single canonical name powers the developer filter on Projects and the Developers page.</p>
+    <p>For each developer the site computes, on every refresh: active project count, zones and localities they
+    build in, stage mix, average Upside Score, ticket-size range, which client-lens segments they serve, how many
+    of their projects carry a RERA number, and how many are flagged high-risk.</p>
+    <p style="margin-bottom:0">Researched profile fields — delivery reputation, red flags, listed status, recent
+    activity — are layered on top where they could be sourced, and are preserved across refreshes.
+    <strong>An empty red-flag list means nothing adverse was found in public sources, not that nothing exists.</strong>
+    Buyer complaints on forums are not treated as equivalent to documented regulatory or court action, and the
+    two are described differently on purpose.</p>
+  </div>
+
   <h2>Data confidence levels</h2>
   <div class="card">
     <p style="margin-top:0"><strong>verified</strong> — sourced from the official TN RERA portal
