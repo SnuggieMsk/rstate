@@ -184,7 +184,12 @@ a.tile:hover { transform: translateY(-2px); box-shadow: var(--shadow-2); border-
   background: var(--surface-1); color: var(--text-primary); border: 1px solid var(--baseline);
   border-radius: var(--radius-sm); padding: 8px 11px; font: inherit; font-size: 13px;
   transition: border-color var(--ease);
+  /* A <select> sizes to its longest option; the developer list would otherwise
+     stretch the filter row well past the page width. */
+  max-width: 210px;
 }
+.filters input[type="search"] { min-width: 190px; }
+.filters select { text-overflow: ellipsis; }
 .filters select:hover, .filters input[type="search"]:hover { border-color: var(--accent); }
 .filters label { font-size: 12px; color: var(--text-secondary); }
 .filters .count { margin-left: auto; font-size: 12px; color: var(--text-muted); font-variant-numeric: tabular-nums; }
