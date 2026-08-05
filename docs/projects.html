@@ -14,6 +14,7 @@
     <a href="index.html">Dashboard</a>
     <a href="map.html">Map</a>
     <a href="projects.html" class="active">Projects</a>
+    <a href="developers.html">Developers</a>
     <a href="deals.html">Deals</a>
     <a href="localities.html">Localities</a>
     <a href="methodology.html">Methodology</a>
@@ -26,8 +27,9 @@
   <p class="refreshed"></p>
 
   <div class="filters">
-    <input type="search" id="fSearch" placeholder="Search project / builder…">
-    <select id="fCorridor"><option value="">All corridors</option></select>
+    <input type="search" id="fSearch" placeholder="Search project / builder / locality…">
+    <select id="fDeveloper"><option value="">All developers</option></select>
+    <select id="fCorridor"><option value="">All zones</option></select>
     <select id="fType"><option value="">All types</option></select>
     <select id="fStage"><option value="">All stages</option></select>
     <select id="fCategory"><option value="">All categories</option></select>
@@ -35,6 +37,12 @@
       <option>Low</option><option>Medium</option><option>High</option></select>
     <select id="fScore"><option value="">Any score</option>
       <option value="75">75+</option><option value="60">60+</option><option value="45">45+</option></select>
+    <select id="fSource"><option value="">All records</option>
+      <option value="curated">Researched (with pricing)</option>
+      <option value="rera-registry">TNRERA registry only</option></select>
+    <select id="fRera"><option value="">RERA: any</option>
+      <option value="yes">Has RERA number</option>
+      <option value="no">No RERA number found</option></select>
     <span class="count" id="fCount"></span>
   </div>
 
@@ -77,18 +85,24 @@ function fill(sel, values) {
 
 function currentFilter() {
   const q = document.getElementById('fSearch').value.toLowerCase();
+  const dev = document.getElementById('fDeveloper').value;
   const cor = document.getElementById('fCorridor').value;
   const typ = document.getElementById('fType').value;
   const stg = document.getElementById('fStage').value;
   const cat = document.getElementById('fCategory').value;
   const rsk = document.getElementById('fRisk').value;
   const sc = document.getElementById('fScore').value;
+  const src = document.getElementById('fSource').value;
+  const rera = document.getElementById('fRera').value;
   return ALL.filter(p =>
     CRI.matchesPersona(p) &&
-    (!q || (p.name + ' ' + (p.promoter || '') + ' ' + p.locality).toLowerCase().includes(q)) &&
+    (!q || (p.name + ' ' + (p.promoter || '') + ' ' + p.locality + ' ' + (p.developer || '')).toLowerCase().includes(q)) &&
+    (!dev || p.developer === dev) &&
     (!cor || p.corridor === cor) && (!typ || p.type === typ) &&
     (!stg || p.stage === stg) && (!cat || (p.tags || []).includes(cat)) &&
-    (!rsk || p.risk === rsk) && (!sc || (p.upside_score != null && p.upside_score >= +sc)));
+    (!rsk || p.risk === rsk) && (!sc || (p.upside_score != null && p.upside_score >= +sc)) &&
+    (!src || (p.source || 'curated') === src) &&
+    (!rera || (rera === 'yes' ? !!p.rera_no : !p.rera_no)));
 }
 
 function priceCell(p) {
@@ -109,8 +123,9 @@ function render() {
   document.querySelector('#projTable tbody').innerHTML = rows.map((p, i) =>
     `<tr data-i="${i}" data-id="${p.id}" style="cursor:pointer">
       <td onclick="event.stopPropagation()"><input type="checkbox" data-cmp="${p.id}" ${cmp.includes(p.id) ? 'checked' : ''}></td>
-      <td><strong>${p.name}</strong><br>${CRI.tagsHTML(p.tags)}</td>
-      <td>${p.promoter || '—'}</td>
+      <td><strong>${p.name}</strong>${p.source === 'rera-registry' ? ' <span class="tag">registry</span>' : ''}<br>${CRI.tagsHTML(p.tags)}</td>
+      <td>${p.developer ? `<a href="developers.html">${p.developer}</a>` : (p.promoter || '—')}
+          ${p.developer && p.promoter && p.promoter !== p.developer ? `<br><span class="conf">${p.promoter.slice(0, 46)}</span>` : ''}</td>
       <td>${p.locality}<br><span class="conf">${p.corridor || ''}</span></td>
       <td>${p.type || '—'}</td>
       <td>${CRI.stageLabel(p.stage)}</td>
@@ -161,11 +176,22 @@ CRI.loadAll().then(({ projects, meta }) => {
   CRI.setRefreshed(meta);
   ALL = projects.filter(p => p.status !== 'withdrawn');
   refreshCmp = CRI.initCompareBar(ALL);
+  // Developers sorted by portfolio size so the big names surface first.
+  const devCounts = {};
+  ALL.forEach(p => { if (p.developer) devCounts[p.developer] = (devCounts[p.developer] || 0) + 1; });
+  const devSel = document.getElementById('fDeveloper');
+  Object.entries(devCounts).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .forEach(([name, n]) => {
+      const o = document.createElement('option');
+      o.value = name; o.textContent = `${name} (${n})`;
+      devSel.appendChild(o);
+    });
   fill('fCorridor', ALL.map(p => p.corridor));
   fill('fType', ALL.map(p => p.type));
   fill('fStage', ALL.map(p => p.stage));
   fill('fCategory', ALL.flatMap(p => p.tags || []));
-  ['fSearch', 'fCorridor', 'fType', 'fStage', 'fCategory', 'fRisk', 'fScore'].forEach(id =>
+  ['fSearch', 'fDeveloper', 'fCorridor', 'fType', 'fStage', 'fCategory', 'fRisk', 'fScore',
+   'fSource', 'fRera'].forEach(id =>
     document.getElementById(id).addEventListener('input', render));
   document.querySelectorAll('#projTable th').forEach(th =>
     th.addEventListener('click', () => {

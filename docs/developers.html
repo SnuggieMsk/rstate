@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏙️</text></svg>">
+<title>Developers — Chennai Real Estate Intelligence</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <div class="brand">Chennai Real Estate Intelligence<small>Open-source RERA &amp; new-launch tracker</small></div>
+  <nav class="main">
+    <a href="index.html">Dashboard</a>
+    <a href="map.html">Map</a>
+    <a href="projects.html">Projects</a>
+    <a href="developers.html" class="active">Developers</a>
+    <a href="deals.html">Deals</a>
+    <a href="localities.html">Localities</a>
+    <a href="methodology.html">Methodology</a>
+  </nav>
+  <button class="theme-toggle" title="Toggle light/dark">◐</button>
+</div></header>
+
+<main class="wrap">
+  <h1>Developer intelligence</h1>
+  <p class="sub">Every promoter with a tracked project or TNRERA registration in the Chennai Metropolitan Area — portfolio size, where they build, price positioning, and delivery reputation where it could be sourced.</p>
+  <p class="refreshed"></p>
+
+  <div class="strip" id="devStrip"></div>
+
+  <div class="filters">
+    <input type="search" id="fSearch" class="loc-search" placeholder="Search developer…">
+    <select id="fZone"><option value="">All zones</option></select>
+    <select id="fSeg"><option value="">Any segment</option>
+      <option value="boardroom">Boardroom</option><option value="executive">Executive</option>
+      <option value="value">Value</option></select>
+    <select id="fMin">
+      <option value="2">2+ projects</option>
+      <option value="1">All developers</option>
+      <option value="3">3+ projects</option>
+      <option value="5">5+ projects</option>
+    </select>
+    <select id="fFlag"><option value="">Any status</option>
+      <option value="clean">No red flags found</option>
+      <option value="flagged">Has red flags</option></select>
+    <select id="fSort">
+      <option value="projects">Sort: most projects</option>
+      <option value="score">Sort: avg Upside Score</option>
+      <option value="ticket">Sort: ticket size</option>
+      <option value="name">Sort: name A–Z</option>
+    </select>
+    <span class="count" id="fCount"></span>
+  </div>
+
+  <div class="loc-grid" id="devGrid"></div>
+  <p class="conf" style="margin-top:14px">Portfolio stats are computed from tracked projects on every refresh. Delivery reputation and red flags come from sourced research — an empty red-flag list means nothing adverse was found in public sources, not that none exists. Developers appearing once are typically small promoters registering a single building with TNRERA.</p>
+</main>
+
+<footer class="site"><div class="wrap">
+  <span class="refreshed"></span>
+  <span>Open-source research aggregation. <strong>Not financial advice.</strong> Verify all RERA details at <a href="https://rera.tn.gov.in" target="_blank" rel="noopener">rera.tn.gov.in</a> before transacting.</span>
+  <span>MIT licensed · <a href="https://github.com/SnuggieMsk/rstate" target="_blank" rel="noopener">Source on GitHub</a></span>
+</div></footer>
+
+<script src="assets/app.js"></script>
+<script>
+CRI.initTheme();
+let DEVS = [], PROJ = [];
+
+const TIER_LABEL = {
+  national: 'National developer', 'regional-major': 'Major Chennai developer',
+  'regional-mid': 'Mid-size regional', small: 'Small promoter', troubled: 'Troubled — see flags',
+};
+
+function devCard(d) {
+  const mine = PROJ.filter(p => p.developer === d.name && p.status !== 'withdrawn');
+  const ticket = (d.ticket_min_lakh || d.ticket_max_lakh)
+    ? CRI.ticketHTML({ ticket_min_lakh: d.ticket_min_lakh, ticket_max_lakh: d.ticket_max_lakh })
+    : null;
+  const flags = d.red_flags || [];
+  const stages = Object.entries(d.stage_mix || {})
+    .sort((a, b) => b[1] - a[1])
+    .map(([s, n]) => `<span class="tag">${n} ${CRI.stageLabel(s).toLowerCase()}</span>`).join('');
+  return `<div class="card loc-card">
+    <h3>${d.name}${d.listed ? ' <span class="tag">listed</span>' : ''}</h3>
+    <div class="conf">${d.tier_signal ? TIER_LABEL[d.tier_signal] || d.tier_signal : 'Portfolio from tracked registrations'}${d.hq ? ' · HQ ' + d.hq : ''}</div>
+    <div class="price">${d.active_projects} <span style="font-size:13px;font-weight:400;color:var(--text-secondary)">tracked project${d.active_projects === 1 ? '' : 's'}</span></div>
+    <p style="font-size:12.5px;margin:6px 0">
+      ${d.avg_upside_score != null ? '<strong>Avg Upside:</strong> ' + d.avg_upside_score + '/100 · ' : ''}
+      ${ticket ? '<strong>Tickets:</strong> ' + ticket + ' · ' : ''}
+      <strong>RERA-registered:</strong> ${d.rera_registered_count}/${d.active_projects}
+      ${d.high_risk_count ? ' · <strong style="color:var(--status-critical)">' + d.high_risk_count + ' high-risk</strong>' : ''}</p>
+    ${stages ? `<p style="margin:6px 0">${stages}</p>` : ''}
+    ${(d.segments || []).length ? `<p style="margin:6px 0">${d.segments.map(s => `<span class="tag hot">${s[0].toUpperCase() + s.slice(1)}</span>`).join('')}</p>` : ''}
+    <p style="font-size:12.5px;margin:6px 0"><strong>Builds in:</strong> ${(d.zones || []).join(', ') || '—'}</p>
+    ${d.delivery_reputation ? `<p style="font-size:12.5px;margin:6px 0;color:var(--text-secondary)">${d.delivery_reputation}</p>` : ''}
+    ${flags.length ? `<p style="margin:6px 0">${flags.map(f => `<span class="dd-flag">⚠ ${f}</span>`).join('')}</p>` : ''}
+    ${d.recent_activity_2025_2026 ? `<p style="font-size:12.5px;margin:6px 0"><strong>Recent:</strong> ${d.recent_activity_2025_2026}</p>` : ''}
+    ${d.best_project ? `<p style="font-size:12.5px;margin:6px 0"><strong>Top-scoring:</strong> ${d.best_project.name} (${d.best_project.score}/100)</p>` : ''}
+    <details style="margin-top:6px"><summary style="cursor:pointer;font-size:12.5px;color:var(--accent)">All ${mine.length} projects</summary>
+      <div style="font-size:12.5px;margin-top:6px">${mine
+        .sort((a, b) => (b.upside_score || 0) - (a.upside_score || 0))
+        .map(p => `<div style="margin:3px 0">${CRI.scoreHTML(p.upside_score)} <strong>${p.name}</strong>
+          <span class="conf">· ${p.locality} · ${CRI.stageLabel(p.stage)}${p.rera_no ? ' · ' + p.rera_no : ''}</span></div>`).join('')}</div>
+    </details>
+    ${(d.sources || []).length ? `<p class="conf" style="margin:6px 0 0">Sources: ${CRI.sourcesHTML(d.sources)}</p>` : ''}
+  </div>`;
+}
+
+function render() {
+  const q = document.getElementById('fSearch').value.toLowerCase();
+  const zone = document.getElementById('fZone').value;
+  const seg = document.getElementById('fSeg').value;
+  const min = +document.getElementById('fMin').value;
+  const flag = document.getElementById('fFlag').value;
+  const sort = document.getElementById('fSort').value;
+  const rows = DEVS.filter(d =>
+    d.active_projects >= min &&
+    (!q || d.name.toLowerCase().includes(q)) &&
+    (!zone || (d.zones || []).includes(zone)) &&
+    (!seg || (d.segments || []).includes(seg)) &&
+    (!flag || (flag === 'flagged' ? (d.red_flags || []).length > 0 : (d.red_flags || []).length === 0)));
+  rows.sort((a, b) => {
+    if (sort === 'name') return a.name.localeCompare(b.name);
+    if (sort === 'score') return (b.avg_upside_score || 0) - (a.avg_upside_score || 0);
+    if (sort === 'ticket') return (b.ticket_max_lakh || 0) - (a.ticket_max_lakh || 0);
+    return b.active_projects - a.active_projects || (b.avg_upside_score || 0) - (a.avg_upside_score || 0);
+  });
+  document.getElementById('fCount').textContent = rows.length + ' of ' + DEVS.length + ' developers';
+  document.getElementById('devGrid').innerHTML =
+    rows.map(devCard).join('') || '<p class="conf">No developers match these filters.</p>';
+}
+
+CRI.skeletons('devGrid', 'card', 6);
+Promise.all([CRI.loadAll(), CRI.loadJSON('developers.json')]).then(([data, devData]) => {
+  CRI.setRefreshed(data.meta);
+  PROJ = data.projects;
+  DEVS = devData.developers;
+  const multi = DEVS.filter(d => d.active_projects > 1).length;
+  const flagged = DEVS.filter(d => (d.red_flags || []).length).length;
+  const profiled = DEVS.filter(d => d.delivery_reputation).length;
+  document.getElementById('devStrip').innerHTML = [
+    `<span class="chip"><strong>${DEVS.length}</strong> developers tracked</span>`,
+    `<span class="chip"><strong>${multi}</strong> with multiple projects</span>`,
+    profiled ? `<span class="chip"><strong>${profiled}</strong> with researched profiles</span>` : '',
+    flagged ? `<span class="chip"><strong>${flagged}</strong> carrying red flags</span>` : '',
+  ].join('');
+  const zoneSel = document.getElementById('fZone');
+  [...new Set(DEVS.flatMap(d => d.zones || []))].sort().forEach(v => {
+    const o = document.createElement('option'); o.textContent = v; zoneSel.appendChild(o);
+  });
+  ['fSearch', 'fZone', 'fSeg', 'fMin', 'fFlag', 'fSort'].forEach(id =>
+    document.getElementById(id).addEventListener('input', render));
+  render();
+});
+</script>
+</body>
+</html>

@@ -15,6 +15,7 @@
     <a href="index.html" class="active">Dashboard</a>
     <a href="map.html">Map</a>
     <a href="projects.html">Projects</a>
+    <a href="developers.html">Developers</a>
     <a href="deals.html">Deals</a>
     <a href="localities.html">Localities</a>
     <a href="methodology.html">Methodology</a>
@@ -70,6 +71,7 @@ function priceCell(p) {
 
 function render() {
   const { projects, localities, distressed, meta } = DATA;
+  const devCount = new Set(projects.filter(p => p.developer).map(p => p.developer)).size;
   const active = projects.filter(p => p.status !== 'withdrawn' && CRI.matchesPersona(p));
   const early = active.filter(p => (p.tags || []).includes('Early Entrant'));
   const scored = active.filter(p => p.upside_score != null);
@@ -81,6 +83,7 @@ function render() {
   document.getElementById('tiles').innerHTML = [
     ['Projects in lens', active.length, CRI.persona() === 'all' ? 'across the Chennai Metropolitan Area' : 'matching the selected client lens', 'projects.html'],
     ['Early entrants', early.length, 'pre-launch or newly registered', 'projects.html'],
+    ['Developers', devCount, 'promoters with tracked projects', 'developers.html'],
     ['Micro-markets', localities.length, 'localities with price intelligence', 'localities.html'],
     ['Live auction deals', upcomingDeals, 'bank e-auctions — see Deals page', 'deals.html'],
     ['Median Upside Score', med == null ? '—' : med, 'rule-based, 0–100 — see methodology', 'methodology.html'],

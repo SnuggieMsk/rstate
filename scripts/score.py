@@ -19,6 +19,56 @@ import re
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 DATA = os.path.join(ROOT, 'docs', 'data')
 
+# Canonical developer name -> substrings that identify it in a raw promoter string.
+# Promoter strings from the RERA registry are full legal names ("M/s Casagrand
+# Astute Pvt Ltd Rep By its Director…"), so matching is substring-based and
+# ordered: the first canonical name whose any-substring matches wins.
+DEVELOPER_ALIASES = [
+    ('Casagrand', ['casagrand']),
+    ('Prestige Group', ['prestige estates', 'prestige projects', 'prestige group', 'prestige ']),
+    ('Brigade Group', ['brigade enterprises', 'brigade group', 'brigade ']),
+    ('Godrej Properties', ['godrej']),
+    ('TVS Emerald', ['tvs emerald', 'emerald haven']),
+    ('Appaswamy Real Estates', ['appaswamy']),
+    ('Sobha', ['sobha']),
+    ('L&T Realty', ['l&t realty', 'l & t realty', 'lnt realty', 'larsen & toubro realty']),
+    ('Puravankara / Provident', ['puravankara', 'provident housing', 'provident ']),
+    ('Mahindra Lifespaces', ['mahindra lifespace', 'mahindra world city', 'mahindra residential']),
+    ('DLF', ['dlf ']),
+    ('Tata Housing', ['tata housing', 'tata realty']),
+    ('Hiranandani', ['hiranandani']),
+    ('Radiance Realty', ['radiance']),
+    ('DRA Homes', ['dra homes', 'dra smart', 'd.r.a', 'dra ']),
+    ('Urbanrise / Alliance', ['urbanrise', 'alliance group', 'alliance infrastructure']),
+    ('Shriram Properties', ['shriram propert', 'shriram housing']),
+    ('Jain Housing', ['jain housing', "jain's", 'jains ']),
+    ('VGN Homes', ['vgn ']),
+    ('G Square Housing', ['g square', 'gsquare']),
+    ('Akshaya Homes', ['akshaya']),
+    ('DAC Developers', ['dac developers', 'dac ']),
+    ('Baashyaam', ['baashyaam', 'bhaashyam']),
+    ('Lancor Holdings', ['lancor']),
+    ("Navin's", ['navin housing', "navin's", 'navins']),
+    ('Arihant Foundations', ['arihant']),
+    ('Olympia Group', ['olympia']),
+    ('KG Foundations', ['kg foundations', 'kg builders']),
+    ('SPR India', ['spr india', 'spr city', 'spr highliving', 'spr ']),
+    ('Ceebros', ['ceebros']),
+    ('ASV Constructions', ['asv ']),
+    ('True Value Homes', ['true value homes', 'tvh ']),
+    ('Ozone Group', ['ozone ']),
+    ('Doshi Housing', ['doshi']),
+    ('Rajparis', ['rajparis']),
+    ('India Builders', ['india builders']),
+    ('Ruby Builders', ['ruby builders']),
+    ('Vijay Shanthi', ['vijay shanthi', 'vijayshanthi']),
+    ('Alliance Infra', ['alliance ']),
+    ('Sumanth & Co', ['sumanth']),
+    ('Landmark Housing', ['landmark housing']),
+    ('Marg', ['marg ltd', 'marg limited', 'marg properties']),
+    ('Unitech', ['unitech']),
+]
+
 TIER1 = {
     'casagrand', 'prestige', 'brigade', 'godrej', 'tvs emerald', 'appaswamy',
     'sobha', 'l&t realty', 'mahindra', 'puravankara', 'provident', 'dlf',
@@ -78,6 +128,26 @@ def infra_points_for(p, infra_points):
     if d < 10.0:
         return 7
     return 3
+
+
+def canonical_developer(promoter):
+    """Map a raw promoter string to a canonical developer name for filtering."""
+    s = (promoter or '').lower()
+    if not s.strip():
+        return None
+    for canon, keys in DEVELOPER_ALIASES:
+        if any(k in s for k in keys):
+            return canon
+    # Fall back to a cleaned-up version of the raw legal name so every project
+    # still lands under some developer bucket.
+    t = re.sub(r'\b(m/s\.?|messrs\.?)\b', ' ', promoter or '', flags=re.I)
+    t = re.split(r'\brep(?:resented)?\.?\s+by\b|,|\(', t, maxsplit=1)[0]
+    t = re.sub(r'\b(private|pvt|limited|ltd|llp|company|co|and|&)\b\.?', ' ', t, flags=re.I)
+    t = re.sub(r'[^A-Za-z0-9&.\' ]', ' ', t)
+    t = re.sub(r'\s+', ' ', t).strip(' .&')
+    if not t:
+        return None
+    return t.title() if t.isupper() or t.islower() else t
 
 
 def developer_tier(promoter):
@@ -250,6 +320,7 @@ def main():
         loc = loc_by_name.get((p.get('locality') or '').lower())
         tier = developer_tier(p.get('promoter'))
         ratio = pricing_ratio(p, loc)
+        p['developer'] = canonical_developer(p.get('promoter'))
 
         bd = {
             'entry_stage': STAGE_POINTS.get(p.get('stage'), 10),
@@ -343,6 +414,57 @@ def main():
                                        f'{loc["name"]} band midpoint (₹{band_mid:,.0f}/sqft × {area:,} sqft)')
             d['persona_fit'] = distressed_persona_fit(d)
         save('distressed.json', distressed)
+
+    # ---- Developer rollups -------------------------------------------------
+    # Researched profile fields (delivery reputation, red flags, tier signal) are
+    # preserved; portfolio stats are always recomputed from the current projects.
+    devs = load('developers.json') or {'developers': []}
+    profiles = {d['name']: d for d in devs.get('developers', [])}
+    STAT_KEYS = ('project_count', 'active_projects', 'zones', 'localities', 'stage_mix',
+                 'avg_upside_score', 'best_project', 'ticket_min_lakh', 'ticket_max_lakh',
+                 'segments', 'rera_registered_count', 'high_risk_count')
+    by_dev = {}
+    for p in projects['projects']:
+        if not p.get('developer'):
+            continue
+        by_dev.setdefault(p['developer'], []).append(p)
+
+    out_devs = []
+    for name, plist in sorted(by_dev.items()):
+        prof = profiles.get(name, {'name': name})
+        for k in STAT_KEYS:
+            prof.pop(k, None)
+        active = [p for p in plist if p.get('status') != 'withdrawn']
+        scores = [p['upside_score'] for p in active if p.get('upside_score') is not None]
+        tickets_lo = [p['ticket_min_lakh'] for p in active if p.get('ticket_min_lakh')]
+        tickets_hi = [p['ticket_max_lakh'] for p in active if p.get('ticket_max_lakh')]
+        best = max(active, key=lambda p: p.get('upside_score') or 0, default=None)
+        stage_mix = {}
+        for p in active:
+            stage_mix[p.get('stage') or 'unknown'] = stage_mix.get(p.get('stage') or 'unknown', 0) + 1
+        seg = set()
+        for p in active:
+            for s in ('Boardroom', 'Executive', 'Value'):
+                if s in (p.get('tags') or []):
+                    seg.add(s.lower())
+        prof.update({
+            'name': name,
+            'project_count': len(plist),
+            'active_projects': len(active),
+            'zones': sorted({p['corridor'] for p in active if p.get('corridor')}),
+            'localities': sorted({p['locality'] for p in active if p.get('locality')}),
+            'stage_mix': stage_mix,
+            'avg_upside_score': round(sum(scores) / len(scores)) if scores else None,
+            'best_project': {'name': best['name'], 'id': best['id'],
+                             'score': best.get('upside_score')} if best else None,
+            'ticket_min_lakh': min(tickets_lo) if tickets_lo else None,
+            'ticket_max_lakh': max(tickets_hi) if tickets_hi else None,
+            'segments': sorted(seg),
+            'rera_registered_count': sum(1 for p in active if p.get('rera_no')),
+            'high_risk_count': sum(1 for p in active if p.get('risk') == 'High'),
+        })
+        out_devs.append(prof)
+    save('developers.json', {'developers': out_devs})
 
     save('projects.json', projects)
     save('localities.json', localities)
