@@ -50,6 +50,7 @@
     <span class="count" id="fCount"></span>
   </div>
   <div class="deal-grid" id="auctionGrid"></div>
+  <div id="moreWrap" style="text-align:center;margin:16px 0"></div>
 
   <h2>Stalled projects, insolvencies &amp; revivals</h2>
   <p class="sub">Developers in NCLT/CIRP, stalled towers, and revival-scheme projects — bulk-deal and resolution opportunities, mostly for experienced or institutional buyers.</p>
@@ -86,6 +87,22 @@ function render() {
     return (b.discount_pct ?? -99) - (a.discount_pct ?? -99);
   });
   document.getElementById('fCount').textContent = rows.length + ' of ' + AUC.length + ' listings';
+  const slice = rows.slice(0, shown);
+  const more = document.getElementById('moreWrap');
+  const remaining = rows.length - slice.length;
+  more.innerHTML = remaining > 0
+    ? `<button id="moreBtn" class="more-btn">Show ${Math.min(PAGE, remaining)} more · ${remaining} remaining</button>`
+    : (rows.length > PAGE ? `<span class="conf">All ${rows.length} shown</span>` : '');
+  const btn = document.getElementById('moreBtn');
+  if (btn) btn.addEventListener('click', () => { shown += PAGE; paintCards(rows); });
+  paintCards(slice, true);
+}
+
+const PAGE = 60;
+let shown = PAGE;
+
+function paintCards(rows, isSlice) {
+  if (!isSlice) { render(); return; }
   document.getElementById('auctionGrid').innerHTML = rows.map(d => {
     const expired = d.auction_date && d.auction_date < TODAY;
     const days = d.auction_date ? Math.ceil((new Date(d.auction_date) - new Date(TODAY)) / 86400000) : null;
@@ -108,7 +125,7 @@ function render() {
       <span class="dd-flag">title search required</span>
       <p class="conf" style="margin:8px 0 0">Sources: ${CRI.sourcesHTML(d.sources)} · last checked ${d.last_checked || '—'}</p>
     </div>`;
-  }).join('');
+  }).join('') || '<p class="conf">No auction listings match this lens and filters.</p>';
 }
 
 function renderStalled() {
@@ -138,7 +155,7 @@ function renderStrip() {
   ].join('');
 }
 
-CRI.initPersonaBar(() => { render(); renderStalled(); });
+CRI.initPersonaBar(() => { shown = PAGE; render(); renderStalled(); });
 CRI.skeletons('auctionGrid', 'card', 6);
 CRI.skeletons('stalledList', 'card', 2);
 
@@ -151,7 +168,8 @@ CRI.loadAll().then(({ distressed, meta }) => {
   [...new Set(AUC.map(d => d.asset_type).filter(Boolean))].sort().forEach(v => {
     const o = document.createElement('option'); o.textContent = v; typeSel.appendChild(o);
   });
-  ['fType', 'fStatus', 'fSort'].forEach(id => document.getElementById(id).addEventListener('input', render));
+  ['fType', 'fStatus', 'fSort'].forEach(id =>
+    document.getElementById(id).addEventListener('input', () => { shown = PAGE; render(); }));
   render();
   renderStalled();
 });

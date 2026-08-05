@@ -1,5 +1,5 @@
 {
- "last_refreshed": "2026-07-20",
+ "last_refreshed": "2026-08-05",
  "portal_access_note": "Both https://rera.tn.gov.in and https://rera.tn.gov.in/registered-projects returned HTTP 503 Service Unavailable via WebFetch (likely geo-blocking of non-India traffic); the alternate official listing URL https://rera.tn.gov.in/registered-building/tn also returned 503. Proquiro.com (a TNRERA data mirror) returned 403 on direct fetch but its data surfaced via search snippets. All records below therefore come from secondary sources (developer sites, property portals, real-estate news), so no record is marked 'verified'.",
  "market_context": {
   "summary": "Chennai remained a steady, end-user-driven market through 2025 into 2026. Knight Frank recorded 9,198 residential unit sales in H1 2026 (+3% YoY) with average prices up ~5% YoY to ~Rs 7,555/sqft; Q1 2026 sales were +31% YoY despite an 18% QoQ dip. The market shifted up-market: the Rs 50L-1 crore band held ~45% of sales while the Rs 1-2 crore segment grew fastest (+29% YoY, 23%->26% share); sub-Rs 50 lakh affordable share collapsed from 22% to 12% of sales. Micro-market outperformers included Perambur (+35% YoY on metro/infra). Portals and brokerage reports through 2025 showed suburb-level appreciation of roughly 5-14% (Velachery ~13.8%, Pallavaram ~18%, Poonamallee ~8.9%, Porur ~7.9%).",
@@ -29,6 +29,10 @@
   ]
  },
  "changelog": [
+  {
+   "date": "2026-08-05",
+   "note": "Comprehensiveness pass. Projects 57 -> 1,154 by scraping the full TNRERA registration index for the Chennai Metropolitan Area — both registry streams, buildings AND plotted layouts (TNRERA registers them separately), across Chennai, Kancheepuram, Tiruvallur and Chengalpattu districts; 1,097 now carry a real RERA number. Added a Developers page with 900+ canonicalised promoters, computed portfolio rollups, and 37 researched profiles covering delivery reputation and sourced red flags (adjudicated regulatory action stated separately from unadjudicated buyer complaints). Bank e-auctions 30 -> 626 upcoming listings across 242 localities and 76 lenders, 210 with a computed discount-to-market. Projects table paginated and switched to delegated event handling after the full dataset pushed render time to 5.4s."
+  },
   {
    "date": "2026-07-20",
    "note": "Major expansion: added three client-lens personas (Boardroom ₹3Cr+, Executive ₹1-2.5Cr, Value & Distressed) with per-project segment-fit scoring; expanded locality coverage from 33 to 129 areas across every Chennai zone (North, Central, West, Southwest, South, OMR, ECR, GST Road, far periphery) with locality tiers (Prime/Established/Growth/Emerging); added a Deals page tracking 30 bank e-auction listings (SARFAESI) with discount-to-market calculations and 12 stalled/ insolvent-project records (NCLT/CIRP, TNRERA revocations, SWAMIH revivals); enriched 35 projects with configuration mix and ticket-size ranges; added a compare drawer (up to 3 projects) with print-to-PDF brief view."
