@@ -250,6 +250,60 @@ def distressed_persona_fit(d):
     return sorted(fits)
 
 
+# An auction's area figure is only comparable to one of the two locality bands, and
+# only for some asset types.
+AUCTION_BAND = {
+    'flat': ('price_band_min', 'price_band_max', 'built-up'),
+    'plot': ('plot_band_min', 'plot_band_max', 'land'),
+    'land': ('plot_band_min', 'plot_band_max', 'land'),
+}
+# Outside this multiple of the band MIDPOINT the comparison is not a discount, it is a
+# broken measurement — usually an area quoted in grounds, cents or square yards rather
+# than square feet. The window is anchored to the midpoint because that is what the
+# discount itself divides by; bounding against the band ceiling instead let a wide band
+# through at -248%. These limits cap any published discount to about -120%..+65%.
+RATE_SANITY = (0.35, 2.2)
+
+
+def auction_discount(d, loc):
+    """Return (discount_pct, value_note) for an auction, or (None, note) when the
+    reserve cannot be honestly compared to a locality band.
+
+    A flat's area is built-up area; a plot's is land. An independent HOUSE is land
+    plus a structure, and no single band values both — comparing its reserve to the
+    land band makes every house look overpriced and to the built-up band makes it
+    look wildly so. For houses the implied rate is reported and no discount claimed.
+    """
+    area, reserve = d.get('area_sqft'), d.get('reserve_price_inr')
+    if not (loc and area and reserve):
+        return None, None
+    rate = reserve / area
+
+    if d.get('asset_type') == 'house':
+        return None, (f'Reserve ₹{reserve/1e5:.1f}L over {area:,} sqft works out to '
+                      f'₹{rate:,.0f}/sqft. No discount is shown: the reserve buys land '
+                      f'and a structure together, which neither locality band prices.')
+
+    band = AUCTION_BAND.get(d.get('asset_type'))
+    if not band:
+        return None, None
+    lo, hi, basis = band
+    if loc.get(lo) is None or loc.get(hi) is None:
+        return None, None
+
+    band_mid = (loc[lo] + loc[hi]) / 2
+    if not (band_mid * RATE_SANITY[0] <= rate <= band_mid * RATE_SANITY[1]):
+        return None, (f'Reserve implies ₹{rate:,.0f}/sqft against a {loc["name"]} '
+                      f'{basis} band of ₹{loc[lo]:,}–{loc[hi]:,}. That is too far outside '
+                      f'the band to be a discount — most likely the notice quotes area in '
+                      f'grounds, cents or square yards. Verify the area before bidding.')
+
+    est = band_mid * area
+    return (round((1 - reserve / est) * 100),
+            f'Reserve ₹{reserve/1e5:.1f}L vs ~₹{est/1e5:.0f}L at the {loc["name"]} '
+            f'{basis} band midpoint (₹{band_mid:,.0f}/sqft × {area:,} sqft)')
+
+
 def locality_tier(loc):
     top = loc.get('price_band_max')
     if top is None:
@@ -440,14 +494,11 @@ def main():
             d.pop('value_note', None)
             if d.get('record_type') == 'auction':
                 loc = loc_by_name.get((d.get('band_locality') or d.get('locality') or '').lower())
-                area, reserve = d.get('area_sqft'), d.get('reserve_price_inr')
-                if (d.get('asset_type') in ('flat', 'house') and loc and area and reserve
-                        and loc.get('price_band_min') and loc.get('price_band_max')):
-                    band_mid = (loc['price_band_min'] + loc['price_band_max']) / 2
-                    est = band_mid * area
-                    d['discount_pct'] = round((1 - reserve / est) * 100)
-                    d['value_note'] = (f'Reserve ₹{reserve/1e5:.1f}L vs ~₹{est/1e5:.0f}L at the '
-                                       f'{loc["name"]} band midpoint (₹{band_mid:,.0f}/sqft × {area:,} sqft)')
+                pct, note = auction_discount(d, loc)
+                if pct is not None:
+                    d['discount_pct'] = pct
+                if note:
+                    d['value_note'] = note
             d['persona_fit'] = distressed_persona_fit(d)
         save('distressed.json', distressed)
 

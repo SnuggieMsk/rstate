@@ -110,10 +110,7 @@ function paintCards(rows, isSlice) {
       <h3>${d.title}</h3>
       <div class="conf">${d.locality} · ${d.asset_type}${d.bank ? ' · ' + d.bank : ''}</div>
       <div class="reserve">${CRI.money(d.reserve_price_inr)} <span class="conf">reserve</span></div>
-      ${d.discount_pct != null ? `
-        <div class="discount"><i></i>~${d.discount_pct}% below locality band</div>
-        <div class="disc-bar"><span style="width:${Math.min(Math.max(d.discount_pct, 0), 80)}%"></span></div>
-        <div class="conf">${d.value_note || ''}</div>` : '<div class="conf">No band comparison (plot/land or area unknown)</div>'}
+      ${CRI.discountHTML(d)}
       <p style="font-size:12.5px;margin:8px 0 4px">
         ${d.auction_date ? '<strong>Auction:</strong> ' + d.auction_date +
           (expired ? ' <span class="conf">(date passed — watch for re-auction)</span>'

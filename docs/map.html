@@ -110,7 +110,7 @@ function auctionMarker(d) {
     <div class="meta">${d.locality} · ${d.asset_type}${d.bank ? ' · ' + d.bank : ''}</div>
     <table>
       <tr><td><strong>Reserve</strong></td><td>${CRI.money(d.reserve_price_inr)}</td></tr>
-      ${d.discount_pct != null ? `<tr><td><strong>Vs. band</strong></td><td>~${d.discount_pct}% below market</td></tr>` : ''}
+      ${d.discount_pct != null ? `<tr><td><strong>Vs. band</strong></td><td>~${Math.abs(d.discount_pct)}% ${d.discount_pct >= 0 ? 'below' : 'ABOVE'} market</td></tr>` : ''}
       <tr><td><strong>Auction date</strong></td><td>${d.auction_date || 'n/a'}${expired ? ' (passed)' : ''}</td></tr>
       <tr><td><strong>Possession</strong></td><td>${d.possession || 'unknown'}</td></tr>
     </table>

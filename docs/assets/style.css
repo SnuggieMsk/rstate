@@ -394,3 +394,8 @@ footer.site .wrap { display: flex; flex-direction: column; gap: 6px; }
   font-size: 11px; font-weight: 700; color: var(--success-text);
   white-space: nowrap;
 }
+
+/* A reserve above the locality band is a warning, not a bargain — it must not
+   borrow the green treatment the discount badge uses. */
+.discount.premium { color: var(--status-critical); }
+.discount.premium i { background: var(--status-critical); }

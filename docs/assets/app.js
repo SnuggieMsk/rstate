@@ -138,6 +138,21 @@ const CRI = (() => {
       `<br><span class="conf est-label">locality estimate${rate ? ' · ' + rate : ''}</span>`;
   }
 
+  // A reserve above the locality band is a premium, not a negative discount.
+  // "~-110% below locality band" is not a sentence anyone can act on.
+  function discountHTML(d) {
+    if (d.discount_pct == null) {
+      return d.value_note
+        ? `<div class="conf">${d.value_note}</div>`
+        : '<div class="conf">No band comparison available for this asset.</div>';
+    }
+    const v = d.discount_pct;
+    const label = v >= 0 ? `~${v}% below locality band` : `~${Math.abs(v)}% ABOVE locality band`;
+    return `<div class="discount${v < 0 ? ' premium' : ''}"><i></i>${label}</div>` +
+      `<div class="disc-bar"><span style="width:${Math.min(Math.max(v, 0), 80)}%"></span></div>` +
+      `<div class="conf">${d.value_note || ''}</div>`;
+  }
+
   function confHTML(c) {
     if (c === 'verified') return '<span class="verified-badge">✓ verified on RERA portal</span>';
     const label = { reported: 'reported', estimated: 'estimated' }[c] || c;
@@ -283,7 +298,7 @@ const CRI = (() => {
   }
 
   return { loadAll, loadJSON, isLive, scoreBand, BAND_COLORS, scoreHTML, riskHTML, tagsHTML,
-           priceHTML, priceCell, fmtN, confHTML, priceConfHTML, stageLabel, sourcesHTML, breakdownHTML,
+           priceHTML, priceCell, discountHTML, fmtN, confHTML, priceConfHTML, stageLabel, sourcesHTML, breakdownHTML,
            initTheme, setRefreshed,
            persona, matchesPersona, initPersonaBar, money, ticketHTML,
            compareList, toggleCompare, tierBadge, initCompareBar, skeletons };
