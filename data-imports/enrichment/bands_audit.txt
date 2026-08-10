@@ -1,0 +1,77 @@
+## VERDICT: 5 tiers, worst first
+
+### TIER 1 — Do not publish. The band rests on nothing in the locality.
+
+These assert a number with **zero in-locality comparables**. Every one should be `data_confidence: "estimated"` at best, or nulled.
+
+| Locality | Band | Why it's empty |
+|---|---|---|
+| **Nungambakkam** (plot 22,800–32,150) | `plot_comparables: []` | Pure 99acres range. Researcher admits it. |
+| **Anna Nagar** (plot 24,250–34,900) | `[]` | Same. And East/West differ 34% — one band is meaningless anyway. |
+| **Mylapore** (plot 20,000–30,000) | `[]` | Literally avg ±20%. That is arithmetic, not measurement. |
+| **Choolaimedu** (plot 11,000–17,500) | `[]` | Inherits **quoted per-sqft fields** — the exact trap every other researcher spent paragraphs avoiding. |
+| **Keelkattalai** (plot 10,650–12,000) | `[]` | Single-source 99acres. |
+| **Adyar** (plot 25,050–37,100) | one all-null row | Researcher says "REPORTED ONLY, NOT RECOMPUTED. Treat as weak." Believe them. |
+| **Nandambakkam** (plot 9,500–14,100 AND apt 8,150–13,800) | zero in-locality on *both* | Plot band is Manapakkam/Ramapuram/Guindy parcels. Apt band is Manapakkam's project list with L&T Avinya *retained* — the same listing Manapakkam dropped as an outlier. Nandambakkam has no independent evidence of any kind. |
+| **Padi** (apt 8,180–11,920) | every row is Korattur | Duplicates Korattur's own band (8,100–11,400) off an overlapping project list. Two records, one market. |
+| **Rajakilpakkam** (plot 5,600–6,600) | 4 comps, all Tambaram/Selaiyur | |
+| **Nerkundram** (plot 7,800–13,500) | 2 comps, Nolambur + Mogappair | Brackets two neighbours and describes neither. |
+| **Melavalam** (plot 900–1,300) | proxies are 899 and 950 | **The ceiling exceeds both supporting points.** Internally impossible. |
+| **Pakkam-B**, **Vilangadupakkam** (upper half), **Paramankeni**, **Anakaputhur** (apt), **Thiruvottiyur** (apt), **Peerkankaranai** (both) | proxy/derived | All honestly flagged, all still published as bands. |
+
+**Systematic finding:** the celebrated "prime Chennai land trades above built-up" inversion is, in six of its seven instances (Adyar, Nungambakkam, Anna Nagar, Mylapore, Choolaimedu, Keelkattalai, Adambakkam), **an artifact of the 99acres land series with not one recomputed transaction behind it.** The inversions that *are* evidenced — Neelankarai (7 comps), Palavakkam (4 recomputed), Thiruvottiyur (18), Korattur (6), Besant Nagar (4, two circular) — are the ones to keep. Do not let the verified cases launder the unverified ones.
+
+### TIER 2 — Same inventory sold twice. Two localities, one set of layouts.
+
+Researchers working in parallel each claimed the same projects. These bands are not independent:
+
+- **Kundrathur (3,200–4,500) vs Thirumudivakkam (3,200–3,700)** — near-identical comparable lists: Peace Town 5,099, Sri Kumaran Heritage, KRS Senthil Garden, Silverleaf Castle, Urban Tree Crystal Crown, Sri Devaghi Nagar, MS Smart City, IRIS, Sathiyam Signature all appear in **both**. Sri Kumaran Heritage is 4,515 in one and 4,600 in the other. SS Garden is a dropped outlier in Kundrathur and a retained low anchor in Thirumudivakkam.
+- **Kolathur vs Madhavaram** — *G Square Sarovar at 10,499* is Kolathur's single most load-bearing comparable and is also listed as a Madhavaram layout. If it's Madhavaram, Kolathur's plot band loses its ceiling and falls to ~9,000–10,000.
+- **Thoraipakkam vs Neelankarai** — *MGP Sanjanaa at 9,007* is Thoraipakkam's **only** genuine in-locality comparable and is simultaneously a Neelankarai comparable. It cannot be both. Thoraipakkam's plot band does not survive losing it.
+- **Egattur / Navalur / Padur / Pudupakkam / Kelambakkam** — one shared OMR layout pool (S Realty Natures Nest, Jayam Sri Sai Swarnabhoomi, MGP Kings Park, Tatia Township, VGK Ashbourne, Adityaram Empire, Stepsstone Srinivasa Palms). Padur's researcher assigns them to Navalur/Egattur; Egattur's and Navalur's each claim them; Pudupakkam's band *includes* the listings Kelambakkam dropped as its own outliers.
+- **Vilangadupakkam vs Sholavaram** — Vilangadupakkam's entire upper half *is* the Sholavaram comparable list, verbatim (SND Royal Divine 1,998 → DAC Red Forrt 3,327).
+- **Avadi vs Nemilicheri** — Senthilkumaran Nagar and Dura Sakthi Garden in both.
+- **Ponneri** appears standalone (950–2,050) **and inside Tiruvallur-Ponneri belt** (950–2,400) off the same four layouts. Double-counted.
+
+### TIER 3 — The band is an outlier-drop away from saying the opposite.
+
+- **Ambattur** (plot 8,500–9,300, apt 6,170–7,800). The entire "land trades above built-up" claim depends on dropping **G Square Avante at 5,990** — a branded-developer plot dumped on a hunch ("almost certainly peripheral"). Retain it and n=5 gives ~6,000–9,300 and no inversion. An 800-rupee-wide band from n=4 is false precision regardless.
+- **Sithalapakkam** (plot 5,500–6,100). Two Akshayam layouts at 2,900 and 3,500 dropped as "fringe-sited" — a judgment, not evidence. The Vengaivasal researcher independently reports Sithalapakkam layouts at **4,899–5,900**. The floor is too high. Correct to ~4,500–6,100.
+- **Vengaivasal** (plot 7,000–8,100). Akshayam Roheline at 3,800 dropped, leaving n=3 (7,900 / 7,667 / 6,500). The Medavakkam researcher sees the same listing and doesn't dismiss it.
+- **Kolathur** — seven of ten source rows dropped (70%). Defensible reasoning, but what survives is 2 named layouts, one of which Madhavaram also claims.
+- **Perambur** (plot 10,100–14,800). The **only** in-locality comparable (16,571) sits **above the band**. A band that excludes its sole real data point is not a band.
+
+### TIER 4 — Wide bands on almost no evidence
+
+No band trips the 4×-min test — but that's the wrong test. The real problem is **2×+ spread on ≤3 points**:
+
+- **Villyampakkam** 600–1,500 (2.5×, **n=2**) — and there is a **second record, "Villiambakkam," in the same dataset returning `found:false`**. Same village, two records, one asserting a band and one saying no data exists. Resolve or delete.
+- **Mugaiyur** 600–1,300 (2.2×, n=2) — geocoded 12.345/79.999, ~90 km out, **outside the CMA entirely**. Don't band it; drop the record.
+- **Padi** 6,000–12,500 (2.1×) on one in-locality point.
+- **Thenpattinam** 1,050–2,500 (2.4×, 2 comps) — honestly flagged as two products, still one field.
+- **Urapakkam** 3,250–4,750 — bimodal with **nothing trading between 2,900 and 4,400**. The band's midpoint describes no property that exists.
+- **Uthiramerur** 1,430–1,500 — **n=1**. A 70-rupee band from a single layout's internal range is the most misleadingly precise number in the dataset. Meanwhile **Sirupinayur** — a village *inside Uthiramerur taluk* — gets 1,150–1,550 from nine Uthiramerur listings. Adopt 1,150–1,550 for both.
+- **Sriperumbudur apt 3,400–5,950** — only 2 of 5 projects are in-locality, and they are 2,750 and 6,004. That "IQR" is 60% Oragadam. Null it or relabel corridor-blend.
+- **Thiruverkadu** — plot and apt bands are 2-point brackets each, overlapping heavily (4,600–6,700 vs 5,300–6,400). Neither is measured.
+
+### TIER 5 — Corridor incoherence a reader will trip over
+
+- **Keelkattalai 10,650–12,000 → Medavakkam 6,000–8,300** across ~3 km, with the expensive end portal-only and the cheap end backed by 5 recomputed comps. Same for **Adambakkam 11,400–15,000** (1 comp) sitting next to it.
+- **Rajakilpakkam 5,600–6,600 vs Peerkankaranai 3,000–4,000** — both Tambaram-belt, both pure proxy, 70% apart. At least one is wrong.
+- **Vengambakkam 4,800–5,700** prices *above* **Vandalur 4,400–5,500** and **Perungalathur 3,500–5,500** despite being the least developed of the three, and its apt band (4,500–5,900) rests on one project.
+- **Injambakkam-Uthandi 5,750–7,500** abuts **Palavakkam 10,400–13,000** and **Neelankarai 12,500–14,900**. That aggregate merges an ECR-frontage market with an interior one and reports the average.
+- **VR Garden** is 6,300/sqft in the Tambaram record and 6,120 in Rajakilpakkam. **Sri Kumaran Heritage** 4,515 vs 4,600. Same layouts, different rates, different records.
+
+### Data-hygiene items worth one line each
+
+- **Kattankulathur `rental_yield_pct: 12.9`** — from a developer marketing blog, 3× the city norm. It is caveated in a sibling field no consumer will read. **Null it.**
+- `rental_yield_pct` silently mixes sourced figures with admitted guesses (Poonamallee 3.5, Anna Nagar 3.0, Nungambakkam 2.8 are all invented in the notes). The field looks measured. It isn't.
+- `trend` likewise mixes real YoY series with "carried from the prior record, not re-verified" (Perumbakkam, Manapakkam, Kanchipuram town) and "inferred from the listing field, not a sourced index" (Tambaram, Sholinganallur, Ambattur, Porur, Thirumudivakkam).
+- **Stated n ≠ array length** in at least seven records: Pudupakkam (20 claimed / 14 present), Sriperumbudur (21/12), Thiruvottiyur (18/14), Sithalapakkam (11/9), Walajabad (15/13), Kolathur (6/3), Perumbakkam (8/7). The sample size cannot be audited from the record.
+- **Geocode collisions from registry centroids**: Sirupinayur and Kolivakkam both sit at 12.834/79.704, which is Kanchipuram town's own coordinate. Mugaiyur's 12.345/79.999 is also Vanavil Bala Beach's coordinate in the Thenpattinam record. These are fallbacks, not locations.
+- **Retire**: `West Chennai` (a zone, not a locality — and it is parking two *curated* projects that should be driving persona lenses), `Ninnaijarai` (unresolvable, almost certainly a mangled TNRERA village string).
+- **Suspicious shared endpoints** worth a second look, likely anchoring rather than coincidence: Thoraipakkam plot-max = apt-max = **12,000**; Sithalapakkam plot-max = apt-max = **6,100**; Thiruvottiyur plot-min = apt-min = **6,500**.
+
+### The records I'd trust without qualification
+
+Chengalpattu town, Perungalathur, Oragadam, Padappai, Thiruporur, Poonamallee, Avadi, Kelambakkam, Walajabad, Madhavaram (plot), Minjur, Sholavaram, Tambaram, Sholinganallur, Kundrathur *(subject to the Thirumudivakkam overlap)*, Medavakkam, Gerugambakkam, Palavakkam, Injambakkam-Uthandi *(as a two-market aggregate, labelled as such)*, and every `found:false` return — Anumanthaputheri, Siruvanur, Elapakkam, Putheri, Rendamkattalai, Musaravakkam, Kuthirambakkam, Moolacheri, Netteri, Villiambakkam, Kizhavedu, Pudupattu, Periyakudal, Athipattu, Kolivakkam, Vadakadambadi, Thimmavaram. Those refusals are the highest-quality output in the batch.

@@ -138,8 +138,9 @@ def main():
         p['est_ticket_max_lakh'] = round(hi * size / 1e5, 1)
         p['est_basis'] = (f'{basis} rate for {src}, applied to a typical '
                           f'{int(size):,} sqft {"plot" if basis == "land" else "unit"}')
-        if basis == 'land' and (loc or {}).get('plot_band_quality') == 'unverified':
-            p['est_basis'] += (' — that land band was quoted from a portal summary rather '
+        quality_field = 'plot_band_quality' if basis == 'land' else 'price_band_quality'
+        if (loc or {}).get(quality_field) == 'unverified':
+            p['est_basis'] += (f' — that {basis} band was quoted from a portal summary rather '
                                'than rebuilt from named comparables, so treat it as weak')
             p['est_weak'] = True
         p['est_source'] = tier

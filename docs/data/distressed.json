@@ -1211,9 +1211,7 @@
    "last_checked": "2026-07-20",
    "persona_fit": [
     "value"
-   ],
-   "discount_pct": -54,
-   "value_note": "Reserve ₹16.0L vs ~₹10L at the Walajabad built-up band midpoint (₹1,400/sqft × 744 sqft)"
+   ]
   },
   {
    "id": "auction-2026-07-22-alandur",
@@ -1237,7 +1235,8 @@
    "last_checked": "2026-07-20",
    "persona_fit": [
     "executive"
-   ]
+   ],
+   "value_note": "Reserve ₹268.7L over 2,704 sqft works out to ₹9,937/sqft. No discount is shown: the reserve buys land and a structure together, which neither locality band prices."
   },
   {
    "id": "auction-2026-07-22-ambattur",
@@ -1558,7 +1557,8 @@
    "last_checked": "2026-07-20",
    "persona_fit": [
     "value"
-   ]
+   ],
+   "value_note": "Reserve implies ₹353/sqft against a Poonamallee land band of ₹3,000–5,500. That is too far outside the band to be a discount — most likely the notice quotes area in grounds, cents or square yards. Verify the area before bidding."
   },
   {
    "id": "auction-2026-07-23-sholinganallur",
@@ -1658,8 +1658,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": 21,
-   "value_note": "Reserve ₹52.0L vs ~₹66L at the Urapakkam built-up band midpoint (₹5,750/sqft × 1,150 sqft)"
+   "discount_pct": 7,
+   "value_note": "Reserve ₹52.0L vs ~₹56L at the Urapakkam built-up band midpoint (₹4,838/sqft × 1,150 sqft)"
   },
   {
    "id": "auction-2026-07-23-vandalur",
@@ -2127,7 +2127,7 @@
    "persona_fit": [
     "value"
    ],
-   "value_note": "Reserve implies ₹1,500/sqft against a Avadi built-up band of ₹4,000–6,500. That is too far outside the band to be a discount — most likely the notice quotes area in grounds, cents or square yards. Verify the area before bidding."
+   "value_note": "Reserve implies ₹1,500/sqft against a Avadi built-up band of ₹5,500–6,650. That is too far outside the band to be a discount — most likely the notice quotes area in grounds, cents or square yards. Verify the area before bidding."
   },
   {
    "id": "auction-2026-07-27-egmore",
@@ -2275,7 +2275,9 @@
    "last_checked": "2026-07-20",
    "persona_fit": [
     "boardroom"
-   ]
+   ],
+   "discount_pct": -91,
+   "value_note": "Reserve ₹695.0L vs ~₹365L at the Madhavaram land band midpoint (₹3,300/sqft × 11,050 sqft)"
   },
   {
    "id": "auction-2026-07-27-manapakkam",
@@ -2347,7 +2349,9 @@
    "last_checked": "2026-07-20",
    "persona_fit": [
     "boardroom"
-   ]
+   ],
+   "discount_pct": -20,
+   "value_note": "Reserve ₹422.0L vs ~₹351L at the Palavakkam land band midpoint (₹11,700/sqft × 3,000 sqft)"
   },
   {
    "id": "auction-2026-07-27-pallavaram",
@@ -3157,9 +3161,7 @@
    "last_checked": "2026-07-20",
    "persona_fit": [
     "value"
-   ],
-   "discount_pct": -54,
-   "value_note": "Reserve ₹16.0L vs ~₹10L at the Walajabad built-up band midpoint (₹1,400/sqft × 744 sqft)"
+   ]
   },
   {
    "id": "auction-2026-07-29-alandur",
@@ -3481,8 +3483,8 @@
    "persona_fit": [
     "boardroom"
    ],
-   "discount_pct": -31,
-   "value_note": "Reserve ₹377.4L vs ~₹289L at the Anna Nagar built-up band midpoint (₹12,500/sqft × 2,312 sqft)"
+   "discount_pct": -1,
+   "value_note": "Reserve ₹377.4L vs ~₹372L at the Anna Nagar built-up band midpoint (₹16,100/sqft × 2,312 sqft)"
   },
   {
    "id": "auction-2026-07-30-elaimbedu",
@@ -4934,8 +4936,7 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": 61,
-   "value_note": "Reserve ₹58.0L vs ~₹149L at the Mylapore built-up band midpoint (₹15,500/sqft × 960 sqft)"
+   "value_note": "Reserve implies ₹6,042/sqft against a Mylapore built-up band of ₹19,100–23,600. That is too far outside the band to be a discount — most likely the notice quotes area in grounds, cents or square yards. Verify the area before bidding."
   },
   {
    "id": "auction-2026-08-07-ninnaikarai",
@@ -5382,7 +5383,8 @@
    "last_checked": "2026-07-20",
    "persona_fit": [
     "value"
-   ]
+   ],
+   "value_note": "Reserve implies ₹1,182/sqft against a Urapakkam land band of ₹3,250–4,750. That is too far outside the band to be a discount — most likely the notice quotes area in grounds, cents or square yards. Verify the area before bidding."
   },
   {
    "id": "auction-2026-08-07-vattambakkam",
@@ -5455,7 +5457,8 @@
    "last_checked": "2026-07-20",
    "persona_fit": [
     "value"
-   ]
+   ],
+   "value_note": "Reserve ₹38.0L over 3,934 sqft works out to ₹966/sqft. No discount is shown: the reserve buys land and a structure together, which neither locality band prices."
   },
   {
    "id": "auction-2026-08-07-venkateswara-nagar",
@@ -5793,7 +5796,8 @@
    "last_checked": "2026-07-20",
    "persona_fit": [
     "value"
-   ]
+   ],
+   "value_note": "Reserve implies ₹612/sqft against a Gummidipoondi land band of ₹1,300–2,275. That is too far outside the band to be a discount — most likely the notice quotes area in grounds, cents or square yards. Verify the area before bidding."
   },
   {
    "id": "auction-2026-08-09-nandivaram",
@@ -5915,7 +5919,9 @@
    "last_checked": "2026-07-20",
    "persona_fit": [
     "value"
-   ]
+   ],
+   "discount_pct": 17,
+   "value_note": "Reserve ₹46.6L vs ~₹56L at the Avadi land band midpoint (₹4,300/sqft × 1,308 sqft)"
   },
   {
    "id": "auction-2026-08-10-guduvancheri",
@@ -5990,8 +5996,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": 45,
-   "value_note": "Reserve ₹34.3L vs ~₹62L at the Madhavaram built-up band midpoint (₹7,725/sqft × 805 sqft)"
+   "discount_pct": 50,
+   "value_note": "Reserve ₹34.3L vs ~₹69L at the Madhavaram built-up band midpoint (₹8,550/sqft × 805 sqft)"
   },
   {
    "id": "auction-2026-08-10-mambakkam",
@@ -7406,8 +7412,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": 50,
-   "value_note": "Reserve ₹28.5L vs ~₹57L at the Padur built-up band midpoint (₹5,350/sqft × 1,068 sqft)"
+   "discount_pct": 62,
+   "value_note": "Reserve ₹28.5L vs ~₹76L at the Padur built-up band midpoint (₹7,100/sqft × 1,068 sqft)"
   },
   {
    "id": "auction-2026-08-12-pallikaranai",
@@ -7706,8 +7712,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": 44,
-   "value_note": "Reserve ₹30.0L vs ~₹53L at the Urapakkam built-up band midpoint (₹5,750/sqft × 928 sqft)"
+   "discount_pct": 33,
+   "value_note": "Reserve ₹30.0L vs ~₹45L at the Urapakkam built-up band midpoint (₹4,838/sqft × 928 sqft)"
   },
   {
    "id": "auction-2026-08-12-urapakkam",
@@ -7732,7 +7738,8 @@
    "persona_fit": [
     "value"
    ],
-   "value_note": "Reserve implies ₹1,809/sqft against a Urapakkam built-up band of ₹5,000–6,500. That is too far outside the band to be a discount — most likely the notice quotes area in grounds, cents or square yards. Verify the area before bidding."
+   "discount_pct": 63,
+   "value_note": "Reserve ₹15.5L vs ~₹41L at the Urapakkam built-up band midpoint (₹4,838/sqft × 857 sqft)"
   },
   {
    "id": "auction-2026-08-12-uthiramerur",
@@ -7909,8 +7916,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": 57,
-   "value_note": "Reserve ₹24.0L vs ~₹56L at the Madhavaram built-up band midpoint (₹7,725/sqft × 720 sqft)"
+   "discount_pct": 61,
+   "value_note": "Reserve ₹24.0L vs ~₹62L at the Madhavaram built-up band midpoint (₹8,550/sqft × 720 sqft)"
   },
   {
    "id": "auction-2026-08-13-medavakkam",
@@ -9049,8 +9056,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": -20,
-   "value_note": "Reserve ₹72.5L vs ~₹60L at the Kattankulathur built-up band midpoint (₹4,200/sqft × 1,438 sqft)"
+   "discount_pct": 7,
+   "value_note": "Reserve ₹72.5L vs ~₹78L at the Kattankulathur built-up band midpoint (₹5,400/sqft × 1,438 sqft)"
   },
   {
    "id": "auction-2026-08-17-kattankulathur",
@@ -9075,8 +9082,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": -20,
-   "value_note": "Reserve ₹66.5L vs ~₹55L at the Kattankulathur built-up band midpoint (₹4,200/sqft × 1,320 sqft)"
+   "discount_pct": 7,
+   "value_note": "Reserve ₹66.5L vs ~₹71L at the Kattankulathur built-up band midpoint (₹5,400/sqft × 1,320 sqft)"
   },
   {
    "id": "auction-2026-08-17-kattrampakkam",
@@ -9224,8 +9231,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": 42,
-   "value_note": "Reserve ₹44.0L vs ~₹76L at the Madhavaram built-up band midpoint (₹7,725/sqft × 983 sqft)"
+   "discount_pct": 48,
+   "value_note": "Reserve ₹44.0L vs ~₹84L at the Madhavaram built-up band midpoint (₹8,550/sqft × 983 sqft)"
   },
   {
    "id": "auction-2026-08-17-madhavaram",
@@ -9250,8 +9257,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": 47,
-   "value_note": "Reserve ₹42.0L vs ~₹79L at the Madhavaram built-up band midpoint (₹7,725/sqft × 1,020 sqft)"
+   "discount_pct": 52,
+   "value_note": "Reserve ₹42.0L vs ~₹87L at the Madhavaram built-up band midpoint (₹8,550/sqft × 1,020 sqft)"
   },
   {
    "id": "auction-2026-08-17-madhavaram",
@@ -9425,8 +9432,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": -15,
-   "value_note": "Reserve ₹53.0L vs ~₹46L at the Mylapore built-up band midpoint (₹15,500/sqft × 297 sqft)"
+   "discount_pct": 16,
+   "value_note": "Reserve ₹53.0L vs ~₹63L at the Mylapore built-up band midpoint (₹21,350/sqft × 297 sqft)"
   },
   {
    "id": "auction-2026-08-17-neelankarai",
@@ -11522,7 +11529,8 @@
    "last_checked": "2026-07-20",
    "persona_fit": [
     "value"
-   ]
+   ],
+   "value_note": "Reserve implies ₹6,004/sqft against a Nungambakkam land band of ₹22,800–32,150. That is too far outside the band to be a discount — most likely the notice quotes area in grounds, cents or square yards. Verify the area before bidding."
   },
   {
    "id": "auction-2026-08-20-padur",
@@ -14151,8 +14159,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": -9,
-   "value_note": "Reserve ₹34.0L vs ~₹31L at the Madhavaram built-up band midpoint (₹7,725/sqft × 404 sqft)"
+   "discount_pct": 2,
+   "value_note": "Reserve ₹34.0L vs ~₹35L at the Madhavaram built-up band midpoint (₹8,550/sqft × 404 sqft)"
   },
   {
    "id": "auction-2026-08-29-poonamallee",
@@ -14772,8 +14780,8 @@
    "persona_fit": [
     "value"
    ],
-   "discount_pct": 31,
-   "value_note": "Reserve ₹52.0L vs ~₹75L at the Padur built-up band midpoint (₹5,350/sqft × 1,400 sqft)"
+   "discount_pct": 48,
+   "value_note": "Reserve ₹52.0L vs ~₹99L at the Padur built-up band midpoint (₹7,100/sqft × 1,400 sqft)"
   },
   {
    "id": "auction-2026-09-02-paruthipattu",

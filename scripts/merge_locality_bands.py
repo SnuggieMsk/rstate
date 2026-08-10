@@ -36,6 +36,36 @@ COMPUTED = {'tier'}
 
 # A band whose ceiling is more than this multiple of its floor carries no information.
 MAX_BAND_SPREAD = 4.0
+# A ceiling this far above the best comparable behind it is not measurement, it is
+# extrapolation. Melavalam asserted 1,300 with nothing above 950 behind it.
+CEILING_TOLERANCE = 1.15
+# Below this many named comparables a band is one listing's opinion, not a market.
+MIN_COMPARABLES = 2
+# Chennai residential yields sit near 2-4%. 12.9% came from a developer's marketing
+# blog and would read as measured fact in the UI.
+MAX_PLAUSIBLE_YIELD = 8.0
+# The CMA bounding box, same as scripts/merge_rera_csv.py. A locality geocoded
+# outside it is a mangled registry string, not a micro-market.
+LAT_RANGE, LNG_RANGE = (11.8, 14.2), (79.0, 80.9)
+# Zone labels and unresolvable registry residue that must never become localities.
+NOT_A_LOCALITY = {'west chennai', 'chennai', 'chennai district', 'ninnaijarai'}
+
+
+def band_quality(lo, hi, comps):
+    """Grade the evidence behind a band: 'comparables' or 'unverified'.
+
+    An audit of the first research round found the striking "prime Chennai land
+    trades above built-up" pattern was, in six of seven cases, a portal's summary
+    series with not one recomputed transaction behind it. A band and a band-shaped
+    quotation look identical in the data, so the difference is recorded explicitly
+    and any estimate derived from a weak band says so.
+    """
+    rates = [c['rate_sqft'] for c in comps if c.get('rate_sqft')]
+    if len(rates) < MIN_COMPARABLES:
+        return 'unverified'
+    if hi and hi > max(rates) * CEILING_TOLERANCE:
+        return 'unverified'
+    return 'comparables'
 
 
 def bad_band(lo, hi):
@@ -74,6 +104,17 @@ def main():
         if not r.get('found'):
             not_found += 1
             continue
+        if name.lower() in NOT_A_LOCALITY:
+            rejected.append(f'{name}: a zone label or unresolvable registry string, not a locality')
+            continue
+        if r.get('lat') is not None and not (
+                LAT_RANGE[0] <= r['lat'] <= LAT_RANGE[1]
+                and LNG_RANGE[0] <= (r.get('lng') or 0) <= LNG_RANGE[1]):
+            rejected.append(f'{name}: geocoded {r["lat"]},{r.get("lng")} — outside the CMA')
+            continue
+        if (r.get('rental_yield_pct') or 0) > MAX_PLAUSIBLE_YIELD:
+            rejected.append(f'{name}: rental yield {r["rental_yield_pct"]}% is not credible — dropped')
+            r['rental_yield_pct'] = None
 
         for lo_f, hi_f in (('plot_band_min', 'plot_band_max'),
                            ('price_band_min', 'price_band_max')):
@@ -135,7 +176,15 @@ def main():
         # evidence — Sholinganallur's band, built from 51 named comparables, flipped to
         # "unverified" and pushed the weak-estimate caveat onto three more projects.
         if r.get('plot_band_min') or comps:
-            l['plot_band_quality'] = 'comparables' if comps else 'unverified'
+            l['plot_band_quality'] = band_quality(
+                r.get('plot_band_min'), r.get('plot_band_max'), comps)
+        # The apartment band has no comparables array to check, so it is graded on
+        # whether the researcher recorded where the figure came from.
+        if r.get('price_band_min'):
+            note = (r.get('price_band_note') or '').lower()
+            l['price_band_quality'] = 'unverified' if (
+                'not recomputed' in note or 'reported only' in note or not note
+            ) else 'comparables'
         for f in COMPUTED:
             l.pop(f, None)
         if l.get('plot_band_min'):

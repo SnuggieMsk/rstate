@@ -5426,6 +5426,3049 @@
     "https://www.chennaiproperties.com/plots-for-sale-in-uthiramerur",
     "https://www.chennaiproperties.com/plots-for-sale-in-kanchipuram"
    ]
+  },
+  {
+   "name": "Mylapore",
+   "found": true,
+   "corridor": "Central Chennai",
+   "lat": 13.0337,
+   "lng": 80.2687,
+   "has_apartment_market": true,
+   "plot_band_min": 20000,
+   "plot_band_max": 30000,
+   "plot_band_note": "ESTIMATED, not an IQR. Mylapore has essentially no plotted-layout product \u2014 the 2 tracked 'plot' projects are individual land parcels, and no portal I could reach names a single Mylapore layout with a price+area I could recompute. 99acres (2026) publishes land at Rs 17,150-42,300/sqft with an AVERAGE of Rs 25,400/sqft, +10.0% in 1yr / +3.3% in 3yr / +11.9% in 5yr / -4.2% in 10yr. I report 20,000-30,000 as roughly avg +/-20% because only min/avg/max were available; the 42,300 top is Luz/RK Mutt Road frontage and the 17,150 floor is interior-lane land. Note this is BELOW the 'land ~Rs 30,000/sqft' carried in the existing record's note. Land here sits at ~1.2x the new-build built-up rate, the classic central-Chennai ratio.",
+   "plot_comparables": [],
+   "typical_plot_size_sqft": null,
+   "price_band_min": 19100,
+   "price_band_max": 23600,
+   "price_band_note": "APARTMENT built-up rate, IQR of 16 named new-build projects on chennaiproperties.com, per-sqft recomputed by me as total price / size for every one. Median 20,968; full spread 14,498 (Sai Ganesh, Suburayan Rd) to 26,300 (The President by Asta, Dr Radha Krishnan Salai). TWO-TIER MARKET WARNING: this is the PRIMARY / new-build boutique-redevelopment tier, which is what the 21 tracked apartment projects are. Resale and older stock is far cheaper \u2014 99acres puts Mylapore flats at Rs 9,350-18,450/sqft (avg ~15,000) and the registry-transacted average is ~11,800/sqft. Do not blend the two. Six of the sixteen listings carried a portal per-sqft field that disagreed with total/size by 10-20% (Ramaniyam Manidweepam quoted 19,500, computes to 23,367; Voora TRM Court quoted 20,000, computes to 23,889) \u2014 I used my computed figures throughout.",
+   "typical_flat_size_sqft": 1650,
+   "rate_basis": "mixed",
+   "trend": "stable",
+   "trend_note": "REVERSAL vs what this record currently says: 99acres 2026 now shows Mylapore FLAT rates at -2.0% over 1yr, -6.8% over 3yr, -6.0% over 5yr (the record's +11.8%/1yr and +32%/5yr no longer hold), while LAND is +10.0% over 1yr \u2014 built product has stalled but scarce land is still bid up.",
+   "rental_yield_pct": null,
+   "segment_fit": [
+    "boardroom",
+    "executive"
+   ],
+   "band_audit": "The existing 12,000-19,000 band IS an apartment built-up band and is correctly typed \u2014 its two endpoints are exactly the registry-transacted flat average (~11,800) and the portal listing average (~18,450). Land was properly kept OUT of the band and confined to the note. Two problems, neither one of contamination: (a) it is a resale/blended band and understates the primary market, which now asks 19,100-23,600/sqft; (b) the note's 'land ~Rs 30,000/sqft' overstates 99acres' current 2026 land average of 25,400/sqft.",
+   "data_confidence": "reported",
+   "sources": [
+    "https://www.chennaiproperties.com/flats-for-sale-in-mylapore",
+    "https://www.99acres.com/property-rates-and-price-trends-in-mylapore-chennai-south-prffid",
+    "https://spiritofchennai.com/realestate/chennai-apartment-prices-by-area/"
+   ]
+  },
+  {
+   "name": "Padur",
+   "found": true,
+   "corridor": "OMR",
+   "lat": 12.807,
+   "lng": 80.223,
+   "has_apartment_market": true,
+   "plot_band_min": 4000,
+   "plot_band_max": 5500,
+   "plot_band_note": "LAND rate per sqft. IQR of 7 named Padur layouts on roofandfloor.com, per-sqft recomputed by me from total price / plot size (roofandfloor's quoted rate is a flat marketing rate \u2014 min_price/min_size == max_price/max_size \u2014 so it carries no range information, and I verified each against both ends). Median 5,250; full spread 2,599 (Varsa Garden, Vishwak Properties) to 7,500 (Earthen Spaces Zen). Both tails are inside the layout market, not outliers of kind, so the IQR simply trims them. DROPPED: TVH Terra Hub (Egattur, 6,500), Jayam Sri Sai Swarnabhoomi Garden and S Realty Natures Nest (both Navalur) \u2014 roofandfloor's Padur page lists these under their own locality labels, so they are fringe comparables, not Padur. Sathiyam Royal Castle's min price/size gives 3,646 while its max gives exactly 3,999; I used 3,999 since the max reconciles cleanly.",
+   "plot_comparables": [
+    {
+     "layout": "Varsa Garden",
+     "developer": "Vishwak Properties",
+     "plot_size_min_sqft": 661,
+     "plot_size_max_sqft": 2616,
+     "rate_sqft": 2599,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-padur"
+    },
+    {
+     "layout": "Sathiyam Royal Castle",
+     "developer": "Sathiyam Housing and Properties Pvt Ltd",
+     "plot_size_min_sqft": 850,
+     "plot_size_max_sqft": 2000,
+     "rate_sqft": 3999,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-padur"
+    },
+    {
+     "layout": "Staar Serasa Avenue",
+     "developer": "Staar Homes",
+     "plot_size_min_sqft": 791,
+     "plot_size_max_sqft": 2549,
+     "rate_sqft": 5199,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-padur"
+    },
+    {
+     "layout": "Urban Tree Onyx Enclave",
+     "developer": "Urban Tree Infrastructures Pvt Ltd",
+     "plot_size_min_sqft": 821,
+     "plot_size_max_sqft": 2073,
+     "rate_sqft": 5250,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-padur"
+    },
+    {
+     "layout": "VGN Pride",
+     "developer": "VGN Homes Private Limited",
+     "plot_size_min_sqft": 523,
+     "plot_size_max_sqft": 1636,
+     "rate_sqft": 5499,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-padur"
+    },
+    {
+     "layout": "Jansens Brindavan",
+     "developer": "Jansen Infrastructure Pvt Ltd",
+     "plot_size_min_sqft": 600,
+     "plot_size_max_sqft": 2304,
+     "rate_sqft": 5500,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-padur"
+    },
+    {
+     "layout": "Earthen Spaces Zen",
+     "developer": "Earthen Spaces",
+     "plot_size_min_sqft": 1200,
+     "plot_size_max_sqft": 1846,
+     "rate_sqft": 7500,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-padur"
+    }
+   ],
+   "typical_plot_size_sqft": 900,
+   "price_band_min": 5900,
+   "price_band_max": 8300,
+   "price_band_note": "APARTMENT built-up rate. IQR of 8 named Padur projects on chennaiproperties.com, per-sqft recomputed by me from total price / size. Median 7,569; retained spread 5,040 (Jains Inseli Park) to 8,578 (Urbanrise Revolution One). DROPPED as an outlier: The Gem Grove (Gem Group) at a computed 3,650/sqft \u2014 a 2,320 sqft 4BHK at Rs 84.68L on OMR Padur in 2026 is not credible new-build pricing and is either old/distressed stock or a mislabelled listing. Corroboration: 99acres avg Rs 7,658/sqft (July 2026); omrflats.com ~Rs 6,800/sqft; propnewz 3BHK guide Rs 4,500-7,500/sqft (April 2026); spiritofchennai Rs 5,500-7,500 (2026). Clear tiering inside the band: branded product (Urbanrise 8,578, Godrej Azure 8,452, TVS Emerald Verde Vista 8,180, Pacifica Bliss 7,234) vs older stock (Pacifica Aurum Pride ~5,860, Jains Inseli Park ~5,040). Land here is ~60-65% of built-up \u2014 unusually high for OMR, reflecting scarce plotted supply. Nest Mojo's quoted 4,599/sqft computes to 5,884; Pacifica Aurum's quoted 5,100 computes to ~5,860 \u2014 computed figures used.",
+   "typical_flat_size_sqft": 1150,
+   "rate_basis": "asking",
+   "trend": "rising",
+   "trend_note": "99acres puts the Padur average at Rs 7,658/sqft in July 2026 against an existing record band topping out at 6,500 \u2014 corridor-wide OMR absorption plus branded entries (Godrej, TVS Emerald, Urbanrise) have repriced the micro-market upward; adjacent Kelambakkam is quoted at +15.8% YoY.",
+   "rental_yield_pct": null,
+   "segment_fit": [
+    "executive",
+    "value"
+   ],
+   "band_audit": "The existing 4,200-6,500 band IS an apartment built-up band and is correctly typed \u2014 no land contamination. But its own note admits it was 'estimated between Siruseri and Kelambakkam levels', i.e. corridor-inferred rather than locality-sourced, and it is now materially stale on the low side: eight named Padur projects and three independent portals all put the 2026 apartment market at 5,900-8,300/sqft. The band's ceiling (6,500) is now roughly the market's floor-to-median.",
+   "data_confidence": "reported",
+   "sources": [
+    "https://roofandfloor.com/chennai/plots-for-sale-in-padur",
+    "https://www.chennaiproperties.com/flats-for-sale-in-padur",
+    "https://www.99acres.com/property-rates-and-price-trends-in-padur-chennai-south-prffid",
+    "https://www.omrflats.com/blog/padur",
+    "https://www.propnewz.com/blog/3-bhk-apartment-omr-chennai-buyer-guide-2026",
+    "https://spiritofchennai.com/realestate/chennai-apartment-prices-by-area/"
+   ]
+  },
+  {
+   "name": "Anakaputhur",
+   "found": true,
+   "corridor": "Southwest Chennai",
+   "lat": 12.982,
+   "lng": 80.128,
+   "has_apartment_market": true,
+   "plot_band_min": 3300,
+   "plot_band_max": 5100,
+   "plot_band_note": "LAND rate per sqft. THIN \u2014 only 2 genuinely Anakaputhur-labelled comparables exist across the working sources, so this is an anchored band rather than a true IQR. Floor = Sri Radha Nagar (Annai Builders, Bakthavachalam Road), which I recomputed as 19.8L/600 = 3,300 AND 39.6L/1200 = 3,300, confirmed identically on both roofandfloor and chennaiproperties, and matched by a separate search listing at 3,300/sqft near Sri Sakthi Sai Baba Karunalayam. Ceiling = 99acres' published Anakaputhur land range of Rs 3,500-5,100/sqft (2025-26). The one other Anakaputhur parcel I found \u2014 2,328 sqft near the Anakaputhur Register Office at Rs 1.28 Cr \u2014 recomputes to 5,498/sqft; I treated it as main-road/register-office frontage sitting just above the residential band rather than as typical layout product. NOTE the fetch tool reported that parcel's rate as '55,000/sqft' \u2014 a factor-of-ten error of exactly the kind flagged; the real figure is 5,498. IMPORTANT: roofandfloor's Anakaputhur page and realnest's Anakaputhur page are almost entirely Kundrathur / Pallavaram / Tharapakkam fill (realnest states outright 'No matching properties in Anakaputhur'); I excluded all of it, including KG Kingdom Of Prosperity (2,499), Urban Tree Crystal Crowns (2,999), NuTech Inscape (4,500), VGN Highland (4,798) and Rajparis Aeroville (7,499).",
+   "plot_comparables": [
+    {
+     "layout": "Sri Radha Nagar",
+     "developer": "Annai Builders",
+     "plot_size_min_sqft": 600,
+     "plot_size_max_sqft": 1200,
+     "rate_sqft": 3300,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-anakaputhur"
+    },
+    {
+     "layout": "Individual parcel near Anakaputhur Register Office (main-road frontage)",
+     "developer": null,
+     "plot_size_min_sqft": 2328,
+     "plot_size_max_sqft": 2328,
+     "rate_sqft": 5498,
+     "source": "https://www.chennaiproperties.com/plots-for-sale-in-anakaputhur"
+    }
+   ],
+   "typical_plot_size_sqft": 900,
+   "price_band_min": 5200,
+   "price_band_max": 6300,
+   "price_band_note": "APARTMENT built-up rate, but a THIN market \u2014 zero organised apartment projects are tracked here and supply is small builder-floor stock, not gated developments. No named apartment project with a recomputable price+size could be found on any working source. Band is anchored on two portal averages only: the ~Rs 5,550/sqft flat average already in the record, and 99acres' 2026 Anakaputhur figure of Rs 6,000/sqft. Treat as indicative; buyers should price street by street given the Adyar-riverbank flood exposure.",
+   "typical_flat_size_sqft": 950,
+   "rate_basis": "asking",
+   "trend": "rising",
+   "trend_note": "99acres 2026 shows Anakaputhur at +30.4% YoY (vs neighbouring Pammal +11.6%) \u2014 treat the magnitude with caution as it is almost certainly amplified by listing mix rather than genuine repricing, but the direction is a clear change from the 'stable' currently recorded.",
+   "rental_yield_pct": null,
+   "segment_fit": [
+    "value"
+   ],
+   "band_audit": "The existing 4,150-5,950 band is an APARTMENT/flat built-up band \u2014 it is built around the ~Rs 5,550/sqft flat average, and the land rate (3,500-5,100) appears only in the note and was NOT folded into the band. So it is not contaminated. The real problem is fitness for purpose: Anakaputhur tracks 4 plot projects and 0 apartment projects, so the locality is being represented by a built-up rate for a product type that barely exists there. The land figure sitting unused in its own note is the number that should have been the band.",
+   "data_confidence": "reported",
+   "sources": [
+    "https://roofandfloor.com/chennai/plots-for-sale-in-anakaputhur",
+    "https://www.chennaiproperties.com/plots-for-sale-in-anakaputhur",
+    "https://www.realnest.in/plots-for-sale-in-anakaputhur",
+    "https://www.99acres.com/property-rates-and-price-trends-in-anakaputhur-chennai-south-prffid",
+    "https://www.99acres.com/residential-land-in-anakaputhur-chennai-south-without-brokerage-ffid"
+   ]
+  },
+  {
+   "name": "Peerkankaranai",
+   "found": true,
+   "corridor": "Southwest Chennai",
+   "lat": 12.915,
+   "lng": 80.103,
+   "has_apartment_market": true,
+   "plot_band_min": 3000,
+   "plot_band_max": 4000,
+   "plot_band_note": "LAND rate per sqft \u2014 ESTIMATED, weakest band in this batch. Peerkankaranai has no roofandfloor or chennaiproperties slug and only 1 usable locality-labelled data point. Derivation, stated in full so it can be checked: (a) a CMDA-approved 1,200 sqft plot listed on Sulekha under Peerkankaranai/Tambaram at Rs 3,599/sqft (approx Rs 43.19L) \u2014 this is Sulekha's own quoted per-sqft field, which I could NOT independently recompute because the listing gives no separate total, so it inherits the exact defect flagged in the brief and I weight it accordingly; (b) adjoining Tambaram West layouts quoted at Rs 2,999/sqft over a Rs 21.56L-53.90L range, which recomputes self-consistently to 719-1,797 sqft and gives a credible floor for the belt; (c) an upper bound constraint \u2014 the locality's blended registry average is Rs 4,652/sqft across 59 transactions, and since that average includes built product (flats and houses) the raw land rate must sit below it. Hence 3,000-4,000. Do not treat this as a sourced market band; it is a reasoned interval between two anchors.",
+   "plot_comparables": [
+    {
+     "layout": "CMDA-approved plot, Peerkankaranai (Sulekha listing, no project name)",
+     "developer": null,
+     "plot_size_min_sqft": 1200,
+     "plot_size_max_sqft": 1200,
+     "rate_sqft": 3599,
+     "source": "https://property.sulekha.com/cmda-approved-plots-for-sale/peerkankaranai-chennai"
+    }
+   ],
+   "typical_plot_size_sqft": 1200,
+   "price_band_min": 4650,
+   "price_band_max": 5500,
+   "price_band_note": "APARTMENT built-up rate. No named Peerkankaranai apartment project with a recomputable price+size is published on any working source, so this carries over the two figures already in the record and re-verified this pass: the Rs 4,652/sqft registry average over 59 transactions (which is blended across property types and therefore a soft floor for flats) and the ~Rs 5,500/sqft asking rate for new 2BHKs at roughly Rs 37-43 lakh. Only 1 apartment project is tracked here; supply is small-builder.",
+   "typical_flat_size_sqft": 900,
+   "rate_basis": "mixed",
+   "trend": "stable",
+   "trend_note": "No locality-level trend series is published for Peerkankaranai by any source I could reach \u2014 99acres carries the transaction average but no 1yr/3yr/5yr change. Recording 'stable' as an absence of evidence, not evidence of flatness.",
+   "rental_yield_pct": null,
+   "segment_fit": [
+    "value"
+   ],
+   "band_audit": "The existing 4,500-5,500 band is MIXED, not a clean apartment band. Its floor (~4,652) is a registry average across ALL property types transacting in the locality \u2014 land, flats and independent houses together \u2014 while its ceiling (5,500) is a flat asking rate for new 2BHKs. So the two endpoints are not measuring the same thing: one is blended-transacted, the other is apartment-asking. It is not a land band and should not be used as one, but it is also not a defensible pure apartment band.",
+   "data_confidence": "estimated",
+   "sources": [
+    "https://property.sulekha.com/cmda-approved-plots-for-sale/peerkankaranai-chennai",
+    "https://property.sulekha.com/plots-land-for-sale/peerkankaranai-chennai",
+    "https://property.sulekha.com/cmda-approved-plots-for-sale/tambaram-west-chennai",
+    "https://www.99acres.com/residential-land-in-peerkankaranai-chennai-south-ffid"
+   ]
+  },
+  {
+   "name": "Avadi",
+   "found": true,
+   "corridor": "West Chennai",
+   "lat": 13.115,
+   "lng": 80.097,
+   "has_apartment_market": true,
+   "plot_band_min": 3600,
+   "plot_band_max": 5000,
+   "plot_band_note": "LAND rate per sqft. Strongest plot dataset in this batch: IQR of 21 named Avadi layouts on roofandfloor.com, per-sqft recomputed by me from total price / plot size at BOTH ends of every listing. Median 4,299; full spread 2,700 (Sri Sai City) to 6,101 (Dura Sakthi Garden). No outliers dropped \u2014 all 21 are genuine DTCP/CMDA layout product in the same size class, and the IQR already trims the tails. Krish Classic City's quoted 5,100 recomputes to ~5,245 at both ends; I used the computed figure.",
+   "plot_comparables": [
+    {
+     "layout": "Sri Sai City",
+     "developer": "Madras City Properties",
+     "plot_size_min_sqft": 750,
+     "plot_size_max_sqft": 1200,
+     "rate_sqft": 2700,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-avadi"
+    },
+    {
+     "layout": "Mangalya City",
+     "developer": "Krish Housing and Properties",
+     "plot_size_min_sqft": 706,
+     "plot_size_max_sqft": 3442,
+     "rate_sqft": 2975,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-avadi"
+    },
+    {
+     "layout": "Balaji Avenue",
+     "developer": "MS Developers",
+     "plot_size_min_sqft": 733,
+     "plot_size_max_sqft": 2132,
+     "rate_sqft": 3199,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-avadi"
+    },
+    {
+     "layout": "Senthilkumaran Nagar",
+     "developer": "Esan Associates",
+     "plot_size_min_sqft": 792,
+     "plot_size_max_sqft": 1227,
+     "rate_sqft": 3455,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-avadi"
+    },
+    {
+     "layout": "HiLiving Nexora",
+     "developer": "HiLiving Projects LLP",
+     "plot_size_min_sqft": 640,
+     "plot_size_max_sqft": 2996,
+     "rate_sqft": 3500,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-avadi"
+    },
+    {
+     "layout": "Rainbow Garden",
+     "developer": "Sathya Elite Properties",
+     "plot_size_min_sqft": 598,
+     "plot_size_max_sqft": 1499,
+     "rate_sqft": 3699,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-avadi"
+    },
+    {
+     "layout": "MCP Rainbow Garden",
+     "developer": "Madras City Properties",
+     "plot_size_min_sqft": 866,
+     "plot_size_max_sqft": 1615,
+     "rate_sqft": 3700,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-avadi"
+    },
+    {
+     "layout": "Lakshmi Modern City",
+     "developer": "Sri Lakshmi Homes Pvt Ltd",
+     "plot_size_min_sqft": 620,
+     "plot_size_max_sqft": 1200,
+     "rate_sqft": 3704,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-avadi"
+    },
+    {
+     "layout": "SCP Green Meadows",
+     "developer": "Seven Circle Properties",
+     "plot_size_min_sqft": 1128,
+     "plot_size_max_sqft": 2162,
+     "rate_sqft": 3989,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-avadi"
+    },
+    {
+     "layout": "VGN Westfield",
+     "developer": "VGN Homes Private Limited",
+     "plot_size_min_sqft": 667,
+     "plot_size_max_sqft": 2195,
+     "rate_sqft": 3999,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-avadi"
+    },
+    {
+     "layout": "Royal Assets",
+     "developer": "ACE Homes",
+     "plot_size_min_sqft": 770,
+     "plot_size_max_sqft": 1900,
+     "rate_sqft": 4299,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-avadi"
+    },
+    {
+     "layout": "Vallalar Nagar",
+     "developer": "Madras City Properties",
+     "plot_size_min_sqft": 631,
+     "plot_size_max_sqft": 1102,
+     "rate_sqft": 4300,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-avadi"
+    },
+    {
+     "layout": "VGN Horizon",
+     "developer": "VGN Homes Private Limited",
+     "plot_size_min_sqft": 532,
+     "plot_size_max_sqft": 2607,
+     "rate_sqft": 4799,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-avadi"
+    },
+    {
+     "layout": "Omshakthy Canopus Magha",
+     "developer": "Om Shakthy Homes",
+     "plot_size_min_sqft": 600,
+     "plot_size_max_sqft": 2400,
+     "rate_sqft": 4800,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-avadi"
+    },
+    {
+     "layout": "Vella 100",
+     "developer": "Sowmiyaa Properties",
+     "plot_size_min_sqft": 784,
+     "plot_size_max_sqft": 2198,
+     "rate_sqft": 4846,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-avadi"
+    },
+    {
+     "layout": "Sree Kamatchi Amman Nagar",
+     "developer": "Madras City Properties",
+     "plot_size_min_sqft": 694,
+     "plot_size_max_sqft": 2060,
+     "rate_sqft": 5000,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-avadi"
+    },
+    {
+     "layout": "Pandian Elite Garden",
+     "developer": "Madras City Properties",
+     "plot_size_min_sqft": 650,
+     "plot_size_max_sqft": 2500,
+     "rate_sqft": 5000,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-avadi"
+    },
+    {
+     "layout": "Krish Classic City",
+     "developer": "Krish Housing and Properties",
+     "plot_size_min_sqft": 800,
+     "plot_size_max_sqft": 2500,
+     "rate_sqft": 5245,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-avadi"
+    },
+    {
+     "layout": "Tiruvalluvar Nagar",
+     "developer": "Land Firm",
+     "plot_size_min_sqft": 742,
+     "plot_size_max_sqft": 1701,
+     "rate_sqft": 5391,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-avadi"
+    },
+    {
+     "layout": "Empire Elite Garden Nagar",
+     "developer": "Madras City Properties",
+     "plot_size_min_sqft": 756,
+     "plot_size_max_sqft": 1374,
+     "rate_sqft": 5750,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-avadi"
+    },
+    {
+     "layout": "Dura Sakthi Garden",
+     "developer": "Dura Constructions",
+     "plot_size_min_sqft": 672,
+     "plot_size_max_sqft": 1314,
+     "rate_sqft": 6101,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-avadi"
+    }
+   ],
+   "typical_plot_size_sqft": 800,
+   "price_band_min": 5500,
+   "price_band_max": 6650,
+   "price_band_note": "APARTMENT built-up rate. IQR of 10 named Avadi listings on chennaiproperties.com (8 projects + 2 resale), per-sqft recomputed by me from total price / size. Median 6,168; full spread 3,800 (Hazel, Hazel Realty) to 8,037 (MCB Marvel \u2014 small 441-535 sqft 1BHK units carrying the usual small-unit premium). Corroborated by 99acres 2026 Avadi flat average of Rs 5,900/sqft. spiritofchennai's 2026 guide quotes 3,800-5,500 and now looks low. Two portal per-sqft fields were badly wrong and I overrode both: Newry Altura quoted 6,500 but computes to ~7,455 across four configurations, and DRA Urbania quoted 4,999 but computes to ~6,135. I did NOT use 99acres' claimed 'average transaction rate of Rs 10,770/sqft' for Avadi \u2014 a transacted rate 83% ABOVE the asking average is not credible and is a portal artefact.",
+   "typical_flat_size_sqft": 1000,
+   "rate_basis": "asking",
+   "trend": "rising",
+   "trend_note": "99acres 2026 shows +8.3% over 1yr, +24.2% over 3yr, +47.5% over 5yr \u2014 a real but much calmer figure than the +21.6% YoY currently recorded, which supports the existing caution that the older number was new-launch-mix amplified.",
+   "rental_yield_pct": null,
+   "segment_fit": [
+    "value",
+    "executive"
+   ],
+   "band_audit": "The existing 4,000-6,500 band IS an apartment built-up band, correctly typed, and its note correctly warns that plots are cheaper \u2014 no land contamination. It is now stale on the low side: its stated '~Rs 4,500/sqft average' has been overtaken by 99acres' 2026 average of Rs 5,900 and by my 10-listing IQR of 5,500-6,650. The 'plots cheaper' claim is CONFIRMED and now quantified \u2014 Avadi land runs 3,600-5,000/sqft, i.e. roughly 60-75% of built-up.",
+   "data_confidence": "reported",
+   "sources": [
+    "https://roofandfloor.com/chennai/plots-for-sale-in-avadi",
+    "https://www.chennaiproperties.com/flats-for-sale-in-avadi",
+    "https://www.99acres.com/property-rates-and-price-trends-in-avadi-chennai-north-prffid",
+    "https://spiritofchennai.com/realestate/chennai-apartment-prices-by-area/"
+   ]
+  },
+  {
+   "name": "Keelkattalai",
+   "found": true,
+   "corridor": "South Chennai",
+   "lat": 12.945,
+   "lng": 80.1912,
+   "has_apartment_market": true,
+   "plot_band_min": 10650,
+   "plot_band_max": 12000,
+   "plot_band_note": "LAND rate per sqft \u2014 SINGLE-SOURCE, use with care. 99acres (2026) publishes Keelkattalai land at Rs 10,650-12,000/sqft. I could not corroborate it with a named layout: roofandfloor's Keelkattalai plot page returns ZERO Keelkattalai listings, filling instead with Pallavaram (Urban Tree Diamond Kingdom, 5,299), Pallikaranai (Iyra Anuhya 5,349; MGPs Tuscany 4,650) and Chromepet (OmShakthy Industrial Park, 4,500) \u2014 all recomputed by me, all excluded as wrong locality. That gap is itself the finding: Keelkattalai is a built-out established suburb with no organised plotted-layout supply left, so its land trades as scarce individual infill parcels at ~1.2-1.4x the local built-up rate, while new layout product in the surrounding belt sells at less than half that. Only 1 plot project is tracked here, so effort was allocated accordingly.",
+   "plot_comparables": [],
+   "typical_plot_size_sqft": null,
+   "price_band_min": 7100,
+   "price_band_max": 9100,
+   "price_band_note": "APARTMENT built-up rate. IQR of 8 named Keelkattalai listings on chennaiproperties.com, per-sqft recomputed by me from total price / size. Median 8,000; full spread 6,800 (Mithun Sunshine) to 9,465 (Perfect Paramesh). Every listing is street-labelled inside Keelkattalai, so no locality bleed. Corroborated by 99acres' Keelkattalai flat average of Rs 8,750/sqft, which sits inside this band. 99acres' wider quoted range of 7,700-11,100 has a higher ceiling than my sample reaches; the 11,100 reflects premium and large-format listings not present among these eight.",
+   "typical_flat_size_sqft": 1050,
+   "rate_basis": "asking",
+   "trend": "rising",
+   "trend_note": "99acres 2026 confirms +10.1% over 1yr, +23.2% over 3yr, +66.7% over 5yr \u2014 the strongest sustained 5-year run of the eight localities here, driven by the 200ft Medavakkam-Pallavaram radial road and near-exhausted land supply.",
+   "rental_yield_pct": null,
+   "segment_fit": [
+    "value",
+    "executive"
+   ],
+   "band_audit": "The existing 7,700-11,100 band IS an apartment built-up band and is cleanly typed \u2014 its endpoints are exactly 99acres' published flat range for the locality, and the stated ~Rs 8,750/sqft average is the flat average. No land contamination. The one thing the record does not say, and must: Keelkattalai LAND is a completely separate and HIGHER number (10,650-12,000/sqft), so this apartment band overlaps the land band numerically and could easily be misread as covering plots. It does not.",
+   "data_confidence": "reported",
+   "sources": [
+    "https://www.chennaiproperties.com/flats-for-sale-in-keelkattalai",
+    "https://www.99acres.com/property-rates-and-price-trends-in-keelkattalai-chennai-south-prffid",
+    "https://roofandfloor.com/chennai/plots-for-sale-in-keelkattalai"
+   ]
+  },
+  {
+   "name": "Nedungundram",
+   "found": true,
+   "corridor": "GST Road",
+   "lat": 12.8926,
+   "lng": 80.0994,
+   "has_apartment_market": false,
+   "plot_band_min": 4500,
+   "plot_band_max": 5500,
+   "plot_band_note": "LAND rate per sqft. Two independent anchors, both recomputable: (a) three Sulekha listings under Nedunkundram at 800 sqft/Rs 36L, 1,000 sqft/Rs 45L and 1,200 sqft/Rs 54L \u2014 each recomputes to exactly 4,500/sqft, self-consistent but probably one seller or one layout, so I count it as a single observation; (b) Merloam Estates Easton Enclave at Nedungundram-Perungalathur, CMDA + RERA approved, 3 acres / 76 plots / 445-1,577 sqft, base rate Rs 5,500/sqft. The gap between them is the approval-and-brand premium. IMPORTANT TRAP AVOIDED: a search snippet reported 'rates as low as Rs 150/sqft for corner plots in Nedungundram' \u2014 that is not a rate, it is Merloam's corner-plot PREMIUM (their published add-ons are North Rs 75, East Rs 75, corner Rs 150, 40ft road Rs 200 per sqft on top of the 5,500 base). Reading it as a land rate would understate the market by ~97%. Also excluded: a Gandhi Road parcel at Rs 63.72L with no stated area, which cannot be recomputed. Note the effective all-in cost is above the band \u2014 Merloam adds guideline value at Rs 4,000 and registration at 9%.",
+   "plot_comparables": [
+    {
+     "layout": "Sulekha listings, Nedunkundram (no project name; 800/1000/1200 sqft at Rs 36L/45L/54L)",
+     "developer": null,
+     "plot_size_min_sqft": 800,
+     "plot_size_max_sqft": 1200,
+     "rate_sqft": 4500,
+     "source": "https://property.sulekha.com/plots-land-for-sale/nedunkundram-chennai"
+    },
+    {
+     "layout": "Merloam Estates Easton Enclave",
+     "developer": "Merloam Estates",
+     "plot_size_min_sqft": 445,
+     "plot_size_max_sqft": 1577,
+     "rate_sqft": 5500,
+     "source": "https://chennailand.com/property/plots-for-sales-nedungundram-perungalathur/"
+    }
+   ],
+   "typical_plot_size_sqft": 1000,
+   "price_band_min": null,
+   "price_band_max": null,
+   "price_band_note": "NO APARTMENT MARKET. Nedungundram is a plotted-layout village pocket between New Perungalathur and Vandalur; both tracked projects are plotted layouts and no organised apartment supply exists or is listed there on any source. Nearest apartment supply is New Perungalathur / Vandalur. Apartment band deliberately left null rather than copying the land rate across.",
+   "typical_flat_size_sqft": null,
+   "rate_basis": "asking",
+   "trend": null,
+   "trend_note": "No trend series is published for Nedungundram by any source. The 4,500 vs 5,500 spread between unbranded and RERA-approved product is suggestive of firming but is a product-quality difference, not a time series, so no direction is claimed.",
+   "rental_yield_pct": null,
+   "segment_fit": [
+    "value"
+   ],
+   "band_audit": null,
+   "data_confidence": "reported",
+   "sources": [
+    "https://chennailand.com/property/plots-for-sales-nedungundram-perungalathur/",
+    "https://chennailand.com/plots-for-sales-nedungundram-perungalathur",
+    "https://property.sulekha.com/plots-land-for-sale/nedunkundram-chennai",
+    "https://www.99acres.com/residential-land-in-nedumgundram-chennai-south-ffid"
+   ]
+  },
+  {
+   "name": "Gummidipoondi",
+   "found": true,
+   "corridor": "Far North",
+   "lat": 13.4075,
+   "lng": 80.1089,
+   "has_apartment_market": false,
+   "plot_band_min": 1300,
+   "plot_band_max": 2275,
+   "plot_band_note": "LAND rate per sqft. Anchors: (a) Peddikuppam, Gummidipoondi \u2014 600 sqft at Rs 9,60,000, which I recomputed as 1,600/sqft (Sulekha DTCP listing, Moon Realtors, Ramky Fab City referenced); (b) branded DTCP + RERA approved villa plots, 600-2,000 sqft, asking Rs 2,275/sqft; (c) a reported Rs 1,300/sqft tier for ordinary approved layouts. DROPPED as a different product class, not residential plot: the acre-scale parcels on the same Sulekha page \u2014 45 acres/Rs 90 Cr, 21 acres/Rs 36.75 Cr, 15 acres/Rs 28.50 Cr \u2014 which I recomputed to Rs 459, 402 and 436 per sqft respectively; these are agricultural/industrial bulk land and would collapse the band by ~70% if left in. Also dropped: everything on that page labelled Minjur, Ponneri, Vengal or Periyapalayam (wrong locality), and a reported Rs 5,000/sqft figure which is town-centre/main-road frontage rather than layout product. The ~Rs 900/sqft floor in the existing record is the unapproved/far-patta tail, below the working approved-layout market. Beware the marketed-supply illusion here: 7,100+ plot listings on OLX alone against genuine absorption that is a small fraction of that.",
+   "plot_comparables": [
+    {
+     "layout": "Peddikuppam, Gummidipoondi (Ramky Fab City area; DTCP)",
+     "developer": "Moon Realtors",
+     "plot_size_min_sqft": 600,
+     "plot_size_max_sqft": 600,
+     "rate_sqft": 1600,
+     "source": "https://property.sulekha.com/dtcp-approved-plots-for-sale/gummidipoondi-chennai"
+    },
+    {
+     "layout": "DTCP + RERA approved villa plots, Gummidipoondi (no project name in listing)",
+     "developer": null,
+     "plot_size_min_sqft": 600,
+     "plot_size_max_sqft": 2000,
+     "rate_sqft": 2275,
+     "source": "https://property.sulekha.com/plots-land-for-sale/gummidipoondi-chennai"
+    }
+   ],
+   "typical_plot_size_sqft": 900,
+   "price_band_min": null,
+   "price_band_max": null,
+   "price_band_note": "NO APARTMENT MARKET \u2014 confirmed again this pass. No apartment supply is listed for Gummidipoondi on any working source, and the one tracked project is a plotted layout. spiritofchennai's 2026 Chennai apartment guide does not carry Gummidipoondi at all. Band left null rather than copying the land rate across.",
+   "typical_flat_size_sqft": null,
+   "rate_basis": "asking",
+   "trend": null,
+   "trend_note": "No locality trend series is published for Gummidipoondi by any source reachable this pass \u2014 99acres does not carry the locality and Sulekha/OLX publish listings without a price index. The existing 'rising' call on SIPCOT employment demand could not be re-verified, so no direction is claimed rather than echoing it.",
+   "rental_yield_pct": null,
+   "segment_fit": [
+    "value"
+   ],
+   "band_audit": "The existing 900-2,275 band is already a LAND band, correctly typed, correctly labelled as plotted-land rates, and correctly states there is no apartment market \u2014 the cleanest of the pre-existing bands in this batch. The only refinement: its Rs 900 floor is the unapproved/far-patta tail rather than the working market floor. Approved DTCP layout product starts nearer Rs 1,300-1,600/sqft (verified: 600 sqft at Rs 9.6L in Peddikuppam = 1,600), so the band's bottom third describes stock most buyers should not be underwriting.",
+   "data_confidence": "reported",
+   "sources": [
+    "https://property.sulekha.com/dtcp-approved-plots-for-sale/gummidipoondi-chennai",
+    "https://property.sulekha.com/plots-land-for-sale/gummidipoondi-chennai",
+    "https://spiritofchennai.com/realestate/chennai-apartment-prices-by-area/"
+   ]
+  },
+  {
+   "name": "Poonamallee",
+   "found": true,
+   "corridor": "West Chennai",
+   "lat": 13.048,
+   "lng": 80.095,
+   "plot_band_min": 3000,
+   "plot_band_max": 5500,
+   "plot_band_note": "Interquartile range of 25 named RERA/DTCP layouts on roofandfloor + chennaiproperties, per-sqft RECOMPUTED by me as min_price/min_size and cross-checked against max_price/max_size (roofandfloor's flat marketing rate reconciled on all 25). Median 4,200. Outliers left outside the IQR: Susee Alight 1,398 (far-fringe, almost certainly toward Thirumazhisai/Mappedu rather than Poonamallee proper) and Sameera Elite Gardens 7,999 (premium gated product). CORROBORATION: 99acres publishes avg land asking 4,500/sqft and individual listings 3,199-7,000; a 1,200 sqft plot is listed at Rs 54L (=4,500/sqft). TRANSACTED reality is materially lower - the 99acres average REGISTRY rate is 2,965/sqft across 839 recent transactions, sitting exactly at my Q1. Read 3,000 as roughly the transacted level and 5,500 as top-end gated asking.",
+   "plot_comparables": [
+    {
+     "layout": "Sameera Elite Gardens",
+     "developer": "Sameera Estates Pvt Ltd",
+     "plot_size_min_sqft": 1163,
+     "plot_size_max_sqft": 2400,
+     "rate_sqft": 7999,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-poonamallee"
+    },
+    {
+     "layout": "Malles Swarnabhumi",
+     "developer": "Malles Constructions Pvt Ltd",
+     "plot_size_min_sqft": 1175,
+     "plot_size_max_sqft": 2146,
+     "rate_sqft": 6999,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-poonamallee"
+    },
+    {
+     "layout": "New Town",
+     "developer": "Accord Housing Pvt Ltd",
+     "plot_size_min_sqft": 494,
+     "plot_size_max_sqft": 2824,
+     "rate_sqft": 6500,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-poonamallee"
+    },
+    {
+     "layout": "VR Kochar Spring",
+     "developer": "VR Foundation",
+     "plot_size_min_sqft": 800,
+     "plot_size_max_sqft": 3000,
+     "rate_sqft": 5599,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-poonamallee"
+    },
+    {
+     "layout": "Sameera 117 Garden Town",
+     "developer": "Sameera Groups",
+     "plot_size_min_sqft": 581,
+     "plot_size_max_sqft": 2328,
+     "rate_sqft": 5555,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-poonamallee"
+    },
+    {
+     "layout": "Balamurugan Nagar",
+     "developer": "Valli Mayil Properties",
+     "plot_size_min_sqft": 800,
+     "plot_size_max_sqft": 2400,
+     "rate_sqft": 5500,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-poonamallee"
+    },
+    {
+     "layout": "Sairam City",
+     "developer": "MR Promoter",
+     "plot_size_min_sqft": 874,
+     "plot_size_max_sqft": 1485,
+     "rate_sqft": 5500,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-poonamallee"
+    },
+    {
+     "layout": "DRA Secura",
+     "developer": "DRA Homes",
+     "plot_size_min_sqft": 1132,
+     "plot_size_max_sqft": 1922,
+     "rate_sqft": 4770,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-poonamallee"
+    },
+    {
+     "layout": "Varsha Masilamani Garden",
+     "developer": "Madras City Properties",
+     "plot_size_min_sqft": 750,
+     "plot_size_max_sqft": 1250,
+     "rate_sqft": 4600,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-poonamallee"
+    },
+    {
+     "layout": "Raj Majestic Town",
+     "developer": "Raj Housing and Estates Pvt Ltd",
+     "plot_size_min_sqft": 600,
+     "plot_size_max_sqft": 2835,
+     "rate_sqft": 4500,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-poonamallee"
+    },
+    {
+     "layout": "VR Fortuna",
+     "developer": "VR Foundation",
+     "plot_size_min_sqft": 800,
+     "plot_size_max_sqft": 2000,
+     "rate_sqft": 4299,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-poonamallee"
+    },
+    {
+     "layout": "Samson Fomra Higrove",
+     "developer": "Samson Foundations",
+     "plot_size_min_sqft": 650,
+     "plot_size_max_sqft": 2000,
+     "rate_sqft": 4240,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-poonamallee"
+    },
+    {
+     "layout": "Fomra Tranquil Garden",
+     "developer": "Fomra Housing and Infrastructure Pvt Ltd",
+     "plot_size_min_sqft": 740,
+     "plot_size_max_sqft": 1698,
+     "rate_sqft": 4200,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-poonamallee"
+    },
+    {
+     "layout": "Chaitanya Avenue",
+     "developer": "SPD Homes Pvt Ltd",
+     "plot_size_min_sqft": 625,
+     "plot_size_max_sqft": 2050,
+     "rate_sqft": 3999,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-poonamallee"
+    },
+    {
+     "layout": "Premier Aztec",
+     "developer": "Premier Housing and Properties",
+     "plot_size_min_sqft": 646,
+     "plot_size_max_sqft": 2400,
+     "rate_sqft": 3888,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-poonamallee"
+    },
+    {
+     "layout": "Sri Kalyani Avenue",
+     "developer": "Real Homes",
+     "plot_size_min_sqft": 704,
+     "plot_size_max_sqft": 1743,
+     "rate_sqft": 3800,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-poonamallee"
+    },
+    {
+     "layout": "SN Phase 1",
+     "developer": "SN Properties",
+     "plot_size_min_sqft": 600,
+     "plot_size_max_sqft": 3400,
+     "rate_sqft": 3750,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-poonamallee"
+    },
+    {
+     "layout": "Royal Castle",
+     "developer": "ACE Homes",
+     "plot_size_min_sqft": 600,
+     "plot_size_max_sqft": 2400,
+     "rate_sqft": 3200,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-poonamallee"
+    },
+    {
+     "layout": "Orchid Castle",
+     "developer": "Madras City Properties",
+     "plot_size_min_sqft": 790,
+     "plot_size_max_sqft": 1443,
+     "rate_sqft": 3000,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-poonamallee"
+    },
+    {
+     "layout": "MCB Jupiter Avenue",
+     "developer": "MCB Developers Private Limited",
+     "plot_size_min_sqft": 724,
+     "plot_size_max_sqft": 2072,
+     "rate_sqft": 3000,
+     "source": "chennaiproperties.com/plots-for-sale-in-poonamallee"
+    },
+    {
+     "layout": "Lakshmi Green City",
+     "developer": "Sri Lakshmi Homes Pvt Ltd",
+     "plot_size_min_sqft": 600,
+     "plot_size_max_sqft": 4500,
+     "rate_sqft": 2500,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-poonamallee"
+    },
+    {
+     "layout": "S and P The Crest",
+     "developer": "S and P Foundation Private Limited",
+     "plot_size_min_sqft": 600,
+     "plot_size_max_sqft": 3600,
+     "rate_sqft": 2490,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-poonamallee"
+    },
+    {
+     "layout": "Dazzle City",
+     "developer": "VR Foundation",
+     "plot_size_min_sqft": 900,
+     "plot_size_max_sqft": 2400,
+     "rate_sqft": 2399,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-poonamallee"
+    },
+    {
+     "layout": "Ashok Nandavanam 4",
+     "developer": "Ashok Nandavanam Properties Pvt Ltd",
+     "plot_size_min_sqft": 646,
+     "plot_size_max_sqft": 5057,
+     "rate_sqft": 2100,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-poonamallee"
+    },
+    {
+     "layout": "Susee Alight (OUTLIER - dropped, far-fringe)",
+     "developer": "Susee Homes Pvt Ltd",
+     "plot_size_min_sqft": 627,
+     "plot_size_max_sqft": 2259,
+     "rate_sqft": 1398,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-poonamallee"
+    }
+   ],
+   "typical_plot_size_sqft": 1200,
+   "has_apartment_market": true,
+   "price_band_min": 5150,
+   "price_band_max": 7450,
+   "price_band_note": "APARTMENT built-up rate. 99acres 2026: flats 5,150-7,450/sqft, average 6,100/sqft, average TRANSACTION rate 6,924/sqft. Flat rates +8.9% in 1yr, +17.3% 3yr, +45.2% 5yr. Note the unusual signature here: the transacted flat rate (6,924) sits ABOVE the asking average (6,100), which is the opposite of the normal asking-premium and points to genuine end-user absorption rather than speculative listing inflation.",
+   "typical_flat_size_sqft": null,
+   "rate_basis": "mixed",
+   "trend": "rising",
+   "trend_note": "Strongest of the eight. Land +12.5% in 1yr (+38.5% 3yr, +69.8% 5yr) and flats +8.9% in 1yr, driven by Metro Phase 2 Corridor 4 (Lighthouse-Poonamallee, 26.1km) whose western stretch is targeted to open in 2026; reporting says land within 1km of planned stations moved 20-30% in the last 18 months. CAUTION on yield: 99acres publishes an 'average rental yield in Poonamallee 6%' figure which I am NOT propagating - it fails a rent check (6% on a ~1,100 sqft flat at 6,100/sqft implies ~Rs 33,500/month, far above actual Poonamallee 2BHK rents). The 3.5% I report is a segment-typical ESTIMATE, not a sourced figure.",
+   "rental_yield_pct": 3.5,
+   "segment_fit": [
+    "value",
+    "executive"
+   ],
+   "band_audit": "Existing band [5150, 7450] with note 'Apartments; average ~Rs 6,100/sqft (99acres); plots cheaper' is CORRECT and CURRENT - it genuinely measures apartment BUILT-UP rate, is correctly labelled as such, and 99acres still publishes exactly 5,150-7,450 / avg 6,100 in 2026. Its parenthetical 'plots cheaper' is also correct and now quantified: land IQR 3,000-5,500 vs flats 5,150-7,450, i.e. land runs roughly 55-75% of built-up here. No correction needed; the locality simply had no plot band, which is the gap I have now filled - and with 27 plot projects vs 2 apartment projects tracked, the plot band is the one that actually matters for this locality.",
+   "data_confidence": "reported",
+   "sources": [
+    "https://roofandfloor.com/chennai/plots-for-sale-in-poonamallee",
+    "https://chennaiproperties.com/plots-for-sale-in-poonamallee",
+    "https://www.99acres.com/property-rates-and-price-trends-in-poonamallee-chennai-west-prffid",
+    "https://www.99acres.com/residential-land-in-poonamallee-chennai-west-ffid",
+    "https://www.propnewz.com/blog/chennai-metro-phase-2-corridor-4-poonamallee-buyer-chennai-2026-07-03",
+    "https://rajhousing.co.in/buy-plot-in-poonamallee-2026/"
+   ]
+  },
+  {
+   "name": "Nungambakkam",
+   "found": true,
+   "corridor": "Central Chennai",
+   "lat": 13.06,
+   "lng": 80.242,
+   "plot_band_min": 22800,
+   "plot_band_max": 32150,
+   "plot_band_note": "LAND rate per sqft. 99acres 2026: 22,800-32,150/sqft, average 28,550/sqft; residential plot tickets Rs 6.86Cr-18.5Cr. This is a PORTAL-PUBLISHED range, not an IQR I built from named layouts - and deliberately so: Nungambakkam has no plotted layouts. Land here transacts as individual CBD bungalow plots (only 12-13 land listings exist city-portal-wide), so there are no 'layout + developer' comparables to gather, and I am not going to manufacture any. Corroboration: general reporting places the Poes Garden / Boat Club / Nungambakkam prime band at Rs 20,000-40,000+/sqft, consistent with this range. Land rates +1.4% in the last 1yr - essentially flat.",
+   "plot_comparables": [],
+   "typical_plot_size_sqft": 2400,
+   "has_apartment_market": true,
+   "price_band_min": 19100,
+   "price_band_max": 28350,
+   "price_band_note": "APARTMENT built-up rate. 99acres 2026: flats 19,100-28,350/sqft, average 22,300/sqft. Independent corroboration (livehomes 2026): mid-range 20,000-24,000/sqft, high-end/luxury 25,000-35,000+/sqft; a third source gives avg 20,500. Ticket sizes: 2BHK Rs 80L-3.5Cr, 3BHK Rs 2.5-5.5Cr, 4BHK Rs 5.5-11Cr. Flats +13.5% in 1yr, +48.7% 3yr, +124.1% 5yr.",
+   "typical_flat_size_sqft": 1800,
+   "rate_basis": "asking",
+   "trend": "rising",
+   "trend_note": "Split market, and the split matters: APARTMENTS +13.5% in 1yr (a genuinely strong move for an ultra-prime CBD pocket) while LAND is essentially static at +1.4% in 1yr. The appreciation is in built product and redevelopment, not in raw land - so the existing record's 'stable' trend is right about land and wrong about flats. Yield 2.8% is an ESTIMATE, not sourced: central Chennai yields compress because purchase prices have outrun rents, and no locality-specific yield figure was published.",
+   "rental_yield_pct": 2.8,
+   "segment_fit": [
+    "boardroom"
+   ],
+   "band_audit": "Existing band [14000, 20000] with note 'Apartments; among Chennai's costliest along with Adyar and T. Nagar' IS a genuine apartment BUILT-UP band and IS correctly labelled - no land/built-up contamination. But it is materially STALE. 99acres 2026 shows 19,100-28,350 (avg 22,300): the old band's CEILING of 20,000 is now roughly the market FLOOR. With flats +13.5% in the last year alone, the old band understates the current market by roughly 30-40% and would badly mis-price any Boardroom-lens ticket built on it. Recommend replacing with 19,100-28,350. Separately, the record had no land band at all, and Nungambakkam land at 22,800-32,150 runs ABOVE built-up - so a naive reuse of the apartment number as a land rate would understate land by ~25%.",
+   "data_confidence": "reported",
+   "sources": [
+    "https://www.99acres.com/property-rates-and-price-trends-in-nungambakkam-chennai-central-prffid",
+    "https://www.99acres.com/residential-land-in-nungambakkam-chennai-central-ffid",
+    "https://www.livehomes.in/blog-details/Property-Price-Trends-in-Nungambakkam-Is-It-Still-Worth-Investing-in-2026",
+    "https://www.livehomes.in/blog-details/Property-Rates-in-Chennai-2026",
+    "https://www.homebazaar.com/properties-in-nungambakkam-chennai"
+   ]
+  },
+  {
+   "name": "Egattur",
+   "found": true,
+   "corridor": "OMR",
+   "lat": 12.8438,
+   "lng": 80.2262,
+   "plot_band_min": 4700,
+   "plot_band_max": 6500,
+   "plot_band_note": "Interquartile range of 8 named layouts on chennaiproperties, per-sqft RECOMPUTED by me from min_price/min_size and verified against max_price/max_size. Median 5,375. DROPPED: (1) Cosmo Grand at 12,400/sqft - roughly double the field, premium villa-plot product rather than raw layout land; (2) an individual owner listing (1,800 sqft, Rs 2.15Cr = 11,944/sqft) which is in NAVALUR, not Egattur, and is not a layout at all. CORROBORATION: 99acres gives an average TRANSACTION rate for Egattur land of 6,250/sqft, sitting at the top of my asking IQR, and neighbouring Navalur land at 5,000-6,500/sqft. Egattur land +5.7% in 1yr, +35.8% in 5yr. Caveat: several of these 'Egattur' layouts sit in the wider Egattur-Navalur-Padur belt rather than Egattur village proper.",
+   "plot_comparables": [
+    {
+     "layout": "Cosmo Grand (OUTLIER - dropped, villa-plot product)",
+     "developer": "Cosmo",
+     "plot_size_min_sqft": 750,
+     "plot_size_max_sqft": 2438,
+     "rate_sqft": 12400,
+     "source": "chennaiproperties.com/plots-for-sale-in-egattur"
+    },
+    {
+     "layout": "G Square Aurora",
+     "developer": "G Square Housing",
+     "plot_size_min_sqft": 1142,
+     "plot_size_max_sqft": 2801,
+     "rate_sqft": 7498,
+     "source": "chennaiproperties.com/plots-for-sale-in-egattur"
+    },
+    {
+     "layout": "TVH Terra Hub",
+     "developer": "True Value Homes India Pvt Ltd",
+     "plot_size_min_sqft": 600,
+     "plot_size_max_sqft": 800,
+     "rate_sqft": 6500,
+     "source": "chennaiproperties.com/plots-for-sale-in-egattur"
+    },
+    {
+     "layout": "S Realty Natures Nest",
+     "developer": "S Realty",
+     "plot_size_min_sqft": 750,
+     "plot_size_max_sqft": 2400,
+     "rate_sqft": 6500,
+     "source": "chennaiproperties.com/plots-for-sale-in-egattur"
+    },
+    {
+     "layout": "Jayam Sri Sai Swarnabhoomi Garden",
+     "developer": "Jayam Property Developers",
+     "plot_size_min_sqft": 514,
+     "plot_size_max_sqft": 1971,
+     "rate_sqft": 5500,
+     "source": "chennaiproperties.com/plots-for-sale-in-egattur"
+    },
+    {
+     "layout": "Tatia Township",
+     "developer": "South India Properties",
+     "plot_size_min_sqft": 646,
+     "plot_size_max_sqft": 2644,
+     "rate_sqft": 5250,
+     "source": "chennaiproperties.com/plots-for-sale-in-egattur"
+    },
+    {
+     "layout": "Urban Tree Onyx Enclave",
+     "developer": "Urban Tree Infrastructures Pvt Ltd",
+     "plot_size_min_sqft": 821,
+     "plot_size_max_sqft": 2073,
+     "rate_sqft": 5250,
+     "source": "chennaiproperties.com/plots-for-sale-in-egattur"
+    },
+    {
+     "layout": "MGP Kings Park Plot",
+     "developer": "MGP",
+     "plot_size_min_sqft": 1014,
+     "plot_size_max_sqft": 1145,
+     "rate_sqft": 4100,
+     "source": "chennaiproperties.com/plots-for-sale-in-egattur"
+    },
+    {
+     "layout": "S Realty AVM Garden",
+     "developer": "S Realty",
+     "plot_size_min_sqft": 501,
+     "plot_size_max_sqft": 829,
+     "rate_sqft": 3992,
+     "source": "chennaiproperties.com/plots-for-sale-in-egattur"
+    }
+   ],
+   "typical_plot_size_sqft": 1200,
+   "has_apartment_market": true,
+   "price_band_min": 9050,
+   "price_band_max": 14100,
+   "price_band_note": "APARTMENT built-up rate. 99acres 2026: flats 9,050-14,100/sqft, average 12,700/sqft. House of Hiranandani Upscale (the dominant project: 120 acres, 15 towers, 2,028 units, 2/3/4BHK from 683-1,595 sqft) is quoted at 13,000/sqft, with 2BHK from Rs 79.05L, 3BHK from Rs 1.05Cr, 4BHK from Rs 1.77Cr. WARNING - conflicting figure to reject: squareyards publishes an 'average price 7,400/sqft' for Hiranandani Egattur OMR (claiming a move from 5,750 during Q4'2025). That is a single-project resale-index artifact and it contradicts both 99acres and the developer's own quoted rate by ~45%. Do not use it.",
+   "typical_flat_size_sqft": 1200,
+   "rate_basis": "mixed",
+   "trend": "rising",
+   "trend_note": "Flats +19.8% in 1yr, +67.1% 3yr, +85.4% 5yr - the steepest apartment move of the eight; land +5.7% in 1yr. Driven by the Sholinganallur-SIPCOT Siruseri job corridor and the Metro Phase 2 terminal stretch to SIPCOT. Note 99acres also reports a much softer +1.9% Y-o-Y on its apartment average, so the 19.8% and 1.9% figures coexist on the same source page - the pocket is rising but the exact rate is unstable. Rental yield 3% is directly sourced (99acres).",
+   "rental_yield_pct": 3,
+   "segment_fit": [
+    "executive",
+    "value"
+   ],
+   "band_audit": "Existing band [8500, 13000] with note 'Avg ~Rs 10,800/sqft - premium end of lower OMR (Hiranandani, Casagrand cluster)' IS a genuine apartment BUILT-UP band, correctly labelled, with no land contamination - and the 10,800 average it cites is still live on 99acres' overview page. But the rate-trends page has moved ahead to 9,050-14,100 (avg 12,700), so the band is mildly STALE at both ends, consistent with flats +19.8% over the year. Recommend 9,050-14,100. The record had no land band; at 4,700-6,500 Egattur land is roughly HALF the built-up rate, so the two must not be interchanged.",
+   "data_confidence": "reported",
+   "sources": [
+    "https://www.chennaiproperties.com/plots-for-sale-in-egattur",
+    "https://www.99acres.com/property-rates-and-price-trends-in-egattur-chennai-south-prffid",
+    "https://www.99acres.com/residential-land-in-egattur-chennai-south-ffid",
+    "https://www.99acres.com/house-of-hiranandani-upscale-egattur-chennai-south-npxid-r201",
+    "https://www.99acres.com/property-rates-and-price-trends-in-navalur-chennai-south-prffid"
+   ]
+  },
+  {
+   "name": "Kizhavedu",
+   "found": false,
+   "corridor": "GST Road / Chengalpattu (see note - taluk correction)",
+   "lat": null,
+   "lng": null,
+   "plot_band_min": null,
+   "plot_band_max": null,
+   "plot_band_note": "NO USABLE LOCALITY-SPECIFIC DATA - returning found:false rather than a fabricated band. What I did establish: Kizhavedu is a village in THIRUKALUKUNDRAM taluk, Chengalpattu district (not on the GST Road spine itself - it sits east of Chengalpattu toward Mahabalipuram, so the dataset's 'GST Road' corridor label is loose). The only trace of it in any registry is TNRERA regularisation layout TN/01/Regularisation-Layout/3828/2022 (plots 31-56, 26 plots, S.Nos 81/1, 81/2 & 85/3, promoter Thiru. J. Baskaran of Chengalpet), registered May 2022. No portal carries Kizhavedu-tagged listings; roofandfloor and chennaiproperties have no slug for it. FOR CONTEXT ONLY, NOT A KIZHAVEDU BAND - the surrounding Thirukalukundram belt, per-sqft recomputed by me: raw/unapproved parcels ~556-600/sqft (3,600 sqft @ Rs 20L = 556; 845 sqft @ Rs 5.07L = 600; 670 sqft @ Rs 4.02L = 600; 800 sqft @ Rs 4.80L = 600), DTCP-approved gated product ~1,800-2,250/sqft (646 sqft @ Rs 12.26L = 1,898; 1,800 sqft @ Rs 40.5L = 2,250; one layout quoted flat at 1,800). Thirukalukundram guideline value ~800/sqft. IMPORTANT TRAP HIT HERE: a search summary of these very sulekha listings reported them as 'approximately Rs 6,000-8,000+ per sqft' - that is the known sulekha bad per-sqft field, wrong by a factor of ten. Every figure above is my own recomputation of total_price/area.",
+   "plot_comparables": [],
+   "typical_plot_size_sqft": null,
+   "has_apartment_market": false,
+   "price_band_min": null,
+   "price_band_max": null,
+   "price_band_note": "No apartment market. Kizhavedu is a rural Chengalpattu-district revenue village; the 3 projects tracked here are all plotted layouts and 0 are apartments. Band correctly null - NOT copied from any land rate.",
+   "typical_flat_size_sqft": null,
+   "rate_basis": null,
+   "trend": null,
+   "trend_note": "No locality-specific trend data found. Do not infer one from the Chengalpattu-town or GST Road corridor - Kizhavedu is off both.",
+   "rental_yield_pct": null,
+   "segment_fit": [
+    "value"
+   ],
+   "band_audit": null,
+   "data_confidence": null,
+   "sources": [
+    "https://verified.realestate/rera/projects/regularisation-layouts/TN-01-Regularisation-Layout-3828-2022/registration-of-regularised-sub-division-of-plot-n",
+    "https://property.sulekha.com/plots-land-for-sale/tirukazhukundram-chengalpattu",
+    "https://property.sulekha.com/dtcp-approved-plots-for-sale/thirukazhukundram-chengalpattu",
+    "https://www.realestateindia.com/kancheepuram-property/residential-land-for-sale-in-tirukalukundram.htm"
+   ]
+  },
+  {
+   "name": "Anna Nagar",
+   "found": true,
+   "corridor": "Central Chennai",
+   "lat": 13.085,
+   "lng": 80.21,
+   "plot_band_min": 24250,
+   "plot_band_max": 34900,
+   "plot_band_note": "LAND rate per sqft. 99acres 2026: 24,250-34,900/sqft, average 27,800/sqft. Sub-market split is large and worth carrying: Anna Nagar WEST 19,250-30,850 (avg 26,400), Anna Nagar EAST 32,100-37,450 (avg 35,300) - East carries a ~34% premium over West, so a single Anna Nagar land number is coarse. Portal-published range rather than a layout IQR, for the same reason as Nungambakkam: Anna Nagar is a planned bungalow-plot neighbourhood with no plotted layouts on sale, only individual resale grounds. WEAK CORROBORATION ONLY: the published circle/guideline rate is 16,264/sqft; at the 1.2-1.5x guideline multiple that central Chennai typically trades at, that implies ~19,500-24,400/sqft, which brackets the West average and the bottom of the overall band. Treat the guideline figure as directional only. Land +12.1% 1yr, +31.8% 3yr, +51.5% 5yr.",
+   "plot_comparables": [],
+   "typical_plot_size_sqft": 2400,
+   "has_apartment_market": true,
+   "price_band_min": 12700,
+   "price_band_max": 19500,
+   "price_band_note": "APARTMENT built-up rate. 99acres 2026: flats 12,700-19,500/sqft, average 15,250/sqft, +6.3% in 1yr. Second independent source (hexahome) gives avg 14,050/sqft at +4.1% YoY - close enough to treat the ~14,000-15,250 average as solid. Ticket sizes: 2BHK Rs 81.5L-1.8Cr, 3BHK Rs 2.15-3.3Cr.",
+   "typical_flat_size_sqft": 1600,
+   "rate_basis": "asking",
+   "trend": "rising",
+   "trend_note": "Land is running well ahead of built product: +12.1% vs +6.3% in the last year. That is the signature of a supply-constrained redevelopment market - buyers are paying up for grounds to redevelop, and Anna Nagar has effectively no new land. Green Line metro, schools/hospitals/retail and a deep self-employed buyer base sustain it. Yield 3.0% is an ESTIMATE: general commentary calls 4-6% 'good' for Chennai and lists Anna Nagar among top rental-return localities, but no Anna Nagar-specific measured yield was published, and prices here have outrun rents.",
+   "rental_yield_pct": 3,
+   "segment_fit": [
+    "boardroom",
+    "executive"
+   ],
+   "band_audit": "Existing band [10000, 15000] with note 'Apartments (resale ~Rs 10,000-15,000/sqft); new luxury projects can exceed this' IS a genuine apartment BUILT-UP band and IS correctly labelled - it is not contaminated with land. It is however STALE: 99acres 2026 shows 12,700-19,500 with average 15,250, meaning the old band's CEILING (15,000) is now the market AVERAGE. Recommend 12,700-19,500. The bigger correction is the missing land band: Anna Nagar land at 24,250-34,900/sqft is roughly 1.8x the built-up rate, so anyone reusing the 10,000-15,000 figure as a land proxy for the 1 tracked plot project would understate it by more than half.",
+   "data_confidence": "reported",
+   "sources": [
+    "https://www.99acres.com/property-rates-and-price-trends-in-anna-nagar-chennai-north-prffid",
+    "https://www.99acres.com/property-rates-and-price-trends-in-anna-nagar-west-chennai-north-prffid",
+    "https://www.99acres.com/property-rates-and-price-trends-in-anna-nagar-east-chennai-north-prffid",
+    "https://www.hexahome.in/circle-rate-in-anna-nagar-chennai-hmcrr/",
+    "https://www.hexahome.in/property-rate-trends-in-chennai-hmprt/"
+   ]
+  },
+  {
+   "name": "Thiruvottiyur",
+   "found": true,
+   "corridor": "North Chennai (dataset says 'Central Chennai' - see note, that is wrong)",
+   "lat": 13.158,
+   "lng": 80.301,
+   "plot_band_min": 6500,
+   "plot_band_max": 9000,
+   "plot_band_note": "Interquartile range of 18 listings, per-sqft RECOMPUTED BY ME from raw area and total price on every single row (nobroker quotes rates but the brief flags its spread as unusable raw, so I used only its area+price columns). Median 8,410. DROPPED, with reasons: (1) Mullai Nagar/Ernavur, 33,500 sqft at Rs 12Cr = 3,582/sqft - a 0.77-acre BULK parcel, not a residential plot; bulk land trades at a deep per-sqft discount and would drag the floor down by ~2,900. (2) Altis Aavaas at 11,500/sqft - the listing itself states Tondiarpet 600081, WRONG LOCALITY. (3) Hiliving Araise at 12,968/sqft - Tondiarpet-adjacent and priced like built villa product, not raw land. Retained comparables span 5,649 (Raja Shanmugam Nagar) to 10,500 (metro-adjacent 2,400 sqft). Cross-check: an independent search snippet put Thiruvottiyur land at 8,787-9,090/sqft, matching my Q3 of 9,000.",
+   "plot_comparables": [
+    {
+     "layout": "VGN Paradise",
+     "developer": "VGN Homes Private Limited",
+     "plot_size_min_sqft": 253,
+     "plot_size_max_sqft": 1887,
+     "rate_sqft": 9000,
+     "source": "nobroker.in + chennaiproperties.com/plots-for-sale-in-tiruvottiyur (8,498 there; both retained)"
+    },
+    {
+     "layout": "KG Shree Prem Vihar",
+     "developer": "KG Foundations (P) Limited",
+     "plot_size_min_sqft": 900,
+     "plot_size_max_sqft": 1500,
+     "rate_sqft": 7000,
+     "source": "chennaiproperties.com/plots-for-sale-in-tiruvottiyur + nobroker.in (6,299 / 7,000 / 7,667 across sub-listings)"
+    },
+    {
+     "layout": "Radiance Prosper",
+     "developer": "Radiance Realty",
+     "plot_size_min_sqft": 1744,
+     "plot_size_max_sqft": 1744,
+     "rate_sqft": 8486,
+     "source": "nobroker.in/residential-land-plots-for-sale-in-tiruvottiyur_chennai"
+    },
+    {
+     "layout": "KCP Staff Colony",
+     "developer": null,
+     "plot_size_min_sqft": 736,
+     "plot_size_max_sqft": 777,
+     "rate_sqft": 9009,
+     "source": "nobroker.in (second unit 736 sqft = 8,560)"
+    },
+    {
+     "layout": "Thiruvottiyur metro-adjacent plot",
+     "developer": null,
+     "plot_size_min_sqft": 2400,
+     "plot_size_max_sqft": 2400,
+     "rate_sqft": 10500,
+     "source": "nobroker.in/residential-land-plots-for-sale-in-tiruvottiyur_chennai"
+    },
+    {
+     "layout": "Anna Nagar (local, within Thiruvottiyur - NOT the Anna Nagar in this dataset)",
+     "developer": null,
+     "plot_size_min_sqft": 1800,
+     "plot_size_max_sqft": 1800,
+     "rate_sqft": 9500,
+     "source": "nobroker.in/residential-land-plots-for-sale-in-tiruvottiyur_chennai"
+    },
+    {
+     "layout": "North Mada Street",
+     "developer": null,
+     "plot_size_min_sqft": 600,
+     "plot_size_max_sqft": 600,
+     "rate_sqft": 8333,
+     "source": "nobroker.in/residential-land-plots-for-sale-in-tiruvottiyur_chennai"
+    },
+    {
+     "layout": "Saravana Nagar",
+     "developer": null,
+     "plot_size_min_sqft": 364,
+     "plot_size_max_sqft": 364,
+     "rate_sqft": 7500,
+     "source": "nobroker.in/residential-land-plots-for-sale-in-tiruvottiyur_chennai"
+    },
+    {
+     "layout": "Thiruvottiyur (2,400 sqft plot)",
+     "developer": null,
+     "plot_size_min_sqft": 2400,
+     "plot_size_max_sqft": 2400,
+     "rate_sqft": 6500,
+     "source": "nobroker.in/residential-land-plots-for-sale-in-tiruvottiyur_chennai"
+    },
+    {
+     "layout": "Kalaignar Nagar",
+     "developer": null,
+     "plot_size_min_sqft": 1277,
+     "plot_size_max_sqft": 1277,
+     "rate_sqft": 6265,
+     "source": "nobroker.in/residential-land-plots-for-sale-in-tiruvottiyur_chennai"
+    },
+    {
+     "layout": "Annamalai Nagar",
+     "developer": null,
+     "plot_size_min_sqft": 485,
+     "plot_size_max_sqft": 485,
+     "rate_sqft": 6000,
+     "source": "nobroker.in/residential-land-plots-for-sale-in-tiruvottiyur_chennai"
+    },
+    {
+     "layout": "Raja Shanmugam Nagar",
+     "developer": null,
+     "plot_size_min_sqft": 622,
+     "plot_size_max_sqft": 622,
+     "rate_sqft": 5649,
+     "source": "nobroker.in/residential-land-plots-for-sale-in-tiruvottiyur_chennai"
+    },
+    {
+     "layout": "Mullai Nagar/Ernavur (OUTLIER - dropped, 33,500 sqft bulk parcel)",
+     "developer": null,
+     "plot_size_min_sqft": 33500,
+     "plot_size_max_sqft": 33500,
+     "rate_sqft": 3582,
+     "source": "nobroker.in/residential-land-plots-for-sale-in-tiruvottiyur_chennai"
+    },
+    {
+     "layout": "Altis Aavaas (OUTLIER - dropped, listing states Tondiarpet 600081)",
+     "developer": "Altis Properties",
+     "plot_size_min_sqft": 600,
+     "plot_size_max_sqft": 600,
+     "rate_sqft": 11500,
+     "source": "chennaiproperties.com/plots-for-sale-in-tiruvottiyur"
+    }
+   ],
+   "typical_plot_size_sqft": 800,
+   "has_apartment_market": true,
+   "price_band_min": 6500,
+   "price_band_max": 8000,
+   "price_band_note": "APARTMENT built-up rate - WEAKEST band in this set, treat as indicative. No portal published a min-max flat-rate range for Thiruvottiyur; I have two independent published AVERAGES (99acres weighted avg 7,100/sqft as of 24 Jun 2026; squareyards 7,550/sqft on active listings) and a ticket range (flats Rs 40.4L-1.05Cr; 2BHK Rs 38L-3.0Cr, 2BHK being 80%+ of searches). Bracketing those averages and sanity-checking against the ticket range at typical 2BHK sizes (Rs 40.4L / 900 sqft = 4,489 floor; Rs 1.05Cr / 1,300 sqft = 8,077 ceiling) gives 6,500-8,000. This is a DERIVED bracket, not an IQR of comparables.",
+   "typical_flat_size_sqft": 850,
+   "rate_basis": "asking",
+   "trend": "stable",
+   "trend_note": "Apartments +6.0% in 1yr - roughly market-neutral for Chennai and a clear laggard against Poonamallee (+8.9% flats / +12.5% land) or Egattur (+19.8%). Established, dense, affordable North Chennai town with metro and suburban rail; no single catalyst driving a re-rating. No rental yield figure was published for this locality and I am not estimating one.",
+   "rental_yield_pct": null,
+   "segment_fit": [
+    "value"
+   ],
+   "band_audit": "No pre-existing band to audit (record had none). But flag TWO corrections. (1) CORRIDOR IS WRONG: the dataset files Thiruvottiyur under 'Central Chennai'. It is NORTH Chennai - roughly 13.16N on the Tiruvottiyur High Road / Ennore belt, ~15km north of the CBD. (2) THE CRITICAL ONE FOR THIS TASK: Thiruvottiyur LAND (6,500-9,000/sqft) trades ABOVE its BUILT-UP apartment rate (~7,100/sqft). That inversion is real and it is the opposite of the outer-belt pattern where land runs a third of built-up. It happens because this is a dense, fully built-out town with scarce small plots, not a layout belt. Anyone who copies one of these two numbers across to the other - in either direction - will be materially wrong.",
+   "data_confidence": "reported",
+   "sources": [
+    "https://www.chennaiproperties.com/plots-for-sale-in-tiruvottiyur",
+    "https://www.nobroker.in/residential-land-plots-for-sale-in-tiruvottiyur_chennai",
+    "https://www.99acres.com/tiruvottiyur-chennai-north-overview-piffid",
+    "https://www.squareyards.com/sale/apartments-for-sale-in-tiruvottiyur-chennai"
+   ]
+  },
+  {
+   "name": "Sholavaram",
+   "found": true,
+   "corridor": "North Chennai / Red Hills-Ponneri belt (dataset says 'Far West' - see note, that is wrong)",
+   "lat": 13.21,
+   "lng": 80.17,
+   "plot_band_min": 2350,
+   "plot_band_max": 3150,
+   "plot_band_note": "Interquartile range of 12 named layouts across roofandfloor AND chennaiproperties, per-sqft RECOMPUTED by me from min_price/min_size and checked against max_price/max_size. Median 2,799. STRONGEST corroboration of any locality in this set: the average REGISTRY rate for Solavaram is 2,835/sqft across 38 recent transactions (bhoomivalue), landing almost exactly on my median - so for once the asking band and the transacted level agree, which suggests little listing inflation here. Left outside the IQR: G Square North Vista at 1,798 (low end) and the premium gated pair Pon Anandham Green Cove 4,788 and Premier KVT Smart City ~4,600-5,100. TWO DATA-QUALITY CATCHES: (a) DAC Red Forrt is quoted at 2,999/sqft but its own price/size ranges recompute to 3,271-3,327 - the quoted rate is wrong, I used ~3,300; (b) Premier KVT Smart City appears at 5,100/sqft on roofandfloor (1,000-3,600 sqft, Rs 51L-1.83Cr) and 4,600/sqft on chennaiproperties (600-3,000 sqft, Rs 27.6L-1.38Cr) - two different inventory sets under one project name.",
+   "plot_comparables": [
+    {
+     "layout": "Pon Anandham Green Cove",
+     "developer": "Anandham Plots",
+     "plot_size_min_sqft": 543,
+     "plot_size_max_sqft": 2911,
+     "rate_sqft": 4788,
+     "source": "chennaiproperties.com/plots-for-sale-in-sholavaram"
+    },
+    {
+     "layout": "Premier KVT Smart City",
+     "developer": "Premier Housing and Properties",
+     "plot_size_min_sqft": 600,
+     "plot_size_max_sqft": 3600,
+     "rate_sqft": 4600,
+     "source": "chennaiproperties.com (4,600) vs roofandfloor.com (5,100) - conflicting"
+    },
+    {
+     "layout": "DAC Red Forrt",
+     "developer": "DAC Developers",
+     "plot_size_min_sqft": 453,
+     "plot_size_max_sqft": 6298,
+     "rate_sqft": 3300,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-sholavaram (quoted 2,999 - WRONG, recomputes to 3,271-3,327)"
+    },
+    {
+     "layout": "Revathi Dream Homes Plots",
+     "developer": "Revathi Dream Homes",
+     "plot_size_min_sqft": 802,
+     "plot_size_max_sqft": 2433,
+     "rate_sqft": 3000,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-sholavaram"
+    },
+    {
+     "layout": "SND Om Lakshmi Nagar",
+     "developer": "SN Developers",
+     "plot_size_min_sqft": 600,
+     "plot_size_max_sqft": 2400,
+     "rate_sqft": 2998,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-sholavaram"
+    },
+    {
+     "layout": "Real KG Avenue",
+     "developer": "Real Homes",
+     "plot_size_min_sqft": 500,
+     "plot_size_max_sqft": 2400,
+     "rate_sqft": 2800,
+     "source": "chennaiproperties.com/plots-for-sale-in-sholavaram"
+    },
+    {
+     "layout": "Real Homes Golden City",
+     "developer": "Real Homes",
+     "plot_size_min_sqft": 540,
+     "plot_size_max_sqft": 2400,
+     "rate_sqft": 2798,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-sholavaram"
+    },
+    {
+     "layout": "Premier Malliga Shanthi Colony",
+     "developer": "Premier Housing and Properties",
+     "plot_size_min_sqft": 1000,
+     "plot_size_max_sqft": 2400,
+     "rate_sqft": 2595,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-sholavaram"
+    },
+    {
+     "layout": "Marutham Royal Park",
+     "developer": "Marutham Group",
+     "plot_size_min_sqft": 652,
+     "plot_size_max_sqft": 2447,
+     "rate_sqft": 2500,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-sholavaram"
+    },
+    {
+     "layout": "Real Phoenix City",
+     "developer": "Real Homes",
+     "plot_size_min_sqft": 500,
+     "plot_size_max_sqft": 2400,
+     "rate_sqft": 2200,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-sholavaram"
+    },
+    {
+     "layout": "SND Royal Divine",
+     "developer": "SN Developers",
+     "plot_size_min_sqft": 600,
+     "plot_size_max_sqft": 1200,
+     "rate_sqft": 1998,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-sholavaram"
+    },
+    {
+     "layout": "G Square North Vista",
+     "developer": "G Square Housing",
+     "plot_size_min_sqft": 679,
+     "plot_size_max_sqft": 1496,
+     "rate_sqft": 1798,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-sholavaram"
+    }
+   ],
+   "typical_plot_size_sqft": 1200,
+   "has_apartment_market": false,
+   "price_band_min": null,
+   "price_band_max": null,
+   "price_band_note": "NO REAL APARTMENT MARKET - band deliberately null, NOT copied from the land rate. Sholavaram is a plotted-development belt: 0 of the 2 RERA projects tracked here are apartments, and both roofandfloor and chennaiproperties return only plotted layouts for the locality (122+ plots listed, no apartment inventory). Any apartment demand in this catchment is served from Red Hills/Madhavaram to the south.",
+   "typical_flat_size_sqft": null,
+   "rate_basis": "mixed",
+   "trend": "rising",
+   "trend_note": "Rising from a genuinely low base, and the cheapest of the six localities I could band. Drivers: the proposed Red Hills metro extension up to Sholavaram, the North Chennai industrial belt (Minjur/Gummidipoondi/Ponneri), and tightening layout approvals creating scarcity. Context on the belt: land near Ponneri starts around Rs 475/sqft and averages Rs 900-1,200, so Sholavaram at ~2,350-3,150 already carries a clear proximity premium over the outer Ponneri stretch. No rental market for raw plots, so no yield.",
+   "rental_yield_pct": null,
+   "segment_fit": [
+    "value"
+   ],
+   "band_audit": "No pre-existing band to audit (record had none). CORRIDOR IS WRONG: the dataset files Sholavaram under 'Far West'. It is NORTH Chennai - approximately 13.21N 80.17E, on the Chennai-Kolkata highway in the Red Hills / Ponneri belt, north of Madhavaram. Nothing about its price behaviour should be read across from the western (Poonamallee/Sriperumbudur) corridor; its comparables are Red Hills, Karanodai and Ponneri.",
+   "data_confidence": "reported",
+   "sources": [
+    "https://roofandfloor.com/chennai/plots-for-sale-in-sholavaram",
+    "https://www.chennaiproperties.com/plots-for-sale-in-sholavaram",
+    "https://bhoomivalue.in/land-value/chennai/",
+    "https://www.99acres.com/residential-land-in-sholavaram-chennai-north-ffid",
+    "https://tiruthanikaiinfracity.com/land-near-ponneri-for-sale-guide/"
+   ]
+  },
+  {
+   "name": "Pudupattu",
+   "found": false,
+   "corridor": "Thiruvallur / Northwest CMA (dataset says 'Far West' - see note)",
+   "lat": null,
+   "lng": null,
+   "plot_band_min": null,
+   "plot_band_max": null,
+   "plot_band_note": "NO USABLE LOCALITY-SPECIFIC DATA - returning found:false rather than a fabricated band. What I established: Pudupattu is a village in Thiruvallur tehsil, Thiruvallur district (northwest of Chennai, not 'Far West' of the city). No property portal carries Pudupattu-tagged listings - roofandfloor, chennaiproperties, sulekha, 99acres and nobroker all return either nothing or Thiruvallur-district results generally; targeted searches on the name returned no priced comparable. FOR CONTEXT ONLY, NOT A PUDUPATTU BAND - the surrounding Thiruvallur belt spans roughly Rs 850-2,600/sqft for DTCP-approved plots, with named nearby villages at: Kalyanakuppam 1,499/sqft, Ikkadu 2,200/sqft, Putlur 2,600/sqft, and other Thiruvallur listings at 850 and 1,750/sqft; 99acres shows the district ranging Rs 400-5,266/sqft. That spread is far too wide (6x) to narrow onto a single unlisted village, and the belt figure would be guesswork if attached to Pudupattu. With only 1 tracked project here, the honest answer is a gap.",
+   "plot_comparables": [],
+   "typical_plot_size_sqft": null,
+   "has_apartment_market": false,
+   "price_band_min": null,
+   "price_band_max": null,
+   "price_band_note": "No apartment market. Rural Thiruvallur-district village; the single project tracked is a plotted layout and 0 apartments are tracked. Band correctly null - NOT copied from any land rate.",
+   "typical_flat_size_sqft": null,
+   "rate_basis": null,
+   "trend": null,
+   "trend_note": "No locality-specific trend data found. Note also that Pudupattu is a common Tamil toponym (there are Pudupattu/Pudupatti villages in several districts) - confirm the exact revenue village and S.No against the tracked project's RERA record before attaching any band to it in future.",
+   "rental_yield_pct": null,
+   "segment_fit": [
+    "value"
+   ],
+   "band_audit": null,
+   "data_confidence": null,
+   "sources": [
+    "https://www.mapsofindia.com/villages/tamil-nadu/thiruvallur/thiruvallur/pudupattu.html",
+    "https://www.99acres.com/residential-land-in-thiruvallur-ffid",
+    "https://property.sulekha.com/dtcp-approved-plots-for-sale/thiruvallur",
+    "https://property.sulekha.com/plots-land-for-sale/putlur-thiruvallur"
+   ]
+  },
+  {
+   "name": "Madhavaram",
+   "found": true,
+   "corridor": "North Chennai",
+   "lat": 13.1482,
+   "lng": 80.2297,
+   "plot_band_min": 2550,
+   "plot_band_max": 4050,
+   "plot_band_note": "Interquartile band of 11 recomputed layout rates (median Rs 2,899/sqft land). Every rate recomputed as total price / plot area, not copied. Two traps caught: (1) Aishwaryam Township is quoted at Rs 2,500/sqft but 14.5L / 600 sqft = Rs 2,417/sqft; (2) Silversky Springs is quoted Rs 15,483/sqft, which is only min_price/min_size \u2014 its max/max is Rs 9,952/sqft, so it is not a flat land rate and is almost certainly a built villa or plot-plus-construction package. DROPPED Silversky Springs entirely. Branded/premium plotted product sits well above the band and is retained in comparables but outside it: G Square Sarovar Rs 10,499, Premier KVT Rs 5,100, RWD Elite Rs 4,798. i5 CK Madhavan Nagar is genuinely non-flat (Rs 1,932 at the small end, Rs 3,200 at the large end) so both endpoints were entered as separate observations. Portal aggregate of Rs 3,050-7,500/sqft runs above this band because it mixes in commercial frontage on Madhavaram High Road.",
+   "plot_comparables": [
+    {
+     "layout": "G Square Sarovar",
+     "developer": "G Square Housing",
+     "plot_size_min_sqft": 1143,
+     "plot_size_max_sqft": 1971,
+     "rate_sqft": 10499,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-madhavaram"
+    },
+    {
+     "layout": "Premier KVT Township",
+     "developer": "Premier Housing and Properties",
+     "plot_size_min_sqft": 3000,
+     "plot_size_max_sqft": 6000,
+     "rate_sqft": 5100,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-madhavaram"
+    },
+    {
+     "layout": "RWD Elite Avenue",
+     "developer": "Vistawh Landholding India Pvt Ltd",
+     "plot_size_min_sqft": 976,
+     "plot_size_max_sqft": 2350,
+     "rate_sqft": 4798,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-madhavaram"
+    },
+    {
+     "layout": "MM Garden Phase 1",
+     "developer": "Premier Homes",
+     "plot_size_min_sqft": 600,
+     "plot_size_max_sqft": 2400,
+     "rate_sqft": 3267,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-madhavaram"
+    },
+    {
+     "layout": "i5 CK Madhavan Nagar",
+     "developer": "i5 Housing and Properties",
+     "plot_size_min_sqft": 880,
+     "plot_size_max_sqft": 2500,
+     "rate_sqft": 3200,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-madhavaram"
+    },
+    {
+     "layout": "New Star City",
+     "developer": "New Star City Pvt Ltd",
+     "plot_size_min_sqft": 800,
+     "plot_size_max_sqft": 2400,
+     "rate_sqft": 2899,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-madhavaram"
+    },
+    {
+     "layout": "Om Lakshmi Nagar Annex",
+     "developer": "Aishwarya Housing and Properties",
+     "plot_size_min_sqft": 1300,
+     "plot_size_max_sqft": 2400,
+     "rate_sqft": 2700,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-madhavaram"
+    },
+    {
+     "layout": "Premier Malliga Garden",
+     "developer": "Premier Housing and Properties",
+     "plot_size_min_sqft": 491,
+     "plot_size_max_sqft": 1885,
+     "rate_sqft": 2646,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-madhavaram"
+    },
+    {
+     "layout": "NS City Annex",
+     "developer": "Aishwarya Housing and Properties",
+     "plot_size_min_sqft": 640,
+     "plot_size_max_sqft": 1326,
+     "rate_sqft": 2500,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-madhavaram"
+    },
+    {
+     "layout": "Aishwaryam Township",
+     "developer": "Aishwarya Housing and Properties",
+     "plot_size_min_sqft": 600,
+     "plot_size_max_sqft": 600,
+     "rate_sqft": 2417,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-madhavaram (quoted 2500 is WRONG; recomputed 14.5L/600)"
+    },
+    {
+     "layout": "Silversky Springs \u2014 DROPPED as outlier",
+     "developer": "Silversky Builders LLP",
+     "plot_size_min_sqft": 775,
+     "plot_size_max_sqft": 1447,
+     "rate_sqft": null,
+     "source": "roofandfloor: quoted 15,483/sqft is min/min only; max/max = 9,952. Not a raw-land rate."
+    }
+   ],
+   "has_apartment_market": true,
+   "price_band_min": 7500,
+   "price_band_max": 9600,
+   "price_band_note": "Apartment BUILT-UP rate. 99acres reports flats at Rs 7,500-9,600/sqft, average ~Rs 8,000/sqft, up 10.3% YoY. Cross-checks against quoted ticket sizes: 2BHK Rs 65.6L-95L and 3BHK Rs 1.2Cr-1.29Cr imply roughly 950-1,150 sqft and ~1,500 sqft respectively at ~Rs 8,000/sqft, which is internally consistent. A builder marketing page claiming Rs 6,800-15,500/sqft was NOT used \u2014 the 15,500 top end is promotional high-rise copy, not a market rate.",
+   "band_audit": "The existing band [7000, 8450] is a genuine APARTMENT BUILT-UP band and is correctly labelled \u2014 its note says 'Apartments ~Rs 7,000-8,450/sqft' and that matches what the apartment market actually does. It is NOT contaminated by land rates. It is however now stale on the low side: the current flat range is Rs 7,500-9,600/sqft after 10.3% YoY appreciation. The note's trailing remark that 'land guide rates lower per silversky 2025 guide' is correct in direction \u2014 land at Rs 2,550-4,050/sqft is roughly a third of built-up, the normal Chennai relationship \u2014 but no land band was ever recorded, which is the gap this fills.",
+   "typical_plot_size_sqft": 1200,
+   "typical_flat_size_sqft": 1100,
+   "trend": "rising",
+   "trend_note": "Madhavaram is the northern terminus of BOTH Metro Phase 2 Corridor 3 (Madhavaram-SIPCOT) and Corridor 5 (Madhavaram-Sholinganallur); the first 11 km of Corridor 5 to Retteri is targeted for end-2026. Flat rates already +10.3% YoY and rental demand reportedly +11%.",
+   "rental_yield_pct": null,
+   "rate_basis": "asking",
+   "segment_fit": [
+    "value",
+    "executive"
+   ],
+   "data_confidence": "reported",
+   "sources": [
+    "https://roofandfloor.com/chennai/plots-for-sale-in-madhavaram",
+    "https://www.99acres.com/property-rates-and-price-trends-in-madhavaram-chennai-north-prffid",
+    "https://www.99acres.com/flats-in-madhavaram-chennai-north-ffid",
+    "https://silverskybuilders.com/blog/dtcp-cmda-approved-plots-madhavaram-buyers-guide/",
+    "https://www.silverskybuilders.com/blog/madhavaram-metro-phase-2-impact-property-prices/"
+   ]
+  },
+  {
+   "name": "Minjur",
+   "found": true,
+   "corridor": "Far North",
+   "lat": 13.2789,
+   "lng": 80.265,
+   "plot_band_min": 1100,
+   "plot_band_max": 1470,
+   "plot_band_note": "Interquartile band of 6 recomputed layout rates (median Rs 1,275/sqft land). All four named layouts price flat (min_price/min_size == max_price/max_size) so the quoted rate and my recompute agree for them. DROPPED one listing: 'Land near Athipattu Railway Station', advertised as 13 acres for Rs 11 L \u2014 that implies Rs 1.94/sqft and is a garbled or mis-keyed listing, not a market signal. The 'Land near Sai Baba Kovil' listing quotes Rs 990/sqft but 11L / 1,000 sqft = Rs 1,100/sqft, so I used 1,100. Corroborated by portal band Rs 1,100-2,100/sqft and by CMDA-approved plots advertised at Rs 1,000-1,140/sqft.",
+   "plot_comparables": [
+    {
+     "layout": "VIP North Square",
+     "developer": "VIP Housing and Properties",
+     "plot_size_min_sqft": 457,
+     "plot_size_max_sqft": 2691,
+     "rate_sqft": 1531,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-minjur"
+    },
+    {
+     "layout": "Ashok Wimco Town",
+     "developer": "Ashok Nandavanam Properties Pvt Ltd",
+     "plot_size_min_sqft": 600,
+     "plot_size_max_sqft": 2000,
+     "rate_sqft": 1500,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-minjur"
+    },
+    {
+     "layout": "Sri Varagi Residency",
+     "developer": "First Choice Housing and Constructions",
+     "plot_size_min_sqft": 545,
+     "plot_size_max_sqft": 1914,
+     "rate_sqft": 1350,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-minjur"
+    },
+    {
+     "layout": "Modern City",
+     "developer": "Senka Dreams India Pvt Ltd",
+     "plot_size_min_sqft": 600,
+     "plot_size_max_sqft": 2691,
+     "rate_sqft": 1200,
+     "source": "chennaiproperties.com/plots-for-sale-in-minjur"
+    },
+    {
+     "layout": "Land near Sai Baba Kovil (individual plot)",
+     "developer": null,
+     "plot_size_min_sqft": 1000,
+     "plot_size_max_sqft": 1000,
+     "rate_sqft": 1100,
+     "source": "chennaiproperties.com/plots-for-sale-in-minjur (quoted 990; recomputed 11L/1000)"
+    },
+    {
+     "layout": "C P N Nagar",
+     "developer": "Sri Murugan Promoters and Constructions",
+     "plot_size_min_sqft": 1170,
+     "plot_size_max_sqft": 1783,
+     "rate_sqft": 899,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-minjur"
+    }
+   ],
+   "has_apartment_market": false,
+   "price_band_min": null,
+   "price_band_max": null,
+   "price_band_note": "No real apartment market. Zero apartment projects tracked here and no meaningful flat inventory surfaced in any source. Deliberately set null rather than copying the land rate across.",
+   "band_audit": "The existing band [1100, 2100] is a LAND band and its note correctly says so ('Plotted-land rates... effectively a plot market'). So it was not mislabelled. But the upper bound is now too high: no layout I found prices above Rs 1,531/sqft, and the market has fallen 18.5% in the last year. The existing low bound of 1,100 remains about right; the 2,100 top should come down.",
+   "typical_plot_size_sqft": 1000,
+   "typical_flat_size_sqft": null,
+   "trend": "cooling",
+   "trend_note": "Land rates down 18.5% over 1 year and 26.7% over 3 years per 99acres \u2014 the sharpest decline of any locality in this set; heavy plotted-layout oversupply in the Minjur/Athipattu belt.",
+   "rental_yield_pct": null,
+   "rate_basis": "asking",
+   "segment_fit": [
+    "value"
+   ],
+   "data_confidence": "reported",
+   "sources": [
+    "https://roofandfloor.com/chennai/plots-for-sale-in-minjur",
+    "https://www.chennaiproperties.com/plots-for-sale-in-minjur",
+    "https://www.99acres.com/property-rates-and-price-trends-in-minjur-chennai-north-prffid",
+    "https://www.99acres.com/residential-land-in-minjur-chennai-north-ffid"
+   ]
+  },
+  {
+   "name": "Palavakkam",
+   "found": true,
+   "corridor": "ECR",
+   "lat": 12.9558,
+   "lng": 80.2578,
+   "plot_band_min": 10400,
+   "plot_band_max": 13000,
+   "plot_band_note": "Land rate. IMPORTANT SOURCING CAVEAT: roofandfloor's 'plots-for-sale-in-palavakkam' page contains NO layout actually inside Palavakkam \u2014 every entry it served is a neighbouring micro-market (Kottivakkam, Thiruvanmiyur, Neelankarai, Injambakkam, Uthandi, and one as far south as Paramenkeni). I did not use those raw. The band is built from individual Palavakkam plot listings I recomputed myself: 2,350 sqft corner at Rs 2.70 Cr = Rs 11,489/sqft; 3,000 sqft south-facing at Rs 3.75 Cr = Rs 12,500/sqft; 1,200 sqft at Rs 1.25 Cr = Rs 10,417/sqft; plus approved plots advertised at Rs 11,500/sqft. Flanking layouts bracket this sensibly (Neelankarai G Square Orchid Ville Rs 12,500, Kottivakkam Ramaniyam Rs 14,208). DROPPED: Thiruvanmiyur Elephantine Quadra Rs 16,690 (different, pricier locality to the north), all Uthandi product (Rs 4,979-7,999 \u2014 far-south ECR, a genuinely cheaper market), Injambakkam Frontier Gardens Rs 7,000 (interior, west of ECR), and the beachfront/sea-facing strip which trades above Rs 15,000/sqft. Note the Ramaniyam Kottivakkam listing is another quoted-rate trap: it says Rs 13,000/sqft but 1.82Cr/1,281 = Rs 14,208 and 2.44Cr/1,397 = Rs 17,466 \u2014 non-flat, so its quoted figure is unusable.",
+   "plot_comparables": [
+    {
+     "layout": "Palavakkam 3,000 sqft south-facing (individual)",
+     "developer": null,
+     "plot_size_min_sqft": 3000,
+     "plot_size_max_sqft": 3000,
+     "rate_sqft": 12500,
+     "source": "99acres/realestateindia Palavakkam land listings \u2014 recomputed 3.75Cr/3000"
+    },
+    {
+     "layout": "Palavakkam 2,350 sqft corner (individual)",
+     "developer": null,
+     "plot_size_min_sqft": 2350,
+     "plot_size_max_sqft": 2350,
+     "rate_sqft": 11489,
+     "source": "99acres/realestateindia Palavakkam land listings \u2014 recomputed 2.70Cr/2350"
+    },
+    {
+     "layout": "Palavakkam approved plots (advertised rate)",
+     "developer": null,
+     "plot_size_min_sqft": null,
+     "plot_size_max_sqft": null,
+     "rate_sqft": 11500,
+     "source": "search snippet, Palavakkam approved plots"
+    },
+    {
+     "layout": "Palavakkam 1,200 sqft (individual)",
+     "developer": null,
+     "plot_size_min_sqft": 1200,
+     "plot_size_max_sqft": 1200,
+     "rate_sqft": 10417,
+     "source": "99acres/realestateindia Palavakkam land listings \u2014 recomputed 1.25Cr/1200"
+    },
+    {
+     "layout": "G Square Orchid Ville (Neelankarai \u2014 FLANKING, adjacent south)",
+     "developer": "G Square Housing",
+     "plot_size_min_sqft": 2400,
+     "plot_size_max_sqft": 3045,
+     "rate_sqft": 12500,
+     "source": "roofandfloor \u2014 not in Palavakkam, used only to bracket"
+    },
+    {
+     "layout": "Ramaniyam Sadhasivam Enclave (Kottivakkam \u2014 FLANKING, adjacent north)",
+     "developer": "Ramaniyam Real Estates Pvt Ltd",
+     "plot_size_min_sqft": 1281,
+     "plot_size_max_sqft": 1397,
+     "rate_sqft": 14208,
+     "source": "roofandfloor \u2014 not in Palavakkam; quoted 13,000 is wrong, recomputed 1.82Cr/1281"
+    }
+   ],
+   "has_apartment_market": true,
+   "price_band_min": 7100,
+   "price_band_max": 12500,
+   "price_band_note": "Apartment BUILT-UP rate: 99acres reports flats at Rs 7,100-12,500/sqft with an AVERAGE TRANSACTED rate of Rs 8,750/sqft. Note the gap between the asking spread and the transacted average \u2014 real deals are clustering in the Rs 8,000-9,500/sqft region, well below the top of the asking range. This is the one locality in the set where a transacted figure was available; use 8,750 rather than the band midpoint for ticket-size maths.",
+   "band_audit": "MISLABELLED \u2014 this is the important audit finding in this batch. The existing band [8000, 14000] is a MIX of two different rates, and its note is factually inverted. The note reads 'Avg flat rate ~Rs 12,250/sqft (99acres range Rs 7,100-12,500)'. But 99acres reports Rs 12,250/sqft as the average LAND rate in Palavakkam, not the average flat rate \u2014 the average flat transaction is Rs 8,750/sqft. So the prior researcher took a LAND number and recorded it as the apartment average, then stretched the band up to 14,000 on the strength of it plus the beach-side villa-plot reference. Net effect: the lower bound (8,000) roughly tracks the real apartment market, while the upper bound (14,000) is a land rate wearing an apartment label. The two should be split as they now are: land Rs 10,400-13,000/sqft, built-up Rs 7,100-12,500/sqft with transacted average Rs 8,750/sqft.",
+   "typical_plot_size_sqft": 2400,
+   "typical_flat_size_sqft": 1400,
+   "trend": "rising",
+   "trend_note": "Land rates +17.2% over 1 year, +44.1% over 3 years per 99acres; beachside ECR scarcity plus strong resale liquidity keeps supply tight.",
+   "rental_yield_pct": null,
+   "rate_basis": "mixed",
+   "segment_fit": [
+    "boardroom",
+    "executive"
+   ],
+   "data_confidence": "reported",
+   "sources": [
+    "https://www.99acres.com/property-rates-and-price-trends-in-palavakkam-chennai-south-prffid",
+    "https://www.99acres.com/residential-land-in-palavakkam-chennai-south-ffid",
+    "https://www.realestateindia.com/chennai-property/residential-land-for-sale-in-palavakkam.htm",
+    "https://www.roofandfloor.com/chennai/plots-for-sale-in-palavakkam"
+   ]
+  },
+  {
+   "name": "Melavalam",
+   "found": true,
+   "corridor": "GST Road",
+   "lat": null,
+   "lng": null,
+   "plot_band_min": 900,
+   "plot_band_max": 1300,
+   "plot_band_note": "PROXY BAND \u2014 treat as weak. No Melavalam-specific layout with a usable price surfaced. Location anchored by one listing: a 1,300 sqft DTCP+RERA plot in 'Melavalam Pattam' on the Chengalpattu-Maduranthakam road, 1 km from Karunguzhi railway station \u2014 which places Melavalam firmly in the southern GST Road / Maduranthakam belt, well past Chengalpattu town. That listing prices at Rs 4.50 L / 1,300 sqft = Rs 346/sqft, which I DROPPED as an outlier: it is roughly a third of every DTCP-approved rate in the same belt and is almost certainly unapproved or agricultural land, or a stale listing. The band instead reflects recomputed/advertised DTCP rates for the immediately surrounding belt: Karunguzhi village Rs 950/sqft and Acharapakkam Rs 899/sqft. Chengalpattu township at Rs 1,800/sqft is excluded as the upper reference \u2014 it is a far more developed node 20+ km north. Do not present this as a Melavalam market rate; it is a belt proxy.",
+   "plot_comparables": [
+    {
+     "layout": "Karunguzhi village DTCP plots (belt proxy)",
+     "developer": null,
+     "plot_size_min_sqft": 600,
+     "plot_size_max_sqft": 3237,
+     "rate_sqft": 950,
+     "source": "search snippet, DTCP approved plots Chengalpattu/Karunguzhi"
+    },
+    {
+     "layout": "Acharapakkam DTCP+RERA plots (belt proxy)",
+     "developer": null,
+     "plot_size_min_sqft": 650,
+     "plot_size_max_sqft": 2000,
+     "rate_sqft": 899,
+     "source": "search snippet, DTCP+RERA Acharapakkam"
+    },
+    {
+     "layout": "Melavalam Pattam 1,300 sqft \u2014 DROPPED as outlier",
+     "developer": null,
+     "plot_size_min_sqft": 1300,
+     "plot_size_max_sqft": 1300,
+     "rate_sqft": 346,
+     "source": "realestateindia.com \u2014 recomputed 4.50L/1300; far below every DTCP rate in the belt, likely unapproved/agricultural"
+    }
+   ],
+   "has_apartment_market": false,
+   "price_band_min": null,
+   "price_band_max": null,
+   "price_band_note": "No apartment market. Deep-rural GST Road belt near Maduranthakam; zero apartment projects tracked and no flat inventory found. Null rather than copying the land rate.",
+   "band_audit": null,
+   "typical_plot_size_sqft": 1200,
+   "typical_flat_size_sqft": null,
+   "trend": null,
+   "trend_note": "No time-series data found for this micro-market; trend left null rather than guessed.",
+   "rental_yield_pct": null,
+   "rate_basis": "asking",
+   "segment_fit": [
+    "value"
+   ],
+   "data_confidence": "estimated",
+   "sources": [
+    "https://www.realestateindia.com/property-detail/residential-plot-for-sale-in-melavalam-pattam-kanchipuram-1300-sq-ft-4-50-lac-1027925.htm",
+    "https://www.realestateindia.com/chengalpattu-property/residential-land-for-sale.htm",
+    "https://fwtestates.com/"
+   ]
+  },
+  {
+   "name": "Periyakudal",
+   "found": false,
+   "corridor": "Central Chennai",
+   "lat": null,
+   "lng": null,
+   "plot_band_min": null,
+   "plot_band_max": null,
+   "plot_band_note": "NO USABLE DATA \u2014 returning found:false rather than fabricating a band. Zero property listings, zero portal rate pages, and zero price signal of any kind surfaced across multiple searches. Worse, the locality's identity is itself unresolved: the only descriptive source is a Wikipedia stub that self-contradicts, calling Periyakudal a neighbourhood 'in the northern part of the city' while simultaneously placing it in Egmore-Nungambakkam taluk, which is central. These auto-generated Indian village stubs are unreliable. Until the 2 tracked apartment projects here are resolved to an actual surveyable location \u2014 ideally from the TNRERA record's own address/survey-number fields \u2014 no band should be published. Recommend pulling the address off the two RERA registrations and re-running.",
+   "plot_comparables": [],
+   "has_apartment_market": null,
+   "price_band_min": null,
+   "price_band_max": null,
+   "price_band_note": "Unknown. Two apartment projects are tracked here but no rate data exists for the locality and the locality itself could not be geolocated with confidence.",
+   "band_audit": null,
+   "typical_plot_size_sqft": null,
+   "typical_flat_size_sqft": null,
+   "trend": null,
+   "trend_note": null,
+   "rental_yield_pct": null,
+   "rate_basis": null,
+   "segment_fit": [],
+   "data_confidence": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Periyakudal"
+   ]
+  },
+  {
+   "name": "Kuthambakkam",
+   "found": true,
+   "corridor": "West Chennai",
+   "lat": 13.0833,
+   "lng": 80.0167,
+   "plot_band_min": 2875,
+   "plot_band_max": 4250,
+   "plot_band_note": "Interquartile band of 7 recomputed rates (median Rs 3,890/sqft land). All five named layouts price flat on recompute, so quoted and recomputed rates agree. Two advertised belt rates (Rs 3,890 and Rs 3,000/sqft for DTCP+RERA plots of 800-2,000 sqft) were included as they sit inside the layout field. Caution: 'Adarsh Avenue' (PropTera, Rs 4,500) and 'Jains Adarsh Avenue' (Jain Housing, Rs 4,582) may be the same project double-listed under two marketers; because both land within Rs 82/sqft of each other this does not move the band materially. I did NOT use the Thirumazhisai projects that roofandfloor serves on the same page (RWD Sunshine City, Manju Greenspot, Jains Aura Residences, VRX Vriddhi, Shriram Codename 10X) \u2014 different locality.",
+   "plot_comparables": [
+    {
+     "layout": "Jains Adarsh Avenue",
+     "developer": "Jain Housing and Construction Ltd",
+     "plot_size_min_sqft": 633,
+     "plot_size_max_sqft": 2598,
+     "rate_sqft": 4582,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-kuthambakkam"
+    },
+    {
+     "layout": "Adarsh Avenue",
+     "developer": "PropTera Realty",
+     "plot_size_min_sqft": 800,
+     "plot_size_max_sqft": 2598,
+     "rate_sqft": 4500,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-kuthambakkam"
+    },
+    {
+     "layout": "KG Fields Of Fortune",
+     "developer": "KG Foundations (P) Limited",
+     "plot_size_min_sqft": 623,
+     "plot_size_max_sqft": 1835,
+     "rate_sqft": 4000,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-kuthambakkam"
+    },
+    {
+     "layout": "Kuthambakkam DTCP+RERA plots (advertised)",
+     "developer": null,
+     "plot_size_min_sqft": 800,
+     "plot_size_max_sqft": 2000,
+     "rate_sqft": 3890,
+     "source": "search snippet, DTCP+RERA Kuthambakkam"
+    },
+    {
+     "layout": "Kuthambakkam plots (advertised)",
+     "developer": null,
+     "plot_size_min_sqft": null,
+     "plot_size_max_sqft": null,
+     "rate_sqft": 3000,
+     "source": "search snippet, Kuthambakkam plot listings"
+    },
+    {
+     "layout": "G Square Carlton Spring",
+     "developer": "G Square Housing",
+     "plot_size_min_sqft": 787,
+     "plot_size_max_sqft": 1939,
+     "rate_sqft": 2750,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-kuthambakkam"
+    },
+    {
+     "layout": "DAC Nakshathra Avenue",
+     "developer": "DAC Developers",
+     "plot_size_min_sqft": 740,
+     "plot_size_max_sqft": 2744,
+     "rate_sqft": 2599,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-kuthambakkam"
+    }
+   ],
+   "has_apartment_market": false,
+   "price_band_min": null,
+   "price_band_max": null,
+   "price_band_note": "No apartment market in Kuthambakkam proper \u2014 zero apartment projects tracked and no flat inventory found in the village itself. The nearest genuine apartment market is Thirumazhisai, 5-6 km east (Shriram, RWD, Jains product), whose rates must NOT be attributed to Kuthambakkam. Null by design.",
+   "band_audit": null,
+   "typical_plot_size_sqft": 1200,
+   "typical_flat_size_sqft": null,
+   "trend": null,
+   "trend_note": "No YoY series found for this village; trend left null rather than inferred from the wider Poonamallee/Thirumazhisai belt.",
+   "rental_yield_pct": null,
+   "rate_basis": "asking",
+   "segment_fit": [
+    "value",
+    "executive"
+   ],
+   "data_confidence": "reported",
+   "sources": [
+    "https://www.roofandfloor.com/chennai/plots-for-sale-in-kuthambakkam",
+    "https://www.99acres.com/residential-land-in-kuthambakkam-chennai-west-ffid",
+    "https://www.chennaiproperties.com/plots-for-sale-in-kuthambakkam",
+    "https://www.nobroker.in/residential-land-plots-for-sale-in-kuthambakkam_chennai"
+   ]
+  },
+  {
+   "name": "Kattankulathur",
+   "found": true,
+   "corridor": "GST Road",
+   "lat": 12.8231,
+   "lng": 80.0442,
+   "plot_band_min": 3000,
+   "plot_band_max": 4500,
+   "plot_band_note": "Land rate, n=5 so this is a WIDENED band, not a strict interquartile range \u2014 with only five comparables the true IQR collapses to Rs 3,500-3,850/sqft, which is too tight to be useful and understates real dispersion. I widened to Rs 3,000-4,500 to span the credible field while still excluding both tails. Median Rs 3,750/sqft. Flanks retained in comparables but outside the band: an SRM-adjacent plot advertised at Rs 2,200/sqft at the low end, and Jains Ashwit Nagar at Rs 6,500/sqft (premium gated plotted product) at the high end. Critically, roofandfloor's Kattankulathur page serves a block of GUDUVANCHERY layouts (Maruthi Avenue Rs 2,300, Blossoms Garnet Rs 2,648, i5 Palace City Rs 1,999, Aditi Garden Rs 3,550, SIP Gold Rs 3,125, Narasimman Nagar Rs 2,699) \u2014 all DROPPED as a different locality; including them would have dragged the band down by roughly Rs 700/sqft.",
+   "plot_comparables": [
+    {
+     "layout": "Jains Ashwit Nagar",
+     "developer": "Jain Housing and Constructions Ltd",
+     "plot_size_min_sqft": 1000,
+     "plot_size_max_sqft": 2500,
+     "rate_sqft": 6500,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-kattankulathur"
+    },
+    {
+     "layout": "Shri Sai Baba Nagar",
+     "developer": "APR Groups",
+     "plot_size_min_sqft": 497,
+     "plot_size_max_sqft": 1500,
+     "rate_sqft": 3850,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-kattankulathur"
+    },
+    {
+     "layout": "SRK Nagar",
+     "developer": "PropShell",
+     "plot_size_min_sqft": 1200,
+     "plot_size_max_sqft": 2488,
+     "rate_sqft": 3750,
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-kattankulathur"
+    },
+    {
+     "layout": "Plot near SRM (individual, 1,173 sqft)",
+     "developer": null,
+     "plot_size_min_sqft": 1173,
+     "plot_size_max_sqft": 1173,
+     "rate_sqft": 3500,
+     "source": "search snippet \u2014 recomputed 41.06L/1173"
+    },
+    {
+     "layout": "SRM-adjacent plots (advertised)",
+     "developer": null,
+     "plot_size_min_sqft": 700,
+     "plot_size_max_sqft": 2400,
+     "rate_sqft": 2200,
+     "source": "search snippet, plots near SRM"
+    },
+    {
+     "layout": "SRI SAI NAGAR (Potheri) \u2014 DTCP, no price found",
+     "developer": null,
+     "plot_size_min_sqft": 890,
+     "plot_size_max_sqft": 1351,
+     "rate_sqft": null,
+     "source": "search snippet; 33 plots, 1.5 km from SRM \u2014 listed for coverage, no usable price"
+    }
+   ],
+   "has_apartment_market": true,
+   "price_band_min": 4850,
+   "price_band_max": 5950,
+   "price_band_note": "Apartment BUILT-UP rate. Sources disagree and I chose the current one deliberately: 99acres shows a headline 'average' of Rs 3,750-3,800/sqft alongside a stated current flat range of Rs 4,850-5,950/sqft. The averages are lagging aggregates dragged down by older stock; the Rs 4,850-5,950 range reflects what is actually on the market, and 10.3% YoY appreciation explains the gap. Neighbouring Potheri sits lower at ~Rs 3,300/sqft, up 10.0% YoY \u2014 do not merge the two, Potheri is the cheaper student-belt sub-market.",
+   "band_audit": "The existing band [3400, 5000] IS a genuine apartment built-up band, correctly labelled \u2014 the note says 'Apartment rates; 99acres average ~Rs 3,800/sqft', and that is indeed an apartment figure, not land. So no land/built-up confusion here. Two real problems though. First, it is stale and low: it was anchored to the lagging Rs 3,800 average, whereas current asking is Rs 4,850-5,950/sqft after 10.3% YoY. Second, and more subtly, the old apartment band [3400, 5000] and the newly measured LAND band [3000, 4500] overlap almost completely \u2014 which is anomalous for Chennai, where land normally runs about a third of built-up. That coincidence is a genuine market feature here, not an error: Kattankulathur plotted land is unusually expensive relative to its flats because SRM-driven plot demand has bid land up while apartment stock stays budget-grade. Worth flagging so a future reader does not 'fix' the overlap by assuming contamination.",
+   "typical_plot_size_sqft": 1200,
+   "typical_flat_size_sqft": 1000,
+   "trend": "rising",
+   "trend_note": "Apartments +10.3% YoY, Potheri +10.0% YoY; demand anchored by SRM University's student and staff housing plus GST Road / Metro Phase 2 Corridor 3 (Madhavaram-SIPCOT) connectivity.",
+   "rental_yield_pct": 12.9,
+   "rental_yield_note_warning": "TREAT WITH SUSPICION. The 12.9% figure comes from a single developer marketing blog (ishahomes.com) and is roughly three times Chennai's city-wide norm of 3-5%. It is plausible only as a GROSS yield on multi-tenant student-hostel-style letting near SRM, not as a yield on a normal residential purchase. Do not surface it to clients without this caveat, and do not use it in comparative ranking against localities whose yields are measured conventionally.",
+   "rate_basis": "asking",
+   "segment_fit": [
+    "value",
+    "executive"
+   ],
+   "data_confidence": "reported",
+   "sources": [
+    "https://www.roofandfloor.com/chennai/plots-for-sale-in-kattankulathur",
+    "https://www.99acres.com/property-rates-and-price-trends-in-kattankulathur-chennai-south-prffid",
+    "https://www.99acres.com/potheri-chennai-south-overview-piffid",
+    "https://property.sulekha.com/cmda-approved-plots-for-sale/kattankulathur-chennai",
+    "https://ishahomes.com/blog/high-rental-returns-where-rental-yield-actually-beats-the-average/"
+   ]
+  },
+  {
+   "name": "Pakkam-B Village (Nathamedu as per Patta)",
+   "found": true,
+   "corridor": "Far West",
+   "lat": null,
+   "lng": null,
+   "plot_band_min": 2000,
+   "plot_band_max": 2500,
+   "plot_band_note": "PROXY BAND \u2014 treat as weak, and note it is NOT built from any transaction inside Pakkam-B itself. No listing in the village surfaced with a price. Location confirmed: Nathamedu sits adjacent to Thirunindravur in Tiruvallur district (a CMDA-approved plot at Nathamedu near Thirunindravur was found, and Pakkam listings appear in the same Thirunindravur cluster), which corroborates the 'Far West' corridor tag. Band derived from two recomputed Thirunindravur transactions \u2014 Rs 15 L / 660 sqft = Rs 2,273/sqft and Rs 25 L / 1,000 sqft = Rs 2,500/sqft \u2014 plus DTCP plots near the Thiruvallur Collector Office advertised at Rs 1,999/sqft. DROPPED a Rs 850/sqft 'broader Thiruvallur' quote as deep-rural and not representative of the Thirunindravur belt. With one tracked project and no in-village comparable, this should be replaced the moment an actual Pakkam-B layout price appears.",
+   "plot_comparables": [
+    {
+     "layout": "Thirunindravur DTCP plot, 1,000 sqft (belt proxy)",
+     "developer": null,
+     "plot_size_min_sqft": 1000,
+     "plot_size_max_sqft": 1000,
+     "rate_sqft": 2500,
+     "source": "property.sulekha.com/dtcp-approved-plots-for-sale/thiruninravur-chennai \u2014 recomputed 25L/1000"
+    },
+    {
+     "layout": "Thirunindravur DTCP plot, 660 sqft (belt proxy)",
+     "developer": null,
+     "plot_size_min_sqft": 660,
+     "plot_size_max_sqft": 660,
+     "rate_sqft": 2273,
+     "source": "property.sulekha.com/dtcp-approved-plots-for-sale/thiruninravur-chennai \u2014 recomputed 15L/660"
+    },
+    {
+     "layout": "Thiruvallur Collector Office DTCP plots (belt proxy, advertised)",
+     "developer": null,
+     "plot_size_min_sqft": 600,
+     "plot_size_max_sqft": 1200,
+     "rate_sqft": 1999,
+     "source": "indiaproperty365.com via search snippet"
+    },
+    {
+     "layout": "Nathamedu CMDA plot, 2,100 sqft \u2014 no price found",
+     "developer": null,
+     "plot_size_min_sqft": 2100,
+     "plot_size_max_sqft": 2100,
+     "rate_sqft": null,
+     "source": "search snippet \u2014 confirms Nathamedu location adjacent to Thirunindravur; no usable price"
+    }
+   ],
+   "has_apartment_market": false,
+   "price_band_min": null,
+   "price_band_max": null,
+   "price_band_note": "No apartment market. Single-project rural village in the Tiruvallur belt; zero apartment projects tracked, no flat inventory found. Null by design.",
+   "band_audit": null,
+   "typical_plot_size_sqft": 1200,
+   "typical_flat_size_sqft": null,
+   "trend": null,
+   "trend_note": "No time-series data at village level; trend left null rather than borrowed from Tiruvallur district aggregates.",
+   "rental_yield_pct": null,
+   "rate_basis": "asking",
+   "segment_fit": [
+    "value"
+   ],
+   "data_confidence": "estimated",
+   "sources": [
+    "https://property.sulekha.com/dtcp-approved-plots-for-sale/thiruninravur-chennai",
+    "https://www.99acres.com/residential-land-in-pakkam-thiruvallur-chennai-north-ffid",
+    "https://www.nobroker.in/residential-land-plots-for-sale-in-pakkam_chennai",
+    "https://property.sulekha.com/dtcp-approved-plots-for-sale/thiruvallur"
+   ]
+  },
+  {
+   "name": "Nemilicheri (Avadi side)",
+   "found": true,
+   "corridor": "Far West",
+   "lat": 13.1183,
+   "lng": 80.073,
+   "data_confidence": "reported",
+   "rate_basis": "asking",
+   "has_apartment_market": true,
+   "plot_band_min": 3400,
+   "plot_band_max": 4500,
+   "plot_band_note": "IQR of 8 recomputed comparables in the Nemilicheri/Pattabiram/Thandurai pocket (Q1 3,432, median 3,716, Q3 4,500). Every rate recomputed as total price / area \u2014 no quoted per-sqft field was copied. TRAP: two different Nemilicheris exist. The one in this dataset is the Avadi/Pattabiram station pocket (13.1183, 80.073). A second 'Nemilichery' sits next to Chromepet/Old Pallavaram, and realestateindia.com's Nemilichery page is that southern one (its 'nearby areas' are Old Pallavaram and Nanmangalam, and one of its listings is ECR/Kovalam) \u2014 I discarded that whole page. DROPPED OUTLIER: Sai Nagar, Pattabiram, 2,700 sqft at Rs 25L = Rs 926/sqft (nobroker) \u2014 roughly a quarter of the field, almost certainly unapproved/agricultural-grade land, not a comparable DTCP plot. Dura Sakthi Garden at 6,101/sqft is the top of the field and sits inside Q3 only because it is a RERA-registered Nemilicheri layout; it is 60%+ above the pocket's median and reads as premium/gated product.",
+   "plot_comparables": [
+    {
+     "layout": "Senthilkumaran Nagar",
+     "developer": "Esan Associates",
+     "plot_size_min_sqft": 792,
+     "plot_size_max_sqft": 1227,
+     "rate_sqft": 3450,
+     "source": "https://www.roofandfloor.com/chennai/plots-for-sale-in-avadi"
+    },
+    {
+     "layout": "Rajesh Nagar Face 1 (Nemilicherry Road)",
+     "developer": null,
+     "plot_size_min_sqft": 2709,
+     "plot_size_max_sqft": 2709,
+     "rate_sqft": 3322,
+     "source": "https://www.nobroker.in/residential-land-plots-for-sale-in-nemilicheri_chennai"
+    },
+    {
+     "layout": "Individual plot 700m from upcoming Tidel Park Avadi",
+     "developer": "Kavin Real Estate Chennai Pvt Ltd (listing)",
+     "plot_size_min_sqft": 1320,
+     "plot_size_max_sqft": 1320,
+     "rate_sqft": 3700,
+     "source": "https://kavinrealestate.com/real-estate/residential-plot-for-sale-near-tidel-park-avadi/"
+    },
+    {
+     "layout": "Selliamman Koil St, Nemilicheri",
+     "developer": null,
+     "plot_size_min_sqft": 2400,
+     "plot_size_max_sqft": 2400,
+     "rate_sqft": 4500,
+     "source": "https://www.nobroker.in/residential-land-plots-for-sale-in-nemilicheri_chennai"
+    },
+    {
+     "layout": "EVP Rajeshwari Town, Thandurai (adjacent)",
+     "developer": "EVP",
+     "plot_size_min_sqft": 1240,
+     "plot_size_max_sqft": 1240,
+     "rate_sqft": 4500,
+     "source": "https://www.nobroker.in/residential-land-plots-for-sale-in-nemilicheri_chennai"
+    },
+    {
+     "layout": "Dura Sakthi Garden (RERA-registered in Nemilicheri)",
+     "developer": "Dura Constructions / M. Azhaguvel",
+     "plot_size_min_sqft": 672,
+     "plot_size_max_sqft": 1314,
+     "rate_sqft": 6101,
+     "source": "https://www.roofandfloor.com/chennai/plots-for-sale-in-avadi"
+    },
+    {
+     "layout": "OLX Nemilicheri-Pattabiram aggregate (Rs 33,588/sq yd)",
+     "developer": null,
+     "plot_size_min_sqft": 1200,
+     "plot_size_max_sqft": 2709,
+     "rate_sqft": 3732,
+     "source": "https://www.olx.in/nemilicheri-pattabiram_g5379367/lands-plots_c1729"
+    }
+   ],
+   "typical_plot_size_sqft": 1200,
+   "price_band_min": 4900,
+   "price_band_max": 5800,
+   "price_band_note": "THIN \u2014 one recomputed comparable only: 'High Tech' flats, Nemilichery/Avadi, 1,200 sqft at Rs 65L = Rs 5,417/sqft built-up (nobroker). The two RERA apartment projects we track here (RLD Aura by Royal Land & Developers, 2BHK 950 sqft; ARC Vivenza by Arc Developers, Pattabiram) publish no price. Band is that single point widened by ~8% either side and should be treated as indicative, not a market band. NOTE A TRAP: the figure 'Rs 5,416/sqft for Nemilicheri' circulates in search snippets as if it were a LAND rate \u2014 it is this apartment listing. Nemilicheri land is ~3,400-4,500, i.e. about two-thirds of built-up.",
+   "typical_flat_size_sqft": 1050,
+   "trend": "rising",
+   "trend_note": "Upcoming Tidel Park at Pattabiram is repricing the pocket \u2014 plots explicitly marketed on 700m proximity to it clear at ~3,700/sqft against a ~3,320/sqft rate for equivalent land on Nemilicherry Road.",
+   "rental_yield_pct": 2.5,
+   "segment_fit": [
+    "value"
+   ],
+   "band_audit": "The existing band 2,800-4,600 is genuinely a PLOTTED-LAND rate and is correctly labelled as such in its note \u2014 no contamination. My work confirms the kind but shifts the centre up: the credible field is now ~3,400-4,500 (median 3,716), so the existing floor of 2,800 is stale/too low and the ceiling of 4,600 is about right. The 'Avadi-belt land average ~Rs 3,850/sqft' in the existing note is well supported (my median 3,716, OLX aggregate 3,732).",
+   "sources": [
+    "https://www.roofandfloor.com/chennai/plots-for-sale-in-avadi",
+    "https://www.nobroker.in/residential-land-plots-for-sale-in-nemilicheri_chennai",
+    "https://kavinrealestate.com/real-estate/residential-plot-for-sale-near-tidel-park-avadi/",
+    "https://www.olx.in/nemilicheri-pattabiram_g5379367/lands-plots_c1729",
+    "https://property.sulekha.com/cmda-approved-plots-for-sale/pattabiram-chennai"
+   ]
+  },
+  {
+   "name": "Vengaivasal",
+   "found": true,
+   "corridor": "South Chennai (Medavakkam-Vengaivasal), NOT GST Road",
+   "lat": 12.905,
+   "lng": 80.173,
+   "data_confidence": "reported",
+   "rate_basis": "asking",
+   "has_apartment_market": true,
+   "plot_band_min": 7000,
+   "plot_band_max": 8100,
+   "plot_band_note": "IQR of 4 recomputed comparables = 6,792-7,955 (median 7,730); widened marginally to 7,000-8,100 to reconcile with 99acres' locality land rate of Rs 7,200-8,450/sqft. VGK Cholavanam is priced differently on two portals (roofandfloor Rs 74L-90.49L = 8,009/sqft; chennaiproperties Rs 72L-88L = 7,792/sqft) \u2014 I carried both. DROPPED OUTLIER: Akshayam Roheline (Akshayam Property Developers), 600-1,400 sqft, Rs 22.8L-53.2L = Rs 3,800/sqft. That is HALF the rest of the field and half 99acres' locality rate; it is a budget layout on the Vengaivasal fringe and would have dragged a min-max band down by ~45%. CORRIDOR CORRECTION: the dataset files Vengaivasal under 'GST Road'. It is not \u2014 it sits off Medavakkam Main Road / Medavakkam-Sholinganallur Road, ~7km east of GST, and prices with Medavakkam-Sithalapakkam, not with the GST belt (Medavakkam land 5,500-7,500, Sithalapakkam layouts 4,899-5,900). Vengaivasal actually trades ABOVE both.",
+   "plot_comparables": [
+    {
+     "layout": "VGK Cholavanam (Gandhi Nagar Road)",
+     "developer": "VGK Builders Pvt Ltd",
+     "plot_size_min_sqft": 924,
+     "plot_size_max_sqft": 1130,
+     "rate_sqft": 7900,
+     "source": "https://www.roofandfloor.com/chennai/plots-for-sale-in-vengaivasal + https://www.chennaiproperties.com/plots-for-sale-in-vengaivasal"
+    },
+    {
+     "layout": "Individual plot, Vengaivasal",
+     "developer": null,
+     "plot_size_min_sqft": 1500,
+     "plot_size_max_sqft": 1500,
+     "rate_sqft": 7667,
+     "source": "https://www.99acres.com/residential-land-in-vengaivasal-chennai-south-ffid"
+    },
+    {
+     "layout": "Gangaiamman Kovil Street plot",
+     "developer": null,
+     "plot_size_min_sqft": null,
+     "plot_size_max_sqft": null,
+     "rate_sqft": 6500,
+     "source": "https://www.99acres.com/residential-land-in-vengaivasal-chennai-south-ffid"
+    },
+    {
+     "layout": "Akshayam Roheline (DROPPED as low outlier)",
+     "developer": "Akshayam Property Developers",
+     "plot_size_min_sqft": 600,
+     "plot_size_max_sqft": 1400,
+     "rate_sqft": 3800,
+     "source": "https://www.roofandfloor.com/chennai/plots-for-sale-in-vengaivasal"
+    }
+   ],
+   "typical_plot_size_sqft": 1000,
+   "price_band_min": 5300,
+   "price_band_max": 7800,
+   "price_band_note": "IQR of 9 recomputed project comparables = 5,206-7,749, median 6,700 \u2014 brackets 99acres' locality flat range of Rs 5,700-8,050 (avg 6,450) almost exactly. Recomputed: Venishaa Enclave 4,500; ARRAs Nandhavanam 4,742; Tulive Pavilion 5,670; Kamaraj (Mithun Homes) 5,850; Ayyan Devesh (Sri Ayyan Homes, a RERA project we track) 6,700; SRM 3BHK 7,240; TVS Emerald Udyana Ph3 7,287-7,748. HIGH OUTLIERS NOTED, NOT DROPPED: Navins Starwood Towers 2 at 7,998/sqft and Starwood 3 / Maple Sky at 9,339-9,477/sqft \u2014 a large gated township on Vengaivasal Main Road that prices off Perumbakkam-Sholinganallur, not off the village. Excluding it the band tightens to roughly 4,700-7,300.",
+   "typical_flat_size_sqft": 1150,
+   "trend": "rising",
+   "trend_note": "Land is the driver \u2014 adjacent Medavakkam land is +20.4% in 1yr and +80.6% in 3yr, and Vengaivasal plots now clear above Medavakkam's own 5,500-7,500 band; flats are the laggard (99acres shows apartments -0.8% over 1yr, +18.3% over 3yr).",
+   "rental_yield_pct": null,
+   "segment_fit": [
+    "executive",
+    "value"
+   ],
+   "band_audit": null,
+   "sources": [
+    "https://www.roofandfloor.com/chennai/plots-for-sale-in-vengaivasal",
+    "https://www.chennaiproperties.com/plots-for-sale-in-vengaivasal",
+    "https://www.chennaiproperties.com/flats-for-sale-in-vengaivasal",
+    "https://www.99acres.com/property-rates-and-price-trends-in-vengaivasal-chennai-south-prffid",
+    "https://www.99acres.com/residential-land-in-vengaivasal-chennai-south-ffid"
+   ]
+  },
+  {
+   "name": "Kolivakkam",
+   "found": false,
+   "corridor": "Kanchipuram",
+   "lat": 12.834,
+   "lng": 79.704,
+   "data_confidence": null,
+   "rate_basis": null,
+   "has_apartment_market": false,
+   "plot_band_min": null,
+   "plot_band_max": null,
+   "plot_band_note": "NO USABLE DATA \u2014 deliberately returning no band rather than a fabricated one. Squareyards' Kolivakkam-Kanchipuram page returns 'No results matching your search' and falls back to other villages; chennaiproperties has no Kolivakkam listings at all; roofandfloor has no Kolivakkam slug; 99acres exposes only price-filter landing pages ('Kolivakkam, Kanchipuram from 10 lakhs to 15 lakhs', 'from 10 to 20 lakhs') with no readable listings behind them, and 99acres listing pages are 403-blocked. Zero Kolivakkam-specific price/area pairs exist that I could recompute. NEAREST RECOMPUTED COMPARABLES, for context only and NOT a basis for a band: Walajabad 1,567 sqft at Rs 23.48L = Rs 1,498/sqft, and Sirukaveripakkam 3,168 sqft at Rs 95.04L = Rs 3,000/sqft (both via squareyards' fallback list). Those two adjacent villages differ by 2x, which is exactly why interpolating a Kolivakkam number would be guesswork. Kanchipuram-belt plotted layouts elsewhere quote Rs 2,100 and Rs 2,490/sqft. ALSO FLAG THE GEOCODE: 12.834, 79.704 is Kanchipuram town centre \u2014 this looks like a registry fallback centroid, not the actual village, so even the location of the 4 plotted layouts we track (Govindharaj Nagar, Pachaiamman Nagar, Sri Ramachandra Nagar, Vijay Nagar \u2014 all single-promoter, no RERA number captured) is unconfirmed. Resolve the location before attempting a band.",
+   "plot_comparables": [],
+   "typical_plot_size_sqft": null,
+   "price_band_min": null,
+   "price_band_max": null,
+   "price_band_note": "No apartment market. All 4 tracked records are small single-promoter plotted layouts; no apartment stock found on any portal.",
+   "typical_flat_size_sqft": null,
+   "trend": null,
+   "trend_note": "No trend series found for Kolivakkam on any reachable source.",
+   "rental_yield_pct": null,
+   "segment_fit": [
+    "value"
+   ],
+   "band_audit": null,
+   "sources": [
+    "https://www.squareyards.com/sale/plots-for-sale-in-kolivakkam-kanchipuram",
+    "https://www.chennaiproperties.com/plots-for-sale-in-kolivakkam",
+    "https://www.99acres.com/residential-land-in-kolivakkam-kanchipuram-10-lakhs-to-15-lakhs-ffid"
+   ]
+  },
+  {
+   "name": "Thiruverkadu",
+   "found": true,
+   "corridor": "West Chennai",
+   "lat": 13.075,
+   "lng": 80.115,
+   "data_confidence": "reported",
+   "rate_basis": "asking",
+   "has_apartment_market": true,
+   "plot_band_min": 4600,
+   "plot_band_max": 6700,
+   "plot_band_note": "Only 2 Thiruverkadu-proper price/area pairs exist (Q1 4,413, Q3 6,606) \u2014 both portals' 'Thiruverkadu' plot pages are padded with Vanagaram/Ayappakkam/Poonamallee stock, which I kept out of the band. Band set to 4,600-6,700, bracketing both verified points and consistent with 99acres' land range of Rs 4,900-8,100/sqft and the nobroker forum's Rs 4,150-6,900/sqft. ADJACENT-BELT CONTEXT (excluded from the band): Ayappakkam 3,889-6,498/sqft, Vanagaram 6,994-7,976/sqft, Poonamallee 3,800-4,240/sqft \u2014 Thiruverkadu sits between Ayappakkam and Vanagaram, which supports the band's centre. Note Royal Merlion Estate (Vanagaram) is quoted at 8,000/sqft but recomputes to 7,699 on its min and 7,976 on its max \u2014 another reminder not to copy quoted rates.",
+   "plot_comparables": [
+    {
+     "layout": "VNR Grand Vista (Perumalagaram Salai)",
+     "developer": "VNR Homes Private Limited",
+     "plot_size_min_sqft": 1230,
+     "plot_size_max_sqft": 2598,
+     "rate_sqft": 6606,
+     "source": "https://www.roofandfloor.com/chennai/plots-for-sale-in-thiruverkadu + https://www.chennaiproperties.com/plots-for-sale-in-thiruverkadu"
+    },
+    {
+     "layout": "CMDA-approved premium plot, Thiruverkadu",
+     "developer": null,
+     "plot_size_min_sqft": 1065,
+     "plot_size_max_sqft": 1065,
+     "rate_sqft": 4413,
+     "source": "https://property.sulekha.com/dtcp-approved-plots-for-sale/thiruverkadu-chennai"
+    }
+   ],
+   "typical_plot_size_sqft": 1200,
+   "price_band_min": 5300,
+   "price_band_max": 6400,
+   "price_band_note": "Two recomputed Thiruverkadu-proper projects: Mass Lily (Massbro Developers, Karpagambal Nagar) 2BHK 930 sqft at Rs 54.87L and 3BHK 1,300 sqft at Rs 76.7L, both = Rs 5,900/sqft; SS Square Swasthika (SS Square Property Developers, Mahalakshmi Nagar) 2BHK 918 sqft at Rs 50.49L and 975 sqft at Rs 53.62L, both = Rs 5,500/sqft. Consistent with 99acres' locality flat average of Rs 6,200 and range Rs 4,850-6,750. IMPORTANT: in Thiruverkadu land (4,600-6,700) and built-up (5,300-6,400) are nearly the SAME number. That is normal for the outer west, where low-rise construction cost is low relative to land \u2014 but it is exactly the condition that lets the two bands get silently conflated, which is what happened in the existing record.",
+   "typical_flat_size_sqft": 980,
+   "trend": "rising",
+   "trend_note": "99acres shows land +13.5% in 1yr, +26.7% in 3yr, +65.2% in 5yr \u2014 sustained, driven by the affordable gap between Poonamallee, Avadi and Maduravoyal.",
+   "rental_yield_pct": null,
+   "segment_fit": [
+    "value"
+   ],
+   "band_audit": "MISLABELLED. The existing band 4,850-6,750 is 99acres' APARTMENT (flat) price range for Thiruverkadu, reproduced verbatim \u2014 it is a BUILT-UP rate, not land, even though the note bundles 'land Rs 4,900-8,100/sqft' into the same sentence, and the record has 0 apartment projects but 3 plotted layouts tracked. So the band currently measures the wrong product for what this locality actually supplies. My apartment band (5,300-6,400) corroborates that the existing figure is a flat rate. The land band is a genuinely separate number (4,600-6,700) that happens to overlap heavily \u2014 which is almost certainly why the conflation went unnoticed.",
+   "sources": [
+    "https://www.roofandfloor.com/chennai/plots-for-sale-in-thiruverkadu",
+    "https://www.chennaiproperties.com/plots-for-sale-in-thiruverkadu",
+    "https://www.chennaiproperties.com/flats-for-sale-in-thiruverkadu",
+    "https://www.99acres.com/property-rates-and-price-trends-in-thiruverkadu-chennai-west-prffid",
+    "https://www.nobroker.in/forum/what-is-thiruverkadu-square-feet-rate/",
+    "https://property.sulekha.com/dtcp-approved-plots-for-sale/thiruverkadu-chennai"
+   ]
+  },
+  {
+   "name": "Alandur",
+   "found": true,
+   "corridor": "Central Chennai",
+   "lat": 13.0027,
+   "lng": 80.2005,
+   "data_confidence": "reported",
+   "rate_basis": "mixed",
+   "has_apartment_market": true,
+   "plot_band_min": null,
+   "plot_band_max": null,
+   "plot_band_note": "NO PLOT BAND \u2014 correctly so. Alandur is a fully built-out inner-suburban locality; we track 0 plotted projects here and 2 apartment projects. No Alandur land price/area pair was found on any reachable source; the only land that changes hands is redevelopment sites transacting off-market. Do NOT copy the apartment band across as a land rate.",
+   "plot_comparables": [],
+   "typical_plot_size_sqft": null,
+   "price_band_min": 8800,
+   "price_band_max": 12500,
+   "price_band_note": "Spans a genuinely two-tier market. RECOMPUTED resale/older stock: 3BHK 1,200 sqft at Rs 90L near St Thomas Mount station = Rs 7,500/sqft (chennaiproperties); 2BHK 736 sqft at Rs 70L = 9,511; 2BHK 1,047 sqft at Rs 90L = 8,596; 3BHK 1,083 sqft at Rs 95L = 8,772 (IQR of those four = 7,774-9,326). REPORTED new/under-construction: 99acres flat range Rs 9,850-13,300/sqft with average TRANSACTED rate Rs 10,302/sqft. Band 8,800-12,500 straddles both. DROPPED as a different market: the Guindy/Ekkaduthangal stock that both portals mix into 'Alandur' pages \u2014 Appaswamy Malkoha Rs 5.65Cr/2,609 sqft = 21,656/sqft, Sreshta Maudgalya Rs 2.79Cr/1,551 = 17,988, Appaswamy Parkhouse Mews Rs 3.27Cr/1,886 = 17,338, Purva Somerset House Rs 2.95Cr/1,904 = 15,494, Sidharth Solitaire 14,789, SA Simha 14,046. Those are Five Furlong Road / Defence Colony product and are 40-100% above Alandur proper. Also treat nobroker's 'Rs 10,000-20,000/sqft' for Alandur as contaminated by exactly that Guindy stock.",
+   "typical_flat_size_sqft": 1000,
+   "trend": "rising",
+   "trend_note": "~10-13% appreciation over recent years and +13.93% over 3 years for 2BHK, held up by Alandur Metro (Blue/Green interchange), airport proximity and the Guindy employment spillover.",
+   "rental_yield_pct": 2.9,
+   "segment_fit": [
+    "executive",
+    "value"
+   ],
+   "band_audit": null,
+   "sources": [
+    "https://www.chennaiproperties.com/flats-for-sale-in-alandur",
+    "https://www.nobroker.in/locality-iq/alandur-chennai-liqlt",
+    "https://www.99acres.com/property-rates-and-price-trends-in-alandur-chennai-south-prffid",
+    "https://www.99acres.com/2-bhk-flats-in-alandur-chennai-south-ffid",
+    "https://houssed.com/chennai-alandur/sale/flats"
+   ]
+  },
+  {
+   "name": "Choolaimedu",
+   "found": true,
+   "corridor": "Central Chennai",
+   "lat": 13.0672,
+   "lng": 80.2287,
+   "data_confidence": "reported",
+   "rate_basis": "asking",
+   "has_apartment_market": true,
+   "plot_band_min": 11000,
+   "plot_band_max": 17500,
+   "plot_band_note": "REPORTED ONLY, NOT RECOMPUTED \u2014 flagging this honestly. 99acres gives Choolaimedu land at Rs 11,000-17,500/sqft (+6.1% 1yr, +22.4% 3yr) and individual listings quoting Rs 14,115-19,120/sqft, but no reachable source published a total-price/area pair I could recompute, so this band inherits a quoted per-sqft field \u2014 the one thing the brief warns against. Treat it as weaker than the apartment band. Directionally it is credible: central-Chennai land trading at ~1.3-1.4x the built-up rate is the normal pattern for a locality being redeveloped plot-by-plot, and we track exactly 1 plotted record here (Lake View Avenue). NOTE the inversion versus the outer belt: in Choolaimedu LAND is worth MORE per sqft than built-up, the opposite of Nemilicheri or Nemmeli.",
+   "plot_comparables": [],
+   "typical_plot_size_sqft": 1800,
+   "price_band_min": 11700,
+   "price_band_max": 14100,
+   "price_band_note": "IQR of 4 recomputed under-construction projects = 11,756-14,125, median 12,500. Rams Apollo (RAMS Real Estates) 2BHK 645 sqft at Rs 77.4L, 656 at Rs 78.72L, 3BHK 976 at Rs 1.17Cr \u2014 all Rs 12,000/sqft; Linga Vinayaka (Linga Builders) 3BHK 1,070 at Rs 1.25Cr and 1,200 at Rs 1.4Cr = 11,682/11,667; Karuna (Sreerosh Properties) 2BHK 910 at Rs 1.18Cr and 3BHK 1,400 at Rs 1.82Cr = 12,967/13,000; Hansa Dwaraka (Hansa Estates) 2BHK 1,088 at Rs 1.58Cr and 3BHK 1,277 at Rs 1.85Cr = 14,522/14,487. RESALE IS A DIFFERENT NUMBER: 99acres puts Choolaimedu resale flats at Rs 6,700-11,400/sqft, average Rs 8,150 \u2014 while quoting an average TRANSACTED rate of Rs 13,391/sqft, which matches my new-launch field rather than its own resale range. So the honest read is: old walk-up stock Rs 8,000-11,000, new boutique construction Rs 11,700-14,100. DROPPED as a different market: the Aminjikarai/Arumbakkam stock the portal mixes in, notably Taj Skyview Residences at Rs 7.95Cr/2,507 sqft = 31,711/sqft.",
+   "typical_flat_size_sqft": 1050,
+   "trend": "rising",
+   "trend_note": "+5.3% in 1yr and +32.4% over 5yr on flats, land +6.1%/+22.4%; new boutique construction is now asking ~25% above the locality's blended average as old plots redevelop.",
+   "rental_yield_pct": null,
+   "segment_fit": [
+    "executive"
+   ],
+   "band_audit": "RIGHT KIND, WRONG LEVEL. The existing band 8,500-12,500 IS an apartment built-up band \u2014 not land contamination \u2014 and its note correctly cites 99acres/Commonfloor flat rates. But those locality averages are resale-weighted, and the band now understates the market that our tracked projects actually sit in: every under-construction project I recomputed asks 11,675-14,522/sqft, so the existing ceiling of 12,500 is roughly where new stock STARTS. Separately, the existing note has no land figure at all, which is a real gap for a locality where land (Rs 11,000-17,500/sqft) is worth more per sqft than built-up and where redevelopment economics are the whole story.",
+   "sources": [
+    "https://www.chennaiproperties.com/flats-for-sale-in-choolaimedu",
+    "https://www.99acres.com/property-rates-and-price-trends-in-choolaimedu-chennai-central-prffid",
+    "https://www.99acres.com/residential-land-in-choolaimedu-chennai-central-ffid",
+    "https://www.nobroker.in/residential-land-plots-for-sale-in-choolaimedu_chennai"
+   ]
+  },
+  {
+   "name": "Nemmeli",
+   "found": true,
+   "corridor": "ECR / Kovalam (dataset says GST Road \u2014 this is wrong, see note)",
+   "lat": 12.783,
+   "lng": 80.242,
+   "data_confidence": "reported",
+   "rate_basis": "asking",
+   "has_apartment_market": false,
+   "plot_band_min": 3000,
+   "plot_band_max": 4250,
+   "plot_band_note": "IQR of 4 recomputed comparables = 2,999-4,202 (median 3,530); reported as 3,000-4,250. CORRIDOR CORRECTION, IMPORTANT: the dataset files Nemmeli under 'GST Road' and geocodes Secret Auraa to 12.682, 79.986 (inland, near Chengalpattu). That is wrong. StepsStone's own site places Secret Auraa at 'Kovalam Nr. ECR Chennai', Thiruporur Road near Kovalam Beach, pincode 603104, RERA TN/35/LAYOUT/2747/2025 \u2014 i.e. Nemmeli on ECR. The other tracked record, Palm Beach Phase II (VNCT Global), is geocoded 12.6429, 80.1390, also coastal. There IS a separate inland 'Nenmeli' near Chengalpattu on GST where DTCP plots quote ~Rs 2,890/sqft \u2014 do not merge the two; this band is the ECR one. RATE-FIELD TRAP CONFIRMED HERE: roofandfloor shows Secret Auraa's flat rate as Rs 3,750/sqft, the developer's own site says Rs 3,990/sqft, and roofandfloor's own price range (Rs 24L-2.17Cr over 591-5,345 sqft) recomputes to Rs 4,060/sqft. I used the recompute. Large-parcel/resort land (the 4,800 sqft Vada Nemmeli plot at 3,000/sqft) trades at a bulk discount to layout plots.",
+   "plot_comparables": [
+    {
+     "layout": "StepsStone Secret Auraa (= 'Secret Auraa' in our RERA registry)",
+     "developer": "StepsStone Promoters Pvt Ltd / Aaalam Promoters",
+     "plot_size_min_sqft": 591,
+     "plot_size_max_sqft": 5345,
+     "rate_sqft": 4060,
+     "source": "https://www.roofandfloor.com/chennai/plots-for-sale-in-nemmeli + https://stepsstone.in/secret-auraa-plots-nemmeli-ecr/"
+    },
+    {
+     "layout": "GT La Amethyst (Kovalam)",
+     "developer": "GT Reality",
+     "plot_size_min_sqft": 1400,
+     "plot_size_max_sqft": 1400,
+     "rate_sqft": 4250,
+     "source": "https://www.roofandfloor.com/chennai/plots-for-sale-in-nemmeli"
+    },
+    {
+     "layout": "Rathis Kings Palace (ECR)",
+     "developer": "Sri Bhagya Homes",
+     "plot_size_min_sqft": 2400,
+     "plot_size_max_sqft": 2400,
+     "rate_sqft": 2999,
+     "source": "https://www.roofandfloor.com/chennai/plots-for-sale-in-nemmeli"
+    },
+    {
+     "layout": "Individual plot near Vada Nemmeli (resort-zone, large parcel)",
+     "developer": null,
+     "plot_size_min_sqft": 4800,
+     "plot_size_max_sqft": 4800,
+     "rate_sqft": 3000,
+     "source": "https://www.roofandfloor.com/chennai/plots-for-sale-in-nemmeli"
+    }
+   ],
+   "typical_plot_size_sqft": 1200,
+   "price_band_min": null,
+   "price_band_max": null,
+   "price_band_note": "NO APARTMENT MARKET \u2014 set null deliberately, not copied from the land rate. Nemmeli ECR supplies plotted layouts, individual villas and resort land only; we track 2 plotted layouts and 1 villa project and 0 apartments, and no apartment stock appears on any portal for this locality. Any future apartment record here should be treated as an anomaly and verified.",
+   "typical_flat_size_sqft": null,
+   "trend": "rising",
+   "trend_note": "WEAK EVIDENCE \u2014 single-project only: Secret Auraa's marketing rate of Rs 3,750/sqft has been overtaken by realised asking of Rs 3,990-4,060/sqft, a ~7-8% uplift. No locality-level trend series exists for Nemmeli on any reachable source.",
+   "rental_yield_pct": null,
+   "segment_fit": [
+    "value",
+    "executive"
+   ],
+   "band_audit": null,
+   "sources": [
+    "https://www.roofandfloor.com/chennai/plots-for-sale-in-nemmeli",
+    "https://stepsstone.in/secret-auraa-plots-nemmeli-ecr/",
+    "https://findbhk.com/projects/stepsstone-secret-aura-nemmeli-ecr",
+    "https://www.99acres.com/property-in-nemmeli-chennai-south-ffid",
+    "https://property.sulekha.com/dtcp-approved-plots-for-sale/nemmeli-mahabalipuram"
+   ]
+  },
+  {
+   "name": "Mugaiyur",
+   "found": true,
+   "corridor": "Far South ECR / Cheyyur belt (dataset says GST Road \u2014 this is wrong, see note)",
+   "lat": 12.345,
+   "lng": 79.999,
+   "data_confidence": "estimated",
+   "rate_basis": "asking",
+   "has_apartment_market": false,
+   "plot_band_min": 600,
+   "plot_band_max": 1300,
+   "plot_band_note": "VERY THIN \u2014 TWO DATA POINTS. Do not use this to price a deal; use it only to confirm Mugaiyur is a sub-Rs 1,500/sqft far-belt market. (1) RECOMPUTED: 12,000 sqft parcel at Rs 72L = Rs 600/sqft (sulekha listing) \u2014 a large-parcel bulk rate, so a floor rather than a layout-plot rate. (2) QUOTED, not recomputable: Rs 1,250/sqft for DTCP-approved 'Mugaiyur, ECR' plots. Context: Cheyyur budget plots quote Rs 499/sqft for 800 sqft. The >2x spread between my two points is why the band is wide and flagged estimated. LOCATION FLAG, MATERIAL: the registry geocode 12.345, 79.999 puts Mugaiyur in the Cheyyur/Marakkanam belt roughly 90km south of Chennai \u2014 outside the Chennai Metropolitan Area entirely, and nowhere near GST Road as the dataset's corridor field claims. Confirm whether this record belongs in a CMA tracker at all before publishing any band for it.",
+   "plot_comparables": [
+    {
+     "layout": "Individual parcel, Mugaiyur",
+     "developer": null,
+     "plot_size_min_sqft": 12000,
+     "plot_size_max_sqft": 12000,
+     "rate_sqft": 600,
+     "source": "https://property.sulekha.com/plots-land-for-sale/12000-sqft-plots-land-for-sale-in-mugaiyur-chengalpattu-3388400317-ad"
+    },
+    {
+     "layout": "DTCP-approved plots, Mugaiyur ECR (quoted rate, not recomputable)",
+     "developer": null,
+     "plot_size_min_sqft": null,
+     "plot_size_max_sqft": null,
+     "rate_sqft": 1250,
+     "source": "https://property.sulekha.com/dtcp-approved-plots-for-sale/mugaiyur-chengalpattu"
+    }
+   ],
+   "typical_plot_size_sqft": 2400,
+   "price_band_min": null,
+   "price_band_max": null,
+   "price_band_note": "NO APARTMENT MARKET \u2014 null, not copied from land. The single RERA record we track here (Anora Atelier, promoters Naresh G Advani / Rajesh G Advani, typed 'apartment') has no listing, price, brochure or portal presence on any source I could reach, and Mugaiyur is a village in the Cheyyur belt with no organised apartment resale market. I could not corroborate that an apartment market exists here at all; the record needs verification before any apartment band is attached to this locality.",
+   "typical_flat_size_sqft": null,
+   "trend": null,
+   "trend_note": "No trend series found for Mugaiyur on any reachable source.",
+   "rental_yield_pct": null,
+   "segment_fit": [
+    "value"
+   ],
+   "band_audit": null,
+   "sources": [
+    "https://property.sulekha.com/plots-land-for-sale/mugaiyur-chengalpattu",
+    "https://property.sulekha.com/dtcp-approved-plots-for-sale/mugaiyur-chengalpattu",
+    "https://property.sulekha.com/plots-land-for-sale/12000-sqft-plots-land-for-sale-in-mugaiyur-chengalpattu-3388400317-ad",
+    "https://www.99acres.com/residential-land-in-cheyyur-chengalpattu-ffid"
+   ]
+  },
+  {
+   "name": "Walajabad",
+   "found": true,
+   "corridor": "Kanchipuram",
+   "lat": 12.792,
+   "lng": 79.825,
+   "plot_band_min": 650,
+   "plot_band_max": 1500,
+   "plot_band_note": "IQR of 15 recomputed comparables (every rate = total price / area, computed by me; no quoted per-sqft field trusted). Market is sharply BIFURCATED, which is why the band is wide: a cheap tier at Rs 450-1,000/sqft (loose plots off the main road, several without gated-layout infrastructure) and a DTCP-approved gated-layout tier clustering tightly at Rs 1,200-1,750/sqft. DROPPED as outliers: (a) a 50-acre parcel listed at Rs 112.5 Cr on Sulekha = Rs 5,165/sqft, implausible for Walajabad raw land and almost certainly a mis-keyed listing or a non-residential parcel; (b) Royale Residency at Rs 2,499/sqft is retained in comparables but sits above the IQR as the top-of-market premium layout. NOTE: Sulekha's own per-sqft field was again unreliable here, confirming the known trap.",
+   "plot_comparables": [
+    {
+     "layout": "Royale Residency",
+     "developer": "PropShell",
+     "plot_size_min_sqft": 810,
+     "plot_size_max_sqft": 1848,
+     "rate_sqft": 2499,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-walajabad"
+    },
+    {
+     "layout": "Budget Sai Subhiksha Nagar",
+     "developer": "Budget Housing and Properties",
+     "plot_size_min_sqft": 676,
+     "plot_size_max_sqft": 1655,
+     "rate_sqft": 999,
+     "source": "https://www.chennaiproperties.com/plots-for-sale-in-walajabad"
+    },
+    {
+     "layout": "Individual plot near Walajabad bus stop (owner Mani S)",
+     "developer": null,
+     "plot_size_min_sqft": 2773,
+     "plot_size_max_sqft": 2773,
+     "rate_sqft": 1298,
+     "source": "https://www.chennaiproperties.com/plots-for-sale-in-walajabad"
+    },
+    {
+     "layout": "Individual plot, Uthukadu (owner Sasikala)",
+     "developer": null,
+     "plot_size_min_sqft": 1000,
+     "plot_size_max_sqft": 1000,
+     "rate_sqft": 1150,
+     "source": "https://www.chennaiproperties.com/plots-for-sale-in-walajabad"
+    },
+    {
+     "layout": "Two plots near Walajabad railway station (owner K. Pandurangan)",
+     "developer": null,
+     "plot_size_min_sqft": 1412,
+     "plot_size_max_sqft": 1414,
+     "rate_sqft": 600,
+     "source": "https://www.chennaiproperties.com/plots-for-sale-in-walajabad"
+    },
+    {
+     "layout": "DTCP plot 800 sqft",
+     "developer": null,
+     "plot_size_min_sqft": 800,
+     "plot_size_max_sqft": 800,
+     "rate_sqft": 1750,
+     "source": "https://property.sulekha.com/dtcp-approved-plots-for-sale/walajabad-kanchipuram"
+    },
+    {
+     "layout": "DTCP plot 1500 sqft (Rs 22.5L)",
+     "developer": null,
+     "plot_size_min_sqft": 1500,
+     "plot_size_max_sqft": 1500,
+     "rate_sqft": 1500,
+     "source": "https://property.sulekha.com/dtcp-approved-plots-for-sale/walajabad-kanchipuram"
+    },
+    {
+     "layout": "DTCP plot 2000 sqft (Rs 29.98L)",
+     "developer": null,
+     "plot_size_min_sqft": 2000,
+     "plot_size_max_sqft": 2000,
+     "rate_sqft": 1499,
+     "source": "https://property.sulekha.com/dtcp-approved-plots-for-sale/walajabad-kanchipuram"
+    },
+    {
+     "layout": "DTCP plot 700 sqft (Rs 10.5L)",
+     "developer": null,
+     "plot_size_min_sqft": 700,
+     "plot_size_max_sqft": 700,
+     "rate_sqft": 1500,
+     "source": "https://property.sulekha.com/dtcp-approved-plots-for-sale/walajabad-kanchipuram"
+    },
+    {
+     "layout": "DTCP plot 1200 sqft (Rs 18L)",
+     "developer": null,
+     "plot_size_min_sqft": 1200,
+     "plot_size_max_sqft": 1200,
+     "rate_sqft": 1500,
+     "source": "https://property.sulekha.com/dtcp-approved-plots-for-sale/walajabad-kanchipuram"
+    },
+    {
+     "layout": "Plot 1125 sqft (Rs 5.1L) - cheap tier",
+     "developer": null,
+     "plot_size_min_sqft": 1125,
+     "plot_size_max_sqft": 1125,
+     "rate_sqft": 453,
+     "source": "https://property.sulekha.com/dtcp-approved-plots-for-sale/walajabad-kanchipuram"
+    },
+    {
+     "layout": "Plot 1200 sqft (Rs 6L) - cheap tier",
+     "developer": null,
+     "plot_size_min_sqft": 1200,
+     "plot_size_max_sqft": 1200,
+     "rate_sqft": 500,
+     "source": "https://property.sulekha.com/dtcp-approved-plots-for-sale/walajabad-kanchipuram"
+    },
+    {
+     "layout": "Plot 900 sqft (Rs 6L) - cheap tier",
+     "developer": null,
+     "plot_size_min_sqft": 900,
+     "plot_size_max_sqft": 900,
+     "rate_sqft": 667,
+     "source": "https://property.sulekha.com/dtcp-approved-plots-for-sale/walajabad-kanchipuram"
+    }
+   ],
+   "typical_plot_size_sqft": 1200,
+   "has_apartment_market": false,
+   "price_band_min": null,
+   "price_band_max": null,
+   "price_band_note": "No apartment market. Zero apartment projects in our RERA registry and zero flat listings on any portal fetched \u2014 Walajabad is a purely plotted / individual-house market. Apartment band deliberately left null rather than copying the land rate across.",
+   "typical_flat_size_sqft": null,
+   "band_audit": "The existing band [1000, 1800] IS correctly typed as plotted land, not apartments \u2014 the existing note is accurate about what it measures. Its flaw is range, not type: it captures only the DTCP-approved gated-layout tier and omits the substantial sub-Rs 1,000/sqft loose-plot tier that makes up roughly a third of live listings. Recommend widening the floor to ~650.",
+   "rate_basis": "asking",
+   "trend": "cooling",
+   "trend_note": "Retains the cooling call from the existing record: the June 2026 cancellation of the Parandur airport removed the speculative catalyst that drove layout launches here. Genuine Oragadam/Sriperumbudur worker demand persists but resale liquidity on speculative-era plots is the risk.",
+   "rental_yield_pct": null,
+   "segment_fit": [
+    "value"
+   ],
+   "data_confidence": "reported",
+   "sources": [
+    "https://roofandfloor.com/chennai/plots-for-sale-in-walajabad",
+    "https://www.chennaiproperties.com/plots-for-sale-in-walajabad",
+    "https://www.realnest.in/plots-for-sale-in-walajabad",
+    "https://property.sulekha.com/dtcp-approved-plots-for-sale/walajabad-kanchipuram"
+   ]
+  },
+  {
+   "name": "Kelambakkam",
+   "found": true,
+   "corridor": "OMR",
+   "lat": 12.786,
+   "lng": 80.22,
+   "plot_band_min": 2750,
+   "plot_band_max": 4150,
+   "plot_band_note": "IQR of 23 named layouts, each rate recomputed by me as total price / area. Best-evidenced locality in this batch. DROPPED as outliers: VGK Ashbourne Park (Rs 6,998/sqft) and Adityaram Empire (Rs 6,070/sqft) \u2014 both premium gated villa-plot product priced off the ECR/coastal comparison set, not the OMR plotted-land market; and Villa Green Vista (Rs 1,670/sqft) at the bottom, a far-fringe farm-plot-style product. Confirmed roofandfloor's flat-rate behaviour: min_price/min_size == max_price/max_size on every layout, so the price range carries no extra information. IMPORTANT: housing.com advertises 'Kelambakkam plots Rs 7.0k/sqft' \u2014 that figure is just the single VGK Ashbourne Park listing (its 807-1310 sqft range matches exactly), not an average. Do not use it.",
+   "plot_comparables": [
+    {
+     "layout": "VGK Ashbourne Park (OUTLIER, excluded from band)",
+     "developer": "VGK Builders Pvt Ltd",
+     "plot_size_min_sqft": 807,
+     "plot_size_max_sqft": 1310,
+     "rate_sqft": 6998,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-kelambakkam"
+    },
+    {
+     "layout": "Adityaram Empire (OUTLIER, excluded from band)",
+     "developer": "Adityaram Properties (P) Ltd",
+     "plot_size_min_sqft": 690,
+     "plot_size_max_sqft": 3400,
+     "rate_sqft": 6087,
+     "source": "https://www.chennaiproperties.com/plots-for-sale-in-kelambakkam"
+    },
+    {
+     "layout": "Sri Vyssnavi Avenue",
+     "developer": "SR Housing & Properties",
+     "plot_size_min_sqft": 1258,
+     "plot_size_max_sqft": 1921,
+     "rate_sqft": 5500,
+     "source": "https://www.chennaiproperties.com/plots-for-sale-in-kelambakkam"
+    },
+    {
+     "layout": "Golden Blissful Garden",
+     "developer": "Golden Homes Pvt Ltd",
+     "plot_size_min_sqft": 650,
+     "plot_size_max_sqft": 4253,
+     "rate_sqft": 4998,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-kelambakkam"
+    },
+    {
+     "layout": "Raj Royal C",
+     "developer": "Raj",
+     "plot_size_min_sqft": 737,
+     "plot_size_max_sqft": 2913,
+     "rate_sqft": 4598,
+     "source": "https://www.chennaiproperties.com/plots-for-sale-in-kelambakkam"
+    },
+    {
+     "layout": "Empire Township / Alageswarar Nagar",
+     "developer": "Empire Housing and Properties",
+     "plot_size_min_sqft": 592,
+     "plot_size_max_sqft": 3682,
+     "rate_sqft": 4299,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-kelambakkam"
+    },
+    {
+     "layout": "Staar Homes PRS Garden",
+     "developer": "Staar Homes",
+     "plot_size_min_sqft": 913,
+     "plot_size_max_sqft": 2400,
+     "rate_sqft": 3999,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-kelambakkam"
+    },
+    {
+     "layout": "RPS Garden",
+     "developer": "Staar Homes",
+     "plot_size_min_sqft": 878,
+     "plot_size_max_sqft": 1836,
+     "rate_sqft": 3999,
+     "source": "https://www.chennaiproperties.com/plots-for-sale-in-kelambakkam"
+    },
+    {
+     "layout": "GTK Orchard Park",
+     "developer": "GTK Foundations",
+     "plot_size_min_sqft": 599,
+     "plot_size_max_sqft": 1635,
+     "rate_sqft": 3990,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-kelambakkam"
+    },
+    {
+     "layout": "BLB Mahadheera Nagar",
+     "developer": "BLB Estates Pvt Ltd",
+     "plot_size_min_sqft": 600,
+     "plot_size_max_sqft": 2000,
+     "rate_sqft": 3900,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-kelambakkam"
+    },
+    {
+     "layout": "Adityaram Superstar",
+     "developer": "Adityaram Group",
+     "plot_size_min_sqft": 600,
+     "plot_size_max_sqft": 5000,
+     "rate_sqft": 3900,
+     "source": "https://www.realnest.in/plots-for-sale-in-kelambakkam"
+    },
+    {
+     "layout": "RV Garden",
+     "developer": "Ramnaa Realty",
+     "plot_size_min_sqft": 800,
+     "plot_size_max_sqft": 1800,
+     "rate_sqft": 3750,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-kelambakkam"
+    },
+    {
+     "layout": "JVP Eden Gardens",
+     "developer": "JVP Housing",
+     "plot_size_min_sqft": 600,
+     "plot_size_max_sqft": 2400,
+     "rate_sqft": 3500,
+     "source": "https://www.chennaiproperties.com/plots-for-sale-in-kelambakkam"
+    },
+    {
+     "layout": "Chola Akshayam Virushkaa",
+     "developer": "Chola Akshayam Developers",
+     "plot_size_min_sqft": 600,
+     "plot_size_max_sqft": 3000,
+     "rate_sqft": 3500,
+     "source": "https://www.chennaiproperties.com/plots-for-sale-in-kelambakkam"
+    },
+    {
+     "layout": "Sai Krishna Avenue",
+     "developer": "Vikaa Homes",
+     "plot_size_min_sqft": 726,
+     "plot_size_max_sqft": 2400,
+     "rate_sqft": 3400,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-kelambakkam"
+    },
+    {
+     "layout": "Galaxys Emerald Garden",
+     "developer": "Galaxy Property Consultancy",
+     "plot_size_min_sqft": 597,
+     "plot_size_max_sqft": 1987,
+     "rate_sqft": 3101,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-kelambakkam"
+    },
+    {
+     "layout": "Kris Farms",
+     "developer": "Arana Developers",
+     "plot_size_min_sqft": 600,
+     "plot_size_max_sqft": 2415,
+     "rate_sqft": 2800,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-kelambakkam"
+    },
+    {
+     "layout": "Stepsstone Srinivasa Palms",
+     "developer": "Stepsstone Promoters Pvt Ltd",
+     "plot_size_min_sqft": 769,
+     "plot_size_max_sqft": 1066,
+     "rate_sqft": 2731,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-kelambakkam"
+    },
+    {
+     "layout": "BLB Sree Nivasam Nagar",
+     "developer": "BLB Estates Pvt Ltd",
+     "plot_size_min_sqft": 500,
+     "plot_size_max_sqft": 1500,
+     "rate_sqft": 2500,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-kelambakkam"
+    },
+    {
+     "layout": "BLB Sreevari Nagar",
+     "developer": "BLB Estates Pvt Ltd",
+     "plot_size_min_sqft": 500,
+     "plot_size_max_sqft": 2500,
+     "rate_sqft": 2500,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-kelambakkam"
+    },
+    {
+     "layout": "Shanthi Park",
+     "developer": "i5 Housing and Properties",
+     "plot_size_min_sqft": 362,
+     "plot_size_max_sqft": 4516,
+     "rate_sqft": 2249,
+     "source": "https://www.realnest.in/plots-for-sale-in-kelambakkam"
+    },
+    {
+     "layout": "Happinest",
+     "developer": "Square Space Properties",
+     "plot_size_min_sqft": 800,
+     "plot_size_max_sqft": 3528,
+     "rate_sqft": 2150,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-kelambakkam"
+    },
+    {
+     "layout": "Villa Green Vista Plots (OUTLIER, excluded from band)",
+     "developer": "Green Home",
+     "plot_size_min_sqft": 1200,
+     "plot_size_max_sqft": 4000,
+     "rate_sqft": 1670,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-kelambakkam"
+    }
+   ],
+   "typical_plot_size_sqft": 800,
+   "has_apartment_market": true,
+   "price_band_min": 4300,
+   "price_band_max": 6200,
+   "price_band_note": "Apartment BUILT-UP rate. IQR of 14 live projects, every rate recomputed as price / size. Two distinct tiers: older/resale stock (Marg Savithanjali Rs 3,477, Vishram Nest Rs 3,599, Advaita Blossom Rs 3,850, Casagrand Southbrooke Rs 4,125) versus current branded launches (Casagrand Suncity/Estoria, Provident Bayscape/Sangam, Purva Codename Sangam) clustering Rs 5,650-6,850. A buyer shopping new-launch branded stock today should budget the top of this band, not the middle.",
+   "typical_flat_size_sqft": 1150,
+   "band_audit": "The existing band [4000, 6500] is a GENUINE apartment built-up band and is essentially correct \u2014 my independent recompute lands at 4,300-6,200, within 8% at both ends. No contamination. The existing note's parenthetical plot guess (~Rs 2,500-4,500) also holds up well against my measured plot IQR of 2,750-4,150. This is the cleanest pre-existing record of the eight.",
+   "rate_basis": "asking",
+   "trend": "rising",
+   "trend_note": "South-OMR absorption node; heavy branded-developer entry (Casagrand, Provident, Purva all live simultaneously) is pulling the launch tier up while older stock lags, which is what widens the apartment band.",
+   "rental_yield_pct": 4.5,
+   "segment_fit": [
+    "executive",
+    "value"
+   ],
+   "data_confidence": "reported",
+   "sources": [
+    "https://roofandfloor.com/chennai/plots-for-sale-in-kelambakkam",
+    "https://www.chennaiproperties.com/plots-for-sale-in-kelambakkam",
+    "https://www.realnest.in/plots-for-sale-in-kelambakkam",
+    "https://roofandfloor.com/chennai/flats-for-sale-in-kelambakkam",
+    "https://housing.com/in/buy/real-estate-chennai/plots-in-chennai"
+   ]
+  },
+  {
+   "name": "Gerugambakkam",
+   "found": true,
+   "corridor": "Southwest Chennai",
+   "lat": 13.01,
+   "lng": 80.135,
+   "plot_band_min": 5900,
+   "plot_band_max": 6400,
+   "plot_band_note": "IQR of 9 comparables, rates recomputed by me. Unusually TIGHT band \u2014 this is a land-constrained infill suburb next to Porur/Manapakkam, so plotted supply is scarce and priced consistently. DROPPED: VTB Kuberan Garden (Madras City Properties) \u2014 its listing fails the flat-rate test that every other roofandfloor layout passes (min endpoint recomputes to Rs 9,069/sqft, max endpoint to Rs 7,357/sqft, quoted field says Rs 7,200), so the size or price range is mis-keyed and no reliable rate can be extracted. Also excluded from the IQR: an individual 1,200 sqft plot at Rs 96L (Rs 8,000/sqft), the top-end outlier. NOTE: land here is ~85-90% of built-up rate, far above the usual Chennai ratio where land is roughly a third of built-up \u2014 a genuine feature of this pocket, not a data error.",
+   "plot_comparables": [
+    {
+     "layout": "Individual plot 1200 sqft (owner Vetrivel M) \u2014 top outlier",
+     "developer": null,
+     "plot_size_min_sqft": 1200,
+     "plot_size_max_sqft": 1200,
+     "rate_sqft": 8000,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-gerugambakkam"
+    },
+    {
+     "layout": "VGN Meridian Heights",
+     "developer": "VGN Homes Pvt Ltd",
+     "plot_size_min_sqft": 750,
+     "plot_size_max_sqft": 1300,
+     "rate_sqft": 6500,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-gerugambakkam"
+    },
+    {
+     "layout": "Ishwaryam Avenue",
+     "developer": "Squared Earth Estates",
+     "plot_size_min_sqft": 824,
+     "plot_size_max_sqft": 1027,
+     "rate_sqft": 6399,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-gerugambakkam"
+    },
+    {
+     "layout": "The Icon",
+     "developer": "Squared Earth Estates",
+     "plot_size_min_sqft": 824,
+     "plot_size_max_sqft": 1027,
+     "rate_sqft": 6398,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-gerugambakkam"
+    },
+    {
+     "layout": "Individual plot 1163 sqft (agent Arulpandiyan)",
+     "developer": null,
+     "plot_size_min_sqft": 1163,
+     "plot_size_max_sqft": 1163,
+     "rate_sqft": 6350,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-gerugambakkam"
+    },
+    {
+     "layout": "Individual plot 1000 sqft (agent Sivasubramaniyan)",
+     "developer": null,
+     "plot_size_min_sqft": 1000,
+     "plot_size_max_sqft": 1000,
+     "rate_sqft": 5950,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-gerugambakkam"
+    },
+    {
+     "layout": "Individual plot 1476 sqft (owner Sujatha)",
+     "developer": null,
+     "plot_size_min_sqft": 1476,
+     "plot_size_max_sqft": 1476,
+     "rate_sqft": 5894,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-gerugambakkam"
+    },
+    {
+     "layout": "VGN Highland II",
+     "developer": "VGN Homes Pvt Ltd",
+     "plot_size_min_sqft": 762,
+     "plot_size_max_sqft": 1723,
+     "rate_sqft": 5381,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-gerugambakkam"
+    },
+    {
+     "layout": "Shri Madhuri Nagar",
+     "developer": "Madras City Properties",
+     "plot_size_min_sqft": 730,
+     "plot_size_max_sqft": 1000,
+     "rate_sqft": 4700,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-gerugambakkam"
+    },
+    {
+     "layout": "VTB Kuberan Garden (DROPPED \u2014 internally inconsistent listing)",
+     "developer": "Madras City Properties",
+     "plot_size_min_sqft": 720,
+     "plot_size_max_sqft": 1400,
+     "rate_sqft": null,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-gerugambakkam"
+    }
+   ],
+   "typical_plot_size_sqft": 1000,
+   "has_apartment_market": true,
+   "price_band_min": 6600,
+   "price_band_max": 7850,
+   "price_band_note": "Apartment BUILT-UP rate. IQR of 10 live projects, rates recomputed by me. Range spans budget compact stock (Karal Babylon Rs 6,000, ARA Vinesh Enclave Rs 5,800) up to Navins Sadhprabha Rs 8,586 and DAC Millennium Rs 8,436. housing.com quotes 'Rs 8.49k/sqft' for Gerugambakkam flats \u2014 that tracks the top of the market only, not a central estimate.",
+   "typical_flat_size_sqft": 1050,
+   "band_audit": "The existing band [5950, 9200] is CONTAMINATED \u2014 it is a mix of two different measurements, not an apartment band. Its floor of 5,950 is literally a LAND asking rate: it matches, to the rupee, a single 1,000 sqft plot listed at Rs 59.5L on roofandfloor. Its ceiling of 9,200 is a top-end apartment asking rate. So the band splices a land rate to a flat rate and labels the result an apartment band. The existing note is self-contradictory in the same way \u2014 it states an avg flat rate of ~8,200 and land of 6,450-7,800, neither of which produces the band [5950, 9200]. Recommend replacing with the two separated bands above: land 5,900-6,400, built-up 6,600-7,850.",
+   "rate_basis": "asking",
+   "trend": "rising",
+   "trend_note": "Fastest-appreciating pocket in the Porur-Kundrathur corridor on the strength of DLF Cybercity/L&T employment adjacency; scarce plotted supply keeps land rates abnormally close to built-up rates.",
+   "rental_yield_pct": null,
+   "segment_fit": [
+    "executive",
+    "value"
+   ],
+   "data_confidence": "reported",
+   "sources": [
+    "https://roofandfloor.com/chennai/plots-for-sale-in-gerugambakkam",
+    "https://roofandfloor.com/chennai/flats-for-sale-in-gerugambakkam",
+    "https://housing.com/in/buy/real-estate-chennai/plots-in-chennai"
+   ]
+  },
+  {
+   "name": "Urapakkam",
+   "found": true,
+   "corridor": "GST Road",
+   "lat": 12.8654,
+   "lng": 80.0698,
+   "plot_band_min": 3250,
+   "plot_band_max": 4750,
+   "plot_band_note": "IQR of 10 named layouts, rates recomputed by me. Distribution is BIMODAL and the IQR deliberately straddles the gap: a fringe cluster at Rs 2,150-2,850 (Mangals Green Paradise, KPN Marvel Township, KPN Sundharam Garden \u2014 smaller plots, set back from GST Road toward the Guduvancheri/Maraimalai Nagar side) and a main GST-corridor cluster at Rs 4,500-5,400 (KPN Sri Bhavani Amman Nagar, Premier Kurinji Nagar, Taasa Signature, Sri Bhagya NCR). There is almost nothing trading between 2,900 and 4,400, so treat the band as covering two sub-markets rather than one continuum \u2014 distance to GST Road is the variable that decides which one a plot sits in.",
+   "plot_comparables": [
+    {
+     "layout": "Premier Kurinji Nagar",
+     "developer": "Premier Housing and Properties",
+     "plot_size_min_sqft": 802,
+     "plot_size_max_sqft": 1144,
+     "rate_sqft": 5399,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-urapakkam"
+    },
+    {
+     "layout": "Sri Bhavani Amman Nagar Phase 2",
+     "developer": "KPN Promoters Pvt Ltd",
+     "plot_size_min_sqft": 852,
+     "plot_size_max_sqft": 1714,
+     "rate_sqft": 5000,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-urapakkam"
+    },
+    {
+     "layout": "Premier Pothigai Garden",
+     "developer": "Premier Housing and Properties",
+     "plot_size_min_sqft": 1000,
+     "plot_size_max_sqft": 3000,
+     "rate_sqft": 4777,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-urapakkam"
+    },
+    {
+     "layout": "Taasa Signature",
+     "developer": "Hitech Housing and Properties",
+     "plot_size_min_sqft": 911,
+     "plot_size_max_sqft": 3228,
+     "rate_sqft": 4690,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-urapakkam"
+    },
+    {
+     "layout": "Rathis New Chennai Residency",
+     "developer": "Sri Bhagya Homes",
+     "plot_size_min_sqft": 634,
+     "plot_size_max_sqft": 3076,
+     "rate_sqft": 4500,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-urapakkam"
+    },
+    {
+     "layout": "JHL Opulence",
+     "developer": "JHL Global Private Limited",
+     "plot_size_min_sqft": 620,
+     "plot_size_max_sqft": 1236,
+     "rate_sqft": 4500,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-urapakkam"
+    },
+    {
+     "layout": "Sri Bhagya NCR",
+     "developer": "Sri Bhagya Homes",
+     "plot_size_min_sqft": 634,
+     "plot_size_max_sqft": 3076,
+     "rate_sqft": 4498,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-urapakkam"
+    },
+    {
+     "layout": "KPN Sundharam Garden",
+     "developer": "KPN Promoters Pvt Ltd",
+     "plot_size_min_sqft": 800,
+     "plot_size_max_sqft": 2175,
+     "rate_sqft": 2850,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-urapakkam"
+    },
+    {
+     "layout": "KPN Marvel Township",
+     "developer": "KPN Promoters Pvt Ltd",
+     "plot_size_min_sqft": 473,
+     "plot_size_max_sqft": 1825,
+     "rate_sqft": 2797,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-urapakkam"
+    },
+    {
+     "layout": "Mangals Green Paradise",
+     "developer": "Mangals Foundations",
+     "plot_size_min_sqft": 646,
+     "plot_size_max_sqft": 646,
+     "rate_sqft": 2149,
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-urapakkam"
+    }
+   ],
+   "typical_plot_size_sqft": 850,
+   "has_apartment_market": true,
+   "price_band_min": 4300,
+   "price_band_max": 5375,
+   "price_band_note": "Apartment BUILT-UP rate. IQR of 10 live projects, rates recomputed by me. COVERAGE FLAG for the parent: our dataset tracks ZERO apartment projects in Urapakkam, but roofandfloor carries 10 live ones (Frontier Constructions, KPN, Ruby Builders, Sarvajith, MMA, Alameen and others). Urapakkam has a real, established mid-budget apartment market and our RERA registry coverage is materially under-representing it \u2014 worth a targeted registry sweep.",
+   "typical_flat_size_sqft": 1000,
+   "band_audit": "The existing band [5000, 6500] is correctly TYPED as an apartment built-up band \u2014 no land contamination, and the existing note is right that plotted layouts trade lower. But it is set roughly 20-25% too HIGH. Against 10 live projects, only two clear Rs 6,000/sqft (Sri Park View at 6,999 and Ruby Orchid at 6,118); the working market sits at 4,100-5,500 and the measured IQR is 4,300-5,375. The existing note's plot estimate of '~3000-4500' is close to my measured 3,250-4,750 and holds up well.",
+   "rate_basis": "asking",
+   "trend": "rising",
+   "trend_note": "Kilambakkam bus terminus and GST Road/suburban rail keep end-user demand steady, but a large launch pipeline between Urapakkam and Guduvancheri caps how fast rates can move \u2014 appreciation is real but end-user-led, not investor-led.",
+   "rental_yield_pct": 3,
+   "segment_fit": [
+    "value"
+   ],
+   "data_confidence": "reported",
+   "sources": [
+    "https://roofandfloor.com/chennai/plots-for-sale-in-urapakkam",
+    "https://roofandfloor.com/chennai/flats-for-sale-in-urapakkam"
+   ]
+  },
+  {
+   "name": "Paramankeni",
+   "found": true,
+   "corridor": "ECR (far south coastal, Cheyyur/Kalpakkam belt) \u2014 NOT GST Road; dataset corridor is wrong",
+   "lat": 12.34,
+   "lng": 80.11,
+   "plot_band_min": 2200,
+   "plot_band_max": 3000,
+   "plot_band_note": "WEAK BAND \u2014 READ BEFORE USE. This is NOT an IQR of in-locality comparables. I found exactly ONE genuine Paramankeni listing: a 2,400 sqft plot at Rs 60L 'near Paramankeni Bridge, ECR' = Rs 2,500/sqft recomputed. That listing is Serenity Costa, which is the same project as the two RERA records we already track (Serenity Costa Phase One / Phase Ii) \u2014 a useful cross-confirmation that the locality is real and active. A single point is not a band, so I widened it using three villages on the same far-ECR coastal strip within ~10 km: Meiyur/Arabian Hotel (Rs 2,200/sqft), Keelakurechi Main Road / Rathis Kings Palace (Rs 2,999/sqft), and Sadras Main Road / Atirstam (Rs 1,500/sqft, excluded as it sits well inland of the coastal strip). Treat 2,200-3,000 as indicative only and re-verify before publishing. Coastal plots here are large-format (2,400 sqft standard), so the ticket is ~Rs 53-72L despite the modest per-sqft rate.",
+   "plot_comparables": [
+    {
+     "layout": "Serenity Costa (near Paramankeni Bridge, ECR) \u2014 the ONLY in-locality comparable; matches our tracked RERA project",
+     "developer": "listed by owner Purushothaman; RERA records name M Suresh / Sri Thirukumaran Realtors",
+     "plot_size_min_sqft": 2400,
+     "plot_size_max_sqft": 2400,
+     "rate_sqft": 2500,
+     "source": "https://www.chennaiproperties.com/plots-for-sale-in-ecr"
+    },
+    {
+     "layout": "Plot opposite Meiyur Arabian Hotel, ECR (nearby strip, not Paramankeni)",
+     "developer": null,
+     "plot_size_min_sqft": 2400,
+     "plot_size_max_sqft": 2400,
+     "rate_sqft": 2200,
+     "source": "https://www.chennaiproperties.com/plots-for-sale-in-ecr"
+    },
+    {
+     "layout": "Rathis Kings Palace, Keelakurechi Main Road (nearby strip, not Paramankeni)",
+     "developer": "Sri Bhagya Homes",
+     "plot_size_min_sqft": 2400,
+     "plot_size_max_sqft": 2400,
+     "rate_sqft": 2999,
+     "source": "https://www.chennaiproperties.com/plots-for-sale-in-ecr"
+    },
+    {
+     "layout": "Atirstam, Sadras Main Road (EXCLUDED \u2014 inland of the coastal strip)",
+     "developer": "East Coast Avenue",
+     "plot_size_min_sqft": 569,
+     "plot_size_max_sqft": 4399,
+     "rate_sqft": 1500,
+     "source": "https://www.chennaiproperties.com/plots-for-sale-in-ecr"
+    }
+   ],
+   "typical_plot_size_sqft": 2400,
+   "has_apartment_market": false,
+   "price_band_min": null,
+   "price_band_max": null,
+   "price_band_note": "No apartment market. Both tracked projects are plotted layouts and no flat listings exist anywhere on this stretch of ECR \u2014 it is a second-home / coastal-plot market, not an apartment one. Left null rather than copying the land rate.",
+   "typical_flat_size_sqft": null,
+   "band_audit": null,
+   "rate_basis": "asking",
+   "trend": null,
+   "trend_note": "Insufficient data to call a trend from one in-locality comparable. Structurally this is a speculative second-home coastal belt whose demand is tied to ECR travel time and any Cheyyur-area industrial siting; I found no evidence either way in this sweep.",
+   "rental_yield_pct": null,
+   "segment_fit": [
+    "value"
+   ],
+   "data_confidence": "reported",
+   "sources": [
+    "https://www.chennaiproperties.com/plots-for-sale-in-ecr"
+   ]
+  },
+  {
+   "name": "Athipattu",
+   "found": false,
+   "corridor": "North Chennai (Ponneri taluk, Ennore/Minjur belt) \u2014 dataset says 'Central Chennai', which is wrong",
+   "lat": 13.235,
+   "lng": 80.315,
+   "plot_band_min": null,
+   "plot_band_max": null,
+   "plot_band_note": "NO USABLE DATA \u2014 returning found:false rather than a fabricated band. Tried and failed: roofandfloor (no locality slug, returns the generic directory), chennaiproperties (falls through to generic Chennai listings, zero Athipattu entries), realnest (same fallthrough), nobroker (HTTP 410), housing.com locality page and price-trends page (both 404). Web search budget for the session was exhausted before I started, so I could not harvest portal numbers via search snippets. FOR CONTEXT ONLY, NOT A BAND FOR ATHIPATTU: the surrounding Ponneri belt (~10 km away, same taluk) recomputes to Rs 949/sqft (Sri Vari Mahalakshmi Nagar, Maxworth), Rs 1,300 (SND RCM City), Rs 1,999 (Ungal Shree Avenue) and Rs 2,223 (Premier SP Nagar). I have deliberately NOT propagated those into a band \u2014 Athipattu is closer to the Ennore port/industrial frontage than Ponneri town and could plausibly price differently in either direction. Recommend a targeted re-run once search budget is available.",
+   "plot_comparables": [],
+   "typical_plot_size_sqft": null,
+   "has_apartment_market": null,
+   "price_band_min": null,
+   "price_band_max": null,
+   "price_band_note": "Unknown. We track 2 apartment projects here but I could not verify any live apartment pricing, so I cannot confirm whether a real apartment market exists.",
+   "typical_flat_size_sqft": null,
+   "band_audit": "No pre-existing band to audit (existing_price_band was null). Separately: the corridor field 'Central Chennai' should be corrected to North Chennai \u2014 Athipattu is in Ponneri taluk near Minjur/Ennore, roughly 25 km north of the city centre.",
+   "rate_basis": null,
+   "trend": null,
+   "trend_note": null,
+   "rental_yield_pct": null,
+   "segment_fit": [],
+   "data_confidence": null,
+   "sources": [
+    "https://www.chennaiproperties.com/plots-for-sale-in-ponneri"
+   ]
+  },
+  {
+   "name": "West Chennai",
+   "found": false,
+   "corridor": "West Chennai",
+   "lat": null,
+   "lng": null,
+   "plot_band_min": null,
+   "plot_band_max": null,
+   "plot_band_note": "NOT A LOCALITY \u2014 this is a directional zone label, not a micro-market, and no price band should ever be attached to it. It spans everything from Porur and Iyyappanthangal to Poonamallee, Sriperumbudur and Kundrathur, whose land rates differ by more than 4x. Any single band here would be meaningless.",
+   "plot_comparables": [],
+   "typical_plot_size_sqft": null,
+   "has_apartment_market": null,
+   "price_band_min": null,
+   "price_band_max": null,
+   "price_band_note": "Same reason \u2014 a zone-level apartment band would be misleading. DATA-QUALITY FLAG for the parent: the two records filed under this pseudo-locality are both CURATED apartment projects, Brigade's West Chennai JDA project (working name) and Casagrand Ventra. Because they are curated they are supposed to carry pricing and drive the persona lenses, so leaving them parked under an unpriceable zone label costs us real lens coverage. They should be reassigned to their actual micro-markets \u2014 'West Chennai' in the Brigade record is explicitly a placeholder working name pending site disclosure.",
+   "typical_flat_size_sqft": null,
+   "band_audit": "No pre-existing band to audit (existing_price_band was null), and correctly so \u2014 this entry should not have a price band at all. Recommend retiring 'West Chennai' as a locality and re-homing its two projects.",
+   "rate_basis": null,
+   "trend": null,
+   "trend_note": null,
+   "rental_yield_pct": null,
+   "segment_fit": [],
+   "data_confidence": null,
+   "sources": []
+  },
+  {
+   "name": "Ninnaijarai",
+   "found": false,
+   "corridor": null,
+   "lat": null,
+   "lng": null,
+   "plot_band_min": null,
+   "plot_band_max": null,
+   "plot_band_note": "NO USABLE DATA and, more importantly, the place name does not resolve. 'Ninnaijarai' does not correspond to any Chennai-area village or micro-market I could verify against any source, and it produces no listing pages on any portal. It holds exactly one record in our dataset \u2014 'Archana Flats' by Aura Promoters, a rera-registry (not curated) entry \u2014 which strongly suggests the string is a corrupted or mis-parsed village name carried straight out of the TNRERA registration index rather than a real locality. No plot projects at all are filed under it.",
+   "plot_comparables": [],
+   "typical_plot_size_sqft": null,
+   "has_apartment_market": null,
+   "price_band_min": null,
+   "price_band_max": null,
+   "price_band_note": "Cannot price an unresolvable locality. Returning null rather than guessing.",
+   "typical_flat_size_sqft": null,
+   "band_audit": "No pre-existing band to audit (existing_price_band was null). DATA-QUALITY FLAG for the parent: recommend re-reading the source TNRERA row for Archana Flats / Aura Promoters to recover the true village name, then merging this entry into the correct locality. Its assigned corridor 'GST Road' is unverified and rests only on the garbled name.",
+   "rate_basis": null,
+   "trend": null,
+   "trend_note": null,
+   "rental_yield_pct": null,
+   "segment_fit": [],
+   "data_confidence": null,
+   "sources": []
   }
  ]
 }
