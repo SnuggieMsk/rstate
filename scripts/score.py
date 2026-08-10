@@ -15,6 +15,7 @@ import json
 import math
 import os
 import re
+from collections import Counter
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 DATA = os.path.join(ROOT, 'docs', 'data')
@@ -69,17 +70,20 @@ DEVELOPER_ALIASES = [
     ('Unitech', ['unitech']),
 ]
 
+# Delivery-scale tiers, keyed by CANONICAL developer name (not raw substrings) so
+# they cannot disagree with canonical_developer about who a promoter is.
 TIER1 = {
-    'casagrand', 'prestige', 'brigade', 'godrej', 'tvs emerald', 'appaswamy',
-    'sobha', 'l&t realty', 'mahindra', 'puravankara', 'provident', 'dlf',
-    'tata housing', 'hiranandani',
+    'Casagrand', 'Prestige Group', 'Brigade Group', 'Godrej Properties', 'TVS Emerald',
+    'Appaswamy Real Estates', 'Sobha', 'L&T Realty', 'Mahindra Lifespaces',
+    'Puravankara / Provident', 'DLF', 'Tata Housing', 'Hiranandani',
 }
 TIER2 = {
-    'radiance', 'dra', 'urbanrise', 'alliance', 'shriram', 'jain housing',
-    'jains', 'vgn', 'g square', 'akshaya', 'dac', 'baashyaam', 'lancor',
-    'ceebros', 'navins', 'navin', 'arihant', 'olympia', 'kg ', 'spr',
-    'emerald haven',
+    'Radiance Realty', 'DRA Homes', 'Urbanrise / Alliance', 'Alliance Infra',
+    'Shriram Properties', 'Jain Housing', 'VGN Homes', 'G Square Housing',
+    'Akshaya Homes', 'DAC Developers', 'Baashyaam', 'Lancor Holdings', 'Ceebros',
+    "Navin's", 'Arihant Foundations', 'Olympia Group', 'KG Foundations', 'SPR India',
 }
+TIER_BY_NAME = {**{n: 1 for n in TIER1}, **{n: 2 for n in TIER2}}
 
 STAGE_POINTS = {
     'pre-launch': 25, 'new-launch': 21, 'under-construction': 12,
@@ -144,7 +148,13 @@ def canonical_developer(promoter):
     # wrongly attributed "MahenDRA Kumar Gupta" to DRA Homes and, worse, the
     # individual promoter "Kalpesh SOBHAgmal" to Sobha Ltd.
     for canon, keys in DEVELOPER_ALIASES:
-        if any(re.search(r'(?<![a-z])' + re.escape(k) + r'(?![a-z])', s) for k in keys):
+        # Keys are stripped before the boundary is applied. Several were written with
+        # a trailing space ("vgn ", "dlf ") back when matching was plain substring;
+        # with a regex boundary that space pushed the (?![a-z]) lookahead past it, so
+        # "vgn " could never match "VGN Homes" and VGN's projects scattered across
+        # four developer buckets.
+        if any(re.search(r'(?<![a-z])' + re.escape(k.strip()) + r'(?![a-z])', s)
+               for k in keys if k.strip()):
             return canon
     # Fall back to a cleaned-up version of the raw legal name so every project
     # still lands under some developer bucket.
@@ -160,21 +170,27 @@ def canonical_developer(promoter):
 
 
 def developer_tier(promoter):
-    s = (promoter or '').lower()
-    if any(t in s for t in TIER1):
-        return 1
-    if any(t in s for t in TIER2):
-        return 2
-    return 3
+    """Delivery-scale tier, derived from the SAME canonical name used for attribution.
+
+    This used to run its own raw substring match, which meant the fix that stopped
+    "Kalpesh Sobhagmal" being filed under Sobha never reached the tier: the project
+    was still scored as a Tier-1 national builder, gaining 7 score points and a "Low"
+    risk label it had not earned. Tiering off the canonical name keeps one source of
+    truth, so an attribution fix can never again leave the tier behind.
+    """
+    return TIER_BY_NAME.get(canonical_developer(promoter), 3)
 
 
 def price_band_for(p, loc):
     """Pick the locality band that is comparable to this project's own rate.
 
     A plotted layout quotes a rate per sqft of LAND; an apartment quotes a rate per
-    sqft of BUILT-UP area. In Chennai the land rate is routinely a third of the
-    built-up rate in the same locality, so scoring a plot against the apartment band
-    reads every layout as a huge discount. Compare like with like, and where the
+    sqft of BUILT-UP area. Across the outer belt the land rate runs well below the
+    built-up rate, so scoring a plot against the apartment band reads every layout as
+    a huge discount. The relationship inverts in prime Chennai — RA Puram land trades
+    at 34,000/sqft against apartments at 22,500, because scarce land carries
+    redevelopment FSI value that a single flat does not. That inversion is real; do
+    not "correct" such a band. Either way, compare like with like, and where the
     matching band has not been researched, decline to score rather than guess.
     """
     if not loc:
@@ -229,11 +245,16 @@ def distressed_persona_fit(d):
     if d.get('record_type') == 'auction':
         reserve = d.get('reserve_price_inr')
         ticket_lakh = reserve / 1e5 if reserve else None
+        # Use the SAME thresholds as projects. These were 100L/30L, so switching to
+        # "Boardroom · Rs 3Cr+" and moving from Projects to Deals silently redefined
+        # the filter: 90 of 138 boardroom auctions sat below Rs 3Cr, and every
+        # executive auction sat below the Rs 90L floor that label means elsewhere.
+        exec_lo, exec_hi = EXEC_TICKET_RANGE
         if ticket_lakh is None:
             fits.add('value')
-        elif ticket_lakh >= 100:
+        elif ticket_lakh >= BOARDROOM_TICKET_LAKH:
             fits.add('boardroom')
-        elif ticket_lakh >= 30:
+        elif ticket_lakh >= exec_lo:
             fits.add('executive')
         else:
             fits.add('value')
@@ -263,6 +284,11 @@ AUCTION_BAND = {
 # discount itself divides by; bounding against the band ceiling instead let a wide band
 # through at -248%. These limits cap any published discount to about -120%..+65%.
 RATE_SANITY = (0.35, 2.2)
+# A ratio test cannot catch a unit error that happens to land inside the window, so
+# areas are also checked against what the asset type can physically be. One notice
+# quoted 384 sqft of LAND — smaller than any legal Chennai plot, and certainly 384
+# square yards — and its implied rate passed the ratio test at 2.09x.
+MIN_AREA_SQFT = {'plot': 600, 'land': 600, 'flat': 250, 'house': 400}
 
 
 def auction_discount(d, loc):
@@ -278,6 +304,12 @@ def auction_discount(d, loc):
     if not (loc and area and reserve):
         return None, None
     rate = reserve / area
+
+    floor = MIN_AREA_SQFT.get(d.get('asset_type'))
+    if floor and area < floor:
+        return None, (f'Notice states {area:,} sqft, below the {floor:,} sqft floor for a '
+                      f'{d["asset_type"]} — almost certainly quoted in square yards, cents '
+                      f'or grounds. No comparison is drawn until the area is confirmed.')
 
     if d.get('asset_type') == 'house':
         return None, (f'Reserve ₹{reserve/1e5:.1f}L over {area:,} sqft works out to '
@@ -330,9 +362,21 @@ def segment_fit(p, loc, tier, ratio):
     # placed in a client bracket. Which buyer a project suits is a judgement the
     # estimate supports; how cheap it is for its locality is not, which is why
     # relative_pricing above reads the researched price only.
-    tmin = p.get('ticket_min_lakh') or p.get('est_ticket_min_lakh')
-    tmax = p.get('ticket_max_lakh') or p.get('est_ticket_max_lakh')
-    psq = p.get('price_sqft_min') or p.get('est_price_sqft_min')
+    # Take the ticket range from ONE source. Field-by-field `or` fallbacks would pair a
+    # researched floor with an estimated ceiling — on kcee-sabari-0305 that produced an
+    # inverted 215L-168L range that still passed the Executive test.
+    if p.get('ticket_min_lakh') is not None or p.get('ticket_max_lakh') is not None:
+        tmin, tmax = p.get('ticket_min_lakh'), p.get('ticket_max_lakh')
+    else:
+        tmin, tmax = p.get('est_ticket_min_lakh'), p.get('est_ticket_max_lakh')
+    # A lone figure is a point ticket, not half a range; otherwise a project quoting
+    # only "from 94 lakh" satisfied neither branch of the Executive test below.
+    if tmin is None:
+        tmin = tmax
+    if tmax is None:
+        tmax = tmin
+    estimated_price = p.get('price_sqft_min') is None
+    psq = p.get('price_sqft_min') if not estimated_price else p.get('est_price_sqft_min')
     dom = (p.get('dominant_config') or '').lower()
     cfg = (p.get('config_mix') or '').lower()
     units = p.get('total_units')
@@ -340,8 +384,13 @@ def segment_fit(p, loc, tier, ratio):
     lsegs = loc_segments(loc)
     dev = developer_tier(p.get('promoter'))
 
+    # A per-sqft threshold only means anything against the matching product type:
+    # 12,000/sqft of BUILT-UP area is luxury, 12,000/sqft of LAND is ordinary in
+    # prime Chennai. Ticket size carries the judgement for plots instead.
+    built_up_psq = None if p.get('type') == 'plotted' else psq
+
     b = 0
-    if (tmax or 0) >= BOARDROOM_TICKET_LAKH or (psq or 0) >= 12000:
+    if (tmax or 0) >= BOARDROOM_TICKET_LAKH or (built_up_psq or 0) >= 12000:
         b += 40
     if dom in ('3bhk', '4bhk+', 'villa') or re.search(r'4\s*bhk|villa|duplex|penthouse', cfg):
         b += 20
@@ -355,7 +404,7 @@ def segment_fit(p, loc, tier, ratio):
     e = 0
     lo, hi = EXEC_TICKET_RANGE
     if (tmin is not None and tmax is not None and tmin <= hi and tmax >= lo) or \
-       (tmin is None and psq is not None and 6000 <= psq < 12000):
+       (tmin is None and built_up_psq is not None and 6000 <= built_up_psq < 12000):
         e += 30
     if dom in ('2bhk', '3bhk') or re.search(r'[23]\s*bhk', cfg) or p.get('type') == 'apartment':
         e += 20
@@ -375,7 +424,11 @@ def segment_fit(p, loc, tier, ratio):
         v += 30
     if 'value' in lsegs:
         v += 30
-    if psq is not None and loc and loc.get('price_band_min') and psq < loc['price_band_min']:
+    # Compare like with like: a plotted layout's land rate against the land band.
+    # Hard-coding price_band_min here fired this rule on 362 plotted layouts whose
+    # land rate is naturally far below any built-up floor.
+    band = price_band_for(p, loc)
+    if psq is not None and band and psq < band[0]:
         v += 20
 
     return {'boardroom': min(b, 100), 'executive': min(e, 100), 'value': min(v, 100)}
@@ -403,11 +456,30 @@ def main():
         elif g.get('lat') is not None:
             infra_points.append((g['lat'], g['lng']))
 
+    # Registry promoter strings arrive in inconsistent case, and the fallback in
+    # canonical_developer preserves mixed case verbatim — so "AAnirudh Flat Promoters"
+    # and "AANIRUDH FLAT PROMOTERS" became two developers, each with half the
+    # portfolio, split stats and its own card. Collapse case-variants to one
+    # representative first: an alias name if one matches, else the most common
+    # spelling, with ties broken alphabetically so the output stays deterministic.
+    alias_names = {c for c, _ in DEVELOPER_ALIASES}
+    variants = {}
+    for p in projects['projects']:
+        name = canonical_developer(p.get('promoter'))
+        if name:
+            variants.setdefault(name.casefold(), Counter())[name] += 1
+    canon_case = {}
+    for key, seen in variants.items():
+        preferred = sorted(n for n in seen if n in alias_names)
+        canon_case[key] = preferred[0] if preferred else \
+            sorted(seen, key=lambda n: (-seen[n], n))[0]
+
     for p in projects['projects']:
         loc = loc_by_name.get((p.get('locality') or '').lower())
         tier = developer_tier(p.get('promoter'))
         ratio = pricing_ratio(p, loc)
-        p['developer'] = canonical_developer(p.get('promoter'))
+        name = canonical_developer(p.get('promoter'))
+        p['developer'] = canon_case.get(name.casefold()) if name else None
 
         bd = {
             'entry_stage': STAGE_POINTS.get(p.get('stage'), 10),

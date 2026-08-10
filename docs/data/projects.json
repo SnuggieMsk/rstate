@@ -57,9 +57,9 @@
    "type": "apartment",
    "locality": "Kottivakkam",
    "corridor": "ECR",
-   "lat": 12.9698,
-   "lng": 80.2593,
-   "geo_precision": "locality",
+   "lat": 12.970167,
+   "lng": 80.260028,
+   "geo_precision": "exact",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -129,7 +129,7 @@
    ],
    "notes": "TNRERA registry record (Chengalpattu district, Thiruporur taluk) · Village: Egattur · Pincode 603103 · Pricing not published in the registry — verify with the promoter.",
    "last_checked": "2026-08-05",
-   "developer": "Dra Aadithya South City Projects",
+   "developer": "DRA Homes",
    "score_breakdown": {
     "entry_stage": 21,
     "infrastructure": 16,
@@ -197,7 +197,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -252,7 +252,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -621,7 +621,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -778,7 +778,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -1016,9 +1016,9 @@
    "type": "apartment",
    "locality": "Madambakkam",
    "corridor": "South Chennai",
-   "lat": null,
-   "lng": null,
-   "geo_precision": null,
+   "lat": 12.976,
+   "lng": 80.22,
+   "geo_precision": "corridor",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -1036,13 +1036,13 @@
    "developer": "Asset Tree Homes",
    "score_breakdown": {
     "entry_stage": 12,
-    "infrastructure": 8,
+    "infrastructure": 20,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 43,
+   "upside_score": 55,
    "segment_fit": {
     "boardroom": 0,
     "executive": 65,
@@ -1052,7 +1052,7 @@
    "tags": [
     "Executive"
    ],
-   "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
+   "score_rationale": "Scores on close to upcoming metro/infrastructure. Caveats: limited developer track record.",
    "est_price_sqft_min": 7150,
    "est_price_sqft_max": 10900,
    "est_ticket_min_lakh": 78.7,
@@ -1154,7 +1154,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -1232,9 +1232,9 @@
    "type": "apartment",
    "locality": "Virugambakkam",
    "corridor": "West Chennai",
-   "lat": null,
-   "lng": null,
-   "geo_precision": null,
+   "lat": 13.055,
+   "lng": 80.192,
+   "geo_precision": "locality",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -1249,16 +1249,16 @@
    ],
    "notes": "TNRERA registry record (Chennai district) · Village: Koyambedu · Pincode 600092 · Pricing not published in the registry — verify with the promoter. Locality corrected from Koyambedu to Virugambakkam: TNRERA records the revenue village, which differs from the marketed micro-market here.",
    "last_checked": "2026-08-05",
-   "developer": "Aanirudh Flat Promoters",
+   "developer": "AAnirudh Flat Promoters",
    "score_breakdown": {
     "entry_stage": 12,
-    "infrastructure": 8,
+    "infrastructure": 16,
     "locality_momentum": 20,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 6
    },
-   "upside_score": 56,
+   "upside_score": 64,
    "segment_fit": {
     "boardroom": 20,
     "executive": 85,
@@ -1268,7 +1268,7 @@
    "tags": [
     "Executive"
    ],
-   "score_rationale": "Scores on rising micro-market. Caveats: limited developer track record.",
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
    "est_price_sqft_min": 9000,
    "est_price_sqft_max": 15400,
    "est_ticket_min_lakh": 94.5,
@@ -1357,7 +1357,7 @@
    ],
    "notes": "TNRERA registry record (Chengalpattu district, Alandhur taluk) · Village: Nanganallur · Pincode 600061 · Pricing not published in the registry — verify with the promoter.",
    "last_checked": "2026-08-05",
-   "developer": "Aanirudh Flat Promoters",
+   "developer": "AAnirudh Flat Promoters",
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 16,
@@ -1503,9 +1503,9 @@
    "type": "apartment",
    "locality": "T. Nagar",
    "corridor": "Central Chennai",
-   "lat": null,
-   "lng": null,
-   "geo_precision": null,
+   "lat": 13.0418,
+   "lng": 80.2341,
+   "geo_precision": "locality",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -1523,13 +1523,13 @@
    "developer": "Anirudh Foundation",
    "score_breakdown": {
     "entry_stage": 12,
-    "infrastructure": 8,
+    "infrastructure": 20,
     "locality_momentum": 15,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 8
    },
-   "upside_score": 53,
+   "upside_score": 65,
    "segment_fit": {
     "boardroom": 60,
     "executive": 85,
@@ -1541,7 +1541,7 @@
     "Executive",
     "Steady/Rental"
    ],
-   "score_rationale": "Scores on rising micro-market. Caveats: limited developer track record.",
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
    "est_price_sqft_min": 14500,
    "est_price_sqft_max": 24000,
    "est_ticket_min_lakh": 152.2,
@@ -1801,7 +1801,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -1878,9 +1878,9 @@
    "type": "villa",
    "locality": "Panaiyur",
    "corridor": "ECR",
-   "lat": null,
-   "lng": null,
-   "geo_precision": null,
+   "lat": 12.892833,
+   "lng": 80.243111,
+   "geo_precision": "exact",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -1898,13 +1898,13 @@
    "developer": "Adityaram Housing",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 8,
+    "infrastructure": 20,
     "locality_momentum": 15,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 4
    },
-   "upside_score": 58,
+   "upside_score": 70,
    "segment_fit": {
     "boardroom": 20,
     "executive": 65,
@@ -1915,7 +1915,7 @@
     "Early Entrant",
     "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market. Caveats: limited developer track record.",
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export",
    "est_price_sqft_min": 9500,
    "est_price_sqft_max": 14400,
@@ -2018,7 +2018,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -2221,7 +2221,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -2275,7 +2275,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -2329,7 +2329,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -2484,7 +2484,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -2539,7 +2539,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -2586,21 +2586,21 @@
     "infrastructure": 7,
     "locality_momentum": 15,
     "relative_pricing": 7,
-    "developer_track_record": 7,
+    "developer_track_record": 3,
     "rental_yield": 10
    },
-   "upside_score": 67,
+   "upside_score": 63,
    "segment_fit": {
     "boardroom": 0,
-    "executive": 50,
-    "value": 50
+    "executive": 35,
+    "value": 30
    },
-   "risk": "Low",
+   "risk": "Medium",
    "tags": [
     "Early Entrant",
     "Plotted/Land"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market.",
+   "score_rationale": "Scores on early entry stage, rising micro-market. Caveats: limited developer track record.",
    "est_price_sqft_min": 2800,
    "est_price_sqft_max": 5500,
    "est_ticket_min_lakh": 33.6,
@@ -2703,7 +2703,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -2835,9 +2835,9 @@
    "type": "apartment",
    "locality": "Abhiramapuram",
    "corridor": "Central Chennai",
-   "lat": null,
-   "lng": null,
-   "geo_precision": null,
+   "lat": 13.028333,
+   "lng": 80.241944,
+   "geo_precision": "exact",
    "total_units": 10,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -2855,13 +2855,13 @@
    "developer": "Chitale Infra",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 8,
+    "infrastructure": 16,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 52,
+   "upside_score": 60,
    "segment_fit": {
     "boardroom": 10,
     "executive": 65,
@@ -2872,7 +2872,7 @@
     "Early Entrant",
     "Executive"
    ],
-   "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export",
    "est_price_sqft_min": 11500,
    "est_price_sqft_max": 17500,
@@ -2946,9 +2946,9 @@
    "type": "apartment",
    "locality": "T. Nagar",
    "corridor": "Central Chennai",
-   "lat": null,
-   "lng": null,
-   "geo_precision": null,
+   "lat": 13.0418,
+   "lng": 80.2341,
+   "geo_precision": "locality",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -2966,13 +2966,13 @@
    "developer": "Chitale Infra",
    "score_breakdown": {
     "entry_stage": 12,
-    "infrastructure": 8,
+    "infrastructure": 20,
     "locality_momentum": 15,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 8
    },
-   "upside_score": 53,
+   "upside_score": 65,
    "segment_fit": {
     "boardroom": 60,
     "executive": 85,
@@ -2984,7 +2984,7 @@
     "Executive",
     "Steady/Rental"
    ],
-   "score_rationale": "Scores on rising micro-market. Caveats: limited developer track record.",
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
    "est_price_sqft_min": 14500,
    "est_price_sqft_max": 24000,
    "est_ticket_min_lakh": 152.2,
@@ -3085,7 +3085,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -3140,7 +3140,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -3194,7 +3194,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -3249,7 +3249,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -3456,7 +3456,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -3511,7 +3511,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -3558,21 +3558,21 @@
     "infrastructure": 3,
     "locality_momentum": 15,
     "relative_pricing": 7,
-    "developer_track_record": 7,
+    "developer_track_record": 3,
     "rental_yield": 10
    },
-   "upside_score": 63,
+   "upside_score": 59,
    "segment_fit": {
     "boardroom": 0,
-    "executive": 50,
-    "value": 50
+    "executive": 35,
+    "value": 30
    },
-   "risk": "Low",
+   "risk": "Medium",
    "tags": [
     "Early Entrant",
     "Plotted/Land"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market.",
+   "score_rationale": "Scores on early entry stage, rising micro-market. Caveats: limited developer track record.",
    "est_price_sqft_min": 4400,
    "est_price_sqft_max": 5500,
    "est_ticket_min_lakh": 44.0,
@@ -3778,7 +3778,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -3888,7 +3888,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -4151,21 +4151,21 @@
     "infrastructure": 20,
     "locality_momentum": 15,
     "relative_pricing": 7,
-    "developer_track_record": 7,
+    "developer_track_record": 3,
     "rental_yield": 6
    },
-   "upside_score": 76,
+   "upside_score": 72,
    "segment_fit": {
     "boardroom": 20,
-    "executive": 80,
+    "executive": 65,
     "value": 0
    },
-   "risk": "Low",
+   "risk": "Medium",
    "tags": [
     "Early Entrant",
     "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market.",
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export",
    "est_price_sqft_min": 8000,
    "est_price_sqft_max": 14000,
@@ -4323,7 +4323,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -4432,7 +4432,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -4583,7 +4583,7 @@
    "segment_fit": {
     "boardroom": 20,
     "executive": 65,
-    "value": 20
+    "value": 0
    },
    "risk": "Medium",
    "tags": [
@@ -5239,7 +5239,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -5481,9 +5481,9 @@
    "type": "apartment",
    "locality": "Moggapair",
    "corridor": "Central Chennai",
-   "lat": 13.07,
-   "lng": 80.24,
-   "geo_precision": "district",
+   "lat": 13.084333,
+   "lng": 80.174944,
+   "geo_precision": "exact",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -5501,13 +5501,13 @@
    "developer": "Nexa Infra Projects",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 16,
+    "infrastructure": 12,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 60,
+   "upside_score": 56,
    "segment_fit": {
     "boardroom": 0,
     "executive": 65,
@@ -5518,7 +5518,7 @@
     "Early Entrant",
     "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure. Caveats: limited developer track record.",
+   "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export",
    "est_price_sqft_min": 11500,
    "est_price_sqft_max": 17500,
@@ -5608,7 +5608,7 @@
    ],
    "notes": "TNRERA registry record (Chennai district, Alandur taluk) · Village: Nandambakkam · Pincode 600069 · Pricing not published in the registry — verify with the promoter. Grade-A office park (~1.6 lakh sqft leasable) — commercial, not residential.",
    "last_checked": "2026-08-05",
-   "developer": "Asv Constructions",
+   "developer": "ASV Constructions",
    "score_breakdown": {
     "entry_stage": 21,
     "infrastructure": 16,
@@ -5730,7 +5730,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -5771,7 +5771,7 @@
    ],
    "notes": "TNRERA plotted-layout registration (Chennai district) · Pincode 602025 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying.",
    "last_checked": "2026-08-05",
-   "developer": "Jains Vip Developers",
+   "developer": "Jain Housing",
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 16,
@@ -5848,9 +5848,9 @@
    "type": "villa",
    "locality": "Thiruporur",
    "corridor": "GST Road",
-   "lat": 12.7256,
-   "lng": 80.1911,
-   "geo_precision": "locality",
+   "lat": 12.807028,
+   "lng": 80.210694,
+   "geo_precision": "exact",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -5868,13 +5868,13 @@
    "developer": "Sylvanus Builders Developers",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 20,
+    "infrastructure": 16,
     "locality_momentum": 15,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 71,
+   "upside_score": 67,
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
@@ -6310,7 +6310,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -6364,7 +6364,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -6529,7 +6529,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -6584,7 +6584,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -6638,7 +6638,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -6723,9 +6723,9 @@
    "type": "government-housing",
    "locality": "T. Nagar",
    "corridor": "Central Chennai",
-   "lat": null,
-   "lng": null,
-   "geo_precision": null,
+   "lat": 13.0418,
+   "lng": 80.2341,
+   "geo_precision": "locality",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -6743,13 +6743,13 @@
    "developer": "Tnuhdb",
    "score_breakdown": {
     "entry_stage": 12,
-    "infrastructure": 8,
+    "infrastructure": 20,
     "locality_momentum": 15,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 8
    },
-   "upside_score": 53,
+   "upside_score": 65,
    "segment_fit": {
     "boardroom": 0,
     "executive": 0,
@@ -6759,7 +6759,7 @@
    "tags": [
     "Steady/Rental"
    ],
-   "score_rationale": "Scores on rising micro-market. Caveats: limited developer track record.",
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
    "not_for_sale": true
   },
   {
@@ -6910,7 +6910,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -7066,7 +7066,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -7499,7 +7499,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -7632,9 +7632,9 @@
    "type": "apartment",
    "locality": "Anna Nagar",
    "corridor": "Central Chennai",
-   "lat": null,
-   "lng": null,
-   "geo_precision": null,
+   "lat": 13.085,
+   "lng": 80.21,
+   "geo_precision": "locality",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -7652,13 +7652,13 @@
    "developer": "Pushkar Properties",
    "score_breakdown": {
     "entry_stage": 12,
-    "infrastructure": 8,
+    "infrastructure": 16,
     "locality_momentum": 15,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 6
    },
-   "upside_score": 51,
+   "upside_score": 59,
    "segment_fit": {
     "boardroom": 20,
     "executive": 65,
@@ -7668,7 +7668,7 @@
    "tags": [
     "Executive"
    ],
-   "score_rationale": "Scores on rising micro-market. Caveats: limited developer track record.",
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
    "est_price_sqft_min": 10000,
    "est_price_sqft_max": 15000,
    "est_ticket_min_lakh": 105.0,
@@ -7738,9 +7738,9 @@
    "type": "apartment",
    "locality": "Porur",
    "corridor": "West Chennai",
-   "lat": 13.038,
-   "lng": 80.156,
-   "geo_precision": "locality",
+   "lat": 12.807194,
+   "lng": 80.215944,
+   "geo_precision": "exact",
    "total_units": 170,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -7758,13 +7758,13 @@
    "developer": "Pacifica Builders",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 20,
+    "infrastructure": 16,
     "locality_momentum": 9,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 10
    },
-   "upside_score": 70,
+   "upside_score": 66,
    "segment_fit": {
     "boardroom": 0,
     "executive": 85,
@@ -8051,7 +8051,9 @@
    },
    "upside_score": 58,
    "risk": "Low",
-   "tags": [],
+   "tags": [
+    "Boardroom"
+   ],
    "score_rationale": "Scores on close to upcoming metro/infrastructure, strong developer record.",
    "config_mix": "3/4/5 BHK ultra-luxury",
    "dominant_config": "4BHK+",
@@ -8060,7 +8062,7 @@
    "ticket_min_lakh": 386,
    "density_note": "boutique luxury landmark — ~200 units, 35 floors, ~₹28,000/sqft",
    "segment_fit": {
-    "boardroom": 30,
+    "boardroom": 70,
     "executive": 30,
     "value": 0
    },
@@ -8386,20 +8388,21 @@
     "infrastructure": 16,
     "locality_momentum": 15,
     "relative_pricing": 7,
-    "developer_track_record": 7,
+    "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 62,
+   "upside_score": 58,
    "segment_fit": {
     "boardroom": 0,
-    "executive": 30,
+    "executive": 15,
     "value": 30
    },
-   "risk": "Medium",
+   "risk": "High",
    "tags": [
-    "Plotted/Land"
+    "Plotted/Land",
+    "Watchlist/Risky"
    ],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market.",
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
    "est_price_sqft_min": 1550,
    "est_price_sqft_max": 2300,
    "est_ticket_min_lakh": 15.5,
@@ -8416,9 +8419,9 @@
    "type": "apartment",
    "locality": "Semmancheri",
    "corridor": "OMR",
-   "lat": 12.8734,
-   "lng": 80.2273,
-   "geo_precision": "locality",
+   "lat": 12.8615,
+   "lng": 80.230611,
+   "geo_precision": "exact",
    "total_units": 140,
    "price_sqft_min": 8663,
    "price_sqft_max": 9200,
@@ -8440,13 +8443,13 @@
    "developer": "DAC Developers",
    "score_breakdown": {
     "entry_stage": 12,
-    "infrastructure": 20,
+    "infrastructure": 16,
     "locality_momentum": 15,
     "relative_pricing": 8,
     "developer_track_record": 7,
     "rental_yield": 10
    },
-   "upside_score": 72,
+   "upside_score": 68,
    "segment_fit": {
     "boardroom": 10,
     "executive": 100,
@@ -9415,7 +9418,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -9849,7 +9852,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -9903,7 +9906,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -9958,7 +9961,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -10386,7 +10389,7 @@
    ],
    "notes": "TNRERA plotted-layout registration (Chennai district) · Pincode 600014 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying.",
    "last_checked": "2026-08-05",
-   "developer": "Dra Aadithya South City Projects",
+   "developer": "DRA Homes",
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 7,
@@ -10399,7 +10402,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 30,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -10439,7 +10442,7 @@
    ],
    "notes": "TNRERA plotted-layout registration (Chennai district) · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying.",
    "last_checked": "2026-08-05",
-   "developer": "Dra Aadithya South City Projects",
+   "developer": "DRA Homes",
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 16,
@@ -10866,7 +10869,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -10920,7 +10923,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -10973,7 +10976,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -11027,7 +11030,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -11080,7 +11083,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -11135,7 +11138,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -11188,7 +11191,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -11242,7 +11245,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -11296,7 +11299,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -11350,7 +11353,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -11603,7 +11606,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -11657,7 +11660,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -11823,7 +11826,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -11877,7 +11880,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -11931,7 +11934,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -11985,7 +11988,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 65,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -12040,7 +12043,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 65,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -12203,7 +12206,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -12257,7 +12260,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -12313,7 +12316,7 @@
    "segment_fit": {
     "boardroom": 20,
     "executive": 35,
-    "value": 100
+    "value": 80
    },
    "risk": "Low",
    "tags": [
@@ -12581,7 +12584,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -12731,7 +12734,7 @@
    ],
    "notes": "TNRERA registry record (Chengalpattu district) · Village: Thaiyur - A · Pincode 603103 · Pricing not published in the registry — verify with the promoter.",
    "last_checked": "2026-08-05",
-   "developer": "FELIXA Builder",
+   "developer": "Felixa Builder",
    "score_breakdown": {
     "entry_stage": 21,
     "infrastructure": 12,
@@ -12853,7 +12856,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -12958,7 +12961,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -13114,7 +13117,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -13222,15 +13225,14 @@
    "risk": "Medium",
    "tags": [
     "Early Entrant",
-    "Executive",
     "Value",
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage, rising micro-market, priced below the locality band. Caveats: RERA number not yet found.",
    "segment_fit": {
     "boardroom": 0,
-    "executive": 80,
-    "value": 80
+    "executive": 50,
+    "value": 100
    },
    "developer": "G Square Housing",
    "source": "curated"
@@ -13276,15 +13278,14 @@
    "tags": [
     "Early Entrant",
     "High Upside",
-    "Executive",
     "Value",
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, priced below the locality band.",
    "segment_fit": {
     "boardroom": 0,
-    "executive": 80,
-    "value": 80
+    "executive": 50,
+    "value": 60
    },
    "developer": "G Square Housing",
    "source": "curated"
@@ -13539,7 +13540,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -13975,7 +13976,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -14030,7 +14031,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -14138,7 +14139,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -14314,7 +14315,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -14368,7 +14369,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -14476,7 +14477,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -14530,7 +14531,7 @@
    "segment_fit": {
     "boardroom": 20,
     "executive": 65,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -14747,7 +14748,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -14794,21 +14795,21 @@
     "infrastructure": 3,
     "locality_momentum": 8,
     "relative_pricing": 7,
-    "developer_track_record": 7,
+    "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 51,
+   "upside_score": 47,
    "segment_fit": {
     "boardroom": 0,
-    "executive": 30,
+    "executive": 15,
     "value": 0
    },
-   "risk": "Low",
+   "risk": "Medium",
    "tags": [
     "Early Entrant",
     "Plotted/Land"
    ],
-   "score_rationale": "Scores on early entry stage.",
+   "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
    "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
    "est_ticket_min_lakh": 16.8,
@@ -14909,7 +14910,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -14963,7 +14964,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -15018,7 +15019,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -15180,7 +15181,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -15336,7 +15337,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -15390,7 +15391,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -15710,7 +15711,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -15875,7 +15876,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -15929,7 +15930,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -15976,20 +15977,20 @@
     "infrastructure": 12,
     "locality_momentum": 20,
     "relative_pricing": 7,
-    "developer_track_record": 10,
+    "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 66,
+   "upside_score": 59,
    "segment_fit": {
-    "boardroom": 10,
-    "executive": 50,
-    "value": 50
+    "boardroom": 0,
+    "executive": 35,
+    "value": 30
    },
-   "risk": "Low",
+   "risk": "Medium",
    "tags": [
     "Plotted/Land"
    ],
-   "score_rationale": "Scores on rising micro-market, strong developer record.",
+   "score_rationale": "Scores on rising micro-market. Caveats: limited developer track record.",
    "est_price_sqft_min": 3500,
    "est_price_sqft_max": 5500,
    "est_ticket_min_lakh": 42.0,
@@ -16201,7 +16202,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -16414,7 +16415,7 @@
    ],
    "notes": "TNRERA registry record (Chennai district, Egmore taluk) · Village: Pulliyur · Pincode 600024 · Pricing not published in the registry — verify with the promoter.",
    "last_checked": "2026-08-05",
-   "developer": "HRPL Homes Infrastructures",
+   "developer": "Hrpl Homes Infrastructures",
    "score_breakdown": {
     "entry_stage": 21,
     "infrastructure": 20,
@@ -16537,7 +16538,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -16695,7 +16696,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -16750,7 +16751,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -16805,7 +16806,7 @@
    "segment_fit": {
     "boardroom": 20,
     "executive": 65,
-    "value": 20
+    "value": 0
    },
    "risk": "Medium",
    "tags": [
@@ -16960,7 +16961,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -17226,21 +17227,20 @@
     "infrastructure": 20,
     "locality_momentum": 15,
     "relative_pricing": 7,
-    "developer_track_record": 7,
+    "developer_track_record": 3,
     "rental_yield": 4
    },
-   "upside_score": 74,
+   "upside_score": 70,
    "segment_fit": {
     "boardroom": 10,
-    "executive": 70,
+    "executive": 55,
     "value": 30
    },
-   "risk": "Low",
+   "risk": "Medium",
    "tags": [
-    "Early Entrant",
-    "Executive"
+    "Early Entrant"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market.",
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export",
    "est_price_sqft_min": 6500,
    "est_price_sqft_max": 7500,
@@ -17342,7 +17342,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -17451,7 +17451,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -17883,7 +17883,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -17908,9 +17908,9 @@
    "type": "apartment",
    "locality": "Keelkattalai",
    "corridor": "South Chennai",
-   "lat": 12.945,
-   "lng": 80.1912,
-   "geo_precision": "locality",
+   "lat": 12.964778,
+   "lng": 80.188667,
+   "geo_precision": "exact",
    "total_units": 15,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -17994,7 +17994,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -18206,7 +18206,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -18340,9 +18340,9 @@
    "type": "apartment",
    "locality": "Chennai",
    "corridor": "GST Road",
-   "lat": 12.682,
-   "lng": 79.986,
-   "geo_precision": "district",
+   "lat": 12.871389,
+   "lng": 80.191639,
+   "geo_precision": "exact",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -18360,13 +18360,13 @@
    "developer": "Jones Foundations",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 7,
+    "infrastructure": 12,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 51,
+   "upside_score": 56,
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
@@ -18689,7 +18689,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -18791,7 +18791,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -19177,7 +19177,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -19231,7 +19231,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -19511,7 +19511,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -19626,7 +19626,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -19787,7 +19787,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -19866,9 +19866,9 @@
    "type": "apartment",
    "locality": "KK Nagar",
    "corridor": "Central Chennai",
-   "lat": null,
-   "lng": null,
-   "geo_precision": null,
+   "lat": 13.0407,
+   "lng": 80.199,
+   "geo_precision": "locality",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -19886,13 +19886,13 @@
    "developer": "Kcee Properties",
    "score_breakdown": {
     "entry_stage": 12,
-    "infrastructure": 8,
+    "infrastructure": 16,
     "locality_momentum": 9,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 4
    },
-   "upside_score": 43,
+   "upside_score": 51,
    "segment_fit": {
     "boardroom": 20,
     "executive": 85,
@@ -19902,7 +19902,7 @@
    "tags": [
     "Executive"
    ],
-   "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
+   "score_rationale": "Scores on close to upcoming metro/infrastructure. Caveats: limited developer track record.",
    "est_price_sqft_min": 11000,
    "est_price_sqft_max": 16000,
    "est_ticket_min_lakh": 115.5,
@@ -19974,9 +19974,9 @@
    "type": "apartment",
    "locality": "KK Nagar",
    "corridor": "Central Chennai",
-   "lat": null,
-   "lng": null,
-   "geo_precision": null,
+   "lat": 13.0407,
+   "lng": 80.199,
+   "geo_precision": "locality",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -19994,13 +19994,13 @@
    "developer": "Kcee Properties",
    "score_breakdown": {
     "entry_stage": 12,
-    "infrastructure": 8,
+    "infrastructure": 16,
     "locality_momentum": 9,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 4
    },
-   "upside_score": 43,
+   "upside_score": 51,
    "segment_fit": {
     "boardroom": 20,
     "executive": 85,
@@ -20010,7 +20010,7 @@
    "tags": [
     "Executive"
    ],
-   "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
+   "score_rationale": "Scores on close to upcoming metro/infrastructure. Caveats: limited developer track record.",
    "est_price_sqft_min": 11000,
    "est_price_sqft_max": 16000,
    "est_ticket_min_lakh": 115.5,
@@ -20027,9 +20027,9 @@
    "type": "apartment",
    "locality": "T. Nagar",
    "corridor": "Central Chennai",
-   "lat": null,
-   "lng": null,
-   "geo_precision": null,
+   "lat": 13.0418,
+   "lng": 80.2341,
+   "geo_precision": "locality",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -20047,13 +20047,13 @@
    "developer": "Kcee Properties",
    "score_breakdown": {
     "entry_stage": 12,
-    "infrastructure": 8,
+    "infrastructure": 20,
     "locality_momentum": 15,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 8
    },
-   "upside_score": 53,
+   "upside_score": 65,
    "segment_fit": {
     "boardroom": 60,
     "executive": 85,
@@ -20065,7 +20065,7 @@
     "Executive",
     "Steady/Rental"
    ],
-   "score_rationale": "Scores on rising micro-market. Caveats: limited developer track record.",
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
    "est_price_sqft_min": 14500,
    "est_price_sqft_max": 24000,
    "est_ticket_min_lakh": 152.2,
@@ -20263,21 +20263,21 @@
     "infrastructure": 20,
     "locality_momentum": 15,
     "relative_pricing": 7,
-    "developer_track_record": 7,
+    "developer_track_record": 3,
     "rental_yield": 6
    },
-   "upside_score": 67,
+   "upside_score": 63,
    "segment_fit": {
     "boardroom": 60,
-    "executive": 100,
+    "executive": 85,
     "value": 0
    },
-   "risk": "Low",
+   "risk": "Medium",
    "tags": [
     "Boardroom",
     "Executive"
    ],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market.",
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
    "est_price_sqft_min": 12000,
    "est_price_sqft_max": 23300,
    "est_ticket_min_lakh": 126.0,
@@ -20449,7 +20449,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 50,
-    "value": 50
+    "value": 30
    },
    "risk": "Low",
    "tags": [
@@ -20560,7 +20560,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -20613,7 +20613,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -20721,7 +20721,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -20829,7 +20829,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -20882,7 +20882,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -20936,7 +20936,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -20960,9 +20960,9 @@
    "type": "government-housing",
    "locality": "Kotturpuram",
    "corridor": "Central Chennai",
-   "lat": null,
-   "lng": null,
-   "geo_precision": null,
+   "lat": 13.07,
+   "lng": 80.24,
+   "geo_precision": "corridor",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -20980,13 +20980,13 @@
    "developer": "Tnuhdb",
    "score_breakdown": {
     "entry_stage": 12,
-    "infrastructure": 8,
+    "infrastructure": 16,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 43,
+   "upside_score": 51,
    "segment_fit": {
     "boardroom": 0,
     "executive": 0,
@@ -20994,7 +20994,7 @@
    },
    "risk": "Medium",
    "tags": [],
-   "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
+   "score_rationale": "Scores on close to upcoming metro/infrastructure. Caveats: limited developer track record.",
    "not_for_sale": true
   },
   {
@@ -21036,7 +21036,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -21090,7 +21090,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -21756,21 +21756,21 @@
     "infrastructure": 3,
     "locality_momentum": 8,
     "relative_pricing": 7,
-    "developer_track_record": 7,
+    "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 51,
+   "upside_score": 47,
    "segment_fit": {
     "boardroom": 0,
-    "executive": 30,
+    "executive": 15,
     "value": 0
    },
-   "risk": "Low",
+   "risk": "Medium",
    "tags": [
     "Early Entrant",
     "Plotted/Land"
    ],
-   "score_rationale": "Scores on early entry stage.",
+   "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
    "est_price_sqft_min": 2800,
    "est_price_sqft_max": 5500,
    "est_ticket_min_lakh": 28.0,
@@ -21964,7 +21964,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -22072,7 +22072,7 @@
    "segment_fit": {
     "boardroom": 20,
     "executive": 65,
-    "value": 20
+    "value": 0
    },
    "risk": "Medium",
    "tags": [
@@ -22764,20 +22764,21 @@
     "infrastructure": 12,
     "locality_momentum": 9,
     "relative_pricing": 7,
-    "developer_track_record": 7,
+    "developer_track_record": 3,
     "rental_yield": 4
    },
-   "upside_score": 60,
+   "upside_score": 56,
    "segment_fit": {
     "boardroom": 0,
-    "executive": 50,
+    "executive": 35,
     "value": 30
    },
-   "risk": "Medium",
+   "risk": "High",
    "tags": [
-    "Early Entrant"
+    "Early Entrant",
+    "Watchlist/Risky"
    ],
-   "score_rationale": "Scores on early entry stage.",
+   "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export",
    "est_price_sqft_min": 4200,
    "est_price_sqft_max": 6400,
@@ -23041,7 +23042,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -23095,7 +23096,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -23203,7 +23204,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -23257,7 +23258,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -23470,7 +23471,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -23635,7 +23636,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -23900,7 +23901,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -23955,7 +23956,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -24064,7 +24065,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -24118,7 +24119,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -24275,7 +24276,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -24329,7 +24330,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -24489,7 +24490,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -24598,7 +24599,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -24760,7 +24761,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -24924,7 +24925,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -24978,7 +24979,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -25504,7 +25505,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -25559,7 +25560,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -25613,7 +25614,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -25667,7 +25668,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -25777,7 +25778,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -25832,7 +25833,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -25887,7 +25888,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -25990,20 +25991,21 @@
     "infrastructure": 7,
     "locality_momentum": 15,
     "relative_pricing": 4,
-    "developer_track_record": 7,
+    "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 43,
+   "upside_score": 39,
    "segment_fit": {
     "boardroom": 10,
-    "executive": 15,
+    "executive": 0,
     "value": 30
    },
-   "risk": "Medium",
+   "risk": "High",
    "tags": [
-    "Plotted/Land"
+    "Plotted/Land",
+    "Watchlist/Risky"
    ],
-   "score_rationale": "Scores on rising micro-market. Caveats: flood-prone zone.",
+   "score_rationale": "Scores on rising micro-market. Caveats: flood-prone zone, limited developer track record.",
    "ticket_min_lakh": 9.45,
    "unit_size_min_sqft": 450,
    "land_area_acres": 4.9,
@@ -26051,7 +26053,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -26105,7 +26107,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -26151,7 +26153,7 @@
    ],
    "notes": "TNRERA registry record (Kancheepuram district) · Pincode 602101 · Pricing not published in the registry — verify with the promoter. RERA record for TNRERA/1/BLG/0221/2026 confirms 'MILLENNIUM BY DAC', promoter DAC Promoters, 138 units, 3,947.97 sqm, at Gerugambakkam village, Kundrathur union — Kancheepuram DISTRICT, but functionally the Porur/Mannivakkam belt (2.8 km from Porur Junction), not Kancheepuram town. Portals still list the earlier registration TNRERA/1/BLG/0289/2025 for the same 138-unit/0.97-acre project, so 0221/2026 appears to be a re-registration. RERA outer completion is 31-07-2031 vs portal handover of Aug 2027 — wide gap. NoBroker quotes ₹49.97L–₹70.38L on a carpet-area basis (642–1,047 sqft); the ₹68–83L range above is the saleable-area basis and is internally consistent with ₹8,300–8,437/sqft. Amenities: gym, multipurpose hall, kids' play area, senior-citizen reflexology zone, STP, rainwater harvesting.",
    "last_checked": "2026-08-05",
-   "developer": "Dac Promoters",
+   "developer": "DAC Developers",
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 12,
@@ -26219,7 +26221,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -26424,7 +26426,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -26795,7 +26797,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -26904,7 +26906,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -27012,7 +27014,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -27106,23 +27108,23 @@
     "infrastructure": 20,
     "locality_momentum": 20,
     "relative_pricing": 7,
-    "developer_track_record": 7,
+    "developer_track_record": 3,
     "rental_yield": 8
    },
-   "upside_score": 83,
+   "upside_score": 79,
    "segment_fit": {
     "boardroom": 0,
-    "executive": 80,
+    "executive": 65,
     "value": 0
    },
-   "risk": "Low",
+   "risk": "Medium",
    "tags": [
     "Early Entrant",
     "High Upside",
     "Executive",
     "Plotted/Land"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market.",
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
    "est_price_sqft_min": 7800,
    "est_price_sqft_max": 9450,
    "est_ticket_min_lakh": 85.8,
@@ -27169,7 +27171,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -27224,7 +27226,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -27279,7 +27281,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -27446,7 +27448,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -27500,7 +27502,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -27553,7 +27555,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -27681,9 +27683,9 @@
    "type": "apartment",
    "locality": "Varadharajapuram",
    "corridor": "Southwest Chennai",
-   "lat": null,
-   "lng": null,
-   "geo_precision": null,
+   "lat": 12.995,
+   "lng": 80.14,
+   "geo_precision": "corridor",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -27701,13 +27703,13 @@
    "developer": "Nest Zone India",
    "score_breakdown": {
     "entry_stage": 12,
-    "infrastructure": 8,
+    "infrastructure": 12,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 43,
+   "upside_score": 47,
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
@@ -27979,7 +27981,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -28034,7 +28036,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -28088,7 +28090,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -28357,7 +28359,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -28620,7 +28622,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -28992,7 +28994,7 @@
    "segment_fit": {
     "boardroom": 20,
     "executive": 65,
-    "value": 20
+    "value": 0
    },
    "risk": "Medium",
    "tags": [
@@ -29473,7 +29475,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -29783,7 +29785,7 @@
    ],
    "notes": "TNRERA registry record (Chengalpattu district, Vandalur taluk) · Village: Pudupakkam · Pincode 603103 · Pricing not published in the registry — verify with the promoter.",
    "last_checked": "2026-08-05",
-   "developer": "Dlf Southern Towns",
+   "developer": "DLF",
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 20,
@@ -30258,9 +30260,9 @@
    "type": "apartment",
    "locality": "Medavakkam",
    "corridor": "South Chennai",
-   "lat": null,
-   "lng": null,
-   "geo_precision": null,
+   "lat": 12.9184,
+   "lng": 80.1917,
+   "geo_precision": "locality",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -30278,13 +30280,13 @@
    "developer": "Pearlconstruction Chennai",
    "score_breakdown": {
     "entry_stage": 12,
-    "infrastructure": 8,
+    "infrastructure": 20,
     "locality_momentum": 15,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 4
    },
-   "upside_score": 49,
+   "upside_score": 61,
    "segment_fit": {
     "boardroom": 0,
     "executive": 55,
@@ -30292,7 +30294,7 @@
    },
    "risk": "Medium",
    "tags": [],
-   "score_rationale": "Scores on rising micro-market. Caveats: limited developer track record.",
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
    "est_price_sqft_min": 6500,
    "est_price_sqft_max": 7500,
    "est_ticket_min_lakh": 74.8,
@@ -30393,7 +30395,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -30446,7 +30448,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -30501,7 +30503,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -30904,7 +30906,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -31011,7 +31013,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -31338,7 +31340,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -31446,7 +31448,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -31742,9 +31744,9 @@
    "type": "apartment",
    "locality": "Ambathur",
    "corridor": "Far West",
-   "lat": 13.143,
-   "lng": 79.909,
-   "geo_precision": "district",
+   "lat": 13.101361,
+   "lng": 80.188556,
+   "geo_precision": "exact",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -31762,13 +31764,13 @@
    "developer": "KVPS Property Developers",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 20,
+    "infrastructure": 16,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 64,
+   "upside_score": 60,
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
@@ -31960,9 +31962,9 @@
    "type": "apartment",
    "locality": "Chennai",
    "corridor": "Central Chennai",
-   "lat": 13.07,
-   "lng": 80.24,
-   "geo_precision": "district",
+   "lat": 13.085222,
+   "lng": 80.224389,
+   "geo_precision": "exact",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -31980,13 +31982,13 @@
    "developer": "Nisha Pursothaman",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 16,
+    "infrastructure": 12,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 60,
+   "upside_score": 56,
    "segment_fit": {
     "boardroom": 0,
     "executive": 65,
@@ -31997,7 +31999,7 @@
     "Early Entrant",
     "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure. Caveats: limited developer track record.",
+   "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export",
    "est_price_sqft_min": 11500,
    "est_price_sqft_max": 17500,
@@ -32253,22 +32255,22 @@
     "infrastructure": 20,
     "locality_momentum": 9,
     "relative_pricing": 7,
-    "developer_track_record": 7,
+    "developer_track_record": 3,
     "rental_yield": 10
    },
-   "upside_score": 65,
+   "upside_score": 61,
    "segment_fit": {
     "boardroom": 20,
-    "executive": 80,
-    "value": 20
+    "executive": 65,
+    "value": 0
    },
-   "risk": "Low",
+   "risk": "Medium",
    "tags": [
     "Executive",
     "Plotted/Land",
     "Steady/Rental"
    ],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure.",
+   "score_rationale": "Scores on close to upcoming metro/infrastructure. Caveats: limited developer track record.",
    "est_price_sqft_min": 5750,
    "est_price_sqft_max": 7600,
    "est_ticket_min_lakh": 69.0,
@@ -32315,7 +32317,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -32417,7 +32419,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -32470,7 +32472,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -32625,7 +32627,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -32680,7 +32682,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -32735,7 +32737,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -32789,7 +32791,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -32843,7 +32845,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -32897,7 +32899,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -32944,23 +32946,23 @@
     "infrastructure": 20,
     "locality_momentum": 20,
     "relative_pricing": 7,
-    "developer_track_record": 7,
+    "developer_track_record": 3,
     "rental_yield": 8
    },
-   "upside_score": 83,
+   "upside_score": 79,
    "segment_fit": {
     "boardroom": 0,
-    "executive": 80,
+    "executive": 65,
     "value": 0
    },
-   "risk": "Low",
+   "risk": "Medium",
    "tags": [
     "Early Entrant",
     "High Upside",
     "Executive",
     "Plotted/Land"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market.",
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
    "est_price_sqft_min": 8500,
    "est_price_sqft_max": 12200,
    "est_ticket_min_lakh": 102.0,
@@ -33007,7 +33009,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -33061,7 +33063,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -33116,7 +33118,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -33170,7 +33172,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -33531,7 +33533,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -33586,7 +33588,7 @@
    "segment_fit": {
     "boardroom": 20,
     "executive": 65,
-    "value": 20
+    "value": 0
    },
    "risk": "Medium",
    "tags": [
@@ -33696,7 +33698,7 @@
    "segment_fit": {
     "boardroom": 20,
     "executive": 65,
-    "value": 20
+    "value": 0
    },
    "risk": "Medium",
    "tags": [
@@ -33854,7 +33856,7 @@
    "segment_fit": {
     "boardroom": 20,
     "executive": 65,
-    "value": 20
+    "value": 0
    },
    "risk": "Medium",
    "tags": [
@@ -33909,7 +33911,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 65,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -33965,7 +33967,7 @@
    "segment_fit": {
     "boardroom": 20,
     "executive": 65,
-    "value": 20
+    "value": 0
    },
    "risk": "Medium",
    "tags": [
@@ -34068,7 +34070,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -34122,7 +34124,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -34176,7 +34178,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -34284,7 +34286,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -34338,7 +34340,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -34446,7 +34448,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -34500,7 +34502,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -34554,7 +34556,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -34657,20 +34659,20 @@
     "infrastructure": 20,
     "locality_momentum": 15,
     "relative_pricing": 7,
-    "developer_track_record": 7,
+    "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 66,
+   "upside_score": 62,
    "segment_fit": {
     "boardroom": 0,
-    "executive": 30,
+    "executive": 15,
     "value": 30
    },
-   "risk": "Low",
+   "risk": "Medium",
    "tags": [
     "Plotted/Land"
    ],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market.",
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
    "est_price_sqft_min": 950,
    "est_price_sqft_max": 2400,
    "est_ticket_min_lakh": 11.4,
@@ -34710,21 +34712,21 @@
     "infrastructure": 3,
     "locality_momentum": 8,
     "relative_pricing": 7,
-    "developer_track_record": 7,
+    "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 51,
+   "upside_score": 47,
    "segment_fit": {
     "boardroom": 0,
-    "executive": 30,
+    "executive": 15,
     "value": 0
    },
-   "risk": "Low",
+   "risk": "Medium",
    "tags": [
     "Early Entrant",
     "Plotted/Land"
    ],
-   "score_rationale": "Scores on early entry stage."
+   "score_rationale": "Scores on early entry stage. Caveats: limited developer track record."
   },
   {
    "id": "rera-layout-by-rajeswari-2527",
@@ -34765,7 +34767,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -35024,7 +35026,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -35078,7 +35080,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -35132,7 +35134,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -35613,7 +35615,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -35668,7 +35670,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -35722,7 +35724,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -35825,7 +35827,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -36140,7 +36142,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -36194,7 +36196,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -36653,7 +36655,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -36708,7 +36710,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -37144,7 +37146,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -38061,7 +38063,7 @@
    ],
    "notes": "TNRERA registry record (Kancheepuram district, Sriperambadur taluk) · Village: Irrungattukottai 'A' · Pincode 602117 · Pricing not published in the registry — verify with the promoter.",
    "last_checked": "2026-08-05",
-   "developer": "Gt Bharathi Urban Developers",
+   "developer": "GT Bharathi Urban Developers",
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 3,
@@ -38381,7 +38383,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -38404,9 +38406,9 @@
    "registration_date": "2026 (registration year)",
    "type": "apartment",
    "locality_raw": "Chennai district (exact locality not published in source snippet)",
-   "lat": 13.07,
-   "lng": 80.24,
-   "geo_precision": "district",
+   "lat": 13.074583,
+   "lng": 80.167028,
+   "geo_precision": "exact",
    "total_units": 35,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -38425,16 +38427,16 @@
    "id": "romaa-s-darren",
    "score_breakdown": {
     "entry_stage": 12,
-    "infrastructure": 16,
+    "infrastructure": 12,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 51,
+   "upside_score": 47,
    "risk": "Medium",
    "tags": [],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure. Caveats: limited developer track record.",
+   "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
    "segment_fit": {
     "boardroom": 10,
     "executive": 35,
@@ -38483,7 +38485,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -38536,7 +38538,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -38644,7 +38646,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -38698,7 +38700,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -38752,7 +38754,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -38908,7 +38910,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -38962,7 +38964,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -39016,7 +39018,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -39179,7 +39181,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -39289,7 +39291,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -39343,7 +39345,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -39397,7 +39399,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -39770,7 +39772,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -39824,7 +39826,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -39879,7 +39881,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -39934,7 +39936,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -40035,7 +40037,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -40193,7 +40195,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -40248,7 +40250,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -40358,7 +40360,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -40411,7 +40413,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -40573,7 +40575,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -40683,7 +40685,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -40904,7 +40906,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -40958,7 +40960,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -41379,7 +41381,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -41403,9 +41405,9 @@
    "type": "apartment",
    "locality": "Pallikaranani",
    "corridor": "Central Chennai",
-   "lat": 13.07,
-   "lng": 80.24,
-   "geo_precision": "district",
+   "lat": 12.939917,
+   "lng": 80.213806,
+   "geo_precision": "exact",
    "total_units": 10,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -41488,7 +41490,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -41543,7 +41545,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -41598,7 +41600,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -41814,7 +41816,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -41869,7 +41871,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -41923,7 +41925,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -41977,7 +41979,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -42031,7 +42033,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -42140,7 +42142,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -42570,7 +42572,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -42672,7 +42674,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -42836,7 +42838,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -42891,7 +42893,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -42945,7 +42947,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -43211,7 +43213,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -43683,7 +43685,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -43736,7 +43738,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -44265,21 +44267,21 @@
     "infrastructure": 16,
     "locality_momentum": 15,
     "relative_pricing": 4,
-    "developer_track_record": 7,
+    "developer_track_record": 3,
     "rental_yield": 6
    },
-   "upside_score": 60,
+   "upside_score": 56,
    "segment_fit": {
     "boardroom": 90,
     "executive": 45,
     "value": 0
    },
-   "risk": "Low",
+   "risk": "Medium",
    "tags": [
     "Boardroom",
     "Premium"
    ],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market.",
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export",
    "ticket_min_lakh": 411,
    "ticket_max_lakh": 411,
@@ -44383,7 +44385,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -44436,7 +44438,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -44545,7 +44547,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -44599,7 +44601,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -44962,9 +44964,9 @@
    "type": "apartment",
    "locality": "Koyambedu",
    "corridor": "West Chennai",
-   "lat": 13.07,
-   "lng": 80.24,
-   "geo_precision": "district",
+   "lat": 13.074833,
+   "lng": 80.19175,
+   "geo_precision": "exact",
    "total_units": 135,
    "price_sqft_min": 12500,
    "price_sqft_max": 13000,
@@ -44988,13 +44990,13 @@
    "developer": "Shriram Properties",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 16,
+    "infrastructure": 20,
     "locality_momentum": 20,
     "relative_pricing": 8,
     "developer_track_record": 7,
     "rental_yield": 8
    },
-   "upside_score": 80,
+   "upside_score": 84,
    "segment_fit": {
     "boardroom": 90,
     "executive": 100,
@@ -45028,9 +45030,9 @@
    "type": "apartment",
    "locality": "Poonamallee",
    "corridor": "West Chennai",
-   "lat": 13.048,
-   "lng": 80.095,
-   "geo_precision": "locality",
+   "lat": 13.0475,
+   "lng": 80.024111,
+   "geo_precision": "exact",
    "total_units": 206,
    "price_sqft_min": 3900,
    "price_sqft_max": 5200,
@@ -45052,13 +45054,13 @@
    "developer": "Shriram Properties",
    "score_breakdown": {
     "entry_stage": 25,
-    "infrastructure": 20,
+    "infrastructure": 7,
     "locality_momentum": 20,
     "relative_pricing": 15,
     "developer_track_record": 7,
     "rental_yield": 8
    },
-   "upside_score": 95,
+   "upside_score": 82,
    "segment_fit": {
     "boardroom": 0,
     "executive": 70,
@@ -45071,7 +45073,7 @@
     "Executive",
     "Value"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market, priced below the locality band.",
+   "score_rationale": "Scores on early entry stage, rising micro-market, priced below the locality band.",
    "rera_verified_on": "official TNRERA export",
    "ticket_min_lakh": 26,
    "ticket_max_lakh": 51,
@@ -45231,7 +45233,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -45486,7 +45488,7 @@
    ],
    "notes": "TNRERA registry record (Chennai district) · Village: Puzhal · Pincode 600066 · Pricing not published in the registry — verify with the promoter.",
    "last_checked": "2026-08-05",
-   "developer": "Silversky Builders",
+   "developer": "SILVERSKY Builders",
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 16,
@@ -45654,7 +45656,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -45708,7 +45710,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -45762,7 +45764,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -45816,7 +45818,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -45983,7 +45985,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -46037,7 +46039,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -46295,7 +46297,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -46520,7 +46522,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -46575,7 +46577,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -46629,7 +46631,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -46684,7 +46686,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -46794,7 +46796,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -47010,7 +47012,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -47064,7 +47066,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -47119,7 +47121,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -47275,7 +47277,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -47476,7 +47478,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -47638,7 +47640,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -47692,7 +47694,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -47746,7 +47748,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -47854,7 +47856,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -47956,7 +47958,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -48063,7 +48065,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -48539,7 +48541,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -48756,7 +48758,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -48919,7 +48921,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -49128,7 +49130,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -49568,7 +49570,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -49725,7 +49727,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -49779,7 +49781,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -49886,7 +49888,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -49941,7 +49943,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -49995,7 +49997,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -50158,7 +50160,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -50522,7 +50524,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -50576,7 +50578,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -50899,7 +50901,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -50953,7 +50955,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -51063,7 +51065,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -51171,7 +51173,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -51226,7 +51228,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -51281,7 +51283,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -51502,7 +51504,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -51557,7 +51559,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -51660,7 +51662,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -51714,7 +51716,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -51932,7 +51934,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -52243,7 +52245,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -52297,7 +52299,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -52515,7 +52517,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -52594,9 +52596,9 @@
    "type": "apartment",
    "locality": "Alwarpet",
    "corridor": "Central Chennai",
-   "lat": null,
-   "lng": null,
-   "geo_precision": null,
+   "lat": 13.0339,
+   "lng": 80.2532,
+   "geo_precision": "locality",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -52614,13 +52616,13 @@
    "developer": "Swathi Builders",
    "score_breakdown": {
     "entry_stage": 12,
-    "infrastructure": 8,
+    "infrastructure": 20,
     "locality_momentum": 9,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 4
    },
-   "upside_score": 43,
+   "upside_score": 55,
    "segment_fit": {
     "boardroom": 60,
     "executive": 65,
@@ -52631,7 +52633,7 @@
     "Boardroom",
     "Executive"
    ],
-   "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
+   "score_rationale": "Scores on close to upcoming metro/infrastructure. Caveats: limited developer track record.",
    "est_price_sqft_min": 17000,
    "est_price_sqft_max": 25000,
    "est_ticket_min_lakh": 178.5,
@@ -52844,7 +52846,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -52952,7 +52954,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -53007,7 +53009,9 @@
    },
    "upside_score": 66,
    "risk": "Medium",
-   "tags": [],
+   "tags": [
+    "Executive"
+   ],
    "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market, strong developer record. Caveats: flood-prone zone.",
    "config_mix": "2/3 BHK",
    "dominant_config": "2BHK",
@@ -53017,7 +53021,7 @@
    "density_note": "large — 820 units in 4 towers (18 floors) on 6.56 acres",
    "segment_fit": {
     "boardroom": 10,
-    "executive": 50,
+    "executive": 80,
     "value": 30
    },
    "developer": "TVS Emerald",
@@ -53243,7 +53247,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -53297,7 +53301,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -53350,7 +53354,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -53403,7 +53407,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -53943,7 +53947,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 20
+    "value": 0
    },
    "risk": "Medium",
    "tags": [
@@ -53997,7 +54001,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -54223,7 +54227,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -54555,7 +54559,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -54609,7 +54613,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -54711,7 +54715,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -54766,7 +54770,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -54821,7 +54825,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -54876,7 +54880,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -55074,7 +55078,7 @@
    ],
    "notes": "TNRERA plotted-layout registration (Tiruvallur district, Mylapore taluk) · Village: Mylapore · Pincode 600028 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying.",
    "last_checked": "2026-08-05",
-   "developer": "Vijayanth developers",
+   "developer": "Vijayanth Developers",
    "score_breakdown": {
     "entry_stage": 21,
     "infrastructure": 20,
@@ -55448,7 +55452,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -55613,7 +55617,7 @@
    "segment_fit": {
     "boardroom": 10,
     "executive": 50,
-    "value": 50
+    "value": 30
    },
    "risk": "Low",
    "tags": [
@@ -55667,7 +55671,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -55721,7 +55725,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -55829,7 +55833,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -55882,7 +55886,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -55935,7 +55939,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -56043,7 +56047,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -56097,7 +56101,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 65,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -56151,7 +56155,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 65,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -56205,7 +56209,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -56259,7 +56263,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -56482,7 +56486,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -56535,7 +56539,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -56642,7 +56646,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -56696,7 +56700,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -56750,7 +56754,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -56804,7 +56808,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -57011,7 +57015,7 @@
    ],
    "notes": "TNRERA registry record (Chengalpattu district, Pallavaram taluk) · Village: Zamin Pallavaram · Pincode 600043 · Pricing not published in the registry — verify with the promoter.",
    "last_checked": "2026-08-05",
-   "developer": "My Viva Housing",
+   "developer": "My VIVA Housing",
    "score_breakdown": {
     "entry_stage": 21,
     "infrastructure": 12,
@@ -57134,7 +57138,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -57351,7 +57355,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -57767,7 +57771,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -57821,7 +57825,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -57875,7 +57879,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -57985,7 +57989,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -58039,7 +58043,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -58311,7 +58315,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -58412,7 +58416,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -58741,7 +58745,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -58848,7 +58852,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -58996,7 +59000,7 @@
    ],
    "notes": "TNRERA plotted-layout registration (Chengalpattu district) · Pincode 600045 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying.",
    "last_checked": "2026-08-05",
-   "developer": "Vgk Builders",
+   "developer": "VGK Builders",
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 7,
@@ -59102,7 +59106,7 @@
    ],
    "notes": "TNRERA plotted-layout registration (Chengalpattu district, Chengalpet taluk) · Village: Kongadu · Pincode 603001 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying.",
    "last_checked": "2026-08-05",
-   "developer": "Vgn Infrastructure",
+   "developer": "VGN Homes",
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 7,
@@ -59157,7 +59161,7 @@
    ],
    "notes": "TNRERA plotted-layout registration (Kancheepuram district, Kunrathur taluk) · Village: Koluthuvancherry · Pincode 600116 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying. RERA number confirmed: promoter VGN Enterprises Pvt Ltd, Koluthuvancherry village, Kunrathur taluk, Kancheepuram (pin 600116 = the Iyyappanthangal belt), just 7 plots on 776.36 sqm (0.19 acres), declared cost Rs 1.65 cr, status Completed / 'ready to move'. PRICING IS INFERRED, NOT QUOTED: no price sheet exists for this 7-plot extension, so the rate band is the parent VGN Grandeur project's quoted Rs 9,000-9,499/sqft at the same location, and the ticket range is that rate applied to the ~1,194 sqft average gross plot implied by 776.36 sqm / 7 plots. Parent layout (500-563 plots, 27.86-29 acres, plots 581-3061 sqft, Rs 1.42-2.08 Cr) offers 4 parks, clubhouse, gym, amphitheatre, temple, blacktop roads with LED lighting, underground EB/sewage and piped gas provision.",
    "last_checked": "2026-08-05",
-   "developer": "Vgn Enterprises",
+   "developer": "VGN Homes",
    "score_breakdown": {
     "entry_stage": 5,
     "infrastructure": 3,
@@ -59215,7 +59219,7 @@
    ],
    "notes": "TNRERA plotted-layout registration (Chengalpattu district, Tambaram taluk) · Village: Ottiayambakkam · Pincode 600130 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying. PHASE II RERA RECORD FULLY CONFIRMED: TNRERA/35/LO/0980/2026, promoter VGN Homes Pvt Ltd, registered 13-03-2026, 17,422 sqm layout, 100 plots, total project cost ₹15 Cr (₹14 Cr land + ₹1 Cr development), RERA status 'Completed'. LOCATION CORRECTION: the layout is at Ottiyambakkam village — Tambaram TALUK, Chengalpattu district — which is the Medavakkam–OMR belt, not Tambaram town or the GST Road corridor. CONFIDENCE SET TO 'estimated' FOR PRICING ONLY: no portal lists Phase II separately, so the plot-size band (700–1,683 sqft), ₹5,099–5,399/sqft and ₹36L–91L ticket range are carried over from the combined/Phase-I listing (Phase I = TN/35/Layout/2358/2025, 101 plots, 4.27 acres); unit counts, land area and dates above are Phase-II-specific from the RERA record. Phase II's 8,611 sqm plottable across 100 plots implies ~927 sqft average, consistent with that band. Portals show 'ready to move'. Amenities: elevated blacktop roads, underground EB with transformers, solar LED street lights, jogging track with reflexology pathway, outdoor gym, senior citizens' court, amphitheatre, sandpit play equipment, storm-water trench, 24x7 water.",
    "last_checked": "2026-08-05",
-   "developer": "Vgn Homes",
+   "developer": "VGN Homes",
    "score_breakdown": {
     "entry_stage": 5,
     "infrastructure": 7,
@@ -59228,7 +59232,7 @@
    "segment_fit": {
     "boardroom": 10,
     "executive": 65,
-    "value": 50
+    "value": 30
    },
    "risk": "Low",
    "tags": [
@@ -59276,7 +59280,7 @@
    ],
    "notes": "TNRERA plotted-layout registration (Chengalpattu district, Chengalpet taluk) · Village: Sasthirambakkam · Pincode 600030 · Pricing not published in the registry — verify with the promoter. · Plot layouts: confirm DTCP/CMDA approval and OSR compliance before buying. RERA number TNRERA/35/LO/0930/2026 printed verbatim on the project microsite (also DTCP 94/2025) - identity confirmed despite the naming difference. DEVELOPER DISCREPANCY: the project is marketed as 'VIP Viruksham' / 'Virukshyam' by VIP Housing and Properties, though one of its own pages credits 'VGN and VIP Housing and Properties', so treat it as a VIP Housing layout (possibly a VGN-VIP tie-up) rather than a pure VGN Homes product. LOCATION: Singaperumal Koil, Chengalpattu district, directly opposite Mahindra World City off GST Road - consistent with the tracker's GST Road belt tag. Entry price Rs 10 lakh; the Rs 1,718/sqft figure is arithmetic from that on the smallest 582 sqft plot and no site publishes a headline per-sqft rate, so the upper ticket is left null. Layout is complete and registrable (blacktop roads, 24x7 security, solar street lights, landscaping, 3-phase EB line, 40 ft roads, good ground water, 80% bank funding tie-ups). Strong industrial-demand catchment: Mahindra World City SEZ across the road. Marketed jointly with VIP Housing; VGN Infrastructure is the registered promoter.",
    "last_checked": "2026-08-05",
-   "developer": "Vgn Infrastructure",
+   "developer": "VGN Homes",
    "score_breakdown": {
     "entry_stage": 5,
     "infrastructure": 7,
@@ -59314,9 +59318,9 @@
    "type": "apartment",
    "locality": "Kundrathur",
    "corridor": "Southwest Chennai",
-   "lat": 12.995,
-   "lng": 80.1,
-   "geo_precision": "locality",
+   "lat": 13.01175,
+   "lng": 80.159806,
+   "geo_precision": "exact",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -59334,13 +59338,13 @@
    "developer": "Vibrant Offices Homes",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 16,
+    "infrastructure": 12,
     "locality_momentum": 15,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 67,
+   "upside_score": 63,
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
@@ -59350,7 +59354,7 @@
    "tags": [
     "Early Entrant"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
+   "score_rationale": "Scores on early entry stage, rising micro-market. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export",
    "est_price_sqft_min": 5700,
    "est_price_sqft_max": 7500,
@@ -59793,9 +59797,9 @@
    "type": "apartment",
    "locality": "Chennai",
    "corridor": "Kanchipuram",
-   "lat": 12.834,
-   "lng": 79.704,
-   "geo_precision": "district",
+   "lat": 13.031944,
+   "lng": 80.121833,
+   "geo_precision": "exact",
    "total_units": 110,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -59813,13 +59817,13 @@
    "developer": "Aaalam Promoters",
    "score_breakdown": {
     "entry_stage": 21,
-    "infrastructure": 3,
+    "infrastructure": 16,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 47,
+   "upside_score": 60,
    "segment_fit": {
     "boardroom": 10,
     "executive": 35,
@@ -59829,7 +59833,7 @@
    "tags": [
     "Early Entrant"
    ],
-   "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export"
   },
   {
@@ -59871,7 +59875,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -59926,7 +59930,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -59981,7 +59985,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -60341,7 +60345,7 @@
    ],
    "notes": "TNRERA registry record (Tiruvallur district, Avadi taluk) · Village: Nadukuthagai · Pincode 602024 · Pricing not published in the registry — verify with the promoter.",
    "last_checked": "2026-08-05",
-   "developer": "Arc Developers",
+   "developer": "ARC Developers",
    "score_breakdown": {
     "entry_stage": 21,
     "infrastructure": 3,
@@ -60409,7 +60413,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -60515,7 +60519,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -60569,7 +60573,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -60781,20 +60785,21 @@
     "infrastructure": 16,
     "locality_momentum": 15,
     "relative_pricing": 7,
-    "developer_track_record": 7,
+    "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 62,
+   "upside_score": 58,
    "segment_fit": {
     "boardroom": 0,
-    "executive": 30,
+    "executive": 15,
     "value": 30
    },
-   "risk": "Medium",
+   "risk": "High",
    "tags": [
-    "Plotted/Land"
+    "Plotted/Land",
+    "Watchlist/Risky"
    ],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market.",
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
    "est_price_sqft_min": 1550,
    "est_price_sqft_max": 2300,
    "est_ticket_min_lakh": 15.5,
@@ -61023,9 +61028,9 @@
    "type": "apartment",
    "locality": "Adyar",
    "corridor": "Central Chennai",
-   "lat": 13.006,
-   "lng": 80.257,
-   "geo_precision": "locality",
+   "lat": 13.005056,
+   "lng": 80.25275,
+   "geo_precision": "exact",
    "total_units": 10,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -61183,9 +61188,9 @@
    "type": "apartment",
    "locality": "Mahabalipuram",
    "corridor": "ECR",
-   "lat": null,
-   "lng": null,
-   "geo_precision": null,
+   "lat": 12.958,
+   "lng": 80.256,
+   "geo_precision": "corridor",
    "total_units": null,
    "price_sqft_min": null,
    "price_sqft_max": null,
@@ -61203,13 +61208,13 @@
    "developer": "Arun Excello Homes",
    "score_breakdown": {
     "entry_stage": 12,
-    "infrastructure": 8,
+    "infrastructure": 16,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 43,
+   "upside_score": 51,
    "segment_fit": {
     "boardroom": 0,
     "executive": 65,
@@ -61219,7 +61224,7 @@
    "tags": [
     "Executive"
    ],
-   "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
+   "score_rationale": "Scores on close to upcoming metro/infrastructure. Caveats: limited developer track record.",
    "est_price_sqft_min": 8750,
    "est_price_sqft_max": 12900,
    "est_ticket_min_lakh": 175.0,
@@ -61641,7 +61646,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -61696,7 +61701,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -61813,7 +61818,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "High",
    "tags": [
@@ -61868,7 +61873,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 15,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
@@ -62072,7 +62077,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 50,
-    "value": 50
+    "value": 30
    },
    "risk": "Low",
    "tags": [
@@ -62183,7 +62188,7 @@
    "segment_fit": {
     "boardroom": 0,
     "executive": 35,
-    "value": 50
+    "value": 30
    },
    "risk": "Medium",
    "tags": [

@@ -52,8 +52,24 @@ def iso_date(s):
     return f'{m.group(3)}-{m.group(2)}-{m.group(1)}' if m else None
 
 
+def _dms(v):
+    """Decode a packed DDMMSS[.s] figure, or None if it is not one.
+
+    Returns a value only when the minute and second fields are both legal, which
+    is what makes the reading decisive rather than one guess among several.
+    """
+    if v <= 100:
+        return None
+    whole = int(v)
+    deg, rest = divmod(whole, 10000)
+    mins, secs = divmod(rest, 100)
+    if deg == 0 or mins >= 60 or secs >= 60:
+        return None
+    return deg + mins / 60 + (secs + v - whole) / 3600
+
+
 def _candidates(v):
-    """Yield the plausible readings of one raw coordinate figure.
+    """Yield the plausible readings of one raw coordinate figure, best first.
 
     Promoters key coordinates into a free-text field, so a single export mixes
     at least three notations for the same thing:
@@ -62,12 +78,9 @@ def _candidates(v):
       1305741      decimal degrees with the point dropped
     """
     yield v
-    if v > 100:                                    # packed DDMMSS[.s]
-        whole = int(v)
-        deg, rest = divmod(whole, 10000)
-        mins, secs = divmod(rest, 100)
-        if mins < 60 and secs < 60:
-            yield deg + mins / 60 + (secs + v - whole) / 3600
+    dms = _dms(v)
+    if dms is not None:
+        yield dms
     scaled = v                                     # misplaced decimal point
     for _ in range(8):
         scaled /= 10
@@ -89,6 +102,16 @@ def parse_coords(text):
         a, b = float(m.group(1)), float(m.group(2))
     except ValueError:
         return None
+    # A packed DDMMSS figure whose minute and second fields are both legal is a
+    # decisive reading, so it is resolved first. Treating it as merely one candidate
+    # among several meant it always tied with the divide-by-10,000 reading — which
+    # also lands inside the CMA — and the tie discarded 16 perfectly good positions,
+    # pinning one project 50km from its site at a district centroid.
+    for lat_raw, lng_raw in ((a, b), (b, a)):
+        lat, lng = _dms(lat_raw), _dms(lng_raw)
+        if lat is not None and lng is not None and in_cma(lat, lng):
+            return round(lat, 6), round(lng, 6)
+
     hits = set()
     for lat_raw, lng_raw in ((a, b), (b, a)):
         for lat in _candidates(lat_raw):

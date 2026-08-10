@@ -2,9 +2,13 @@
 """Merge researched locality price bands into docs/data/localities.json.
 
 A locality carries two independent bands. `price_band_*` is the built-up rate for
-apartments; `plot_band_*` is the rate per sqft of land. They are not interchangeable
-— land typically costs about a third of built-up area in the same Chennai locality —
+apartments; `plot_band_*` is the rate per sqft of land. They are not interchangeable,
 and the Upside Score picks whichever matches the project's own product type.
+
+Across the outer belt land runs well below built-up. In prime Chennai it inverts —
+RA Puram land at 34,000/sqft against apartments at 22,500 — because scarce land
+carries redevelopment FSI value. Both patterns are genuine; an inverted band in a
+prime locality is not an error to fix.
 
 Earlier research predated that split and recorded a single `price_band`, sometimes
 filled with a land rate for outer localities that have no apartment market at all.
@@ -125,7 +129,12 @@ def main():
         # A band built from named comparables the researcher recomputed themselves is a
         # different thing from one quoted wholesale off a portal's summary page. Record
         # which it is so an estimate derived from it can carry the caveat.
-        if l.get('plot_band_min'):
+        #
+        # Only re-grade when THIS record actually carries plot research. Grading on every
+        # incoming record meant a one-field trend update silently downgraded a locality's
+        # evidence — Sholinganallur's band, built from 51 named comparables, flipped to
+        # "unverified" and pushed the weak-estimate caveat onto three more projects.
+        if r.get('plot_band_min') or comps:
             l['plot_band_quality'] = 'comparables' if comps else 'unverified'
         for f in COMPUTED:
             l.pop(f, None)
