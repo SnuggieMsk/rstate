@@ -30,6 +30,8 @@ import sys
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 DATA = os.path.join(ROOT, 'docs', 'data')
 RETIRED = {'withdrawn', 'superseded', 'unverified'}
+# An office block priced off the apartment band would be a fabricated number.
+NON_RESIDENTIAL = {'commercial', 'government-housing'}
 
 # Fallbacks when a locality has no researched typical size. Deliberately conservative:
 # a wrong size makes the ticket estimate wrong even when the rate is right.
@@ -111,7 +113,7 @@ def main():
             continue
         # Government rehabilitation tenements are allotted, not sold. Attaching a
         # market-derived ticket to one would invent a price that cannot exist.
-        if p.get('not_for_sale'):
+        if p.get('not_for_sale') or p.get('type') in NON_RESIDENTIAL:
             not_for_sale += 1
             continue
 
@@ -152,7 +154,7 @@ def main():
     print(f'already priced (left alone):      {skipped_priced}')
     print(f'estimated from its own locality:  {from_locality}')
     print(f'estimated from a corridor median: {from_corridor}')
-    print(f'not for sale (govt housing):      {not_for_sale}')
+    print(f'not saleable housing (govt/commercial): {not_for_sale}')
     print(f'no band available, left blank:    {no_band}')
 
     if dry:

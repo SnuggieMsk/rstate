@@ -1,5 +1,5 @@
 {
- "last_refreshed": "2026-08-05",
+ "last_refreshed": "2026-08-11",
  "portal_access_note": "Both https://rera.tn.gov.in and https://rera.tn.gov.in/registered-projects returned HTTP 503 Service Unavailable via WebFetch (likely geo-blocking of non-India traffic); the alternate official listing URL https://rera.tn.gov.in/registered-building/tn also returned 503. Proquiro.com (a TNRERA data mirror) returned 403 on direct fetch but its data surfaced via search snippets. All records below therefore come from secondary sources (developer sites, property portals, real-estate news), so no record is marked 'verified'.",
  "market_context": {
   "summary": "Chennai remained a steady, end-user-driven market through 2025 into 2026. Knight Frank recorded 9,198 residential unit sales in H1 2026 (+3% YoY) with average prices up ~5% YoY to ~Rs 7,555/sqft; Q1 2026 sales were +31% YoY despite an 18% QoQ dip. The market shifted up-market: the Rs 50L-1 crore band held ~45% of sales while the Rs 1-2 crore segment grew fastest (+29% YoY, 23%->26% share); sub-Rs 50 lakh affordable share collapsed from 22% to 12% of sales. Micro-market outperformers included Perambur (+35% YoY on metro/infra). Portals and brokerage reports through 2025 showed suburb-level appreciation of roughly 5-14% (Velachery ~13.8%, Pallavaram ~18%, Poonamallee ~8.9%, Porur ~7.9%).",
@@ -29,6 +29,10 @@
   ]
  },
  "changelog": [
+  {
+   "date": "2026-08-11",
+   "summary": "Apartment pricing sweep merged: 177 projects enriched, 123 with researched pricing (researched prices now 192, up from 69). Locality bands completed for 104 localities. 1107 of 1152 live projects carry a price or a labelled estimate. Reclassified 16 records the registry filed as apartments: 6 are commercial office or retail buildings with zero dwelling units, 4 mixed-use, 6 villa communities; 4 more are senior or assisted living, a materially narrower buyer pool. Commercial and government housing are now excluded from the client lenses and get no residential price estimate. Flagged 46 locality comparables that two neighbouring localities both claimed at the same rate, and re-graded the bands that only stood up on borrowed inventory."
+  },
   {
    "date": "2026-08-05",
    "summary": "Enrichment sweep. Researched plot land-rate and apartment bands for 52 localities (12 newly tracked) and selling prices for 59 apartment projects, 45 with pricing. 1,025 of 1,152 live projects now carry a price or a labelled locality estimate, up from 69. Fixed a scoring error that compared plotted layouts' LAND rates against apartment BUILT-UP bands: 'KG Kingdom Of Prosperity' had been the #2 project at 93 scoring 15/15 on relative pricing, but against Sriperumbudur's real land band its Rs 2,499/sqft is at the top of the market, not a discount — it now scores 77. Seven TNUHDB rehabilitation tenements reclassified as government housing: allotted to beneficiaries, never sold, so they carry no price, no estimate and no segment fit. 34 localities corrected where TNRERA's revenue village differs from the marketed micro-market — 'Palm Beach Phase II' was filed under Nemilicheri near Avadi but sits at Nemmeli on ECR, 40km south on the coast."

@@ -138,6 +138,9 @@ def infra_points_for(p, infra_points):
 # RETIRED in docs/assets/app.js — keep the two in step.
 RETIRED_STATUS = {'withdrawn', 'superseded', 'unverified'}
 
+# Types that are not a home, so no client-lens segment and no residential estimate.
+NON_RESIDENTIAL = {'commercial', 'government-housing'}
+
 
 def canonical_developer(promoter):
     """Map a raw promoter string to a canonical developer name for filtering."""
@@ -493,9 +496,12 @@ def main():
         p['score_breakdown'] = bd
         p['upside_score'] = score
 
-        # Housing that is allotted rather than sold suits no client segment —
-        # there is nothing to buy.
-        seg = ({'boardroom': 0, 'executive': 0, 'value': 0} if p.get('not_for_sale')
+        # A client lens is a residential lens. Allotted government housing has nothing
+        # to buy, and an office block or retail parade is not a home — 8 of these were
+        # filed under the building stream as "apartment" and would otherwise surface
+        # in the Boardroom and Executive lenses.
+        seg = ({'boardroom': 0, 'executive': 0, 'value': 0}
+               if p.get('not_for_sale') or p.get('type') in NON_RESIDENTIAL
                else segment_fit(p, loc, tier, ratio))
         p['segment_fit'] = seg
 

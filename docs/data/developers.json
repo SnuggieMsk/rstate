@@ -469,13 +469,13 @@
     "Chennai district"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "under-construction": 1
    },
-   "avg_upside_score": 60,
+   "avg_upside_score": 51,
    "best_project": {
     "name": "Aruna Delight",
     "id": "aruna-delight",
-    "score": 60
+    "score": 51
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -698,18 +698,20 @@
     "Virugambakkam"
    ],
    "stage_mix": {
-    "under-construction": 2,
+    "under-construction": 1,
+    "completed": 1,
     "new-launch": 2
    },
-   "avg_upside_score": 62,
+   "avg_upside_score": 58,
    "best_project": {
     "name": "Aanirudh Annapoorna Kamakshi",
     "id": "aanirudh-annapoorna-kamakshi-0385",
-    "score": 64
+    "score": 69
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 120,
+   "ticket_max_lakh": 244,
    "segments": [
+    "boardroom",
     "executive"
    ],
    "rera_registered_count": 4,
@@ -780,13 +782,13 @@
    "stage_mix": {
     "new-launch": 2
    },
-   "avg_upside_score": 58,
+   "avg_upside_score": 56,
    "best_project": {
     "name": "Alcazar",
     "id": "alcazar-0059",
-    "score": 62
+    "score": 59
    },
-   "ticket_min_lakh": null,
+   "ticket_min_lakh": 440,
    "ticket_max_lakh": null,
    "segments": [
     "boardroom"
@@ -852,19 +854,17 @@
     "Nandambakkam"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "completed": 1
    },
-   "avg_upside_score": 70,
+   "avg_upside_score": 51,
    "best_project": {
     "name": "Asv Crn Business Park",
     "id": "asv-crn-business-park-0196",
-    "score": 70
+    "score": 51
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [
-    "executive"
-   ],
+   "segments": [],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -993,9 +993,11 @@
     "id": "ecr-exotica-0080",
     "score": 48
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
-   "segments": [],
+   "ticket_min_lakh": 43.71,
+   "ticket_max_lakh": 175,
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -1015,16 +1017,16 @@
     "under-construction": 1,
     "new-launch": 2
    },
-   "avg_upside_score": 55,
+   "avg_upside_score": 53,
    "best_project": {
     "name": "Adityaram Palace City Paradise",
     "id": "adityaram-palace-city-paradise-0241",
-    "score": 70
+    "score": 67
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 500,
+   "ticket_max_lakh": 1000,
    "segments": [
-    "executive"
+    "boardroom"
    ],
    "rera_registered_count": 3,
    "high_risk_count": 0
@@ -1429,13 +1431,13 @@
     "new-launch": 1,
     "under-construction": 1
    },
-   "avg_upside_score": 66,
+   "avg_upside_score": 68,
    "best_project": {
-    "name": "Aanirudh Jagathguru",
-    "id": "aanirudh-jagathguru-0172",
-    "score": 68
+    "name": "Aanirudh'S Narmada",
+    "id": "aanirudh-s-narmada-0386",
+    "score": 70
    },
-   "ticket_min_lakh": null,
+   "ticket_min_lakh": 114,
    "ticket_max_lakh": null,
    "segments": [
     "boardroom",
@@ -1564,15 +1566,18 @@
    "stage_mix": {
     "new-launch": 1
    },
-   "avg_upside_score": 63,
+   "avg_upside_score": 68,
    "best_project": {
     "name": "Ara Vinesh Enclave",
     "id": "ara-vinesh-enclave-0245",
-    "score": 63
+    "score": 68
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
-   "segments": [],
+   "ticket_min_lakh": 53.94,
+   "ticket_max_lakh": 99.22,
+   "segments": [
+    "executive",
+    "value"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -1614,17 +1619,17 @@
     "Tiruvallur-Ponneri belt"
    ],
    "stage_mix": {
-    "new-launch": 1,
+    "under-construction": 1,
     "nearing-possession": 1
    },
-   "avg_upside_score": 64,
+   "avg_upside_score": 59,
    "best_project": {
     "name": "Arihant Vivriti",
     "id": "arihant-vivriti-0097",
-    "score": 68
+    "score": 59
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 220,
+   "ticket_max_lakh": 273,
    "segments": [
     "executive"
    ],
@@ -1652,9 +1657,7 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [
-    "executive"
-   ],
+   "segments": [],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -1771,17 +1774,16 @@
     "Mahabalipuram"
    ],
    "stage_mix": {
-    "under-construction": 2,
-    "new-launch": 2
+    "under-construction": 4
    },
-   "avg_upside_score": 47,
+   "avg_upside_score": 43,
    "best_project": {
     "name": "Ziva Assist",
     "id": "ziva-assist-0324",
     "score": 51
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 59.95,
+   "ticket_max_lakh": 117,
    "segments": [
     "executive"
    ],
@@ -1906,14 +1908,14 @@
     "under-construction": 1,
     "new-launch": 1
    },
-   "avg_upside_score": 56,
+   "avg_upside_score": 54,
    "best_project": {
-    "name": "Bhargavi Apartments",
-    "id": "bhargavi-apartments-0393",
-    "score": 57
+    "name": "Madhu Vanam",
+    "id": "madhu-vanam-1097",
+    "score": 55
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 345,
+   "ticket_max_lakh": 345,
    "segments": [
     "boardroom"
    ],
@@ -1939,9 +1941,11 @@
     "id": "ashiana-vatsalya-phase-ii-0290",
     "score": 42
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
-   "segments": [],
+   "ticket_min_lakh": 73,
+   "ticket_max_lakh": 163,
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -2088,19 +2092,17 @@
     "Akkarai"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "completed": 1
    },
-   "avg_upside_score": 66,
+   "avg_upside_score": 47,
    "best_project": {
     "name": "RERA Apartment by Asif Ali",
     "id": "rera-apartment-by-asif-ali-0154",
-    "score": 66
+    "score": 47
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [
-    "executive"
-   ],
+   "segments": [],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -2172,14 +2174,14 @@
     "new-launch": 3,
     "under-construction": 2
    },
-   "avg_upside_score": 55,
+   "avg_upside_score": 54,
    "best_project": {
     "name": "ATH MERLION Phase II",
     "id": "ath-merlion-phase-ii-0153",
-    "score": 67
+    "score": 64
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 66,
+   "ticket_max_lakh": 152,
    "segments": [
     "executive"
    ],
@@ -2274,14 +2276,14 @@
    "stage_mix": {
     "under-construction": 1
    },
-   "avg_upside_score": 54,
+   "avg_upside_score": 51,
    "best_project": {
     "name": "Avittam Nayanmar",
     "id": "avittam-nayanmar-0258",
-    "score": 54
+    "score": 51
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 90,
+   "ticket_max_lakh": 131,
    "segments": [
     "executive"
    ],
@@ -2857,14 +2859,14 @@
    "stage_mix": {
     "under-construction": 1
    },
-   "avg_upside_score": 57,
+   "avg_upside_score": 54,
    "best_project": {
     "name": "Bbcl Anugraha",
     "id": "bbcl-anugraha-0415",
-    "score": 57
+    "score": 54
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 558,
+   "ticket_max_lakh": 618,
    "segments": [
     "boardroom"
    ],
@@ -2895,7 +2897,8 @@
    "ticket_min_lakh": 411,
    "ticket_max_lakh": 411,
    "segments": [
-    "boardroom"
+    "boardroom",
+    "executive"
    ],
    "rera_registered_count": 2,
    "high_risk_count": 0
@@ -2939,14 +2942,13 @@
     "Padur"
    ],
    "stage_mix": {
-    "new-launch": 1,
-    "under-construction": 1
+    "under-construction": 2
    },
-   "avg_upside_score": 70,
+   "avg_upside_score": 65,
    "best_project": {
     "name": "City Scape",
     "id": "city-scape-0166",
-    "score": 76
+    "score": 67
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -2994,16 +2996,17 @@
     "Thiruvanmiyur"
    ],
    "stage_mix": {
-    "new-launch": 2
+    "new-launch": 1,
+    "under-construction": 1
    },
-   "avg_upside_score": 64,
+   "avg_upside_score": 62,
    "best_project": {
     "name": "Bluemoon Sea Breeze",
     "id": "bluemoon-sea-breeze-0171",
-    "score": 72
+    "score": 71
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 163,
+   "ticket_max_lakh": 270,
    "segments": [
     "boardroom",
     "executive"
@@ -3088,8 +3091,8 @@
     "id": "pushkar-s-gettu-apartments-0359",
     "score": 51
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 241,
+   "ticket_max_lakh": 330,
    "segments": [
     "executive"
    ],
@@ -3436,17 +3439,19 @@
     "Chengalpattu town"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "under-construction": 1
    },
-   "avg_upside_score": 60,
+   "avg_upside_score": 48,
    "best_project": {
     "name": "Casagrand Glenmere",
     "id": "casagrand-glenmere-0085",
-    "score": 60
+    "score": 48
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
-   "segments": [],
+   "ticket_min_lakh": 157,
+   "ticket_max_lakh": 225,
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 1
   },
@@ -3507,14 +3512,14 @@
     "under-construction": 6,
     "new-launch": 3
    },
-   "avg_upside_score": 70,
+   "avg_upside_score": 71,
    "best_project": {
     "name": "Casagrand Zanora",
     "id": "casagrand-zanora-0259",
     "score": 78
    },
    "ticket_min_lakh": 49,
-   "ticket_max_lakh": 293,
+   "ticket_max_lakh": 341,
    "segments": [
     "boardroom",
     "executive",
@@ -3637,19 +3642,20 @@
     "Nungambakkam"
    ],
    "stage_mix": {
-    "new-launch": 2
+    "under-construction": 2
    },
-   "avg_upside_score": 67,
+   "avg_upside_score": 62,
    "best_project": {
-    "name": "Shravan",
-    "id": "shravan-0240",
-    "score": 68
+    "name": "Rajshri",
+    "id": "rajshri-0129",
+    "score": 65
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 349,
+   "ticket_max_lakh": 363,
    "segments": [
     "boardroom",
-    "executive"
+    "executive",
+    "value"
    ],
    "rera_registered_count": 2,
    "high_risk_count": 0
@@ -3922,17 +3928,16 @@
     "new-launch": 1,
     "under-construction": 2
    },
-   "avg_upside_score": 61,
+   "avg_upside_score": 60,
    "best_project": {
     "name": "Amara Aneja",
     "id": "amara-aneja-0409",
-    "score": 65
+    "score": 62
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 623,
+   "ticket_max_lakh": 728,
    "segments": [
-    "boardroom",
-    "executive"
+    "boardroom"
    ],
    "rera_registered_count": 3,
    "high_risk_count": 0
@@ -3985,9 +3990,7 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [
-    "executive"
-   ],
+   "segments": [],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -4031,14 +4034,14 @@
    "stage_mix": {
     "under-construction": 1
    },
-   "avg_upside_score": 55,
+   "avg_upside_score": 60,
    "best_project": {
     "name": "Cube Luxor",
     "id": "cube-luxor-0401",
-    "score": 55
+    "score": 60
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 137,
+   "ticket_max_lakh": 158,
    "segments": [
     "executive"
    ],
@@ -4288,18 +4291,17 @@
     "Semmancheri"
    ],
    "stage_mix": {
-    "under-construction": 7,
-    "new-launch": 1,
+    "under-construction": 8,
     "pre-launch": 1
    },
-   "avg_upside_score": 55,
+   "avg_upside_score": 54,
    "best_project": {
     "name": "Cambridge By Dac",
     "id": "cambridge-by-dac-0041",
     "score": 68
    },
    "ticket_min_lakh": 19.49,
-   "ticket_max_lakh": 255,
+   "ticket_max_lakh": 264,
    "segments": [
     "executive"
    ],
@@ -4371,11 +4373,11 @@
     "Navalur"
    ],
    "stage_mix": {
-    "new-launch": 3,
+    "under-construction": 4,
     "pre-launch": 1,
-    "under-construction": 3
+    "new-launch": 2
    },
-   "avg_upside_score": 68,
+   "avg_upside_score": 67,
    "best_project": {
     "name": "DRA Inara",
     "id": "dra-inara",
@@ -4385,7 +4387,8 @@
    "ticket_max_lakh": 341,
    "segments": [
     "boardroom",
-    "executive"
+    "executive",
+    "value"
    ],
    "rera_registered_count": 5,
    "high_risk_count": 0
@@ -4451,17 +4454,19 @@
     "Poonamallee"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "under-construction": 1
    },
-   "avg_upside_score": 66,
+   "avg_upside_score": 58,
    "best_project": {
     "name": "Casagrand Zodiac",
     "id": "casagrand-zodiac-0134",
-    "score": 66
+    "score": 58
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
-   "segments": [],
+   "ticket_min_lakh": 76,
+   "ticket_max_lakh": 163,
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -5000,16 +5005,16 @@
    "stage_mix": {
     "under-construction": 1
    },
-   "avg_upside_score": 55,
+   "avg_upside_score": 52,
    "best_project": {
     "name": "Endee Eden",
     "id": "endee-eden-0330",
-    "score": 55
+    "score": 52
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 264,
+   "ticket_max_lakh": 264,
    "segments": [
-    "executive"
+    "boardroom"
    ],
    "rera_registered_count": 1,
    "high_risk_count": 0
@@ -5050,13 +5055,13 @@
     "Chennai"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "under-construction": 1
    },
-   "avg_upside_score": 56,
+   "avg_upside_score": 47,
    "best_project": {
     "name": "Arihant Ventura",
     "id": "arihant-ventura-0178",
-    "score": 56
+    "score": 47
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -5079,14 +5084,14 @@
    "stage_mix": {
     "under-construction": 1
    },
-   "avg_upside_score": 57,
+   "avg_upside_score": 54,
    "best_project": {
     "name": "Etica Malar Mrc Nagar",
     "id": "etica-malar-mrc-nagar-0281",
-    "score": 57
+    "score": 54
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 483,
+   "ticket_max_lakh": 1274,
    "segments": [
     "boardroom"
    ],
@@ -5132,18 +5137,19 @@
     "Thiruporur"
    ],
    "stage_mix": {
-    "new-launch": 1,
-    "under-construction": 2
+    "under-construction": 3
    },
-   "avg_upside_score": 55,
+   "avg_upside_score": 50,
    "best_project": {
-    "name": "Felixa Raveraa",
-    "id": "felixa-raveraa-0128",
-    "score": 63
+    "name": "Felixa Silver Springs",
+    "id": "felixa-silver-springs-4395",
+    "score": 59
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
-   "segments": [],
+   "ticket_min_lakh": 124,
+   "ticket_max_lakh": 215,
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 3,
    "high_risk_count": 1
   },
@@ -5158,17 +5164,19 @@
     "Vandalur"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "under-construction": 1
    },
-   "avg_upside_score": 72,
+   "avg_upside_score": 60,
    "best_project": {
     "name": "Felixa SKY MILANO",
     "id": "felixa-sky-milano-0088",
-    "score": 72
+    "score": 60
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
-   "segments": [],
+   "ticket_min_lakh": 130,
+   "ticket_max_lakh": 215,
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -5393,9 +5401,7 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [
-    "executive"
-   ],
+   "segments": [],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -5483,6 +5489,7 @@
    "ticket_min_lakh": 10.74,
    "ticket_max_lakh": 44.9,
    "segments": [
+    "boardroom",
     "executive",
     "value"
    ],
@@ -5733,8 +5740,8 @@
     "id": "gatala-advaya-0306",
     "score": 55
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 70,
+   "ticket_max_lakh": 110,
    "segments": [
     "executive"
    ],
@@ -5757,15 +5764,17 @@
     "new-launch": 1,
     "under-construction": 1
    },
-   "avg_upside_score": 50,
+   "avg_upside_score": 49,
    "best_project": {
     "name": "Republic Of Nature Phase - Ii",
     "id": "republic-of-nature-phase-ii-0019",
-    "score": 63
+    "score": 60
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
-   "segments": [],
+   "ticket_min_lakh": 35,
+   "ticket_max_lakh": 49,
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 2,
    "high_risk_count": 1
   },
@@ -5857,16 +5866,16 @@
    "stage_mix": {
     "new-launch": 1
    },
-   "avg_upside_score": 70,
+   "avg_upside_score": 67,
    "best_project": {
     "name": "Casagrand Vienna",
     "id": "casagrand-vienna-0184",
-    "score": 70
+    "score": 67
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 341,
+   "ticket_max_lakh": 1052,
    "segments": [
-    "executive"
+    "boardroom"
    ],
    "rera_registered_count": 1,
    "high_risk_count": 0
@@ -6013,13 +6022,13 @@
     "Chengalpattu town"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "under-construction": 1
    },
-   "avg_upside_score": 51,
+   "avg_upside_score": 42,
    "best_project": {
     "name": "Rishi - Phase I",
     "id": "rishi-phase-i-0168",
-    "score": 51
+    "score": 42
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -6307,9 +6316,7 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [
-    "executive"
-   ],
+   "segments": [],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -6530,16 +6537,17 @@
     "nearing-possession": 1,
     "new-launch": 1
    },
-   "avg_upside_score": 69,
+   "avg_upside_score": 73,
    "best_project": {
     "name": "Parkville at Hiranandani Parks",
     "id": "parkville-at-hiranandani-parks",
     "score": 75
    },
    "ticket_min_lakh": 60,
-   "ticket_max_lakh": null,
+   "ticket_max_lakh": 120,
    "segments": [
-    "executive"
+    "executive",
+    "value"
    ],
    "rera_registered_count": 2,
    "high_risk_count": 0
@@ -6583,16 +6591,16 @@
     "Thiruvanmiyur"
    ],
    "stage_mix": {
-    "new-launch": 3
+    "under-construction": 3
    },
-   "avg_upside_score": 71,
+   "avg_upside_score": 60,
    "best_project": {
     "name": "Harmony Mahalakshmi",
     "id": "harmony-mahalakshmi-0169",
-    "score": 72
+    "score": 64
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 149,
+   "ticket_max_lakh": 305,
    "segments": [
     "boardroom",
     "executive"
@@ -6833,14 +6841,14 @@
    "stage_mix": {
     "under-construction": 2
    },
-   "avg_upside_score": 58,
+   "avg_upside_score": 57,
    "best_project": {
     "name": "Raghu",
     "id": "raghu-0012",
     "score": 60
    },
    "ticket_min_lakh": 341,
-   "ticket_max_lakh": 395,
+   "ticket_max_lakh": 1000,
    "segments": [
     "boardroom"
    ],
@@ -6858,13 +6866,13 @@
     "Nolambur"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "under-construction": 1
    },
-   "avg_upside_score": 68,
+   "avg_upside_score": 59,
    "best_project": {
     "name": "Avellon",
     "id": "avellon-0242",
-    "score": 68
+    "score": 59
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -6939,16 +6947,16 @@
     "Vandalur"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "under-construction": 1
    },
-   "avg_upside_score": 63,
+   "avg_upside_score": 51,
    "best_project": {
     "name": "Isha Uni5",
     "id": "isha-uni5-0018",
-    "score": 63
+    "score": 51
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 68.72,
+   "ticket_max_lakh": 89.5,
    "segments": [],
    "rera_registered_count": 1,
    "high_risk_count": 0
@@ -6964,16 +6972,16 @@
     "Nandambakkam"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "under-construction": 1
    },
-   "avg_upside_score": 70,
+   "avg_upside_score": 66,
    "best_project": {
     "name": "Isha River Front",
     "id": "isha-river-front-0094",
-    "score": 70
+    "score": 66
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 90,
+   "ticket_max_lakh": 160,
    "segments": [
     "executive"
    ],
@@ -8652,15 +8660,16 @@
     "pre-launch": 1,
     "under-construction": 1
    },
-   "avg_upside_score": 66,
+   "avg_upside_score": 65,
    "best_project": {
     "name": "KG Signature City 2.0",
     "id": "kg-signature-city-2-0",
     "score": 79
    },
    "ticket_min_lakh": 15.34,
-   "ticket_max_lakh": 102,
+   "ticket_max_lakh": 461,
    "segments": [
+    "boardroom",
     "executive"
    ],
    "rera_registered_count": 4,
@@ -8704,15 +8713,16 @@
    "stage_mix": {
     "under-construction": 1
    },
-   "avg_upside_score": 70,
+   "avg_upside_score": 71,
    "best_project": {
     "name": "Altitude 9",
     "id": "altitude-9-0364",
-    "score": 70
+    "score": 71
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 188,
+   "ticket_max_lakh": 269,
    "segments": [
+    "boardroom",
     "executive"
    ],
    "rera_registered_count": 1,
@@ -8779,16 +8789,16 @@
     "Adambakkam"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "under-construction": 1
    },
-   "avg_upside_score": 72,
+   "avg_upside_score": 60,
    "best_project": {
     "name": "Kaadosh Cullinan",
     "id": "kaadosh-cullinan-0123",
-    "score": 72
+    "score": 60
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 148,
+   "ticket_max_lakh": 230,
    "segments": [
     "executive"
    ],
@@ -8833,15 +8843,17 @@
    "stage_mix": {
     "under-construction": 1
    },
-   "avg_upside_score": 62,
+   "avg_upside_score": 59,
    "best_project": {
     "name": "Ashiana Swarang Phase Iii",
     "id": "ashiana-swarang-phase-iii-0398",
-    "score": 62
+    "score": 59
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
-   "segments": [],
+   "ticket_min_lakh": 95,
+   "ticket_max_lakh": 268,
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 1
   },
@@ -9136,17 +9148,16 @@
     "T. Nagar"
    ],
    "stage_mix": {
-    "under-construction": 3,
-    "new-launch": 2
+    "under-construction": 5
    },
-   "avg_upside_score": 61,
+   "avg_upside_score": 60,
    "best_project": {
-    "name": "Kcee Varuni",
-    "id": "kcee-varuni-0142",
+    "name": "Kcee Srinivasam",
+    "id": "kcee-srinivasam-0341",
     "score": 70
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 215,
+   "ticket_max_lakh": 600,
    "segments": [
     "boardroom",
     "executive"
@@ -9192,17 +9203,16 @@
    "stage_mix": {
     "under-construction": 1
    },
-   "avg_upside_score": 63,
+   "avg_upside_score": 60,
    "best_project": {
     "name": "Kg Bliss On The Bay",
     "id": "kg-bliss-on-the-bay-0336",
-    "score": 63
+    "score": 60
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 460,
+   "ticket_max_lakh": 686,
    "segments": [
-    "boardroom",
-    "executive"
+    "boardroom"
    ],
    "rera_registered_count": 1,
    "high_risk_count": 0
@@ -9707,11 +9717,9 @@
     "id": "legendary-bliss-0423",
     "score": 51
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
-   "segments": [
-    "executive"
-   ],
+   "ticket_min_lakh": 366,
+   "ticket_max_lakh": 412,
+   "segments": [],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -9728,16 +9736,18 @@
    "stage_mix": {
     "under-construction": 1
    },
-   "avg_upside_score": 57,
+   "avg_upside_score": 65,
    "best_project": {
     "name": "Lifestyle - Ascend",
     "id": "lifestyle-ascend-0279",
-    "score": 57
+    "score": 65
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 247,
+   "ticket_max_lakh": 283,
    "segments": [
-    "boardroom"
+    "boardroom",
+    "executive",
+    "value"
    ],
    "rera_registered_count": 1,
    "high_risk_count": 0
@@ -10159,17 +10169,18 @@
     "Purasaiwalkam"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "under-construction": 1
    },
-   "avg_upside_score": 64,
+   "avg_upside_score": 55,
    "best_project": {
     "name": "Jai Shankeshwar Apartment",
     "id": "jai-shankeshwar-apartment-0090",
-    "score": 64
+    "score": 55
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
    "segments": [
+    "boardroom",
     "executive"
    ],
    "rera_registered_count": 1,
@@ -10886,16 +10897,16 @@
     "Madhanandhapuram"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "under-construction": 1
    },
-   "avg_upside_score": 64,
+   "avg_upside_score": 55,
    "best_project": {
     "name": "Mayuram",
     "id": "mayuram-0077",
-    "score": 64
+    "score": 55
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 146,
+   "ticket_max_lakh": 160.5,
    "segments": [
     "executive"
    ],
@@ -11013,15 +11024,17 @@
    "stage_mix": {
     "under-construction": 1
    },
-   "avg_upside_score": 49,
+   "avg_upside_score": 46,
    "best_project": {
     "name": "Lakewoods Towers H & I",
     "id": "lakewoods-towers-h-i-0276",
-    "score": 49
+    "score": 46
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
-   "segments": [],
+   "ticket_min_lakh": 70,
+   "ticket_max_lakh": 108,
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -11167,13 +11180,13 @@
     "Sithalapakkam"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "under-construction": 1
    },
-   "avg_upside_score": 64,
+   "avg_upside_score": 55,
    "best_project": {
     "name": "Meera’S Landmark",
     "id": "meera-s-landmark-0256",
-    "score": 64
+    "score": 55
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -11453,15 +11466,17 @@
     "new-launch": 1,
     "under-construction": 2
    },
-   "avg_upside_score": 57,
+   "avg_upside_score": 58,
    "best_project": {
     "name": "Mp Malarvanam",
     "id": "mp-malarvanam-2303",
     "score": 67
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
-   "segments": [],
+   "ticket_min_lakh": 77,
+   "ticket_max_lakh": 120,
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 3,
    "high_risk_count": 1
   },
@@ -11678,16 +11693,16 @@
     "Nanganallur"
    ],
    "stage_mix": {
-    "under-construction": 1
+    "completed": 1
    },
-   "avg_upside_score": 59,
+   "avg_upside_score": 46,
    "best_project": {
     "name": "Green Sai Nivas",
     "id": "green-sai-nivas-0392",
-    "score": 59
+    "score": 46
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 119,
+   "ticket_max_lakh": 161,
    "segments": [
     "executive"
    ],
@@ -12715,19 +12730,18 @@
     "Besant Nagar"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "completed": 1
    },
-   "avg_upside_score": 72,
+   "avg_upside_score": 53,
    "best_project": {
     "name": "Ramya Enclave",
     "id": "ramya-enclave-0230",
-    "score": 72
+    "score": 53
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
    "segments": [
-    "boardroom",
-    "executive"
+    "boardroom"
    ],
    "rera_registered_count": 1,
    "high_risk_count": 0
@@ -13003,8 +13017,8 @@
     "id": "hanu-luxe-palace-0195",
     "score": 56
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 64,
+   "ticket_max_lakh": 83.78,
    "segments": [],
    "rera_registered_count": 1,
    "high_risk_count": 0
@@ -13047,13 +13061,13 @@
     "Egmore"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "under-construction": 1
    },
-   "avg_upside_score": 64,
+   "avg_upside_score": 55,
    "best_project": {
     "name": "Jkb Ganapath",
     "id": "jkb-ganapath-0197",
-    "score": 64
+    "score": 55
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -13414,18 +13428,17 @@
     "T. Nagar"
    ],
    "stage_mix": {
-    "under-construction": 1
+    "completed": 1
    },
-   "avg_upside_score": 65,
+   "avg_upside_score": 55,
    "best_project": {
     "name": "Avantika",
     "id": "avantika-0323",
-    "score": 65
+    "score": 55
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 70.1,
+   "ticket_max_lakh": 95.3,
    "segments": [
-    "boardroom",
     "executive"
    ],
    "rera_registered_count": 1,
@@ -14071,18 +14084,19 @@
     "Varadharajapuram"
    ],
    "stage_mix": {
-    "under-construction": 1,
-    "new-launch": 1
+    "under-construction": 2
    },
-   "avg_upside_score": 47,
+   "avg_upside_score": 42,
    "best_project": {
     "name": "Nest Fascino",
     "id": "nest-fascino-0400",
     "score": 47
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
-   "segments": [],
+   "ticket_min_lakh": 63,
+   "ticket_max_lakh": 104,
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 2,
    "high_risk_count": 0
   },
@@ -14197,16 +14211,16 @@
     "Moggapair"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "under-construction": 1
    },
-   "avg_upside_score": 56,
+   "avg_upside_score": 47,
    "best_project": {
     "name": "Asta",
     "id": "asta-0004",
-    "score": 56
+    "score": 47
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 198,
+   "ticket_max_lakh": 235,
    "segments": [
     "executive"
    ],
@@ -14301,17 +14315,19 @@
     "Vyasarpadi"
    ],
    "stage_mix": {
-    "under-construction": 1
+    "new-launch": 1
    },
-   "avg_upside_score": 56,
+   "avg_upside_score": 62,
    "best_project": {
     "name": "Nova Platinum 64",
     "id": "nova-platinum-64-0340",
-    "score": 56
+    "score": 62
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
-   "segments": [],
+   "ticket_min_lakh": 250,
+   "ticket_max_lakh": 260,
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 1
   },
@@ -14353,17 +14369,18 @@
     "Arumbakkam"
    ],
    "stage_mix": {
-    "under-construction": 1
+    "new-launch": 1
    },
-   "avg_upside_score": 58,
+   "avg_upside_score": 68,
    "best_project": {
     "name": "Npsh Nivasam",
     "id": "npsh-nivasam-0410",
-    "score": 58
+    "score": 68
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 139,
+   "ticket_max_lakh": 279,
    "segments": [
+    "boardroom",
     "executive"
    ],
    "rera_registered_count": 1,
@@ -14525,13 +14542,13 @@
     "Choolaimedu"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "under-construction": 1
    },
-   "avg_upside_score": 67,
+   "avg_upside_score": 58,
    "best_project": {
     "name": "Ohpl - Opera Anandam",
     "id": "ohpl-opera-anandam-0224",
-    "score": 67
+    "score": 58
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -15079,18 +15096,19 @@
     "Porur"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "under-construction": 1
    },
-   "avg_upside_score": 66,
+   "avg_upside_score": 62,
    "best_project": {
     "name": "Bliss Tower (Tower A1-A2)",
     "id": "bliss-tower-tower-a1-a2-0192",
-    "score": 66
+    "score": 62
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 85,
+   "ticket_max_lakh": 99.82,
    "segments": [
-    "executive"
+    "executive",
+    "value"
    ],
    "rera_registered_count": 1,
    "high_risk_count": 0
@@ -15260,15 +15278,16 @@
    "stage_mix": {
     "under-construction": 1
    },
-   "avg_upside_score": 57,
+   "avg_upside_score": 54,
    "best_project": {
     "name": "Pawan'S Fortune Villas",
     "id": "pawan-s-fortune-villas-0367",
-    "score": 57
+    "score": 54
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 185,
+   "ticket_max_lakh": 219,
    "segments": [
+    "boardroom",
     "executive"
    ],
    "rera_registered_count": 1,
@@ -15287,18 +15306,19 @@
     "Perungalathur"
    ],
    "stage_mix": {
-    "under-construction": 2,
-    "new-launch": 1
+    "under-construction": 3
    },
-   "avg_upside_score": 59,
+   "avg_upside_score": 57,
    "best_project": {
-    "name": "Pearl Evita",
-    "id": "pearl-evita-0099",
-    "score": 66
+    "name": "Pearl Elita",
+    "id": "pearl-elita-0292",
+    "score": 62
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
-   "segments": [],
+   "ticket_min_lakh": 64.59,
+   "ticket_max_lakh": 110,
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 3,
    "high_risk_count": 0
   },
@@ -15340,14 +15360,14 @@
    "stage_mix": {
     "new-launch": 1
    },
-   "avg_upside_score": 70,
+   "avg_upside_score": 71,
    "best_project": {
     "name": "Pks Sai Bliss",
     "id": "pks-sai-bliss-0206",
-    "score": 70
+    "score": 71
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 155,
+   "ticket_max_lakh": 155,
    "segments": [
     "executive"
    ],
@@ -15709,8 +15729,8 @@
     "id": "priya-icon-0211",
     "score": 60
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 163,
+   "ticket_max_lakh": 221,
    "segments": [
     "executive"
    ],
@@ -15730,14 +15750,14 @@
    "stage_mix": {
     "under-construction": 1
    },
-   "avg_upside_score": 61,
+   "avg_upside_score": 62,
    "best_project": {
     "name": "Bluemoon Yash",
     "id": "bluemoon-yash-0310",
-    "score": 61
+    "score": 62
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 133,
+   "ticket_max_lakh": 167,
    "segments": [
     "executive"
    ],
@@ -15781,14 +15801,14 @@
     "new-launch": 1,
     "pre-launch": 1
    },
-   "avg_upside_score": 85,
+   "avg_upside_score": 84,
    "best_project": {
     "name": "Provident Sangam",
     "id": "provident-sangam",
-    "score": 87
+    "score": 84
    },
-   "ticket_min_lakh": 64,
-   "ticket_max_lakh": 91,
+   "ticket_min_lakh": 61,
+   "ticket_max_lakh": 98.9,
    "segments": [
     "executive"
    ],
@@ -15814,14 +15834,14 @@
     "new-launch": 3,
     "under-construction": 2
    },
-   "avg_upside_score": 63,
+   "avg_upside_score": 61,
    "best_project": {
     "name": "176@Defence Colony",
     "id": "176-defence-colony-0110",
-    "score": 70
+    "score": 67
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 149,
+   "ticket_max_lakh": 552,
    "segments": [
     "boardroom",
     "executive"
@@ -16345,17 +16365,19 @@
     "Ambattur"
    ],
    "stage_mix": {
-    "new-launch": 2
+    "under-construction": 2
    },
-   "avg_upside_score": 63,
+   "avg_upside_score": 51,
    "best_project": {
     "name": "Marutham Avana Block - A",
     "id": "marutham-avana-block-a-0255",
-    "score": 63
+    "score": 51
    },
-   "ticket_min_lakh": null,
+   "ticket_min_lakh": 125,
    "ticket_max_lakh": null,
-   "segments": [],
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 2,
    "high_risk_count": 0
   },
@@ -17085,14 +17107,14 @@
    "stage_mix": {
     "new-launch": 1
    },
-   "avg_upside_score": 66,
+   "avg_upside_score": 67,
    "best_project": {
     "name": "Rajus Maruthi",
     "id": "rajus-maruthi-0084",
-    "score": 66
+    "score": 67
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 97.7,
+   "ticket_max_lakh": 149,
    "segments": [
     "executive"
    ],
@@ -17165,17 +17187,19 @@
     "Velachery"
    ],
    "stage_mix": {
-    "new-launch": 3
+    "new-launch": 2,
+    "under-construction": 1
    },
-   "avg_upside_score": 66,
+   "avg_upside_score": 62,
    "best_project": {
     "name": "Ramaniyam Nivasam",
     "id": "ramaniyam-nivasam-0046",
     "score": 70
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 482,
+   "ticket_max_lakh": 539,
    "segments": [
+    "boardroom",
     "executive"
    ],
    "rera_registered_count": 3,
@@ -17194,17 +17218,18 @@
     "Urur"
    ],
    "stage_mix": {
-    "new-launch": 2
+    "under-construction": 2
    },
-   "avg_upside_score": 68,
+   "avg_upside_score": 59,
    "best_project": {
     "name": "Ramaniyam Sai Aranya",
     "id": "ramaniyam-sai-aranya-0081",
-    "score": 71
+    "score": 63
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 88.76,
+   "ticket_max_lakh": 378,
    "segments": [
+    "boardroom",
     "executive"
    ],
    "rera_registered_count": 2,
@@ -17221,16 +17246,16 @@
     "Chennai"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "under-construction": 1
    },
-   "avg_upside_score": 64,
+   "avg_upside_score": 55,
    "best_project": {
     "name": "Rams Sakura",
     "id": "rams-sakura-0263",
-    "score": 64
+    "score": 55
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 247,
+   "ticket_max_lakh": 264,
    "segments": [
     "executive"
    ],
@@ -17250,15 +17275,16 @@
    "stage_mix": {
     "new-launch": 1
    },
-   "avg_upside_score": 68,
+   "avg_upside_score": 73,
    "best_project": {
     "name": "Rams Apollo",
     "id": "rams-apollo-0181",
-    "score": 68
+    "score": 73
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 77.4,
+   "ticket_max_lakh": 117,
    "segments": [
+    "boardroom",
     "executive"
    ],
    "rera_registered_count": 1,
@@ -17304,16 +17330,17 @@
    "stage_mix": {
     "new-launch": 1
    },
-   "avg_upside_score": 70,
+   "avg_upside_score": 75,
    "best_project": {
     "name": "Liverpool",
     "id": "liverpool-0079",
-    "score": 70
+    "score": 75
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 82,
+   "ticket_max_lakh": 135,
    "segments": [
-    "executive"
+    "executive",
+    "value"
    ],
    "rera_registered_count": 1,
    "high_risk_count": 0
@@ -17566,9 +17593,7 @@
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [
-    "executive"
-   ],
+   "segments": [],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -17610,14 +17635,14 @@
    "stage_mix": {
     "under-construction": 1
    },
-   "avg_upside_score": 48,
+   "avg_upside_score": 45,
    "best_project": {
     "name": "Rld Aura",
     "id": "rld-aura-0309",
-    "score": 48
+    "score": 45
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 67.56,
+   "ticket_max_lakh": 89.59,
    "segments": [],
    "rera_registered_count": 1,
    "high_risk_count": 0
@@ -17633,18 +17658,19 @@
     "Padur"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "under-construction": 1
    },
-   "avg_upside_score": 76,
+   "avg_upside_score": 72,
    "best_project": {
     "name": "Rld Altima",
     "id": "rld-altima-0252",
-    "score": 76
+    "score": 72
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 59.08,
+   "ticket_max_lakh": 98,
    "segments": [
-    "executive"
+    "executive",
+    "value"
    ],
    "rera_registered_count": 1,
    "high_risk_count": 0
@@ -17713,18 +17739,19 @@
     "Adambakkam"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "under-construction": 1
    },
-   "avg_upside_score": 59,
+   "avg_upside_score": 58,
    "best_project": {
     "name": "Lions Gate",
     "id": "lions-gate-0127",
-    "score": 59
+    "score": 58
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 71.57,
+   "ticket_max_lakh": 143,
    "segments": [
-    "executive"
+    "executive",
+    "value"
    ],
    "rera_registered_count": 1,
    "high_risk_count": 0
@@ -17740,16 +17767,16 @@
     "Palavakkam"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "under-construction": 1
    },
-   "avg_upside_score": 72,
+   "avg_upside_score": 64,
    "best_project": {
     "name": "S&S Centris",
     "id": "s-s-centris-0033",
-    "score": 72
+    "score": 64
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 126,
+   "ticket_max_lakh": 193,
    "segments": [
     "executive"
    ],
@@ -17792,13 +17819,13 @@
     "Keelkattalai"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "under-construction": 1
    },
-   "avg_upside_score": 68,
+   "avg_upside_score": 59,
    "best_project": {
     "name": "Janav Jubliance",
     "id": "janav-jubliance-0096",
-    "score": 68
+    "score": 59
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -17971,14 +17998,14 @@
    "stage_mix": {
     "under-construction": 1
    },
-   "avg_upside_score": 54,
+   "avg_upside_score": 51,
    "best_project": {
     "name": "Avittam Thirunavukarasar",
     "id": "avittam-thirunavukarasar-0261",
-    "score": 54
+    "score": 51
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 90,
+   "ticket_max_lakh": 131,
    "segments": [
     "executive"
    ],
@@ -18073,16 +18100,16 @@
    "stage_mix": {
     "new-launch": 1
    },
-   "avg_upside_score": 68,
+   "avg_upside_score": 76,
    "best_project": {
     "name": "Guru Aishwarya Apartments",
     "id": "guru-aishwarya-apartments-0201",
-    "score": 68
+    "score": 76
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 41.6,
+   "ticket_max_lakh": 64.2,
    "segments": [
-    "executive"
+    "value"
    ],
    "rera_registered_count": 1,
    "high_risk_count": 0
@@ -18931,13 +18958,13 @@
     "Nandambakkam"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "under-construction": 1
    },
-   "avg_upside_score": 70,
+   "avg_upside_score": 61,
    "best_project": {
     "name": "Harmony",
     "id": "harmony-0249",
-    "score": 70
+    "score": 61
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
@@ -18984,17 +19011,19 @@
     "Perumbakkam"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "under-construction": 1
    },
-   "avg_upside_score": 72,
+   "avg_upside_score": 60,
    "best_project": {
     "name": "Sagar The One",
     "id": "sagar-the-one-0144",
-    "score": 72
+    "score": 60
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
-   "segments": [],
+   "ticket_min_lakh": 85,
+   "ticket_max_lakh": 90,
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 1
   },
@@ -19303,14 +19332,14 @@
     "new-launch": 1,
     "under-construction": 1
    },
-   "avg_upside_score": 55,
+   "avg_upside_score": 56,
    "best_project": {
     "name": "The President By Asta",
     "id": "the-president-by-asta-0288",
-    "score": 57
+    "score": 62
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 247,
+   "ticket_max_lakh": 1105,
    "segments": [
     "boardroom",
     "executive"
@@ -20109,19 +20138,17 @@
     "Mylapore"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "completed": 1
    },
-   "avg_upside_score": 66,
+   "avg_upside_score": 47,
    "best_project": {
     "name": "Park Center",
     "id": "park-center-0098",
-    "score": 66
+    "score": 47
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [
-    "boardroom"
-   ],
+   "segments": [],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -20696,17 +20723,19 @@
     "Vengaivasal"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "under-construction": 1
    },
-   "avg_upside_score": 67,
+   "avg_upside_score": 59,
    "best_project": {
     "name": "Ayyan Devesh",
     "id": "ayyan-devesh-0015",
-    "score": 67
+    "score": 59
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
-   "segments": [],
+   "ticket_min_lakh": 81.74,
+   "ticket_max_lakh": 93.73,
+   "segments": [
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -20796,20 +20825,17 @@
     "Adyar"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "completed": 1
    },
-   "avg_upside_score": 68,
+   "avg_upside_score": 49,
    "best_project": {
     "name": "SKCL Summit",
     "id": "skcl-summit-0071",
-    "score": 68
+    "score": 49
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
-   "segments": [
-    "boardroom",
-    "executive"
-   ],
+   "segments": [],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -20832,11 +20858,9 @@
     "id": "geetham-apartments-0092",
     "score": 64
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
-   "segments": [
-    "executive"
-   ],
+   "ticket_min_lakh": 59.6,
+   "ticket_max_lakh": 59.6,
+   "segments": [],
    "rera_registered_count": 1,
    "high_risk_count": 0
   },
@@ -20878,13 +20902,13 @@
    "stage_mix": {
     "new-launch": 1
    },
-   "avg_upside_score": 70,
+   "avg_upside_score": 67,
    "best_project": {
     "name": "Elite",
     "id": "elite-0009",
-    "score": 70
+    "score": 67
    },
-   "ticket_min_lakh": null,
+   "ticket_min_lakh": 180,
    "ticket_max_lakh": null,
    "segments": [
     "executive"
@@ -21466,18 +21490,18 @@
     "Koyambedu"
    ],
    "stage_mix": {
-    "new-launch": 1
+    "under-construction": 1
    },
-   "avg_upside_score": 79,
+   "avg_upside_score": 67,
    "best_project": {
     "name": "Amara Alaaya",
     "id": "amara-alaaya-0047",
-    "score": 79
+    "score": 67
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 305,
+   "ticket_max_lakh": 799,
    "segments": [
-    "executive"
+    "boardroom"
    ],
    "rera_registered_count": 1,
    "high_risk_count": 0
@@ -21650,20 +21674,20 @@
     "Perungudi"
    ],
    "stage_mix": {
-    "under-construction": 1,
-    "new-launch": 2
+    "under-construction": 3
    },
-   "avg_upside_score": 64,
+   "avg_upside_score": 60,
    "best_project": {
-    "name": "Swathi'S Tara",
-    "id": "swathi-s-tara-0056",
-    "score": 72
+    "name": "Swathi'S Shalom",
+    "id": "swathi-s-shalom-0231",
+    "score": 65
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 235,
+   "ticket_max_lakh": 405,
    "segments": [
     "boardroom",
-    "executive"
+    "executive",
+    "value"
    ],
    "rera_registered_count": 3,
    "high_risk_count": 1
@@ -21681,15 +21705,18 @@
    "stage_mix": {
     "new-launch": 1
    },
-   "avg_upside_score": 67,
+   "avg_upside_score": 64,
    "best_project": {
     "name": "Aurum Villa Phase 3",
     "id": "aurum-villa-phase-3-0147",
-    "score": 67
+    "score": 64
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
-   "segments": [],
+   "ticket_min_lakh": 180,
+   "ticket_max_lakh": 340,
+   "segments": [
+    "boardroom",
+    "executive"
+   ],
    "rera_registered_count": 1,
    "high_risk_count": 1
   },
@@ -22112,15 +22139,16 @@
    "stage_mix": {
     "under-construction": 1
    },
-   "avg_upside_score": 64,
+   "avg_upside_score": 69,
    "best_project": {
     "name": "Nexus",
     "id": "nexus-0325",
-    "score": 64
+    "score": 69
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 162,
+   "ticket_max_lakh": 279,
    "segments": [
+    "boardroom",
     "executive"
    ],
    "rera_registered_count": 1,
@@ -22145,8 +22173,8 @@
     "id": "rajmeena-paradise-0283",
     "score": 51
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 177,
+   "ticket_max_lakh": 194,
    "segments": [
     "executive"
    ],
@@ -22383,16 +22411,16 @@
     "Ottiambakkam"
    ],
    "stage_mix": {
-    "new-launch": 3
+    "under-construction": 3
    },
-   "avg_upside_score": 53,
+   "avg_upside_score": 44,
    "best_project": {
     "name": "Nest Beyonce",
     "id": "nest-beyonce-0133",
-    "score": 56
+    "score": 47
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 76,
+   "ticket_max_lakh": 115,
    "segments": [
     "executive"
    ],
@@ -22716,15 +22744,16 @@
    "stage_mix": {
     "under-construction": 1
    },
-   "avg_upside_score": 61,
+   "avg_upside_score": 58,
    "best_project": {
     "name": "Rivera",
     "id": "rivera-0422",
-    "score": 61
+    "score": 58
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 167,
+   "ticket_max_lakh": 202,
    "segments": [
+    "boardroom",
     "executive"
    ],
    "rera_registered_count": 1,
@@ -22774,8 +22803,8 @@
     "id": "luxe-loft-0286",
     "score": 42
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 41.03,
+   "ticket_max_lakh": 79.61,
    "segments": [],
    "rera_registered_count": 1,
    "high_risk_count": 0
@@ -24191,16 +24220,17 @@
    "stage_mix": {
     "under-construction": 1
    },
-   "avg_upside_score": 59,
+   "avg_upside_score": 64,
    "best_project": {
     "name": "Sai Harmony",
     "id": "sai-harmony-0396",
-    "score": 59
+    "score": 64
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 77,
+   "ticket_max_lakh": 111,
    "segments": [
-    "executive"
+    "executive",
+    "value"
    ],
    "rera_registered_count": 1,
    "high_risk_count": 1
@@ -24425,14 +24455,14 @@
    "stage_mix": {
     "new-launch": 1
    },
-   "avg_upside_score": 72,
+   "avg_upside_score": 69,
    "best_project": {
     "name": "Rishab Apartments",
     "id": "rishab-apartments-0103",
-    "score": 72
+    "score": 69
    },
-   "ticket_min_lakh": null,
-   "ticket_max_lakh": null,
+   "ticket_min_lakh": 90,
+   "ticket_max_lakh": 108,
    "segments": [
     "executive"
    ],
@@ -24477,13 +24507,13 @@
     "Thiruporur"
    ],
    "stage_mix": {
-    "new-launch": 3
+    "under-construction": 3
    },
-   "avg_upside_score": 63,
+   "avg_upside_score": 54,
    "best_project": {
     "name": "Palm Beach – Phase Ii",
     "id": "palm-beach-phase-ii-0020",
-    "score": 67
+    "score": 58
    },
    "ticket_min_lakh": null,
    "ticket_max_lakh": null,
