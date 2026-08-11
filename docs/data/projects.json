@@ -42783,47 +42783,53 @@
    "lng": 80.213806,
    "geo_precision": "exact",
    "total_units": 10,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "price_sqft_min": 8000,
+   "price_sqft_max": 8000,
    "ticket_note": null,
-   "expected_completion": "2030-12-31",
-   "stage": "new-launch",
+   "expected_completion": "2030-12",
+   "stage": "under-construction",
    "status": "active",
    "data_confidence": "verified",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0186-2026/sai-prestige"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0186-2026/sai-prestige",
+    "https://www.roofandfloor.com/chennai/project/anugragha-sai-prestige-in-pallikaranai/7491",
+    "https://www.nobroker.in/anugragha-sai-prestige-pallikaranai_chennai-prjt-8aa9a9369f260a16019f268922943aca",
+    "https://houssed.com/chennai/anugragha-builders/anugragha-sai-prestige-152640",
+    "https://www.aurumproptech.in/pulse/properties/chennai/pallikaranai/anugragha-builder-sai-prestige-3523918"
    ],
-   "notes": "TNRERA registry record (Chennai district) · Village: Pallikaranani · Pincode 600100 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district) · Village: Pallikaranani · Pincode 600100 · Pricing not published in the registry — verify with the promoter. IDENTITY CONFIRMED: roofandfloor carries RERA TNRERA/29/BLG/0186/2026 verbatim, matching the input record exactly. Marketed as 'Anugragha Sai Prestige'. Address: No.439 & 440, 2nd Main Road, AGS Colony, Kamakotti Nagar, Pallikaranai 600100. RATE RECOMPUTED, NOT COPIED: 1.6Cr/2000sqft = Rs 8,000/sqft and 1.64Cr/2050sqft = Rs 8,000/sqft — both tally exactly with the quoted Rs 8,000, so the figure is internally consistent. roofandfloor flags the 1.6-1.64Cr as base price EXCLUDING other charges, so the all-in ticket will run above 164 lakh. TWO UNRESOLVED CONFLICTS: (1) unit count — roofandfloor says 4 units, the RERA record in the input says 10; I left total_units null rather than overwrite the RERA figure with a portal count. (2) possession — roofandfloor says Dec 2030, while nobroker/aurumproptech snippets say 'Possession Start Date: July 2026'; a 2026 RERA registration makes Dec 2030 far more plausible, so I recorded that, but the conflict is unresolved. Land area 0.08 acres (~3,485 sqft) is credible for a 4-unit boutique block but not for 10 units — treat as low confidence, tied to the same unit-count conflict.",
    "last_checked": "2026-08-05",
    "developer": "Ms ANUGRAGHA BUILDERS",
    "score_breakdown": {
-    "entry_stage": 21,
+    "entry_stage": 12,
     "infrastructure": 16,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 60,
+   "upside_score": 51,
    "segment_fit": {
-    "boardroom": 50,
+    "boardroom": 10,
     "executive": 65,
     "value": 0
    },
    "risk": "Medium",
    "tags": [
-    "Early Entrant",
     "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure. Caveats: limited developer track record.",
+   "score_rationale": "Scores on close to upcoming metro/infrastructure. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export",
-   "est_price_sqft_min": 12000,
-   "est_price_sqft_max": 18000,
-   "est_ticket_min_lakh": 192.0,
-   "est_ticket_max_lakh": 288.0,
-   "est_basis": "built-up rate for Central Chennai corridor median of 24 localities, applied to a typical 1,600 sqft unit",
-   "est_source": "corridor"
+   "ticket_min_lakh": 160,
+   "ticket_max_lakh": 164,
+   "unit_size_min_sqft": 2000,
+   "unit_size_max_sqft": 2050,
+   "land_area_acres": 0.08,
+   "config_mix": "3 BHK only, 2000-2050 sqft",
+   "dominant_config": "3 BHK",
+   "rate_basis": "asking",
+   "price_confidence": "reported"
   },
   {
    "id": "sai-skanda-paradise-phase-1-1879",
@@ -43110,47 +43116,54 @@
    "lat": 13.0732,
    "lng": 80.2609,
    "geo_precision": "approximate",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "total_units": 12,
+   "price_sqft_min": 18378,
+   "price_sqft_max": 19744,
    "ticket_note": null,
    "expected_completion": null,
    "stage": "under-construction",
    "status": "active",
    "data_confidence": "reported",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0350-2025/salma-panache-residences"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0350-2025/salma-panache-residences",
+    "https://www.salmaconstructions.com/panache-residency.html",
+    "https://www.propleaf.com/residential-project-salma-panache-residences",
+    "https://www.99acres.com/property-rates-and-price-trends-in-egmore-chennai-central-prffid"
    ],
-   "notes": "TNRERA registry record (Chennai district, Egmore taluk) · Village: Egmore · Pincode 600010 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district, Egmore taluk) · Village: Egmore · Pincode 600010 · Pricing not published in the registry — verify with the promoter. PRICED FROM TWO SOURCES, WITH A SIZE DISCREPANCY. (1) Promoter's own website (best source) lists three 3BHK flats at 1,850 / 1,877 / 1,947 sqft, 'starting from Rs 3.4 Crore', 12 units, 5 floors, status Ongoing. (2) Propleaf lists 1,778 / 1,800 / 1,874 sqft (carpet 1,244-1,311) at Rs 3.5-3.7 Cr and quotes Rs 19,000/sqft. The two sources disagree on unit sizes by roughly 70-100 sqft — I have recorded the union (1,778-1,947) rather than picking one. PER-SQFT RECOMPUTED BY ME, never copied: promoter 3.4Cr/1850 = Rs 18,378; Propleaf 3.5Cr/1778 = Rs 19,685 and 3.7Cr/1874 = Rs 19,744. Recorded range 18,378-19,744/sqft. Propleaf's quoted Rs 19,000 is close to my recomputation, so no sulekha-style 10x error here. Sanity check passes: 18,378 x 1850 / 100000 = 340 lakh. Cross-check: 99acres puts the Egmore average at Rs 18,700/sqft, so this project prices at/just above locality average, which is plausible for a boutique 3BHK. Asking rates, not transacted. No RERA number published on either page and no possession date anywhere.",
    "last_checked": "2026-08-05",
    "developer": "Salma Constructions",
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 16,
     "locality_momentum": 9,
-    "relative_pricing": 7,
+    "relative_pricing": 4,
     "developer_track_record": 3,
     "rental_yield": 8
    },
-   "upside_score": 55,
+   "upside_score": 52,
    "segment_fit": {
-    "boardroom": 20,
-    "executive": 85,
+    "boardroom": 90,
+    "executive": 45,
     "value": 0
    },
    "risk": "Medium",
    "tags": [
-    "Executive",
+    "Boardroom",
+    "Premium",
     "Steady/Rental"
    ],
    "score_rationale": "Scores on close to upcoming metro/infrastructure. Caveats: limited developer track record.",
-   "est_price_sqft_min": 11000,
-   "est_price_sqft_max": 16000,
-   "est_ticket_min_lakh": 115.5,
-   "est_ticket_max_lakh": 168.0,
-   "est_basis": "built-up rate for Egmore, applied to a typical 1,050 sqft unit",
-   "est_source": "locality"
+   "ticket_min_lakh": 340,
+   "ticket_max_lakh": 370,
+   "unit_size_min_sqft": 1778,
+   "unit_size_max_sqft": 1947,
+   "config_mix": "3BHK only (Flats A/B/C per promoter floor plan)",
+   "dominant_config": "3BHK",
+   "density_note": "Boutique: 12 units over 5 floors on a single block.",
+   "rate_basis": "asking",
+   "price_confidence": "reported"
   },
   {
    "id": "samandam-avenue-1296",
@@ -44627,19 +44640,21 @@
    "lat": 12.7256,
    "lng": 80.1911,
    "geo_precision": "approximate",
-   "total_units": null,
+   "total_units": 16,
    "price_sqft_min": null,
    "price_sqft_max": null,
    "ticket_note": null,
-   "expected_completion": null,
+   "expected_completion": "2026-08",
    "stage": "under-construction",
    "status": "active",
    "data_confidence": "reported",
    "source": "rera-registry",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0314-2025/sea-la-vie"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0314-2025/sea-la-vie",
+    "https://sealavie.in/",
+    "https://www.nobroker.in/sea-la-vie--thiruporur_chennai-prjt-e1z7x7d3u3b9i2b9y7h5h5o3"
    ],
-   "notes": "TNRERA registry record (Chengalpattu district, Thiruporur taluk) · Village: Kanathur Reddykuppam · Pincode 603112 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chengalpattu district, Thiruporur taluk) · Village: Kanathur Reddykuppam · Pincode 603112 · Pricing not published in the registry — verify with the promoter. IDENTITY CONFIRMED: promoter's own site sealavie.in states RERA TNRERA/35/BLG/0314/2025, and NoBroker's page carries the same RERA number dated 22-09-2025. NO PRICE PUBLISHED ANYWHERE. The promoter's site has no price page; NoBroker shows 'Not Available' for both price and price/sqft. Do not substitute the Kanathur locality average (~Rs 5,850/sqft on 99acres) — this is a 16-unit 3/4BHK boutique beachfront product that would sit well above it. CONFLICTS: NoBroker lists '1 BHK' and 'Ready to Move'; the promoter site says 3 & 4 BHK, 1533-2683 sqft, Aug 2026 handover — trust the promoter. Beware name collisions: 'Sea La Vie' is also a Covelong beach resort, a Kovalam serviced-villa operation, and a 605-unit Yas Bay Abu Dhabi project by 9Yards; none are this project.",
    "last_checked": "2026-08-05",
    "developer": "Hiran Prathap Venkatapuram",
    "score_breakdown": {
@@ -44652,7 +44667,7 @@
    },
    "upside_score": 62,
    "segment_fit": {
-    "boardroom": 0,
+    "boardroom": 30,
     "executive": 55,
     "value": 30
    },
@@ -44661,6 +44676,9 @@
     "Watchlist/Risky"
    ],
    "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market. Caveats: flood-prone zone, limited developer track record.",
+   "unit_size_min_sqft": 1533,
+   "unit_size_max_sqft": 2683,
+   "config_mix": "3 BHK, 4 BHK",
    "est_price_sqft_min": 4650,
    "est_price_sqft_max": 4900,
    "est_ticket_min_lakh": 27.9,
@@ -46028,48 +46046,54 @@
    "lng": 80.26695,
    "geo_precision": "exact",
    "total_units": 14,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "price_sqft_min": 19479,
+   "price_sqft_max": 19481,
    "ticket_note": null,
-   "expected_completion": "2033-10-14",
-   "stage": "new-launch",
+   "expected_completion": "2033-10-14 (RERA outer completion date, not a marketing possession date)",
+   "stage": "under-construction",
    "status": "active",
    "data_confidence": "verified",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0135-2026/shreyas-by-sannareddy-homes"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0135-2026/shreyas-by-sannareddy-homes",
+    "https://www.roofandfloor.com/chennai/project/sannareddy-shreyas-in-besant-nagar/7461",
+    "https://www.chennaiproperties.com/projects/sannareddy-shreyas-in-besant-nagar/7102",
+    "https://www.aurumproptech.in/pulse/rera/tamil-nadu/chennai/shreyas-by-sannareddy-homes/5741",
+    "https://www.99acres.com/shreyas-by-sannareddy-homes-photos-thiruvanmiyur-chennai-south-npxid-r465538"
    ],
-   "notes": "TNRERA registry record (Chennai district, Velachery taluk) · Village: Thiruvanmiyur · Pincode 600090 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district, Velachery taluk) · Village: Thiruvanmiyur · Pincode 600090 · Pricing not published in the registry — verify with the promoter. STRONG IDENTITY MATCH — the highest-confidence record in this batch after VIVA Vesta. Unit count (14) matches the RERA record exactly, and AurumPropTech's page title carries the exact RERA number TNRERA/29/BLG/0135/2026. Price Rs 4.13 Cr - 5.61 Cr across 2,120-2,880 sqft, consistent on both RoofandFloor and ChennaiProperties. PER-SQFT RECOMPUTED BY ME: 4.13Cr/2120 = Rs 19,481 and 5.61Cr/2880 = Rs 19,479 — the two ends agree to within Rs 2/sqft, which means the developer is pricing on a flat per-sqft rate of ~Rs 19,480. Sanity check passes. WARNING FOR THE PARENT AGENT: the search engine's own summary of these figures computed the per-sqft as 'Rs 19.44-19.48 LAKHS per sqft' — a 100x error from dividing crores by sqft without unit conversion. Ignore that; the correct figure is ~Rs 19,480/sqft. Asking rate. The Oct 2033 date is the RERA-declared outer limit typical of small promoters and should not be read as expected handover.",
    "last_checked": "2026-08-05",
    "developer": "Sannareddy Homes",
    "score_breakdown": {
-    "entry_stage": 21,
+    "entry_stage": 12,
     "infrastructure": 20,
     "locality_momentum": 15,
-    "relative_pricing": 7,
+    "relative_pricing": 8,
     "developer_track_record": 3,
     "rental_yield": 6
    },
-   "upside_score": 72,
+   "upside_score": 64,
    "segment_fit": {
-    "boardroom": 70,
-    "executive": 85,
+    "boardroom": 90,
+    "executive": 45,
     "value": 0
    },
    "risk": "Medium",
    "tags": [
-    "Early Entrant",
     "Boardroom",
-    "Executive"
+    "Premium"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export",
-   "est_price_sqft_min": 12000,
-   "est_price_sqft_max": 23300,
-   "est_ticket_min_lakh": 126.0,
-   "est_ticket_max_lakh": 244.7,
-   "est_basis": "built-up rate for Thiruvanmiyur, applied to a typical 1,050 sqft unit",
-   "est_source": "locality"
+   "ticket_min_lakh": 413,
+   "ticket_max_lakh": 561,
+   "unit_size_min_sqft": 2120,
+   "unit_size_max_sqft": 2880,
+   "config_mix": "3 & 4 BHK",
+   "dominant_config": "3BHK and 4BHK",
+   "density_note": "Ultra-boutique: 14 large units, average ~2,500 sqft.",
+   "rate_basis": "asking",
+   "price_confidence": "reported"
   },
   {
    "id": "shri-balajee-garden-4384",
@@ -46138,45 +46162,50 @@
    "lng": 79.9864,
    "geo_precision": "approximate",
    "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "price_sqft_min": 9980,
+   "price_sqft_max": 10580,
    "ticket_note": null,
-   "expected_completion": null,
+   "expected_completion": "March 2030",
    "stage": "under-construction",
    "status": "active",
    "data_confidence": "reported",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0278-2025/shrinay-grandeur"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0278-2025/shrinay-grandeur",
+    "https://www.nobroker.in/flats-for-sale-in-prem-shrinay-grandeur-ecr-chennai-prjtl",
+    "https://www.99acres.com/shrinay-grandeur-by-prem-developer-kanathur-chennai-south-npxid-r452840"
    ],
-   "notes": "TNRERA registry record (Chengalpattu district, Thiruporur taluk) · Village: Kanathur Reddykuppam · Pincode 603112 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chengalpattu district, Thiruporur taluk) · Village: Kanathur Reddykuppam · Pincode 603112 · Pricing not published in the registry — verify with the promoter. Identity CONFIRMED — RERA TNRERA/35/BLG/0278/2025 dated 14-08-2025 matches exactly, promoter Prem Developer matches. Two source clusters disagree mildly and I have NOT averaged them: NoBroker gives 2,305-2,411 sqft super at Rs 2.41-2.55 Cr, and a 99acres-derived listing gives 2,334-2,446 sqft at Rs 2.33-2.45 Cr. Per-sqft RECOMPUTED by me from each pair rather than copied: 2.41Cr/2305 = Rs 10,456; 2.55Cr/2411 = Rs 10,576; 2.33Cr/2334 = Rs 9,983; 2.45Cr/2446 = Rs 10,016. Hence the Rs 9,980-10,580 band. Both clusters are internally consistent, which is a good sign the underlying rate is real. Ticket range spans the union: Rs 233-255 lakh. Asking rates on a 2030-possession under-construction project, so transacted will likely sit below. No promoter website located for Prem Developer. Total units not published by any source.",
    "last_checked": "2026-08-05",
    "developer": "Prem Developer",
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 7,
     "locality_momentum": 9,
-    "relative_pricing": 7,
+    "relative_pricing": 4,
     "developer_track_record": 3,
     "rental_yield": 4
    },
-   "upside_score": 42,
+   "upside_score": 39,
    "segment_fit": {
     "boardroom": 0,
-    "executive": 35,
+    "executive": 65,
     "value": 30
    },
    "risk": "High",
    "tags": [
+    "Executive",
     "Watchlist/Risky"
    ],
    "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
-   "est_price_sqft_min": 4200,
-   "est_price_sqft_max": 6400,
-   "est_ticket_min_lakh": 42.0,
-   "est_ticket_max_lakh": 64.0,
-   "est_basis": "built-up rate for Chengalpattu town, applied to a typical 1,000 sqft unit",
-   "est_source": "locality"
+   "ticket_min_lakh": 233,
+   "ticket_max_lakh": 255,
+   "unit_size_min_sqft": 2305,
+   "unit_size_max_sqft": 2446,
+   "config_mix": "3 BHK only",
+   "dominant_config": "3 BHK",
+   "rate_basis": "asking",
+   "price_confidence": "reported"
   },
   {
    "id": "shriram-green-meadows-0187",
@@ -46200,9 +46229,11 @@
    "data_confidence": "verified",
    "source": "rera-registry",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0187-2026/shriram-green-meadows"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0187-2026/shriram-green-meadows",
+    "https://www.nobroker.in/shriram-green-meadows-t.-nagar_chennai-prjt-6a1ff89b4b3e3154548c578d",
+    "https://shriramnewlaunch.com/chennai/shriram-green-meadows/"
    ],
-   "notes": "TNRERA registry record (Chengalpattu district, Vandalure taluk) · Pincode 603202 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chengalpattu district, Vandalure taluk) · Pincode 603202 · Pricing not published in the registry — verify with the promoter. Identity confirmed ONLY by exact RERA match on NoBroker: TNRERA/35/BLG/0187/2026, promoter 'Shriprop Structures Pvt Ltd'. NO PRICE PUBLISHED ANYWHERE — pre-launch, price on request across all sources. Two serious data hazards, so I left every numeric field null: (1) NAME COLLISION — Shriram Properties runs a DIFFERENT 'Shriram Green Meadows' in Bangalore (shriramgreenmeadows.net.in, 'New Launch Bangalore'); the tier-3 microsite shriramnewlaunch.com describes a 36-acre / 80-unit / 1&2BHK / possession-2031 project with 'RERA approval under process', which contradicts this record's issued TN RERA number and may be describing the Bangalore project or generic filler. (2) NoBroker itself contradicts that, saying 462 apartments in 1 tower and status 'Ready to Move' — implausible for a 2026 registration. NoBroker also files the address as 'T. Nagar, Chennai 603202', but pincode 603202 is the Vandalur/Kattankulathur belt, i.e. T Nagar is the registered office, not the site. Unit count is unresolvable between 80 and 462, so reported as null.",
    "last_checked": "2026-08-05",
    "developer": "Shriprop Structures",
    "score_breakdown": {
@@ -46304,7 +46335,7 @@
    "promoter": "Shriram Properties Limited",
    "rera_no": "TNRERA/1/BLG/0167/2026",
    "registration_date": "2026",
-   "type": "apartment",
+   "type": "villa",
    "locality": "Sriperumbudur",
    "corridor": "Sriperumbudur–Oragadam",
    "lat": 13.028444,
@@ -46320,9 +46351,12 @@
    "data_confidence": "verified",
    "source": "rera-registry",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-1-blg-0167-2026/shriram-santrupthi-phase-2"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-1-blg-0167-2026/shriram-santrupthi-phase-2",
+    "https://beta.shriramproperties.co/santrupthi/",
+    "https://www.roofandfloor.com/chennai/project/shriram-santrupthi-independent-villas-in-sriperumbudur/4353",
+    "https://www.nobroker.in/shriram-santrupthi-independent-villas-chennai_chennai-prjt-5ba1bad8714b56945b46fd52"
    ],
-   "notes": "TNRERA registry record (Kancheepuram district, Sriperumbudur taluk) · Pincode 602105 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Kancheepuram district, Sriperumbudur taluk) · Pincode 602105 · Pricing not published in the registry — verify with the promoter. All public sources describe Santrupthi as INDEPENDENT VILLAS, not apartments. TNRERA files it under BLG/Building, which is why the registry reads 'apartment'. Phase 2's own product type is unconfirmed — the promoter's township page says One City contains villas, senior living, plots AND apartments, so a 12-unit apartment block is possible. NO PRICE FOUND FOR PHASE 2 SPECIFICALLY, and I deliberately left the price fields null rather than borrow Phase 1's. No portal carries TNRERA/1/BLG/0167/2026; every listing points at the earlier phases. CONTEXT ONLY (do NOT write these into the Phase 2 record as its price): (a) the promoter's own site beta.shriramproperties.co/santrupthi currently advertises 2BHK villas from Rs 30.62 L and 3BHK at Rs 54.27 L, 1205-1551 sqft SBA, under RERA TN/01/BUILDING/0191/2018 and TN/01/BUILDING/0408/2020 — neither is the Phase 2 registration; (b) RoofandFloor/NoBroker still show an older, smaller config set — 87 villas, 1 & 2 BHK, 682-1179 sqft, Rs 20.46 L - 35.37 L, which recomputes to exactly Rs 3,000/sqft at BOTH ends (20.46L/682 and 35.37L/1179), i.e. a stale flat-rate teaser. The two source sets disagree materially on both size band and price band, which is why I am not carrying either forward.",
    "last_checked": "2026-08-05",
    "developer": "Shriram Properties",
    "score_breakdown": {
@@ -46336,16 +46370,17 @@
    "upside_score": 67,
    "segment_fit": {
     "boardroom": 10,
-    "executive": 70,
+    "executive": 50,
     "value": 30
    },
    "risk": "Low",
    "tags": [
-    "Early Entrant",
-    "Executive"
+    "Early Entrant"
    ],
    "score_rationale": "Scores on early entry stage, rising micro-market.",
    "rera_verified_on": "official TNRERA export",
+   "special_use": "senior-living",
+   "not_general_market": true,
    "est_price_sqft_min": 3400,
    "est_price_sqft_max": 5950,
    "est_ticket_min_lakh": 32.3,
@@ -46494,48 +46529,56 @@
    "lat": 13.0067,
    "lng": 80.2206,
    "geo_precision": "approximate",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "total_units": 45,
+   "price_sqft_min": 14780,
+   "price_sqft_max": 15421,
    "ticket_note": null,
-   "expected_completion": null,
+   "expected_completion": "2028-12",
    "stage": "under-construction",
    "status": "active",
    "data_confidence": "reported",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0264-2025/sidharth-solitaire"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0264-2025/sidharth-solitaire",
+    "https://www.sidharthhousing.in/sidharth-solitaire/",
+    "https://www.roofandfloor.com/chennai/project/sidharth-solitaire-in-ekkaduthangal/7154",
+    "https://www.nobroker.in/sidharth-solitaire-ekkatuthangal_chennai-prjt-8a9fa18599274fd20199279eeda6110f",
+    "https://findbhk.com/projects/sidharth-solitaire-ekkattuthangal",
+    "https://www.chennaiproperties.com/projects/sidharth-solitaire-in-ekkaduthangal/6986"
    ],
-   "notes": "TNRERA registry record (Chennai district, Guindy taluk) · Village: Ekkaduthangal · Pincode 600032 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district, Guindy taluk) · Village: Ekkaduthangal · Pincode 600032 · Pricing not published in the registry — verify with the promoter. IDENTITY CONFIRMED TWICE: both the promoter's own site and roofandfloor carry RERA TNRERA/29/BLG/0264/2025, matching the input exactly. RATE RECOMPUTED — DO NOT USE THE QUOTED PER-SQFT. Both sources publish a headline per-sqft that is LOWER than what their own total prices imply, i.e. the quoted rate is a base rate excluding charges: roofandfloor quotes 'Rs 12,699/sqft' but its all-inclusive totals recompute to 2.81Cr/1900 = Rs 14,789 and 4.01Cr/2713 = Rs 14,780; the promoter site quotes 'Rs 13,499/sqft' but its totals recompute to 2.93Cr/1900 = Rs 15,421 and 4.12Cr/2699 = Rs 15,265. I have recorded the RECOMPUTED ALL-IN band 14,780-15,421/sqft. The quoted base rates (12,699-13,499) are what a buyer will see advertised — roughly 13-14% below the true all-in rate. SOURCE SPREAD: the promoter (tier-1 source, likely most current) is about 4% above roofandfloor on both configs; ticket range recorded spans both, 281 lakh low end (roofandfloor 3BHK) to 412 lakh high end (promoter 4BHK). 45 units on 0.8 acres — a genuinely low-density boutique tower for this corridor.",
    "last_checked": "2026-08-05",
    "developer": "Sidharth Foundations Housing",
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 16,
     "locality_momentum": 9,
-    "relative_pricing": 7,
+    "relative_pricing": 12,
     "developer_track_record": 3,
     "rental_yield": 8
    },
-   "upside_score": 55,
+   "upside_score": 60,
    "segment_fit": {
-    "boardroom": 60,
-    "executive": 85,
-    "value": 0
+    "boardroom": 90,
+    "executive": 55,
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
     "Boardroom",
-    "Executive",
+    "Premium",
     "Steady/Rental"
    ],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure. Caveats: limited developer track record.",
-   "est_price_sqft_min": 12000,
-   "est_price_sqft_max": 19000,
-   "est_ticket_min_lakh": 126.0,
-   "est_ticket_max_lakh": 199.5,
-   "est_basis": "built-up rate for Guindy, applied to a typical 1,050 sqft unit",
-   "est_source": "locality"
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, priced below the locality band. Caveats: limited developer track record.",
+   "ticket_min_lakh": 281,
+   "ticket_max_lakh": 412,
+   "unit_size_min_sqft": 1900,
+   "unit_size_max_sqft": 2713,
+   "land_area_acres": 0.8,
+   "config_mix": "3 BHK 1900-1963 sqft (2.81-2.93 Cr); 4 BHK 2699-2713 sqft (3.81-4.12 Cr)",
+   "dominant_config": "3 BHK / 4 BHK",
+   "rate_basis": "asking",
+   "price_confidence": "reported"
   },
   {
    "id": "sigaram-golden-city-4189",
@@ -46657,19 +46700,23 @@
    "lat": 13.07,
    "lng": 80.24,
    "geo_precision": "district",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "total_units": 770,
+   "price_sqft_min": 7456,
+   "price_sqft_max": 9049,
    "ticket_note": null,
-   "expected_completion": null,
+   "expected_completion": "2027-01 (NoBroker); FindBHK separately says possession 'commences August 2025' — stale",
    "stage": "under-construction",
    "status": "active",
    "data_confidence": "reported",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0298-2025/signature-towers"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0298-2025/signature-towers",
+    "https://findbhk.com/projects/ncc-urban-signature-towers",
+    "https://www.nobroker.in/ncc-urban-signature-towers-sholinganallur_chennai-prjt-8a9ff08b8a98532e018a98d1d8015a42",
+    "https://www.roofandfloor.com/chennai/project/ncc-urban-signature-towers-in-sholinganallur/5124",
+    "https://www.chennaiproperties.com/projects/ncc-urban-signature-towers-in-sholinganallur/5126"
    ],
-   "notes": "TNRERA registry record (Chennai district) · Village: Sholinanallur · Pincode 600097 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district) · Village: Sholinanallur · Pincode 600097 · Pricing not published in the registry — verify with the promoter. IDENTITY PROBABLE BUT RERA NUMBER DOES NOT MATCH — read before use. Every portal carrying 'NCC Urban Signature Towers, Sholinganallur' by NCC Urban Infrastructure Ltd reports RERA TN/29/Building/366/2023 (registered 02/09/2023), NOT the record's TNRERA/29/BLG/0298/2025. Name, promoter and locality all match exactly, so this is near-certainly the same development, with 0298/2025 most likely a later phase or tower re-registration. Treat the pricing as applying to the wider development, not necessarily to the specific 0298/2025 registration. SOURCES DISAGREE MATERIALLY ON PRICE — full range recorded, not averaged: FindBHK Rs 83.8L-1.18Cr; NoBroker Rs 90L-1.4Cr (2BHK Rs 90L, 3BHK Rs 1.32Cr); a third snippet Rs 86L-1.3Cr. PER-SQFT RECOMPUTED BY ME from each pairing: 90L/1207 = Rs 7,456 (low); 83.8L/1073 = Rs 7,810; 1.18Cr/1547 = Rs 7,628; 90L/1073 = Rs 8,388; 1.32Cr/1547 = Rs 8,533; 1.32Cr/1509 = Rs 8,748; 1.4Cr/1547 = Rs 9,049 (high). Recorded span 7,456-9,049. DISCARD FindBHK's quoted 'Rs 6,690/sqft' — it is contradicted by FindBHK's own price/size figures (which imply ~7,600-7,800) and is a stale teaser rate; NoBroker's 'Rs 9.09K/sqft minimum' sits at the top of my recomputed span. The spread reflects both configuration mix and genuine staleness across portals.",
    "last_checked": "2026-08-05",
    "developer": "Ncc Urban Infrastructure",
    "score_breakdown": {
@@ -46682,7 +46729,7 @@
    },
    "upside_score": 51,
    "segment_fit": {
-    "boardroom": 40,
+    "boardroom": 0,
     "executive": 65,
     "value": 0
    },
@@ -46691,12 +46738,16 @@
     "Executive"
    ],
    "score_rationale": "Scores on close to upcoming metro/infrastructure. Caveats: limited developer track record.",
-   "est_price_sqft_min": 12000,
-   "est_price_sqft_max": 18000,
-   "est_ticket_min_lakh": 192.0,
-   "est_ticket_max_lakh": 288.0,
-   "est_basis": "built-up rate for Central Chennai corridor median of 24 localities, applied to a typical 1,600 sqft unit",
-   "est_source": "corridor"
+   "ticket_min_lakh": 83.8,
+   "ticket_max_lakh": 140,
+   "unit_size_min_sqft": 1073,
+   "unit_size_max_sqft": 1547,
+   "land_area_acres": 7.6,
+   "config_mix": "2BHK 1,073-1,207 sqft; 2.5BHK 1,432-1,461 sqft; 3BHK 1,509-1,547 sqft",
+   "dominant_config": "2BHK, 2.5BHK, 3BHK",
+   "density_note": "Large township-scale: 770 apartments in 7 towers, G+15, on 7.6 acres — roughly 101 units/acre. By far the biggest project in this batch.",
+   "rate_basis": "asking",
+   "price_confidence": "reported"
   },
   {
    "id": "silver-lake-3905",
@@ -46764,32 +46815,35 @@
    "lat": 13.07,
    "lng": 80.24,
    "geo_precision": "district",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "total_units": 16,
+   "price_sqft_min": 10890,
+   "price_sqft_max": 10900,
    "ticket_note": null,
-   "expected_completion": null,
+   "expected_completion": "January 2030",
    "stage": "under-construction",
    "status": "active",
    "data_confidence": "reported",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0273-2025/silver-stone"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0273-2025/silver-stone",
+    "https://www.chennaiproperties.com/projects/silver-stone-in-alandur/6747",
+    "https://www.homes247.in/property/chennai/alandur/snigdha-silver-stone-91209",
+    "https://snigdhahomes.com/"
    ],
-   "notes": "TNRERA registry record (Chennai district) · Village: Alandur · Pincode 600016 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district) · Village: Alandur · Pincode 600016 · Pricing not published in the registry — verify with the promoter. Identity CONFIRMED — RERA TNRERA/29/BLG/0273/2025 dated 08-08-2025 matches exactly, promoter Snigdha Homes matches, locality Alandur matches (address: Marrison 1st Street, MKN Road, Alandur 600016). Per-sqft RECOMPUTED, not copied: Rs 50.36L/462 sqft = Rs 10,900 and Rs 2.13Cr/1,956 sqft = Rs 10,890 — the two ends of the published range give the same rate, which is strong internal corroboration. CONFLICT on unit mix, recorded not smoothed: chennaiproperties (which carries the correct RERA number, 16 units, 0.15 acres) lists ONLY 1 BHK 462 sqft and 2 BHK 805-978 sqft, capping the project at 978 sqft; homes247/99acres list the range as 462-1,956 sqft with a Rs 2.13 Cr top end. Note 1,956 is exactly 2 x 978, so the large unit may be a combined/duplex configuration or a portal artefact. If the true cap is 978 sqft, the real ticket ceiling is about Rs 106 lakh, not Rs 213 lakh — treat the upper ticket bound as unconfirmed. Rs 10,900/sqft is plausible for metro-adjacent Alandur.",
    "last_checked": "2026-08-05",
    "developer": "Snigdha Homes",
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 16,
     "locality_momentum": 15,
-    "relative_pricing": 7,
+    "relative_pricing": 8,
     "developer_track_record": 3,
     "rental_yield": 4
    },
-   "upside_score": 57,
+   "upside_score": 58,
    "segment_fit": {
-    "boardroom": 0,
+    "boardroom": 10,
     "executive": 85,
     "value": 30
    },
@@ -46798,12 +46852,16 @@
     "Executive"
    ],
    "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
-   "est_price_sqft_min": 8800,
-   "est_price_sqft_max": 12500,
-   "est_ticket_min_lakh": 88.0,
-   "est_ticket_max_lakh": 125.0,
-   "est_basis": "built-up rate for Alandur, applied to a typical 1,000 sqft unit",
-   "est_source": "locality"
+   "ticket_min_lakh": 50.36,
+   "ticket_max_lakh": 213,
+   "unit_size_min_sqft": 462,
+   "unit_size_max_sqft": 1956,
+   "land_area_acres": 0.15,
+   "config_mix": "1 BHK (462 sqft) + 2 BHK (805 / 882 / 917 / 928 / 978 sqft); some portals additionally list a 3 BHK up to 1,956 sqft",
+   "dominant_config": "2 BHK",
+   "density_note": "16 units on 0.15 acres — a very small single-building infill plot on Marrison 1st Street off MKN Road, walkable to Alandur metro/interchange. Boutique redevelopment scale, not a gated community.",
+   "rate_basis": "asking",
+   "price_confidence": "reported"
   },
   {
    "id": "silversky-the-one-perungalathur-0058",
@@ -46817,47 +46875,55 @@
    "lat": 12.88951,
    "lng": 80.11968,
    "geo_precision": "exact",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "total_units": 168,
+   "price_sqft_min": 5995,
+   "price_sqft_max": 6300,
    "ticket_note": null,
-   "expected_completion": "2030-12-31",
-   "stage": "new-launch",
+   "expected_completion": "2030-12",
+   "stage": "under-construction",
    "status": "active",
    "data_confidence": "verified",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0058-2026/silversky-the-one-perungalathur"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0058-2026/silversky-the-one-perungalathur",
+    "https://www.chennaiproperties.com/projects/silversky-the-one-in-perungalathur/7307",
+    "https://silverskybuilders.com/premium-flats-in-perungalathur-chennai/the-one-overview/",
+    "https://www.nobroker.in/silversky-the-one-perungalathur_chennai-prjt-8aa9b74b9d094df4019d09b0ff3f2014",
+    "https://findbhk.com/projects/silversky-the-one-perungalathur"
    ],
-   "notes": "TNRERA registry record (Chengalpattu district) · Village: Nedungundram · Pincode 600048 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chengalpattu district) · Village: Nedungundram · Pincode 600048 · Pricing not published in the registry — verify with the promoter. BEST-EVIDENCED RECORD IN THIS BATCH. Identity confirmed twice: promoter's own site silverskybuilders.com states RERA TNRERA/35/BLG/0058/2026, 2.42 acres, 168 units, 1160-1828 sqft, double stilt+8 floors — all matching chennaiproperties.com. Promoter site carries no price; chennaiproperties.com supplies the ticket range. I RECOMPUTED per-sqft myself rather than copying: 70.7L/1160 = Rs 6,095/sqft; 1.15Cr/1828 = Rs 6,291/sqft, which brackets the quoted base rate of Rs 5,995 — internally consistent, so I report the band 5,995-6,300 rather than a single figure. Search snippets also floated Rs 6,195 and 'Rs 5.7K/sqft'; all sit inside this band. Asking rates, not transacted.",
    "last_checked": "2026-08-05",
    "developer": "SILVERSKY Builders",
    "score_breakdown": {
-    "entry_stage": 21,
+    "entry_stage": 12,
     "infrastructure": 7,
     "locality_momentum": 15,
-    "relative_pricing": 7,
+    "relative_pricing": 8,
     "developer_track_record": 3,
     "rental_yield": 10
    },
-   "upside_score": 63,
+   "upside_score": 55,
    "segment_fit": {
     "boardroom": 0,
-    "executive": 55,
+    "executive": 85,
     "value": 30
    },
    "risk": "Medium",
    "tags": [
-    "Early Entrant"
+    "Executive",
+    "Steady/Rental"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market. Caveats: limited developer track record.",
+   "score_rationale": "Scores on rising micro-market. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export",
-   "est_price_sqft_min": 5400,
-   "est_price_sqft_max": 6300,
-   "est_ticket_min_lakh": 54.0,
-   "est_ticket_max_lakh": 63.0,
-   "est_basis": "built-up rate for Vandalur, applied to a typical 1,000 sqft unit",
-   "est_source": "locality"
+   "ticket_min_lakh": 70.7,
+   "ticket_max_lakh": 115,
+   "unit_size_min_sqft": 1160,
+   "unit_size_max_sqft": 1828,
+   "land_area_acres": 2.42,
+   "config_mix": "2 BHK+2T Rs 70.7-70.82 L; 2.5 BHK+2T Rs 78.86-80.02 L; 3 BHK (+2T/+3T) Rs 88.98 L-1.15 Cr",
+   "dominant_config": "2 BHK / 2.5 BHK / 3 BHK",
+   "rate_basis": "asking",
+   "price_confidence": "reported"
   },
   {
    "id": "silversky-madhavaram-the-springs-courtyard-0391",
@@ -46871,46 +46937,51 @@
    "lat": 13.07,
    "lng": 80.24,
    "geo_precision": "district",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "total_units": 314,
+   "price_sqft_min": 6000,
+   "price_sqft_max": 6000,
    "ticket_note": null,
-   "expected_completion": null,
-   "stage": "under-construction",
+   "expected_completion": "2030-08-01",
+   "stage": "new-launch",
    "status": "active",
    "data_confidence": "reported",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0391-2025/silversky-madhavaram-the-springs-courtyard"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0391-2025/silversky-madhavaram-the-springs-courtyard",
+    "https://proplocators.com/project/silversky-the-springs-courtyard-madhavaram-chennai"
    ],
-   "notes": "TNRERA registry record (Chennai district) · Village: Puzhal · Pincode 600066 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district) · Village: Puzhal · Pincode 600066 · Pricing not published in the registry — verify with the promoter. RERA MATCH EXACT (TNRERA/29/BLG/0391/2025). Rs 6,000/sqft is not a copied field — I recomputed it and it reconciles perfectly at both ends: 68.82L/1147 = 6,000.0 and 96L/1600 = 6,000.0. That exactness is itself a caution flag: it is a flat launch rate, not a floor-wise price list. SINGLE-SOURCE WEAKNESS: only proplocators.com (tier-3 channel-partner microsite) carries this project. Silversky's own site (silverskybuilders.com) lists The Edge, Megh Aarika, Lakeside 3 and SND Signature but has NOT yet published a Springs Courtyard page — 'The Springs' on their site is the plotted/villa-plot layout. Treat as an asking launch rate pending a promoter-published price.",
    "last_checked": "2026-08-05",
    "developer": "SILVERSKY Builders",
    "score_breakdown": {
-    "entry_stage": 12,
+    "entry_stage": 21,
     "infrastructure": 16,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 51,
+   "upside_score": 60,
    "segment_fit": {
-    "boardroom": 40,
+    "boardroom": 0,
     "executive": 65,
     "value": 0
    },
    "risk": "Medium",
    "tags": [
+    "Early Entrant",
     "Executive"
    ],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure. Caveats: limited developer track record.",
-   "est_price_sqft_min": 12000,
-   "est_price_sqft_max": 18000,
-   "est_ticket_min_lakh": 192.0,
-   "est_ticket_max_lakh": 288.0,
-   "est_basis": "built-up rate for Central Chennai corridor median of 24 localities, applied to a typical 1,600 sqft unit",
-   "est_source": "corridor"
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure. Caveats: limited developer track record.",
+   "ticket_min_lakh": 68.82,
+   "ticket_max_lakh": 96,
+   "unit_size_min_sqft": 1147,
+   "unit_size_max_sqft": 1600,
+   "land_area_acres": 4.64,
+   "config_mix": "2 BHK, 3 BHK",
+   "density_note": "314 units on 4.64 acres = ~68 units/acre in a single block. That implies ~408,000 sqft of saleable area on ~202,000 sqft of land (FSI ~2.0) — high but achievable under Chennai's premium FSI. Possible that the 4.64 acres describes the wider Silversky 'The Springs' layout rather than the Courtyard footprint alone.",
+   "rate_basis": "asking",
+   "price_confidence": "reported"
   },
   {
    "id": "sindur-mahashraman-avenue-4038",
@@ -46978,47 +47049,51 @@
    "lng": 80.209503,
    "geo_precision": "exact",
    "total_units": 15,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "price_sqft_min": 9572,
+   "price_sqft_max": 9572,
    "ticket_note": null,
    "expected_completion": "2030-08-01",
    "stage": "new-launch",
    "status": "active",
    "data_confidence": "verified",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0174-2026/sivarams-homes-preetha-foundation-s-bethel"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0174-2026/sivarams-homes-preetha-foundation-s-bethel",
+    "https://www.squareyards.com/new-launch-projects-in-velachery-chennai",
+    "https://sivarambuilders.com/bethel-flats/"
    ],
-   "notes": "TNRERA registry record (Chennai district, Velachery taluk) · Village: Velachery · Pincode 600042 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district, Velachery taluk) · Village: Velachery · Pincode 600042 · Pricing not published in the registry — verify with the promoter. IDENTITY CONFIRMED BY CROSS-MATCH: squareyards lists 'Sivarams Bethel' in Velachery as a New Launch with 15 total units — matching the input RERA record's 15 units exactly — and the promoter's own site (sivarambuilders.com/bethel-flats) independently gives the identical size range 966-1567 sqft at New No.18/Old No.27, AGS Colony 2nd Main Road, Velachery, stilt+5 floors, 2 & 3 BHK. Two independent sources agreeing on an unusual size pair is a strong identity lock. RATE RECOMPUTED: 92.47L/966 = Rs 9,572/sqft and 1.50Cr/1567 = Rs 9,572/sqft — both recompute to exactly the quoted rate, so the per-sqft is sound and uniform across both configs. PROMOTER SITE CARRIES NO PRICE — the pricing is squareyards-only, hence 'reported'. MINOR CONFLICT: the promoter's page is internally inconsistent on unit count, with a header saying '5 Premium Homes' and the body text saying 'eight flats', against 15 in the RERA record and on squareyards; I kept 15. No possession date published on either source. Note the input's promoter string blends two names ('Sivarams Homes Preetha Foundation'); the marketed brand is Sivaram Builders / Sivarams, and I found no Preetha Foundation branding on this specific project (Preetha Foundation does have a separate Velachery project, Preetha Pavilion, at ~Rs 7,700/sqft — a different asset, not this one).",
    "last_checked": "2026-08-05",
    "developer": "Sivarams Homes Preetha Foundation",
    "score_breakdown": {
     "entry_stage": 21,
     "infrastructure": 16,
     "locality_momentum": 9,
-    "relative_pricing": 7,
+    "relative_pricing": 12,
     "developer_track_record": 3,
     "rental_yield": 10
    },
-   "upside_score": 66,
+   "upside_score": 71,
    "segment_fit": {
     "boardroom": 30,
     "executive": 85,
-    "value": 0
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
     "Early Entrant",
     "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure. Caveats: limited developer track record.",
+   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, priced below the locality band. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export",
-   "est_price_sqft_min": 8200,
-   "est_price_sqft_max": 11600,
-   "est_ticket_min_lakh": 90.2,
-   "est_ticket_max_lakh": 127.6,
-   "est_basis": "built-up rate for Velachery, applied to a typical 1,100 sqft unit",
-   "est_source": "locality"
+   "ticket_min_lakh": 92.47,
+   "ticket_max_lakh": 150,
+   "unit_size_min_sqft": 966,
+   "unit_size_max_sqft": 1567,
+   "config_mix": "2 BHK 966 sqft (92.47 L); 3 BHK 1567 sqft (1.50 Cr)",
+   "dominant_config": "2 BHK / 3 BHK",
+   "rate_basis": "asking",
+   "price_confidence": "reported"
   },
   {
    "id": "sk-blossom-4154",
@@ -47248,47 +47323,53 @@
    "lat": 13.0002,
    "lng": 80.2668,
    "geo_precision": "approximate",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "total_units": 14,
+   "price_sqft_min": 17650,
+   "price_sqft_max": 18015,
    "ticket_note": null,
    "expected_completion": null,
    "stage": "under-construction",
    "status": "active",
    "data_confidence": "reported",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0346-2025/skyline-harmony"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0346-2025/skyline-harmony",
+    "https://www.connectionpoint.in/residential-project-skyline-harmony",
+    "https://www.roofandfloor.com/chennai/project/skyline-harmony-in-t-nagar/7135",
+    "https://www.nobroker.in/skyline-harmony-t.-nagar_chennai-prjt-8aa99b3f9c5a882a019c5ad7109121e4"
    ],
-   "notes": "TNRERA registry record (Chennai district, Guindy taluk) · Village: T Nagar · Pincode 600017 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district, Guindy taluk) · Village: T Nagar · Pincode 600017 · Pricing not published in the registry — verify with the promoter. RERA NUMBER CONFIRMED: search results for the exact string TNRERA/29/BLG/0346/2025 return this T. Nagar project, and ConnectionPoint states the same registration. Identity is therefore solid despite the locality mismatch. Beware genuine name collisions — there are unrelated 'Skyline Harmony' projects in Garia (Kolkata) and Panjim (Goa); neither is this. PROMOTER NAME DIFFERS BETWEEN SOURCES: TNRERA records 'Mohammed Qadeer Ahmed, Proprietor of Skyline Construction' (a proprietorship) while portals credit 'Skyline Constructions & Housing Pvt. Ltd.' (a company). Possibly related entities, but do not merge them in developers.json without a source establishing the link. PRICE: Rs 3.8-4.0 Cr (ConnectionPoint) / Rs 3.87-4.01 Cr (RoofandFloor); 2,153-2,226 sqft built-up, 1,700-1,800 sqft RERA carpet. PER-SQFT RECOMPUTED BY ME on built-up: 3.8Cr/2153 = Rs 17,650; 3.87Cr/2153 = Rs 17,975; 4.01Cr/2226 = Rs 18,015. Recorded 17,650-18,015, which corroborates the quoted Rs 18,000/sqft. Note the carpet-area rate is much higher (~Rs 22,300/sqft) — make sure any comparison uses built-up consistently. Disregard the stray 'Rs 1.93 Cr - 4.31 Cr' figure in one snippet; it is a builder-wide range across all Skyline projects, not this one.",
    "last_checked": "2026-08-05",
    "developer": "Mohammed Qadeer Ahmed Properitor of SKYLINE CONSTRUCTION",
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 16,
     "locality_momentum": 15,
-    "relative_pricing": 7,
+    "relative_pricing": 12,
     "developer_track_record": 3,
     "rental_yield": 6
    },
-   "upside_score": 59,
+   "upside_score": 64,
    "segment_fit": {
-    "boardroom": 60,
-    "executive": 65,
-    "value": 0
+    "boardroom": 90,
+    "executive": 35,
+    "value": 50
    },
    "risk": "Medium",
    "tags": [
     "Boardroom",
-    "Executive"
+    "Premium"
    ],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
-   "est_price_sqft_min": 16300,
-   "est_price_sqft_max": 24800,
-   "est_ticket_min_lakh": 244.5,
-   "est_ticket_max_lakh": 372.0,
-   "est_basis": "built-up rate for Besant Nagar, applied to a typical 1,500 sqft unit",
-   "est_source": "locality"
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market, priced below the locality band. Caveats: limited developer track record.",
+   "ticket_min_lakh": 380,
+   "ticket_max_lakh": 401,
+   "unit_size_min_sqft": 2153,
+   "unit_size_max_sqft": 2226,
+   "config_mix": "3BHK only",
+   "dominant_config": "3BHK",
+   "density_note": "Boutique: 14 units, single tower, stilt + 5 floors.",
+   "rate_basis": "asking",
+   "price_confidence": "reported"
   },
   {
    "name": "Skylon (Appaswamy)",
@@ -48345,19 +48426,22 @@
    "lat": 13.07,
    "lng": 80.24,
    "geo_precision": "district",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "total_units": 18,
+   "price_sqft_min": 17984,
+   "price_sqft_max": 17988,
    "ticket_note": null,
    "expected_completion": "2030-03-31",
    "stage": "new-launch",
    "status": "active",
    "data_confidence": "verified",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0161-2026/sreshta-maudgalya"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0161-2026/sreshta-maudgalya",
+    "https://www.chennaiproperties.com/projects/sreshta-maudgalya-in-guindy/7690",
+    "https://www.squareyards.com/sreshta-maudgalya-sri-nagar-colony-chennai-npd-344354",
+    "https://www.commonfloor.com/sreshta-maudgalya-chennai/povp-ndfeon"
    ],
-   "notes": "TNRERA registry record (Chennai district) · Pincode 600015 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district) · Pincode 600015 · Pricing not published in the registry — verify with the promoter. RERA MATCH EXACT (TNRERA/29/BLG/0161/2026), corroborated by chennaiproperties, CommonFloor and the Proquiro RERA mirror. Per-sqft RECOMPUTED, not copied: 2.79Cr/1551 = Rs 17,988 and 3.32Cr/1846 = Rs 17,984 — the two ends agree to within 4 rupees, so the price list is internally coherent. SOURCE CONFLICT WORTH FLAGGING: SquareYards shows this project as 'Price on Request' and displays Rs 10,050/sqft (up from Rs 8,900 in Mar 2026) — that is the Sri Nagar Colony LOCALITY trend rate, not the project rate. Do not average it against Rs 17,988; a boutique 18-unit Guindy tower legitimately prices at ~1.8x the locality mean. Also note total units is reported as both 18 (portals) and 'site extent 993.76 sqm'; RERA declared project cost is Rs 37.23 Cr, which at 18 units = Rs 2.07 Cr/unit of cost against a Rs 2.79-3.32 Cr ask — a plausible margin, which supports the price band. Registry promoter string is long (Sreshta Cityscapes Pvt Ltd + individuals); portals variously credit 'Sreshta Premium Developers Pvt Ltd' and 'Sreshta Sumanth And Co' — same Sreshta group, name not standardised.",
    "last_checked": "2026-08-05",
    "developer": "Sreshta Cityscapes",
    "score_breakdown": {
@@ -48370,23 +48454,27 @@
    },
    "upside_score": 60,
    "segment_fit": {
-    "boardroom": 40,
-    "executive": 65,
+    "boardroom": 50,
+    "executive": 35,
     "value": 0
    },
    "risk": "Medium",
    "tags": [
     "Early Entrant",
-    "Executive"
+    "Premium"
    ],
    "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export",
-   "est_price_sqft_min": 12000,
-   "est_price_sqft_max": 18000,
-   "est_ticket_min_lakh": 192.0,
-   "est_ticket_max_lakh": 288.0,
-   "est_basis": "built-up rate for Central Chennai corridor median of 24 localities, applied to a typical 1,600 sqft unit",
-   "est_source": "corridor"
+   "ticket_min_lakh": 279,
+   "ticket_max_lakh": 332,
+   "unit_size_min_sqft": 1551,
+   "unit_size_max_sqft": 1846,
+   "land_area_acres": 0.25,
+   "config_mix": "3 BHK",
+   "dominant_config": "3 BHK",
+   "density_note": "18 units on ~0.25 acres — a single boutique tower. Recomputed saleable area (~30,600 sqft) against ~10,900 sqft of land implies FSI ~2.8.",
+   "rate_basis": "asking",
+   "price_confidence": "reported"
   },
   {
    "id": "sri-aadhilingeswar-nagar-2818",
@@ -49540,9 +49628,12 @@
    "data_confidence": "reported",
    "source": "rera-registry",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-2-blg-0349-2025/sri-hari-homes-kings-court"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-2-blg-0349-2025/sri-hari-homes-kings-court",
+    "https://www.99acres.com/sri-hari-homes-kings-court-ayappakkam-chennai-west-npxid-r462481",
+    "https://builders.99acres.com/sri-hari-homes-builders-developers-bid-115147",
+    "https://www.99acres.com/property-rates-and-price-trends-in-ayappakkam-chennai-west-prffid"
    ],
-   "notes": "TNRERA registry record (Tiruvallur district) · Pincode 600077 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Tiruvallur district) · Pincode 600077 · Pricing not published in the registry — verify with the promoter. PROJECT IDENTIFIED, NO PRICE FOUND. 99acres carries a project page titled exactly 'Sri Hari Homes Kings Court Ayappakkam, Chennai' (npxid-r462481), which matches promoter and project name and resolves the record's blank locality. 99acres blocks direct fetch (403) and no price surfaced in any search snippet across four differently-worded queries, so I have NO project-level pricing and am recording none. I also checked harihomes.in — that is a separate Chennai firm trading as 'Hari Homes', with no Kings Court project listed; do not treat it as this promoter's website without further confirmation. FOR CONTEXT ONLY, NOT THIS PROJECT'S PRICE: 99acres puts Ayappakkam flats at Rs 5,000-6,150/sqft with 2BHK tickets of Rs 43.5-63.9 lakh, and locality rates up 9.6% year on year. That is a locality band and must not be written into this record's price fields. Next step for a future pass: try the 99acres page through a web unlocker, or search for the promoter's own site.",
    "last_checked": "2026-08-05",
    "developer": "Sri Hari Homes Mrs Sheela Mathew",
    "score_breakdown": {
@@ -52132,26 +52223,27 @@
    "price_sqft_min": null,
    "price_sqft_max": null,
    "ticket_note": null,
-   "expected_completion": "2026-12-31",
-   "stage": "new-launch",
+   "expected_completion": "2026-12",
+   "stage": "under-construction",
    "status": "active",
    "data_confidence": "verified",
    "source": "rera-registry",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0126-2026/srishti-anandham"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0126-2026/srishti-anandham",
+    "https://www.chennaiproperties.com/projects/srishti-anandham-in-chromepet/7675"
    ],
-   "notes": "TNRERA registry record (Chengalpattu district) · Village: Thiruneermalai · Pincode 600044 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chengalpattu district) · Village: Thiruneermalai · Pincode 600044 · Pricing not published in the registry — verify with the promoter. Identity firmly confirmed — RERA TNRERA/35/BLG/0126/2026 and promoter 'Sri Anandham Constructions' both match exactly, and the RERA-indexed unit count of 15 matches the record. But PRICE IS GENUINELY 'ON REQUEST' on chennaiproperties.com and nowhere else publishes one, so ticket and per-sqft are left null — I did not derive a price. For context only, NOT this project's price: TNRERA lists a declared total PROJECT COST of Rs 9.29 crore (a construction-cost filing, never a selling price — do not convert it), and the Pallavaram/Chromepet market runs roughly Rs 6,500-10,000/sqft asking with ~Rs 8,900/sqft average transacted, which on 900 sqft would imply a high-50s-to-low-80s lakh ticket. That is a locality benchmark to be verified, not a found price.",
    "last_checked": "2026-08-05",
    "developer": "Sri Anandham Constructions",
    "score_breakdown": {
-    "entry_stage": 21,
+    "entry_stage": 12,
     "infrastructure": 12,
     "locality_momentum": 15,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 8
    },
-   "upside_score": 66,
+   "upside_score": 57,
    "segment_fit": {
     "boardroom": 10,
     "executive": 85,
@@ -52159,11 +52251,16 @@
    },
    "risk": "Medium",
    "tags": [
-    "Early Entrant",
-    "Executive"
+    "Executive",
+    "Steady/Rental"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market. Caveats: limited developer track record.",
+   "score_rationale": "Scores on rising micro-market. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export",
+   "unit_size_min_sqft": 900,
+   "unit_size_max_sqft": 900,
+   "land_area_acres": 0.16,
+   "config_mix": "2 BHK, single size 900 sqft; stilt + 3 floors",
+   "dominant_config": "2 BHK",
    "est_price_sqft_min": 6900,
    "est_price_sqft_max": 8900,
    "est_ticket_min_lakh": 79.3,
@@ -53051,43 +53148,56 @@
    "lng": 80.22976,
    "geo_precision": "exact",
    "total_units": 15,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "price_sqft_min": 13959,
+   "price_sqft_max": 14000,
    "ticket_note": "declared total project cost ₹7.03 crore",
-   "expected_completion": "2030-12-30",
-   "stage": "new-launch",
+   "expected_completion": "2030-12",
+   "stage": "under-construction",
    "status": "active",
    "data_confidence": "verified",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0111-2026/subiksha-radha"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0111-2026/subiksha-radha",
+    "https://www.chennaiproperties.com/projects/subiksha-radha-in-egmore/7491",
+    "https://www.commonfloor.com/subiksha-radha-chennai/povp-80lu0p",
+    "https://www.nobroker.in/subiksha-radha-choolaimedu_chennai-prjt-69cba8101d2621227c9db920"
    ],
-   "notes": "Small project; data mirrored from TNRERA records by proquiro.com. City-centroid coordinates used. RERA number cross-checked against TNRERA mirror (Proquiro) on 2026-07-20.",
+   "notes": "Small project; data mirrored from TNRERA records by proquiro.com. City-centroid coordinates used. RERA number cross-checked against TNRERA mirror (Proquiro) on 2026-07-20. IDENTITY CONFIRMED: chennaiproperties carries RERA TNRERA/29/BLG/0111/2026 verbatim and proquiro indexes the same registration under the slug 'subiksha-radha' — exact match to the input, and the 15-unit count matches too. RATE RECOMPUTED: quoted Rs 13,989/sqft; my own arithmetic gives 1.35Cr/965 = Rs 13,990, 1.71Cr/1225 = Rs 13,959, 1.82Cr/1300 = Rs 14,000. All three configs land within 0.3% of each other, so the rate is solid. Prices are flagged '+Other Charges', so the all-in ticket will exceed 182 lakh. Note the unusual 2.5 BHK entry config at 965 sqft — worth carrying into the config data since it sets the entry ticket. Very small footprint: 15 units on 0.13 acres, a high-FSI infill redevelopment on a ~5,660 sqft plot, which is what sustains the ~Rs 14k/sqft Egmore rate. Completion Dec 2030 per both the portal and the TNRERA record surfaced by proquiro (2030-12-30).",
    "last_checked": "2026-07-20",
    "locality": "Chennai district",
    "corridor": "Chennai (other)",
    "id": "subiksha-radha",
    "score_breakdown": {
-    "entry_stage": 21,
+    "entry_stage": 12,
     "infrastructure": 20,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 64,
+   "upside_score": 55,
    "risk": "Medium",
    "tags": [
-    "Early Entrant"
+    "Executive",
+    "Premium"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure. Caveats: limited developer track record.",
+   "score_rationale": "Scores on close to upcoming metro/infrastructure. Caveats: limited developer track record.",
    "segment_fit": {
-    "boardroom": 10,
-    "executive": 35,
+    "boardroom": 50,
+    "executive": 65,
     "value": 0
    },
    "developer": "Subiksha Housing",
    "source": "curated",
-   "rera_verified_on": "official TNRERA export"
+   "rera_verified_on": "official TNRERA export",
+   "ticket_min_lakh": 135,
+   "ticket_max_lakh": 182,
+   "unit_size_min_sqft": 965,
+   "unit_size_max_sqft": 1300,
+   "land_area_acres": 0.13,
+   "config_mix": "2.5 BHK 965 sqft (1.35 Cr); 3 BHK 1225-1300 sqft (1.71-1.82 Cr)",
+   "dominant_config": "3 BHK",
+   "rate_basis": "asking",
+   "price_confidence": "reported"
   },
   {
    "id": "subrow-avenue-4036",
@@ -54368,32 +54478,33 @@
    "lat": 12.925,
    "lng": 80.117,
    "geo_precision": "approximate",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "total_units": 65,
+   "price_sqft_min": 7745,
+   "price_sqft_max": 7905,
    "ticket_note": null,
-   "expected_completion": null,
+   "expected_completion": "2027-04",
    "stage": "under-construction",
    "status": "active",
    "data_confidence": "reported",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0328-2025/the-citedal-changed-to-the-citadel"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0328-2025/the-citedal-changed-to-the-citadel",
+    "https://findbhk.com/projects/sashank-the-citadel-rajakilpakkam"
    ],
-   "notes": "TNRERA registry record (Chennai district, Tambaram Municipal Corporation taluk) · Village: Rajakilpakkam · Pincode 600073 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district, Tambaram Municipal Corporation taluk) · Village: Rajakilpakkam · Pincode 600073 · Pricing not published in the registry — verify with the promoter. RERA MATCH EXACT (findbhk prints 'TN RERA/29/BLG/0328/2025'). This is the strongest single-page result in the batch — findbhk publishes a full unit-wise price list rather than a teaser. PER-SQFT RECOMPUTED FROM EACH LINE, not copied: 74L/950 = 7,790; 79L/1020 = 7,745; 1.00Cr/1265 = 7,905; 1.10Cr/1420 = 7,746. Range Rs 7,745-7,905/sqft; findbhk's own quoted 'Rs 7,789' is the 2BHK-950 line, so their headline figure happens to be honest here. Promoter name differs slightly: findbhk says 'Sashank Developers', registry says 'Sashankar Developers'. Project name change (THE CITEDAL -> THE CITADEL) is reflected in the registry title and matches the marketed name 'Sashank The Citadel'. Single-source — findbhk is a Chennai-focused portal (tier 2/3); no promoter website found to cross-check.",
    "last_checked": "2026-08-05",
    "developer": "Sashankar Developers",
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 7,
     "locality_momentum": 15,
-    "relative_pricing": 7,
+    "relative_pricing": 4,
     "developer_track_record": 3,
     "rental_yield": 10
    },
-   "upside_score": 54,
+   "upside_score": 51,
    "segment_fit": {
-    "boardroom": 0,
+    "boardroom": 10,
     "executive": 85,
     "value": 30
    },
@@ -54403,12 +54514,15 @@
     "Steady/Rental"
    ],
    "score_rationale": "Scores on rising micro-market. Caveats: limited developer track record.",
-   "est_price_sqft_min": 5650,
-   "est_price_sqft_max": 7550,
-   "est_ticket_min_lakh": 70.6,
-   "est_ticket_max_lakh": 94.4,
-   "est_basis": "built-up rate for Tambaram, applied to a typical 1,250 sqft unit",
-   "est_source": "locality"
+   "ticket_min_lakh": 74,
+   "ticket_max_lakh": 110,
+   "unit_size_min_sqft": 950,
+   "unit_size_max_sqft": 1420,
+   "land_area_acres": 0.77,
+   "config_mix": "2 BHK (950, 1020 sqft), 3 BHK (1265, 1420 sqft)",
+   "density_note": "65 units across 3 blocks of 5 floors on 33,600 sqft (0.77 acres) = ~84 units/acre. Recomputed saleable area ~73,000 sqft on 33,600 sqft of land implies FSI ~2.2 — consistent with a non-high-rise CMDA scheme.",
+   "rate_basis": "asking",
+   "price_confidence": "reported"
   },
   {
    "id": "tnhb-br-nagar-0433",
@@ -55091,48 +55205,55 @@
    "lat": 13.043501,
    "lng": 80.253219,
    "geo_precision": "exact",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "total_units": 10,
+   "price_sqft_min": 41982,
+   "price_sqft_max": 41994,
    "ticket_note": null,
-   "expected_completion": "2030-12-31",
+   "expected_completion": "2030-12",
    "stage": "new-launch",
    "status": "active",
    "data_confidence": "verified",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0113-2026/tejas"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0113-2026/tejas",
+    "https://www.chennaiproperties.com/projects/vishranthi-tejas-in-mylapore/7441",
+    "https://www.squareyards.com/new-launch-projects-in-mylapore-chennai",
+    "https://www.nobroker.in/vishranthi-homes-tejas-mylapore_chennai-prjt-8aa9a9639f0ea5f6019f0ed3180e0c27"
    ],
-   "notes": "TNRERA registry record (Chennai district, Mylapore taluk) · Village: Mylapore · Pincode 600086 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district, Mylapore taluk) · Village: Mylapore · Pincode 600086 · Pricing not published in the registry — verify with the promoter. IDENTITY CONFIRMED: two sources carry RERA TNRERA/29/BLG/0113/2026 verbatim, matching the input exactly; 10 units and Vishranthi Homes Pvt Ltd also match. This is an ultra-luxury boutique — 10 units of 4 BHK on 1 acre in Mylapore, possession Dec 2030. MATERIAL CONFLICT ON TICKET SIZE — RECORDED AS A FULL RANGE, NOT AVERAGED. All three sources agree on the RATE to within Rs 12/sqft (~Rs 41,982-41,994), but they disagree on which AREA that rate is applied to, which swings the headline price by 57%: chennaiproperties and squareyards both publish Rs 11.44 Cr on 2725 sqft (recompute: 11.44Cr/2725 = Rs 41,982, exact), while nobroker publishes Rs 17.94 Cr and lists super built-up 4272 sqft (recompute: 17.94Cr/4272 = Rs 41,994, exact). Note that the 2725 sqft figure sits within 1% of nobroker's CARPET area of 2691 sqft, so the low quote appears to be rate x carpet while the high quote is rate x super-built-up. Standard Indian sale practice prices on saleable/super-built-up area, which argues the realistic ticket is nearer 17.94 Cr — but I did not silently take either end. Two independent sources back 11.44 Cr and one backs 17.94 Cr. Verify the area basis with the promoter before publishing a single figure. At Rs ~42,000/sqft this is at the very top of the Mylapore band and is the single highest-rate asset in this batch.",
    "last_checked": "2026-08-05",
    "developer": "Vishranthi Homes Limted",
    "score_breakdown": {
     "entry_stage": 21,
     "infrastructure": 16,
     "locality_momentum": 9,
-    "relative_pricing": 7,
+    "relative_pricing": 4,
     "developer_track_record": 3,
     "rental_yield": 6
    },
-   "upside_score": 62,
+   "upside_score": 59,
    "segment_fit": {
-    "boardroom": 60,
+    "boardroom": 90,
     "executive": 45,
     "value": 0
    },
    "risk": "Medium",
    "tags": [
     "Early Entrant",
-    "Boardroom"
+    "Boardroom",
+    "Premium"
    ],
    "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export",
-   "est_price_sqft_min": 19100,
-   "est_price_sqft_max": 23600,
-   "est_ticket_min_lakh": 315.1,
-   "est_ticket_max_lakh": 389.4,
-   "est_basis": "built-up rate for Mylapore, applied to a typical 1,650 sqft unit",
-   "est_source": "locality"
+   "ticket_min_lakh": 1144,
+   "ticket_max_lakh": 1794,
+   "unit_size_min_sqft": 2725,
+   "unit_size_max_sqft": 4272,
+   "land_area_acres": 1,
+   "config_mix": "4 BHK only; single unit type. Areas reported on three bases: carpet 2691 sqft, built-up 3845 sqft, super built-up 4272 sqft.",
+   "dominant_config": "4 BHK",
+   "rate_basis": "asking",
+   "price_confidence": "reported"
   },
   {
    "id": "tellus-avenue-2661",
@@ -55379,15 +55500,18 @@
    "price_sqft_min": null,
    "price_sqft_max": null,
    "ticket_note": null,
-   "expected_completion": "2033-12-29",
+   "expected_completion": "2033-12 (RERA outer completion date per AurumPropTech; NoBroker contradicts this by labelling it 'Ready to Move')",
    "stage": "new-launch",
    "status": "active",
    "data_confidence": "verified",
    "source": "rera-registry",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0122-2026/tharayil"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0122-2026/tharayil",
+    "https://www.nobroker.in/palaniyappas-tharayil-nanganallur_chennai-prjt-69d4a8c8c3f8f556fbcbedd6",
+    "https://www.aurumproptech.in/pulse/rera/tamil-nadu/chennai/tharayil/3849",
+    "https://www.99acres.com/palaniappa-tharayil-madipakkam-chennai-south-npxid-r465019"
    ],
-   "notes": "TNRERA registry record (Chennai district, Sholinganallur taluk) · Village: Madipakkam 1 · Pincode 600091 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district, Sholinganallur taluk) · Village: Madipakkam 1 · Pincode 600091 · Pricing not published in the registry — verify with the promoter. IDENTITY CONFIRMED, NO PRICE PUBLISHED. Two independent sources carry the exact RERA number TNRERA/29/BLG/0122/2026 — AurumPropTech's RERA page and NoBroker's project page — and NoBroker's unit count of 12 matches the record exactly. Promoter confirmed as Palaniappa Builders and Developers, represented by partner Mr L Senthil Kumar (founded 1995). PRICE IS ACTIVELY ABSENT, not merely unfound: NoBroker explicitly renders configurations, unit sizes, price range and per-sqft all as 'Not Available', and a second aggregator states 'price of apartments ranges from Not Available - Not Available'. This is a genuinely unpriced new launch, not a research gap. Ghar.tv has a page for it but returns HTTP 403 on fetch — worth retrying with an unlocker in a later pass. NoBroker's 'Ready to Move' status conflicts with the record's new-launch stage and with the Dec 2033 RERA completion date; I would trust the RERA registration date (2026) and the record over NoBroker's status flag. Recording no price rather than borrowing the Madipakkam locality average of ~Rs 6,100/sqft.",
    "last_checked": "2026-08-05",
    "developer": "Ms PALANIAPPA BUILDERS DEVELOPERS",
    "score_breakdown": {
@@ -55412,6 +55536,7 @@
    ],
    "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: flood-prone zone, limited developer track record.",
    "rera_verified_on": "official TNRERA export",
+   "density_note": "Boutique: 12 units.",
    "est_price_sqft_min": 5650,
    "est_price_sqft_max": 8850,
    "est_ticket_min_lakh": 59.3,
@@ -55540,47 +55665,56 @@
    "lat": 13.0732,
    "lng": 80.2609,
    "geo_precision": "approximate",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "total_units": 15,
+   "price_sqft_min": 12410,
+   "price_sqft_max": 12440,
    "ticket_note": null,
-   "expected_completion": null,
+   "expected_completion": "June 2028",
    "stage": "under-construction",
    "status": "active",
    "data_confidence": "reported",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0374-2025/the-bloomingdale"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0374-2025/the-bloomingdale",
+    "https://www.chennaiproperties.com/projects/pushkars-bloomingdale-in-chetpet/6972",
+    "https://www.99acres.com/pushkar-the-bloomingdale-egmore-chennai-central-npxid-r456413",
+    "https://pushkarproperties.in/projects/"
    ],
-   "notes": "TNRERA registry record (Chennai district, Egmore taluk) · Village: Egmore · Pincode 600031 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district, Egmore taluk) · Village: Egmore · Pincode 600031 · Pricing not published in the registry — verify with the promoter. Identity CONFIRMED — RERA TNRERA/29/BLG/0374/2025 matches exactly and promoter M/s Pushkar Properties Private Limited matches. Per-sqft RECOMPUTED, not copied: Rs 2.25Cr/1,809 sqft = Rs 12,438 and Rs 3.19Cr/2,570 sqft = Rs 12,412 — tight agreement across both ends, so Rs 12,400-12,440/sqft is solid. Prices quoted 'plus other charges' (registration, GST, parking typically extra). MATERIAL CONFLICT recorded rather than resolved: truehomes24 carries a 'Pushkar The Bloomingdale, Nungambakkam' at Rs 2.37-2.95 Cr for 1,260-1,570 sqft, which recomputes to about Rs 18,800/sqft — a completely different size band and a 50 percent higher rate. That page returned HTTP 500 when I tried to fetch it so I could not check its RERA number. It is either a separate Pushkar project or a badly mislabelled listing; I have used only the Chetpet figures, which are the ones carrying the matching RERA number. Pushkar also has a separate ARCADIA registration (TNRERA/29/BLG/0095/2026), so the promoter is actively registering multiple central-Chennai buildings — name collisions within the portfolio are a live risk.",
    "last_checked": "2026-08-05",
    "developer": "M s PUSHKAR PROPERTIES",
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 16,
     "locality_momentum": 9,
-    "relative_pricing": 7,
+    "relative_pricing": 12,
     "developer_track_record": 3,
     "rental_yield": 8
    },
-   "upside_score": 55,
+   "upside_score": 60,
    "segment_fit": {
-    "boardroom": 20,
+    "boardroom": 70,
     "executive": 85,
-    "value": 0
+    "value": 30
    },
    "risk": "Medium",
    "tags": [
+    "Boardroom",
     "Executive",
+    "Premium",
     "Steady/Rental"
    ],
-   "score_rationale": "Scores on close to upcoming metro/infrastructure. Caveats: limited developer track record.",
-   "est_price_sqft_min": 11000,
-   "est_price_sqft_max": 16000,
-   "est_ticket_min_lakh": 115.5,
-   "est_ticket_max_lakh": 168.0,
-   "est_basis": "built-up rate for Egmore, applied to a typical 1,050 sqft unit",
-   "est_source": "locality"
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, priced below the locality band. Caveats: limited developer track record.",
+   "ticket_min_lakh": 225,
+   "ticket_max_lakh": 319,
+   "unit_size_min_sqft": 1809,
+   "unit_size_max_sqft": 2570,
+   "land_area_acres": 0.23,
+   "config_mix": "3 BHK only",
+   "dominant_config": "3 BHK",
+   "density_note": "15 units on 0.23 acres, stilt + 5 floors — low-density boutique infill in the Chetpet/Egmore core, averaging over 2,000 sqft per unit.",
+   "rate_basis": "asking",
+   "price_confidence": "reported"
   },
   {
    "id": "the-edge-0387",
@@ -55598,7 +55732,7 @@
    "price_sqft_min": null,
    "price_sqft_max": null,
    "ticket_note": null,
-   "expected_completion": "2033-09",
+   "expected_completion": "2033-09-01",
    "stage": "new-launch",
    "status": "active",
    "data_confidence": "reported",
@@ -55606,9 +55740,10 @@
    "sources": [
     "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0387-2025/the-edge",
     "https://proplocators.com/project/baashyaam-the-edge-gopalapuram-chennai",
-    "https://bashyamgroup.com/"
+    "https://bashyamgroup.com/",
+    "https://www.99acres.com/baashyaam-the-edge-gopalapuram-chennai-central-npxid-r458551"
    ],
-   "notes": "TNRERA registry record (Chennai district, Mylapore taluk) · Village: Mylapore · Pincode 600086 · Pricing not published in the registry — verify with the promoter. RERA TNRERA/29/BLG/0387/2025 matches exactly, but the project is at GOPALAPURAM, not Mylapore (adjacent central-Chennai neighbourhood, same Mylapore taluk). Price is 'On Request' on every source including the developer's own site — no per-sqft or ticket figure is published anywhere, so pricing is left null rather than inferred. Very large 4BHK-only floorplates (3,216–7,011 sqft), three open courtyards for resort-style living, swimming pool, gym, kids' play area; RERA outer completion date is 01-09-2033.",
+   "notes": "TNRERA registry record (Chennai district, Mylapore taluk) · Village: Mylapore · Pincode 600086 · Pricing not published in the registry — verify with the promoter. RERA TNRERA/29/BLG/0387/2025 matches exactly, but the project is at GOPALAPURAM, not Mylapore (adjacent central-Chennai neighbourhood, same Mylapore taluk). Price is 'On Request' on every source including the developer's own site — no per-sqft or ticket figure is published anywhere, so pricing is left null rather than inferred. Very large 4BHK-only floorplates (3,216–7,011 sqft), three open courtyards for resort-style living, swimming pool, gym, kids' play area; RERA outer completion date is 01-09-2033. Identity confirmed by exact RERA match (TNRERA/29/BLG/0387/2025), promoter Baashyaam Constructions Pvt Ltd, and 15 units matching the record exactly. PRICE IS DELIBERATELY WITHHELD — 'Price on Request' on every source; proplocators publishes 'Rs 0 per sqft', which is a null placeholder and NOT a rate, so I discarded it rather than recording zero. Ultra-low-density luxury (15 units of 4BHK on 0.64 acres, 3,216-7,011 sqft) with a stated possession of 01/09/2033, which is unusually distant and worth re-verifying. Locality benchmark only, NOT this project's price: Mylapore flats average ~Rs 18,450/sqft; Gopalapuram luxury would sit at or above that, implying a multi-crore ticket, but no source states one.",
    "last_checked": "2026-08-05",
    "developer": "Baashyaam",
    "score_breakdown": {
@@ -55634,8 +55769,8 @@
    "unit_size_min_sqft": 3216,
    "unit_size_max_sqft": 7011,
    "land_area_acres": 0.64,
-   "config_mix": "4 BHK",
-   "dominant_config": "4BHK+",
+   "config_mix": "4 BHK only, in three sizes: 3,216 / 3,593 / 7,011 sqft (top unit likely a penthouse)",
+   "dominant_config": "4 BHK",
    "density_note": "ultra-boutique — 15 units on 0.64 acres, single block",
    "est_price_sqft_min": 19100,
    "est_price_sqft_max": 23600,
@@ -56517,9 +56652,10 @@
    "data_confidence": "reported",
    "source": "rera-registry",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0360-2025/thollol-enterprises"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0360-2025/thollol-enterprises",
+    "https://www.nobroker.in/thollol-enterprises-t.-nagar_chennai-prjt-s10797z3n3r9w3p2f175p5q0"
    ],
-   "notes": "TNRERA registry record (Chennai district, Guindy taluk) · Village: T Nagar · Pincode 600017 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district, Guindy taluk) · Village: T Nagar · Pincode 600017 · Pricing not published in the registry — verify with the promoter. PROJECT CONFIRMED, NO PRICE PUBLISHED ANYWHERE. nobroker carries the exact registration 'TNRERA/29/BLG/0360/2025 dated 28-10-2025', matching the input, so identity is locked even though almost every commercial field on the page reads 'NA'. What the page does establish: 1 BHK configuration, 1 tower, borewell water supply, status 'Ready to Move'. Price, price-per-sqft, unit sizes and unit count are all explicitly Not Available. NEGATIVE CHECKS: no Besant Nagar project by this name on 99acres, squareyards, chennaiproperties or roofandfloor. This registration is named after the promoter entity itself and is jointly registered with two individuals (A Ramasamy, R.M. Nagammal), which is the signature of a small landowner-joint-venture redevelopment — those routinely sell out privately and never carry a public price. Set price null and note the gap rather than imputing from Besant Nagar comparables (which run very high, ~Rs 3.95 Cr+ for nearby India Raghu, and would badly mislead if applied to a 1 BHK).",
    "last_checked": "2026-08-05",
    "developer": "Thollol Enterprises A Ramasamy",
    "score_breakdown": {
@@ -56542,6 +56678,7 @@
     "Executive"
    ],
    "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
+   "dominant_config": "1 BHK",
    "est_price_sqft_min": 16300,
    "est_price_sqft_max": 24800,
    "est_ticket_min_lakh": 244.5,
@@ -56571,9 +56708,12 @@
    "data_confidence": "reported",
    "source": "rera-registry",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0395-2025/thulir-by-nirai"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0395-2025/thulir-by-nirai",
+    "https://www.99acres.com/gms-thulir-by-nirai-aminjikarai-chennai-central-npxid-r458583",
+    "https://www.instafinancials.com/company/gms-maha-shelters-private-limited-U43299TZ2025PTC033812",
+    "https://www.99acres.com/akkarai-chennai-south-overview-piffid"
    ],
-   "notes": "TNRERA registry record (Chennai district) · Village: Naduvakkarai · Pincode 600040 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district) · Village: Naduvakkarai · Pincode 600040 · Pricing not published in the registry — verify with the promoter. NAME AND PROMOTER MATCH, LOCALITY DISPUTED, NO PRICE. The 99acres listing 'GMS Thulir by Nirai' maps cleanly onto the record's project name 'Thulir By Nirai' and promoter 'GMS Maha Shelters Private Limited' — the GMS prefix plus the distinctive 'Thulir by Nirai' string makes this a confident name match. What I could NOT confirm is the locality (three candidates, see locality_correction) or any pricing whatsoever; no portal surfaced a rate, size, config or possession date. Corroborating the promoter's existence: GMS Maha Shelters Private Limited is a real registered company, CIN U43299TZ2025PTC033812, incorporated 2025 — note the TZ (Tamil Nadu, Coimbatore ROC) code and the 2025 incorporation, consistent with a brand-new small promoter with no marketing footprint yet. Beware collisions: 'Thulir' is a common Tamil project name — DAC Thulir (Coimbatore, RERA TN/11/Building/0056/2025), MM Thulir by Charan Builders (Urapakkam), and Thulir Residences (Trichy) are all unrelated. Recording no price; the Akkarai/ECR locality band is Rs 8,000-12,000/sqft (99acres, average Rs 10,600) but that is context only and must not enter the price fields, especially while the locality itself is in doubt.",
    "last_checked": "2026-08-05",
    "developer": "Gms Maha Shelters",
    "score_breakdown": {
@@ -56736,11 +56876,14 @@
    "stage": "under-construction",
    "status": "active",
    "data_confidence": "reported",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0320-2025/thulsi"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0320-2025/thulsi",
+    "https://www.99acres.com/new-flats-in-madipakkam-chennai-south-ffid",
+    "https://www.nobroker.in/2bhk-flats-for-sale-in-kubera_nagar_madipakkam_chennai",
+    "https://www.realestateindia.com/chennai-property/2-bhk-flats-apartments-for-sale-in-madipakkam-price-1-crore-to-2-crores-ffid.htm"
    ],
-   "notes": "TNRERA registry record (Chennai district, Sholinganallur taluk) · Village: Madipakkam-A · Pincode 600091 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district, Sholinganallur taluk) · Village: Madipakkam-A · Pincode 600091 · Pricing not published in the registry — verify with the promoter. PARTIAL — ticket range only, and I have deliberately left price_sqft NULL rather than manufacture one. 'Costplus Thulsi' in Madipakkam by Costplus Constructions is confirmed as a real recently-launched project and the Rs 90 lakh to Rs 1.24 crore 2 BHK band surfaced consistently across three independent searches attributed to NoBroker and 99acres listing pages. Name, promoter and locality all match the record. What I could NOT get is a super-built-up area, because both portals carrying the price are fetch-blocked (99acres 403) and only leaked the figure through search snippets. One snippet gives carpet area from 608 sqft. Since Chennai portals quote price against super built-up but that snippet is carpet, any per-sqft I derived would be guesswork spanning roughly Rs 9,200 to Rs 14,800 depending on the loading factor assumed — too wide to be useful and dangerously easy to misread, so it is null. Sanity note: 608 sqft carpet implies roughly 950-1,000 sqft super, which against Rs 90 lakh lands near Rs 9,200/sqft, essentially identical to Madipakkam's reported average transacted rate of Rs 9,230 — reassuring but circular, so I am not recording it as a finding. No Costplus Constructions website could be located. Confirm sizes before using this record for any per-sqft comparison.",
    "last_checked": "2026-08-05",
    "developer": "Costplus Constructions",
    "score_breakdown": {
@@ -56764,12 +56907,12 @@
     "Watchlist/Risky"
    ],
    "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market. Caveats: flood-prone zone, limited developer track record.",
-   "est_price_sqft_min": 5650,
-   "est_price_sqft_max": 8850,
-   "est_ticket_min_lakh": 59.3,
-   "est_ticket_max_lakh": 92.9,
-   "est_basis": "built-up rate for Madipakkam, applied to a typical 1,050 sqft unit",
-   "est_source": "locality"
+   "ticket_min_lakh": 90,
+   "ticket_max_lakh": 124,
+   "config_mix": "2 BHK (carpet area reported from 608 sqft); no 3 BHK confirmed by any source",
+   "dominant_config": "2 BHK",
+   "rate_basis": "asking",
+   "price_confidence": "reported"
   },
   {
    "id": "tms-nagar-3427",
@@ -57054,47 +57197,54 @@
    "lng": 80.068139,
    "geo_precision": "exact",
    "total_units": 45,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "price_sqft_min": 5498,
+   "price_sqft_max": 6039,
    "ticket_note": null,
-   "expected_completion": "2029-03-31",
-   "stage": "new-launch",
+   "expected_completion": "2027-10",
+   "stage": "under-construction",
    "status": "active",
    "data_confidence": "verified",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0130-2026/tulive-flora"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0130-2026/tulive-flora",
+    "https://www.roofandfloor.com/chennai/project/tulive-flora-in-tambaram-west/8144",
+    "https://www.nobroker.in/gk-shetty-tulive-flora-mudichur_chennai-prjt-8aa9bd369d8f3354019d8fa8be3e2e91",
+    "https://www.ghar.tv/revista-tulive-flora-mudichur-chennai-okiw9487117611",
+    "https://chennaigatedcommunity.in/projects/tulive-flora"
    ],
-   "notes": "TNRERA registry record (Chengalpattu district, Tambaram taluk) · Village: Mudichur · Pincode 600048 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chengalpattu district, Tambaram taluk) · Village: Mudichur · Pincode 600048 · Pricing not published in the registry — verify with the promoter. Identity confirmed: 45 units matches the record exactly; branded 'Tulive' / 'GK Shetty Tulive' with Revista Holdings as the registered promoter (ghar.tv files it as 'Revista Tulive Flora'). TWO CONFLICTS RECORDED RATHER THAN AVERAGED. (1) PER-SQFT TRAP: RoofandFloor quotes Rs 5,099/sqft, but its OWN price and area contradict that — I recomputed 60,00,000/1003 = Rs 5,982/sqft and 74,35,000/1231 = Rs 6,039/sqft. The quoted 5,099 is wrong (probably a different area basis); trust the recompute. The floor of my band, Rs 5,498, is 55.15L/1003 from NoBroker's lower quote. (2) TICKET CONFLICT: RoofandFloor Rs 60-74.35 L vs NoBroker Rs 55.15-70.28 L; I report the full union 55.15-74.35 L. (3) POSSESSION CONFLICT: RoofandFloor says Oct 2027, ghar.tv says Mar 2029 — I recorded the nearer date but this is unresolved. Sizes are built-up; carpet areas quoted elsewhere (631 sqft 2BHK, 777-805 sqft 3BHK) are NOT comparable.",
    "last_checked": "2026-08-05",
    "developer": "Revista Holdings",
    "score_breakdown": {
-    "entry_stage": 21,
+    "entry_stage": 12,
     "infrastructure": 7,
     "locality_momentum": 9,
-    "relative_pricing": 7,
+    "relative_pricing": 12,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 52,
+   "upside_score": 48,
    "segment_fit": {
     "boardroom": 10,
     "executive": 35,
-    "value": 30
+    "value": 60
    },
    "risk": "High",
    "tags": [
-    "Early Entrant",
+    "Value",
     "Watchlist/Risky"
    ],
-   "score_rationale": "Scores on early entry stage. Caveats: flood-prone zone, limited developer track record.",
+   "score_rationale": "Scores on priced below the locality band. Caveats: flood-prone zone, limited developer track record.",
    "rera_verified_on": "official TNRERA export",
-   "est_price_sqft_min": 4650,
-   "est_price_sqft_max": 7150,
-   "est_ticket_min_lakh": 48.8,
-   "est_ticket_max_lakh": 75.1,
-   "est_basis": "built-up rate for Mudichur, applied to a typical 1,050 sqft unit",
-   "est_source": "locality"
+   "ticket_min_lakh": 55.15,
+   "ticket_max_lakh": 74.35,
+   "unit_size_min_sqft": 1003,
+   "unit_size_max_sqft": 1231,
+   "land_area_acres": 0.46,
+   "config_mix": "2 BHK 1,003 sqft @ Rs 60 L; 3 BHK 1,231 sqft @ Rs 74.35 L (RoofandFloor). NoBroker quotes a lower band, Rs 55.15-70.28 L.",
+   "dominant_config": "2 BHK / 3 BHK",
+   "rate_basis": "asking",
+   "price_confidence": "reported"
   },
   {
    "id": "tulive-rosendale-0027",
@@ -57109,48 +57259,56 @@
    "lng": 80.264258,
    "geo_precision": "exact",
    "total_units": 10,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "price_sqft_min": 27585,
+   "price_sqft_max": 27597,
    "ticket_note": null,
-   "expected_completion": "2029-12-31",
+   "expected_completion": "2027-06",
    "stage": "new-launch",
    "status": "active",
    "data_confidence": "verified",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0027-2026/tulive-rosendale"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0027-2026/tulive-rosendale",
+    "https://www.squareyards.com/chennai-residential-property/tulive-rosendale/343246/project",
+    "https://www.chennaiproperties.com/projects/tulive-rosendale-in-besant-nagar/7301",
+    "https://proplocators.com/project/tulive-rosendale-besant-nagar-chennai",
+    "https://tulivegkshetty.com/rosendale/"
    ],
-   "notes": "TNRERA registry record (Chennai district, Velachery taluk) · Village: Thiruvanmiyur · Pincode 600090 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district, Velachery taluk) · Village: Thiruvanmiyur · Pincode 600090 · Pricing not published in the registry — verify with the promoter. BEST-EVIDENCED RECORD IN THE BATCH. RERA MATCH EXACT (TNRERA/29/BLG/0027/2026) on SquareYards AND chennaiproperties, unit count 10 matches the registry, and the promoter's own site tulivegkshetty.com/rosendale confirms '4 BHK Luxury Apartments in Besant Nagar'. Two independent portals give the identical price band Rs 6.80 Cr - 9.07 Cr for 2,464-3,288 sqft. PER-SQFT RECOMPUTED: 6.80Cr/2464 = Rs 27,597 and 9.07Cr/3288 = Rs 27,585 — agreement within 12 rupees across the two ends, which is strong internal evidence the band is real. IMPORTANT TRAP AVOIDED: SquareYards prominently displays 'Rs 12,150/Sq.Ft. (Jun 2026)' and a 'moved from Rs 9,150 to Rs 12,150, +32.79%' trend on this project's page — that is the BESANT NAGAR LOCALITY trend series, not the project's rate. The project asks ~2.3x it. Do not average or take the low end. Minor conflict: land area 0.22 acres (SquareYards) vs 0.19 acres (chennaiproperties); possession 'New Launch, no date' (SquareYards) vs June 2027 (chennaiproperties). Promoter is Tulive / GK Shetty = registry's 'GKS Properties Pvt Ltd'.",
    "last_checked": "2026-08-05",
    "developer": "Gks Properties",
    "score_breakdown": {
     "entry_stage": 21,
     "infrastructure": 20,
     "locality_momentum": 15,
-    "relative_pricing": 7,
+    "relative_pricing": 4,
     "developer_track_record": 3,
     "rental_yield": 6
    },
-   "upside_score": 72,
+   "upside_score": 69,
    "segment_fit": {
-    "boardroom": 70,
-    "executive": 85,
+    "boardroom": 90,
+    "executive": 45,
     "value": 0
    },
    "risk": "Medium",
    "tags": [
     "Early Entrant",
     "Boardroom",
-    "Executive"
+    "Premium"
    ],
    "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export",
-   "est_price_sqft_min": 12000,
-   "est_price_sqft_max": 23300,
-   "est_ticket_min_lakh": 126.0,
-   "est_ticket_max_lakh": 244.7,
-   "est_basis": "built-up rate for Thiruvanmiyur, applied to a typical 1,050 sqft unit",
-   "est_source": "locality"
+   "ticket_min_lakh": 680,
+   "ticket_max_lakh": 907,
+   "unit_size_min_sqft": 2464,
+   "unit_size_max_sqft": 3288,
+   "land_area_acres": 0.19,
+   "config_mix": "4 BHK (2 variants)",
+   "dominant_config": "4 BHK",
+   "density_note": "10 units on 0.19-0.22 acres. Recomputed ~28,000 sqft saleable on ~8,300-9,600 sqft of land implies FSI ~3.0-3.4 — at the top of Chennai's premium-FSI band, consistent with a tall, narrow boutique tower on a beach-road plot.",
+   "rate_basis": "asking",
+   "price_confidence": "reported"
   },
   {
    "id": "tvs-emerald-green-hills-phase-v-1973",
@@ -57873,9 +58031,13 @@
    "sources": [
     "https://expressnews.asia/2026/07/over-300-channel-partners-back-urbanrises-upcoming-chennai-project-ahead-of-its-launch/",
     "https://www.businessminutes.in/2026/07/urbanrise-pre-launch-draws-overwhelming-partner-response.html",
-    "https://www.homznspace.com/urbanrise-codename-new-porur-thirumazhisai-chennai/"
+    "https://www.homznspace.com/urbanrise-codename-new-porur-thirumazhisai-chennai/",
+    "https://www.chennaionline.com/news/urbanrise-codename-the-next-big-thing-pre-launch-response-highlights-growing-demand-for-west-chennai-homes/",
+    "https://www.livechennai.com/detailnews.asp?newsid=81400",
+    "https://www.businessminutes.in/2026/07/urbanrise-pre-launch-sees-250-homes-reserved-in-just-seven-days.html",
+    "https://www.squareyards.com/chennai-residential-property/urbanrise-codename-new-porur/140250/project"
    ],
-   "notes": "Active pre-launch as of Jul 2026: 300+ channel partners committed business worth 3x the Rs 1,000+ crore launch inventory. Identification with 'Codename New Porur' in Thirumazhisai is inferred from a separate listing — treat locality as tentative. Strong early-entrant opportunity.",
+   "notes": "Active pre-launch as of Jul 2026: 300+ channel partners committed business worth 3x the Rs 1,000+ crore launch inventory. Identification with 'Codename New Porur' in Thirumazhisai is inferred from a separate listing — treat locality as tentative. Strong early-entrant opportunity. PROJECT CONFIRMED REAL AND DISTINCT, BUT NO PRICE IS PUBLISHED — it is still unnamed and pre-RERA. I fetched the primary trade-press coverage and it explicitly carries no per-unit price or price range. CRITICAL — THE INPUT RECORD CONFLATES TWO DIFFERENT PROJECTS, AND SO DOES EVERY SEARCH ENGINE. 'Codename: The Next Big Thing' is a NEW pre-launch (July 2026, 1,000+ units, no RERA yet). 'Urbanrise Codename New Porur' is a SEPARATE, OLDER project in the same locality: RERA TN/02/Building/0467/2020 and TN/02/Building/0086/2023, 7.46 acres, ~1,807 units, READY TO MOVE SINCE MARCH 2025. The figures circulating in search results — Rs 38.82 L / Rs 47.2 L / Rs 61.27 L, Rs 54.75-66.37 L, 730-885 sqft, Rs 5,940-7,500/sqft — all belong to Codename New Porur, NOT to the pre-launch. I have deliberately left every price field null rather than let those bleed across. DO NOT copy them into this record. MARKET ANCHOR FOR CONTEXT ONLY (not this project's price): other Urbanrise stock in Thirumazhisai currently asks roughly Rs 5,200-7,500/sqft, e.g. City of Joy at ~Rs 5,200/sqft from ~55 L. One further caution against deriving a price: press reports 'limited launch inventory valued at more than Rs 1,000 crore' against '1,000+ apartments', which would imply ~1 Cr per unit, but 'limited launch inventory' is probably a subset of the 1,000+ units, so that division is unsound and I did not record it. Recheck once the project is named and RERA-registered.",
    "last_checked": "2026-07-20",
    "locality": "Porur",
    "corridor": "West Chennai",
@@ -57902,6 +58064,8 @@
    },
    "developer": "Urbanrise / Alliance",
    "source": "curated",
+   "config_mix": "Over 1,000 premium 2 and 3 BHK apartments in the launch phase, with 100+ amenities",
+   "dominant_config": "2 BHK / 3 BHK",
    "est_price_sqft_min": 6500,
    "est_price_sqft_max": 8450,
    "est_ticket_min_lakh": 81.2,
@@ -58582,47 +58746,55 @@
    "lng": 80.1701,
    "geo_precision": "exact",
    "total_units": 16,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "price_sqft_min": 7498,
+   "price_sqft_max": 7509,
    "ticket_note": null,
-   "expected_completion": "2028-12-31",
-   "stage": "new-launch",
+   "expected_completion": "2028-12",
+   "stage": "under-construction",
    "status": "active",
    "data_confidence": "verified",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0150-2026/viva-vesta"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0150-2026/viva-vesta",
+    "https://www.chennaiproperties.com/projects/viva-vesta-in-zamin-pallavaram/7499",
+    "https://www.commonfloor.com/viva-vesta-chennai/povp-88zt6c",
+    "https://www.nobroker.in/property/buy/2-bhk-apartment-for-sale-in-pallavaram-chennai/8aa9bbb69e072ef6019e0770f4381ea7/detail"
    ],
-   "notes": "TNRERA registry record (Chengalpattu district, Pallavaram taluk) · Village: Zamin Pallavaram · Pincode 600043 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chengalpattu district, Pallavaram taluk) · Village: Zamin Pallavaram · Pincode 600043 · Pricing not published in the registry — verify with the promoter. BEST-EVIDENCED RECORD IN THE BATCH. Triple identity match: RERA number TNRERA/35/BLG/0150/2026 confirmed verbatim on two sources, unit count 16 matches the record exactly, and the promoter (Viva Housing / My Viva Housing Pvt Ltd) and locality both agree. PER-SQFT RECOMPUTED BY ME on all four price/size endpoints, and they are internally consistent to within 11 rupees: 71.24L/950 = Rs 7,499; 82.71L/1103 = Rs 7,498; 99.36L/1325 = Rs 7,499; 1.29Cr/1718 = Rs 7,509. This confirms the developer is pricing on a flat rate of ~Rs 7,500/sqft and independently validates ChennaiProperties' quoted Rs 7,498/sqft — a rare case where the quoted per-sqft survives recomputation. Sanity check passes. Prices are quoted 'plus other charges', so the all-in cost to a buyer will run above these figures. Asking rate on an under-construction project with Dec 2028 possession. One live unit listing seen on NoBroker (a 2BHK at Rs 89,00,001) sits above the 2BHK band of Rs 71-83 lakh — likely a resale or a premium/larger unit; not used in the recorded range.",
    "last_checked": "2026-08-05",
    "developer": "My VIVA Housing",
    "score_breakdown": {
-    "entry_stage": 21,
+    "entry_stage": 12,
     "infrastructure": 12,
     "locality_momentum": 15,
-    "relative_pricing": 7,
+    "relative_pricing": 12,
     "developer_track_record": 3,
     "rental_yield": 8
    },
-   "upside_score": 66,
+   "upside_score": 62,
    "segment_fit": {
     "boardroom": 10,
     "executive": 85,
-    "value": 30
+    "value": 60
    },
    "risk": "Medium",
    "tags": [
-    "Early Entrant",
-    "Executive"
+    "Executive",
+    "Value",
+    "Steady/Rental"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market. Caveats: limited developer track record.",
+   "score_rationale": "Scores on rising micro-market, priced below the locality band. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export",
-   "est_price_sqft_min": 6900,
-   "est_price_sqft_max": 8900,
-   "est_ticket_min_lakh": 79.3,
-   "est_ticket_max_lakh": 102.3,
-   "est_basis": "built-up rate for Pallavaram, applied to a typical 1,150 sqft unit",
-   "est_source": "locality"
+   "ticket_min_lakh": 71.24,
+   "ticket_max_lakh": 129,
+   "unit_size_min_sqft": 950,
+   "unit_size_max_sqft": 1718,
+   "land_area_acres": 0.18,
+   "config_mix": "2BHK 950-1,103 sqft (Rs 71.24-82.71 L); 3BHK 1,325-1,718 sqft (Rs 99.36 L-1.29 Cr)",
+   "dominant_config": "2BHK and 3BHK",
+   "density_note": "Boutique: 16 units, stilt + 3 floors, on just 0.18 acres (~89 units/acre) — a compact infill plot.",
+   "rate_basis": "asking",
+   "price_confidence": "reported"
   },
   {
    "id": "viva-vibes-0207",
@@ -59760,47 +59932,53 @@
    "lng": 80.245773,
    "geo_precision": "exact",
    "total_units": 9,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "price_sqft_min": 21275,
+   "price_sqft_max": 21300,
    "ticket_note": null,
-   "expected_completion": "2030-12-31",
-   "stage": "new-launch",
+   "expected_completion": "2027-01",
+   "stage": "under-construction",
    "status": "active",
    "data_confidence": "verified",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0032-2026/vedhagam"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0032-2026/vedhagam",
+    "https://www.chennaiproperties.com/projects/ceebros-vedhagam-in-nungambakkam/7208",
+    "https://www.squareyards.com/chennai-residential-property/ceebros-vedhagam/343250/project",
+    "https://www.99acres.com/ceebros-vedhagam-nungambakkam-chennai-central-npxid-r461945"
    ],
-   "notes": "TNRERA registry record (Chennai district, Egmore taluk) · Village: Nungambakkam · Pincode 600034 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district, Egmore taluk) · Village: Nungambakkam · Pincode 600034 · Pricing not published in the registry — verify with the promoter. STRONG RECORD. Identity confirmed by exact RERA match (TNRERA/29/BLG/0032/2026), Ceebros Property Development, 9 units matching the record, at No. 17 Krishnamma Road, Nungambakkam 600034. Ticket Rs 3.65-3.67 Cr for 1715-1725 sqft. I RECOMPUTED per-sqft independently: 3.65Cr/1715 = Rs 21,283 and 3.67Cr/1725 = Rs 21,275 — both land on the quoted Rs 21,300, so the figure is self-consistent and trustworthy. OUTLIER REJECTED: SquareYards shows a 'project rate' of Rs 11,600/sqft while simultaneously saying 'Price on Request' and putting the Nungambakkam locality average at Rs 15,750/sqft; Rs 11,600 is ~45% below the corroborated rate and below the locality average in one of Chennai's priciest micro-markets, so I treat it as stale/erroneous and did not blend it in. Minor size discrepancy: 1715-1725 sqft (chennaiproperties) vs 1725-1740 sqft (SquareYards); reported as the union. Asking, not transacted.",
    "last_checked": "2026-08-05",
    "developer": "Ceebros",
    "score_breakdown": {
-    "entry_stage": 21,
+    "entry_stage": 12,
     "infrastructure": 16,
     "locality_momentum": 15,
-    "relative_pricing": 7,
+    "relative_pricing": 12,
     "developer_track_record": 7,
     "rental_yield": 4
    },
-   "upside_score": 70,
+   "upside_score": 66,
    "segment_fit": {
     "boardroom": 70,
     "executive": 45,
-    "value": 0
+    "value": 50
    },
    "risk": "Low",
    "tags": [
-    "Early Entrant",
-    "Boardroom"
+    "Boardroom",
+    "Premium"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure, rising micro-market.",
+   "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market, priced below the locality band.",
    "rera_verified_on": "official TNRERA export",
-   "est_price_sqft_min": 19100,
-   "est_price_sqft_max": 28350,
-   "est_ticket_min_lakh": 343.8,
-   "est_ticket_max_lakh": 510.3,
-   "est_basis": "built-up rate for Nungambakkam, applied to a typical 1,800 sqft unit",
-   "est_source": "locality"
+   "ticket_min_lakh": 365,
+   "ticket_max_lakh": 367,
+   "unit_size_min_sqft": 1715,
+   "unit_size_max_sqft": 1740,
+   "land_area_acres": 0.15,
+   "config_mix": "3 BHK only, 9 units, stilt + 5 floors",
+   "dominant_config": "3 BHK",
+   "rate_basis": "asking",
+   "price_confidence": "reported"
   },
   {
    "id": "vel-city-4009",
@@ -60033,9 +60211,11 @@
    "data_confidence": "verified",
    "source": "rera-registry",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0251-2026/vencer-altara"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0251-2026/vencer-altara",
+    "https://vencerprojects.com/",
+    "https://vencerprojects.com/altara-apartments-for-sale-in-valasaravakkam"
    ],
-   "notes": "TNRERA registry record (Chennai district) · Pincode 600116 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district) · Pincode 600116 · Pricing not published in the registry — verify with the promoter. IDENTITY CONFIRMED ON THE PROMOTER'S OWN SITE: vencerprojects.com lists 'Vencer Altara' as an ongoing premium-apartment project at Arcot Road, Valasaravakkam, 19 premium apartments — the unit count matches the registry's 19 exactly. Configurations 3 & 4 BHK, Stilt+5. NO PRICE PUBLISHED: the promoter's project page carries no price, no unit sizes, no RERA number, and Altara appears on NO portal at all (checked SquareYards, CommonFloor, NoBroker, chennaiproperties, proplocators, houssed, addressofchoice). CONTEXT ONLY, NOT THIS PROJECT'S PRICE: the promoter's completed sibling in the same locality, Vencer Palatine (RERA TN/29/Building/0044/2021, 102 units, 1.19 acres, 2/3BHK 1,095-1,714 sqft), asks Rs 97.99 L - 1.55 Cr, which SquareYards puts at ~Rs 8,949/sqft average. Altara is a 3/4BHK boutique product and would price above Palatine, but I have no figure for it. Contact on the promoter site: +91 9513337944 / info@vencerprojects.com.",
    "last_checked": "2026-08-05",
    "developer": "VENCER HOMES & K.Revathi",
    "score_breakdown": {
@@ -60048,17 +60228,20 @@
    },
    "upside_score": 60,
    "segment_fit": {
-    "boardroom": 50,
+    "boardroom": 70,
     "executive": 65,
     "value": 0
    },
    "risk": "Medium",
    "tags": [
     "Early Entrant",
+    "Boardroom",
     "Executive"
    ],
    "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export",
+   "config_mix": "3 BHK, 4 BHK",
+   "density_note": "Stilt + 5 floors, three-side open, 19 units — a single boutique block.",
    "est_price_sqft_min": 12000,
    "est_price_sqft_max": 18000,
    "est_ticket_min_lakh": 192.0,
@@ -60188,7 +60371,7 @@
    "lat": 12.9623,
    "lng": 80.1985,
    "geo_precision": "approximate",
-   "total_units": null,
+   "total_units": 12,
    "price_sqft_min": null,
    "price_sqft_max": null,
    "ticket_note": null,
@@ -60198,9 +60381,13 @@
    "data_confidence": "reported",
    "source": "rera-registry",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0338-2025/vestas-dimensions"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0338-2025/vestas-dimensions",
+    "https://www.vesta-builders.in/",
+    "https://www.roofandfloor.com/chennai/project/vesta-breeze-in-puzhuthivakkam/5313",
+    "https://www.roofandfloor.com/chennai/project/vesta-charm-in-puzhuthivakkam/5910",
+    "https://www.squareyards.com/projects-by-vesta-builders-and-promoters-in-chennai"
    ],
-   "notes": "TNRERA registry record (Chennai district, Sholinganallur taluk) · Village: Madipakkam · Pincode 600091 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district, Sholinganallur taluk) · Village: Madipakkam · Pincode 600091 · Pricing not published in the registry — verify with the promoter. SIZES FROM THE PROMOTER, PRICE NOT PUBLISHED. Vesta Builders & Promoters' own website (vesta-builders.in) lists 'Vesta's Dimensions' at Puzhithivakkam with an area range of 1,008-1,384 sqft; a search snippet adds 12 units and compact 2.5BHK configuration. The promoter's site publishes no prices for ANY of its nine projects, and no portal carries a Dimensions project page — RoofandFloor, ChennaiProperties, SquareYards and CommonFloor all cover sibling Vesta projects but not this one. SquareYards' Vesta new-launch page returns only Vestas Charm. So no price is recorded. SIBLING BENCHMARK, FOR TRIANGULATION ONLY — NOT THIS PROJECT'S PRICE: same-promoter, same-locality projects recompute (by me, from price/size, not quoted rates) to Vesta Breeze Rs 84.31-86.33 L over 1,171-1,199 sqft = Rs 7,200/sqft, and Vesta Charm Rs 84.77 L-1.24 Cr over 1,101-1,611 sqft = Rs 7,700/sqft. A Dimensions unit at 1,008-1,384 sqft would plausibly land in the Rs 73L-1.07Cr band at those rates, but that is my inference from siblings and must NOT be written into price fields as fact. I DISCARDED AddressOfChoice's Vesta listings entirely: it reports unit sizes of 7,800-12,200 sqft against tickets of Rs 35-103 lakh, implying absurd rates of Rs 454-972/sqft — it has confused project land area with unit size. Textbook tier-3 garbage; do not use that source for this promoter.",
    "last_checked": "2026-08-05",
    "developer": "Vesta Builders & Promoters",
    "score_breakdown": {
@@ -60213,7 +60400,7 @@
    },
    "upside_score": 65,
    "segment_fit": {
-    "boardroom": 0,
+    "boardroom": 10,
     "executive": 85,
     "value": 30
    },
@@ -60224,6 +60411,10 @@
     "Watchlist/Risky"
    ],
    "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market. Caveats: flood-prone zone, limited developer track record.",
+   "unit_size_min_sqft": 1008,
+   "unit_size_max_sqft": 1384,
+   "dominant_config": "2.5BHK (compact)",
+   "density_note": "Boutique: 12 units.",
    "est_price_sqft_min": 5650,
    "est_price_sqft_max": 8850,
    "est_ticket_min_lakh": 59.3,
@@ -60900,47 +61091,56 @@
    "lat": 13.01175,
    "lng": 80.159806,
    "geo_precision": "exact",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "total_units": 45,
+   "price_sqft_min": 6250,
+   "price_sqft_max": 6800,
    "ticket_note": null,
-   "expected_completion": "2030-03-31",
+   "expected_completion": "March 2030",
    "stage": "new-launch",
    "status": "active",
    "data_confidence": "verified",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-1-blg-0205-2026/viaan"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-1-blg-0205-2026/viaan",
+    "https://www.squareyards.com/vibrant-viaan-kolapakkam-chennai-npd-344539",
+    "https://www.squareyards.com/projects-by-vibrant-offices-and-homes-in-chennai",
+    "https://www.nobroker.in/vibrant-offices-and-homes-llp-projects-chennai"
    ],
-   "notes": "TNRERA registry record (Kancheepuram district, Kundrathur taluk) · Village: Kolapakkam · Pincode 600128 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Kancheepuram district, Kundrathur taluk) · Village: Kolapakkam · Pincode 600128 · Pricing not published in the registry — verify with the promoter. Identity CONFIRMED — RERA TNRERA/1/BLG/0205/2026 matches exactly on the SquareYards project page, promoter Vibrant Offices And Homes matches, and the record's 'new-launch' stage matches a June 2026 launch. Sizes and unit count are firm. IMPORTANT on the ticket figures: the listing states 'Price on Request', so Rs 68-116 lakh is DERIVED BY ME, not quoted — hence data_confidence 'estimated'. Derivation: smallest unit 1,090 sqft x Rs 6,250 = Rs 68.1 lakh; largest 1,700 sqft x Rs 6,800 = Rs 115.6 lakh. Two rates are in circulation and I have kept both rather than picking one: Rs 6,250/sqft is SquareYards' stated project average, while an earlier search snippet on the same project gives Rs 6,800/sqft asking. For reference SquareYards puts the wider Kolapakkam micromarket at Rs 7,100/sqft, so the project is pitched slightly below its locality — consistent with a new launch. Treat the ticket band as indicative until the promoter publishes a price list; no Vibrant Offices and Homes website was found.",
    "last_checked": "2026-08-05",
    "developer": "Vibrant Offices Homes",
    "score_breakdown": {
     "entry_stage": 21,
     "infrastructure": 12,
     "locality_momentum": 15,
-    "relative_pricing": 7,
+    "relative_pricing": 12,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 63,
+   "upside_score": 68,
    "segment_fit": {
-    "boardroom": 0,
-    "executive": 35,
-    "value": 30
+    "boardroom": 10,
+    "executive": 65,
+    "value": 60
    },
    "risk": "Medium",
    "tags": [
-    "Early Entrant"
+    "Early Entrant",
+    "Executive",
+    "Value"
    ],
-   "score_rationale": "Scores on early entry stage, rising micro-market. Caveats: limited developer track record.",
+   "score_rationale": "Scores on early entry stage, rising micro-market, priced below the locality band. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export",
-   "est_price_sqft_min": 5700,
-   "est_price_sqft_max": 7500,
-   "est_ticket_min_lakh": 57.0,
-   "est_ticket_max_lakh": 75.0,
-   "est_basis": "built-up rate for Kundrathur, applied to a typical 1,000 sqft unit",
-   "est_source": "locality"
+   "ticket_min_lakh": 68,
+   "ticket_max_lakh": 116,
+   "unit_size_min_sqft": 1090,
+   "unit_size_max_sqft": 1700,
+   "land_area_acres": 1,
+   "config_mix": "2 BHK (1,090 and 1,295 sqft) + 3 BHK (1,420 and 1,700 sqft)",
+   "dominant_config": "2 BHK",
+   "density_note": "45 units on 1 acre in a single structure — moderate-density mid-rise typical of the Kolapakkam/Kundrathur belt.",
+   "rate_basis": "asking",
+   "price_confidence": "estimated"
   },
   {
    "id": "vignesh-nrd-gallery-0342",
@@ -61390,40 +61590,53 @@
    "lng": 80.121833,
    "geo_precision": "exact",
    "total_units": 110,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "price_sqft_min": 8386,
+   "price_sqft_max": 8604,
    "ticket_note": null,
-   "expected_completion": "2034-04-29",
-   "stage": "new-launch",
+   "expected_completion": "2027-12",
+   "stage": "under-construction",
    "status": "active",
    "data_confidence": "verified",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-1-blg-0203-2026/viraam-2"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-1-blg-0203-2026/viraam-2",
+    "https://stepsstone.in/apartments/apartments-ongoing/viraam-2-kattupakkam/",
+    "https://stepsstoneviraam.in/",
+    "https://findbhk.com/projects/stepsstone-viraam-kattupakkam",
+    "https://www.jllhomes.co.in/apartments-new/chennai/stepsstone-viraam-2-3-bhk-flat-west-chennai-1217-sqft"
    ],
-   "notes": "TNRERA registry record (Kancheepuram district) · Pincode 600122 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Kancheepuram district) · Pincode 600122 · Pricing not published in the registry — verify with the promoter. BEST-SOURCED RECORD IN THIS BATCH — priced off the promoter's own website, which carries RERA TNRERA/1/BLG/0203/2026 verbatim, an exact match to the input, plus a 110-unit count that also matches the input exactly. PROMOTER NAME RESOLUTION: the RERA registrant is Aaalam Promoters Private Limited but the project is marketed as 'StepsStone Viraam 2'. These are related entities — TNRERA lists Aaalam Promoters Pvt Ltd as a registered promoter firm and the Aaalam Srinivasa Palms project is developed under the StepsStone banner. StepsStone (MD K. Mothish Kumar, Choolaimedu) is the consumer-facing brand. RATE RECOMPUTED FROM THE PROMOTER'S OWN PRICE AND SIZE FIGURES ON THE SAME PAGE: 79L/942 = Rs 8,386/sqft, 1.06Cr/1232 = Rs 8,604/sqft. The promoter publishes no per-sqft of its own, so nothing was copied. CRITICAL TRAP AVOIDED — DO NOT USE THE Rs 6,200/sqft FIGURE circulating for 'Stepsstone Viraam'. That is the SEPARATE phase-1 project in Kattupakkam (roofandfloor id 6753, chennaiproperties id 6543), quoted at ~Rs 5,900-6,200/sqft on Rs 78 L - 1.05 Cr. Its ticket range is nearly identical to Viraam 2's, which makes the two very easy to cross-contaminate, but its unit sizes are much larger, so the per-sqft is ~28% lower. My rate comes only from Viraam 2's own page. Possession Dec 2027 comes from findbhk, not the promoter site — slightly lower confidence than the price. 110 units on 2 acres = ~55 units/acre, moderate density for the corridor.",
    "last_checked": "2026-08-05",
    "developer": "Aaalam Promoters",
    "score_breakdown": {
-    "entry_stage": 21,
+    "entry_stage": 12,
     "infrastructure": 16,
     "locality_momentum": 8,
     "relative_pricing": 7,
     "developer_track_record": 3,
     "rental_yield": 5
    },
-   "upside_score": 60,
+   "upside_score": 51,
    "segment_fit": {
     "boardroom": 10,
-    "executive": 35,
+    "executive": 65,
     "value": 0
    },
    "risk": "Medium",
    "tags": [
-    "Early Entrant"
+    "Executive"
    ],
-   "score_rationale": "Scores on early entry stage, close to upcoming metro/infrastructure. Caveats: limited developer track record.",
-   "rera_verified_on": "official TNRERA export"
+   "score_rationale": "Scores on close to upcoming metro/infrastructure. Caveats: limited developer track record.",
+   "rera_verified_on": "official TNRERA export",
+   "ticket_min_lakh": 79,
+   "ticket_max_lakh": 106,
+   "unit_size_min_sqft": 942,
+   "unit_size_max_sqft": 1232,
+   "land_area_acres": 2,
+   "config_mix": "2 & 3 BHK, 942-1232 sqft, stilt + 5 floors, CMDA-approved",
+   "dominant_config": "2 BHK / 3 BHK",
+   "rate_basis": "asking",
+   "price_confidence": "reported"
   },
   {
    "id": "vishal-nagar-2002",
@@ -61649,46 +61862,52 @@
    "lat": 12.786,
    "lng": 80.22,
    "geo_precision": "approximate",
-   "total_units": null,
-   "price_sqft_min": null,
+   "total_units": 16,
+   "price_sqft_min": 6990,
    "price_sqft_max": null,
    "ticket_note": null,
-   "expected_completion": null,
+   "expected_completion": "2027-12",
    "stage": "under-construction",
    "status": "active",
    "data_confidence": "reported",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0416-2025/vista-villas"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0416-2025/vista-villas",
+    "https://www.earthenspaces.com/vistavillas/",
+    "https://www.99acres.com/sugal-vista-villas-kelambakkam-chennai-south-npxid-r458066",
+    "https://www.nobroker.in/earthen-vista-villas-kelambakkam_chennai-prjt-8aa99c5a9c135f49019c13cdcf3631f3"
    ],
-   "notes": "TNRERA registry record (Chengalpattu district, Thiruporur taluk) · Village: Thaiyur A · Pincode 603103 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chengalpattu district, Thiruporur taluk) · Village: Thaiyur A · Pincode 603103 · Pricing not published in the registry — verify with the promoter. PROMOTER'S OWN SITE, RERA CONFIRMED — high confidence. earthenspaces.com/vistavillas carries the exact RERA number TNRERA/35/BLG/0416/2025 matching the record, plus Dec 2027 completion and 16 villas. IMPORTANT PROMOTER MAPPING: the project is marketed by EARTHEN SPACES, described on its own site and by 99acres as a venture/enterprise of the SUGAL GROUP. The RERA promoter of record is 'Sugal And Damani Share Brokers Limited'. Same group, different trading name — developers.json should carry the Earthen Spaces brand alongside the Sugal & Damani legal entity. Type confirmed as villa, matching the record. PRICE IS AN ENTRY POINT ONLY: 'starting from Rs 1.17 crore', corroborated by 99acres. PER-SQFT RECOMPUTED BY ME: 1.17Cr / 1,674 sqft (the smallest villa) = Rs 6,990/sqft. Sanity check passes. NO TOP-END PRICE IS PUBLISHED anywhere, so ticket_max and price_sqft_max are deliberately left null rather than extrapolated — for reference only, the 1,906 sqft villa at the same Rs 6,990 rate would imply ~Rs 1.33 Cr, but villa pricing rarely stays linear across plot sizes and I have not recorded that as data. Beware a name collision: 'Earthen Vista Villas Kelambakkam' on NoBroker appears to be the same project under a slightly different name, but there are other unrelated 'Vista Villas' listings in Kelambakkam.",
    "last_checked": "2026-08-05",
    "developer": "Sugal Damani Share Brokers",
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 20,
     "locality_momentum": 15,
-    "relative_pricing": 7,
+    "relative_pricing": 4,
     "developer_track_record": 3,
     "rental_yield": 10
    },
-   "upside_score": 67,
+   "upside_score": 64,
    "segment_fit": {
-    "boardroom": 0,
-    "executive": 35,
+    "boardroom": 10,
+    "executive": 85,
     "value": 30
    },
    "risk": "Medium",
    "tags": [
+    "Executive",
     "Steady/Rental"
    ],
    "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
-   "est_price_sqft_min": 4300,
-   "est_price_sqft_max": 6200,
-   "est_ticket_min_lakh": 49.5,
-   "est_ticket_max_lakh": 71.3,
-   "est_basis": "built-up rate for Kelambakkam, applied to a typical 1,150 sqft unit",
-   "est_source": "locality"
+   "ticket_min_lakh": 117,
+   "unit_size_min_sqft": 1674,
+   "unit_size_max_sqft": 1906,
+   "config_mix": "3BHK across 3 blocks: Block 1 1,799 sqft; Block 2 1,906 sqft; Block 3 Type 3 1,674 sqft; Block 3 Type 4 1,802 sqft. Individual plots 872-977 sqft.",
+   "dominant_config": "3BHK villa",
+   "density_note": "16 villas on individual plots of 872-977 sqft; 10.5 ft ceilings called out as a differentiator.",
+   "rate_basis": "asking",
+   "price_confidence": "reported"
   },
   {
    "id": "vista-s-pleasants-0788",
@@ -61920,7 +62139,7 @@
    "lat": 13.134655,
    "lng": 80.047043,
    "geo_precision": "exact",
-   "total_units": null,
+   "total_units": 30,
    "price_sqft_min": null,
    "price_sqft_max": null,
    "ticket_note": null,
@@ -61928,11 +62147,15 @@
    "stage": "new-launch",
    "status": "active",
    "data_confidence": "verified",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-2-blg-0068-2026/vivenza"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-2-blg-0068-2026/vivenza",
+    "https://www.squareyards.com/arc-developers-chennai-projects/25684/builder",
+    "https://arcdevelopers.in/vivenza/",
+    "https://www.99acres.com/arc-vivenza-nadukuthagai-thiruvallur-npxid-r462981",
+    "https://arcdevelopers.in/"
    ],
-   "notes": "TNRERA registry record (Tiruvallur district, Avadi taluk) · Village: Nadukuthagai · Pincode 602024 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Tiruvallur district, Avadi taluk) · Village: Nadukuthagai · Pincode 602024 · Pricing not published in the registry — verify with the promoter. PARTIAL — ticket range is firm, per-sqft deliberately left NULL. ARC Vivenza by ARC Developers is confirmed real with a promoter page and listings on both SquareYards and 99acres; SquareYards' builder page prices it Rs 67.55 lakh to Rs 73.37 lakh as a new launch. RERA number was not published by any source, so identity rests on promoter + project name + locality, all three of which match. WHY NO PER-SQFT: the promoter's own page contradicts itself on unit sizes (see config_mix), so every candidate divisor gives a different and unverifiable answer — Rs 67.55L/698 sqft = Rs 9,678/sqft, Rs 67.55L/830 sqft = Rs 8,138/sqft, Rs 67.55L/1,572 sqft = Rs 4,297/sqft. The Rs 4,297 figure is the only one that looks normal for the Thiruninravur/Avadi affordable belt, but it rests on the size table I judge to be erroneous, while the plausible-size readings produce rates that look far too high for that micromarket. Rather than pick, I have recorded none. ARC's portfolio spans wildly different price points (ARC Alcazar Nungambakkam at Rs 4.40-7.34 Cr, ARC Noor Pearl Adyar at Rs 3.60-4.20 Cr), which is a likely source of the spec-table bleed on their site. Get a floor plan before deriving any rate here.",
    "last_checked": "2026-08-05",
    "developer": "ARC Developers",
    "score_breakdown": {
@@ -61945,7 +62168,7 @@
    },
    "upside_score": 53,
    "segment_fit": {
-    "boardroom": 0,
+    "boardroom": 30,
     "executive": 35,
     "value": 30
    },
@@ -61956,12 +62179,13 @@
    "score_rationale": "Scores on early entry stage, rising micro-market. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export",
    "registration_status": "Revised Carpet Area Statement",
-   "est_price_sqft_min": 4900,
-   "est_price_sqft_max": 5800,
-   "est_ticket_min_lakh": 51.5,
-   "est_ticket_max_lakh": 60.9,
-   "est_basis": "built-up rate for Nemilicheri (Avadi side), applied to a typical 1,050 sqft unit",
-   "est_source": "locality"
+   "ticket_min_lakh": 67.55,
+   "ticket_max_lakh": 73.37,
+   "config_mix": "2 BHK from 698 sqft per the promoter's own page; the same page's spec table separately lists 3 BHK 1,572-1,879 sqft, 4 BHK 2,624 sqft and penthouses 5,045-5,056 sqft, which is not reconcilable with the project's stated 24,905 sqft total built-up across 30 units (30 x 1,572 alone would need 47,160 sqft). The 2 BHK / 698 sqft reading is the internally consistent one: 24,905 / 30 = 830 sqft average per unit.",
+   "dominant_config": "2 BHK",
+   "density_note": "30 apartments, 5 per floor, 30 car parks, 24,905 sqft total built-up — a single small block, not a township.",
+   "rate_basis": "asking",
+   "price_confidence": "reported"
   },
   {
    "id": "vkn-nagar-4068",
@@ -62244,49 +62468,58 @@
    "lat": 13.124604,
    "lng": 80.288985,
    "geo_precision": "exact",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "total_units": 52,
+   "price_sqft_min": 11800,
+   "price_sqft_max": 14400,
    "ticket_note": null,
    "expected_completion": "2029-12-31",
    "stage": "new-launch",
    "status": "active",
    "data_confidence": "verified",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0006-2026/voora-agastya-heights"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0006-2026/voora-agastya-heights",
+    "https://www.squareyards.com/chennai-residential-property/voora-agastya-heights/343236/project",
+    "https://voora.co.in/project/voora-agastya/",
+    "https://www.99acres.com/voora-agastya-heights-tondiarpet-chennai-north-npxid-r459390",
+    "https://www.nobroker.in/voora-agastya-heights-tondiarpet_chennai-prjt-8aa99d5a9c4a1dda019c4b34ac6337c8"
    ],
-   "notes": "TNRERA registry record (Chennai district, Tondiarpet taluk) · Village: Tondiarpet · Pincode 600081 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district, Tondiarpet taluk) · Village: Tondiarpet · Pincode 600081 · Pricing not published in the registry — verify with the promoter. Identity confirmed against the PROMOTER'S OWN SITE (voora.co.in): 52 units, 1,800-2,207 sqft, 3BHK 1800-1928 / 4BHK 2207, Tondiarpet Main Road — all matching SquareYards, which also carries the exact RERA TNRERA/29/BLG/0006/2026. The dedicated microsite vooraagastyachennai.com returned HTTP 403. Promoter site publishes no price. MATERIAL PRICE CONFLICT, RECORDED IN FULL, NOT AVERAGED: 99acres/NoBroker report Rs 2.59-3.17 Cr, which recomputes to Rs 14,389/sqft (2.59Cr/1800) and Rs 14,363/sqft (3.17Cr/2207) — remarkably self-consistent, implying a true rate near Rs 14,400. SquareYards instead states Rs 11,800/sqft, which on the same areas would give Rs 2.12-2.60 Cr. Hence the wide band 11,800-14,400. A third snippet cited 'Rs 6.8k/sqft average' — that is the Tondiarpet LOCALITY average, not this project, and was excluded. Note the premium: a sea-facing metro-adjacent tower at ~2x the North Chennai locality rate is plausible but worth confirming. Land area also conflicts: 0.56 acres (SquareYards) vs '1 acre' (99acres snippet); recorded the sourced 0.56.",
    "last_checked": "2026-08-05",
    "developer": "Voora Property Developers",
    "score_breakdown": {
     "entry_stage": 21,
     "infrastructure": 12,
     "locality_momentum": 15,
-    "relative_pricing": 7,
+    "relative_pricing": 4,
     "developer_track_record": 3,
     "rental_yield": 8
    },
-   "upside_score": 66,
+   "upside_score": 63,
    "segment_fit": {
-    "boardroom": 0,
+    "boardroom": 70,
     "executive": 85,
     "value": 30
    },
    "risk": "High",
    "tags": [
     "Early Entrant",
+    "Boardroom",
     "Executive",
     "Watchlist/Risky"
    ],
    "score_rationale": "Scores on early entry stage, rising micro-market. Caveats: flood-prone zone, limited developer track record.",
    "rera_verified_on": "official TNRERA export",
-   "est_price_sqft_min": 5500,
-   "est_price_sqft_max": 9000,
-   "est_ticket_min_lakh": 57.8,
-   "est_ticket_max_lakh": 94.5,
-   "est_basis": "built-up rate for Tondiarpet, applied to a typical 1,050 sqft unit",
-   "est_source": "locality"
+   "ticket_min_lakh": 259,
+   "ticket_max_lakh": 317,
+   "unit_size_min_sqft": 1800,
+   "unit_size_max_sqft": 2207,
+   "land_area_acres": 0.56,
+   "config_mix": "3 BHK 1,800-1,928 sqft; 4 BHK 2,207 sqft; stilt + 13 floors, sea-facing, adjacent to Tondiarpet Metro",
+   "dominant_config": "3 BHK / 4 BHK",
+   "density_note": "52 units on ~0.56 acres in a stilt+13 tower — high-rise, high-density for North Chennai",
+   "rate_basis": "asking",
+   "price_confidence": "reported"
   },
   {
    "id": "vr-dream-space-phase-1-0670",
@@ -62419,9 +62652,11 @@
    "data_confidence": "verified",
    "source": "rera-registry",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0108-2026/westin-enclave"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0108-2026/westin-enclave",
+    "https://www.aurumproptech.in/pulse/rera/tamil-nadu/chennai/westin-enclave/9261",
+    "https://www.99acres.com/arun-westin-enclave-nolambur-chennai-west-npxid-r464687"
    ],
-   "notes": "TNRERA registry record (Chennai district, Maduravoyal taluk) · Village: Nolambur · Pincode 600095 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chennai district, Maduravoyal taluk) · Village: Nolambur · Pincode 600095 · Pricing not published in the registry — verify with the promoter. IDENTITY CONFIRMED via the AurumPropTech RERA mirror, which reproduces the filing for TNRERA/29/BLG/0108/2026: promoter M/s ARUN HOMES (partnership firm), 15 dwelling units (matches the registry), planning permission 29-Sep-2025, building permit 18-Nov-2025, registration approved 28-Mar-2026, proposed completion 17-Nov-2030. NO SELLING PRICE PUBLISHED ANYWHERE — no unit sizes or configurations either. 99acres has a project page ('Arun Westin Enclave') but it is captcha-walled and no price reached me through snippets; not on chennaiproperties' Nolambur list (10 projects, checked), not on NoBroker, SquareYards, RoofandFloor or findbhk; no promoter website found (note: this is NOT Arun Excello, a different and much larger Chennai developer). DO NOT DERIVE A PRICE FROM THE RERA FILING: the declared total project cost of Rs 25,48,16,800 is a cost figure including land, not revenue — dividing it by 15 units would produce a fake Rs 1.70 Cr 'price'. For micro-market context only, Nolambur/Mogappair 3BHK asks on chennaiproperties run ~Rs 9,125-13,477/sqft.",
    "last_checked": "2026-08-05",
    "developer": "Arun Homes",
    "score_breakdown": {
@@ -62445,6 +62680,8 @@
    ],
    "score_rationale": "Scores on early entry stage, rising micro-market. Caveats: limited developer track record.",
    "rera_verified_on": "official TNRERA export",
+   "land_area_acres": 0.145,
+   "density_note": "15 units on 585.29 sqm (0.145 acres / ~6,300 sqft) in a Stilt+5 non-high-rise — a small infill block.",
    "est_price_sqft_min": 7250,
    "est_price_sqft_max": 9750,
    "est_ticket_min_lakh": 76.1,
@@ -62570,44 +62807,54 @@
    "lat": 12.918,
    "lng": 80.192,
    "geo_precision": "approximate",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "total_units": 71,
+   "price_sqft_min": 7793,
+   "price_sqft_max": 7814,
    "ticket_note": null,
-   "expected_completion": null,
+   "expected_completion": "2028-05",
    "stage": "under-construction",
    "status": "active",
    "data_confidence": "reported",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0280-2025/whitefield-mudra-phase-c"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0280-2025/whitefield-mudra-phase-c",
+    "https://propspedia.com/chennai/medavakkam/shirdi-whitefield-mudra-phase-c",
+    "https://findbhk.com/projects/Shirdi-whitefield-mudra-medavakkam",
+    "https://houssed.com/chennai/shirdi-shelters/shirdi-whitefield-mudra-11561",
+    "https://www.99acres.com/microsite/shirdi-shelters-whitefield-mudra-medavakkam-chennai/"
    ],
-   "notes": "TNRERA registry record (Chengalpattu district, Tambaram taluk) · Village: Medavakkam · Pincode 600100 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chengalpattu district, Tambaram taluk) · Village: Medavakkam · Pincode 600100 · Pricing not published in the registry — verify with the promoter. IDENTITY CONFIRMED: propspedia carries RERA TNRERA/35/BLG/0280/2025 verbatim and names the promoter 'Shirdi Shelters Whitefield Pvt Ltd' — both exact matches to the input. Address: Shri Sathya Sai Nagar St, Surya Nagar, Medavakkam. RATE RECOMPUTED: quoted Rs 7,769/sqft; my arithmetic gives 1.04Cr/1331 = Rs 7,814 and 1.25Cr/1604 = Rs 7,793. Both land within 0.6% of the quoted rate, so the figure is reliable and the configs are priced uniformly. I recorded the recomputed band rather than the quoted single value. CORRECTION TO A SEARCH-ENGINE ERROR: an aggregated snippet claimed the rate spans 'Rs 6,480 to Rs 7,800/sqft'. The 6,480 low end comes from cross-multiplying the minimum price against the maximum size (1.04Cr/1604), pairing a price and an area that do not belong to the same unit. The true band is ~Rs 7,790-7,815. Possession May 2028. Phase C is one tower within an established multi-phase Medavakkam development, so buyer risk is lower than a standalone first-time launch, and neighbouring phases give comparables.",
    "last_checked": "2026-08-05",
    "developer": "Shirdi Shelters Whitefield",
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 20,
     "locality_momentum": 15,
-    "relative_pricing": 7,
+    "relative_pricing": 8,
     "developer_track_record": 3,
     "rental_yield": 4
    },
-   "upside_score": 61,
+   "upside_score": 62,
    "segment_fit": {
-    "boardroom": 0,
-    "executive": 55,
+    "boardroom": 10,
+    "executive": 85,
     "value": 30
    },
    "risk": "Medium",
-   "tags": [],
+   "tags": [
+    "Executive"
+   ],
    "score_rationale": "Scores on close to upcoming metro/infrastructure, rising micro-market. Caveats: limited developer track record.",
-   "est_price_sqft_min": 6500,
-   "est_price_sqft_max": 7500,
-   "est_ticket_min_lakh": 74.8,
-   "est_ticket_max_lakh": 86.2,
-   "est_basis": "built-up rate for Medavakkam, applied to a typical 1,150 sqft unit",
-   "est_source": "locality"
+   "ticket_min_lakh": 104,
+   "ticket_max_lakh": 125,
+   "unit_size_min_sqft": 1331,
+   "unit_size_max_sqft": 1604,
+   "land_area_acres": 3.41,
+   "config_mix": "3 BHK / 2 bath across all units, 1331-1604 sqft, 1 tower",
+   "dominant_config": "3 BHK",
+   "density_note": "71 units in 1 tower for Phase C. The 3.41-acre land figure is the BROADER multi-phase Whitefield Mudra development (Phases I, III, 5, C etc.), not Phase C's own footprint — do not compute Phase-C density from it.",
+   "rate_basis": "asking",
+   "price_confidence": "reported"
   },
   {
    "id": "yara-avante-0233",
@@ -63021,46 +63268,56 @@
    "lat": 12.6819,
    "lng": 79.9864,
    "geo_precision": "approximate",
-   "total_units": null,
-   "price_sqft_min": null,
-   "price_sqft_max": null,
+   "total_units": 941,
+   "price_sqft_min": 6670,
+   "price_sqft_max": 6930,
    "ticket_note": null,
-   "expected_completion": null,
+   "expected_completion": "October 2028 to February 2029 for the under-construction phase",
    "stage": "under-construction",
    "status": "active",
    "data_confidence": "reported",
-   "source": "rera-registry",
+   "source": "curated",
    "sources": [
-    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0296-2025/bollineni-zion"
+    "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-35-blg-0296-2025/bollineni-zion",
+    "https://www.squareyards.com/chennai-residential-property/bscpl-bollineni-zion/82304/project",
+    "https://www.nobroker.in/bollineni-zion-semmancheri_chennai-prjt-8a9fb3827be8211a017be8e166fd76cb",
+    "https://www.bollinenizion.in/",
+    "https://findbhk.com/projects/Bollineni-zion-apartment-semmenchery",
+    "https://bscplre.com/projects/realestate/chennai/bollineni-zion"
    ],
-   "notes": "TNRERA registry record (Chengalpattu district, Tambaram taluk) · Village: Arasankalani · Pincode 600126 · Pricing not published in the registry — verify with the promoter.",
+   "notes": "TNRERA registry record (Chengalpattu district, Tambaram taluk) · Village: Arasankalani · Pincode 600126 · Pricing not published in the registry — verify with the promoter. Identity CONFIRMED — NoBroker lists BOTH TN/01/Building/0399/2022 (dated 10/10/2022) and TNRERA/35/BLG/0296/2025 (dated 08-09-2025) against this project, so the record's registration is a NEW PHASE of an existing township, not a new project. Promoter Krishnaiah Projects Pvt Ltd is the BSCPL Infrastructure group (formerly B. Seenaiah & Company (Projects) Ltd, promoted by Bollineni Krishnaiah's family) — the record's promoter and the marketed brand are the same entity. STAGE IS SPLIT and this matters: the promoter's own site shows possession June 2024 under the older TN/01/Building/0458/2020 registration (that inventory is ready), while NoBroker shows under construction to February 2029 and findbhk reports only 10 percent complete as of 30 January 2026 with handover expected October 2028. So ready stock and a 2028-29 phase are being sold side by side, which is also why rate_basis is 'mixed'. PRICES — full range recorded, conflict NOT averaged away, all per-sqft recomputed by me: SquareYards (June 2026) gives Rs 59.29L-1.10Cr over 885-1,650 sqft, recomputing to Rs 6,699 and Rs 6,667/sqft; the promoter's own site gives Rs 71L-1.15Cr over 1,040-1,660 sqft, recomputing to Rs 6,827 and Rs 6,928/sqft. Those two are the internally consistent sources and they bracket Rs 6,670-6,930/sqft. Two further sources sit outside that: NoBroker quotes Rs 80L-1.45Cr but against CARPET areas of 652-1,040 sqft (not comparable to the super-built-up figures above), and findbhk quotes Rs 90L-1.38Cr at a stated Rs 6,599/sqft which does not divide out against any published size. The ticket floor of Rs 59.29 lakh is likely ready-phase inventory and the Rs 1.45 crore ceiling likely new-phase large units — do not read the span as a single price list.",
    "last_checked": "2026-08-05",
    "developer": "Krishnaiah Projects",
    "score_breakdown": {
     "entry_stage": 12,
     "infrastructure": 7,
     "locality_momentum": 9,
-    "relative_pricing": 7,
+    "relative_pricing": 4,
     "developer_track_record": 3,
     "rental_yield": 4
    },
-   "upside_score": 42,
+   "upside_score": 39,
    "segment_fit": {
     "boardroom": 0,
-    "executive": 35,
+    "executive": 65,
     "value": 30
    },
    "risk": "High",
    "tags": [
+    "Executive",
     "Watchlist/Risky"
    ],
    "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
-   "est_price_sqft_min": 4200,
-   "est_price_sqft_max": 6400,
-   "est_ticket_min_lakh": 42.0,
-   "est_ticket_max_lakh": 64.0,
-   "est_basis": "built-up rate for Chengalpattu town, applied to a typical 1,000 sqft unit",
-   "est_source": "locality"
+   "ticket_min_lakh": 59.29,
+   "ticket_max_lakh": 145,
+   "unit_size_min_sqft": 885,
+   "unit_size_max_sqft": 1660,
+   "land_area_acres": 23.5,
+   "config_mix": "2 BHK, 2.5 BHK and 3 BHK across 13 towers; promoter markets them as 2 BHK, 3 BHK XL and 3 BHK XXL",
+   "dominant_config": "2 BHK",
+   "density_note": "941 units across 13 towers on 23.5 acres, itself part of a larger circa 100-acre master-planned township — about 40 units per acre, high-density by Chennai suburban standards.",
+   "rate_basis": "mixed",
+   "price_confidence": "reported"
   },
   {
    "id": "dwaraka-enclave-phase-1-2229",
@@ -63360,9 +63617,10 @@
    "sources": [
     "https://proquiro.com/tools/rera-tamil-nadu/buildings/tnrera-29-blg-0194-2026/lancor-ananya",
     "https://lancor.in/project/mylapore-apartments-in-chennai/lancor-ananya/",
-    "https://lancor.in/luxury-apartments-mylapore-alwarpet-chennai/"
+    "https://lancor.in/luxury-apartments-mylapore-alwarpet-chennai/",
+    "https://www.99acres.com/lancor-ananya-mylapore-chennai-central-npxid-r468220"
    ],
-   "notes": "TNRERA registry record (Chennai district, Mylapore taluk) · Village: Mylapore · Pincode 600004 · Pricing not published in the registry — verify with the promoter. RERA TNRERA/29/BLG/0194/2026 dated 08-06-2026 confirmed on Lancor's own project page. NO PRICE IS PUBLISHED anywhere — developer site, 99acres (403-blocked), Housing, MagicBricks, SquareYards, Houssed and AddressOfChoice all omit it, so price_sqft and ticket are left null rather than inferred. For context only (NOT a project quote), Lancor's own market commentary puts Alwarpet/Mylapore at ₹17,000–24,400/sqft with ultra-luxury pockets beyond ₹29,000/sqft. Warren Road address; developer flags 'Only 1 Unit Available', so it is effectively sold out. Lancor is BSE/NSE-listed with a 41-year on-time delivery record and claims one of the earliest handovers among central-Chennai 2026 luxury launches. Imported marble, twin stretcher lifts, 100% backup, EV charging for every apartment, pool, gym, party hall, double-height lobby.",
+   "notes": "TNRERA registry record (Chennai district, Mylapore taluk) · Village: Mylapore · Pincode 600004 · Pricing not published in the registry — verify with the promoter. RERA TNRERA/29/BLG/0194/2026 dated 08-06-2026 confirmed on Lancor's own project page. NO PRICE IS PUBLISHED anywhere — developer site, 99acres (403-blocked), Housing, MagicBricks, SquareYards, Houssed and AddressOfChoice all omit it, so price_sqft and ticket are left null rather than inferred. For context only (NOT a project quote), Lancor's own market commentary puts Alwarpet/Mylapore at ₹17,000–24,400/sqft with ultra-luxury pockets beyond ₹29,000/sqft. Warren Road address; developer flags 'Only 1 Unit Available', so it is effectively sold out. Lancor is BSE/NSE-listed with a 41-year on-time delivery record and claims one of the earliest handovers among central-Chennai 2026 luxury launches. Imported marble, twin stretcher lifts, 100% backup, EV charging for every apartment, pool, gym, party hall, double-height lobby. Identity confirmed on the PROMOTER'S OWN SITE (lancor.in), the best-tier source: RERA TNRERA/29/BLG/0194/2026 dated 08.06.2026, Warren Road Mylapore, 48 residences, 3&4BHK 1,271-2,448 sqft, 4 units/floor — 48 units matches the record exactly. NO PRICE PUBLISHED: Lancor does not disclose a rate, and 99acres shows 'Price On Request'; I left all price fields null rather than infer. The likely reason is commercial, not an oversight — the promoter states only 1 unit is still available, so the project is effectively sold out and no live price list is being marketed. Benchmarks only, NOT this project's price: Mylapore flats average ~Rs 18,450/sqft, and a separate listing shows 3BHKs on Warren Road starting ~Rs 2.06 Cr — neither is attributable to Lancor Ananya. Note the promoter page carries a stray pincode 600119 for a Mylapore (600004) address, an evident website typo.",
    "last_checked": "2026-08-05",
    "developer": "Lancor Holdings",
    "score_breakdown": {
@@ -63387,8 +63645,8 @@
    "rera_verified_on": "official TNRERA export",
    "unit_size_min_sqft": 1271,
    "unit_size_max_sqft": 2448,
-   "config_mix": "3/4 BHK",
-   "dominant_config": "3BHK",
+   "config_mix": "3 & 4 BHK, 1,271-2,448 sqft, 4 apartments per floor",
+   "dominant_config": "3 BHK / 4 BHK",
    "density_note": "boutique — 48 residences, only 4 apartments per floor",
    "est_price_sqft_min": 19100,
    "est_price_sqft_max": 23600,

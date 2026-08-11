@@ -52,7 +52,11 @@ When the user says **`refresh`** (or "refresh data"), do ALL of the following:
    stalled projects, CIRP/insolvency developments, or SWAMIH-fund revivals
    (`record_type: "stalled-project" | "cirp-developer" | "liquidation" | "revoked-rera"
    | "distressed-sale"`). Never state a developer's solvency status without a source.
-6. Run `python3 scripts/score.py` to recompute all Upside Scores, risk flags, tags,
+6. Run `python3 scripts/estimate_prices.py` and THEN `python3 scripts/score.py`, in that
+   order. The estimator must run after every enrichment merge: a record that just gained a
+   researched price still carries the locality estimate it had before, and only the
+   estimator clears it. `merge_enrichment.py` warns when this is pending.
+   Scoring recomputes all Upside Scores, risk flags, tags,
    `segment_fit` (Boardroom/Executive/Value), locality `tier`, canonical `developer`
    names, per-developer portfolio rollups in `developers.json`, and distressed
    `discount_pct`. Do not hand-edit any computed field — change the raw inputs and

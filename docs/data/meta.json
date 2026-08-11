@@ -31,7 +31,7 @@
  "changelog": [
   {
    "date": "2026-08-11",
-   "summary": "Apartment pricing sweep merged: 177 projects enriched, 123 with researched pricing (researched prices now 192, up from 69). Locality bands completed for 104 localities. 1107 of 1152 live projects carry a price or a labelled estimate. Reclassified 16 records the registry filed as apartments: 6 are commercial office or retail buildings with zero dwelling units, 4 mixed-use, 6 villa communities; 4 more are senior or assisted living, a materially narrower buyer pool. Commercial and government housing are now excluded from the client lenses and get no residential price estimate. Flagged 46 locality comparables that two neighbouring localities both claimed at the same rate, and re-graded the bands that only stood up on borrowed inventory."
+   "summary": "Enrichment complete. 220 of 1,152 live projects now carry a researched price (up from 69) and 889 a labelled locality estimate; 17 are non-residential and correctly priceless, 26 have nothing defensible. Locality bands researched for 104 micro-markets — 83 land bands, 128 apartment bands — each graded on whether it rests on named comparables or a portal summary, with weak bands flagged on every estimate derived from them. Reclassified 17 records the registry filed as apartments (6 commercial with zero dwelling units, 4 mixed-use, 7 villa) and flagged 4 senior/assisted-living; commercial and government housing are excluded from the client lenses. Corrected the plot-vs-apartment band error that had made every cheap layout look like a bargain, the same error in auction discounts, and eight defects found by an adversarial review of the scoring pipeline."
   },
   {
    "date": "2026-08-05",

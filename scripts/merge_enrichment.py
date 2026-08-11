@@ -116,6 +116,16 @@ def main():
                        if p.get('price_sqft_min') or p.get('ticket_min_lakh'))
     print(f'wrote projects.json — {total_priced}/{len(pdata["projects"])} projects now have pricing')
 
+    # A record that just gained a researched price is still carrying the locality
+    # estimate it had a moment ago. Nothing downstream reconciles that, and I have
+    # already shipped the mistake once, so say it loudly rather than trust memory.
+    stale = sum(1 for p in pdata['projects'] if p.get('est_ticket_min_lakh')
+                and (p.get('price_sqft_min') or p.get('ticket_min_lakh')))
+    if stale:
+        print(f'\n!! {stale} records now hold BOTH a researched price and a stale estimate.')
+        print('!! Run this next, in this order, or the site will show both:')
+        print('!!     python3 scripts/estimate_prices.py && python3 scripts/score.py')
+
 
 if __name__ == '__main__':
     main()
