@@ -21,6 +21,7 @@ Usage: python3 scripts/merge_locality_bands.py <file.json> [more.json ...] [--dr
 """
 import json
 import os
+import re
 import sys
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
@@ -78,6 +79,76 @@ def bad_band(lo, hi):
     if hi / lo > MAX_BAND_SPREAD:
         return f'spread {hi / lo:.1f}x — too wide to be useful'
     return None
+
+
+# Layout names in Chennai are highly generic — 215 registry records contain "Nagar".
+# Stripping those tokens lets the same layout be recognised across two researchers'
+# spellings ("Urban Tree Crystal Crown" vs "Crystal Crown by Urban Tree - Phase 2").
+GENERIC_TOKENS = re.compile(
+    r'\b(nagar|garden|gardens|avenue|city|phase|layout|sri|extension|annex|enclave|'
+    r'township|estate|park|homes|plot|plots|the|and|of|i|ii|iii|iv|v|1|2|3|4|5)\b')
+# Two records of the same layout, recomputed independently, land within a rounding
+# error of each other. A wider gap means two different layouts sharing a stock name.
+SAME_RATE_TOLERANCE = 0.02
+
+
+def layout_key(name):
+    t = GENERIC_TOKENS.sub(' ', (name or '').lower())
+    t = re.sub(r'[^a-z0-9 ]', ' ', t)
+    toks = sorted(x for x in t.split() if len(x) > 2)
+    return ' '.join(toks) or (name or '').strip().lower()
+
+
+def flag_contested(localities):
+    """Mark comparables that two localities both claim, and return how many.
+
+    Researchers working one locality each will each pull the same layout from a
+    portal's neighbourhood-level listing page, so a band can look independently
+    evidenced while resting on its neighbour's inventory. MGP Sanjanaa at 9,007
+    was Thoraipakkam's only in-locality comparable and simultaneously Neelankarai's.
+
+    A contested layout is not reassigned — we have no basis to pick a winner — it
+    is excluded from the evidence count, so a band that only stood up because of
+    borrowed inventory is re-graded 'unverified' rather than quietly kept.
+    """
+    seen = {}
+    for l in localities:
+        for c in l.get('plot_comparables') or []:
+            c.pop('contested', None)
+            if c.get('rate_sqft'):
+                seen.setdefault(layout_key(c['layout']), []).append((l['name'], c))
+
+    contested = 0
+    for claims in seen.values():
+        if len({name for name, _ in claims}) < 2:
+            continue
+        for i, (name_a, a) in enumerate(claims):
+            for name_b, b in claims[i + 1:]:
+                if name_a == name_b:
+                    continue
+                lo, hi = sorted((a['rate_sqft'], b['rate_sqft']))
+                # Same name at a different rate is a different layout, not a duplicate.
+                if lo and hi / lo <= 1 + SAME_RATE_TOLERANCE:
+                    for c in (a, b):
+                        if not c.get('contested'):
+                            c['contested'] = True
+                            contested += 1
+    return contested
+
+
+def regrade(localities):
+    """Re-grade every plot band against its uncontested evidence."""
+    changed = []
+    for l in localities:
+        if not l.get('plot_band_min'):
+            continue
+        comps = [c for c in (l.get('plot_comparables') or []) if not c.get('contested')]
+        before = l.get('plot_band_quality')
+        after = band_quality(l.get('plot_band_min'), l.get('plot_band_max'), comps)
+        if after != before:
+            l['plot_band_quality'] = after
+            changed.append(f'{l["name"]}: {before} -> {after}')
+    return changed
 
 
 def main():
@@ -204,6 +275,14 @@ def main():
         print(f'\n  {len(audits)} audit notes on pre-existing bands:')
         for x in audits[:40]:
             print('    ' + x[:160])
+
+    n_contested = flag_contested(ldata['localities'])
+    regraded = regrade(ldata['localities'])
+    print(f'\n  comparables claimed by two localities at the same rate: {n_contested}')
+    if regraded:
+        print(f'  {len(regraded)} bands re-graded once borrowed evidence was excluded:')
+        for x in regraded:
+            print('    ' + x)
 
     if dry:
         return

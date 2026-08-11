@@ -370,9 +370,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -859,9 +859,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -913,9 +913,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -1233,10 +1233,10 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1150,
-   "est_price_sqft_max": 1550,
-   "est_ticket_min_lakh": 12.7,
-   "est_ticket_max_lakh": 17.1,
+   "est_price_sqft_min": 1430,
+   "est_price_sqft_max": 1500,
+   "est_ticket_min_lakh": 15.7,
+   "est_ticket_max_lakh": 16.5,
    "est_basis": "land rate for Uthiramerur, applied to a typical 1,100 sqft plot — that land band was quoted from a portal summary rather than rebuilt from named comparables, so treat it as weak",
    "est_weak": true,
    "est_source": "locality"
@@ -3672,9 +3672,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -4697,9 +4697,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -6912,9 +6912,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -12526,9 +12526,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -14580,9 +14580,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -14959,9 +14959,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -17463,9 +17463,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -18447,9 +18447,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -18769,9 +18769,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -18822,9 +18822,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -19871,9 +19871,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -20867,9 +20867,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -22231,9 +22231,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -23207,9 +23207,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -23634,9 +23634,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -26176,9 +26176,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -27205,9 +27205,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -28176,9 +28176,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -28554,9 +28554,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -28931,9 +28931,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -28985,9 +28985,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -29039,9 +29039,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -29644,9 +29644,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -29698,9 +29698,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -29968,9 +29968,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -30941,9 +30941,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -31235,9 +31235,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -33728,9 +33728,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -35234,7 +35234,8 @@
    "est_price_sqft_max": 3700,
    "est_ticket_min_lakh": 38.4,
    "est_ticket_max_lakh": 44.4,
-   "est_basis": "land rate for Thirumudivakkam, applied to a typical 1,200 sqft plot",
+   "est_basis": "land rate for Thirumudivakkam, applied to a typical 1,200 sqft plot — that land band was quoted from a portal summary rather than rebuilt from named comparables, so treat it as weak",
+   "est_weak": true,
    "est_source": "locality"
   },
   {
@@ -35823,7 +35824,8 @@
    "est_price_sqft_max": 3700,
    "est_ticket_min_lakh": 38.4,
    "est_ticket_max_lakh": 44.4,
-   "est_basis": "land rate for Thirumudivakkam, applied to a typical 1,200 sqft plot",
+   "est_basis": "land rate for Thirumudivakkam, applied to a typical 1,200 sqft plot — that land band was quoted from a portal summary rather than rebuilt from named comparables, so treat it as weak",
+   "est_weak": true,
    "est_source": "locality"
   },
   {
@@ -36614,9 +36616,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -37508,9 +37510,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -38912,9 +38914,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -41073,9 +41075,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -41347,9 +41349,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -42543,9 +42545,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -43518,9 +43520,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -44152,9 +44154,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -44311,9 +44313,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -44526,9 +44528,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -44695,9 +44697,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -48200,9 +48202,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -48574,9 +48576,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -48628,9 +48630,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -48682,9 +48684,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -48789,9 +48791,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -48897,9 +48899,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -49601,9 +49603,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -49878,9 +49880,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -50249,9 +50251,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -51168,9 +51170,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -53896,9 +53898,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -54169,9 +54171,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -54892,9 +54894,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -56463,9 +56465,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -57667,9 +57669,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -57881,9 +57883,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -57934,9 +57936,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -59057,9 +59059,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -59166,9 +59168,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -59540,9 +59542,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "No strong upside signals under the rule set. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"
@@ -59931,9 +59933,9 @@
     "Plotted/Land"
    ],
    "score_rationale": "Scores on early entry stage. Caveats: limited developer track record.",
-   "est_price_sqft_min": 1300,
+   "est_price_sqft_min": 1400,
    "est_price_sqft_max": 2050,
-   "est_ticket_min_lakh": 15.6,
+   "est_ticket_min_lakh": 16.8,
    "est_ticket_max_lakh": 24.6,
    "est_basis": "land rate for Kanchipuram corridor median of 6 localities, applied to a typical 1,200 sqft plot",
    "est_source": "corridor"

@@ -135,7 +135,8 @@
      "plot_size_min_sqft": 501,
      "plot_size_max_sqft": 829,
      "rate_sqft": 3992,
-     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-navalur"
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-navalur",
+     "contested": true
     },
     {
      "layout": "MGP Kings Park Plot",
@@ -143,7 +144,8 @@
      "plot_size_min_sqft": 1014,
      "plot_size_max_sqft": 1145,
      "rate_sqft": 4100,
-     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-navalur"
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-navalur",
+     "contested": true
     },
     {
      "layout": "Cosmos City",
@@ -167,7 +169,8 @@
      "plot_size_min_sqft": 646,
      "plot_size_max_sqft": 2644,
      "rate_sqft": 5251,
-     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-navalur"
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-navalur",
+     "contested": true
     },
     {
      "layout": "Jayam Sri Sai Swarnabhoomi Garden",
@@ -175,7 +178,8 @@
      "plot_size_min_sqft": 514,
      "plot_size_max_sqft": 1971,
      "rate_sqft": 5500,
-     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-navalur"
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-navalur",
+     "contested": true
     },
     {
      "layout": "Alamo XS Real Catalunya City Castillo",
@@ -191,7 +195,8 @@
      "plot_size_min_sqft": 750,
      "plot_size_max_sqft": 2400,
      "rate_sqft": 6500,
-     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-navalur"
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-navalur",
+     "contested": true
     },
     {
      "layout": "Staar Elite Phoenix Township",
@@ -207,7 +212,8 @@
      "plot_size_min_sqft": 1142,
      "plot_size_max_sqft": 2801,
      "rate_sqft": 7498,
-     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-navalur"
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-navalur",
+     "contested": true
     }
    ],
    "plot_band_quality": "comparables",
@@ -427,7 +433,8 @@
      "plot_size_min_sqft": 769,
      "plot_size_max_sqft": 1066,
      "rate_sqft": 2731,
-     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-kelambakkam"
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-kelambakkam",
+     "contested": true
     },
     {
      "layout": "BLB Sree Nivasam Nagar",
@@ -548,7 +555,8 @@
      "plot_size_min_sqft": 821,
      "plot_size_max_sqft": 2073,
      "rate_sqft": 5250,
-     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-padur"
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-padur",
+     "contested": true
     },
     {
      "layout": "VGN Pride",
@@ -628,7 +636,8 @@
      "rate_sqft": 9007,
      "plot_size_min_sqft": 857,
      "plot_size_max_sqft": 1143,
-     "source": "roofandfloor.com/chennai/plots-for-sale-in-thoraipakkam"
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-thoraipakkam",
+     "contested": true
     },
     {
      "layout": "TVS Emerald Hamlet (Karapakkam - corridor comparable, not Thoraipakkam)",
@@ -978,7 +987,8 @@
      "plot_size_min_sqft": 802,
      "plot_size_max_sqft": 1144,
      "rate_sqft": 5399,
-     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-vandalur"
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-vandalur",
+     "contested": true
     },
     {
      "layout": "G Square Regal Park",
@@ -994,7 +1004,8 @@
      "plot_size_min_sqft": 852,
      "plot_size_max_sqft": 1714,
      "rate_sqft": 5000,
-     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-vandalur"
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-vandalur",
+     "contested": true
     },
     {
      "layout": "Vamanan Platinum City",
@@ -2742,7 +2753,8 @@
      "plot_size_min_sqft": 792,
      "plot_size_max_sqft": 1227,
      "rate_sqft": 3455,
-     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-avadi"
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-avadi",
+     "contested": true
     },
     {
      "layout": "HiLiving Nexora",
@@ -2935,7 +2947,8 @@
      "plot_size_min_sqft": 1143,
      "plot_size_max_sqft": 1971,
      "rate_sqft": 10499,
-     "source": "roofandfloor.com/chennai/plots-for-sale-in-madhavaram"
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-madhavaram",
+     "contested": true
     },
     {
      "layout": "Premier KVT Township",
@@ -3135,7 +3148,8 @@
      "rate_sqft": 10499,
      "plot_size_min_sqft": 1143,
      "plot_size_max_sqft": 1971,
-     "source": "roofandfloor.com/chennai/plots-for-sale-in-kolathur"
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-kolathur",
+     "contested": true
     },
     {
      "layout": "GP Homes Garden Bay",
@@ -4394,7 +4408,8 @@
      "rate_sqft": 5099,
      "plot_size_min_sqft": 1055,
      "plot_size_max_sqft": 2405,
-     "source": "roofandfloor.com/chennai/plots-for-sale-in-kundrathur"
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-kundrathur",
+     "contested": true
     },
     {
      "layout": "Serasa Urbane",
@@ -4410,7 +4425,8 @@
      "rate_sqft": 4515,
      "plot_size_min_sqft": 598,
      "plot_size_max_sqft": 2130,
-     "source": "roofandfloor.com/chennai/plots-for-sale-in-kundrathur"
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-kundrathur",
+     "contested": true
     },
     {
      "layout": "VLC Kambar Nagar",
@@ -4434,7 +4450,8 @@
      "rate_sqft": 3700,
      "plot_size_min_sqft": 696,
      "plot_size_max_sqft": 1515,
-     "source": "chennaiproperties.com/plots-for-sale-in-kundrathur"
+     "source": "chennaiproperties.com/plots-for-sale-in-kundrathur",
+     "contested": true
     },
     {
      "layout": "KRS Senthil Garden",
@@ -4442,7 +4459,8 @@
      "rate_sqft": 3500,
      "plot_size_min_sqft": 869,
      "plot_size_max_sqft": 2400,
-     "source": "chennaiproperties.com/plots-for-sale-in-kundrathur"
+     "source": "chennaiproperties.com/plots-for-sale-in-kundrathur",
+     "contested": true
     },
     {
      "layout": "Silverleaf Castle",
@@ -4450,7 +4468,8 @@
      "rate_sqft": 3332,
      "plot_size_min_sqft": 891,
      "plot_size_max_sqft": 1822,
-     "source": "roofandfloor.com/chennai/plots-for-sale-in-kundrathur"
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-kundrathur",
+     "contested": true
     },
     {
      "layout": "Urban Tree Crystal Crown",
@@ -4458,7 +4477,8 @@
      "rate_sqft": 3299,
      "plot_size_min_sqft": 774,
      "plot_size_max_sqft": 1600,
-     "source": "roofandfloor.com/chennai/plots-for-sale-in-kundrathur"
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-kundrathur",
+     "contested": true
     },
     {
      "layout": "Sri Devaghi Nagar",
@@ -4466,7 +4486,8 @@
      "rate_sqft": 3242,
      "plot_size_min_sqft": 1357,
      "plot_size_max_sqft": 2924,
-     "source": "roofandfloor.com/chennai/plots-for-sale-in-kundrathur"
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-kundrathur",
+     "contested": true
     },
     {
      "layout": "MS Smart City",
@@ -4474,7 +4495,8 @@
      "rate_sqft": 3200,
      "plot_size_min_sqft": 675,
      "plot_size_max_sqft": 1500,
-     "source": "chennaiproperties.com/plots-for-sale-in-kundrathur"
+     "source": "chennaiproperties.com/plots-for-sale-in-kundrathur",
+     "contested": true
     },
     {
      "layout": "IRIS",
@@ -4482,7 +4504,8 @@
      "rate_sqft": 3190,
      "plot_size_min_sqft": 854,
      "plot_size_max_sqft": 2665,
-     "source": "chennaiproperties.com/plots-for-sale-in-kundrathur"
+     "source": "chennaiproperties.com/plots-for-sale-in-kundrathur",
+     "contested": true
     },
     {
      "layout": "Metro Grand City Extn",
@@ -4506,7 +4529,8 @@
      "rate_sqft": 2778,
      "plot_size_min_sqft": 900,
      "plot_size_max_sqft": 1500,
-     "source": "chennaiproperties.com/plots-for-sale-in-kundrathur"
+     "source": "chennaiproperties.com/plots-for-sale-in-kundrathur",
+     "contested": true
     }
    ],
    "plot_band_quality": "comparables",
@@ -5183,7 +5207,8 @@
      "plot_size_min_sqft": 1055,
      "plot_size_max_sqft": 2405,
      "rate_sqft": 5099,
-     "source": "chennaiproperties.com + roofandfloor.com"
+     "source": "chennaiproperties.com + roofandfloor.com",
+     "contested": true
     },
     {
      "layout": "Sri Kumaran Heritage",
@@ -5191,7 +5216,8 @@
      "plot_size_min_sqft": 598,
      "plot_size_max_sqft": 2130,
      "rate_sqft": 4600,
-     "source": "roofandfloor.com/chennai/plots-for-sale-in-thirumudivakkam"
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-thirumudivakkam",
+     "contested": true
     },
     {
      "layout": "Krishna Avenue (MCP)",
@@ -5199,7 +5225,8 @@
      "plot_size_min_sqft": 696,
      "plot_size_max_sqft": 1515,
      "rate_sqft": 3700,
-     "source": "chennaiproperties.com + roofandfloor.com"
+     "source": "chennaiproperties.com + roofandfloor.com",
+     "contested": true
     },
     {
      "layout": "KRS Senthil Garden",
@@ -5207,7 +5234,8 @@
      "plot_size_min_sqft": 869,
      "plot_size_max_sqft": 2400,
      "rate_sqft": 3500,
-     "source": "chennaiproperties.com + roofandfloor.com"
+     "source": "chennaiproperties.com + roofandfloor.com",
+     "contested": true
     },
     {
      "layout": "Silverleaf Castle",
@@ -5215,7 +5243,8 @@
      "plot_size_min_sqft": 891,
      "plot_size_max_sqft": 1822,
      "rate_sqft": 3332,
-     "source": "chennaiproperties.com + roofandfloor.com"
+     "source": "chennaiproperties.com + roofandfloor.com",
+     "contested": true
     },
     {
      "layout": "Urban Tree Crystal Crown",
@@ -5223,7 +5252,8 @@
      "plot_size_min_sqft": 774,
      "plot_size_max_sqft": 1600,
      "rate_sqft": 3299,
-     "source": "chennaiproperties.com/plots-for-sale-in-thirumudivakkam"
+     "source": "chennaiproperties.com/plots-for-sale-in-thirumudivakkam",
+     "contested": true
     },
     {
      "layout": "Sri Devaghi Nagar",
@@ -5231,7 +5261,8 @@
      "plot_size_min_sqft": 1357,
      "plot_size_max_sqft": 2924,
      "rate_sqft": 3242,
-     "source": "roofandfloor.com/chennai/plots-for-sale-in-thirumudivakkam"
+     "source": "roofandfloor.com/chennai/plots-for-sale-in-thirumudivakkam",
+     "contested": true
     },
     {
      "layout": "MS Smart City",
@@ -5239,7 +5270,8 @@
      "plot_size_min_sqft": 675,
      "plot_size_max_sqft": 1500,
      "rate_sqft": 3200,
-     "source": "chennaiproperties.com + roofandfloor.com"
+     "source": "chennaiproperties.com + roofandfloor.com",
+     "contested": true
     },
     {
      "layout": "IRIS",
@@ -5247,7 +5279,8 @@
      "plot_size_min_sqft": 854,
      "plot_size_max_sqft": 2665,
      "rate_sqft": 3190,
-     "source": "chennaiproperties.com/plots-for-sale-in-thirumudivakkam"
+     "source": "chennaiproperties.com/plots-for-sale-in-thirumudivakkam",
+     "contested": true
     },
     {
      "layout": "Sathiyam Signature",
@@ -5255,7 +5288,8 @@
      "plot_size_min_sqft": 900,
      "plot_size_max_sqft": 1500,
      "rate_sqft": 2778,
-     "source": "chennaiproperties.com + roofandfloor.com"
+     "source": "chennaiproperties.com + roofandfloor.com",
+     "contested": true
     },
     {
      "layout": "SS Garden",
@@ -5266,7 +5300,7 @@
      "source": "chennaiproperties.com + roofandfloor.com"
     }
    ],
-   "plot_band_quality": "comparables",
+   "plot_band_quality": "unverified",
    "tier": "Emerging"
   },
   {
@@ -6618,7 +6652,8 @@
      "plot_size_min_sqft": 1142,
      "plot_size_max_sqft": 2801,
      "rate_sqft": 7498,
-     "source": "chennaiproperties.com/plots-for-sale-in-egattur"
+     "source": "chennaiproperties.com/plots-for-sale-in-egattur",
+     "contested": true
     },
     {
      "layout": "TVH Terra Hub",
@@ -6634,7 +6669,8 @@
      "plot_size_min_sqft": 750,
      "plot_size_max_sqft": 2400,
      "rate_sqft": 6500,
-     "source": "chennaiproperties.com/plots-for-sale-in-egattur"
+     "source": "chennaiproperties.com/plots-for-sale-in-egattur",
+     "contested": true
     },
     {
      "layout": "Jayam Sri Sai Swarnabhoomi Garden",
@@ -6642,7 +6678,8 @@
      "plot_size_min_sqft": 514,
      "plot_size_max_sqft": 1971,
      "rate_sqft": 5500,
-     "source": "chennaiproperties.com/plots-for-sale-in-egattur"
+     "source": "chennaiproperties.com/plots-for-sale-in-egattur",
+     "contested": true
     },
     {
      "layout": "Tatia Township",
@@ -6650,7 +6687,8 @@
      "plot_size_min_sqft": 646,
      "plot_size_max_sqft": 2644,
      "rate_sqft": 5250,
-     "source": "chennaiproperties.com/plots-for-sale-in-egattur"
+     "source": "chennaiproperties.com/plots-for-sale-in-egattur",
+     "contested": true
     },
     {
      "layout": "Urban Tree Onyx Enclave",
@@ -6658,7 +6696,8 @@
      "plot_size_min_sqft": 821,
      "plot_size_max_sqft": 2073,
      "rate_sqft": 5250,
-     "source": "chennaiproperties.com/plots-for-sale-in-egattur"
+     "source": "chennaiproperties.com/plots-for-sale-in-egattur",
+     "contested": true
     },
     {
      "layout": "MGP Kings Park Plot",
@@ -6666,7 +6705,8 @@
      "plot_size_min_sqft": 1014,
      "plot_size_max_sqft": 1145,
      "rate_sqft": 4100,
-     "source": "chennaiproperties.com/plots-for-sale-in-egattur"
+     "source": "chennaiproperties.com/plots-for-sale-in-egattur",
+     "contested": true
     },
     {
      "layout": "S Realty AVM Garden",
@@ -6674,7 +6714,8 @@
      "plot_size_min_sqft": 501,
      "plot_size_max_sqft": 829,
      "rate_sqft": 3992,
-     "source": "chennaiproperties.com/plots-for-sale-in-egattur"
+     "source": "chennaiproperties.com/plots-for-sale-in-egattur",
+     "contested": true
     }
    ],
    "plot_band_quality": "comparables",
@@ -7020,7 +7061,8 @@
      "plot_size_min_sqft": 857,
      "plot_size_max_sqft": 1143,
      "rate_sqft": 9007,
-     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-neelankarai"
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-neelankarai",
+     "contested": true
     },
     {
      "layout": "G Square Orchid Ville (Vaithiyalingam Salai)",
@@ -7332,7 +7374,8 @@
      "plot_size_min_sqft": 802,
      "plot_size_max_sqft": 1144,
      "rate_sqft": 5399,
-     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-urapakkam"
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-urapakkam",
+     "contested": true
     },
     {
      "layout": "Sri Bhavani Amman Nagar Phase 2",
@@ -7340,7 +7383,8 @@
      "plot_size_min_sqft": 852,
      "plot_size_max_sqft": 1714,
      "rate_sqft": 5000,
-     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-urapakkam"
+     "source": "https://roofandfloor.com/chennai/plots-for-sale-in-urapakkam",
+     "contested": true
     },
     {
      "layout": "Premier Pothigai Garden",
@@ -8956,7 +9000,8 @@
      "plot_size_min_sqft": 792,
      "plot_size_max_sqft": 1227,
      "rate_sqft": 3450,
-     "source": "https://www.roofandfloor.com/chennai/plots-for-sale-in-avadi"
+     "source": "https://www.roofandfloor.com/chennai/plots-for-sale-in-avadi",
+     "contested": true
     },
     {
      "layout": "Rajesh Nagar Face 1 (Nemilicherry Road)",
@@ -9751,7 +9796,8 @@
      "plot_size_min_sqft": 769,
      "plot_size_max_sqft": 1066,
      "rate_sqft": 2731,
-     "source": "https://www.chennaiproperties.com/plots-for-sale-in-pudupakkam"
+     "source": "https://www.chennaiproperties.com/plots-for-sale-in-pudupakkam",
+     "contested": true
     },
     {
      "layout": "Arkay Garden",
@@ -9929,12 +9975,12 @@
     "value"
    ],
    "flood_risk": "unknown",
-   "plot_band_min": 1150,
-   "plot_band_max": 1550,
+   "plot_band_min": 1430,
+   "plot_band_max": 1500,
    "typical_plot_size_sqft": 1100,
    "lat": 12.62,
    "lng": 79.76,
-   "plot_band_note": "Adopted from Sirupinayur, a village inside Uthiramerur taluk backed by nine listings. The single Uthiramerur layout gave a 70-rupee band — precision the evidence cannot support. THIN - THIS IS ONE LAYOUT, NOT A MARKET BAND. Exactly one comparable actually addressed in Uthiramerur surfaced anywhere: Sri Annai Garden (Sri Annai Enterprises), 773-1,596 sqft at Rs 11.06 L - 23.94 L. Recomputed by me: 1,106,000/773 = Rs 1,431/sqft at the small end and 2,394,000/1,596 = Rs 1,500/sqft at the large end.",
+   "plot_band_note": "THIN - THIS IS ONE LAYOUT, NOT A MARKET BAND. Exactly one comparable actually addressed in Uthiramerur surfaced anywhere: Sri Annai Garden (Sri Annai Enterprises), 773-1,596 sqft at Rs 11.06 L - 23.94 L. Recomputed by me: 1,106,000/773 = Rs 1,431/sqft at the small end and 2,394,000/1,596 = Rs 1,500/sqft at the large end. The quoted band is that single layout's own internal range, so it carries false precision about the wider market - do not read Rs 1,430-1,500 as an interquartile range, because n=1 admits no IQR. Everything else on the Uthiramerur query page was Chengalpet-addressed (Vinayak Grand Town 998, Sri Ramakrishna Nagar 1,598, Nanda Railway Nagar 1,665, Sri Ranganathar Avenue 2,100, Maxx Rainbow Garden 2,299, Rathis Nivera 2,389, Ceebros Garden City 3,000, Sri Ranga Nagar 3,298, Stellar City 4,065) and the Kanchipuram-town page explicitly had no Uthiramerur entries. For weak corroboration only: Kanchipuram town recomputes to Q1=1,048 / median=1,669 / Q3=2,118, and Uthiramerur sitting near the low end of that is directionally plausible given it is roughly 30 km further out. Only 1 plot project is tracked here, so effort was allocated accordingly.",
    "price_band_note": "No apartment market. Uthiramerur is a taluk town with no organised apartment supply on any portal reached, and the tracker carries 1 plot project and 0 apartment projects. Band deliberately left null rather than copying the land rate across.",
    "trend_note": "Not assessable - a single layout gives no time series and no directional signal.",
    "corridor": "Kanchipuram",
